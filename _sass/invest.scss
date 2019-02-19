@@ -1,0 +1,86 @@
+.invest {
+    background-color: #FAFAFA;
+
+    .header-container {
+        width: 75%;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 36px;
+            color: #0C282A;
+            line-height: 37px;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+        }
+    
+        p {
+            font-size: 18px;
+            color: #0C282A;
+            line-height: 31px;
+            margin: 12px 0;
+        }
+    }
+
+    .faq-container {
+        width: 75%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+
+        h1 {
+            font-size: 24px;
+            color: #5A6D6E;
+            margin: 0;
+            margin-top: 25px;
+        }
+
+        h2 {
+            margin-top: 15px;
+            font-size: 16px;
+            color: #5A6D6E;
+        }
+
+        div {
+            font-size: 14px;
+            color: #404040;
+            line-height: 21px;
+            padding: 15px 0;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid lightgray;
+        }
+
+        .expand-btn, .collapse-btn {
+            border: none;
+            font-size: 16px;
+            color: #5A6D6E;
+            line-height: 21px;
+            margin: 0;
+            margin-top: 20px;
+        }
+
+        img {
+            margin-left: 10px;
+        }
+    }
+
+    .investors-container {
+        background-color: white;
+
+        h1 {
+            margin: 0 auto;
+            width: 75%;
+        }
+
+        .investor-pics {
+            margin: 0 auto;
+            width: 75%;
+        }
+
+        .investor-pic {
+            display: flex;
+            align-items: center;
+            height: 178px;
+        }
+    }
+}

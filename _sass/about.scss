@@ -1,0 +1,54 @@
+.about {
+    width: 75%; 
+
+    h1 {
+        font-size: 36px;
+        color: #0C282A;
+        line-height: 37px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 24px;
+        color: #5A6D6E;
+    }
+
+    p {
+        font-size: 14px;
+        color: #0C282A;
+        letter-spacing: 0.75px;
+        line-height: 24px;
+        width: 85%;
+    }
+
+    .about-container {
+        padding-bottom: 50px;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .no-pad-col {
+        padding: 0;
+    }
+
+    .leadership-container {
+        padding-bottom: 50px;
+        border-bottom: 1px solid lightgray;
+
+        .title {
+            margin-bottom: 50px;
+        }
+    }
+
+    .team-card {
+        img {
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 20px;
+            color: #5A6D6E;
+            margin-bottom: 20px;
+        }
+    }
+}

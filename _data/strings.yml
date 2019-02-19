@@ -1,0 +1,584 @@
+en: # English
+  faq_title: "Frequently Asked Questions"
+  invest_title: "Looking to Invest?"
+  invest_description: |
+    In 2018, Chia will be doing the first fully compliant Regulation A+ IPO in the digital money space. Why? Because useful, sustainable, and accessible digital currency should be operated with the transparency and accountability expected of a public company.
+
+    To learn more about how to invest, read our FAQ below.
+  invest_faq_title: "Investor FAQ"
+  invest_investors_title: "Our Investors"
+  invest_expand_details: "Expand to see full details"
+  invest_collapse_details: "Collapse full details"
+  news_see_more: "See more"
+  homepage_title: "Chia is a new way to approach digital money."
+  homepage_subtitle: "Green, global, and helping you grow."
+  homepage_section_1_heading: "useful"
+  homepage_section_1_title: "Your money, how and where you want it"
+  homepage_section_1_description: |
+    Chia&apos;s targeted functionality does everything you can do with a bank account &mdash; but better, and without the bank. Transactions are easy, secure, and smart.
+  homepage_section_2_heading: "sustainable"
+  homepage_section_2_title: "Digital money doesn&apos;t have to be wasteful"
+  homepage_section_2_description: |
+    Traditional cryptocurrency mining is slow, wasteful, and centralized. Chia&apos;s method is energy efficient and broadly distributed, because even digital money should be green.
+  homepage_section_3_heading: "accessible"
+  homepage_section_3_title: "Currency that&apos;s compatible for both professional and personal needs"
+  homepage_section_3_description: |
+    Now, even multinational businesses can join our new financial world without fear of volatility or vulnerability.
+  homepage_blog_title: "The Latest"
+  homepage_community_title: "The Chia Community"
+  homepage_about_title: "About Chia"
+  homepage_about_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  homepage_investors: "Our investors"
+  homepage_hiring_title: "We&apos;re hiring!"
+  homepage_hiring_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  homepage_hiring_apply: "Apply now"
+  about_title: "About Chia"
+  about_description: |
+    Chia is useful, sustainable, and accessible currency for a new age of digital money. We’ve designed a blockchain network that&apos;s more secure, more geographically dispersed, and less wasteful than traditional cryptocurrencies, making it more compatible for both personal and professional needs. Chia was founded in 2017 in San Francisco by a team rooted in digital money, cryptography, and finance sectors, coming from BitTorrent, Tradehill, Changetip, Lightning Labs, Stanford University, and Columbia University.
+  about_leadership_title: "Leadership Team"
+  about_careers_title: "Careers"
+  about_careers_description: |
+    We’re always on the lookout for talented programmers to help build our protocol. If you’re interested, please first complete a couple of LeetCode Contests. Then send your LeetCode profile link and your resume to [jobs@chia.net](mailto:jobs@chia.net).
+  about_press_title: "Press"
+  about_press_description: |
+    For press inquiries, please reach out to [chia@sspr.com](mailto:chia@sspr.com).
+  footer_language: "Language"
+  footer_contact: "Contact"
+  footer_find_us: "Find Us"
+  footer_disclaimer: |
+    By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source.
+  navigation_invest: "Invest"
+  navigation_faq: "FAQ"
+  navigation_news: "News"
+  navigation_blog: "Blog"
+  navigation_community: "Community"
+  navigation_about: "About"
+  navigation_hiring: "We're Hiring"
+  community_email_title: "Chia in your inbox."
+  community_email_description: |
+    Subscribe to our mailing list to get the latest Chia news delivered to your inbox.
+  community_signup: "Sign up"
+  community_expand_details: "Expand to see full details"
+  community_collapse_details: "Collapse full details"
+
+fr: # French
+  faq_title: "Foire aux questions"
+  invest_title: "Vous souhaitez investir?"
+  invest_description: |
+    En 2018, Chia réalisera le premier IPO conforme à la réglementation A+ dans le domaine de la monnaie numérique. Pourquoi? Parce qu'une monnaie numérique utile, durable et accessible doit être exploitée avec la transparence et la responsabilité attendues d'une société ouverte.
+
+    Pour en savoir plus sur la façon d’investir, lisez notre FAQ ci-dessous.
+  invest_faq_title: "FAQ investisseurs"
+  invest_investors_title: "Nos investisseurs"
+  invest_expand_details: "Développer pour voir tous les détails"
+  invest_collapse_details: "Réduire tous les détails"
+  news_see_more: "Voir plus"
+  homepage_title: "Chia est une nouvelle façon d'aborder la monnaie numérique."
+  homepage_subtitle: "Vert, global et vous aider à grandir."
+  homepage_section_1_heading: "utile"
+  homepage_section_1_title: "Votre argent, comment et où vous le voulez"
+  homepage_section_1_description: |
+    La fonctionnalité ciblée de Chia fait tout ce que vous pouvez faire avec un compte bancaire &mdash; mais mieux, et sans la banque. Les transactions sont faciles, sécurisées et intelligentes.
+  homepage_section_2_heading: "durable"
+  homepage_section_2_title: "L'argent numérique ne doit pas être inutile"
+  homepage_section_2_description: |
+    L'exploitation traditionnelle de la crypto-monnaie est lente, inutile et centralisée. La méthode de Chia est économe en énergie et largement répandue, car même la monnaie numérique devrait être verte.
+  homepage_section_3_heading: "accessible"
+  homepage_section_3_title: "Monnaie compatible avec les besoins professionnels et personnels"
+  homepage_section_3_description: |
+    Désormais, même les entreprises multinationales peuvent rejoindre notre nouveau monde financier sans craindre la volatilité ou la vulnérabilité.
+  homepage_blog_title: "Les Dernières"
+  homepage_community_title: "La Communauté Chia"
+  homepage_about_title: "À propos de Chia"
+  homepage_about_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  homepage_investors: "Nos investisseurs"
+  homepage_hiring_title: "Nous recrutons!"
+  homepage_hiring_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  homepage_hiring_apply: "Appliquer maintenant"
+  about_title: "À propos de Chia"
+  about_description: |
+    Chia est une monnaie utile, durable et accessible pour une nouvelle ère de monnaie numérique. Nous avons conçu un réseau de chaînes de blocs plus sécurisé, plus dispersé géographiquement et moins onéreux que les crypto-monnaies traditionnelles, ce qui le rend plus compatible pour les besoins personnels et professionnels. Chia a été fondée en 2017 à San Francisco par une équipe basée dans les secteurs de la monnaie numérique, de la cryptographie et de la finance, issue de BitTorrent, Tradehill, Changetip, Lightning Labs, l'Université de Stanford et l'Université de Columbia.
+  about_leadership_title: "Équipe de direction"
+  about_careers_title: "Carrières"
+  about_careers_description: |
+    Nous sommes toujours à la recherche de programmeurs talentueux pour nous aider à élaborer notre protocole. Si vous êtes intéressé, veuillez d’abord compléter quelques concours LeetCode. Envoyez ensuite votre lien de profil LeetCode et votre CV à [jobs@chia.net](mailto:jobs@chia.net).
+  about_press_title: "Presse"
+  about_press_description: |
+    Pour les demandes de presse, veuillez vous adresser à [chia@sspr.com](mailto:chia@sspr.com).
+  footer_language: "Langue"
+  footer_contact: "Contact"
+  footer_find_us: "Trouve Nous"
+  footer_disclaimer: |
+    En contribuant à ce référentiel, vous acceptez de concéder une licence pour votre travail sous la licence MIT, sauf indication contraire dans contrib / debian / copyright ou en haut du fichier. Toute œuvre contribuée dont vous n'êtes pas l'auteur original doit contenir son en-tête de licence avec le ou les auteurs d'origine et la source.
+  navigation_invest: "Invest"
+  navigation_faq: "FAQ"
+  navigation_news: "Nouvelles"
+  navigation_blog: "Blog"
+  navigation_community: "Communauté"
+  navigation_about: "À propos"
+  navigation_hiring: "Nous recrutons"
+  community_email_title: "Chia dans votre boîte de réception."
+  community_email_description: |
+    Inscrivez-vous à notre liste de diffusion pour recevoir les dernières nouvelles sur Chia dans votre boîte de réception.
+  community_signup: "Inscrivez-vous"
+  community_expand_details: "Développer pour voir tous les détails"
+  community_collapse_details: "Réduire tous les détails"
+
+cn: # Chinese
+  faq_title: "Frequently Asked Questions"
+  invest_title: "Looking to Invest?"
+  invest_description: |
+    In 2018, Chia will be doing the first fully compliant Regulation A+ IPO in the digital money space. Why? Because useful, sustainable, and accessible digital currency should be operated with the transparency and accountability expected of a public company.
+
+    To learn more about how to invest, read our FAQ below.
+  invest_faq_title: "Investor FAQ"
+  invest_investors_title: "Our Investors"
+  invest_expand_details: "Expand to see full details"
+  invest_collapse_details: "Collapse full details"
+  news_see_more: "See more"
+  homepage_title: "Chia is a new way to approach digital money."
+  homepage_subtitle: "Green, global, and helping you grow."
+  homepage_section_1_heading: "useful"
+  homepage_section_1_title: "Your money, how and where you want it"
+  homepage_section_1_description: |
+    Chia&apos;s targeted functionality does everything you can do with a bank account &mdash; but better, and without the bank. Transactions are easy, secure, and smart.
+  homepage_section_2_heading: "sustainable"
+  homepage_section_2_title: "Digital money doesn&apos;t have to be wasteful"
+  homepage_section_2_description: |
+    Traditional cryptocurrency mining is slow, wasteful, and centralized. Chia&apos;s method is energy efficient and broadly distributed, because even digital money should be green.
+  homepage_section_3_heading: "accessible"
+  homepage_section_3_title: "Currency that&apos;s compatible for both professional and personal needs"
+  homepage_section_3_description: |
+    Now, even multinational businesses can join our new financial world without fear of volatility or vulnerability.
+  homepage_blog_title: "The Latest"
+  homepage_community_title: "The Chia Community"
+  homepage_about_title: "About Chia"
+  homepage_about_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  homepage_investors: "Our investors"
+  homepage_hiring_title: "We&apos;re hiring!"
+  homepage_hiring_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  homepage_hiring_apply: "Apply now"
+  about_title: "About Chia"
+  about_description: |
+    Chia is useful, sustainable, and accessible currency for a new age of digital money. We’ve designed a blockchain network that&apos;s more secure, more geographically dispersed, and less wasteful than traditional cryptocurrencies, making it more compatible for both personal and professional needs. Chia was founded in 2017 in San Francisco by a team rooted in digital money, cryptography, and finance sectors, coming from BitTorrent, Tradehill, Changetip, Lightning Labs, Stanford University, and Columbia University.
+  about_leadership_title: "Leadership Team"
+  about_careers_title: "Careers"
+  about_careers_description: |
+    We’re always on the lookout for talented programmers to help build our protocol. If you’re interested, please first complete a couple of LeetCode Contests. Then send your LeetCode profile link and your resume to [jobs@chia.net](mailto:jobs@chia.net).
+  about_press_title: "Press"
+  about_press_description: |
+    For press inquiries, please reach out to [chia@sspr.com](mailto:chia@sspr.com).
+  footer_language: "Language"
+  footer_contact: "Contact"
+  footer_find_us: "Find Us"
+  footer_disclaimer: |
+    By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source.
+  navigation_invest: "Invest"
+  navigation_faq: "FAQ"
+  navigation_news: "News"
+  navigation_blog: "Blog"
+  navigation_community: "Community"
+  navigation_about: "About"
+  navigation_hiring: "We're Hiring"
+  community_email_title: "Chia in your inbox."
+  community_email_description: |
+    Subscribe to our mailing list to get the latest Chia news delivered to your inbox.
+  community_signup: "Sign up"
+  community_expand_details: "Expand to see full details"
+  community_collapse_details: "Collapse full details"
+
+nl: # Dutch
+  faq_title: "Frequently Asked Questions"
+  invest_title: "Looking to Invest?"
+  invest_description: |
+    In 2018, Chia will be doing the first fully compliant Regulation A+ IPO in the digital money space. Why? Because useful, sustainable, and accessible digital currency should be operated with the transparency and accountability expected of a public company.
+
+    To learn more about how to invest, read our FAQ below.
+  invest_faq_title: "Investor FAQ"
+  invest_investors_title: "Our Investors"
+  invest_expand_details: "Expand to see full details"
+  invest_collapse_details: "Collapse full details"
+  news_see_more: "See more"
+  homepage_title: "Chia is a new way to approach digital money."
+  homepage_subtitle: "Green, global, and helping you grow."
+  homepage_section_1_heading: "useful"
+  homepage_section_1_title: "Your money, how and where you want it"
+  homepage_section_1_description: |
+    Chia&apos;s targeted functionality does everything you can do with a bank account &mdash; but better, and without the bank. Transactions are easy, secure, and smart.
+  homepage_section_2_heading: "sustainable"
+  homepage_section_2_title: "Digital money doesn&apos;t have to be wasteful"
+  homepage_section_2_description: |
+    Traditional cryptocurrency mining is slow, wasteful, and centralized. Chia&apos;s method is energy efficient and broadly distributed, because even digital money should be green.
+  homepage_section_3_heading: "accessible"
+  homepage_section_3_title: "Currency that&apos;s compatible for both professional and personal needs"
+  homepage_section_3_description: |
+    Now, even multinational businesses can join our new financial world without fear of volatility or vulnerability.
+  homepage_blog_title: "The Latest"
+  homepage_community_title: "The Chia Community"
+  homepage_about_title: "About Chia"
+  homepage_about_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  homepage_investors: "Our investors"
+  homepage_hiring_title: "We&apos;re hiring!"
+  homepage_hiring_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  homepage_hiring_apply: "Apply now"
+  about_title: "About Chia"
+  about_description: |
+    Chia is useful, sustainable, and accessible currency for a new age of digital money. We’ve designed a blockchain network that&apos;s more secure, more geographically dispersed, and less wasteful than traditional cryptocurrencies, making it more compatible for both personal and professional needs. Chia was founded in 2017 in San Francisco by a team rooted in digital money, cryptography, and finance sectors, coming from BitTorrent, Tradehill, Changetip, Lightning Labs, Stanford University, and Columbia University.
+  about_leadership_title: "Leadership Team"
+  about_careers_title: "Careers"
+  about_careers_description: |
+    We’re always on the lookout for talented programmers to help build our protocol. If you’re interested, please first complete a couple of LeetCode Contests. Then send your LeetCode profile link and your resume to [jobs@chia.net](mailto:jobs@chia.net).
+  about_press_title: "Press"
+  about_press_description: |
+    For press inquiries, please reach out to [chia@sspr.com](mailto:chia@sspr.com).
+  footer_language: "Language"
+  footer_contact: "Contact"
+  footer_find_us: "Find Us"
+  footer_disclaimer: |
+    By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source.
+  navigation_invest: "Invest"
+  navigation_faq: "FAQ"
+  navigation_news: "News"
+  navigation_blog: "Blog"
+  navigation_community: "Community"
+  navigation_about: "About"
+  navigation_hiring: "We're Hiring"
+  community_email_title: "Chia in your inbox."
+  community_email_description: |
+    Subscribe to our mailing list to get the latest Chia news delivered to your inbox.
+  community_signup: "Sign up"
+  community_expand_details: "Expand to see full details"
+  community_collapse_details: "Collapse full details"
+
+de: # German
+  faq_title: "Frequently Asked Questions"
+  invest_title: "Looking to Invest?"
+  invest_description: |
+    In 2018, Chia will be doing the first fully compliant Regulation A+ IPO in the digital money space. Why? Because useful, sustainable, and accessible digital currency should be operated with the transparency and accountability expected of a public company.
+
+    To learn more about how to invest, read our FAQ below.
+  invest_faq_title: "Investor FAQ"
+  invest_investors_title: "Our Investors"
+  invest_expand_details: "Expand to see full details"
+  invest_collapse_details: "Collapse full details"
+  news_see_more: "See more"
+  homepage_title: "Chia is a new way to approach digital money."
+  homepage_subtitle: "Green, global, and helping you grow."
+  homepage_section_1_heading: "useful"
+  homepage_section_1_title: "Your money, how and where you want it"
+  homepage_section_1_description: |
+    Chia&apos;s targeted functionality does everything you can do with a bank account &mdash; but better, and without the bank. Transactions are easy, secure, and smart.
+  homepage_section_2_heading: "sustainable"
+  homepage_section_2_title: "Digital money doesn&apos;t have to be wasteful"
+  homepage_section_2_description: |
+    Traditional cryptocurrency mining is slow, wasteful, and centralized. Chia&apos;s method is energy efficient and broadly distributed, because even digital money should be green.
+  homepage_section_3_heading: "accessible"
+  homepage_section_3_title: "Currency that&apos;s compatible for both professional and personal needs"
+  homepage_section_3_description: |
+    Now, even multinational businesses can join our new financial world without fear of volatility or vulnerability.
+  homepage_blog_title: "The Latest"
+  homepage_community_title: "The Chia Community"
+  homepage_about_title: "About Chia"
+  homepage_about_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  homepage_investors: "Our investors"
+  homepage_hiring_title: "We&apos;re hiring!"
+  homepage_hiring_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  homepage_hiring_apply: "Apply now"
+  about_title: "About Chia"
+  about_description: |
+    Chia is useful, sustainable, and accessible currency for a new age of digital money. We’ve designed a blockchain network that&apos;s more secure, more geographically dispersed, and less wasteful than traditional cryptocurrencies, making it more compatible for both personal and professional needs. Chia was founded in 2017 in San Francisco by a team rooted in digital money, cryptography, and finance sectors, coming from BitTorrent, Tradehill, Changetip, Lightning Labs, Stanford University, and Columbia University.
+  about_leadership_title: "Leadership Team"
+  about_careers_title: "Careers"
+  about_careers_description: |
+    We’re always on the lookout for talented programmers to help build our protocol. If you’re interested, please first complete a couple of LeetCode Contests. Then send your LeetCode profile link and your resume to [jobs@chia.net](mailto:jobs@chia.net).
+  about_press_title: "Press"
+  about_press_description: |
+    For press inquiries, please reach out to [chia@sspr.com](mailto:chia@sspr.com).
+  footer_language: "Language"
+  footer_contact: "Contact"
+  footer_find_us: "Find Us"
+  footer_disclaimer: |
+    By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source.
+  navigation_invest: "Invest"
+  navigation_faq: "FAQ"
+  navigation_news: "News"
+  navigation_blog: "Blog"
+  navigation_community: "Community"
+  navigation_about: "About"
+  navigation_hiring: "We're Hiring"
+  community_email_title: "Chia in your inbox."
+  community_email_description: |
+    Subscribe to our mailing list to get the latest Chia news delivered to your inbox.
+  community_signup: "Sign up"
+  community_expand_details: "Expand to see full details"
+  community_collapse_details: "Collapse full details"
+
+es: # Spanish
+  faq_title: "Frequently Asked Questions"
+  invest_title: "Looking to Invest?"
+  invest_description: |
+    In 2018, Chia will be doing the first fully compliant Regulation A+ IPO in the digital money space. Why? Because useful, sustainable, and accessible digital currency should be operated with the transparency and accountability expected of a public company.
+
+    To learn more about how to invest, read our FAQ below.
+  invest_faq_title: "Investor FAQ"
+  invest_investors_title: "Our Investors"
+  invest_expand_details: "Expand to see full details"
+  invest_collapse_details: "Collapse full details"
+  news_see_more: "See more"
+  homepage_title: "Chia is a new way to approach digital money."
+  homepage_subtitle: "Green, global, and helping you grow."
+  homepage_section_1_heading: "useful"
+  homepage_section_1_title: "Your money, how and where you want it"
+  homepage_section_1_description: |
+    Chia&apos;s targeted functionality does everything you can do with a bank account &mdash; but better, and without the bank. Transactions are easy, secure, and smart.
+  homepage_section_2_heading: "sustainable"
+  homepage_section_2_title: "Digital money doesn&apos;t have to be wasteful"
+  homepage_section_2_description: |
+    Traditional cryptocurrency mining is slow, wasteful, and centralized. Chia&apos;s method is energy efficient and broadly distributed, because even digital money should be green.
+  homepage_section_3_heading: "accessible"
+  homepage_section_3_title: "Currency that&apos;s compatible for both professional and personal needs"
+  homepage_section_3_description: |
+    Now, even multinational businesses can join our new financial world without fear of volatility or vulnerability.
+  homepage_blog_title: "The Latest"
+  homepage_community_title: "The Chia Community"
+  homepage_about_title: "About Chia"
+  homepage_about_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  homepage_investors: "Our investors"
+  homepage_hiring_title: "We&apos;re hiring!"
+  homepage_hiring_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  homepage_hiring_apply: "Apply now"
+  about_title: "About Chia"
+  about_description: |
+    Chia is useful, sustainable, and accessible currency for a new age of digital money. We’ve designed a blockchain network that&apos;s more secure, more geographically dispersed, and less wasteful than traditional cryptocurrencies, making it more compatible for both personal and professional needs. Chia was founded in 2017 in San Francisco by a team rooted in digital money, cryptography, and finance sectors, coming from BitTorrent, Tradehill, Changetip, Lightning Labs, Stanford University, and Columbia University.
+  about_leadership_title: "Leadership Team"
+  about_careers_title: "Careers"
+  about_careers_description: |
+    We’re always on the lookout for talented programmers to help build our protocol. If you’re interested, please first complete a couple of LeetCode Contests. Then send your LeetCode profile link and your resume to [jobs@chia.net](mailto:jobs@chia.net).
+  about_press_title: "Press"
+  about_press_description: |
+    For press inquiries, please reach out to [chia@sspr.com](mailto:chia@sspr.com).
+  footer_language: "Language"
+  footer_contact: "Contact"
+  footer_find_us: "Find Us"
+  footer_disclaimer: |
+    By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source.
+  navigation_invest: "Invest"
+  navigation_faq: "FAQ"
+  navigation_news: "News"
+  navigation_blog: "Blog"
+  navigation_community: "Community"
+  navigation_about: "About"
+  navigation_hiring: "We're Hiring"
+  community_email_title: "Chia in your inbox."
+  community_email_description: |
+    Subscribe to our mailing list to get the latest Chia news delivered to your inbox.
+  community_signup: "Sign up"
+  community_expand_details: "Expand to see full details"
+  community_collapse_details: "Collapse full details"
+
+sr: # Serbian
+  faq_title: "Frequently Asked Questions"
+  invest_title: "Looking to Invest?"
+  invest_description: |
+    In 2018, Chia will be doing the first fully compliant Regulation A+ IPO in the digital money space. Why? Because useful, sustainable, and accessible digital currency should be operated with the transparency and accountability expected of a public company.
+
+    To learn more about how to invest, read our FAQ below.
+  invest_faq_title: "Investor FAQ"
+  invest_investors_title: "Our Investors"
+  invest_expand_details: "Expand to see full details"
+  invest_collapse_details: "Collapse full details"
+  news_see_more: "See more"
+  homepage_title: "Chia is a new way to approach digital money."
+  homepage_subtitle: "Green, global, and helping you grow."
+  homepage_section_1_heading: "useful"
+  homepage_section_1_title: "Your money, how and where you want it"
+  homepage_section_1_description: |
+    Chia&apos;s targeted functionality does everything you can do with a bank account &mdash; but better, and without the bank. Transactions are easy, secure, and smart.
+  homepage_section_2_heading: "sustainable"
+  homepage_section_2_title: "Digital money doesn&apos;t have to be wasteful"
+  homepage_section_2_description: |
+    Traditional cryptocurrency mining is slow, wasteful, and centralized. Chia&apos;s method is energy efficient and broadly distributed, because even digital money should be green.
+  homepage_section_3_heading: "accessible"
+  homepage_section_3_title: "Currency that&apos;s compatible for both professional and personal needs"
+  homepage_section_3_description: |
+    Now, even multinational businesses can join our new financial world without fear of volatility or vulnerability.
+  homepage_blog_title: "The Latest"
+  homepage_community_title: "The Chia Community"
+  homepage_about_title: "About Chia"
+  homepage_about_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  homepage_investors: "Our investors"
+  homepage_hiring_title: "We&apos;re hiring!"
+  homepage_hiring_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  homepage_hiring_apply: "Apply now"
+  about_title: "About Chia"
+  about_description: |
+    Chia is useful, sustainable, and accessible currency for a new age of digital money. We’ve designed a blockchain network that&apos;s more secure, more geographically dispersed, and less wasteful than traditional cryptocurrencies, making it more compatible for both personal and professional needs. Chia was founded in 2017 in San Francisco by a team rooted in digital money, cryptography, and finance sectors, coming from BitTorrent, Tradehill, Changetip, Lightning Labs, Stanford University, and Columbia University.
+  about_leadership_title: "Leadership Team"
+  about_careers_title: "Careers"
+  about_careers_description: |
+    We’re always on the lookout for talented programmers to help build our protocol. If you’re interested, please first complete a couple of LeetCode Contests. Then send your LeetCode profile link and your resume to [jobs@chia.net](mailto:jobs@chia.net).
+  about_press_title: "Press"
+  about_press_description: |
+    For press inquiries, please reach out to [chia@sspr.com](mailto:chia@sspr.com).
+  footer_language: "Language"
+  footer_contact: "Contact"
+  footer_find_us: "Find Us"
+  footer_disclaimer: |
+    By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source.
+  navigation_invest: "Invest"
+  navigation_faq: "FAQ"
+  navigation_news: "News"
+  navigation_blog: "Blog"
+  navigation_community: "Community"
+  navigation_about: "About"
+  navigation_hiring: "We're Hiring"
+  community_email_title: "Chia in your inbox."
+  community_email_description: |
+    Subscribe to our mailing list to get the latest Chia news delivered to your inbox.
+  community_signup: "Sign up"
+  community_expand_details: "Expand to see full details"
+  community_collapse_details: "Collapse full details"
+
+pt: # Portuguese
+  faq_title: "Frequently Asked Questions"
+  invest_title: "Looking to Invest?"
+  invest_description: |
+    In 2018, Chia will be doing the first fully compliant Regulation A+ IPO in the digital money space. Why? Because useful, sustainable, and accessible digital currency should be operated with the transparency and accountability expected of a public company.
+
+    To learn more about how to invest, read our FAQ below.
+  invest_faq_title: "Investor FAQ"
+  invest_investors_title: "Our Investors"
+  invest_expand_details: "Expand to see full details"
+  invest_collapse_details: "Collapse full details"
+  news_see_more: "See more"
+  homepage_title: "Chia is a new way to approach digital money."
+  homepage_subtitle: "Green, global, and helping you grow."
+  homepage_section_1_heading: "useful"
+  homepage_section_1_title: "Your money, how and where you want it"
+  homepage_section_1_description: |
+    Chia&apos;s targeted functionality does everything you can do with a bank account &mdash; but better, and without the bank. Transactions are easy, secure, and smart.
+  homepage_section_2_heading: "sustainable"
+  homepage_section_2_title: "Digital money doesn&apos;t have to be wasteful"
+  homepage_section_2_description: |
+    Traditional cryptocurrency mining is slow, wasteful, and centralized. Chia&apos;s method is energy efficient and broadly distributed, because even digital money should be green.
+  homepage_section_3_heading: "accessible"
+  homepage_section_3_title: "Currency that&apos;s compatible for both professional and personal needs"
+  homepage_section_3_description: |
+    Now, even multinational businesses can join our new financial world without fear of volatility or vulnerability.
+  homepage_blog_title: "The Latest"
+  homepage_community_title: "The Chia Community"
+  homepage_about_title: "About Chia"
+  homepage_about_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  homepage_investors: "Our investors"
+  homepage_hiring_title: "We&apos;re hiring!"
+  homepage_hiring_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  homepage_hiring_apply: "Apply now"
+  about_title: "About Chia"
+  about_description: |
+    Chia is useful, sustainable, and accessible currency for a new age of digital money. We’ve designed a blockchain network that&apos;s more secure, more geographically dispersed, and less wasteful than traditional cryptocurrencies, making it more compatible for both personal and professional needs. Chia was founded in 2017 in San Francisco by a team rooted in digital money, cryptography, and finance sectors, coming from BitTorrent, Tradehill, Changetip, Lightning Labs, Stanford University, and Columbia University.
+  about_leadership_title: "Leadership Team"
+  about_careers_title: "Careers"
+  about_careers_description: |
+    We’re always on the lookout for talented programmers to help build our protocol. If you’re interested, please first complete a couple of LeetCode Contests. Then send your LeetCode profile link and your resume to [jobs@chia.net](mailto:jobs@chia.net).
+  about_press_title: "Press"
+  about_press_description: |
+    For press inquiries, please reach out to [chia@sspr.com](mailto:chia@sspr.com).
+  footer_language: "Language"
+  footer_contact: "Contact"
+  footer_find_us: "Find Us"
+  footer_disclaimer: |
+    By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source.
+  navigation_invest: "Invest"
+  navigation_faq: "FAQ"
+  navigation_news: "News"
+  navigation_blog: "Blog"
+  navigation_community: "Community"
+  navigation_about: "About"
+  navigation_hiring: "We're Hiring"
+  community_email_title: "Chia in your inbox."
+  community_email_description: |
+    Subscribe to our mailing list to get the latest Chia news delivered to your inbox.
+  community_signup: "Sign up"
+  community_expand_details: "Expand to see full details"
+  community_collapse_details: "Collapse full details"
+
+tr: # Turkish
+  faq_title: "Frequently Asked Questions"
+  invest_title: "Looking to Invest?"
+  invest_description: |
+    In 2018, Chia will be doing the first fully compliant Regulation A+ IPO in the digital money space. Why? Because useful, sustainable, and accessible digital currency should be operated with the transparency and accountability expected of a public company.
+
+    To learn more about how to invest, read our FAQ below.
+  invest_faq_title: "Investor FAQ"
+  invest_investors_title: "Our Investors"
+  invest_expand_details: "Expand to see full details"
+  invest_collapse_details: "Collapse full details"
+  news_see_more: "See more"
+  homepage_title: "Chia is a new way to approach digital money."
+  homepage_subtitle: "Green, global, and helping you grow."
+  homepage_section_1_heading: "useful"
+  homepage_section_1_title: "Your money, how and where you want it"
+  homepage_section_1_description: |
+    Chia&apos;s targeted functionality does everything you can do with a bank account &mdash; but better, and without the bank. Transactions are easy, secure, and smart.
+  homepage_section_2_heading: "sustainable"
+  homepage_section_2_title: "Digital money doesn&apos;t have to be wasteful"
+  homepage_section_2_description: |
+    Traditional cryptocurrency mining is slow, wasteful, and centralized. Chia&apos;s method is energy efficient and broadly distributed, because even digital money should be green.
+  homepage_section_3_heading: "accessible"
+  homepage_section_3_title: "Currency that&apos;s compatible for both professional and personal needs"
+  homepage_section_3_description: |
+    Now, even multinational businesses can join our new financial world without fear of volatility or vulnerability.
+  homepage_blog_title: "The Latest"
+  homepage_community_title: "The Chia Community"
+  homepage_about_title: "About Chia"
+  homepage_about_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  homepage_investors: "Our investors"
+  homepage_hiring_title: "We&apos;re hiring!"
+  homepage_hiring_description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  homepage_hiring_apply: "Apply now"
+  about_title: "About Chia"
+  about_description: |
+    Chia is useful, sustainable, and accessible currency for a new age of digital money. We’ve designed a blockchain network that&apos;s more secure, more geographically dispersed, and less wasteful than traditional cryptocurrencies, making it more compatible for both personal and professional needs. Chia was founded in 2017 in San Francisco by a team rooted in digital money, cryptography, and finance sectors, coming from BitTorrent, Tradehill, Changetip, Lightning Labs, Stanford University, and Columbia University.
+  about_leadership_title: "Leadership Team"
+  about_careers_title: "Careers"
+  about_careers_description: |
+    We’re always on the lookout for talented programmers to help build our protocol. If you’re interested, please first complete a couple of LeetCode Contests. Then send your LeetCode profile link and your resume to [jobs@chia.net](mailto:jobs@chia.net).
+  about_press_title: "Press"
+  about_press_description: |
+    For press inquiries, please reach out to [chia@sspr.com](mailto:chia@sspr.com).
+  footer_language: "Language"
+  footer_contact: "Contact"
+  footer_find_us: "Find Us"
+  footer_disclaimer: |
+    By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source.
+  navigation_invest: "Invest"
+  navigation_faq: "FAQ"
+  navigation_news: "News"
+  navigation_blog: "Blog"
+  navigation_community: "Community"
+  navigation_about: "About"
+  navigation_hiring: "We're Hiring"
+  community_email_title: "Chia in your inbox."
+  community_email_description: |
+    Subscribe to our mailing list to get the latest Chia news delivered to your inbox.
+  community_signup: "Sign up"
+  community_expand_details: "Expand to see full details"
+  community_collapse_details: "Collapse full details"

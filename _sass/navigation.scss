@@ -1,0 +1,39 @@
+.navbar {
+    font-size: 18px;
+    padding-bottom: 0;
+
+    .navbar-brand img {
+        height: 3rem;
+    }
+    
+    .nav-item.active {
+        border-bottom: 3px solid black;
+    }
+
+    .navbar-nav a {
+        padding: 2rem !important;
+        white-space: nowrap;
+    }
+    
+    .hiring-button {
+        position: relative;
+        margin-left: 5rem;
+        display: inline-block;
+        padding: 1rem 4rem 1rem 3rem;
+        border: 2px solid #469D62;
+        color: #469D62;
+        font-size: 14px;
+        text-align: center;
+        white-space: nowrap;
+        text-decoration: none;
+
+        img {
+            margin-left: 0.5rem;
+        }
+    }
+
+    .hiring-button:hover {
+        color: #6E967B;
+        text-decoration: underline;
+    }
+}

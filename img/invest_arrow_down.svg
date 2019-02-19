@@ -1,0 +1,11 @@
+<svg width="14px" height="8px" viewBox="0 0 14 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Investors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(-447.000000, -496.000000)" id="FAQ" stroke="#5A6D6E" stroke-width="2">
+            <g transform="translate(235.000000, 443.000000)">
+                <g id="chevron-down" transform="translate(213.000000, 54.000000)">
+                    <polyline id="Path" points="0 0 6 6 12 0"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

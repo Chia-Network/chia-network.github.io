@@ -1,0 +1,31 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Home - Chia Network
+description: > # this means to ignore newlines until "baseurl:"
+  We're building a blockchain based on proofs of space and time to make a cryptocurrency that is less wasteful, more decentralized, and more secure.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://chia.net" # the base hostname & protocol for your site
+
+collections_dir: collections
+collections:
+  news:
+    output: false
+  investor_faq:
+    output: false
+  investor_pics:
+    output: false
+  community:
+    output: true
+  team:
+    output: true
+  faq:
+    output: false
+
+# Build settings
+markdown: kramdown

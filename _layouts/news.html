@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+{% include navigation.html type="light" active="news" %}
+
+{% assign strings = site.data.strings[page.lang] %}
+{% assign page_size = 6 %}
+
+<div class="container news">
+    <div class="jumbotron bg-white">
+        {% assign jumbo_news = site.news | where:"jumbotron","true" %} 
+        {% for entry in jumbo_news %}
+            <div class="row">
+                <div class="col-md-6 pl-5 pr-5">
+                    <div class="date-and-source">{{ entry.date | date:"%B %-d, %Y" }}, {{ entry.source | upcase }}</div>
+                    <div class="headline">{{ entry.title }}</div>
+                    <div class="tagline">{{ entry.content }}</div>
+                </div>
+                <div class="col-md-6">
+                    <img src="{{ entry.thumbnail }}">
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="row">
+        {% assign news = site.news | where:"jumbotron","false" | reversed %} 
+        {% for entry in news %}
+            <a class="article col-md-4{% if forloop.index > page_size %} d-none{% endif %}" href="{{ entry.weblink }}" title="{{ entry.url }}">
+                <img class="w-100" src="{{ entry.thumbnail }}">
+                <div class="date-and-source">{{ entry.date | date:"%B %-d, %Y" }}, {{ entry.source | upcase }}</div>
+                <div class="headline">{{ entry.title }}</div>
+            </a>
+        {% endfor %}
+    </div>
+    {% if news.size > page_size %}
+        <div class="text-center">
+            <a id="see-more-button" class="mb-5">
+                <span>{{ strings.news_see_more }}</span>
+                <img src="/img/news_see_more_plus.svg">
+            </a>
+        </div>
+    {% endif %}
+</div>
+
+<script type="text/javascript">
+document.getElementById('see-more-button').addEventListener('click', function() {
+    Array.from(document.querySelectorAll('.article')).forEach(function(article) {
+        article.classList.remove('d-none');
+    });
+    document.getElementById('see-more-button').classList.add('d-none');
+});
+</script>

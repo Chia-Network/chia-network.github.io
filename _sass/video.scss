@@ -1,0 +1,51 @@
+.video {
+    .video-wrapper {
+        margin: 30px;
+        position: relative;
+
+        video {
+            display: block;
+            width: 100%;
+            user-select: none;
+        }
+
+        .preview {
+            z-index: 1;
+            width: 100%;
+            position: absolute;
+            top: 0;
+        }
+
+        .play-pause {
+            position: relative;
+            margin-top: -30px;
+            margin-left: -20px;
+            padding-left: 15px;
+            padding-top: 15px;
+
+            z-index: 1;
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+
+            .icon {
+                cursor: pointer;
+                box-sizing: border-box;
+                width: 20px;
+                height: 20px;
+                transition: 200ms all ease;
+                border-style: solid;
+                border-width: 10px 0px 10px 20px;
+                border-color: transparent transparent transparent #469D62;
+            }
+        }
+
+        .play-pause.playing .icon {
+            border-width: 0px 0px 0px 20px;
+            border-style: double;
+        }
+    }
+}

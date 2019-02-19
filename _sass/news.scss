@@ -1,0 +1,51 @@
+.news {
+    .card {
+        line-height: 31px;
+        padding: 20px;
+    }
+    
+    .date-and-source {
+        font-size: 14px;
+        color: #3AAC59;
+        padding-top: 1rem;
+    }
+    
+    .jumbotron {
+        .headline { font-size: 36px; }
+        .tagline { font-size: 18px; }
+        img { width: 100%; }
+    }
+    
+    .article {
+        padding: 2rem;
+
+        .headline {
+            font-size: 24px;
+            color: #0C282A;
+        }
+    }
+    
+    #see-more-button {
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        padding: 0.7rem 5rem 0.7rem 3rem;
+        box-shadow: 0 2px 27px 0 rgba(0,0,0,0.09);
+        border: 2px solid #7ACB90;
+        margin: 0 auto;
+        text-align: center;
+
+        span {
+            display: inline-block;
+            color: #469D62;
+            letter-spacing: 0.75px;
+            text-align: left;
+            font-size: 18px;
+        }
+
+        img {
+            display: inline-block;
+        }
+    }
+    
+}
