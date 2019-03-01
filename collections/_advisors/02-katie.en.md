@@ -1,7 +1,7 @@
 ---
 lang: en
 img_src: "/assets/katie.png"
-name: "Katie Boneh"
+name: "Katie Haun"
 order: 2
 ---
 
