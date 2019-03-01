@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+{% include navigation.html active="about" %}
+
+{% assign strings = site.data.strings[page.lang] %}
+
+<div class="about">
+    <div class="container">
+        <div class="row header-container">
+            <div class="col-sm-12 no-pad-col">
+                <h1>{{ strings.about_title }}</h1>
+                {{ strings.about_description | markdownify }}
+            </div>
+        </div>
+    
+        <div class="row leadership-container">
+            <h1 class="title">{{ strings.about_leadership_title }}</h1>
+            <div class="row">
+                {% assign team = site.team | where:"lang",page.lang | sort: "order" %}
+                {% for entry in team %}
+                    <div class="team-card col-md-4">
+                        <div class="dark-image"><img src="{{ entry.img_src }}"></div>
+                        <h3>{{ entry.name }}</h3>
+                        <h4>{{ entry.title }}</h4>
+                        <p>{{ entry.content }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="row advisors-container">
+            <h1 class="title">{{ strings.about_advisors_title }}</h1>
+            <div class="row">
+                {% assign advisor = site.advisors | where:"lang",page.lang | sort: "order" %}
+                {% for entry in advisor %}
+                    <div class="advisor-card col-md-3">
+                        <div class="dark-image"><img src="{{ entry.img_src }}"></div>
+                        <h3>{{ entry.name }}</h3>
+                        <p>{{ entry.content }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="row pt-5 pb-5 investors-container">
+            <h1 class="row mb-5">{{ strings.about_invest_investors_title }}</h1>
+            <div class="row investor-pics">
+                {% assign investor_pics = site.investor_pics | sort: "order" %}
+                {% for entry in investor_pics %}
+                    <a class="col-6 col-md-4" href="{{ entry.web_url }}">
+                        <div class="investor-pic p-3">
+                            <img src="{{ entry.pic_url | escape }}" class="align-self-center">
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    
+        <div class="press-container row">
+            <div class="col-sm-12 no-pad-col">
+                <h1>{{ strings.about_press_title }}</h1>
+                {{ strings.about_press_description | markdownify }}
+            </div>
+        </div>
+    
+    </div>
+</div>

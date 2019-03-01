@@ -1,0 +1,97 @@
+.community {
+    align-items: center;
+
+    .header-container {
+        position: relative;
+        background: #FAFAFA;
+        padding: 5rem 0;
+        color: #0C282A;
+
+        .email-heading {
+            padding: 0;
+            border-left: 2px solid #469D62;
+            padding-left: 2rem;
+            margin-left: -2rem;
+
+            h1 {
+                font-size: 36px;
+                letter-spacing: 1.5px;
+                line-height: 37px;
+                margin-bottom: 1rem;
+                font-weight: bold;
+            }
+    
+            p {
+                font-size: 18px;
+                line-height: 31px;
+            }
+        }
+
+        .email-form {
+            margin: auto;
+
+            input {
+                width: 300px;
+                padding: 0.5rem;
+            }
+
+            button {
+                position: relative;
+                padding: 1rem 4rem 1rem 3rem;
+                border: none;
+                color: inherit;
+                background-color: #469D62;
+                font-size: 14px;
+                font-weight: bold;
+                text-align: center;
+                white-space: nowrap;
+                text-decoration: none;
+                cursor: pointer;
+    
+                img {
+                    display: inline-block;
+                    margin-left: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .content {
+        font-weight: bold;
+        line-height: 21px;
+        font-size: 16px;
+        color: #808080;
+        margin: 15px;
+        margin-bottom: 4rem;
+        border-bottom: 1px solid rgba(rgb(199, 190, 190), 0);
+
+        h2 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+            line-height: normal;
+            font-size: 24px;
+            color: #5A6D6E;
+        }
+    
+        h3 {
+            font-size: 18px;
+            color: #506060;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        li { font-weight: 400; }
+
+        .expand-btn, .collapse-btn {
+            border: none;
+            margin: 0;
+            margin-top: 20px;
+
+            font-weight: bold;
+            line-height: 21px;
+            font-size: 16px;
+            color: #5A6D6E;
+        }
+    }
+}

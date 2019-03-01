@@ -1,0 +1,28 @@
+---
+---
+
+// fonts
+@import 'hco_fonts';
+
+body {
+    font-family: 'HCo Gotham SSm';
+}
+
+a {
+    color: #3AAC59;
+    &:hover { color: #3AAC59; }
+}
+
+// pages
+@import 'community';
+@import 'faq';
+@import 'homepage';
+@import 'about';
+@import 'news';
+@import 'blog';
+@import 'post';
+
+// componentsab
+@import 'footer';
+@import 'navigation';
+@import 'video';

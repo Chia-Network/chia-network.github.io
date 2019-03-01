@@ -1,0 +1,61 @@
+<div class="video">
+    <a class="video-preview" data-toggle="modal" data-target="#{{ include.id }}">
+        <img src="{{ include.thumbnail }}">
+        <div class="play-pause" onclick="videoPlayPause(this)">
+            <div class="icon"></div>
+        </div>
+    </a>
+    <div class="modal fade" id="{{ include.id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="pb-3">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="text-white">&times;</span></button>
+                </div>
+                <div class="video-target"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+function videoPlayPause(playPauseButton) {
+    var videoTag = playPauseButton.parentElement.querySelector('video');
+    var previewImage = playPauseButton.parentElement.querySelector('.preview');
+    if (videoTag.paused) {
+        videoTag.play();
+        if (previewImage !== null) {
+            previewImage.remove();
+        }
+    } else {
+        videoTag.pause();
+    }
+}
+function videoEnded(videoTag) {
+    var playPauseButton = videoTag.parentElement.querySelector('.play-pause');
+    videoTag.pause();
+    videoTag.currentTime = 0;
+}
+
+// cachebuster is used to mitigate Chrome bug where playing videos from browser cache sometimes gets corrupted videos
+var videoDiv = document.currentScript.previousElementSibling;
+document.getElementById('{{ include.id }}').querySelector('.video-target').innerHTML =
+    '<video tabindex="-1" preload="auto" onended="videoEnded(this)" controls>' +
+        '<source src="{{ include.path }}?__cachebuster__=' + Date.now() + '" type="{{ include.mimetype }}" poster="{{ include.thumbnail }}">' +
+        '<img src="{{ include.thumbnail }}" title="Your browser does not support the video tag.">' +
+    '</video>';
+
+// play video on opening modal and stop video on closing modal
+$('#{{ include.id }}').on('shown.bs.modal', function (e) {
+    var videoTag = document.getElementById('{{ include.id }}').querySelector('video');
+    if (videoTag.paused) {
+        videoTag.currentTime = 0;
+        videoTag.play();
+    }
+}).on('hidden.bs.modal', function (e) {
+    var videoTag = document.getElementById('{{ include.id }}').querySelector('video');
+    if (!videoTag.paused) {
+        videoTag.pause();
+        videoTag.currentTime = 0;
+    }
+});
+</script>

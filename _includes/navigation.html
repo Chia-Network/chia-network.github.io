@@ -1,0 +1,24 @@
+{% assign strings = site.data.strings[page.lang] %}
+{% if page.lang == "en" %}
+    {% assign site_prefix = "" %}
+{% else %}
+    {% assign site_prefix = page.lang | prepend:"/" %}
+{% endif %}
+<!-- navigation doesn't work in french site, also only french is supported -->
+<nav class="navbar navbar-expand-xl navbar-dark">
+    <a class="navbar-brand" href="/"><img src="/img/chia_logo.svg" alt="Chia Logo"></a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item{% if include.active == "faq" %} active{% endif %}"><a class="nav-link" href="{{ site_prefix }}/faq">{{ strings.navigation_faq }}</a><div class="highlight"></div></li>
+            <li class="nav-item{% if include.active == "news" %} active{% endif %}"><a class="nav-link" href="{{ site_prefix }}/news">{{ strings.navigation_news }}</a><div class="highlight"></div></li>
+            <li class="nav-item{% if include.active == "blog" %} active{% endif %}"><a class="nav-link" href="{{ site_prefix }}/blog">{{ strings.navigation_blog }}</a><div class="highlight"></div></li>
+            <li class="nav-item{% if include.active == "community" %} active{% endif %}"><a class="nav-link" href="{{ site_prefix }}/community">{{ strings.navigation_community }}</a><div class="highlight"></div></li>
+            <li class="nav-item{% if include.active == "about" %} active{% endif %}"><a class="nav-link" href="{{ site_prefix }}/about">{{ strings.navigation_about }}</a><div class="highlight"></div></li>
+        </ul>
+        <a class="hiring-button" href="{{ site.data.contact.hiring_link }}">{{ strings.navigation_hiring }} <img src="/img/hiring_arrow.svg" alt="arrow"></a>
+    </div>
+</nav>

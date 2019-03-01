@@ -1,0 +1,154 @@
+---
+layout: default
+---
+
+{% assign strings = site.data.strings[page.lang] %}
+
+<div class="homepage">
+    <!-- TODO: we only have two of the four videos, need the other two for ACCESSIBLE and ABOUT sections --> 
+    <div class="header-container">
+        <div class="header-background"></div>
+        <script type="text/javascript">
+            // cachebuster is used to mitigate Chrome bug where playing videos from browser cache sometimes gets corrupted videos
+            var videoDiv = document.currentScript.previousElementSibling;
+            videoDiv.innerHTML =
+                '<video class="background-dots" tabindex="-1" preload="auto" autoplay loop muted>' + // NOTE: muted attribute is necessary to allow autoplay in Chrome
+                    '<source src="/img/background.mp4?__cachebuster__=' + Date.now() + '" type="video/mp4" poster="/img/background.jpg">' +
+                    '<img src="/img/background.jpg" alt="Background Image">' +
+                '</video>';
+        </script>
+        
+        {% include navigation.html %}
+        <div class="header">
+            <h1>{{ strings.homepage_title }}</h1>
+            <p>{{ strings.homepage_subtitle }}</p>
+        </div>
+    </div>
+    <div class="details-container">
+        <div class="container pl-5 pr-5">
+            <div class="detail row">
+                <div class="col-md-6 description">
+                    <div class="description-header">01 <span class="separator-line"></span> {{ strings.homepage_section_1_heading }}</div>
+                    <h2>{{ strings.homepage_section_1_title }}</h2>
+                    {{ strings.homepage_section_1_description | markdownify }}
+                </div>
+                <div class="col-md-6">
+                    {% include video.html id="useful-video" path="/assets/Chia_DigitalMoney.mp4?test123" mimetype="video/mp4" thumbnail="/assets/Chia_DigitalMoney.png" %}
+                </div>
+            </div>
+            <div class="detail row">
+                <div class="col-md-6 description">
+                    <div class="description-header">02 <span class="separator-line"></span> {{ strings.homepage_section_2_heading }}</div>
+                    <h2>{{ strings.homepage_section_2_title }}</h2>
+                    {{ strings.homepage_section_2_description | markdownify }}
+                </div>
+                <div class="col-md-6 order-md-first">
+                    {% include video.html id="sustainable-video" path="/assets/Chia_Launch.mp4?test123" mimetype="video/mp4" thumbnail="/assets/Chia_Launch.png" %}
+                </div>
+            </div>
+            <!-- we don't have the third video right now - let's just hide this section -->
+            <!-- <div class="detail row">
+                <div class="col-md-6 description">
+                    <div class="description-header">03 <span class="separator-line"></span> {{ strings.homepage_section_3_heading }}</div>
+                    <h2>{{ strings.homepage_section_3_title }}</h2>
+                    {{ strings.homepage_section_3_description | markdownify }}
+                </div>
+                <div class="col-md-6 pt-5">
+                    {% include video.html id="accessible-video" path="/assets/Chia_Launch.mp4" mimetype="video/mp4" thumbnail="/assets/Chia_Launch.png" %}
+                </div>
+            </div> -->
+        </div>
+
+        <div class="container blog p-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+                    <script type="text/javascript">
+                        function showMailchimpSignup() {
+                            // embedded JS from Mailchimp
+                            window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"e4d570ef4efb6250ec4a2d825","lid":"bbcb58034c","uniqueMethods":true}) })
+
+                            // clear Mailchimp cookies to allow modal to be re-opened
+                            document.cookie = "MCPopupClosed=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+                            document.cookie = "MCPopupSubscribed=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+                        }
+                    </script>
+                    <a class="mailchimp-signup action-arrow-button" onclick="showMailchimpSignup()">{{ strings.homepage_blog_signup }} <img src="/img/community_arrow.svg" alt="arrow"></a>
+                    <h2>{{ strings.homepage_blog_title }}</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                {% assign posts = site.posts | where:"lang",page.lang | reversed %} 
+                {% for entry in posts limit:6 %}
+                    <a href="{{ entry.url }}" class="col-md-4 post d-block p-3">
+                        <p>{{ entry.date | date:"%B %-d, %Y" }}</p>
+                        <h3>{{ entry.title }}</h3>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="community-container">
+        <div class="container pl-5 pr-5 pt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2>{{ strings.homepage_community_title }}</h2>
+                </div>
+            </div>
+            <div class="row">
+                {% assign community_posts = site.community | where:"lang",page.lang | sort:"order" %} 
+                {% for entry in community_posts %}
+                    <div class="col-md-6 community-post">
+                        <h3>{{ entry.title }}</h3>
+                        <div class="post-content">{{ entry.preview | markdownify }}</div>
+                        <a class="learn-more action-arrow-button" href="{{ entry.url }}">Learn More <img src="/img/community_arrow.svg" alt="arrow"></a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="about-container">
+        <div class="container pl-5 pr-5 pb-5">
+            <div class="row">
+                <div class="col-md-6 order-md-last">
+                    <h2 class="mt-5 mb-5">{{ strings.homepage_about_title }}</h2>
+                    {{ strings.homepage_about_description | markdownify }}
+                </div>
+                <div class="col-md-6 pt-5">
+                    <img class="about-image" src="/assets/about.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="investor-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>{{ strings.homepage_investors }}</h3>
+                </div>
+            </div>
+            <div class="row">
+                {% assign investor_pics = site.investor_pics | sort: "order" %}
+                {% for entry in investor_pics %}
+                    <div class="col-6 col-md-4">
+                        <a class="d-block investor-pic" href="{{ entry.web_url }}">
+                            <img src="{{ entry.pic_url | escape }}">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="hiring-container">
+        <div class="hiring">
+            <h2>{{ strings.homepage_hiring_title }}</h2>
+            {{ strings.homepage_hiring_description | markdownify }}
+            <a class="hiring-button d-inline-block mt-5" href="{{ site.data.contact.hiring_link }}">{{ strings.homepage_hiring_apply }} <img src="/img/hiring_arrow_dark.svg" alt="arrow"></a>
+        </div>
+    </div>
+</div>

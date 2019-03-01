@@ -1,0 +1,388 @@
+.homepage {
+    h1 { font-weight: 900; }
+    h2 {
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    .action-arrow-button {
+        cursor: pointer;
+        color: #0C282A;
+        transition: color 0.2s;
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 0.583333px;
+        text-transform: uppercase;
+        white-space: nowrap;
+
+        &:hover {
+            text-decoration: none;
+            color: #469d62;
+        }
+
+        img {
+            margin-top: -4px;
+            margin-left: 20px;
+        }
+    }
+
+    .navbar {
+        background: transparent;
+
+        .navbar-toggler, .hiring-button {
+            border-color: #469D62;
+            color: #469D62;
+        }
+    }
+
+    .header-container {
+        z-index: 0;
+        background-color: #0C282A;
+        height: 736px;
+        position: relative;
+
+        .header-background {
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            
+            .background-dots {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                filter: brightness(70%);
+            }
+        }
+
+        .header {
+            position: absolute;
+            width: 650px;
+            top: 250px;
+            left: 100px;
+        
+            h1 {
+                font-size: 67px;
+                color: #FFFFFF;
+            }
+            
+            p {
+                margin-top: 20px;
+                font-size: 24px;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .details-container {
+        background-image: url("/img/homepage_grey_dots_left.svg"), url("/img/homepage_grey_dots_right.svg");
+        background-position: left top, right bottom;
+        background-repeat: no-repeat, no-repeat;
+        padding-top: 140px;
+
+        .detail {
+            padding-bottom: 120px;
+        }
+
+        .description {
+            .description-header {
+                font-weight: bold;
+                text-transform: uppercase;
+                color: #469d62;
+                margin-bottom: 3rem;
+        
+                .separator-line {
+                    vertical-align: middle;
+                    display: inline-block;
+                    position: relative;
+                    top: -2px;
+                    width: 50px;
+                    height: 2px;
+                    background-color: black;
+                }
+            }
+
+            h2 {
+                font-weight: 900;
+                line-height: 55px;
+                font-size: 54px;
+                letter-spacing: 2.25px;
+                color: #0C282A;
+                margin-bottom: 25px;
+            }
+
+            p {
+                line-height: 31px;
+                font-size: 18px;
+                color: #0C282A;
+            }
+        }
+
+        .blog {
+            margin-bottom: 3rem;
+
+            .mailchimp-signup {
+                display: block;
+                float: right;
+                padding-bottom: 1rem;
+            }
+
+            h2 {
+                margin-bottom: 4rem;
+            }
+        }
+
+        .post {
+            text-decoration: none;
+
+            p {
+                line-height: 20px;
+                font-size: 14px;
+                color: #B0B0B0;
+                margin-bottom: 0.5rem;
+            }
+            h3 {
+                font-weight: 600;
+                line-height: normal;
+                font-size: 17px;
+                color: #0C282A;
+            }
+
+            &:hover h3 { text-decoration: underline; }
+        }
+    }
+
+    .community-container {
+        background-color: #f8f8f8;
+        padding-top: 3rem;
+    
+        .community-post {
+            padding: 2rem;
+            position: relative;
+
+            h3 {
+                color: #469d62;
+                margin-bottom: 30px;
+                font-weight: 600;
+                font-size: 24px;
+            }
+
+            li {
+                padding-bottom: 25px
+            }
+
+            .post-content {
+                max-width: 485px;
+            }
+
+            .learn-more {
+                position: absolute;
+                bottom: 0;
+                display: block;
+            }
+        }
+    }
+
+    .about-container {
+        background-color: #f8f8f8;
+        padding-top: 3rem;
+
+        .about-image {
+            position: absolute;
+            width: 100%;
+            padding: 0 5rem 0 2rem;
+        }
+    }
+
+    .investor-container {
+        background-color: white;
+        margin-left: 50%;
+
+        .container {
+            padding-bottom: 3rem;
+            padding-right: 5rem;
+        }
+
+        h3 {
+            font-size: 14px;
+            color: #469d62;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .investor-pic {
+            opacity: 0.7;
+            transition: opacity 0.4s;
+            width: 100%;
+            height: 100%;
+
+            &:hover { opacity: 1; }
+
+            img {
+                width: 100%;
+                height: 100%;
+                max-width: 170px;
+                max-height: 89px;
+                object-position: 50% 50%;
+                object-fit: contain;
+                padding: 1rem;
+            }
+        }
+    }
+
+    .hiring-container {
+        background: #06250B url("/img/homepage_green_dots.svg") no-repeat right top;
+        padding: 5rem;
+        color: white;
+
+        .hiring {
+            width: 550px;
+            margin-left: 75px;
+            h2 { font-size: 42px; }
+            
+            p {
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: normal;
+            }
+        }
+
+        .hiring-button {
+            position: relative;
+            padding: 1rem 5rem 1rem 3rem;
+            color: #06250B;
+            background-color: #3AAC59;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            white-space: nowrap;
+            text-decoration: none;
+
+            img {
+                position: absolute;
+                top: 18px;
+                right: 30px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .homepage {
+        .header-container {
+            height: auto;
+
+            .background-dots {
+                top: auto;
+                bottom: 3rem;
+            }
+
+            .header {
+                padding: 3rem;
+                width: auto;
+                position: static;
+
+                h1 {
+                    font-size: 48px;
+                }
+                
+                p {
+                    margin-top: 20px;
+                    font-size: 24px;
+                    color: #FFFFFF;
+                    letter-spacing: 1px;
+                    line-height: 54px;
+                }
+            }
+        }
+
+        .details-container {
+            padding-top: 6rem;
+
+            .description {
+                p {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+
+            .detail {
+                padding-bottom: 6rem;
+            }
+
+            .blog {
+                margin-bottom: 0;
+
+                .mailchimp-signup { float: none; }
+
+                p {
+                    line-height: 20px;
+                    font-size: 12px;
+                }
+
+                h2 { margin-bottom: 1rem; }
+
+                h3 { font-size: 14px; }
+            }
+        }
+
+        .community-container {
+            padding-top: 0;
+        
+            .community-post {
+                padding: 1rem;
+
+                h3 {
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-bottom: 1rem;
+                }
+
+                li {
+                    padding-bottom: 0;
+                }
+            }
+        }
+
+        .about-container {
+            padding-top: 1rem;
+
+            .about-video { position: static; }
+
+            .about-image {
+                position: static;
+                padding: 1rem;
+            }
+        }
+
+        .investor-container {
+            margin-left: 0;
+            
+            h3 {
+                font-size: 18px;
+                margin: 1rem;
+            }
+
+            .container {
+                padding-right: 15px;
+            }
+        }
+
+        .hiring-container {
+            background-image: none;
+            padding: 3rem;
+
+            .hiring {
+                width: auto;
+                margin-left: 0;
+
+                h2 { letter-spacing: 1.33333px; }
+            }
+        }
+    }
+}

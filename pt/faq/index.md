@@ -1,0 +1,4 @@
+---
+layout: faq
+lang: pt
+---
