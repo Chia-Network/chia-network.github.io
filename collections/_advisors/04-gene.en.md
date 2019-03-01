@@ -5,4 +5,4 @@ name: "Gene Hoffman"
 order: 4
 ---
 
-Chairman/CEO Vindicia, sold to Amdocs. CEO/President/Founder eMusic, sold to Vivendi Universal PGP, Inc.,  Director Business Development.
+Chairman/CEO/Founder Vindicia, sold to Amdocs. CEO/Founder eMusic, sold to Vivendi Universal PGP, Inc.,  Director Business Development.
