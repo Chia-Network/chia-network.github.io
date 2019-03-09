@@ -24,7 +24,7 @@ en: # English
   homepage_investors: "Our investors"
   homepage_hiring_title: "We&apos;re hiring!"
   homepage_hiring_description: |
-    We're looking to hire several technically gifted programmers to work with our team of cryptographers on building our protocol. Must have strong algorithms skills. Cryptography experience is a plus but not required. Remote is okay but being in San Francisco is a plus. To apply please complete a couple LeetCode Contests and send a link to your LeetCode profile in your Cover Letter and your resume to [indeed](https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d). 
+    We're looking to hire several technically gifted programmers to work with our team of cryptographers on building our protocol. Must have strong algorithms skills. Cryptography experience is a plus but not required. Remote is okay but being in San Francisco is a plus. To apply please complete a couple LeetCode Contests and send a link to your LeetCode profile in your Cover Letter and your resume to [indeed](https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d).
   homepage_hiring_apply: "Apply now"
   about_title: "About Chia"
   about_description: |
@@ -60,8 +60,8 @@ en: # English
 fr: # French
   faq_title: "Foire aux questions"
   news_see_more: "Voir plus"
-  homepage_title: "Chia est une nouvelle façon d'aborder la monnaie numérique."
-  homepage_subtitle: "Vert, global et vous aider à grandir."
+  homepage_title: "La première monnaie numérique d'entreprise"
+  homepage_subtitle: "Permettre des paiements durables, globaux et intelligents"
   homepage_section_1_heading: "utile"
   homepage_section_1_title: "Votre argent, comment et où vous le voulez"
   homepage_section_1_description: |
@@ -119,8 +119,8 @@ fr: # French
 cn: # Chinese
   faq_title: "经常问的问题"
   news_see_more: "看更多"
-  homepage_title: "Chia是一种接近数字货币的新方式。"
-  homepage_subtitle: "绿色，全球化，帮助您成长。"
+  homepage_title: "第一个企业级数字货币"
+  homepage_subtitle: "实现可持续的全球智能支付"
   homepage_section_1_heading: "有用"
   homepage_section_1_title: "你的钱，你想要的方式和地点"
   homepage_section_1_description: |
@@ -178,8 +178,8 @@ cn: # Chinese
 nl: # Dutch
   faq_title: "Veel Gestelde Vragen"
   news_see_more: "Bekijk meer"
-  homepage_title: "Chia is een nieuwe manier om digitaal geld te benaderen."
-  homepage_subtitle: "Groen, wereldwijd en u helpen groeien."
+  homepage_title: "Het eerste digitale geld van Enterprise-Grade"
+  homepage_subtitle: "Duurzame, wereldwijde, slimme betalingen mogelijk maken"
   homepage_section_1_heading: "nuttig"
   homepage_section_1_title: "Uw geld, hoe en waar u het wilt"
   homepage_section_1_description: |
@@ -237,8 +237,8 @@ nl: # Dutch
 de: # German
   faq_title: "Häufig gestellte Fragen"
   news_see_more: "Mehr sehen"
-  homepage_title: "Chia ist ein neuer Weg, um mit digitalem Geld umzugehen."
-  homepage_subtitle: "Grün, global und hilft Ihnen zu wachsen."
+  homepage_title: "Das erste digitale Geld für Unternehmen"
+  homepage_subtitle: "Nachhaltige, globale und intelligente Zahlungen ermöglichen"
   homepage_section_1_heading: "sinnvoll"
   homepage_section_1_title: "Dein Geld, wie und wo du es willst"
   homepage_section_1_description: |
@@ -295,8 +295,8 @@ de: # German
 es: # Spanish
   faq_title: "Preguntas frecuentes"
   news_see_more: "Ver más"
-  homepage_title: "Chia es una nueva forma de acercarse al dinero digital."
-  homepage_subtitle: "Verde, global, y ayudándote a crecer."
+  homepage_title: "El primer dinero digital de nivel empresarial"
+  homepage_subtitle: "Permitiendo pagos sostenibles, globales, inteligentes."
   homepage_section_1_heading: "útil"
   homepage_section_1_title: "Tu dinero, como y donde lo quieras."
   homepage_section_1_description: |
@@ -354,8 +354,9 @@ es: # Spanish
 sr: # Serbian
   faq_title: "Често постављана питања"
   news_see_more: "Види више"
-  homepage_title: "Цхиа је нови начин приступа дигиталном новцу."
-  homepage_subtitle: "Зелена, глобална и помаже вам да расте."
+  homepage_title: "Први дигитални новац за предузећа"
+  homepage_subtitle: "Омогућавање одрживих, глобалних, паметних плаћања
+Omogućavanje održivih, globalnih, pametnih plaćanja"
   homepage_section_1_heading: "корисно"
   homepage_section_1_title: "Ваш новац, како и где га желите"
   homepage_section_1_description: |
@@ -413,8 +414,8 @@ sr: # Serbian
 pt: # Portuguese
   faq_title: "perguntas frequentes"
   news_see_more: "Ver mais"
-  homepage_title: "Chia é uma nova maneira de abordar o dinheiro digital."
-  homepage_subtitle: "Verde, global e ajudando você a crescer."
+  homepage_title: "O primeiro dinheiro digital de nível empresarial"
+  homepage_subtitle: "Possibilitando pagamentos inteligentes, globais e sustentáveis"
   homepage_section_1_heading: "útil"
   homepage_section_1_title: "Seu dinheiro, como e onde você quer"
   homepage_section_1_description: |
@@ -472,8 +473,8 @@ pt: # Portuguese
 tr: # Turkish
   faq_title: "sık sorulan Sorular"
   news_see_more: "Daha fazla gör"
-  homepage_title: "Chia dijital paraya yaklaşmanın yeni bir yoludur."
-  homepage_subtitle: "Yeşil, küresel ve büyümenize yardım ediyor."
+  homepage_title: "Birinci Sınıf Dijital Para"
+  homepage_subtitle: "Sürdürülebilir, küresel, akıllı ödemeleri mümkün kılmak"
   homepage_section_1_heading: "kullanışlı"
   homepage_section_1_title: "Paran, nasıl ve nerede istersen"
   homepage_section_1_description: |
