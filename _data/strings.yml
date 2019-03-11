@@ -20,15 +20,15 @@ en: # English
   homepage_community_title: "The Chia Community"
   homepage_about_title: "About Chia"
   homepage_about_description: |
-    Chia Network is a decentralized open source global blockchain which is less wasteful, more decentralized, and more secure than Bitcoin. It is inspired and similar to the Bitcoin blockchain, but in Chia, the resource is not computing power, but disk space. To achieve this, the “proofs of work” used in Bitcoin are replaced by “proofs of space”, so disk-space becomes the main resource and proofs of time to come to a decentralized “nakamoto-style” consensus that validates transactions.
+    Chia Network is a decentralized open source global blockchain which is less wasteful, more decentralized, and more secure than Bitcoin. It is inspired and similar to the Bitcoin blockchain, but in Chia, the resource is not computing power, but disk space. To achieve this, the “proofs of work” used in Bitcoin are replaced by “proofs of space”, so disk-space becomes the main resource and proofs of time to come to a decentralized “Nakamoto-style” consensus that validates transactions.
   homepage_investors: "Our investors"
   homepage_hiring_title: "We&apos;re hiring!"
   homepage_hiring_description: |
-    We're looking to hire several technically gifted programmers to work with our team of cryptographers on building our protocol. Must have strong algorithms skills. Cryptography experience is a plus but not required. Remote is okay but being in San Francisco is a plus. To apply please complete a couple LeetCode Contests and send a link to your LeetCode profile in your Cover Letter and your resume to [indeed](https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d).
+    We're looking to hire several technically gifted programmers to work with our team of cryptographers on building our protocol. Must have strong algorithms skills. Cryptography experience is a plus but not required. Remote is okay but being in San Francisco is a plus. To apply please complete a couple of LeetCode Contests and send a link to your LeetCode profile in your Cover Letter and your resume to [indeed](https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d).
   homepage_hiring_apply: "Apply now"
   about_title: "About Chia"
   about_description: |
-    Chia Network is a decentralized open source global blockchain which is less wasteful, more decentralized, and more secure than Bitcoin. It is inspired and similar to the Bitcoin blockchain, but in Chia, the resource is not computing power, but disk space. To achieve this, the “proofs of work” used in Bitcoin are replaced by “proofs of space”, so disk-space becomes the main resource and proofs of time to come to a decentralized “nakamoto-style” consensus that validates transactions.
+    Chia Network is a decentralized open source global blockchain which is less wasteful, more decentralized, and more secure than Bitcoin. It is inspired and similar to the Bitcoin blockchain, but in Chia, the resource is not computing power, but disk space. To achieve this, the “proofs of work” used in Bitcoin are replaced by “proofs of space”, so disk-space becomes the main resource and proofs of time to come to a decentralized “Nakamoto-style” consensus that validates transactions.
   about_leadership_title: "Leadership Team"
   about_advisors_title: "Advisors"
   about_invest_investors_title: "Our Investors"
@@ -41,8 +41,8 @@ en: # English
   footer_language: "Language"
   footer_contact: "Contact"
   footer_find_us: "Find Us"
-  footer_disclaimer: |
-    By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source.
+  # footer_disclaimer: |
+  #  By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source.
   footer_copyright_year: "© Chia Network 2019"
   navigation_faq: "FAQ"
   navigation_news: "News"
@@ -79,12 +79,10 @@ fr: # French
   homepage_community_title: "La Communauté Chia"
   homepage_about_title: "À propos de Chia"
   homepage_about_description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  homepage_investors: "Nos investisseurs"
+    Chia Network est une blockchain globale open source décentralisée qui génère moins de gaspillage, est plus décentralisée et plus sécurisée que Bitcoin. Elle est inspirée et semblable à la blockchain Bitcoin, mais en Chia, la ressource n’est pas de la puissance de calcul, mais de l’espace disque. Pour y parvenir, les «preuves de travail» utilisées dans Bitcoin sont remplacées par des «preuves d'espace», de sorte que l'espace disque devient la principale ressource et les preuves du temps nécessaire pour parvenir à un consensus décentralisé «à la Nakamoto» validant les transactions.
   homepage_hiring_title: "Nous recrutons!"
   homepage_hiring_description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  homepage_hiring_apply: "Appliquer maintenant"
+    Nous cherchons à engager plusieurs programmeurs doués sur le plan technique pour travailler avec notre équipe de cryptographes à la construction de notre protocole. Doit avoir de fortes compétences en algorithmes. Expérience en cryptographie est un atout mais pas obligatoire. La télécommande est acceptable, mais être à San Francisco est un avantage. Pour postuler, veuillez participer à quelques concours LeetCode et envoyer un lien vers votre profil LeetCode dans votre lettre de motivation et votre CV [Indeed](https://www.indeedjobs.com/chia-network/_hl/en_US?cpref=JXWAtnzf3XW5aRnY2g_zouV7xMD8uRK8wx8CMVARBLk)
   about_title: "À propos de Chia"
   about_description: |
     Chia est une monnaie utile, durable et accessible pour une nouvelle ère de monnaie numérique. Nous avons conçu un réseau de chaînes de blocs plus sécurisé, plus dispersé géographiquement et moins onéreux que les crypto-monnaies traditionnelles, ce qui le rend plus compatible pour les besoins personnels et professionnels. Chia a été fondée en 2017 à San Francisco par une équipe basée dans les secteurs de la monnaie numérique, de la cryptographie et de la finance, issue de BitTorrent, Tradehill, Changetip, Lightning Labs, l'Université de Stanford et l'Université de Columbia.
@@ -93,15 +91,15 @@ fr: # French
   about_invest_investors_title: ""
   about_careers_title: "Carrières"
   about_careers_description: |
-    Nous sommes toujours à la recherche de programmeurs talentueux pour nous aider à élaborer notre protocole. Si vous êtes intéressé, veuillez d’abord compléter quelques concours LeetCode. Envoyez ensuite votre lien de profil LeetCode et votre CV à [jobs@chia.net](mailto:jobs@chia.net).
+    Nous cherchons à engager plusieurs programmeurs doués sur le plan technique pour travailler avec notre équipe de cryptographes à la construction de notre protocole. Doit avoir de fortes compétences en algorithmes. Expérience en cryptographie est un atout mais pas obligatoire. La télécommande est acceptable, mais être à San Francisco est un avantage. Pour postuler, veuillez participer à deux concours LeetCode et envoyer un lien vers votre profil LeetCode dans votre lettre de motivation et votre CV à l'adresse suivante [indeed](https://www.indeedjobs.com/chia-network/_hl/en_US?cpref=JXWAtnzf3XW5aRnY2g_zouV7xMD8uRK8wx8CMVARBLk).
   about_press_title: "Presse"
   about_press_description: |
     Pour les demandes de presse, veuillez vous adresser à [chia@sspr.com](mailto:chia@sspr.com).
   footer_language: "Langue"
   footer_contact: "Contact"
   footer_find_us: "Trouve Nous"
-  footer_disclaimer: |
-    En contribuant à ce référentiel, vous acceptez de concéder une licence pour votre travail sous la licence MIT, sauf indication contraire dans contrib / debian / copyright ou en haut du fichier. Toute œuvre contribuée dont vous n'êtes pas l'auteur original doit contenir son en-tête de licence avec le ou les auteurs d'origine et la source.
+  # footer_disclaimer: |
+  #  En contribuant à ce référentiel, vous acceptez de concéder une licence pour votre travail sous la licence MIT, sauf indication contraire dans contrib / debian / copyright ou en haut du fichier. Toute œuvre contribuée dont vous n'êtes pas l'auteur original doit contenir son en-tête de licence avec le ou les auteurs d'origine et la source.
   footer_copyright_year: "© Chia Network 2019"
   navigation_faq: "FAQ"
   navigation_news: "Nouvelles"
@@ -159,8 +157,8 @@ cn: # Chinese
   footer_language: "语言"
   footer_contact: "联系"
   footer_find_us: "找到我们"
-  footer_disclaimer: |
-    通过为此存储库提供帮助，您同意在MIT许可下许可您的工作，除非在contrib / debian / copyright中另有说明或在文件顶部本身。在您不是原作者的情况下所做的任何工作必须包含其原始作者和来源的许可证标题。
+  # footer_disclaimer: |
+  #  通过为此存储库提供帮助，您同意在MIT许可下许可您的工作，除非在contrib / debian / copyright中另有说明或在文件顶部本身。在您不是原作者的情况下所做的任何工作必须包含其原始作者和来源的许可证标题。
   footer_copyright_year: "© Chia Network 2019"
   navigation_faq: "常问问题"
   navigation_news: "新闻"
@@ -218,8 +216,8 @@ nl: # Dutch
   footer_language: "Taal"
   footer_contact: "Contact"
   footer_find_us: "Vind ons"
-  footer_disclaimer: |
-    Door bij te dragen aan deze repository, gaat u ermee akkoord om uw werk onder de MIT-licentie te licentiëren, tenzij anders vermeld in contrib / debian / copyright of bovenaan het bestand zelf. Elk werk dat wordt bijgedragen wanneer u niet de oorspronkelijke auteur bent, moet de licentiekop bevatten met de oorspronkelijke auteur (s) en bron.
+#  footer_disclaimer: |
+#    Door bij te dragen aan deze repository, gaat u ermee akkoord om uw werk onder de MIT-licentie te licentiëren, tenzij anders vermeld in contrib / debian / copyright of bovenaan het bestand zelf. Elk werk dat wordt bijgedragen wanneer u niet de oorspronkelijke auteur bent, moet de licentiekop bevatten met de oorspronkelijke auteur (s) en bron.
   footer_copyright_year: "© Chia Network 2019"
   navigation_faq: "FAQ"
   navigation_news: "Nieuws"
@@ -277,8 +275,8 @@ de: # German
   footer_language: "Sprache"
   footer_contact: "Kontakt"
   footer_find_us: "Finde uns"
-  footer_disclaimer: |
-    Indem Sie zu diesem Repository beitragen, erklären Sie sich damit einverstanden, Ihre Arbeit unter der MIT-Lizenz zu lizenzieren, sofern dies nicht in Contrib / Debian / Copyright oder oben in der Datei selbst angegeben ist. Jede Arbeit, bei der Sie nicht der ursprüngliche Autor sind, muss den Lizenzheader mit den ursprünglichen Autoren und der Quelle enthalten.
+#  footer_disclaimer: |
+#    Indem Sie zu diesem Repository beitragen, erklären Sie sich damit einverstanden, Ihre Arbeit unter der MIT-Lizenz zu lizenzieren, sofern dies nicht in Contrib / Debian / Copyright oder oben in der Datei selbst angegeben ist. Jede Arbeit, bei der Sie nicht der ursprüngliche Autor sind, muss den Lizenzheader mit den ursprünglichen Autoren und der Quelle enthalten.
   navigation_faq: "FAQ"
   navigation_news: "Nachrichten"
   navigation_blog: "Blog"
@@ -335,8 +333,8 @@ es: # Spanish
   footer_language: "Idioma"
   footer_contact: "Contacto"
   footer_find_us: "Encuéntranos"
-  footer_disclaimer: |
-    Al contribuir a este repositorio, usted acepta licenciar su trabajo bajo la licencia MIT a menos que se especifique lo contrario en contrib / debian / copyright o en la parte superior del archivo. Cualquier trabajo contribuido donde usted no es el autor original debe contener su encabezado de licencia con el autor original y la fuente.
+#  footer_disclaimer: |
+#    Al contribuir a este repositorio, usted acepta licenciar su trabajo bajo la licencia MIT a menos que se especifique lo contrario en contrib / debian / copyright o en la parte superior del archivo. Cualquier trabajo contribuido donde usted no es el autor original debe contener su encabezado de licencia con el autor original y la fuente.
   footer_copyright_year: "© Chia Network 2019"
   navigation_faq: "Preguntas más frecuentes"
   navigation_news: "Noticias"
@@ -395,8 +393,8 @@ Omogućavanje održivih, globalnih, pametnih plaćanja"
   footer_language: "Језик"
   footer_contact: "Контакт"
   footer_find_us: "Пронађи нас"
-  footer_disclaimer: |
-    Доприносећи овом спремишту, слажете се да лиценцирате свој рад под МИТ лиценцом, осим ако је другачије наведено у доприносу / дебиан / цопиригхт или на врху саме датотеке. Било који рад који је допринио тамо где нисте изворни аутор мора да садржи заглавље лиценце са оригиналним ауторима и изворима.
+#  footer_disclaimer: |
+#    Доприносећи овом спремишту, слажете се да лиценцирате свој рад под МИТ лиценцом, осим ако је другачије наведено у доприносу / дебиан / цопиригхт или на врху саме датотеке. Било који рад који је допринио тамо где нисте изворни аутор мора да садржи заглавље лиценце са оригиналним ауторима и изворима.
   footer_copyright_year: "© Chia Network 2019"
   navigation_faq: "ФАК"
   navigation_news: "Невс"
@@ -454,8 +452,8 @@ pt: # Portuguese
   footer_language: "Língua"
   footer_contact: "Contato"
   footer_find_us: "Ache-nos"
-  footer_disclaimer: |
-    Ao contribuir para este repositório, você concorda em licenciar seu trabalho sob a licença MIT, a menos que especificado de outra forma em contrib / debian / copyright ou no topo do arquivo em si. Qualquer trabalho contribuído onde você não é o autor original deve conter seu cabeçalho de licença com o (s) autor (es) e fonte originais.
+#  footer_disclaimer: |
+#    Ao contribuir para este repositório, você concorda em licenciar seu trabalho sob a licença MIT, a menos que especificado de outra forma em contrib / debian / copyright ou no topo do arquivo em si. Qualquer trabalho contribuído onde você não é o autor original deve conter seu cabeçalho de licença com o (s) autor (es) e fonte originais.
   footer_copyright_year: "© Chia Network 2019"
   navigation_faq: "Perguntas frequentes"
   navigation_news: "Notícia"
@@ -513,8 +511,8 @@ tr: # Turkish
   footer_language: "Dil"
   footer_contact: "Temas"
   footer_find_us: "Bizi bul"
-  footer_disclaimer: |
-    Bu depoya katkıda bulunarak, katkı / debian / telif hakkı ile veya dosyanın üstünde belirtilmediği sürece çalışmanızı MIT lisansı altında lisanslamayı kabul edersiniz. Asıl yazar olmadığınız durumlarda yapılan herhangi bir çalışma, lisans başlığını orijinal yazar (lar) ve kaynakla birlikte içermelidir.
+#  footer_disclaimer: |
+#    Bu depoya katkıda bulunarak, katkı / debian / telif hakkı ile veya dosyanın üstünde belirtilmediği sürece çalışmanızı MIT lisansı altında lisanslamayı kabul edersiniz. Asıl yazar olmadığınız durumlarda yapılan herhangi bir çalışma, lisans başlığını orijinal yazar (lar) ve kaynakla birlikte içermelidir.
   footer_copyright_year: "© Chia Network 2019"
   navigation_faq: "SSS"
   navigation_news: "Haber"
