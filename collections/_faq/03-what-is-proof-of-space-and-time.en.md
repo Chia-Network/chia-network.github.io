@@ -3,7 +3,7 @@ lang: en
 order: 3
 ---
 
-What is Proof of Space and Time? 
+What is Proof of Space and Time?
 -----------------------
 
-Proof of Space is allocating unused disk space as a consensus method and is tied to Proof of Time to make sure that block times have regular times between them and to better secure the blockchain overall. Farming rewards via Proof of Space are directly proportional to the amount of space you have in the Network.
+Proof of Space is a cryptographic technique where provers show that they allocated unused hard drive space. In order to be used as a consensus method, Proof of Space is tied to Proof of Time. This ensures that block times have regular times between them, and increases the overall security of the blockchain. Farming rewards via Proof of Space are directly proportional to the amount of space you have in the Network.
