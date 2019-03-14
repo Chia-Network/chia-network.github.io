@@ -22,7 +22,7 @@ en: # English
   homepage_about_description: |
     Chia Network is a decentralized open source global blockchain which is less wasteful, more decentralized, and more secure than Bitcoin. It is inspired and similar to the Bitcoin blockchain, but in Chia, the resource is not computing power, but disk space. To achieve this, the “proofs of work” used in Bitcoin are replaced by “proofs of space”, so disk-space becomes the main resource and proofs of time to come to a decentralized “Nakamoto-style” consensus that validates transactions.
   homepage_investors: "Our investors"
-  homepage_hiring_title: "We&apos;re hiring!"
+  homepage_hiring_title: "We&apos;re Hiring!"
   homepage_hiring_description: |
     We're looking to hire several technically gifted programmers to work with our team of cryptographers on building our protocol. Must have strong algorithms skills. Cryptography experience is a plus but not required. Remote is okay but being in San Francisco is a plus. To apply please complete a couple of LeetCode Contests and send a link to your LeetCode profile in your Cover Letter and your resume to [indeed](https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d).
   homepage_hiring_apply: "Apply now"
