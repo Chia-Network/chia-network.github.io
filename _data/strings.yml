@@ -37,7 +37,7 @@ en: # English
     We're looking to hire several technically gifted programmers to work with our team of cryptographers on building our protocol. Must have strong algorithms skills. Cryptography experience is a plus but not required. Remote is okay but being in San Francisco is a plus. To apply please complete a couple LeetCode Contests and send a link to your LeetCode profile in your Cover Letter and your resume to [indeed](https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d).
   about_press_title: "Press"
   about_press_description: |
-    For press inquiries, please reach out to [chia@sspr.com](mailto:chia@sspr.com).
+    For press inquiries, please reach out to [hello@chia.net](mailto:hello@chia.net).
   footer_language: "Language"
   footer_contact: "Contact"
   footer_find_us: "Find Us"
@@ -94,7 +94,7 @@ fr: # French
     Nous cherchons à engager plusieurs programmeurs doués sur le plan technique pour travailler avec notre équipe de cryptographes à la construction de notre protocole. Doit avoir de fortes compétences en algorithmes. Expérience en cryptographie est un atout mais pas obligatoire. La télécommande est acceptable, mais être à San Francisco est un avantage. Pour postuler, veuillez participer à deux concours LeetCode et envoyer un lien vers votre profil LeetCode dans votre lettre de motivation et votre CV à l'adresse suivante [indeed](https://www.indeedjobs.com/chia-network/_hl/en_US?cpref=JXWAtnzf3XW5aRnY2g_zouV7xMD8uRK8wx8CMVARBLk).
   about_press_title: "Presse"
   about_press_description: |
-    Pour les demandes de presse, veuillez vous adresser à [chia@sspr.com](mailto:chia@sspr.com).
+    Pour les demandes de presse, veuillez vous adresser à [hello@chia.net](mailto:hello@chia.net).
   footer_language: "Langue"
   footer_contact: "Contact"
   footer_find_us: "Trouve Nous"
@@ -114,64 +114,64 @@ fr: # French
   community_expand_details: "Développer pour voir tous les détails"
   community_collapse_details: "Réduire tous les détails"
 
-cn: # Chinese
-  faq_title: "经常问的问题"
-  news_see_more: "看更多"
-  homepage_title: "第一个企业级数字货币"
-  homepage_subtitle: "实现可持续的全球智能交易"
+cn: # Japanese
+  faq_title: "よくある質問"
+  news_see_more: "続きを見る"
+  homepage_title: "初のエンタープライズグレードのデジタルマネー"
+  homepage_subtitle: "持続可能でグローバルなスマートな取引を可能にする"
   homepage_section_1_heading: "有用"
-  homepage_section_1_title: "你的钱，你想要的方式和地点"
+  homepage_section_1_title: "あなたのお金、どのようにそしてあなたがそれを望むところ"
   homepage_section_1_description: |
-    Chia的目标功能可以完成您使用银行账户所能做的一切 - 但更好，没有银行。交易简单，安全，智能。
-  homepage_section_2_heading: "可持续发展"
-  homepage_section_2_title: "数字货币不一定是浪费"
+    Chiaのターゲットを絞った機能はあなたが銀行口座を使ってできることすべてをします - しかし、より良く、そして銀行なしで。トランザクションは簡単、安全、そしてスマートです。
+  homepage_section_2_heading: "持続可能"
+  homepage_section_2_title: "デジタルマネーは無駄である必要はありません"
   homepage_section_2_description: |
-    传统的加密货币挖掘是缓慢，浪费和集中的。 Chia的方法节能且分布广泛，因为即使是数字货币也应该是绿色的。
+    従来の暗号通貨マイニングは、時間がかかり、無駄が多く、集中型です。 Chiaの方法はエネルギー効率が良く、広く配布されています。デジタルマネーでさえ環境に優しいはずだからです。
   homepage_section_3_heading: "无障碍"
   homepage_section_3_title: "符合专业和个人需求的货币"
   homepage_section_3_description: |
     现在，即使是跨国企业也可以加入我们的新金融世界，而不必担心波动或脆弱性。
-  homepage_blog_title: "最新的"
-  homepage_blog_signup: "Sign up for announcements"
-  homepage_community_title: "Chia社区"
-  homepage_about_title: "关于Chia"
+  homepage_blog_title: "最新の"
+  homepage_blog_signup: "お知らせに申し込む"
+  homepage_community_title: "チアコミュニティ"
+  homepage_about_title: "チアについて"
   homepage_about_description: |
-    Lorem ipsum dolor sit amet，consectetur adipiscing elit，sed do eiusmod tempor incididunt ut labore et dolore magna aliqua。 Ut enim ad minim veniam，quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat。
-  homepage_investors: "我们的投资者"
-  homepage_hiring_title: "我们正在招聘！"
+    Chia Networkは、Bitcoinよりも無駄が少なく、より分散化され、安全性の高い、分散型オープンソースグローバルブロックチェーンです。それはインスピレーションを得たもので、Bitcoinブロックチェーンに似ていますが、Chiaでは、リソースはコンピューティング能力ではなくディスク容量です。これを実現するために、Bitcoinで使用されている「作業の証明」が「スペースの証明」に置き換えられ、ディスクスペースが主なリソースとなり、トランザクションを検証する分散型の「ナカモトスタイル」の合意が得られます。
+  homepage_investors: "私たちの投資家"
+  homepage_hiring_title: "私たちは雇っています!"
   homepage_hiring_description: |
-    Lorem ipsum dolor sit amet，consectetur adipiscing elit，sed do eiusmod tempor incididunt ut labore et dolore magna aliqua。
-  homepage_hiring_apply: "现在申请"
-  about_title: "关于Chia"
+    私達は私達の暗号化技術者のチームと協力して私達のプロトコルを構築するために何人かの技術的に才能のあるプログラマーを雇おうとしています。強力なアルゴリズムスキルが必要です。暗号化の経験はプラスですが必須ではありません。リモートは大丈夫ですが、サンフランシスコにいることはプラスです。応募するには、いくつかのLeetCodeコンテストに記入し、Cover LetterのLeetCodeプロフィールへのリンクと実際の履歴書を送ってください。
+  homepage_hiring_apply: "今すぐ申し込む"
+  about_title: "チアについて"
   about_description: |
-    Chia是一个有用的，可持续的，可用的货币，适用于数字货币的新时代。我们设计的区块链网络比传统的加密货币更安全，地理位置更分散，浪费更少，使其更符合个人和专业需求。 Chia于2017年在旧金山成立，由来自BitTorrent，Tradehill，Changetip，Lightning Labs，斯坦福大学和哥伦比亚大学的数字货币，密码学和金融领域的团队组成。
-  about_leadership_title: "领导班子"
-  about_advisors_title: "Advisors"
-  about_invest_investors_title: ""
-  about_careers_title: "招聘"
+    Chia Networkは、Bitcoinよりも無駄が少なく、より分散化され、安全性の高い、分散型オープンソースグローバルブロックチェーンです。それはインスピレーションを得たもので、Bitcoinブロックチェーンに似ていますが、Chiaでは、リソースはコンピューティング能力ではなくディスク容量です。これを実現するために、Bitcoinで使用されている「作業の証明」が「スペースの証明」に置き換えられ、ディスクスペースが主なリソースとなり、トランザクションを検証する分散型の「ナカモトスタイル」の合意が得られます。
+  about_leadership_title: "首脳部"
+  about_advisors_title: "顧問"
+  about_invest_investors_title: "投資家"
+  about_careers_title: "キャリア"
   about_careers_description: |
-    我们一直在寻找有才华的程序员来帮助构建我们的协议。如果您有兴趣，请先完成几个LeetCode比赛。然后将您的LeetCode个人资料链接和简历发送到[jobs@chia.net]（mailto：jobs@chia.net）。
-  about_press_title: "按"
+    私達は私達の暗号化技術者のチームと協力して私達のプロトコルを構築するために何人かの技術的に才能のあるプログラマーを雇おうとしています。強力なアルゴリズムスキルが必要です。暗号化の経験はプラスですが必須ではありません。リモートは大丈夫ですが、サンフランシスコにいることはプラスです。応募するには、いくつかのLeetCodeコンテストを完了し、Cover LetterのLeetCodeプロファイルへのリンクと履歴書を[https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d]に送ってください。
+  about_press_title: "押す"
   about_press_description: |
-    有关媒体查询，请联系[chia@sspr.com]（mailto：chia@sspr.com）。
-  footer_language: "语言"
-  footer_contact: "联系"
-  footer_find_us: "找到我们"
+    報道に関するお問い合わせは[hello@chia.net]（mailto：hello@chia.net）までお願いします。
+  footer_language: "言語"
+  footer_contact: "接触"
+  footer_find_us: "私達を見つけなさい"
   # footer_disclaimer: |
   #  通过为此存储库提供帮助，您同意在MIT许可下许可您的工作，除非在contrib / debian / copyright中另有说明或在文件顶部本身。在您不是原作者的情况下所做的任何工作必须包含其原始作者和来源的许可证标题。
-  footer_copyright_year: "© Chia Network 2019"
-  navigation_faq: "常问问题"
-  navigation_news: "新闻"
-  navigation_blog: "博客"
-  navigation_community: "社区"
-  navigation_about: "关于"
-  navigation_hiring: "我们正在招聘"
-  community_email_title: "Chia在你的收件箱里。"
+  footer_copyright_year: "© スプリットネットワーク2019"
+  navigation_faq: "よくある質問"
+  navigation_news: "ニュース"
+  navigation_blog: "ブログ"
+  navigation_community: "コミュニティ"
+  navigation_about: "約"
+  navigation_hiring: "私たちは雇っています"
+  community_email_title: "受信トレイにチア。"
   community_email_description: |
-    订阅我们的邮件列表，将最新的Chia新闻发送到您的收件箱。
-  community_signup: "注册"
-  community_expand_details: "展开以查看完整详细信息"
-  community_collapse_details: "折叠完整详细信息"
+    最新のChiaニュースを受信トレイに配信するには、メーリングリストに登録してください。
+  community_signup: "サインアップ"
+  community_expand_details: "詳細を見る"
+  community_collapse_details: "詳細を見るために折りたたむ"
 
 nl: # Dutch
   faq_title: "Veel Gestelde Vragen"
@@ -212,7 +212,7 @@ nl: # Dutch
     We zijn altijd op zoek naar getalenteerde programmeurs om ons protocol te helpen bouwen. Als je geïnteresseerd bent, voltooi dan eerst een paar LeetCode-wedstrijden. Stuur vervolgens uw LeetCode-profiellink en uw cv naar [jobs@chia.net] (mailto: jobs@chia.net).
   about_press_title: "druk op"
   about_press_description: |
-    Neem voor vragen over de pers contact op met [chia@sspr.com] (mailto: chia@sspr.com).
+    Neem voor vragen over de pers contact op met [hello@chia.net](mailto:hello@chia.net).
   footer_language: "Taal"
   footer_contact: "Contact"
   footer_find_us: "Vind ons"
@@ -271,7 +271,7 @@ de: # German
     Wir sind immer auf der Suche nach talentierten Programmierern, die uns beim Aufbau unseres Protokolls unterstützen. Wenn Sie interessiert sind, schließen Sie zuerst einige LeetCode-Wettbewerbe ab. Senden Sie dann Ihren LeetCode-Profillink und Ihren Lebenslauf an [jobs@chia.net] (mailto: jobs@chia.net).
   about_press_title: "Drücken Sie"
   about_press_description: |
-    Für Presseanfragen wenden Sie sich bitte an [chia@sspr.com] (mailto: chia@sspr.com).
+    Für Presseanfragen wenden Sie sich bitte an [hello@chia.net](mailto:hello@chia.net).
   footer_language: "Sprache"
   footer_contact: "Kontakt"
   footer_find_us: "Finde uns"
@@ -329,7 +329,7 @@ es: # Spanish
     Siempre estamos en la búsqueda de programadores talentosos para ayudar a construir nuestro protocolo. Si está interesado, primero complete un par de concursos de LeetCode. Luego envíe el enlace de su perfil LeetCode y su currículum vitae a [jobs@chia.net] (mailto: jobs@chia.net).
   about_press_title: "prensa"
   about_press_description: |
-    Para consultas de prensa, comuníquese con [chia@sspr.com] (mailto: chia@sspr.com).
+    Para consultas de prensa, comuníquese con [hello@chia.net](mailto:hello@chia.net).
   footer_language: "Idioma"
   footer_contact: "Contacto"
   footer_find_us: "Encuéntranos"
@@ -388,7 +388,7 @@ sr: # Serbian
     Увек смо у потрази за талентованим програмерима који ће помоћи у изградњи нашег протокола. Ако сте заинтересовани, прво попуните неколико ЛеетЦоде такмичења. Затим пошаљите ваш линк за ЛеетЦоде профил и свој животопис на [јобс@цхиа.нет] (маилто: јобс@цхиа.нет).
   about_press_title: "Притисните"
   about_press_description: |
-    За новинске упите, обратите се на [цхиа@сспр.цом] (маилто: цхиа@сспр.цом).
+    За новинске упите, обратите се на [hello@chia.net](mailto:hello@chia.net).
   footer_language: "Језик"
   footer_contact: "Контакт"
   footer_find_us: "Пронађи нас"
@@ -447,7 +447,7 @@ pt: # Portuguese
     Estamos sempre à procura de programadores talentosos para ajudar a criar nosso protocolo. Se você estiver interessado, primeiro conclua alguns Concursos LeetCode. Em seguida, envie seu link de perfil do LeetCode e seu currículo para [jobs@chia.net] (mailto: jobs@chia.net).
   about_press_title: "pressione"
   about_press_description: |
-    Para informações sobre a imprensa, entre em contato com [chia@sspr.com] (mailto: chia@sspr.com).
+    Para informações sobre a imprensa, entre em contato com [hello@chia.net](mailto:hello@chia.net).
   footer_language: "Língua"
   footer_contact: "Contato"
   footer_find_us: "Ache-nos"
@@ -506,7 +506,7 @@ tr: # Turkish
     Protokolümüzü oluşturmak için her zaman yetenekli programcıları arıyoruz. İlgileniyorsanız, lütfen önce birkaç LeetCode Yarışması tamamlayın. Ardından LeetCode profil bağlantınızı ve özgeçmişinizi [jobs@chia.net] adresine (mailto: jobs@chia.net) gönderin.
   about_press_title: "Basın"
   about_press_description: |
-    Basın soruları için lütfen [chia@sspr.com] adresine gidin (mailto: chia@sspr.com).
+    Basın soruları için lütfen [hello@chia.net](mailto:hello@chia.net).
   footer_language: "Dil"
   footer_contact: "Temas"
   footer_find_us: "Bizi bul"
