@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Chia VDF Competition Guide</title>
+  <meta name="description" content="Chia Network recently launched a three month long competition to create faster implementations of our proofs of time and get a better handle on its security ...">
+
+  <!-- jQuery and Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/2018/11/07/chia-vdf-competition-guide.en.html">
+  <link rel="alternate" type="application/rss+xml" title="Home - Chia Network" href="http://localhost:4000/feed.xml">
+</head>
+
+  <body>
+    
+
+<div class="blog-post">
+    
+
+<!-- navigation doesn't work in french site, also only french is supported -->
+<nav class="navbar navbar-expand-xl navbar-dark">
+    <a class="navbar-brand" href="/"><img src="/img/chia_logo.svg" alt="Chia Logo"></a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="/faq">FAQ</a><div class="highlight"></div></li>
+            <li class="nav-item"><a class="nav-link" href="/news">News</a><div class="highlight"></div></li>
+            <li class="nav-item active"><a class="nav-link" href="/blog">Blog</a><div class="highlight"></div></li>
+            <li class="nav-item"><a class="nav-link" href="/community">Community</a><div class="highlight"></div></li>
+            <li class="nav-item"><a class="nav-link" href="/about">About</a><div class="highlight"></div></li>
+        </ul>
+        <a class="hiring-button" href="https://www.indeedjobs.com/chia-network/_hl/en_US?cpref=JXWAtnzf3XW5aRnY2g_zouV7xMD8uRK8wx8CMVARBLk">We're Hiring <img src="/img/hiring_arrow.svg" alt="arrow"></a>
+    </div>
+</nav>
+
+    <div class="row blog-title-container">
+      <h1 class="our-blog">Our Blog</h1>
+    </div>
+    <article class="container" itemscope itemtype="http://schema.org/BlogPosting">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="post-title">
+            <h1>Chia VDF Competition Guide</h1>
+            <span class="date">Nov 7, 2018</span>
+          </div>
+      
+          <div class="content">
+            <p>Chia Network recently launched a three month long competition to create faster implementations of our proofs of time and get a better handle on its security requirements. The Verifiable Delay Function Competition (VDF, aka proof of time) is open to anyone, has $100,000 in total prize money, and is running until January 3rd, 2019.</p>
+
+<p>In the interests of making it as easy as possible to join the competition, this post gives an overview of the different tracks, as well as step-by-step instructions one how to submit an entry. The full details of the competition are available on our <a href="https://github.com/Chia-Network/vdf-competition">Github page</a>.</p>
+
+<h3 id="purpose-and-explanation">Purpose and Explanation</h3>
+
+<p>The Chia consensus algorithm uses proof of space as its key resource. In order to create a secure consensus algorithm, however, proof of space is not enough. Attackers can grind on many possible solutions, or create a longer alternate blockchain, especially if they have a lot of computational power. To protect against these attacks, <a href="https://eprint.iacr.org/2018/601.pdf">Verifiable Delay Functions</a> are used to enforce real time between blocks. VDFs are deterministic functions which are non-parallelizable, and for which it’s possible to efficiently calculate short, easy to verify proofs. As long as an attacker can’t compute the VDF much faster than honest parties, the above attacks will not be practical.</p>
+
+<p>The VDF that Chia is using is repeated squarings (likely verified with a Wesolowski proof, but that isn’t part of this competition). This must be done in a group, for which we’re using ideal class groups, which are explained in the <a href="https://github.com/Chia-Network/vdf-competition/blob/master/classgroups.pdf">class group document</a>. Class groups are mathematical <a href="https://en.wikipedia.org/wiki/Group_%28mathematics%29">groups</a> defined by their discriminant D, and they have a group operation (composition), and an element representation that consists of three integers (A, B, C). The repeated squarings VDF takes an generator g = (A, B, C), and performs the composition operation on itself for the required number of iterations.</p>
+
+<p>So if the VDF requires 1,000,000 iterations, the algorithm would square/compose the input 1,000,000 times.</p>
+
+<p>g = (A, B, C)</p>
+
+<p>g² = (A, B, C) compose (A, B,C)</p>
+
+<p>(g²)² = (A’, B’, C’) compose (A’, B’, C’)</p>
+
+<p>…</p>
+
+<p>…</p>
+
+<p>… (1,000,000 iterations)</p>
+
+<p>…</p>
+
+<p>…</p>
+
+<p>y = (Af, Bf, Cf)</p>
+
+<p>Since the order of the group is not known, the squaring operation is believed to require all the squarings, as explained <a href="https://github.com/Chia-Network/vdf-competition/blob/master/classgroups.pdf">here</a>. A verifiable delay function also needs to provide a short proof, so that verifiers can quickly check that it was performed correctly without running the intensive computation themselves. However, for the purposes of this competition, we only care about the output of the VDF, not the proof.</p>
+
+<h3 id="track-1-fastest-vdf-implementation">Track 1: Fastest VDF Implementation</h3>
+
+<p>Track 1 requires the competitor to efficiently evaluate N VDF iterations, given the discriminant D. The generator element g should be computed as:</p>
+
+<p>g = (2, 1, 1-D/8).</p>
+
+<p>Then, g should be squared repeatedly, N times, and the output, y, in reduced form, should be printed to stdout. The competitor that can output the correct element the fastest wins.</p>
+
+<p>The discriminants used for Track 1 will be of size 2048 bits, so the numbers used in the composition algorithm will be large, and thus reduction is necessary. The discriminants are generated using the create_discriminant algorithm, which hashes to a random prime with certain properties, and then takes the negation. The discriminant can be assumed the negation of a prime p, where p % 8 == 7.</p>
+
+<p>See <a href="https://github.com/Chia-Network/vdf-competition/tree/master/sample-entry-1">sample entry 1</a> for an example of what an entry for Track 1 should look like. On the benchmark machine squaring a number the required 2097152 times (that’s 2²¹) in a group with a 2048 bit discriminant takes about 169 seconds. Presumably the winning entries will improve on that substantially.</p>
+
+<p>The discriminants used for judging will be released at the end of the competition. The commitment to these discriminants is “2fe1e53289900911495b570a6ef9bed17b90a7eb02922631563fca641b83b8ef”</p>
+
+<p>The discriminants can be generated, and the commitment verified, using <a href="https://github.com/Chia-Network/vdf-competition/blob/master/tools/create_competition_discriminants.py">the verification script</a>. The number of iterations N will be 2²¹ = 2097152. The first place winner will receive $40,000, and the second place winner $20,000.</p>
+
+<h3 id="track-2-best-discriminant-break">Track 2: Best Discriminant Break</h3>
+
+<p>The second track is about breaking the largest possible class groups. If one can find the order of an element in the class group, it might make the class group insecure. The order of the element is the smallest integer m such that e^m = identity. Track 2 requires competitors to find the order of any element in the class group other than the identity.</p>
+
+<p>This should be easy to do for very small groups (small discriminant), but more and more difficult the larger the discriminant gets. 2048 bits (for Track 1) is likely an overly conservative choice allowing for more optimizations and higher cost of making custom hardware than necessary. The purpose of this track is to get a sense of the how large of class groups can be broken.</p>
+
+<p>The competition requires the submission of 3 different seeds for create_discriminant(), and for each of those an element (A, B, C) and order (an integer specifying the order of that class group element). The smallest absolute value of the three discriminants is the final score. The exact specification is judge_entry.py.</p>
+
+<p>See <a href="https://github.com/Chia-Network/vdf-competition/tree/master/sample-entry-2">sample entry 2</a> for an example of what an entry for Track 2 should look like. The first place winner will receive $27,000, and the second place winner $13,000. New sample entries can be made using baby_giant_step.py, but there are much better known algorithms.</p>
+
+<h3 id="steps-for-participating">Steps for Participating</h3>
+
+<ol>
+  <li>Both submissions and communications with the Chia team are done via Keybase (https://keybase.io/). After you install the Keybase application, we have two channels available in <strong>chia_network.public</strong>: #VDF_contest (for discussions related to the competition) and #general (for general discussions about Chia). To join, type in your terminal: keybase team request-access chia_network.public</li>
+  <li>Complete the <a href="https://www.dropbox.com/s/odsglm1eu9z6g8v/CHIA%20NETWORK%20APPLICATION%20FORM%204812-8893-1439%20v.1.pdf?dl=0">Entry Form</a> together with the signed version of <a href="https://www.dropbox.com/s/3hmxe7717x5a0pp/Chia%20Network%20-%20VDF%20Contest%20Rules%20and%20Disclosures%20%286%29.pdf?dl=0">VDF Competition Rules and Disclosures Agreement</a>. In the case of team participation, each team member must complete both forms and all members must choose the same point of contact. The forms should be sent to Ali Shadle, either via Keybase (@ashadle) or via email (<a href="mailto:ali@chia.net">ali@chia.net</a>).</li>
+  <li>After we check the registration forms, a private channel will be created for you or your team (chia_network.TEAM_NAME) with engineers from our Chia development team as participants. You can ask us questions regarding the competition there.</li>
+  <li>Each team can create shared Keybase Git repositories where code can be submitted. Here (https://keybase.io/blog/encrypted-git-for-everyone) are some instructions about using Keybase Git repositories.</li>
+  <li>Check out the vdf-competition <a href="https://github.com/Chia-Network/vdf-competition">Github repo</a> to see explanations and sample code for class groups, as well as a sample submission for each track.</li>
+  <li>To participate in <strong>Track 1: Fastest VDF Implementation</strong> track, upload your files to a shared git repository under chia_network.TEAM_NAME. A sample entry can be found <a href="https://github.com/Chia-Network/vdf-competition/tree/master/sample-entry-1">here</a>. The folder must contain two files: <strong>install.sh</strong> and <strong>run.sh</strong>, which must both be executable, and start with “#!/bin/sh”. We’ll first run <strong>install.sh</strong> on our ubuntu test machine (specs below), which should resolve any dependencies, and compile the code. Then we’ll run <strong>run.sh</strong>, passing it two parameters: the discriminant in hex and the number of iterations, in decimal. The score of the entry will be the time used by run.sh to output the correct answer on our reference hardware. An incorrect answer will not be scored at all. The entry folder must also include a README file which describes the approach used.</li>
+  <li>In order to participate in <strong>Track 2: Best Discriminant Break</strong> track, upload your files to a shared git repository under chia_network.TEAM_NAME. The folder must contain a file called <strong>entry.txt</strong>, which should contain three lines, one line for each discriminant provided. Each line must contain six numbers, separated by a space: seed (in hex), length, a, b, c, and order. For scoring, the script <strong>judge_entry.py</strong> from the tools folder is used. The entry folder must also contain a file README which explains the approach used.</li>
+  <li>Only the last entry will be judged. At the end of the competition (after January 3rd), we’ll judge all entries from all the shared Keybase Github repositories and we’ll announce the winners.</li>
+  <li>For <strong>Track 1: Fastest VDF Implementation</strong>, we have deployed a system to run your entry on the reference machine and give feedback on how well it performed. You can use the VDF chat bot to run KeyBase git repo submissions on our reference hardware. You can test your results by sending the bolded message below to vdf_bot in your KeyBase private channel. vdf_bot will then report back to you the timing results or any errors that occur: <code class="highlighter-rouge">/vdf judge_speed keybase://team/chia_network.TEAM_NAME/entry</code></li>
+  <li>For <strong>Track 2: Best Discriminant Break</strong>, you can use the VDF chat bot to test your KeyBase git repo entry.txt format by sending the bolded message below to vdf_bot in your KeyBase private channel. vdf_bot will then report back to you whether it was evaluated successfully or any errors that occur: <code class="highlighter-rouge">/vdf judge_discriminant keybase://team/chia_network.TEAM_NAME/track2</code>.</li>
+</ol>
+
+<h3 id="benchmark-machine-specs">Benchmark machine specs</h3>
+
+<p>Dell Inspiron 3670 64bit</p>
+
+<p>i5 -8400 @ 2.8GHz</p>
+
+<p>8GB ram</p>
+
+<p>GPU: Geforce GTX 1060 3GB</p>
+
+<p>For any questions, join us on Keybase: keybase team request-access chia_network.public, and join the #VDF_contest channel. We hope you participate!</p>
+
+          </div>
+        </div>
+      </div>
+    </article>
+</div>
+    
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 pb-5">
+                <img class="logo" src="/img/chia_logo.svg" alt="chia_logo">
+                <div class="copyright">© Chia Network 2019</div>
+            </div>
+            <div class="col-md-3 pb-5">
+                <h2>Language</h2>
+                
+                
+                    
+                    <div class="mb-2">
+                        
+                            <a href="/">English</a>
+                        
+                             &#8226; <a href="/fr">Français</a>
+                        
+                    </div>
+                
+                    
+                    <div class="mb-2">
+                        
+                            <a href="/cn">日本語</a>
+                        
+                             &#8226; <a href="/nl">Nederlands</a>
+                        
+                    </div>
+                
+                    
+                    <div class="mb-2">
+                        
+                            <a href="/de">Deutsch</a>
+                        
+                             &#8226; <a href="/es">Español</a>
+                        
+                    </div>
+                
+                    
+                    <div class="mb-2">
+                        
+                            <a href="/sr">Srpski</a>
+                        
+                             &#8226; <a href="/pt">Português</a>
+                        
+                    </div>
+                
+                    
+                    <div class="mb-2">
+                        
+                            <a href="/tr">Türk</a>
+                        
+                    </div>
+                
+            </div>
+            <div class="col-md-3 pb-5">
+                <h2>Contact</h2>
+                
+                    <div class="mb-3">
+                        <a href="mailto:hello@chia.net">hello@chia.net</a>
+                    </div>
+                
+                
+                <div>44 Montgomery Street<br />
+San Francisco, CA 94104<br />
+</div>
+            </div>
+            <div class="col-md-3 pb-5">
+                <h2>Find Us</h2>
+                <a href="https://twitter.com/ChiaNetworkInc"><img class="m-2" src="/img/twitter.svg" alt="Twitter Logo"></a>
+                <a href="https://www.facebook.com/ChiadotNet"><img class="m-2" src="/img/facebook.svg" alt="Facebook Logo"></a>
+                <a href="https://medium.com/@chia.net"><img class="m-2" src="/img/medium.svg" alt="Medium Logo"></a>
+                <a href="https://github.com/Chia-Network"><img class="m-2" src="/img/github.svg" alt="GitHub Logo"></a>
+            </div>
+        </div>
+        <div class="disclaimer">By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source.
+</div>
+    </div>
+</footer>
+
+  </body>
+</html>

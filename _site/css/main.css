@@ -1,0 +1,235 @@
+/*
+	Copyright (C) Hoefler & Co.
+	This software is the property of Hoefler & Co. (H&Co).
+	Your right to access and use this software is subject to the
+	applicable License Agreement, or Terms of Service, that exists
+	between you and H&Co. If no such agreement exists, you may not
+	access or use this software for any purpose.
+	This software may only be hosted at the locations specified in
+	the applicable License Agreement or Terms of Service, and only
+	for the purposes expressly set forth therein. You may not copy,
+	modify, convert, create derivative works from or distribute this
+	software in any way, or make it accessible to any third party,
+	without first obtaining the written permission of H&Co.
+	For more information, please visit us at http://typography.com.
+*/
+@font-face { font-family: 'HCo Gotham SSm'; src: url("./woff2/GothamSSm-XLight_Web.woff2") format("woff2"), url("./woff/GothamSSm-XLight_Web.woff") format("woff"); font-weight: 200; font-style: normal; }
+@font-face { font-family: 'HCo Gotham SSm'; src: url("./woff2/GothamSSm-XLightItalic_Web.woff2") format("woff2"), url("./woff/GothamSSm-XLightItalic_Web.woff") format("woff"); font-weight: 200; font-style: italic; }
+@font-face { font-family: 'HCo Gotham SSm'; src: url("./woff2/GothamSSm-Light_Web.woff2") format("woff2"), url("./woff/GothamSSm-Light_Web.woff") format("woff"); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'HCo Gotham SSm'; src: url("./woff2/GothamSSm-LightItalic_Web.woff2") format("woff2"), url("./woff/GothamSSm-LightItalic_Web.woff") format("woff"); font-weight: 300; font-style: italic; }
+@font-face { font-family: 'HCo Gotham SSm'; src: url("./woff2/GothamSSm-Book_Web.woff2") format("woff2"), url("./woff/GothamSSm-Book_Web.woff") format("woff"); font-weight: 400; font-style: normal; }
+@font-face { font-family: 'HCo Gotham SSm'; src: url("./woff2/GothamSSm-BookItalic_Web.woff2") format("woff2"), url("./woff/GothamSSm-BookItalic_Web.woff") format("woff"); font-weight: 400; font-style: italic; }
+@font-face { font-family: 'HCo Gotham SSm'; src: url("./woff2/GothamSSm-Medium_Web.woff2") format("woff2"), url("./woff/GothamSSm-Medium_Web.woff") format("woff"); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'HCo Gotham SSm'; src: url("./woff2/GothamSSm-MediumItalic_Web.woff2") format("woff2"), url("./woff/GothamSSm-MediumItalic_Web.woff") format("woff"); font-weight: 500; font-style: italic; }
+@font-face { font-family: 'HCo Gotham SSm'; src: url("./woff2/GothamSSm-Bold_Web.woff2") format("woff2"), url("./woff/GothamSSm-Bold_Web.woff") format("woff"); font-weight: 700; font-style: normal; }
+@font-face { font-family: 'HCo Gotham SSm'; src: url("./woff2/GothamSSm-BoldItalic_Web.woff2") format("woff2"), url("./woff/GothamSSm-BoldItalic_Web.woff") format("woff"); font-weight: 700; font-style: italic; }
+@font-face { font-family: 'HCo Gotham SSm'; src: url("./woff2/GothamSSm-Black_Web.woff2") format("woff2"), url("./woff/GothamSSm-Black_Web.woff") format("woff"); font-weight: 800; font-style: normal; }
+@font-face { font-family: 'HCo Gotham SSm'; src: url("./woff2/GothamSSm-BlackItalic_Web.woff2") format("woff2"), url("./woff/GothamSSm-BlackItalic_Web.woff") format("woff"); font-weight: 800; font-style: italic; }
+body { font-family: 'HCo Gotham SSm'; }
+
+a { color: #3AAC59; }
+a:hover { color: #3AAC59; }
+
+.community { align-items: center; }
+.community .header-container { position: relative; background: #FAFAFA; padding: 5rem 0; color: #0C282A; }
+.community .header-container .email-heading { padding: 0; border-left: 2px solid #469D62; padding-left: 2rem; margin-left: -2rem; }
+.community .header-container .email-heading h1 { font-size: 36px; letter-spacing: 1.5px; line-height: 37px; margin-bottom: 1rem; font-weight: bold; }
+.community .header-container .email-heading p { font-size: 18px; line-height: 31px; }
+.community .header-container .email-form { margin: auto; }
+.community .header-container .email-form input { width: 300px; padding: 0.5rem; }
+.community .header-container .email-form button { position: relative; padding: 1rem 4rem 1rem 3rem; border: none; color: inherit; background-color: #469D62; font-size: 14px; font-weight: bold; text-align: center; white-space: nowrap; text-decoration: none; cursor: pointer; }
+.community .header-container .email-form button img { display: inline-block; margin-left: 0.5rem; }
+.community .content { font-weight: bold; line-height: 21px; font-size: 16px; color: #808080; margin: 15px; margin-bottom: 4rem; border-bottom: 1px solid rgba(199, 190, 190, 0); }
+.community .content h2 { margin-top: 2rem; margin-bottom: 1rem; font-weight: bold; line-height: normal; font-size: 24px; color: #5A6D6E; }
+.community .content h3 { font-size: 18px; color: #506060; margin-top: 2rem; margin-bottom: 1rem; }
+.community .content li { font-weight: 400; }
+.community .content .expand-btn, .community .content .collapse-btn { border: none; margin: 0; margin-top: 20px; font-weight: bold; line-height: 21px; font-size: 16px; color: #5A6D6E; }
+
+.faq #faq-page-navigation { text-align: center; margin-bottom: 2rem; }
+.faq #faq-page-navigation a { color: black; font-size: 16px; margin: 0.5rem; text-decoration: none; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(255, 255, 255, 0); }
+.faq #faq-page-navigation a.active { border-bottom: 2px solid black; }
+.faq .faq-entry { padding-bottom: 1rem; margin-bottom: 2rem; border-bottom: 1px solid #E7E7E7; }
+.faq .faq-entry.last { border-bottom: none; }
+.faq h1 { font-size: 36px; color: #0C282A; letter-spacing: 1.5px; line-height: 37px; font-weight: bold; margin-top: 3rem; margin-bottom: 106px; }
+.faq h2 { font-weight: bold; font-size: 16px; color: #5A6D6E; }
+.faq p { line-height: 21px; font-size: 14px; color: #808080; }
+
+.homepage h1 { font-weight: 900; }
+.homepage h2 { font-size: 32px; font-weight: 900; }
+.homepage .action-arrow-button { cursor: pointer; color: #0C282A; transition: color 0.2s; font-weight: 600; font-size: 14px; letter-spacing: 0.583333px; text-transform: uppercase; white-space: nowrap; }
+.homepage .action-arrow-button:hover { text-decoration: none; color: #469d62; }
+.homepage .action-arrow-button img { margin-top: -4px; margin-left: 20px; }
+.homepage .navbar { background: transparent; }
+.homepage .navbar .navbar-toggler, .homepage .navbar .hiring-button { border-color: #469D62; color: #469D62; }
+.homepage .header-container { z-index: 0; background-color: #0C282A; height: 736px; position: relative; }
+.homepage .header-container .header-background { z-index: -1; position: absolute; top: 0; right: 0; width: 100%; height: 100%; overflow: hidden; }
+.homepage .header-container .header-background .background-dots { width: 100%; height: 100%; object-fit: cover; filter: brightness(70%); }
+.homepage .header-container .header { position: absolute; width: 650px; top: 250px; left: 100px; }
+.homepage .header-container .header h1 { font-size: 67px; color: #FFFFFF; }
+.homepage .header-container .header p { margin-top: 20px; font-size: 24px; color: #FFFFFF; }
+.homepage .details-container { background-image: url("/img/homepage_grey_dots_left.svg"), url("/img/homepage_grey_dots_right.svg"); background-position: left top, right bottom; background-repeat: no-repeat, no-repeat; padding-top: 140px; }
+.homepage .details-container .detail { padding-bottom: 120px; }
+.homepage .details-container .description .description-header { font-weight: bold; text-transform: uppercase; color: #469d62; margin-bottom: 3rem; }
+.homepage .details-container .description .description-header .separator-line { vertical-align: middle; display: inline-block; position: relative; top: -2px; width: 50px; height: 2px; background-color: black; }
+.homepage .details-container .description h2 { font-weight: 900; line-height: 55px; font-size: 54px; letter-spacing: 2.25px; color: #0C282A; margin-bottom: 25px; }
+.homepage .details-container .description p { line-height: 31px; font-size: 18px; color: #0C282A; }
+.homepage .details-container .blog { margin-bottom: 3rem; }
+.homepage .details-container .blog .mailchimp-signup { display: block; float: right; padding-bottom: 1rem; }
+.homepage .details-container .blog h2 { margin-bottom: 4rem; }
+.homepage .details-container .post { text-decoration: none; }
+.homepage .details-container .post p { line-height: 20px; font-size: 14px; color: #B0B0B0; margin-bottom: 0.5rem; }
+.homepage .details-container .post h3 { font-weight: 600; line-height: normal; font-size: 17px; color: #0C282A; }
+.homepage .details-container .post:hover h3 { text-decoration: underline; }
+.homepage .community-container { background-color: #f8f8f8; padding-top: 3rem; }
+.homepage .community-container .community-post { padding: 2rem; position: relative; }
+.homepage .community-container .community-post h3 { color: #469d62; margin-bottom: 30px; font-weight: 600; font-size: 24px; }
+.homepage .community-container .community-post li { padding-bottom: 25px; }
+.homepage .community-container .community-post .post-content { max-width: 485px; }
+.homepage .community-container .community-post .learn-more { position: absolute; bottom: 0; display: block; }
+.homepage .about-container { background-color: #f8f8f8; padding-top: 3rem; }
+.homepage .about-container .about-image { position: absolute; width: 100%; padding: 0 5rem 0 2rem; }
+.homepage .investor-container { background-color: white; margin-left: 50%; }
+.homepage .investor-container .container { padding-bottom: 3rem; padding-right: 5rem; }
+.homepage .investor-container h3 { font-size: 14px; color: #469d62; text-transform: uppercase; font-weight: bold; margin-top: 20px; margin-bottom: 30px; }
+.homepage .investor-container .investor-pic { opacity: 0.7; transition: opacity 0.4s; width: 100%; height: 100%; }
+.homepage .investor-container .investor-pic:hover { opacity: 1; }
+.homepage .investor-container .investor-pic img { width: 100%; height: 100%; max-width: 170px; max-height: 89px; object-position: 50% 50%; object-fit: contain; padding: 1rem; }
+.homepage .hiring-container { background: #06250B url("/img/homepage_green_dots.svg") no-repeat right top; padding: 5rem; color: white; }
+.homepage .hiring-container .hiring { width: 550px; margin-left: 75px; }
+.homepage .hiring-container .hiring h2 { font-size: 42px; }
+.homepage .hiring-container .hiring p { margin-top: 20px; font-size: 18px; font-weight: normal; }
+.homepage .hiring-container .hiring-button { position: relative; padding: 1rem 5rem 1rem 3rem; color: #06250B; background-color: #3AAC59; font-size: 14px; font-weight: bold; text-align: center; white-space: nowrap; text-decoration: none; }
+.homepage .hiring-container .hiring-button img { position: absolute; top: 18px; right: 30px; }
+
+@media (max-width: 768px) { .homepage .header-container { height: auto; }
+  .homepage .header-container .background-dots { top: auto; bottom: 3rem; }
+  .homepage .header-container .header { padding: 3rem; width: auto; position: static; }
+  .homepage .header-container .header h1 { font-size: 48px; }
+  .homepage .header-container .header p { margin-top: 20px; font-size: 24px; color: #FFFFFF; letter-spacing: 1px; line-height: 54px; }
+  .homepage .details-container { padding-top: 6rem; }
+  .homepage .details-container .description p { font-size: 14px; line-height: 24px; }
+  .homepage .details-container .detail { padding-bottom: 6rem; }
+  .homepage .details-container .blog { margin-bottom: 0; }
+  .homepage .details-container .blog .mailchimp-signup { float: none; }
+  .homepage .details-container .blog p { line-height: 20px; font-size: 12px; }
+  .homepage .details-container .blog h2 { margin-bottom: 1rem; }
+  .homepage .details-container .blog h3 { font-size: 14px; }
+  .homepage .community-container { padding-top: 0; }
+  .homepage .community-container .community-post { padding: 1rem; }
+  .homepage .community-container .community-post h3 { font-weight: 600; font-size: 18px; margin-bottom: 1rem; }
+  .homepage .community-container .community-post li { padding-bottom: 0; }
+  .homepage .about-container { padding-top: 1rem; }
+  .homepage .about-container .about-video { position: static; }
+  .homepage .about-container .about-image { position: static; padding: 1rem; }
+  .homepage .investor-container { margin-left: 0; }
+  .homepage .investor-container h3 { font-size: 18px; margin: 1rem; }
+  .homepage .investor-container .container { padding-right: 15px; }
+  .homepage .hiring-container { background-image: none; padding: 3rem; }
+  .homepage .hiring-container .hiring { width: auto; margin-left: 0; }
+  .homepage .hiring-container .hiring h2 { letter-spacing: 1.33333px; } }
+.about { background-image: url("/img/homepage_grey_dots_left.svg"), url("/img/homepage_grey_dots_right.svg"); background-position: left top, right bottom; background-repeat: no-repeat, no-repeat; }
+.about .dark-image { position: relative; }
+.about .dark-image img { width: 100%; }
+.about .dark-image:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.4179; background-color: #0C282A; transition: opacity 0.4s; }
+.about .dark-image:hover:after { opacity: 0; }
+.about h1 { font-weight: 900; line-height: 37px; font-size: 36px; letter-spacing: 1.5px; color: #0C282A; margin-top: 50px; margin-bottom: 30px; }
+.about h3 { font-size: 24px; color: #5A6D6E; }
+.about p { font-weight: 300; font-size: 18px; line-height: 32px; color: #0C282A; }
+.about .header-container { padding-top: 50px; padding-bottom: 50px; border-bottom: 1px solid lightgray; }
+.about .header-container p { max-width: 950px; }
+.about .no-pad-col { padding: 0; }
+.about .leadership-container { padding-top: 1rem; padding-bottom: 50px; border-bottom: 1px solid lightgray; }
+.about .leadership-container .title { margin-bottom: 50px; }
+.about .leadership-container .team-card { font-weight: bold; color: #5A6D6E; padding: 3rem; }
+.about .leadership-container .team-card .dark-image { margin-bottom: 20px; width: 100%; }
+.about .leadership-container .team-card h3 { font-size: 24px; margin-bottom: 12px; }
+.about .leadership-container .team-card h4 { font-size: 20px; margin-bottom: 20px; font-weight: 300; }
+.about .leadership-container .team-card p { font-weight: 300; }
+.about .advisors-container { padding-top: 1rem; padding-bottom: 50px; border-bottom: 1px solid lightgray; }
+.about .advisors-container .title { margin-bottom: 50px; }
+.about .advisors-container .advisor-card { font-weight: bold; color: #5A6D6E; margin-bottom: 36px; }
+.about .advisors-container .advisor-card .dark-image { margin-bottom: 20px; }
+.about .advisors-container .advisor-card h3 { margin-top: 2rem; margin-bottom: 1rem; font-size: 24px; }
+.about .advisors-container .advisor-card p { font-weight: 300; }
+.about .investors-container { background-color: white; padding-top: 1rem; padding-bottom: 50px; border-bottom: 1px solid lightgray; }
+.about .investors-container .investor-pic { opacity: 0.7; transition: opacity 0.4s; width: 100%; height: 100%; }
+.about .investors-container .investor-pic:hover { opacity: 1; }
+.about .investors-container .investor-pic img { width: 100%; height: 100%; max-height: 178px; object-position: 50% 50%; object-fit: contain; }
+.about .press-container { padding-top: 1rem; padding-bottom: 8rem; border-bottom: 1px solid lightgray; }
+
+.news { padding-bottom: 4rem; }
+.news .card { line-height: 31px; padding: 20px; }
+.news .jumbotron { position: relative; padding: 0; margin-top: 3rem; }
+.news .jumbotron a { text-decoration: none; transition: opacity 0.4s; opacity: 1; }
+.news .jumbotron a:hover { opacity: 0.7; }
+.news .jumbotron a .date-and-source { font-weight: bold; line-height: 31px; font-size: 16px; text-transform: uppercase; color: #3AAC59; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.news .jumbotron a .headline { font-weight: bold; line-height: 43px; font-size: 42px; letter-spacing: 1.75px; color: #0C282A; margin-top: 2rem; }
+.news .jumbotron a .tagline { font-weight: normal; line-height: 28px; font-size: 20px; color: #0C282A; margin-top: 0.5rem; }
+.news .jumbotron img { width: 100%; height: 100%; object-fit: cover; }
+.news .jumbotron-divider { border-top: 1px solid #e7e7e7; margin: 2rem 0; }
+.news .article { padding: 2rem; text-decoration: none; }
+.news .article:hover .headline { opacity: 0.7; }
+.news .article:hover img { opacity: 0.7; }
+.news .article img { transition: opacity 0.4s; opacity: 1; width: 100%; height: 15rem; object-fit: cover; }
+.news .article .date-and-source { margin-top: 1rem; font-weight: bold; line-height: 31px; font-size: 14px; text-transform: uppercase; color: #3AAC59; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.news .article .headline { margin-top: 1rem; font-weight: bold; line-height: 32px; font-size: 28px; color: #0C282A; transition: opacity 0.4s; opacity: 1; }
+.news #see-more-button { display: inline-block; cursor: pointer; position: relative; padding: 0.7rem 4rem 0.7rem 3rem; box-shadow: 0 2px 27px 0 rgba(0, 0, 0, 0.09); border: 2px solid #7ACB90; margin: 0 auto; margin-top: 2rem; text-align: center; }
+.news #see-more-button span { display: inline-block; color: #469D62; letter-spacing: 0.75px; text-align: left; font-size: 18px; }
+.news #see-more-button img { display: inline-block; position: absolute; right: 20px; top: 18px; }
+
+.blog-page { padding-bottom: 3rem; }
+.blog-page h1 { font-weight: 900; margin-top: 40px; }
+.blog-page .post { position: relative; overflow: hidden; padding: 3rem 3rem 0 3rem; text-decoration: none; }
+.blog-page .post:hover .headline { text-decoration: underline; }
+.blog-page .post .content { border-bottom: 1px solid #E7E7E7; padding-bottom: 3rem; }
+.blog-page .post .content .date { font-weight: 600; font-size: 14px; line-height: 31px; color: #3AAC59; text-transform: uppercase; margin-bottom: 1.5rem; }
+.blog-page .post .content .headline { font-weight: 800; line-height: 39px; font-size: 36px; color: #0C282A; }
+.blog-page .post .content .preview { margin-top: 1rem; line-height: 32px; font-size: 18px; color: #0C282A; }
+.blog-page #see-more-button { display: inline-block; cursor: pointer; position: relative; padding: 0.7rem 4rem 0.7rem 3rem; box-shadow: 0 2px 27px 0 rgba(0, 0, 0, 0.09); border: 2px solid #7ACB90; margin: 0 auto; margin-top: 2rem; text-align: center; }
+.blog-page #see-more-button span { display: inline-block; color: #469D62; letter-spacing: 0.75px; text-align: left; font-size: 18px; }
+.blog-page #see-more-button img { display: inline-block; position: absolute; right: 20px; top: 18px; }
+
+.blog-post .navbar { background-color: #0C282A; }
+.blog-post h1 { font-weight: 900; line-height: 53px; font-size: 50px; color: #292A2A; }
+.blog-post .blog-title-container { height: 150px; }
+.blog-post .blog-title-container .our-blog { position: relative; top: 75px; left: 75px; }
+.blog-post .post-title { margin-top: 3rem; margin-bottom: 2rem; }
+.blog-post .post-title h1 { font-weight: bold; }
+.blog-post .post-title .date { line-height: 22px; font-size: 16px; color: #808080; }
+.blog-post .content { line-height: 22px; font-size: 16px; margin-bottom: 100px; line-height: 22px; font-size: 16px; color: #808080; }
+.blog-post .content p { margin-bottom: 1.5rem; }
+.blog-post .content blockquote { font-weight: bold; line-height: 37px; font-size: 28px; color: #292A2A; border-left: 1px solid #3AAC59; padding: 10px 20px; margin-left: 20px; }
+.blog-post .content blockquote p { margin: 0; }
+
+.footer { width: 100%; background-color: #06250B; color: #B3C9CB; font-size: 14px; padding: 5rem; }
+.footer a { color: inherit; }
+.footer h2 { font-size: inherit; margin-bottom: 1.5rem; }
+.footer .logo { width: 150px; }
+.footer .copyright { margin-top: 12px; color: #3AAC59; letter-spacing: 0.75px; white-space: nowrap; }
+.footer .disclaimer { margin-top: 8rem; opacity: 0.5; font-size: 12px; color: white; letter-spacing: 0.5px; line-height: 22px; }
+
+@media (max-width: 768px) { .footer { padding: 3rem; } }
+.navbar { padding-bottom: 0; background-color: #0C282A; }
+.navbar .navbar-brand img { height: 3rem; padding-left: 5rem; }
+.navbar .nav-item { position: relative; }
+.navbar .nav-item .nav-link { color: white; font-weight: 600; line-height: 31px; font-size: 16px; letter-spacing: 0.666667px; }
+.navbar .nav-item.active .nav-link { color: #3AAC59; }
+.navbar .nav-item.active .highlight { display: inline-block; position: absolute; left: calc(50% - 15px); bottom: 0; width: 30px; border-top: 3px solid #3AAC59; }
+.navbar .navbar-nav a { padding: 3rem 2rem !important; white-space: nowrap; display: flex; align-items: center; }
+.navbar .hiring-button { position: relative; margin-left: 5rem; margin-right: 2rem; display: inline-block; padding: 1rem 4rem 1rem 3rem; border: 2px solid #469D62; color: #469D62; font-size: 18px; font-weight: 600; text-align: center; white-space: nowrap; text-decoration: none; }
+.navbar .hiring-button img { position: absolute; right: 20px; top: 22px; }
+.navbar .hiring-button:hover { color: #6E967B; text-decoration: underline; }
+
+@media (max-width: 960px) { .navbar .navbar-brand img { padding-left: 2rem; margin: 1rem 0; }
+  .navbar .nav-item.active .highlight { display: none !important; }
+  .navbar .navbar-nav a { padding: 1rem 2rem !important; }
+  .navbar .hiring-button { margin: 2rem; display: inline-block; background: #0C282A; } }
+.video { position: relative; text-align: center; height: 100%; }
+.video video { width: 100%; }
+.video .modal.show { background: rgba(0, 0, 0, 0.7); }
+.video .video-preview { display: block; cursor: pointer; height: 100%; }
+.video .video-preview img { position: absolute; height: 100%; width: 100%; object-fit: contain; left: 0; right: 0; top: 0; margin: 0 auto; }
+.video .video-preview .play-pause { transition: opacity 0.2s; position: absolute; top: calc(50% - 35px); left: calc(50% - 35px); opacity: 50%; padding-left: 25px; padding-top: 25px; z-index: 1; width: 70px; height: 70px; background-color: rgba(255, 255, 255, 0.9); -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75); -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75); box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25); }
+.video .video-preview .play-pause .icon { box-sizing: border-box; width: 20px; height: 20px; border-style: solid; border-width: 10px 0px 10px 20px; border-color: transparent transparent transparent #469D62; }
+
+@media (max-width: 768px) { .video .video-preview img { position: static; } }
