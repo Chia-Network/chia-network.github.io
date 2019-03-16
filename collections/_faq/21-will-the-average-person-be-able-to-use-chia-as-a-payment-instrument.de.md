@@ -1,6 +1,6 @@
 ---
 lang: de
-order: 12
+order: 20
 ---
 
 Will the average person be able to use Chia as a payment instrument?
