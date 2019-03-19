@@ -3,7 +3,7 @@ lang: cn
 order: 1
 ---
 
-What is Chia?
+チアとは何ですか？
 -------------
 
-Chia is the first enterprise-grade digital money. We are building the Chia Network to improve the global financial and payments systems. Chia is using a new consensus algorithm for a new blockchain called Proof Of Space and Time being created by Bram Cohen, the best network protocol engineer alive and creator of BitTorrent.
+チアは最初のエンタープライズグレードのデジタルマネーです。私たちは、グローバルな金融および支払いシステムを改善するために、チアネットワークを構築しています。 Chiaは、BitTorrentを開発した最高のネットワークプロトコルエンジニアであるBram Cohenによって作成された、Proof Of Space and Timeという新しいブロックチェーンに新しい合意アルゴリズムを使用しています。
