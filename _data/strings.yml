@@ -2,7 +2,7 @@ en: # English
   faq_title: "Frequently Asked Questions"
   news_see_more: "See more"
   homepage_title: "The First Enterprise-Grade Digital Money"
-  homepage_subtitle: "Enabling sustainable, global, smart transactions"
+  homepage_subtitle: "Enabling sustainable, global, smart coins"
   homepage_section_1_heading: "useful"
   homepage_section_1_title: "Your money, how and where you want it"
   homepage_section_1_description: |
@@ -61,7 +61,7 @@ fr: # French
   faq_title: "Foire aux questions"
   news_see_more: "Voir plus"
   homepage_title: "La première monnaie numérique d'entreprise"
-  homepage_subtitle: "Permettre des transactions durables, globales et intelligentes"
+  homepage_subtitle: "Permettre des pièces durables, globales et intelligentes"
   homepage_section_1_heading: "utile"
   homepage_section_1_title: "Votre argent, comment et où vous le voulez"
   homepage_section_1_description: |
@@ -118,7 +118,7 @@ cn: # Japanese
   faq_title: "よくある質問"
   news_see_more: "続きを見る"
   homepage_title: "初のエンタープライズグレードのデジタルマネー"
-  homepage_subtitle: "持続可能でグローバルなスマートな取引を可能にする"
+  homepage_subtitle: "持続可能でグローバルなスマートコインの実現"
   homepage_section_1_heading: "有用"
   homepage_section_1_title: "あなたのお金、どのようにそしてあなたがそれを望むところ"
   homepage_section_1_description: |
@@ -177,7 +177,7 @@ nl: # Dutch
   faq_title: "Veel Gestelde Vragen"
   news_see_more: "Bekijk meer"
   homepage_title: "Het eerste digitale geld van Enterprise-Grade"
-  homepage_subtitle: "Duurzame, wereldwijde, slimme transacties mogelijk maken"
+  homepage_subtitle: "Duurzame, wereldwijde, slimme munten mogelijk maken"
   homepage_section_1_heading: "nuttig"
   homepage_section_1_title: "Uw geld, hoe en waar u het wilt"
   homepage_section_1_description: |
@@ -236,7 +236,7 @@ de: # German
   faq_title: "Häufig gestellte Fragen"
   news_see_more: "Mehr sehen"
   homepage_title: "Das erste digitale Geld für Unternehmen"
-  homepage_subtitle: "Ermöglichung nachhaltiger, globaler und intelligenter Transaktionen"
+  homepage_subtitle: "Nachhaltige, globale und intelligente Münzen ermöglichen"
   homepage_section_1_heading: "sinnvoll"
   homepage_section_1_title: "Dein Geld, wie und wo du es willst"
   homepage_section_1_description: |
@@ -294,7 +294,7 @@ es: # Spanish
   faq_title: "Preguntas frecuentes"
   news_see_more: "Ver más"
   homepage_title: "El primer dinero digital de nivel empresarial"
-  homepage_subtitle: "Permitiendo transacciones sostenibles, globales, inteligentes."
+  homepage_subtitle: "Habilitando monedas sostenibles, globales, inteligentes."
   homepage_section_1_heading: "útil"
   homepage_section_1_title: "Tu dinero, como y donde lo quieras."
   homepage_section_1_description: |
@@ -353,7 +353,7 @@ sr: # Serbian
   faq_title: "Често постављана питања"
   news_see_more: "Види више"
   homepage_title: "Први дигитални новац за предузећа"
-  homepage_subtitle: "Омогућавање одрживих, глобалних, паметних трансакција"
+  homepage_subtitle: "Омогућавање одрживих, глобалних, паметних кованица"
   homepage_section_1_heading: "корисно"
   homepage_section_1_title: "Ваш новац, како и где га желите"
   homepage_section_1_description: |
@@ -412,7 +412,7 @@ pt: # Portuguese
   faq_title: "perguntas frequentes"
   news_see_more: "Ver mais"
   homepage_title: "O primeiro dinheiro digital de nível empresarial"
-  homepage_subtitle: "Permitindo transações inteligentes, globais e sustentáveis"
+  homepage_subtitle: "Ativando moedas inteligentes, globais e sustentáveis"
   homepage_section_1_heading: "útil"
   homepage_section_1_title: "Seu dinheiro, como e onde você quer"
   homepage_section_1_description: |
@@ -471,7 +471,7 @@ tr: # Turkish
   faq_title: "sık sorulan Sorular"
   news_see_more: "Daha fazla gör"
   homepage_title: "Birinci Sınıf Dijital Para"
-  homepage_subtitle: "Sürdürülebilir, küresel, akıllı işlemlerin gerçekleştirilmesi"
+  homepage_subtitle: "Sürdürülebilir, küresel, akıllı paralar sağlamak"
   homepage_section_1_heading: "kullanışlı"
   homepage_section_1_title: "Paran, nasıl ve nerede istersen"
   homepage_section_1_description: |
