@@ -17,6 +17,7 @@ Creating digital coins has so far involved a trade-off: We can solve many of the
 
 #### Proofs of Space and Time
 
+
 Digital coins are created via consensus, a mechanism that is used in blockchain systems to achieve agreement on a single data value among distributed processes or systems. With bitcoin and other digital coins, this consensus is reached by solving equations known as proofs-of-work.
 
 Proofs-of-work rely on computing power, which means the mining operations that rely on these proofs are draining energy at an alarming rate. At the same time, miners are forming pools, which is bringing a sort of centralization to a world that purports to be decentralized.
@@ -26,6 +27,7 @@ Proofs-of-space and time—the method we are pioneering at Chia Network—don’
 The proofs-of-space and time are also resistant to centralization or mining pools, which delivers on the early promises of digital currencies: that they remain decentralized.
 
 #### How We Innovate with VDFs
+
 
 Chia's consensus algorithm, which is necessary in the creation of new coins, relies on cryptographic protocols called Verifiable Delay Functions (VDFs). Designing implementations for the VDFs we develop is critical in the design of a better blockchain and digital-currency system.
 
