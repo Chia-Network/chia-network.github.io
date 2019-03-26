@@ -6,4 +6,4 @@ title: "CEO & Co-Founder"
 order: 2
 ---
 
-COO of Tradehill, the first US based Bitcoin Exchange.
+COO of Tradehill, the first Institutional Bitcoin Exchange.
