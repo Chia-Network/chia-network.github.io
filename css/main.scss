@@ -13,6 +13,27 @@ a {
     &:hover { color: #3AAC59; }
 }
 
+.action-arrow-button {
+    cursor: pointer;
+    color: #0C282A;
+    transition: color 0.2s;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.583333px;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    &:hover {
+        text-decoration: none;
+        color: #469d62;
+    }
+
+    img {
+        margin-top: -4px;
+        margin-left: 20px;
+    }
+}
+
 // pages
 @import 'community';
 @import 'faq';
