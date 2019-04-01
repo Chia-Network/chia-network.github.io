@@ -14,6 +14,32 @@
         }
     }
 
+    .banner-container {
+        text-align: center;
+        font-size: 46px;
+        background: #031A08;
+        padding: 2rem;
+        color: white;
+
+        .banner-text {
+            p {
+                display: inline-block;
+                margin: 0;
+            }
+
+            img {
+                vertical-align: middle;
+                height: 46px;
+                margin-bottom: 15px;
+            }
+        }
+
+        .section-button {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+
     .header-container {
         z-index: 0;
         background-color: #0C282A;
@@ -230,29 +256,31 @@
                 font-weight: normal;
             }
         }
-
-        .hiring-button {
-            position: relative;
-            padding: 1rem 5rem 1rem 3rem;
-            color: #06250B;
-            background-color: #3AAC59;
-            font-size: 14px;
-            font-weight: bold;
-            text-align: center;
-            white-space: nowrap;
-            text-decoration: none;
-
-            img {
-                position: absolute;
-                top: 18px;
-                right: 30px;
-            }
-        }
     }
 }
 
 @media(max-width: 768px) {
     .homepage {
+        .banner-container {
+            text-align: center;
+            font-size: 28px;
+            background: #031A08;
+            padding: 2rem;
+            color: white;
+    
+            .banner-text {
+                p {
+                    display: inline-block;
+                }
+    
+                img {
+                    vertical-align: middle;
+                    height: 28px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
         .header-container {
             height: auto;
 
