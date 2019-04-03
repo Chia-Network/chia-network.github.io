@@ -52,6 +52,8 @@ Content Management
 
 Edit `collections/_data/contact.yml` - address, phone number, email, and social media profiles are located here.
 
+See comments inside the file for more details.
+
 ### Frequently Asked Questions
 
 To add a new FAQ entry, create a new file at `collections/_faq/<ORDER_WITHIN_PAGE>-<IDENTIFIER>.<LANGUAGE_CODE>.md` with the following form:

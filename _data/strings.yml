@@ -56,6 +56,9 @@ en: # English
   community_signup: "Sign up"
   community_expand_details: "Expand to see full details"
   community_collapse_details: "Collapse full details"
+  community_go_to_keybase: "Go to Keybase"
+  community_live_feed_title: "Chia's Live View Feed"
+  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
 
 fr: # French
   faq_title: "Foire aux questions"
@@ -113,6 +116,9 @@ fr: # French
   community_signup: "Inscrivez-vous"
   community_expand_details: "Développer pour voir tous les détails"
   community_collapse_details: "Réduire tous les détails"
+  community_go_to_keybase: "Aller à Keybase"
+  community_live_feed_title: "Live View Flux de Chia"
+  community_live_feed_subtitle: "Restez à jour avec notre communauté et rejoignez notre groupe Keybase."
 
 cn: # Japanese
   faq_title: "よくある質問"
@@ -172,6 +178,9 @@ cn: # Japanese
   community_signup: "サインアップ"
   community_expand_details: "詳細を見る"
   community_collapse_details: "詳細を見るために折りたたむ"
+  community_go_to_keybase: "Go to Keybase"
+  community_live_feed_title: "Chia's Live View Feed"
+  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
 
 nl: # Dutch
   faq_title: "Veel Gestelde Vragen"
@@ -231,6 +240,9 @@ nl: # Dutch
   community_signup: "Inschrijven"
   community_expand_details: "Uitvouwen om alle details te zien"
   community_collapse_details: "Vul de volledige details in"
+  community_go_to_keybase: "Go to Keybase"
+  community_live_feed_title: "Chia's Live View Feed"
+  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
 
 de: # German
   faq_title: "Häufig gestellte Fragen"
@@ -289,6 +301,9 @@ de: # German
   community_signup: "Anmelden"
   community_expand_details: "Erweitern Sie, um alle Details anzuzeigen"
   community_collapse_details: "Vollständige Details ausblenden"
+  community_go_to_keybase: "Go to Keybase"
+  community_live_feed_title: "Chia's Live View Feed"
+  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
 
 es: # Spanish
   faq_title: "Preguntas frecuentes"
@@ -348,6 +363,9 @@ es: # Spanish
   community_signup: "Regístrate"
   community_expand_details: "Expandir para ver los detalles completos"
   community_collapse_details: "Contraer todos los detalles"
+  community_go_to_keybase: "Go to Keybase"
+  community_live_feed_title: "Chia's Live View Feed"
+  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
 
 sr: # Serbian
   faq_title: "Често постављана питања"
@@ -407,6 +425,9 @@ sr: # Serbian
   community_signup: "Пријави се"
   community_expand_details: "Проширите да бисте видели све детаље"
   community_collapse_details: "Сажми потпуне детаље"
+  community_go_to_keybase: "Go to Keybase"
+  community_live_feed_title: "Chia's Live View Feed"
+  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
 
 pt: # Portuguese
   faq_title: "perguntas frequentes"
@@ -466,6 +487,9 @@ pt: # Portuguese
   community_signup: "inscrever-se"
   community_expand_details: "Expandir para ver detalhes completos"
   community_collapse_details: "Recolher detalhes completos"
+  community_go_to_keybase: "Go to Keybase"
+  community_live_feed_title: "Chia's Live View Feed"
+  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
 
 tr: # Turkish
   faq_title: "sık sorulan Sorular"
@@ -525,3 +549,6 @@ tr: # Turkish
   community_signup: "kaydol"
   community_expand_details: "Tüm ayrıntıları görmek için genişletin"
   community_collapse_details: "Tüm ayrıntıları daralt"
+  community_go_to_keybase: "Go to Keybase"
+  community_live_feed_title: "Chia's Live View Feed"
+  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."

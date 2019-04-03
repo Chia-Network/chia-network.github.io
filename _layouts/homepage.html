@@ -5,7 +5,12 @@ layout: default
 {% assign strings = site.data.strings[page.lang] %}
 
 <div class="homepage">
-    <!-- TODO: we only have two of the four videos, need the other two for ACCESSIBLE and ABOUT sections --> 
+    {% if site.data.contact.banner.show %}
+        <div class="banner-container">
+            <span class="banner-text mr-5">{{ site.data.contact.banner.text | markdownify }}</span>
+            <a class="section-button" href="{{ site.data.contact.banner.link }}" rel="noopener" target="_blank">{{ site.data.contact.banner.link_title }} <img src="/img/hiring_arrow_dark.svg" alt="arrow"></a>
+        </div>
+    {% endif %}
     <div class="header-container">
         <div class="header-background"></div>
         <script type="text/javascript">
@@ -148,7 +153,7 @@ layout: default
         <div class="hiring">
             <h2>{{ strings.homepage_hiring_title }}</h2>
             {{ strings.homepage_hiring_description | markdownify }}
-            <a class="hiring-button d-inline-block mt-5" href="{{ site.data.contact.hiring_link }}">{{ strings.homepage_hiring_apply }} <img src="/img/hiring_arrow_dark.svg" alt="arrow"></a>
+            <a class="section-button mt-5" href="{{ site.data.contact.hiring_link }}">{{ strings.homepage_hiring_apply }} <img src="/img/hiring_arrow_dark.svg" alt="arrow"></a>
         </div>
     </div>
 </div>

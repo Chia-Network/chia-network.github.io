@@ -6,11 +6,31 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://chia.net" # the base hostname & protocol for your site
+plugins:
+  - jekyll-seo-tag
+
+# SEO settings
 title: Home - Chia Network
 description: > # this means to ignore newlines until "baseurl:"
   We're building a blockchain based on proofs of space and time to make a cryptocurrency that is less wasteful, more decentralized, and more secure.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://chia.net" # the base hostname & protocol for your site
+twitter:
+  username: ChiaNetworkInc
+  card: summary
+facebook:
+  publisher: https://www.facebook.com/ChiaNetworkInc
+logo: /img/chia_logo.svg
+social:
+  links:
+    - https://twitter.com/ChiaNetworkInc
+    - https://www.facebook.com/ChiaNetworkInc
+    - https://instagram.com/chia_network
+    - https://www.linkedin.com/company/chia-network/
+    - https://github.com/Chia-Network
+    - https://medium.com/@chia.net
+    - https://keybase.io/team/chia_network.public
+google_site_verification: 1234 # TODO: replace this with your actual Webmaster verification code
 
 collections_dir: collections
 collections:
