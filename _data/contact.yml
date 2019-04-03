@@ -22,7 +22,7 @@ keybase_team_page: https://keybase.io/team/chia_network.public
 
 # top banner on homepage
 banner:
-    show: true # whether or not to display the banner
+    show: false # whether or not to display the banner
     text: "![](/img/party_popper.svg)&nbsp; **Win $100k in Total Prize Money!**" # markdown content of banner
     link: https://google.ca # webpage that the banner button links to
     link_title: See how # content of the banner button
