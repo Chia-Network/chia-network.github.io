@@ -26,7 +26,7 @@ Specifications of the reference hardware and further technical details are avail
 Contestants will be able to communicate with Chia during the competition via a secure [Keybase](https://keybase.io/team/chia_network.public) channel.
 
 ### Steps For Participating
-
+<br>
 1. Both submissions and communications with the Chia team are done via [Keybase](https://keybase.io/team/chia_network.public). After you install the Keybase application, we have two channels available in chia_network.public: #VDF_contest (for discussions related to the competition) and #general (for general discussions about Chia). To join, type in your terminal: keybase team request-access chia_network.public
 
 2. Complete the [Entry Form](https://github.com/Chia-Network/vdf-competition/blob/master/Application%20Form.pdf) together with the signed version of [VDF Competition Rules and Disclosures Agreement](https://github.com/Chia-Network/vdf-competition/blob/master/Rules%20and%20Disclosures.pdf). In the case of team participation, each team member must complete both forms and all members must choose the same point of contact. The forms should be sent to Ali Shadle, either via Keybase (@ashadle) or via email (ali@chia.net).
