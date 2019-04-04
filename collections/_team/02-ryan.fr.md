@@ -2,7 +2,7 @@
 lang: fr
 img_src: "/assets/ryan.png"
 name: "Ryan Singer"
-title: "Président et co-fondateur"
+title: "CEO et co-fondateur"
 order: 2
 ---
 

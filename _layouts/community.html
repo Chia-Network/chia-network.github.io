@@ -7,7 +7,35 @@ layout: default
 {% assign strings = site.data.strings[page.lang] %}
 
 <div class="community">
-    <div class="header-container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 keybase-live-feed">
+                <a class="go-to-keybase action-arrow-button float-lg-right d-none d-lg-block" target="_blank" rel="noreferrer noopener" href="{{ site.data.contact.keybase_team_page }}">{{ strings.community_go_to_keybase }} <img src="/img/community_arrow.svg" alt="arrow"></a>
+                <h1>{{ strings.community_live_feed_title }}</h1>
+                <p>{{ strings.community_live_feed_subtitle }}</p>
+                <a class="go-to-keybase action-arrow-button d-block d-lg-none" target="_blank" rel="noreferrer noopener" href="{{ site.data.contact.keybase_team_page }}">{{ strings.community_go_to_keybase }} <img src="/img/community_arrow.svg" alt="arrow"></a>
+                <iframe src="https://dev.chia.net/"></iframe>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-10 content">
+                {% assign community = site.community | where:"lang",page.lang | sort: "order" %}
+                {% for entry in community %}
+                    {{ entry.content }}
+                    {% if entry.extra_details %}
+                        <a class="expand-btn" class="row" data-toggle="collapse" href="#extra-details{{ forloop.index }}" role="button" aria-expanded="false">
+                            {{ strings.community_expand_details }} <img src="/img/community_arrow_down.svg">
+                        </a>
+                        <div id="extra-details{{ forloop.index }}" class="collapse">{{ entry.extra_details | markdownify }}</div>
+                        <a class="collapse-btn d-none" data-toggle="collapse" href="#extra-details{{ forloop.index }}" role="button" aria-expanded="false">
+                            {{ strings.community_collapse_details }} <img src="/img/community_arrow_up.svg">
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="email-container">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-5 email-heading">
@@ -34,25 +62,6 @@ layout: default
             </div>
         </div>
     </div>
-    <div class="container justify-content-center">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-md-10 content">
-                {% assign community = site.community | where:"lang",page.lang | sort: "order" %}
-                {% for entry in community %}
-                    {{ entry.content }}
-                    {% if entry.extra_details %}
-                        <a class="expand-btn" class="row" data-toggle="collapse" href="#extra-details{{ forloop.index }}" role="button" aria-expanded="false">
-                            {{ strings.community_expand_details }} <img src="/img/community_arrow_down.svg">
-                        </a>
-                        <div id="extra-details{{ forloop.index }}" class="collapse">{{ entry.extra_details | markdownify }}</div>
-                        <a class="collapse-btn d-none" data-toggle="collapse" href="#extra-details{{ forloop.index }}" role="button" aria-expanded="false">
-                            {{ strings.community_collapse_details }} <img src="/img/community_arrow_up.svg">
-                        </a>
-                    {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-    </div>
 </div>
 
 <script type="text/javascript">
@@ -60,6 +69,7 @@ layout: default
     expanders.forEach(function(expander) {
         var expand = expander.querySelector(".expand-btn");
         var collapse = expander.querySelector(".collapse-btn");
+        if (expand === null) { return; }
         expand.addEventListener("click", function() {
             expand.classList.add('d-none');
             collapse.classList.remove('d-none');
