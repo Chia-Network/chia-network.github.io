@@ -6,7 +6,7 @@ date:   2019-04-04
 carousel: true
 ---
 
-A few months ago we wrapped up our initial VDF implementation competition and were amazed by the excellent quality of the submissions. The top three contenders each came in at under one minute (the reference implementation was 169 seconds). Five other teams also submitted implementations which were faster than the reference. All of the submissions were open-source, and can be found [here](https://www.chia.net/2019/01/17/chia-vdf-competition-round-1-results-and-announcements.en.html). The award total was originally $100,000, but because of the hard work that all of the teams put into the competition, we decided to award $2,000 to each team who submitted an entry, bringing the total to $116,000.
+A few months ago we wrapped up our initial VDF implementation competition and were amazed by the excellent quality of the submissions. The top three contenders each came in at under one minute (the reference implementation was 169 seconds). Five other teams also submitted implementations which were faster than the reference. All of the submissions were open-source, and can be found [here](https://www.chia.net/2019/01/17/chia-vdf-competition-round-1-results-and-announcements.en.html). The award total was originally $100,000, but because of the hard work that all of the teams put into the competition, we decided to award $2,000 to each team who submitted an entry, bringing the total prize money awarded to $116,000.
 
 We are proud to announce a second competition, challenging entrants to improve on our new reference implementation.
 
@@ -25,8 +25,6 @@ Specifications of the reference hardware and further technical details are avail
 
 Contestants will be able to communicate with Chia during the competition via a secure [Keybase](https://keybase.io/team/chia_network.public) channel.
 
-To learn more or enter the competition, please visit [here](https://www.chia.net/).
-
 ### Steps For Participating
 
 1. Both submissions and communications with the Chia team are done via [Keybase](https://keybase.io/team/chia_network.public). After you install the Keybase application, we have two channels available in chia_network.public: #VDF_contest (for discussions related to the competition) and #general (for general discussions about Chia). To join, type in your terminal: keybase team request-access chia_network.public
@@ -40,4 +38,4 @@ To learn more or enter the competition, please visit [here](https://www.chia.net
 9. We have deployed a system to run your entry on the reference machine and give feedback on how well it performed. You can use the VDF chat bot to run KeyBase git repo submissions on our reference hardware. You can test your results by sending the bolded message below to vdf_bot in your KeyBase private channel. vdf_bot will then report back to you the timing results or any errors that occur: /vdf judge_speed keybase://team/chia_network.TEAM_NAME/entry
 
 
-For any questions, join us on [Keybase](https://keybase.io/team/chia_network.public). We hope you participate!
+To learn more or enter the competition, please visit [here](https://www.chia.net/) or join our [Keybase](https://keybase.io/team/chia_network.public) channel. We hope you participate!
