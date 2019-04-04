@@ -47,4 +47,6 @@ Contestants will be able to communicate with Chia during the competition via a s
 9. We have deployed a system to run your entry on the reference machine and give feedback on how well it performed. You can use the VDF chat bot to run KeyBase git repo submissions on our reference hardware. You can test your results by sending the bolded message below to vdf_bot in your KeyBase private channel. vdf_bot will then report back to you the timing results or any errors that occur: /vdf judge_speed keybase://team/chia_network.TEAM_NAME/entry
 
 
-To learn more or enter the competition, please visit [here](https://www.chia.net/) or join our [Keybase](https://keybase.io/team/chia_network.public) channel. We hope you participate!
+To learn more or enter the competition, please visit [here](https://www.chia.net/) or join our [Keybase](https://keybase.io/team/chia_network.public) channel.
+
+We hope you participate!
