@@ -31,6 +31,11 @@ social:
     - https://medium.com/@chia.net
     - https://keybase.io/team/chia_network.public
 google_site_verification: 1234 # TODO: replace this with your actual Webmaster verification code
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://chia.net/android-chrome-384x384.png
 
 collections_dir: collections
 collections:
