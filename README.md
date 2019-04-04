@@ -48,6 +48,32 @@ Push to a GitHub repository, making sure the repository is set up with `https://
 Content Management
 ------------------
 
+### SEO
+
+On any page, front matter entries can be used to add social media metadata. For example, on a blog post:
+
+```markdown
+# post-specific fields (other fields also may be used in the post, but also are used for SEO)
+layout: post
+date:   2019-04-04
+carousel: true
+
+# also used as title of card preview on Twitter and Facebook
+title:  "Chia Network Announces 2nd VDF Competition with $100,000 in Total Prize Money"
+
+# thumbnail image (note: must be a full URL, so it has to start with `https://chia.net/...`)
+# note: this defaults to https://chia.net/android-chrome-384x384.png
+# note: test this using https://cards-dev.twitter.com/validator and https://developers.facebook.com/tools/debug/sharing/
+image: https://chia.net/android-chrome-384x384.png
+
+# description of the current page
+# note: this defaults to the first paragraph of the content
+description: "This is a blog post on Chia Network's blog."
+
+# content language
+lang: en
+```
+
 ### Contact Info
 
 Edit `collections/_data/contact.yml` - address, phone number, email, and social media profiles are located here.
