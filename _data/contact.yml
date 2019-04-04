@@ -22,7 +22,7 @@ keybase_team_page: https://keybase.io/team/chia_network.public
 
 # top banner on homepage
 banner:
-    show: false # whether or not to display the banner
+    show: true # whether or not to display the banner
     text: "![](/img/party_popper.svg)&nbsp; **Win $100k in Total Prize Money!**" # markdown content of banner
-    link: https://google.ca # webpage that the banner button links to
-    link_title: See how # content of the banner button
+    link: https://www.chia.net/2019/04/04/chia-network-announces-second-vdf-competition-with-in-total-prize-money.en.html # webpage that the banner button links to
+    link_title: See How # content of the banner button
