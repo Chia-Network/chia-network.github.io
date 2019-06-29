@@ -30,6 +30,7 @@ social:
     - https://github.com/Chia-Network
     - https://medium.com/@chia.net
     - https://keybase.io/team/chia_network.public
+    - https://reddit.com/r/chia
 google_site_verification: 1234 # TODO: replace this with your actual Webmaster verification code
 defaults:
   - scope:
