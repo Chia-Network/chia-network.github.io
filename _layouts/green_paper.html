@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <nav class="navbar-green-paper" style="background-color: transparent">
+      <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/chia_logo.svg" alt="Chia Logo"></a>
+      </div>
+    </nav>
+
+    {% assign strings = site.data.strings[page.lang] %} 
+
+    <div class="green-paper">
+      <div class="container">
+        <div class="row header-container">
+          <div class="col-md-5 center-container">
+            <div class="header">
+              <h1>{{ strings.green_paper_main_title }}</h1>
+              <a class="green-paper-button" href="/greenpaper">
+                {{ strings.green_paper_read_button_text }}
+              </a>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <img class="green-paper-main-img" src="/assets/green_paper_header_image.svg" />
+          </div>
+        </div>
+        <div class="row green-paper-section-1">
+          <div class="col-md-6">
+              <img class="green-paper-section-1-img" src="/assets/green_paper_section_1_image.svg" />
+          </div>
+          <div class="col-md-6 center-container">
+            <div class="text-container">
+              <h2>{{ strings.green_paper_section_1_title }}</h2>
+              {{ strings.green_paper_section_1_description }}
+            </div>
+          </div>
+        </div>
+        <div class="row green-paper-section-2">
+          <div class="col-md-6 center-container-right">
+            <div class="text-container">
+              <h2>{{ strings.green_paper_section_2_title }}</h2>
+              {{ strings.green_paper_section_2_description }}
+            </div>
+          </div>
+          <div class="col-md-6">
+              <img class="green-paper-section-2-img" src="/assets/green_paper_section_2_image.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="row green-paper-section-3">
+        <div class="col-md-5">
+            <img class="green-paper-section-3-img" src="/assets/green_paper_section_3_image.svg" />
+        </div>
+        <div class="col-md-7 center-container">
+          <div class="text-container-small">
+            <h1>{{ strings.green_paper_main_title }}</h1>
+            <a href="/greenpaper" class="green-paper-read-link">{{ strings.green_paper_read_button_text }} →</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

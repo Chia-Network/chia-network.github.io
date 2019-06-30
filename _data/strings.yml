@@ -38,6 +38,14 @@ en: # English
   about_press_title: "Press"
   about_press_description: |
     For press inquiries, please reach out to [hello@chia.net](mailto:hello@chia.net).
+  green_paper_main_title: "Chia Network's Green Paper"
+  green_paper_read_button_text: "Read the Green Paper"
+  green_paper_section_1_title: "The Vision"
+  green_paper_section_1_description: |
+    Chia Network is a decentralized open-sourced global blockchain which is more decentralized, less wasteful, and more secure than Bitcoin.
+  green_paper_section_2_title: "Eco-Friendly Consensus Algorithm"
+  green_paper_section_2_description: |
+    The Green Paper details a new consensus algorithm called Proofs of Space and Time "PoST". PoST replaces the proofs of work in Bitcoin's mining which wastes massive amounts of energy and is less secure due to mining centralization.
   footer_language: "Language"
   footer_contact: "Contact"
   footer_find_us: "Find Us"
