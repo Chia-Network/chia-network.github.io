@@ -2,9 +2,14 @@
 <html>
   {% include head.html %}
   <body>
+    {% if page.lang == "en" %}
+      {% assign site_prefix = "" %}
+    {% else %}
+      {% assign site_prefix = page.lang | prepend:"/" %}
+    {% endif %}
     <nav class="navbar-green-paper" style="background-color: transparent">
       <div class="container">
-        <a class="navbar-brand" href="/"><img src="/img/chia_logo.svg" alt="Chia Logo"></a>
+        <a class="navbar-brand" href="{{site_prefix}}/"><img src="/img/chia_logo.svg" alt="Chia Logo"></a>
       </div>
     </nav>
 

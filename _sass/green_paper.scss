@@ -36,10 +36,18 @@
 
   .text-container {
     max-width: 75%;
+    margin: 25px auto 40px auto;
   }
 
   .text-container-small {
     max-width: 50%;
+  }
+    
+  @media only screen and (max-width: 768px) {
+    .text-container-small {
+      max-width: 75%;
+      margin: 25px auto 40px auto;
+    }
   }
 
   .center-container {
@@ -75,7 +83,6 @@
     font-size: 40px;
     font-weight: lighter;
     color: #4287f5;
-    padding: 20px 0;
   }
 
   .green-paper-button {
@@ -99,13 +106,13 @@
 
   .green-paper-section-1-img {
     width: 60%;
-    margin: auto;
+    margin: 25px auto;
     display: block;
   }
 
   .green-paper-section-2-img {
     width: 60%;
-    margin: auto;
+    margin: 25px auto;
     display: block;
   }
 
