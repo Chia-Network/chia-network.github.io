@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.5359167,7 L6.95200461,1.5 L7.655491,0.789291271 L13.6738372,6.71719692 C14.1056018,7.14457801 14.1091553,7.84105042 13.681776,8.2728133 L7.655491,14.5 L6.94482533,13.7964701 L12.5542891,8 L0.478586964,8 L0.478586964,7 L12.5359167,7 Z" id="path-1"></path>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WhitePage_Landing" transform="translate(-882.000000, -2506.000000)">
+            <g id="footer" transform="translate(225.000000, 2148.000000)">
+                <g id="Button/06Flat+Icon/Big/Icon_right" transform="translate(445.000000, 355.000000)">
+                    <g id="icon" transform="translate(212.000000, 3.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#3AAC59" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

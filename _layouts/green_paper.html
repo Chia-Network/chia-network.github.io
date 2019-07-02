@@ -16,6 +16,12 @@
     {% assign strings = site.data.strings[page.lang] %} 
 
     <div class="green-paper">
+      <div class="green-paper-line green-paper-line-1"></div>
+      <div class="green-paper-line green-paper-line-2"></div>
+      <div class="green-paper-line green-paper-line-3"></div>
+      <div class="green-paper-line green-paper-line-4"></div>
+      <div class="green-paper-line green-paper-line-5"></div>
+      <div class="green-paper-line green-paper-line-6"></div>
       <div class="container">
         <div class="row header-container">
           <div class="col-md-5 center-container">
@@ -30,7 +36,7 @@
             <img class="green-paper-main-img" src="/assets/green_paper_header_image.png" />
           </div>
         </div>
-        <div class="row green-paper-section-1">
+        <div data-aos="fade-up" data-aos-offset="200" class="row green-paper-section-1">
           <div class="col-md-6">
               <img class="green-paper-section-1-img" src="/assets/green_paper_section_1_image.svg" />
           </div>
@@ -41,7 +47,7 @@
             </div>
           </div>
         </div>
-        <div class="row green-paper-section-2">
+        <div data-aos="fade-up" data-aos-offset="200" class="row green-paper-section-2">
           <div class="col-md-6 center-container-right">
             <div class="text-container">
               <h2>{{ strings.green_paper_section_2_title }}</h2>
@@ -61,11 +67,15 @@
           <div class="col-md-7 center-container">
             <div class="text-container-small">
               <h1>{{ strings.green_paper_main_title }}</h1>
-              <a href="https://www.chia.net/assets/ChiaGreenPaper.pdf" class="green-paper-read-link">{{ strings.green_paper_read_button_text }} →</a>
+              <a href="https://www.chia.net/assets/ChiaGreenPaper.pdf" class="green-paper-read-link">{{ strings.green_paper_read_button_text }} <img src="/assets/arrow.svg" /></a>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript">
+      AOS.init()
+    </script>
   </body>
 </html>
