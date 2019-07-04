@@ -38,6 +38,14 @@ en: # English
   about_press_title: "Press"
   about_press_description: |
     For press inquiries, please reach out to [hello@chia.net](mailto:hello@chia.net).
+  green_paper_main_title: "Chia Network's Green Paper"
+  green_paper_read_button_text: "Read the Green Paper"
+  green_paper_section_1_title: "The Vision"
+  green_paper_section_1_description: |
+    Chia Network is an open-source blockchain which is more decentralized, less wasteful, and more secure than Bitcoin.
+  green_paper_section_2_title: "Eco-Friendly Consensus Algorithm"
+  green_paper_section_2_description: |
+    The Green Paper details a new consensus algorithm called Proofs of Space and Time "PoST". PoST replaces the proofs of work in Bitcoin's mining which wastes massive amounts of energy and is less secure due to mining centralization.
   footer_language: "Language"
   footer_contact: "Contact"
   footer_find_us: "Find Us"
@@ -98,6 +106,14 @@ fr: # French
   about_press_title: "Presse"
   about_press_description: |
     Pour les demandes de presse, veuillez vous adresser à [hello@chia.net](mailto:hello@chia.net).
+  green_paper_main_title: "Livre vert de Chia Network"
+  green_paper_read_button_text: "Lire le livre vert"
+  green_paper_section_1_title: "La vision"
+  green_paper_section_1_description: |
+    Chia Network est une blockchain globale ouverte, plus décentralisée, moins onéreuse et plus sûre que Bitcoin.
+  green_paper_section_2_title: "Algorithme de consensus écologique"
+  green_paper_section_2_description: |
+    Le livre vert détaille un nouvel algorithme de consensus appelé Preuves d'espace et de temps "PoST". PoST remplace les preuves de travail dans l'exploitation minière de Bitcoin qui gaspille des quantités énormes d'énergie et est moins sécurisé en raison de la centralisation de l'exploitation minière.
   footer_language: "Langue"
   footer_contact: "Contact"
   footer_find_us: "Trouve Nous"
@@ -160,6 +176,14 @@ cn: # Japanese
   about_press_title: "押す"
   about_press_description: |
     報道に関するお問い合わせは[hello@chia.net]（mailto：hello@chia.net）までお願いします。
+  green_paper_main_title: "Chia Networkのグリーンペーパー"
+  green_paper_read_button_text: "グリーンペーパーを読む"
+  green_paper_section_1_title: "ビジョン"
+  green_paper_section_1_description: |
+    Chia Networkは、Bitcoinよりも分散化され、無駄が少なく、安全性の高いオープンソースのグローバルブロックチェーンです。
+  green_paper_section_2_title: "環境に優しい合意アルゴリズム"
+  green_paper_section_2_description: |
+    グリーンペーパーは、空間と時間の証明 "PoST"と呼ばれる新しい合意アルゴリズムを詳しく述べています。 PoSTは、大量のエネルギーを浪費し、採鉱の集中化により安全性が低下する、Bitcoinの採鉱における作業の証明に代わるものです。
   footer_language: "言語"
   footer_contact: "接触"
   footer_find_us: "私達を見つけなさい"
@@ -222,6 +246,14 @@ nl: # Dutch
   about_press_title: "druk op"
   about_press_description: |
     Neem voor vragen over de pers contact op met [hello@chia.net](mailto:hello@chia.net).
+  green_paper_main_title: "Chia Network's Groenboek"
+  green_paper_read_button_text: "Lees het groenboek"
+  green_paper_section_1_title: "De visie"
+  green_paper_section_1_description: |
+    Chia Network is een open-source wereldwijde blockchain die meer gedecentraliseerd is, minder verkwistend en veiliger dan Bitcoin.
+  green_paper_section_2_title: "Eco-vriendelijk consensusalgoritme"
+  green_paper_section_2_description: |
+    Het groenboek beschrijft een nieuw consensusalgoritme genaamd Proofs of Space and Time "PoST". PoST vervangt de bewijzen van werk in de mijnbouw van Bitcoin, die enorme hoeveelheden energie verspilt en minder veilig is vanwege de centralisatie van de mijnbouw.
   footer_language: "Taal"
   footer_contact: "Contact"
   footer_find_us: "Vind ons"
@@ -284,6 +316,14 @@ de: # German
   about_press_title: "Drücken Sie"
   about_press_description: |
     Für Presseanfragen wenden Sie sich bitte an [hello@chia.net](mailto:hello@chia.net).
+  green_paper_main_title: "Grünbuch von Chia Network"
+  green_paper_read_button_text: "Lesen Sie das Grünbuch"
+  green_paper_section_1_title: "Die Vision"
+  green_paper_section_1_description: |
+    Chia Network ist eine offene globale Blockchain, die dezentraler, weniger verschwenderisch und sicherer ist als Bitcoin.
+  green_paper_section_2_title: "Umweltfreundlicher Konsens-Algorithmus"
+  green_paper_section_2_description: |
+    Das Grünbuch beschreibt einen neuen Konsensalgorithmus mit der Bezeichnung "PoST" (Proofs of Space and Time). PoST ersetzt die Arbeitsnachweise im Bergbau von Bitcoin, der enorme Mengen an Energie verschwendet und aufgrund der Bergbauzentralisierung weniger sicher ist.
   footer_language: "Sprache"
   footer_contact: "Kontakt"
   footer_find_us: "Finde uns"
@@ -345,6 +385,14 @@ es: # Spanish
   about_press_title: "prensa"
   about_press_description: |
     Para consultas de prensa, comuníquese con [hello@chia.net](mailto:hello@chia.net).
+  green_paper_main_title: "Libro Verde de Chia Network"
+  green_paper_read_button_text: "Lee el Libro Verde"
+  green_paper_section_1_title: "La visión"
+  green_paper_section_1_description: |
+    Chia Network es una cadena de bloques global de código abierto, más descentralizada, menos desperdiciada y más segura que Bitcoin.
+  green_paper_section_2_title: "Algoritmo de consenso ecológico"
+  green_paper_section_2_description: |
+    El Libro Verde detalla un nuevo algoritmo de consenso llamado Pruebas del espacio y el tiempo "PST". PoST reemplaza las pruebas de trabajo en la minería de Bitcoin, que desperdicia cantidades masivas de energía y es menos segura debido a la centralización de la minería.
   footer_language: "Idioma"
   footer_contact: "Contacto"
   footer_find_us: "Encuéntranos"
@@ -407,6 +455,14 @@ sr: # Serbian
   about_press_title: "Притисните"
   about_press_description: |
     За новинске упите, обратите се на [hello@chia.net](mailto:hello@chia.net).
+  green_paper_main_title: "Зелени папир Цхиа Нетворк"
+  green_paper_read_button_text: "Прочитајте Зелену књигу"
+  green_paper_section_1_title: "Визија"
+  green_paper_section_1_description: |
+    Цхиа Нетворк је глобални блоцкцхаин отвореног извора који је више децентрализован, мање расипан и сигурнији од Битцоин-а.
+  green_paper_section_2_title: "Еколошки пријатељски алгоритам"
+  green_paper_section_2_description: |
+    Зелена књига детаљно описује нови консензусни алгоритам под називом Докази о простору и времену "ПоСТ". ПоСТ замењује доказе о раду у рударству Битцоин-а који троши огромне количине енергије и мање је безбедно због централизације рудника.
   footer_language: "Језик"
   footer_contact: "Контакт"
   footer_find_us: "Пронађи нас"
@@ -469,6 +525,14 @@ pt: # Portuguese
   about_press_title: "pressione"
   about_press_description: |
     Para informações sobre a imprensa, entre em contato com [hello@chia.net](mailto:hello@chia.net).
+  green_paper_main_title: "Livro Verde da Chia Network"
+  green_paper_read_button_text: "Leia o Livro Verde"
+  green_paper_section_1_title: "A visão"
+  green_paper_section_1_description: |
+    Chia Network é um blockchain global de código aberto que é mais descentralizado, menos dispendioso e mais seguro que o Bitcoin.
+  green_paper_section_2_title: "Algoritmo de consenso ecologicamente correto"
+  green_paper_section_2_description: |
+    O Livro Verde detalha um novo algoritmo de consenso chamado Provas de Espaço e Tempo "PoST". O PST substitui as provas de trabalho na mineração do Bitcoin, que desperdiça enormes quantidades de energia e é menos seguro devido à centralização da mineração.
   footer_language: "Língua"
   footer_contact: "Contato"
   footer_find_us: "Ache-nos"
@@ -531,6 +595,14 @@ tr: # Turkish
   about_press_title: "Basın"
   about_press_description: |
     Basın soruları için lütfen [hello@chia.net](mailto:hello@chia.net).
+  green_paper_main_title: "Chia Network'ün Yeşil Kitabı"
+  green_paper_read_button_text: "Yeşil Kağıdı Okuyun"
+  green_paper_section_1_title: "Vizyon"
+  green_paper_section_1_description: |
+    Chia Network, merkezi olmayan, daha az israf ve Bitcoin'den daha güvenli olan açık kaynaklı bir küresel blok zinciridir.
+  green_paper_section_2_title: "Çevre Dostu Konsensüs Algoritması"
+  green_paper_section_2_description: |
+    Yeşil Kitap, Uzay ve Zaman Kanıtları "PoST" adlı yeni bir fikir birliği algoritmasını ayrıntılarıyla anlatıyor. PoST, büyük miktarlarda enerji harcayan ve madencilik merkezileşmesi nedeniyle daha az güvenli olan Bitcoin madenciliğindeki çalışma kanıtlarının yerini alıyor.
   footer_language: "Dil"
   footer_contact: "Temas"
   footer_find_us: "Bizi bul"
