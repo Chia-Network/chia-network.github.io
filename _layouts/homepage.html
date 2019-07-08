@@ -3,7 +3,11 @@ layout: default
 ---
 
 {% assign strings = site.data.strings[page.lang] %}
-
+{% if page.lang == "en" %}
+    {% assign site_prefix = "" %}
+{% else %}
+    {% assign site_prefix = page.lang | prepend:"/" %}
+{% endif %}
 <div class="homepage">
     {% if site.data.contact.banner.show %}
         <div class="banner-container">
@@ -13,7 +17,7 @@ layout: default
     {% endif %}
     <div class="header-container">
         <div class="header-background"></div>
-        <script type="text/javascript">
+        <!-- <script type="text/javascript">
             // cachebuster is used to mitigate Chrome bug where playing videos from browser cache sometimes gets corrupted videos
             var videoDiv = document.currentScript.previousElementSibling;
             videoDiv.innerHTML =
@@ -21,12 +25,19 @@ layout: default
                     '<source src="/img/background.mp4?__cachebuster__=' + Date.now() + '" type="video/mp4" poster="/img/background.jpg">' +
                     '<img src="/img/background.jpg" alt="Background Image">' +
                 '</video>';
-        </script>
+        </script> -->
         
         {% include navigation.html %}
-        <div class="header">
-            <h1>{{ strings.homepage_title }}</h1>
-            <p>{{ strings.homepage_subtitle }}</p>
+        <div class="container header">
+            <div class="row">
+                <div class="col-md-5 header-center">
+                    <h1>{{ strings.green_paper_main_title }}</h1>
+                    <a href="{{site_prefix}}/greenpaper">{{ strings.green_paper_read_button_text }}</a>
+                </div>
+                <div class="col-md-7 order-first order-md-last header-center">
+                    <img class="header-image" src="/assets/green_paper_header_image.png" />
+                </div>
+            </div>
         </div>
     </div>
     <div class="details-container">
