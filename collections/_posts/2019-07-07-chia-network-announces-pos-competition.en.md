@@ -2,7 +2,7 @@
 lang: en
 layout: post
 title:  "Chia Network Announces Proof of Space Competition with $100k in Total Prize Money"
-date:   2019-07-09
+date:   2019-07-07
 carousel: true
 ---
 

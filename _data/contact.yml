@@ -24,5 +24,5 @@ keybase_team_page: https://keybase.io/team/chia_network.public
 banner:
     show: true # whether or not to display the banner
     text: "![](/img/party_popper.svg)&nbsp; **Win $100k in Total Prize Money!**" # markdown content of banner
-    link: https://www.chia.net/2019/07/09/chia-network-announces-pos-competition.en.html # webpage that the banner button links to
+    link: https://www.chia.net/2019/07/07/chia-network-announces-pos-competition.en.html # webpage that the banner button links to
     link_title: See How # content of the banner button
