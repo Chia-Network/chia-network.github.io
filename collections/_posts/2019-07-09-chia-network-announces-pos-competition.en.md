@@ -33,7 +33,7 @@ We will be awarding a total of $100k in prize money. The prize money will be awa
 
 Individuals and teams are invited to join. Entrants will all have access to the specialized computers in Chia’s laboratory. Specifications of the reference hardware and further technical details are available on our [GitHub](https://github.com/Chia-Network/proofofspace). You can view our pre-commitment [here](https://github.com/Chia-Network/proofofspace/blob/master/contest_intro.md). Contestants will be able to communicate with Chia during the competition via a secure Keybase channel.
 
-Steps For Participating
+###Steps For Participating
 
 1. Both submissions and communications with the Chia team are done via Keybase. After you install the Keybase application, we have two channels available in chia_network.public: #POS_contest (for discussions related to the competition) and #general (for general discussions about Chia). To join, type in your terminal: keybase team request-access chia_network.public  
 2. Complete the [Entry Form](https://github.com/Chia-Network/proof-of-space/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf) together with the signed version of [POS Competition Rules and Disclosures Agreement](https://github.com/Chia-Network/proof-of-space/blob/master/Chia%20Network%20-%20POS%20Contest%20Rules%20and%20Disclosures.pdf). In the case of team participation, each team member must complete both forms and all members must choose the same point of contact. The forms should be sent to Ali Shadle, either via Keybase (@ashadle) or via email (ali@chia.net).  
