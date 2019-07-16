@@ -28,7 +28,7 @@ en: # English
   homepage_hiring_apply: "Apply now"
   about_title: "About Chia"
   about_description: |
-    Chia Network is a decentralized open source global blockchain which is less wasteful, more decentralized, and more secure than Bitcoin. It is inspired and similar to the Bitcoin blockchain, but in Chia, the resource is not computing power, but disk space. To achieve this, the “proofs of work” used in Bitcoin are replaced by “proofs of space”, so disk-space becomes the main resource and proofs of time to come to a decentralized “Nakamoto-style” consensus that validates transactions.
+    Chia Network is a decentralized open source global blockchain which is less wasteful, more decentralized, and more secure than Bitcoin. It is inspired and similar to the Bitcoin blockchain, but in Chia the resource is not computing power, but disk space. To achieve this, the “proofs of work” used in Bitcoin are replaced by “proofs of space”, so disk-space becomes the main resource. This is combined with "proofs of time" to come to a decentralized “Nakamoto-style” consensus that validates transactions.
   about_leadership_title: "Leadership Team"
   about_advisors_title: "Advisors"
   about_invest_investors_title: "Our Investors"
