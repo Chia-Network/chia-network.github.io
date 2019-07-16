@@ -6,7 +6,7 @@ date:   2019-07-17
 carousel: true
 ---
 
-Following the release of our [green paper](https://www.chia.net/assets/ChiaGreenPaper.pdf) and the launch of our [Proof of Space competition](https://www.chia.net/blog/2019/07/07chia-network-announces-pos-competition.en.html) Chia has received lots of positive attention from media outlets including Venture Beat and Yahoo Finance and the community at large.
+Following the release of our [green paper](https://www.chia.net/assets/ChiaGreenPaper.pdf) and the launch of our [Proof of Space competition](https://www.chia.net/blog/2019/07/07/chia-network-announces-pos-competition.en.html) Chia has received lots of positive attention from media outlets including Venture Beat and Yahoo Finance and the community at large.
 [Decrypt Media](https://decrypt.co), an independent website dedicated to cryptocurrency news, reached out to interview Bram Cohen, founder and CTO of Chia.
 They were interested in where Chia envisioned itself in the wider cryptocurrency eco-system and how Chia improved upon existing cryptocurrencies. You can read their full interview [here](https://decrypt.co/7793/bram-cohen-at-last-releases-his-chia-network-green-paper).
 
