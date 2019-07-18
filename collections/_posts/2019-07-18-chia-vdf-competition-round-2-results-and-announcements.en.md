@@ -16,7 +16,7 @@ The passphrase for the final judging discriminant generation (as given by the pr
   
 python3 create_competition_discriminants.py “armor drive digital shaft dash wide resemble guilt bubble push sniff grass asset vital version reward grid popular ketchup diary pen hurdle doctor lumber”  
   
-Sundersoft's entry took advantage of a number of optimizations and you can read about his improvements [here](sundersoft/entry/README.md). One of his ideas was to parallelize parts of the algorithm in order to take advantage of two cores, and that helped to push him to a 2x speedup over the reference implementation.  
+Sundersoft's entry took advantage of a number of optimizations and you can read about his improvements [here](https://github.com/Chia-Network/vdfcontest2results/blob/master/sundersoft/entry/README.md). One of his ideas was to parallelize parts of the algorithm in order to take advantage of two cores, and that helped to push him to a 2x speedup over the reference implementation.  
   
 Techniques from ALL contestants will likely be incorporated to further improve the VDF algorithm. Thus, additionally, Chia has decided to award $2000 each to the three teams that submitted an optimized entry but did not place first. Thank you for your hard work! 
 
@@ -24,7 +24,7 @@ The source code for all entries for both tracks is included in this [repository]
   
 Please consider entering our [current competition](https://www.chia.net/2019/07/07/chia-network-announces-pos-competition.en.html) for improving the [Proof of Space](https://github.com/Chia-Network/proofofspace) algorithm. Proof of Space is heavily dependent on sorting and disk I/O and there should be many possibilities for improvement over the reference implementation. There is also a Hellman attack (time/memory tradeoff) example for those who would like to see how much space they can save by maxing out the computational power of the reference hardware.  
   
-## Track 1 Results (SIMD/GPU) in avg secs per run  
+## Track 1 Results (SIMD/GPU) avg sec  
   
 Sundersoft: 91.3    
 nemo1369: 133 crash #4 hang #5    
@@ -32,7 +32,7 @@ PulledPork: 145.7 (late entry)
 pulmark: 161 hang #4    
 Chia reference: 178    
   
-## Track 2 Results (No SIMD/GPU) in avg secs per run  
+## Track 2 Results (No SIMD/GPU) avg sec  
   
 Sundersoft: 97.4    
 nemo1369: 142 crash #4 hang #5    
