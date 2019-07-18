@@ -6,7 +6,7 @@ date:   2019-07-18
 carousel: true
 ---
 
-# Congratulations to Sundersoft for winning both tracks of the second Chia VDF competition and earning $100,000!  
+Congratulations to Sundersoft for winning both tracks of the second Chia VDF competition and earning $100,000!  
   
 We had four entries that all made large improvements in the speed of the VDF algorithm in both contest tracks compared to our in house reference implementation. Note that these timings are for 4x the iterations and on slightly slower hardware (no turboboost) than the first VDF contest.
 
