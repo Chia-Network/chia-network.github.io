@@ -27,7 +27,7 @@ Please consider entering our [current competition](https://www.chia.net/2019/07/
 ## Track 1 Results (SIMD/GPU) avg sec  
   
 Sundersoft: 91.3    
-nemo1369: 133 crash #4 hang #5    
+nemo1369/Nil Foudation: 133 crash #4 hang #5    
 PulledPork: 145.7 (late entry)    
 pulmark: 161 hang #4    
 Chia reference: 178    
@@ -35,7 +35,7 @@ Chia reference: 178
 ## Track 2 Results (No SIMD/GPU) avg sec  
   
 Sundersoft: 97.4    
-nemo1369: 142 crash #4 hang #5    
+nemo1369/Nil Foundation: 142 crash #4 hang #5    
 PulledPork: 153 (late entry)    
 pulmark: 164 hang #4    
 Chia reference: 182.6    
