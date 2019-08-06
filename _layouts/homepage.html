@@ -10,8 +10,8 @@ layout: default
 {% endif %}
 <div class="homepage">
     {% if site.data.contact.banner.show %}
-        <div class="banner-container">
-            <span class="banner-text mr-5">{{ site.data.contact.banner.text | markdownify }}</span>
+        <div class="banner-container" >
+            <a class="banner-text mr-5" href ="{{ site.data.contact.banner.link }}">{{ site.data.contact.banner.text | markdownify }}</a>
             <a class="section-button" href="{{ site.data.contact.banner.link }}" rel="noopener" target="_blank">{{ site.data.contact.banner.link_title }} <img src="/img/hiring_arrow_dark.svg" alt="arrow"></a>
         </div>
     {% endif %}
@@ -26,7 +26,7 @@ layout: default
                     '<img src="/img/background.jpg" alt="Background Image">' +
                 '</video>';
         </script> -->
-        
+
         {% include navigation.html %}
         <div class="container header">
             <div class="row">
@@ -95,7 +95,7 @@ layout: default
             </div>
 
             <div class="row">
-                {% assign posts = site.posts | where:"lang",page.lang | reversed %} 
+                {% assign posts = site.posts | where:"lang",page.lang | reversed %}
                 {% for entry in posts limit:6 %}
                     <a href="{{ entry.url }}" class="col-md-4 post d-block p-3">
                         <p>{{ entry.date | date:"%B %-d, %Y" }}</p>
@@ -114,7 +114,7 @@ layout: default
                 </div>
             </div>
             <div class="row">
-                {% assign community_posts = site.community | where:"lang",page.lang | sort:"order" %} 
+                {% assign community_posts = site.community | where:"lang",page.lang | sort:"order" %}
                 {% for entry in community_posts %}
                     <div class="col-md-6 community-post">
                         <h3>{{ entry.title }}</h3>
