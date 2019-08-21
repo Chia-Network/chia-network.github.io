@@ -4,8 +4,11 @@
 - code: fr
   name: Français
   path: "/fr"
-- code: cn
+- code: jp
   name: 日本語
+  path: "/jp"
+- code: cn
+  name: 中文
   path: "/cn"
 - code: nl
   name: Nederlands
