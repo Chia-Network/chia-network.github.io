@@ -20,7 +20,7 @@ en: # English
   homepage_community_title: "The Chia Community"
   homepage_about_title: "About Chia"
   homepage_about_description: |
-    Chia Network is a decentralized open source global blockchain which is less wasteful, more decentralized, and more secure than Bitcoin. It is inspired and similar to the Bitcoin blockchain, but in Chia, the resource is not computing power, but disk space. To achieve this, the “proofs of work” used in Bitcoin are replaced by “proofs of space”, so disk-space becomes the main resource and proofs of time to come to a decentralized “Nakamoto-style” consensus that validates transactions.
+    Chia Network is a decentralized open source global blockchain which is less wasteful, more decentralized, and more secure. It is inspired and similar to the Bitcoin blockchain, but in Chia, the resource is not computing power, but disk space. To achieve this, the “proofs of work” used in Bitcoin are replaced by “proofs of space”, so disk-space becomes the main resource and proofs of time to come to a decentralized “Nakamoto-style” consensus that validates transactions.
   homepage_investors: "Our investors"
   homepage_hiring_title: "We&apos;re Hiring!"
   homepage_hiring_description: |
@@ -28,7 +28,7 @@ en: # English
   homepage_hiring_apply: "Apply now"
   about_title: "About Chia"
   about_description: |
-    Chia Network is a decentralized open source global blockchain which is less wasteful, more decentralized, and more secure than Bitcoin. It is inspired and similar to the Bitcoin blockchain, but in Chia the resource is not computing power, but disk space. To achieve this, the “proofs of work” used in Bitcoin are replaced by “proofs of space”, so disk-space becomes the main resource. This is combined with "proofs of time" to come to a decentralized “Nakamoto-style” consensus that validates transactions.
+    Chia Network is a decentralized open source global blockchain which is less wasteful, more decentralized, and more secure. It is inspired and similar to the Bitcoin blockchain, but in Chia the resource is not computing power, but disk space. To achieve this, the “proofs of work” used in Bitcoin are replaced by “proofs of space”, so disk-space becomes the main resource. This is combined with "proofs of time" to come to a decentralized “Nakamoto-style” consensus that validates transactions.
   about_leadership_title: "Leadership Team"
   about_advisors_title: "Advisors"
   about_invest_investors_title: "Our Investors"
@@ -42,7 +42,7 @@ en: # English
   green_paper_read_button_text: "Read the Green Paper"
   green_paper_section_1_title: "The Vision"
   green_paper_section_1_description: |
-    Chia Network is an open-source blockchain which is more decentralized, less wasteful, and more secure than Bitcoin.
+    Chia Network is an open-source blockchain which is more decentralized, less wasteful, and more secure.
   green_paper_section_2_title: "Eco-Friendly Consensus Algorithm"
   green_paper_section_2_description: |
     The Green Paper details a new consensus algorithm called Proofs of Space and Time "PoST". PoST replaces the proofs of work in Bitcoin's mining which wastes massive amounts of energy and is less secure due to mining centralization.
@@ -90,7 +90,7 @@ fr: # French
   homepage_community_title: "La Communauté Chia"
   homepage_about_title: "À propos de Chia"
   homepage_about_description: |
-    Chia Network est une blockchain globale open source décentralisée qui génère moins de gaspillage, est plus décentralisée et plus sécurisée que Bitcoin. Elle est inspirée et semblable à la blockchain Bitcoin, mais en Chia, la ressource n’est pas de la puissance de calcul, mais de l’espace disque. Pour y parvenir, les «preuves de travail» utilisées dans Bitcoin sont remplacées par des «preuves d'espace», de sorte que l'espace disque devient la principale ressource et les preuves du temps nécessaire pour parvenir à un consensus décentralisé «à la Nakamoto» validant les transactions.
+    Chia Network est une blockchain globale open source décentralisée qui génère moins de gaspillage, est plus décentralisée et plus sécurisée. Elle est inspirée et semblable à la blockchain Bitcoin, mais en Chia, la ressource n’est pas de la puissance de calcul, mais de l’espace disque. Pour y parvenir, les «preuves de travail» utilisées dans Bitcoin sont remplacées par des «preuves d'espace». L'espace disque devient ainsi la principale ressource et les preuves du temps nécessaire pour parvenir à un consensus décentralisé «à la Nakamoto» validant les transactions.
   homepage_hiring_title: "Nous recrutons!"
   homepage_hiring_description: |
     Nous cherchons à engager plusieurs programmeurs doués sur le plan technique pour travailler avec notre équipe de cryptographes à la construction de notre protocole. Doit avoir de fortes compétences en algorithmes. Expérience en cryptographie est un atout mais pas obligatoire. La télécommande est acceptable, mais être à San Francisco est un avantage. Pour postuler, veuillez participer à quelques concours LeetCode et envoyer un lien vers votre profil LeetCode dans votre lettre de motivation et votre CV [Indeed](https://www.indeedjobs.com/chia-network/_hl/en_US?cpref=JXWAtnzf3XW5aRnY2g_zouV7xMD8uRK8wx8CMVARBLk)
@@ -110,7 +110,7 @@ fr: # French
   green_paper_read_button_text: "Lire le livre vert"
   green_paper_section_1_title: "La vision"
   green_paper_section_1_description: |
-    Chia Network est une blockchain globale ouverte, plus décentralisée, moins onéreuse et plus sûre que Bitcoin.
+    Chia Network est une blockchain open-source plus décentralisée, moins onéreuse et plus sûre.
   green_paper_section_2_title: "Algorithme de consensus écologique"
   green_paper_section_2_description: |
     Le livre vert détaille un nouvel algorithme de consensus appelé Preuves d'espace et de temps "PoST". PoST remplace les preuves de travail dans l'exploitation minière de Bitcoin qui gaspille des quantités énormes d'énergie et est moins sécurisé en raison de la centralisation de l'exploitation minière.
@@ -136,7 +136,78 @@ fr: # French
   community_live_feed_title: "Live View Flux de Chia"
   community_live_feed_subtitle: "Restez à jour avec notre communauté et rejoignez notre groupe Keybase."
 
-cn: # Japanese
+cn: # Chinese
+  faq_title: "經常問的問題"
+  news_see_more: "看更多"
+  homepage_title: "第一個企業級數字貨幣"
+  homepage_subtitle: "實現可持續的全球智能硬幣"
+  homepage_section_1_heading: "有用"
+  homepage_section_1_title: "你的錢，你想要的方式和地點"
+  homepage_section_1_description: |
+    Chiaのターゲット機能は、銀行口座でできることをすべて実行しますが、銀行がなくても優れています。 トランザクションは簡単で、安全で、スマートです。
+  homepage_section_2_heading: "可持續發展"
+  homepage_section_2_title: "數字貨幣不一定是浪費"
+  homepage_section_2_description: |
+    傳統的加密貨幣挖掘是緩慢，浪費和集中的。 Chia的方法節能且分佈廣泛，因為即使是數字貨幣也應該是綠色的。
+  homepage_section_3_heading: "無障礙"
+  homepage_section_3_title: "符合專業和個人需求的貨幣"
+  homepage_section_3_description: |
+    現在，即使是跨國企業也可以加入我們的新金融世界，而不必擔心波動或脆弱性。
+  homepage_blog_title: "最新的"
+  homepage_blog_signup: "註冊公告"
+  homepage_community_title: "Chia社區"
+  homepage_about_title: "關於Chia"
+  homepage_about_description: |
+    Chia Network是一個分散的開源全球區塊鏈，它更少浪費，更分散，更安全。它的靈感與比特幣區塊鏈類似，但在Chia中，資源不是計算能力，而是磁盤空間。為了實現這一目標，比特幣中使用的“工作證明”被“空間證明”所取代，因此磁盤空間成為主要資源，並證明了時間分散的“Nakamoto式”共識可以驗證交易。
+  homepage_investors: "我們的投資者"
+  homepage_hiring_title: "我們正在招聘"
+  homepage_hiring_description: |
+    我們希望聘請幾位技術天才的程序員與我們的密碼學家團隊一起構建我們的協議。必須具備強大的算法技能。加密經驗是一個加號，但不是必需的。遠程是可以的，但在舊金山是一個加號。要申請，請完成幾個LeetCode競賽，並在您的求職信和簡歷中發送指向您的LeetCode個人資料的鏈接[indeed](https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d).
+  homepage_hiring_apply: "現在申請"
+  about_title: "關於Chia"
+  about_description: |
+    Chia Network是一個分散的開源全球區塊鏈，它更少浪費，更分散，更安全。它受到啟發並類似於比特幣區塊鏈，但在Chia中，資源不是計算能力，而是磁盤空間。為實現這一目標，比特幣中使用的“工作證明”被“空間證明”所取代，因此磁盤空間成為主要資源。這與“時間證明”相結合，形成了一種分散的“中本式”共識，可以驗證交易。
+  about_leadership_title: "領導班子"
+  about_advisors_title: "顧問"
+  about_invest_investors_title: "我們的投資者"
+  about_careers_title: "職業生涯"
+  about_careers_description: |
+    私達は私達の暗号化技術者のチームと協力して私達のプロトコルを構築するために何人かの技術的に才能のあるプログラマーを雇おうとしています。強力なアルゴリズムスキルが必要です。暗号化の経験はプラスですが必須ではありません。リモートは大丈夫ですが、サンフランシスコにいることはプラスです。応募するには、いくつかのLeetCodeコンテストを完了し、Cover LetterのLeetCodeプロファイルへのリンクと履歴書を[https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d]に送ってください。
+    我們希望聘請幾位技術天才的程序員與我們的密碼學家團隊一起構建我們的協議。必須具備強大的算法技能。加密經驗是一個加號，但不是必需的。遠程是可以的，但在舊金山是一個加號。要申請，請完成一對LeetCode競賽，並在求職信和簡歷中發送您的LeetCode個人資料鏈接[indeed](https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d)。
+  about_press_title: "新聞界"
+  about_press_description: |
+    媒體查詢，請聯繫[hello@chia.net](mailto：hello@chia.net).。
+  green_paper_main_title: "Chia Network的綠皮書"
+  green_paper_read_button_text: "閱讀綠皮書"
+  green_paper_section_1_title: "願景"
+  green_paper_section_1_description: |
+    Chia Network是一個開源的區塊鏈，它更分散，更少浪費，更安全。
+  green_paper_section_2_title: "生態友好共識算法"
+  green_paper_section_2_description: |
+    綠皮書詳細介紹了一種新的共識算法，稱為空間和時間證明“PoST”。 PoST取代了比特幣採礦業的工作證明，這種做法浪費了大量的能源，並且由於採礦集中化而不太安全。
+  footer_language: "語言"
+  footer_contact: "聯繫我們"
+  footer_find_us: "找到我們"
+  # footer_disclaimer: |
+  #  通过为此存储库提供帮助，您同意在MIT许可下许可您的工作，除非在contrib / debian / copyright中另有说明或在文件顶部本身。在您不是原作者的情况下所做的任何工作必须包含其原始作者和来源的许可证标题。
+  footer_copyright_year: "© Chia Network 2019"
+  navigation_faq: "常問問題"
+  navigation_news: "消息"
+  navigation_blog: "博客"
+  navigation_community: "社區"
+  navigation_about: "關於"
+  navigation_hiring: "我們正在招聘"
+  community_email_title: "Chia在你的收件箱裡。"
+  community_email_description: |
+    及時了解我們的社區並加入我們的Keybase小組。
+  community_signup: "報名"
+  community_expand_details: "展開以查看完整詳細信息"
+  community_collapse_details: "折疊完整詳細信息"
+  community_go_to_keybase: "轉到Keybase"
+  community_live_feed_title: "Chia的實時視圖Feed"
+  community_live_feed_subtitle: "及時了解我們的社區並加入我們的Keybase小組。"
+
+jp: # Japanese
   faq_title: "よくある質問"
   news_see_more: "続きを見る"
   homepage_title: "初のエンタープライズグレードのデジタルマネー"
@@ -158,8 +229,8 @@ cn: # Japanese
   homepage_community_title: "チアコミュニティ"
   homepage_about_title: "チアについて"
   homepage_about_description: |
-    Chia Networkは、Bitcoinよりも無駄が少なく、より分散化され、安全性の高い、分散型オープンソースグローバルブロックチェーンです。それはインスピレーションを得たもので、Bitcoinブロックチェーンに似ていますが、Chiaでは、リソースはコンピューティング能力ではなくディスク容量です。これを実現するために、Bitcoinで使用されている「作業の証明」が「スペースの証明」に置き換えられ、ディスクスペースが主なリソースとなり、トランザクションを検証する分散型の「ナカモトスタイル」の合意が得られます。
-  homepage_investors: "私たちの投資家"
+    Chia Networkは、分散型のオープンソースグローバルブロックチェーンであり、無駄が少なく、分散型で、安全です。 これは、Bitcoinブロックチェーンにインスパイアされ、類似していますが、Chiaでは、リソースは計算能力ではなく、ディスクスペースです。 これを実現するために、ビットコインで使用される「作業の証明」は「スペースの証明」に置き換えられます。そのため、ディスクスペースが主要なリソースとなり、トランザクションを検証する分散型「中本スタイル」コンセンサスに至る時間の証明になります。
+  homepage_investors: "投資家"
   homepage_hiring_title: "私たちは雇っています!"
   homepage_hiring_description: |
     私達は私達の暗号化技術者のチームと協力して私達のプロトコルを構築するために何人かの技術的に才能のあるプログラマーを雇おうとしています。強力なアルゴリズムスキルが必要です。暗号化の経験はプラスですが必須ではありません。リモートは大丈夫ですが、サンフランシスコにいることはプラスです。応募するには、いくつかのLeetCodeコンテストに記入し、Cover LetterのLeetCodeプロフィールへのリンクと実際の履歴書を送ってください。
@@ -175,12 +246,12 @@ cn: # Japanese
     私達は私達の暗号化技術者のチームと協力して私達のプロトコルを構築するために何人かの技術的に才能のあるプログラマーを雇おうとしています。強力なアルゴリズムスキルが必要です。暗号化の経験はプラスですが必須ではありません。リモートは大丈夫ですが、サンフランシスコにいることはプラスです。応募するには、いくつかのLeetCodeコンテストを完了し、Cover LetterのLeetCodeプロファイルへのリンクと履歴書を[https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d]に送ってください。
   about_press_title: "押す"
   about_press_description: |
-    報道に関するお問い合わせは[hello@chia.net]（mailto：hello@chia.net）までお願いします。
+    報道に関するお問い合わせは[hello@chia.net](mailto：hello@chia.net)までお願いします。
   green_paper_main_title: "Chia Networkのグリーンペーパー"
   green_paper_read_button_text: "グリーンペーパーを読む"
   green_paper_section_1_title: "ビジョン"
   green_paper_section_1_description: |
-    Chia Networkは、Bitcoinよりも分散化され、無駄が少なく、安全性の高いオープンソースのグローバルブロックチェーンです。
+    Chia Networkは、より分散化され、無駄が少なく、より安全なオープンソースのブロックチェーンです。
   green_paper_section_2_title: "環境に優しい合意アルゴリズム"
   green_paper_section_2_description: |
     グリーンペーパーは、空間と時間の証明 "PoST"と呼ばれる新しい合意アルゴリズムを詳しく述べています。 PoSTは、大量のエネルギーを浪費し、採鉱の集中化により安全性が低下する、Bitcoinの採鉱における作業の証明に代わるものです。
@@ -189,7 +260,7 @@ cn: # Japanese
   footer_find_us: "私達を見つけなさい"
   # footer_disclaimer: |
   #  通过为此存储库提供帮助，您同意在MIT许可下许可您的工作，除非在contrib / debian / copyright中另有说明或在文件顶部本身。在您不是原作者的情况下所做的任何工作必须包含其原始作者和来源的许可证标题。
-  footer_copyright_year: "© スプリットネットワーク2019"
+  footer_copyright_year: "© Chia Network 2019"
   navigation_faq: "よくある質問"
   navigation_news: "ニュース"
   navigation_blog: "ブログ"
@@ -202,9 +273,9 @@ cn: # Japanese
   community_signup: "サインアップ"
   community_expand_details: "詳細を見る"
   community_collapse_details: "詳細を見るために折りたたむ"
-  community_go_to_keybase: "Go to Keybase"
-  community_live_feed_title: "Chia's Live View Feed"
-  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
+  community_go_to_keybase: "キーベースに移動"
+  community_live_feed_title: "Chiaのライブビューフィード"
+  community_live_feed_subtitle: "コミュニティの最新情報を入手して、キーベースグループに参加してください。"
 
 nl: # Dutch
   faq_title: "Veel Gestelde Vragen"
@@ -224,23 +295,23 @@ nl: # Dutch
   homepage_section_3_description: |
     Nu kunnen zelfs multinationals deelnemen aan onze nieuwe financiële wereld zonder bang te hoeven zijn voor volatiliteit of kwetsbaarheid.
   homepage_blog_title: "De laatste"
-  homepage_blog_signup: "Sign up for announcements"
+  homepage_blog_signup: "Meld u aan voor aankondigingen"
   homepage_community_title: "De Chia-gemeenschap"
   homepage_about_title: "Over Chia"
   homepage_about_description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimus veniam, quis nostrud exercise ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Chia Network is een gedecentraliseerde open source wereldwijde blockchain die minder verspillend, meer gedecentraliseerd en veiliger is. Het is geïnspireerd en vergelijkbaar met de Bitcoin-blockchain, maar in Chia is de bron geen rekenkracht, maar schijfruimte. Om dit te bereiken, worden de "bewijzen van werk" die in Bitcoin worden gebruikt, vervangen door "bewijzen van ruimte", dus schijfruimte wordt de belangrijkste bron en het bewijs van tijd om tot een gedecentraliseerde "Nakamoto-stijl" consensus te komen die transacties valideert.
   homepage_investors: "Onze investeerders"
   homepage_hiring_title: "We zijn aan het huren!"
   homepage_hiring_description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Protokolümüzü geliştirmek için kriptograf ekibimizle birlikte çalışmak için teknik olarak yetenekli birkaç programcı işe almak istiyoruz. Güçlü algoritma becerilerine sahip olmalı. Şifreleme deneyimi bir artı ama gerekli değildir. Uzaktan tamam ama San Francisco'da olmak bir artı. Başvurmak için lütfen birkaç LeetCode Yarışması tamamlayın ve Kapak Mektubunuzdaki LeetCode profilinize bir link gönderin ve devam etmek için [indeed](https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d).
   homepage_hiring_apply: "Nu toepassen"
   about_title: "Over Chia"
   about_description: |
     Chia is nuttige, duurzame en toegankelijke valuta voor een nieuw tijdperk van digitaal geld. We hebben een blockchain-netwerk ontworpen dat veiliger is, meer geografisch verspreid en minder verkwistend dan traditionele cryptocurrencies, waardoor het meer compatibel is voor zowel persoonlijke als professionele behoeften. Chia werd in 2017 in San Francisco opgericht door een team dat is geworteld in digitale geld-, cryptografie- en financiële sectoren, afkomstig van BitTorrent, Tradehill, Changetip, Lightning Labs, Stanford University en Columbia University.
   about_leadership_title: "Leiderschaps team"
-  about_advisors_title: "Advisors"
-  about_invest_investors_title: "Our Investors"
-  about_careers_title: "Careers"
+  about_advisors_title: "Adviseurs"
+  about_invest_investors_title: "Onze investeerders"
+  about_careers_title: "Carrières"
   about_careers_description: |
     We zijn altijd op zoek naar getalenteerde programmeurs om ons protocol te helpen bouwen. Als je geïnteresseerd bent, voltooi dan eerst een paar LeetCode-wedstrijden. Stuur vervolgens uw LeetCode-profiellink en uw cv naar [jobs@chia.net] (mailto: jobs@chia.net).
   about_press_title: "druk op"
@@ -250,7 +321,7 @@ nl: # Dutch
   green_paper_read_button_text: "Lees het groenboek"
   green_paper_section_1_title: "De visie"
   green_paper_section_1_description: |
-    Chia Network is een open-source wereldwijde blockchain die meer gedecentraliseerd is, minder verkwistend en veiliger dan Bitcoin.
+    Chia Network is een open-source blockchain die meer gedecentraliseerd, minder verspillend en veiliger is.
   green_paper_section_2_title: "Eco-vriendelijk consensusalgoritme"
   green_paper_section_2_description: |
     Het groenboek beschrijft een nieuw consensusalgoritme genaamd Proofs of Space and Time "PoST". PoST vervangt de bewijzen van werk in de mijnbouw van Bitcoin, die enorme hoeveelheden energie verspilt en minder veilig is vanwege de centralisatie van de mijnbouw.
@@ -274,7 +345,7 @@ nl: # Dutch
   community_collapse_details: "Vul de volledige details in"
   community_go_to_keybase: "Go to Keybase"
   community_live_feed_title: "Chia's Live View Feed"
-  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
+  community_live_feed_subtitle: "Blijf op de hoogte van onze community en word lid van onze Keybase-groep."
 
 de: # German
   faq_title: "Häufig gestellte Fragen"
@@ -294,22 +365,22 @@ de: # German
   homepage_section_3_description: |
     Jetzt können auch multinationale Unternehmen unserer neuen Finanzwelt beitreten, ohne Angst vor Volatilität oder Verwundbarkeit zu haben.
   homepage_blog_title: "Das Neueste"
-  homepage_blog_signup: "Sign up for announcements"
+  homepage_blog_signup: "Für Ankündigungen anmelden"
   homepage_community_title: "Die Chia-Gemeinschaft"
   homepage_about_title: "Über Chia"
   homepage_about_description: |
-    Lorem ipsum dolor sitzen amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore und dolore magna aliqua. Ut enim ad minim veniy, quis nostrud ausüben ullamco laboris nisi ut aliquip aus einer Vielzahl von Fällen.
+    Chia Network ist eine dezentrale globale Open-Source-Blockchain, die weniger verschwenderisch, dezentraler und sicherer ist. Es ist inspiriert und ähnelt der Bitcoin-Blockchain, aber in Chia ist die Ressource nicht Rechenleistung, sondern Speicherplatz. Um dies zu erreichen, werden die in Bitcoin verwendeten "Proofs of Work" durch "Proofs of Space" ersetzt, sodass der Speicherplatz zur Hauptressource und zum Zeitnachweis für einen dezentralen "Nakamoto-Stil" -Konsens wird, der Transaktionen validiert.
   homepage_investors: "Unsere Investoren"
   homepage_hiring_title: "Wir stellen ein!"
   homepage_hiring_description: |
-    Lorem ipsum dolor sitzen amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore und dolore magna aliqua.
+    Wir suchen nach technisch versierten Programmierern, die mit unserem Kryptografenteam an der Erstellung unseres Protokolls arbeiten. Muss starke Algorithmusfähigkeiten haben. Kryptografie-Erfahrung ist von Vorteil, aber nicht erforderlich. Remote ist in Ordnung, aber in San Francisco zu sein ist ein Plus. Um sich zu bewerben, füllen Sie bitte einige LeetCode-Wettbewerbe aus und senden Sie einen Link zu Ihrem LeetCode-Profil in Ihrem Anschreiben und Ihrem Lebenslauf an [indeed](https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d).
   homepage_hiring_apply: "Jetzt bewerben"
   about_title: "Über Chia"
   about_description: |
     Chia ist eine nützliche, nachhaltige und zugängliche Währung für ein neues Zeitalter des digitalen Geldes. Wir haben ein Blockchain-Netzwerk entwickelt, das sicherer, geografisch verteilter und weniger verschwenderisch ist als herkömmliche Kryptowährungen, wodurch es sowohl für private als auch für berufliche Zwecke besser geeignet ist. Chia wurde 2017 in San Francisco von einem Team gegründet, das aus den Bereichen Digitales Geld, Kryptographie und Finanzen besteht und aus BitTorrent, Tradehill, Changetip, Lightning Labs, der Stanford University und der Columbia University stammt.
   about_leadership_title: "Führungsteam"
-  about_advisors_title: "Advisors"
-  about_invest_investors_title: "Our Investors"
+  about_advisors_title: "Berater"
+  about_invest_investors_title: "Unsere Investoren"
   about_careers_title: "Karriere"
   about_careers_description: |
     Wir sind immer auf der Suche nach talentierten Programmierern, die uns beim Aufbau unseres Protokolls unterstützen. Wenn Sie interessiert sind, schließen Sie zuerst einige LeetCode-Wettbewerbe ab. Senden Sie dann Ihren LeetCode-Profillink und Ihren Lebenslauf an [jobs@chia.net] (mailto: jobs@chia.net).
@@ -320,7 +391,7 @@ de: # German
   green_paper_read_button_text: "Lesen Sie das Grünbuch"
   green_paper_section_1_title: "Die Vision"
   green_paper_section_1_description: |
-    Chia Network ist eine offene globale Blockchain, die dezentraler, weniger verschwenderisch und sicherer ist als Bitcoin.
+    Chia Network ist eine Open-Source-Blockchain, die dezentraler, weniger verschwenderisch und sicherer ist.
   green_paper_section_2_title: "Umweltfreundlicher Konsens-Algorithmus"
   green_paper_section_2_description: |
     Das Grünbuch beschreibt einen neuen Konsensalgorithmus mit der Bezeichnung "PoST" (Proofs of Space and Time). PoST ersetzt die Arbeitsnachweise im Bergbau von Bitcoin, der enorme Mengen an Energie verschwendet und aufgrund der Bergbauzentralisierung weniger sicher ist.
@@ -341,9 +412,9 @@ de: # German
   community_signup: "Anmelden"
   community_expand_details: "Erweitern Sie, um alle Details anzuzeigen"
   community_collapse_details: "Vollständige Details ausblenden"
-  community_go_to_keybase: "Go to Keybase"
+  community_go_to_keybase: "Gehe zu Keybase"
   community_live_feed_title: "Chia's Live View Feed"
-  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
+  community_live_feed_subtitle: "Bleiben Sie mit unserer Community auf dem Laufenden und treten Sie unserer Keybase-Gruppe bei."
 
 es: # Spanish
   faq_title: "Preguntas frecuentes"
@@ -363,22 +434,22 @@ es: # Spanish
   homepage_section_3_description: |
     Ahora, incluso las empresas multinacionales pueden unirse a nuestro nuevo mundo financiero sin temor a la volatilidad o la vulnerabilidad.
   homepage_blog_title: "Lo último"
-  homepage_blog_signup: "Sign up for announcements"
+  homepage_blog_signup: "Regístrese para recibir anuncios"
   homepage_community_title: "La comunidad chia"
   homepage_about_title: "Sobre chia"
   homepage_about_description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lo primero que se puede hacer es usarlo en la mano, pero si lo hacemos, no tenemos que recurrir a ninguna parte, sino también como resultado.
+    Chia Network es una cadena de bloques global descentralizada de código abierto que es menos derrochadora, más descentralizada y más segura. Está inspirado y es similar a la cadena de bloques de Bitcoin, pero en Chia, el recurso no es la potencia informática, sino el espacio en disco. Para lograr esto, las "pruebas de trabajo" utilizadas en Bitcoin se reemplazan por "pruebas de espacio", por lo que el espacio en disco se convierte en el principal recurso y las pruebas de tiempo para llegar a un consenso descentralizado de "estilo Nakamoto" que valida las transacciones.
   homepage_investors: "Nuestros inversores"
   homepage_hiring_title: "¡Estamos contratando!"
   homepage_hiring_description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Estamos buscando contratar a varios programadores técnicamente dotados para trabajar con nuestro equipo de criptógrafos en la construcción de nuestro protocolo. Debe tener fuertes habilidades de algoritmos. La experiencia en criptografía es una ventaja, pero no es obligatoria. El control remoto está bien, pero estar en San Francisco es una ventaja. Para postularse, complete un par de Concursos LeetCode y envíe un enlace a su perfil LeetCode en su Carta de presentación y su currículum a [indeed](https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d).
   homepage_hiring_apply: "Aplica ya"
   about_title: "Sobre chia"
   about_description: |
     Chia es una moneda útil, sostenible y accesible para una nueva era del dinero digital. Hemos diseñado una red de blockchain que es más segura, más dispersa geográficamente y con menos desperdicio que las criptomonedas tradicionales, por lo que es más compatible tanto para las necesidades personales como para las profesionales. Chia fue fundada en 2017 en San Francisco por un equipo arraigado en los sectores de dinero digital, criptografía y finanzas, provenientes de BitTorrent, Tradehill, Changetip, Lightning Labs, Stanford University y Columbia University.
   about_leadership_title: "Equipo de liderazgo"
-  about_advisors_title: "Advisors"
-  about_invest_investors_title: "Our Investors"
+  about_advisors_title: "Asesores"
+  about_invest_investors_title: "Nuestros inversores"
   about_careers_title: "Carreras profesionales"
   about_careers_description: |
     Siempre estamos en la búsqueda de programadores talentosos para ayudar a construir nuestro protocolo. Si está interesado, primero complete un par de concursos de LeetCode. Luego envíe el enlace de su perfil LeetCode y su currículum vitae a [jobs@chia.net] (mailto: jobs@chia.net).
@@ -389,7 +460,7 @@ es: # Spanish
   green_paper_read_button_text: "Lee el Libro Verde"
   green_paper_section_1_title: "La visión"
   green_paper_section_1_description: |
-    Chia Network es una cadena de bloques global de código abierto, más descentralizada, menos desperdiciada y más segura que Bitcoin.
+    Chia Network es una cadena de bloques de código abierto que es más descentralizada, menos derrochadora y más segura.
   green_paper_section_2_title: "Algoritmo de consenso ecológico"
   green_paper_section_2_description: |
     El Libro Verde detalla un nuevo algoritmo de consenso llamado Pruebas del espacio y el tiempo "PST". PoST reemplaza las pruebas de trabajo en la minería de Bitcoin, que desperdicia cantidades masivas de energía y es menos segura debido a la centralización de la minería.
@@ -411,9 +482,9 @@ es: # Spanish
   community_signup: "Regístrate"
   community_expand_details: "Expandir para ver los detalles completos"
   community_collapse_details: "Contraer todos los detalles"
-  community_go_to_keybase: "Go to Keybase"
-  community_live_feed_title: "Chia's Live View Feed"
-  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
+  community_go_to_keybase: "Ir a Keybase"
+  community_live_feed_title: "Canal de visualización en vivo de Chia"
+  community_live_feed_subtitle: "Manténgase actualizado con nuestra comunidad y únase a nuestro grupo Keybase."
 
 sr: # Serbian
   faq_title: "Често постављана питања"
@@ -433,11 +504,11 @@ sr: # Serbian
   homepage_section_3_description: |
     Сада се чак и мултинационалне компаније могу придружити нашем новом финансијском свијету без страха од нестабилности или рањивости.
   homepage_blog_title: "Најновији"
-  homepage_blog_signup: "Sign up for announcements"
+  homepage_blog_signup: "Пријавите се за најаве"
   homepage_community_title: "Заједница Цхиа"
   homepage_about_title: "О Цхиа"
   homepage_about_description: |
-    Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит, сед до еиусмод темпор инцидидунт ут лаборе ет долоре магна аликуа. Ако је то ад мина вениам, то је вјежбање вјежбања које се одвија у већини случајева.
+    Цхиа Нетворк је децентрализовани глобални блоцкцхаин отвореног кода који је мање расипан, децентрализованији и сигурнији. Инспирисан је и сличан Битцоин блоцкцхаину, али у Цхиа-у, ресурс није рачунска снага, већ простор на диску. Да би се то постигло, „докази о раду“ који се користе у Битцоин-у замењују се „доказима простора“, тако да простор на диску постаје главни ресурс и доказ времена да се дође до децентрализованог консензуса „Накамото-стила“ који потврђује трансакције.
   homepage_investors: "Наши инвеститори"
   homepage_hiring_title: "Запошљавамо!"
   homepage_hiring_description: |
@@ -447,8 +518,8 @@ sr: # Serbian
   about_description: |
     Цхиа је корисна, одржива и приступачна валута за ново доба дигиталног новца. Осмислили смо блок-мрежу која је сигурнија, географски распршена и мање расипна од традиционалних крипто валута, што је чини компатибилнијом како за особне тако и за професионалне потребе. Цхиа је основан 2017. године у Сан Франциску од стране тима који је укорењен у секторима дигиталног новца, криптографије и финансија, који долазе из БитТоррент, Традехилл, Цхангетип, Лигхтнинг Лабс, Станфорд универзитета и Цолумбиа Университи.
   about_leadership_title: "Руководство тим"
-  about_advisors_title: "Advisors"
-  about_invest_investors_title: "Our Investors"
+  about_advisors_title: "Cаветници"
+  about_invest_investors_title: "Наши инвеститори"
   about_careers_title: "Цареерс"
   about_careers_description: |
     Увек смо у потрази за талентованим програмерима који ће помоћи у изградњи нашег протокола. Ако сте заинтересовани, прво попуните неколико ЛеетЦоде такмичења. Затим пошаљите ваш линк за ЛеетЦоде профил и свој животопис на [јобс@цхиа.нет] (маилто: јобс@цхиа.нет).
@@ -459,7 +530,7 @@ sr: # Serbian
   green_paper_read_button_text: "Прочитајте Зелену књигу"
   green_paper_section_1_title: "Визија"
   green_paper_section_1_description: |
-    Цхиа Нетворк је глобални блоцкцхаин отвореног извора који је више децентрализован, мање расипан и сигурнији од Битцоин-а.
+    Цхиа Нетворк је блоцкцхаин отвореног кода који је децентрализованији, мање расипан и сигурнији.
   green_paper_section_2_title: "Еколошки пријатељски алгоритам"
   green_paper_section_2_description: |
     Зелена књига детаљно описује нови консензусни алгоритам под називом Докази о простору и времену "ПоСТ". ПоСТ замењује доказе о раду у рударству Битцоин-а који троши огромне количине енергије и мање је безбедно због централизације рудника.
@@ -481,9 +552,9 @@ sr: # Serbian
   community_signup: "Пријави се"
   community_expand_details: "Проширите да бисте видели све детаље"
   community_collapse_details: "Сажми потпуне детаље"
-  community_go_to_keybase: "Go to Keybase"
-  community_live_feed_title: "Chia's Live View Feed"
-  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
+  community_go_to_keybase: "Идите на Кеибасе"
+  community_live_feed_title: "Цхиа Феед Виев"
+  community_live_feed_subtitle: "Будите у току са нашом заједницом и придружите се нашој групи Кеибасе."
 
 pt: # Portuguese
   faq_title: "perguntas frequentes"
@@ -503,22 +574,22 @@ pt: # Portuguese
   homepage_section_3_description: |
     Agora, até empresas multinacionais podem se juntar ao nosso novo mundo financeiro sem medo de volatilidade ou vulnerabilidade.
   homepage_blog_title: "O mais recente"
-  homepage_blog_signup: "Sign up for announcements"
+  homepage_blog_signup: "Inscreva-se para anúncios"
   homepage_community_title: "A Comunidade Chia"
   homepage_about_title: "Sobre Chia"
   homepage_about_description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporary incididunt ut labore et dolore magna aliqua. Enim adim ad minimim veniam, quis nostrud exercise ullamco laboris nisi ut alipip ex ea commodo consequat.
+    A Chia Network é uma blockchain global descentralizada de código aberto que é menos dispendiosa, mais descentralizada e mais segura. É inspirado e semelhante ao blockchain Bitcoin, mas em Chia, o recurso não é o poder de computação, mas o espaço em disco. Para conseguir isso, as “provas de trabalho” usadas no Bitcoin são substituídas por “provas de espaço”, então o espaço em disco se torna o recurso principal e as provas do tempo para chegar a um consenso descentralizado do estilo “Nakamoto” que valida as transações.
   homepage_investors: "Nossos investidores"
   homepage_hiring_title: "Estamos a contratar!"
   homepage_hiring_description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporary incididunt ut labore et dolore magna aliqua.
+    Estamos procurando contratar vários programadores tecnicamente talentosos para trabalhar com nossa equipe de criptógrafos na construção de nosso protocolo. Deve ter fortes habilidades de algoritmos. A experiência de criptografia é uma vantagem, mas não é obrigatória. Remoto está bem, mas estar em San Francisco é uma vantagem. Para se inscrever, preencha alguns Concursos LeetCode e envie um link para o seu perfil LeetCode na sua Carta de Apresentação e seu currículo para [indeed](https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d).
   homepage_hiring_apply: "Aplique agora"
   about_title: "Sobre Chia"
   about_description: |
     A Chia é uma moeda útil, sustentável e acessível para uma nova era do dinheiro digital. Projetamos uma rede blockchain mais segura, geograficamente dispersa e com menos desperdício do que as criptomoedas tradicionais, tornando-a mais compatível para as necessidades pessoais e profissionais. A Chia foi fundada em 2017 em São Francisco por uma equipe com raízes nos setores de dinheiro digital, criptografia e finanças, vinda da BitTorrent, Tradehill, Changetip, Lightning Labs, Universidade de Stanford e Universidade de Columbia.
   about_leadership_title: "Equipe de liderança"
-  about_advisors_title: "Advisors"
-  about_invest_investors_title: "Our Investors"
+  about_advisors_title: "Assessores"
+  about_invest_investors_title: "Nossos investidores"
   about_careers_title: "Carreiras"
   about_careers_description: |
     Estamos sempre à procura de programadores talentosos para ajudar a criar nosso protocolo. Se você estiver interessado, primeiro conclua alguns Concursos LeetCode. Em seguida, envie seu link de perfil do LeetCode e seu currículo para [jobs@chia.net] (mailto: jobs@chia.net).
@@ -529,7 +600,7 @@ pt: # Portuguese
   green_paper_read_button_text: "Leia o Livro Verde"
   green_paper_section_1_title: "A visão"
   green_paper_section_1_description: |
-    Chia Network é um blockchain global de código aberto que é mais descentralizado, menos dispendioso e mais seguro que o Bitcoin.
+    A Chia Network é uma blockchain de código aberto que é mais descentralizada, menos dispendiosa e mais segura.
   green_paper_section_2_title: "Algoritmo de consenso ecologicamente correto"
   green_paper_section_2_description: |
     O Livro Verde detalha um novo algoritmo de consenso chamado Provas de Espaço e Tempo "PoST". O PST substitui as provas de trabalho na mineração do Bitcoin, que desperdiça enormes quantidades de energia e é menos seguro devido à centralização da mineração.
@@ -551,9 +622,9 @@ pt: # Portuguese
   community_signup: "inscrever-se"
   community_expand_details: "Expandir para ver detalhes completos"
   community_collapse_details: "Recolher detalhes completos"
-  community_go_to_keybase: "Go to Keybase"
-  community_live_feed_title: "Chia's Live View Feed"
-  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
+  community_go_to_keybase: "Vá para Keybase"
+  community_live_feed_title: "O feed de visualização ao vivo de Chia"
+  community_live_feed_subtitle: "Mantenha-se atualizado com a nossa comunidade e junte-se ao nosso grupo Keybase."
 
 tr: # Turkish
   faq_title: "sık sorulan Sorular"
@@ -573,22 +644,22 @@ tr: # Turkish
   homepage_section_3_description: |
     Artık çokuluslu şirketler bile yeni finansal dünyamıza oynaklık veya kırılganlık korkusu olmadan katılabiliyor.
   homepage_blog_title: "En son"
-  homepage_blog_signup: "Sign up for announcements"
+  homepage_blog_signup: "Duyurular için kayıt olun"
   homepage_community_title: "Chia Topluluğu"
   homepage_about_title: "Chia hakkında"
   homepage_about_description: |
-    Lorem ipsum dolor amet sitet, adipiscing elit elit, sed do eiusmod tempor inci labunt ve dolore magna aliqua incididunt. Ut enim ad minim veniam, qui nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo sonucu.
+    Chia Network daha az israf, daha merkezi ve daha güvenli olan merkezi olmayan bir açık kaynaklı küresel blok zinciridir. Bu ilham kaynağı ve Bitcoin blok zincirine benzer, ancak Chia'da kaynak hesaplama gücü değil, disk alanıdır. Bunu başarmak için Bitcoin'de kullanılan “çalışma kanıtları”, “alan kanıtları” ile değiştirilir, böylece disk alanı, işlemleri doğrulayan merkezi olmayan bir “Nakamoto tarzı” fikir birliğine varmak için ana kaynak ve zamanın kanıtı olur.
   homepage_investors: "Yatırımcılarımız"
   homepage_hiring_title: "Kiralıyoruz!"
   homepage_hiring_description: |
-    Lorem ipsum dolor amet sitet, adipiscing elit elit, sed do eiusmod tempor inci labunt ve dolore magna aliqua incididunt.
+    Protokolümüzü geliştirmek için kriptograf ekibimizle birlikte çalışmak için teknik olarak yetenekli birkaç programcı işe almak istiyoruz. Güçlü algoritma becerilerine sahip olmalı. Şifreleme deneyimi bir artı ama gerekli değildir. Uzaktan tamam ama San Francisco'da olmak bir artı. Başvurmak için lütfen birkaç LeetCode Yarışması tamamlayın ve Kapak Mektubunuzdaki LeetCode profilinize bir link gönderin ve devam etmek için [indeed](https://www.indeed.com/job/software-engineer-611bfd12ad7b9e4d).
   homepage_hiring_apply: "Şimdi Uygula"
   about_title: "Chia hakkında"
   about_description: |
     Chia, yeni bir dijital para çağı için kullanışlı, sürdürülebilir ve erişilebilir bir para birimidir. Hem kişisel hem de profesyonel ihtiyaçlarınız için daha uyumlu hale getiren, geleneksel kripto para birimlerinden daha güvenli, daha coğrafi olarak dağılmış ve daha az atık içeren bir blok zinciri ağı tasarladık. Chia, 2017 yılında San Francisco'da BitTorrent, Tradehill, Changetip, Lightning Labs, Stanford Üniversitesi ve Columbia Üniversitesi'nden gelen dijital para, şifreleme ve finans sektörlerinden oluşan bir ekip tarafından kuruldu.
   about_leadership_title: "Liderlik takımı"
-  about_advisors_title: "Advisors"
-  about_invest_investors_title: "Our Investors"
+  about_advisors_title: "Danışmanları"
+  about_invest_investors_title: "Yatırımcılarımız"
   about_careers_title: "Kariyer"
   about_careers_description: |
     Protokolümüzü oluşturmak için her zaman yetenekli programcıları arıyoruz. İlgileniyorsanız, lütfen önce birkaç LeetCode Yarışması tamamlayın. Ardından LeetCode profil bağlantınızı ve özgeçmişinizi [jobs@chia.net] adresine (mailto: jobs@chia.net) gönderin.
@@ -599,7 +670,7 @@ tr: # Turkish
   green_paper_read_button_text: "Yeşil Kağıdı Okuyun"
   green_paper_section_1_title: "Vizyon"
   green_paper_section_1_description: |
-    Chia Network, merkezi olmayan, daha az israf ve Bitcoin'den daha güvenli olan açık kaynaklı bir küresel blok zinciridir.
+    Chia Network, daha merkezi olmayan, daha az israf ve daha güvenli olan açık kaynaklı bir blok zinciridir.
   green_paper_section_2_title: "Çevre Dostu Konsensüs Algoritması"
   green_paper_section_2_description: |
     Yeşil Kitap, Uzay ve Zaman Kanıtları "PoST" adlı yeni bir fikir birliği algoritmasını ayrıntılarıyla anlatıyor. PoST, büyük miktarlarda enerji harcayan ve madencilik merkezileşmesi nedeniyle daha az güvenli olan Bitcoin madenciliğindeki çalışma kanıtlarının yerini alıyor.
@@ -621,6 +692,6 @@ tr: # Turkish
   community_signup: "kaydol"
   community_expand_details: "Tüm ayrıntıları görmek için genişletin"
   community_collapse_details: "Tüm ayrıntıları daralt"
-  community_go_to_keybase: "Go to Keybase"
-  community_live_feed_title: "Chia's Live View Feed"
-  community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
+  community_go_to_keybase: "Keybase'e git"
+  community_live_feed_title: "Chia Canlı Görünüm Yayını"
+  community_live_feed_subtitle: "Topluluğumuzdan haberdar olun ve Keybase grubumuza katılın."

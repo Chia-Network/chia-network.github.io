@@ -10,8 +10,8 @@ To set up your environment and run the server locally:
 
 ```bash
 gem install bundler
-git clone --depth 1 https://github.com/Uberi/Chia-Network.github.io.git
-cd Chia-Network.github.io
+git clone --depth 1 https://github.com/Chia-Network/chia-network.github.io.git
+cd chia-network.github.io
 bundle install
 bundle exec jekyll serve
 ```
@@ -209,6 +209,7 @@ This website is localized in several languages, each having the same basic struc
 * English: `en` (under `./`)
 * French: `fr` (under `./fr`)
 * Chinese: `cn` (under `./cn`)
+* Japanese: `jp` (under `./jp`)
 * Dutch: `nl` (under `./nl`)
 * German: `de` (under `./de`)
 * Spanish: `es` (under `./es`)
