@@ -67,7 +67,11 @@ en: # English
   community_go_to_keybase: "Go to Keybase"
   community_live_feed_title: "Chia's Live View Feed"
   community_live_feed_subtitle: "Stay up to date with our community and join our Keybase group."
-
+  proof_of_space_competition_header: "Win $100K in total prize money with Chia's Proof of Space Competition."
+  proof_of_space_competition_about_competition_header: "About the Competition"
+  proof_of_space_competition_about_competition_text: "Contestants participating in the 3-month competition will create implementation of Chia's Proof of Space Consensus algorithm.  Specifications of the reference hardware and future technical details are available on our GitHub."
+  proof_of_space_competition_footer: "Win $100K in total prize money."
+  proof_of_space_competition_sign_up: "Sign Up"
 fr: # French
   faq_title: "Foire aux questions"
   news_see_more: "Voir plus"
@@ -206,6 +210,11 @@ cn: # Chinese
   community_go_to_keybase: "轉到Keybase"
   community_live_feed_title: "Chia的實時視圖Feed"
   community_live_feed_subtitle: "及時了解我們的社區並加入我們的Keybase小組。"
+  proof_of_space_competition_header: "Win $100K in total prize money with Chia's Proof of Space Competition."
+  proof_of_space_competition_about_competition_header: "About the Competition"
+  proof_of_space_competition_about_competition_text: "Contestants participating in the 3-month competition will create implementation of Chia's Proof of Space Consensus algorithm.  Specifications of the reference hardware and future technical details are available on our GitHub."
+  proof_of_space_competition_footer: "Win $100K in total prize money."
+  proof_of_space_competition_sign_up: "Sign Up"
 
 jp: # Japanese
   faq_title: "よくある質問"
