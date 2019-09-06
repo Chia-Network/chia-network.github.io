@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% if page.lang == "en" %}
+      {% assign site_prefix = "" %}
+    {% else %}
+      {% assign site_prefix = page.lang | prepend:"/" %}
+    {% endif %}
+    {% assign strings = site.data.strings[page.lang] %} 
+    <div class="proof-of-space-competition-page">
+      <div class="header">
+        <a href="{{ site_prefix }}/"><img class="chia-logo" src="/img/chia_logo.svg"></a>
+        <img class="green-dots" src="/img/homepage_green_dots.svg">
+        <h1 class="header-text">{{ strings.proof_of_space_competition_header }}</h1>
+        <a class="sign-up-button" href="/2019/07/07/chia-network-announces-pos-competition.en.html">{{ strings.proof_of_space_competition_sign_up }}</a>
+      </div>
+      <div class="about-competition">
+        <div class="background-left">
+        </div>
+        <div class="about-container">
+          <div class="about-box">
+            <h1>{{ strings.proof_of_space_competition_about_competition_header }}</h1>
+            <p>{{ strings.proof_of_space_competition_about_competition_text }}</p>
+            <p>{{ strings.proof_of_space_competition_about_competition_dates_text }}</p>
+            <p>{{ strings.proof_of_space_competition_about_competition_github_text | markdownify }}</p>
+            <p>{{ strings.proof_of_space_competition_about_competition_keybase_text | markdownify }}</p>
+            <p>{{ strings.proof_of_space_competition_about_competition_entry_form_text | markdownify }}</p>
+          </div>
+        </div>
+        <div class="light-zeros-and-ones-background">
+          <img class="light-zeros-and-ones-image" src="/img/zeros_and_ones_light.svg">
+        </div>
+        <div class="background-right">
+        </div>
+      </div>
+      <div class="competition-footer">
+          <h1 class="footer-text">{{ strings.proof_of_space_competition_footer }}</h1>
+          <a class="sign-up-button" href="/2019/07/07/chia-network-announces-pos-competition.en.html">{{ strings.proof_of_space_competition_sign_up }}</a>
+      </div>
+    </div>
+  </body>
+</html>

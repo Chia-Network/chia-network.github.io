@@ -1,0 +1,171 @@
+.proof-of-space-competition-page {
+    width: 100%;
+    background: #0A1B2C;
+    .header {
+        width: 100%;
+        position: relative;
+        padding: 64px;
+        .green-dots {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            height: 300px;
+        }
+        .chia-logo {
+            height: 48px;
+        }
+        .header-text {
+            margin-top: 220px;
+            margin-bottom: 0px;
+            color: #ffffff;
+            font-size: 48px;
+            font-weight: 300;
+        }
+    }
+
+    .sign-up-button {
+        color: white;
+        display: inline-block;
+        padding: 8px 64px;
+        margin-top: 48px;
+        background-color: #3AAC59;
+        font-size: 16px;
+        text-align: center;
+        white-space: nowrap;
+        text-decoration: none !important;
+        vertical-align: middle;
+        border-radius: 28px;
+        font-family: 'Monaco', 'Courier New', Courier, monospace;
+        margin-bottom: 64px;
+    }
+
+    .about-competition {
+        display: flex;
+        flex-direction: row;
+        .about-container {
+            width: 656px;
+            background-image: url("/img/zeros_and_ones.svg");
+            background-repeat: repeat;
+            background-position: right top;
+            background-size: auto 148px;
+            .about-box {
+                margin: 74px auto;
+                min-height: 518px;
+                max-width: 630px;
+                background: #192A3A;
+                border-radius: 40px;
+                padding: 48px;
+                word-wrap: break-word;
+                h1 {
+                    color: #3AAC59;
+                    font-size: 40px;
+                    margin-bottom: 32px;
+                    font-weight: 300;
+                    
+                }
+                p {
+                    color: white;
+                    line-height: 2em;
+                }
+            }
+        }
+        .background-left {
+            background-image: url("/img/zeros_and_ones.svg");
+            background-repeat: repeat;
+            background-position: right top;
+            flex: 1 1 auto;
+            background-size: auto 148px;
+        }
+        .light-zeros-and-ones-background {
+            background-image: url("/img/zeros_and_ones.svg");
+            background-repeat: repeat;
+            background-position: left top;
+            width: 328px;
+            background-size: auto 148px;
+            .light-zeros-and-ones-image {
+                height: 196px;
+                margin-top: 235px;
+                margin-left: 13px;
+                background: #0A1B2C
+            }
+        }
+        .background-right {
+            background-image: url("/img/zeros_and_ones.svg");
+            background-repeat: repeat;
+            background-position: left top;
+            flex: 1 1 auto;
+            background-size: auto 148px;
+        }
+    }
+
+    .competition-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 64px;
+        h1 {
+            margin-top: 64px;
+            margin-bottom: 64px;
+            color: #ffffff;
+            font-size: 48px;
+            font-weight: 300;
+        }
+    }
+}
+
+@media(max-width: 992px) {
+    .proof-of-space-competition-page {
+        .about-competition {
+            .background-left, .light-zeros-and-ones-background, .background-right {
+                display: none;
+            }
+            .about-container {
+                width: 100%;
+                padding-left: 32px;
+                padding-right: 32px;
+                .about-box {
+                    min-height: initial;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) { 
+    .proof-of-space-competition-page {
+        .header {
+            padding: 48px;
+            .green-dots {
+                display: none;
+            }
+            .chia-logo {
+                height: 48px;
+            }
+            .header-text {
+                margin-top: 48px;
+                color: #ffffff;
+                font-size: 32px;
+            }
+        }
+        .about-competition .about-container .about-box {
+            padding: 32px;
+            h1 {
+                font-size: 32px;
+            }
+        }
+        .competition-footer h1 {
+            font-size: 32px;
+        }
+    }
+}
+
+@media(max-width: 576px) { 
+    .proof-of-space-competition-page .about-competition .about-container .about-box {
+        h1 {
+            font-size: 20px;
+        }
+        p {
+            line-height: 1.5em;
+        }
+    }
+}
