@@ -86,7 +86,7 @@ en: # English
     body_section_1:
       heading: "The VDF Challenge"
       paragraph_1: "A few months ago we wrapped up our initial VDF implementation competition and were amazed by the excellent quality of the submissions.  The top three contenders each came in at under one minute (the reference implementation was 169 seconds).  Five other teams also submitted implementations which were faster than the reference.  All of the submissions were open-source, and can be found [here](https://www.chia.net/2019/07/18/chia-vdf-competition-round-2-results-and-announcements.en.html).  The award total was originally $100,000, but because of the hard work that ll the teams put into the competition, we decided to award $2,000 to each team who submitted an entry, bringing the total prize money awarded to $116,000."
-      paragraph_2: "We are proud to announce a second competition, challening entrants to improve on our new reference implementation."
+      paragraph_2: "We are proud to announce a second competition, challenging entrants to improve on our new reference implementation."
     body_section_2:
       heading: "Two Tracks"
       line_1: "The second VDF competition will be split into two tracks:"
