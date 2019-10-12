@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% if page.lang == "en" %}
+      {% assign site_prefix = "" %}
+    {% else %}
+      {% assign site_prefix = page.lang | prepend:"/" %}
+    {% endif %}
+    {% assign page_strings = site.data.strings[page.lang].proof_of_time_contest %}
+    {% assign header_strings = page_strings.header %}
+    <div class="proof-of-time-contest-page">
+      <div class="header">
+        <div class="header-container">
+          <a href="{{ site_prefix }}/"><img class="chia-logo" src="/img/chia_logo.svg"></a>
+          <div class="header-content-container">
+            <img src="/img/vision.svg" />
+            <div class="header-text-container">
+              <h3 class="heading">
+                {{header_strings.heading}}
+              </h3>
+              <p class="heading-subtext">
+                {{header_strings.subtext}}
+              </p>
+              <div>
+                <img src="/assets/heart.svg" />
+                <span class="header-info-text underline">{{header_strings.info_text_prize}}</span>
+              </div>
+              <div>
+                <img src="/assets/time.svg" />
+                <span class="header-info-text">{{header_strings.info_text_time}}</span>
+              </div>
+              <a href="https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf">
+                <button class="join-now-button">{{header_strings.join_now}}</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="body-section">
+        {% assign section_1_strings = page_strings.body_section_1 %}
+        <h3>{{section_1_strings.heading}}</h3>
+        <p>{{section_1_strings.paragraph_1 | markdownify}}</p>
+        <p>{{section_1_strings.paragraph_2}} </p>
+        <div class="section-line"></div>
+        {% assign section_2_strings = page_strings.body_section_2 %}
+        <h3>{{section_2_strings.heading}}</h3>
+        <p>{{section_2_strings.line_1}}</p>
+        <p>{{section_2_strings.line_2}}</p>
+        <p>{{section_2_strings.line_3}}</p>
+        <p>{{section_2_strings.paragraph | markdownify}}</p>
+        <div class="section-line"></div>
+        {% assign section_3_strings = page_strings.body_section_3 %}
+        <h3>{{section_3_strings.heading}}</h3>
+        <div class="prize-rules-container">
+          <img src="/assets/100k.png">
+          <div class="rules-container">
+            <p class="caption">{{section_3_strings.time_caption}}</p>
+            <p><img src="/assets/next_black.svg"> {{section_3_strings.point_1}}</p>
+            <p><img src="/assets/next_black.svg"> {{section_3_strings.point_2}}</p>
+          </div>
+        </div>
+        <div class="section-line"></div>
+        {% assign section_4_strings = page_strings.body_section_4 %}
+        <h3>{{section_4_strings.heading}}</h3>
+        <p class="link-paragraph"><a href="https://github.com/Chia-Network/vdf-competition">GitHub <img src="/assets/next_teal.png"></a></p>
+        <p class="link-paragraph"><a href="https://keybase.io/team/chia_network.public">KeyBase <img src="/assets/next_teal.png"></a></p>
+        <p class="link-paragraph"><a href="https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf">{{section_4_strings.entry_form}} <img src="/assets/next_teal.png"></a></p>
+      </div>
+      <div class="footer">
+        {% assign footer_strings = page_strings.footer %}
+        <h3>{{footer_strings.heading}}</h3>
+        <a href="https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf">
+          <button class="sign-up-button">{{footer_strings.sign_up}}</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

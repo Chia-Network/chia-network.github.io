@@ -76,6 +76,35 @@ en: # English
   proof_of_space_competition_about_competition_entry_form_text: "Complete the [entry form](https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf)."
   proof_of_space_competition_footer: "Win $100K in total prize money."
   proof_of_space_competition_sign_up: "Sign Up"
+  proof_of_time_contest:
+    header:
+      heading: "The 2nd Proof of Time Challenge"
+      subtext: "A global competition to speed up the Verifiable Delay Function"
+      info_text_prize: "$100,000 in total prize money"
+      info_text_time: "April 19 - July 19"
+      join_now: "Join Now"
+    body_section_1:
+      heading: "The VDF Challenge"
+      paragraph_1: "A few months ago we wrapped up our initial VDF implementation competition and were amazed by the excellent quality of the submissions.  The top three contenders each came in at under one minute (the reference implementation was 169 seconds).  Five other teams also submitted implementations which were faster than the reference.  All of the submissions were open-source, and can be found [here](https://www.chia.net/2019/07/18/chia-vdf-competition-round-2-results-and-announcements.en.html).  The award total was originally $100,000, but because of the hard work that ll the teams put into the competition, we decided to award $2,000 to each team who submitted an entry, bringing the total prize money awarded to $116,000."
+      paragraph_2: "We are proud to announce a second competition, challening entrants to improve on our new reference implementation."
+    body_section_2:
+      heading: "Two Tracks"
+      line_1: "The second VDF competition will be split into two tracks:"
+      line_2: "1.  SIMD and GPU optimization allowed "
+      line_3: "2.  SIMD and GPU optimization not allowed"
+      paragraph: "This is to help us separate the different kids of optimization.  We expect that the entries which use the optimizations allowed in track 1 will be faster, however there is no requirement for track 1 submission to use those techniques.  This means that all track 2 submissions are also eligible for submissions to track 1.  The winners of each track will receive $50,000.  Individuals and teams are invited to join.  Entrants will all have access to the specialized computers in Chia’s laboratory.  Specifications of the reference hardware and further technical details are available on our GitHub.  You can view our pre-commitment [here](https://github.com/Chia-Network/vdf-competition).  Contestants will be able to communicate with Chia during the competition via a secure Keybase channel."
+    body_section_3:
+      heading: "$100,000 in total prize money"
+      time_caption: "3 months: April, 2019 - July 2019"
+      point_1: "SIMD and GPU optimization allowed"
+      point_2: "SIMD and GPU optimization not allowed"
+    body_section_4:
+      heading: "Docs and Support"
+      entry_form: "Entry Form"
+    footer:
+      heading: "Win $100K in total prize money"
+      sign_up: "Sign Up"
+
 fr: # French
   faq_title: "Foire aux questions"
   news_see_more: "Voir plus"
