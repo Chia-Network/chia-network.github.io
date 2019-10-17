@@ -14,7 +14,7 @@
         <div class="header-container">
           <a href="{{ site_prefix }}/"><img class="chia-logo" src="/img/chia_logo.svg"></a>
           <div class="header-content-container">
-            <img src="/img/vision.svg" />
+            <img class="desktop-vision" src="/img/vision.svg" />
             <div class="header-text-container">
               <h3 class="heading">
                 {{header_strings.heading}}
@@ -22,15 +22,15 @@
               <p class="heading-subtext">
                 {{header_strings.subtext}}
               </p>
-              <div>
-                <img src="/assets/heart.svg" />
-                <span class="header-info-text underline">{{header_strings.info_text_prize}}</span>
+              <div class="header-info-texts-container">
+                <div>
+                  <span class="header-info-text underline"><img class="header-info-icon" src="/assets/heart.svg" />{{header_strings.info_text_prize}}</span>
+                </div>
+                <div>
+                  <span class="header-info-text"><img class="header-info-icon" src="/assets/time.svg" />{{header_strings.info_text_time}}</span>
+                </div>
               </div>
-              <div>
-                <img src="/assets/time.svg" />
-                <span class="header-info-text">{{header_strings.info_text_time}}</span>
-              </div>
-              <a href="https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf">
+              <a class="join-now-button-anchor" href="https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf">
                 <button class="join-now-button">{{header_strings.join_now}}</button>
               </a>
             </div>
@@ -38,6 +38,7 @@
         </div>
       </div>
       <div class="body-section">
+        <img class="mobile-vision" src="/img/vision.svg" />
         {% assign section_1_strings = page_strings.body_section_1 %}
         <h3>{{section_1_strings.heading}}</h3>
         <p>{{section_1_strings.paragraph_1 | markdownify}}</p>
