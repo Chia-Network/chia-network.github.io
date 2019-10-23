@@ -90,9 +90,9 @@ en: # English
     body_section_2:
       heading: "Two Tracks"
       line_1: "The second VDF competition will be split into two tracks:"
-      line_2: "1.  SIMD and GPU optimization allowed "
-      line_3: "2.  SIMD and GPU optimization not allowed"
-      paragraph: "This is to help us separate the different kids of optimization.  We expect that the entries which use the optimizations allowed in track 1 will be faster, however there is no requirement for track 1 submission to use those techniques.  This means that all track 2 submissions are also eligible for submissions to track 1.  The winners of each track will receive $50,000.  Individuals and teams are invited to join.  Entrants will all have access to the specialized computers in Chia’s laboratory.  Specifications of the reference hardware and further technical details are available on our GitHub.  You can view our pre-commitment [here](https://github.com/Chia-Network/vdf-competition).  Contestants will be able to communicate with Chia during the competition via a secure Keybase channel."
+      line_2: "1. SIMD and GPU optimization allowed"
+      line_3: "2. SIMD and GPU optimization not allowed"
+      paragraph: "This is to help us separate the different kinds of optimization. We expect that the entries which use the optimizations allowed in track 1 will be faster, however there is no requirement for track 1 submission to use those techniques. This means that all track 2 submissions are also eligible for submissions to track 1. The winners of each track will receive $50,000. Individuals and teams are invited to join. Entrants will all have access to the specialized computers in Chia’s laboratory. Specifications of the reference hardware and further technical details are available on our GitHub. You can view our pre-commitment [here](https://github.com/Chia-Network/vdf-competition). Contestants will be able to communicate with Chia during the competition via a secure Keybase channel."
     body_section_3:
       heading: "$100,000 in total prize money"
       time_caption: "3 months: April, 2019 - July 2019"
@@ -181,6 +181,34 @@ fr: # French
   proof_of_space_competition_about_competition_entry_form_text: "Remplissez le [formulaire d'inscription](https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf)."
   proof_of_space_competition_footer: "Gagnez 100 000 $ en prix."
   proof_of_space_competition_sign_up: "S'inscrire"
+  proof_of_time_contest:
+    header:
+      heading: "Le 2e défi de la preuve du temps"
+      subtext: "Une compétition mondiale pour accélérer la fonction de retard vérifiable"
+      info_text_prize: "100 000 $ en prix"
+      info_text_time: "19 avril - 19 juillet"
+      join_now: "Adhérer maintenant"
+    body_section_1:
+      heading: "Le défi VDF"
+      paragraph_1: "Il y a quelques mois, nous avons conclu notre premier concours d'implémentation de VDF et avons été étonnés par l'excellente qualité des soumissions. Les trois meilleurs candidats se sont succédés en moins d’une minute (l’implémentation de référence était de 169 secondes). Cinq autres équipes ont également soumis des implémentations plus rapides que la référence. Toutes les soumissions étaient en open-source et peuvent être consultées [ici](https://www.chia.net/2019/07/18/chia-vdf-competition-round-2-results-and-announcements.fr). .html). Le prix total à l’origine était de 100 000 dollars, mais à cause du travail acharné des équipes, nous avons décidé d’attribuer 2 000 dollars à chaque équipe ayant soumis une candidature, portant ainsi le montant total des récompenses à 116 000 dollars."
+      paragraph_2: "Nous sommes fiers d’annoncer un deuxième concours mettant au défi les participants d’améliorer la mise en œuvre de notre nouvelle référence."
+    body_section_2:
+      heading: "Deux Pistes"
+      line_1: "Le deuxième concours VDF sera divisé en deux pistes:"
+      line_2: "1. Optimisation SIMD et GPU autorisée"
+      line_3: "2. Optimisation SIMD et GPU non autorisée"
+      paragraph: "Cela nous aidera à séparer les différents types d’optimisation. Nous nous attendons à ce que les entrées utilisant les optimisations autorisées dans la piste 1 soient plus rapides. Toutefois, la soumission de la piste 1 n'est pas nécessaire pour utiliser ces techniques. Cela signifie que toutes les soumissions de la piste 2 sont également éligibles pour les soumissions de la piste 1. Les gagnants de chaque piste recevront 50 000 $. Les individus et les équipes sont invités à se joindre. Les participants auront tous accès aux ordinateurs spécialisés du laboratoire de Chia. Les spécifications du matériel de référence et d’autres détails techniques sont disponibles sur notre GitHub. Vous pouvez consulter notre engagement préalable [ici](https://github.com/Chia-Network/vdf-competition). Les concurrents pourront communiquer avec Chia pendant la compétition via un canal sécurisé Keybase."
+    body_section_3:
+      heading: "100 000 $ en prix"
+      time_caption: "3 mois: avril 2019 - juillet 2019"
+      point_1: "Optimisation SIMD et GPU autorisée"
+      point_2: "Optimisation SIMD et GPU non autorisée"
+    body_section_4:
+      heading: "Docs et support"
+      entry_form: "Formulaire d'inscription"
+    footer:
+      heading: "Gagnez 100 000 $ en prix"
+      sign_up: "S'inscrire"
 
 cn: # Chinese
   faq_title: "經常問的問題"
@@ -261,6 +289,34 @@ cn: # Chinese
   proof_of_space_competition_about_competition_entry_form_text: "填写[报名表](https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf)。"
   proof_of_space_competition_footer: "赢得总奖金10万美元。"
   proof_of_space_competition_sign_up: "注册"
+  proof_of_time_contest:
+    header:
+      heading: "第二次时间证明挑战"
+      subtext: "加快可验证延迟功能的全球竞争"
+      info_text_prize: "总奖金$ 100,000"
+      info_text_time: "4月19日至7月19日"
+      join_now: "现在加入"
+    body_section_1:
+      heading: "VDF挑战"
+      paragraph_1: "几个月前，我们结束了最初的VDF实施竞赛，并且对提交的出色质量感到惊讶。 前三名竞争者每人都在一分钟以内进入（参考实现是169秒）。 其他五个团队也提交了比参考文献更快的实现。 所有提交的内容都是开源的，可以在[此处](https://www.chia.net/2019/07/18/chia-vdf-competition-round-2-results-and-announcements.en .html) 。 最初的总奖金为100,000美元，但由于各团队在比赛中的辛勤工作，我们决定向提交参赛作品的每支团队奖励2,000美元，使总奖金达到116,000美元。"
+      paragraph_2: "我们很自豪地宣布第二次竞赛，挑战参赛者以改进我们的新参考实施。"
+    body_section_2:
+      heading: "两条轨道"
+      line_1: "第二届VDF比赛将分为两个阶段："
+      line_2: "1.允许SIMD和GPU优化"
+      line_3: "2.不允许SIMD和GPU优化"
+      paragraph: "这是为了帮助我们区分不同种类的优化。 我们希望使用轨道1中允许的优化的条目会更快，但是并不需要轨道1提交使用这些技术。 这意味着，所有第2条轨道的提交也有资格获得第1条轨道的提交。每个轨道的获胜者将获得50,000美元。 邀请个人和团队参加。 参赛者都可以使用Chia实验室的专用计算机。 参考硬件的规范和更多技术细节可在我们的GitHub上获得。 您可以查看我们的[预先承诺](https://github.com/Chia-Network/vdf-competition) 。 比赛期间，参赛者将能够通过安全的Keybase渠道与Chia进行交流。"
+    body_section_3:
+      heading: "总奖金$ 100,000"
+      time_caption: "3个月：2019年4月-2019年7月"
+      point_1: "允许SIMD和GPU优化"
+      point_2: "不允许SIMD和GPU优化"
+    body_section_4:
+      heading: "文件与支援"
+      entry_form: "报名表"
+    footer:
+      heading: "赢得$ 100,000的总奖金"
+      sign_up: "注册"
 
 jp: # Japanese
   faq_title: "よくある質問"
@@ -340,6 +396,34 @@ jp: # Japanese
   proof_of_space_competition_about_competition_entry_form_text: "[エントリーフォーム](https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf)に記入してください。"
   proof_of_space_competition_footer: "賞金総額で10万ドルを獲得します。"
   proof_of_space_competition_sign_up: "サインアップ"
+  proof_of_time_contest:
+    header:
+      heading: "第2の時間証明チャレンジ"
+      subtext: "検証可能な遅延機能をスピードアップするためのグローバルな競争"
+      info_text_prize: "賞金総額$ 100,000"
+      info_text_time: "4月19日-7月19日"
+      join_now: "今すぐ参加する"
+    body_section_1:
+      heading: "VDFチャレンジ"
+      paragraph_1: "数ヶ月前、私たちは最初のVDF実装コンペティションを締めくくり、優れた品質の提出物に驚きました。 上位3候補はそれぞれ1分未満で入ってきました（リファレンス実装は169秒でした）。 他の5つのチームも、参照よりも速い実装を提出しました。 提出物はすべてオープンソースであり、[こちら](https://www.chia.net/2019/07/18/chia-vdf-competition-round-2-results-and-announcements.enで見つけることができます .html) 。 賞の総額は元々100,000ドルでしたが、チームが競争に費やした労力のため、エントリーを提出した各チームに2,000ドルを授与することにし、賞金総額は116,000ドルになりました。"
+      paragraph_2: "新しいリファレンス実装を改善するために、参加者に挑戦する第2回コンペティションを発表できることを誇りに思います。"
+    body_section_2:
+      heading: "2つのトラック"
+      line_1: "2番目のVDFコンペティションは2つのトラックに分割されます。"
+      line_2: "1. SIMDおよびGPUの最適化が可能"
+      line_3: "2. SIMDおよびGPUの最適化は許可されていません"
+      paragraph: "これは、さまざまな種類の最適化を分離するのに役立ちます。 トラック1で許可された最適化を使用するエントリはより高速になると予想されますが、これらの手法を使用するためにトラック1を送信する必要はありません。 これは、すべてのトラック2の提出物もトラック1への提出物の対象であることを意味します。各トラックの受賞者には50,000ドルが授与されます。 個人とチームが参加するよう招待されています。 応募者は全員、チアの研究室にある専用コンピューターにアクセスできます。 リファレンスハードウェアの仕様と技術的な詳細は、GitHubで入手できます。 事前コミットメント[こちら](https://github.com/Chia-Network/vdf-competition)。 競技者は、安全なキーベースチャンネルを介して、競技中にChiaと通信できます。"
+    body_section_3:
+      heading: "賞金総額$ 100,000"
+      time_caption: "3か月：2019年4月-2019年7月"
+      point_1: "SIMDおよびGPUの最適化が可能"
+      point_2: "SIMDおよびGPUの最適化は許可されていません"
+    body_section_4:
+      heading: "ドキュメントとサポート"
+      entry_form: "エントリーフォーム"
+    footer:
+      heading: "賞金総額で10万ドルを獲得する"
+      sign_up: "サインアップ"
 
 nl: # Dutch
   faq_title: "Veel Gestelde Vragen"
@@ -419,6 +503,34 @@ nl: # Dutch
   proof_of_space_competition_about_competition_entry_form_text: "Vul het [entry form](https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf) in."
   proof_of_space_competition_footer: "Win $ 100K aan totaal prijzengeld."
   proof_of_space_competition_sign_up: "Inschrijven"
+  proof_of_time_contest:
+    header:
+      heading: "De 2e Proof of Time Challenge"
+      subtext: "Een wereldwijde competitie om de verifieerbare vertragingsfunctie te versnellen"
+      info_text_prize: "$ 100.000 aan totaal prijzengeld"
+      info_text_time: "19 april - 19 juli"
+      join_now: "Doe nu mee"
+    body_section_1:
+      heading: "De VDF-uitdaging"
+      paragraph_1: "Enkele maanden geleden sloten we onze eerste VDF-implementatiecompetitie af en waren we verbaasd over de uitstekende kwaliteit van de inzendingen. De drie grootste kanshebbers kwamen elk binnen één minuut binnen (de referentie-implementatie was 169 seconden). Vijf andere teams dienden ook implementaties in die sneller waren dan de referentie. Alle inzendingen waren open-source en zijn [hier](https://www.chia.net/2019/07/18/chia-vdf-competition-round-2-results-and-announcements.en .html). Het totaal van de prijzen was oorspronkelijk $ 100.000, maar vanwege het harde werk dat de teams deden in de competitie, hebben we besloten om $ 2.000 toe te kennen aan elk team dat een inzending heeft ingediend, wat het totale prijzengeld op $ 116.000 bracht."
+      paragraph_2: "We zijn trots om een tweede wedstrijd aan te kondigen, die deelnemers uitdaagt om onze nieuwe referentie-implementatie te verbeteren."
+    body_section_2:
+      heading: "Twee nummers"
+      line_1: "De tweede VDF-competitie wordt opgesplitst in twee tracks:"
+      line_2: "1. SIMD- en GPU-optimalisatie toegestaan"
+      line_3: "2. SIMD- en GPU-optimalisatie niet toegestaan"
+      paragraph: "Dit is om ons te helpen de verschillende soorten optimalisatie te scheiden. We verwachten dat de vermeldingen die gebruikmaken van de optimalisaties die zijn toegestaan in nummer 1 sneller zullen zijn, maar het is niet vereist dat nummer 1 wordt ingediend om die technieken te gebruiken. Dit betekent dat alle track 2-inzendingen ook in aanmerking komen voor inzendingen voor track 1. De winnaars van elke track ontvangen $ 50.000. Individuen en teams worden uitgenodigd om deel te nemen. Deelnemers hebben allemaal toegang tot de gespecialiseerde computers in het laboratorium van Chia. Specificaties van de referentiehardware en verdere technische details zijn beschikbaar op onze GitHub. U kunt onze pre-commitment [hier](https://github.com/Chia-Network/vdf-competition). Deelnemers kunnen tijdens de wedstrijd met Chia communiceren via een beveiligd Keybase-kanaal."
+    body_section_3:
+      heading: "$ 100.000 aan totaal prijzengeld"
+      time_caption: "3 maanden: april, 2019 - juli 2019"
+      point_1: "SIMD- en GPU-optimalisatie toegestaan"
+      point_2: "SIMD- en GPU-optimalisatie niet toegestaan"
+    body_section_4:
+      heading: "Documenten en ondersteuning"
+      entry_form: "Inschrijfformulier"
+    footer:
+      heading: "Win $ 100K aan totaal prijzengeld"
+      sign_up: "Aanmelden"
 
 de: # German
   faq_title: "Häufig gestellte Fragen"
@@ -497,6 +609,34 @@ de: # German
   proof_of_space_competition_about_competition_entry_form_text: "Füllen Sie das [Anmeldeformular](https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf) aus."
   proof_of_space_competition_footer: "Gewinnen Sie insgesamt $ 100.000 Preisgeld."
   proof_of_space_competition_sign_up: "Anmelden"
+  proof_of_time_contest:
+    header:
+      heading: "Der 2. Beweis der Zeit Herausforderung"
+      subtext: "Ein globaler Wettbewerb zur Beschleunigung der verifizierbaren Verzögerungsfunktion"
+      info_text_prize: "Insgesamt 100.000 $ Preisgeld"
+      info_text_time: "19. April - 19. Juli"
+      join_now: "Jetzt beitreten"
+    body_section_1:
+      heading: "Die VDF Challenge"
+      paragraph_1: "Vor einigen Monaten haben wir unseren ersten VDF-Implementierungswettbewerb abgeschlossen und waren von der hervorragenden Qualität der Einreichungen begeistert. Die ersten drei Teilnehmer kamen jeweils nach weniger als einer Minute (die Referenzimplementierung betrug 169 Sekunden). Fünf weitere Teams reichten Implementierungen ein, die schneller waren als die Referenz. Alle Beiträge waren Open-Source-Beiträge und können [hier](https://www.chia.net/2019/07/18/chia-vdf-competition-round-2-results-and-announcements.en) .html). Die Preissumme betrug ursprünglich 100.000 US-Dollar, aber aufgrund der harten Arbeit, die die Teams in den Wettbewerb steckten, entschieden wir uns, jedem Team, das einen Beitrag eingereicht hatte, 2.000 US-Dollar zu verleihen, so dass das gesamte Preisgeld 116.000 US-Dollar betrug."
+      paragraph_2: "Wir sind stolz darauf, einen zweiten Wettbewerb ausschreiben zu können, der die Teilnehmer herausfordert, unsere neue Referenzimplementierung zu verbessern."
+    body_section_2:
+      heading: "Zwei Spuren"
+      line_1: "Der zweite VDF-Wettbewerb wird in zwei Strecken aufgeteilt:"
+      line_2: "1. SIMD- und GPU-Optimierung erlaubt"
+      line_3: "2. SIMD- und GPU-Optimierung nicht erlaubt"
+      paragraph: "Dies soll uns helfen, die verschiedenen Arten der Optimierung voneinander zu trennen. Wir erwarten, dass die Einträge, bei denen die in Spur 1 zulässigen Optimierungen verwendet werden, schneller sind, es ist jedoch nicht erforderlich, dass Spur 1 diese Techniken verwendet. Dies bedeutet, dass alle Einsendungen von Track 2 auch für Einsendungen von Track 1 berechtigt sind. Die Gewinner jedes Tracks erhalten 50.000 US-Dollar. Einzelpersonen und Teams sind zur Teilnahme eingeladen. Alle Teilnehmer haben Zugang zu den spezialisierten Computern im Labor von Chia. Spezifikationen der Referenzhardware und weitere technische Details finden Sie auf unserem GitHub. Sie können unser Pre-Commitment [hier](https://github.com/Chia-Network/vdf-competition). Die Teilnehmer können während des Wettbewerbs über einen sicheren Keybase-Kanal mit Chia kommunizieren."
+    body_section_3:
+      heading: "Insgesamt 100.000 $ Preisgeld"
+      time_caption: "3 Monate: April 2019 - Juli 2019"
+      point_1: "SIMD- und GPU-Optimierung erlaubt"
+      point_2: "SIMD- und GPU-Optimierung nicht erlaubt"
+    body_section_4:
+      heading: "Dokumente und Support"
+      entry_form: "Eintragsformular"
+    footer:
+      heading: "Gewinnen Sie insgesamt $ 100.000 Preisgeld"
+      sign_up: "Der 2. Beweis der Zeit Herausforderung"
 
 es: # Spanish
   faq_title: "Preguntas frecuentes"
@@ -576,6 +716,34 @@ es: # Spanish
   proof_of_space_competition_about_competition_entry_form_text: "Complete el [formulario de inscripción.](https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf)."
   proof_of_space_competition_footer: "Gane $ 100K en premios totales."
   proof_of_space_competition_sign_up: "Regístrate"
+  proof_of_time_contest:
+    header:
+      heading: "El segundo desafío de prueba de tiempo"
+      subtext: "Una competencia global para acelerar la función de retraso verificable"
+      info_text_prize: "$ 100,000 en premios totales"
+      info_text_time: "19 de abril - 19 de julio"
+      join_now: "Únete ahora"
+    body_section_1:
+      heading: "El Desafío de VDF"
+      paragraph_1: "Hace unos meses concluimos nuestra competencia inicial de implementación de VDF y nos sorprendió la excelente calidad de los envíos. Los tres principales contendientes llegaron en menos de un minuto (la implementación de referencia fue de 169 segundos). Otros cinco equipos también presentaron implementaciones que fueron más rápidas que la referencia. Todas las presentaciones fueron de código abierto, y se pueden encontrar [aquí](https://www.chia.net/2019/07/18/chia-vdf-competition-round-2-results-and-announcements.en .html). El total del premio fue originalmente de $ 100,000, pero debido al arduo trabajo que todos los equipos pusieron en la competencia, decidimos otorgar $ 2,000 a cada equipo que presentó una entrada, con lo que el dinero total del premio otorgado a $ 116,000."
+      paragraph_2: "Estamos orgullosos de anunciar una segunda competencia, desafiando a los participantes a mejorar nuestra nueva implementación de referencia."
+    body_section_2:
+      heading: "Dos Pistas"
+      line_1: "La segunda competencia VDF se dividirá en dos pistas:"
+      line_2: "1. Optimización de SIMD y GPU permitida"
+      line_3: "2. Optimización SIMD y GPU no permitida"
+      paragraph: "Esto es para ayudarnos a separar los diferentes tipos de optimización. Esperamos que las entradas que usan las optimizaciones permitidas en la pista 1 sean más rápidas, sin embargo, no es necesario que la presentación de la pista 1 use esas técnicas. Esto significa que todas las presentaciones de la pista 2 también son elegibles para las presentaciones de la pista 1. Los ganadores de cada pista recibirán $ 50,000. Individuos y equipos están invitados a unirse. Todos los participantes tendrán acceso a las computadoras especializadas en el laboratorio de Chia. Las especificaciones del hardware de referencia y otros detalles técnicos están disponibles en nuestro GitHub. Puede ver nuestro compromiso previo [aquí](https://github.com/Chia-Network/vdf-competition). Los concursantes podrán comunicarse con Chia durante la competencia a través de un canal seguro de Keybase."
+    body_section_3:
+      heading: "$ 100,000 en premios totales"
+      time_caption: "3 meses: abril de 2019 - julio de 2019"
+      point_1: "Optimización de SIMD y GPU permitida"
+      point_2: "Optimización SIMD y GPU no permitida"
+    body_section_4:
+      heading: "Documentos y soporte"
+      entry_form: "Formulario de entrada"
+    footer:
+      heading: "Gane $ 100K en premios totales"
+      sign_up: "Regístrate"
 
 sr: # Serbian
   faq_title: "Често постављана питања"
@@ -655,6 +823,34 @@ sr: # Serbian
   proof_of_space_competition_about_competition_entry_form_text: "Попуните [образац за пријаву](https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf)."
   proof_of_space_competition_footer: "Освојите 100.000 УСД укупне награде."
   proof_of_space_competition_sign_up: "Пријави се"
+  proof_of_time_contest:
+    header:
+      heading: "Други доказ временског изазова"
+      subtext: "Глобално такмичење за убрзавање провјерљиве функције кашњења"
+      info_text_prize: "100.000 УСД укупног новца"
+      info_text_time: "19. априла - 19. јула"
+      join_now: "Придружи се сад"
+    body_section_1:
+      heading: "ВДФ изазов"
+      paragraph_1: "Пре неколико месеци закључили смо првобитно такмичење у имплементацији ВДФ-а и били смо задивљени одличним квалитетом радова. Сва три најбоља кандидата ушла су у року од једне минуте (референтна имплементација је била 169 секунди). Пет других тимова такође је послало имплементације које су биле брже од референтних. Све пријаве су биле отвореног кода и могу се пронаћи [овде](хттпс://ввв.цхиа.нет/2019/07/18/цхиа-вдф-цомцхарге-роунд-2-ресултс-анд-анноунцементс.ен .хтмл). Укупна награда је првобитно била 100.000 УСД, али због напорног рада који ће тимови ставити на такмичење, одлучили смо да дамо 2.000 долара сваком тиму који је поднео пријаву, чиме је укупни наградни фонд додељен на 116.000 долара."
+      paragraph_2: "Поносни смо што можемо да објавимо други конкурс и изазовемо учеснике да се побољшају у нашој новој референтној имплементацији."
+    body_section_2:
+      heading: "Две стазе"
+      line_1: "Друго ВДФ такмичење биће подељено у две нумере:"
+      line_2: "1. СИМД и ГПУ оптимизација су дозвољена"
+      line_3: "2. Оптимизација СИМД-а и ГПУ-а није дозвољена"
+      paragraph: "Ово ће нам помоћи да раздвојимо различите врсте оптимизације. Очекујемо да ће уноси који користе оптимизације дозвољене у запису 1 бити брже, али за употребу ових техника нема потребе за подношење стазе 1. То значи да су све пријаве за нумеру 2 такође прихватљиве за пријаве за праћење 1. Победници сваке нумере добит ће 50.000 УСД. Појединци и тимови су позвани да се придруже. Сви учесници ће имати приступ специјализованим рачунарима у Цхиа-овој лабораторији. Спецификације референтног хардвера и даљњи технички детаљи доступни су на нашем ГитХуб-у. Можете погледати нашу претходну обавезу [овде](хттпс://гитхуб.цом/Цхиа-Нетворк/вдф-цомцхарге). Такмичари ће моћи да комуницирају са Цхиа-ом током такмичења преко сигурног канала Кеибасе-а."
+    body_section_3:
+      heading: "100.000 УСД укупног новца"
+      time_caption: "3 месеца: Април, 2019 - Јули 2019"
+      point_1: "СИМД и ГПУ оптимизација су дозвољена"
+      point_2: "Оптимизација СИМД-а и ГПУ-а није дозвољена"
+    body_section_4:
+      heading: "Документи и подршка"
+      entry_form: "Формулар за упис"
+    footer:
+      heading: "Освојите 100.000 УСД укупног новца"
+      sign_up: "Пријави се"
 
 pt: # Portuguese
   faq_title: "perguntas frequentes"
@@ -734,6 +930,34 @@ pt: # Portuguese
   proof_of_space_competition_about_competition_entry_form_text: "Preencha o [formulário de inscrição](https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf)."
   proof_of_space_competition_footer: "Ganhe $ 100K em prêmios em dinheiro total."
   proof_of_space_competition_sign_up: "Inscrever-se"
+  proof_of_time_contest:
+    header:
+      heading: "O segundo desafio da prova de tempo"
+      subtext: "Uma competição global para acelerar a função de atraso verificável"
+      info_text_prize: "$ 100.000 em prêmios em dinheiro total"
+      info_text_time: "19 de abril - 19 de julho"
+      join_now: "Entrar"
+    body_section_1:
+      heading: "O Desafio VDF"
+      paragraph_1: "Há alguns meses, encerramos nosso concurso inicial de implementação de VDF e ficamos impressionados com a excelente qualidade dos envios. Os três principais candidatos chegaram em menos de um minuto (a implementação de referência foi de 169 segundos). Cinco outras equipes também enviaram implementações mais rápidas que a referência. Todos os envios eram de código aberto e podem ser encontrados [aqui](https://www.chia.net/2019/07/18/chia-vdf-competition-round-2-results-and-announcements.en .html). O total do prêmio era originalmente de US $ 100.000, mas, devido ao trabalho árduo que as equipes colocam na competição, decidimos conceder US $ 2.000 a cada equipe que enviar uma inscrição, elevando o total do prêmio em dinheiro a US $ 116.000."
+      paragraph_2: "Temos o orgulho de anunciar uma segunda competição, desafiando os participantes a melhorar nossa nova implementação de referência."
+    body_section_2:
+      heading: "Duas trilhas"
+      line_1: "A segunda competição VDF será dividida em duas faixas:"
+      line_2: "1. Otimização de SIMD e GPU permitida"
+      line_3: "2. Otimização de SIMD e GPU não permitida"
+      paragraph: "Isso é para nos ajudar a separar os diferentes tipos de otimização. Esperamos que as entradas que usam as otimizações permitidas na faixa 1 sejam mais rápidas, no entanto, não há exigência de envio da faixa 1 para usar essas técnicas. Isso significa que todos os envios da faixa 2 também são elegíveis para envios da faixa 1. Os vencedores de cada faixa receberão US $ 50.000. Indivíduos e equipes são convidados a participar. Todos os participantes terão acesso aos computadores especializados no laboratório de Chia. Especificações do hardware de referência e mais detalhes técnicos estão disponíveis no nosso GitHub. Você pode ver nosso pré-compromisso [aqui](https://github.com/Chia-Network/vdf-competition). Os participantes poderão se comunicar com Chia durante a competição através de um canal seguro do Keybase."
+    body_section_3:
+      heading: "$ 100.000 em prêmios em dinheiro total"
+      time_caption: "3 meses: abril de 2019 a julho de 2019"
+      point_1: "Otimização de SIMD e GPU permitida"
+      point_2: "Otimização de SIMD e GPU não permitida"
+    body_section_4:
+      heading: "Documentos e suporte"
+      entry_form: "Formulário de Inscrição"
+    footer:
+      heading: "Ganhe $ 100.000 em prêmios em dinheiro"
+      sign_up: "Inscrever-se"
 
 tr: # Turkish
   faq_title: "sık sorulan Sorular"
@@ -813,3 +1037,31 @@ tr: # Turkish
   proof_of_space_competition_about_competition_entry_form_text: "[Giriş formunu](https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf) doldurun."
   proof_of_space_competition_footer: "Toplam para ödülü olarak 100.000 $ kazanın"
   proof_of_space_competition_sign_up: "Kaydol"
+  proof_of_time_contest:
+    header:
+      heading: "2. Zaman Mücadelesi Kanıtı"
+      subtext: "Doğrulanabilir Gecikme Fonksiyonunu hızlandıran küresel bir rekabet"
+      info_text_prize: "100.000 dolar toplam para ödülü"
+      info_text_time: "19 Nisan - 19 Temmuz"
+      join_now: "Şimdi Katıl"
+    body_section_1:
+      heading: "VDF Mücadelesi"
+      paragraph_1: "Birkaç ay önce, ilk VDF uygulama yarışmamızı tamamladık ve başvuruların mükemmel kalitesi karşısında şaşırdık. İlk üç yarışmacı her biri bir dakikadan az kaldı (başvuru uygulaması 169 saniye idi). Diğer beş takım da referanstan daha hızlı uygulamalar sunmuştur. Başvuruların tümü açık kaynaklıdır ve [burada](https://www.chia.net/2019/07/18/chia-vdf-competition-round-2-results-and-announcements.en html). Ödül toplamı başlangıçta 100.000 dolardı, ancak takımların rekabete kattığı zor iş nedeniyle, bir giriş yapan her takıma 2.000 dolar vermeye karar verdik ve toplam para ödülü 116.000 $ 'a getirildi."
+      paragraph_2: "Yeni referans uygulamamızı geliştirmek için zorlu katılımcılara ikinci bir yarışma duyurmaktan gurur duyuyoruz."
+    body_section_2:
+      heading: "İki Parça"
+      line_1: "İkinci VDF yarışması iki parçaya bölünecek:"
+      line_2: "1. SIMD ve GPU optimizasyonuna izin verildi"
+      line_3: "2. SIMD ve GPU optimizasyonuna izin verilmiyor"
+      paragraph: "Bu, farklı optimizasyon türlerini ayırmamıza yardımcı olmak içindir. İz 1'de izin verilen optimizasyonları kullanan girişlerin daha hızlı olmasını bekliyoruz, ancak iz 1 gönderiminin bu teknikleri kullanması gerekmiyor. Bu, tüm 2. pist gönderimlerinin, 1 numaralı pistlere gönderilmesi için de uygun olduğu anlamına gelir. Bireyler ve ekipler katılmaya davet edilir. Katılımcılar, Chia’nın laboratuarında bulunan özel bilgisayarlara erişebilecek. Referans donanımın özellikleri ve diğer teknik detaylar GitHub'da mevcuttur. Ön taahhüdümüzü [burada](https://github.com/Chia-Network/vdf-competition). Yarışmacılar, yarışma sırasında Chia ile güvenli bir Keybase kanalı üzerinden iletişim kurabilecekler."
+    body_section_3:
+      heading: "100.000 dolar toplam para ödülü"
+      time_caption: "3 ay: Nisan 2019 - Temmuz 2019"
+      point_1: "SIMD ve GPU optimizasyonuna izin verildi"
+      point_2: "SIMD ve GPU optimizasyonuna izin verilmiyor"
+    body_section_4:
+      heading: "Belgeler ve Destek"
+      entry_form: "Giriş Formu"
+    footer:
+      heading: "Toplam para ödülü olarak 100.000 $ kazanın"
+      sign_up: "Kaydol"
