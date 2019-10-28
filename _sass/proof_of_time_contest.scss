@@ -1,0 +1,329 @@
+.proof-of-time-contest-page {
+    width: 100%;
+    background: #F2F2F2;
+
+    .chia-logo {
+        height: 48px;
+    }
+
+    .header {
+        padding: 64px;
+        background: linear-gradient(90deg, #04194A 1.1%, #051D51 100%, #051D51 100%);
+        box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.5), inset 0px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .header-container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-content-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-text-container {
+        margin-left: 48px;
+    }
+
+    .heading {
+        font-weight: 300;
+        font-size: 47px;
+        line-height: 50px;
+        color: #E6E5E5;
+        margin-top: 32px;
+        margin-bottom: 30px;
+    }
+
+    .heading-subtext {
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 29px;
+        color: #E6E5E5;
+        margin-bottom: 56px;
+    }
+    
+    .header-info-text {
+        display: inline-block;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 36px;
+        color: #E6E5E5;
+        padding-top: 16px;
+        &.underline {
+            border-bottom: 1px solid #E6E5E5;
+            padding-top: 0px;
+            padding-bottom: 16px;
+        }
+    }
+
+    .header-info-icon {
+        height: 36px;
+        margin-right: 4px;
+    }
+
+    .join-now-button-anchor {
+        display: block;
+        margin: 64px auto;
+    }
+
+    .join-now-button {
+        color: #FAFAFA;
+        padding: 18px 82px;
+        background-color: #48A7A9;
+        font-family: 'Avenir Next';
+        font-size: 22px;
+        line-height: 31px;
+        text-decoration: none !important;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-vision {
+        display: none;
+        margin: 32px auto 64px auto;
+        padding: 0px 16px;
+        width: 100%;
+        max-width: 475px;
+    }
+
+    .body-section {
+        margin: 64px;
+        padding: 64px;
+        background: #FFFCFC;
+        box-shadow: 0px 1px 43px #D8D8D8;
+
+        h3 {
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 47px;
+            color: #052056;
+            margin-bottom: 64px;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 40px;
+            color: #000000;
+            margin-bottom: 64px;
+        }
+
+        .less-space-after {
+            margin-bottom: 32px;
+        }
+        
+        a {
+            color: #48A7A9;
+            cursor: pointer;
+            &:hover {
+                text-decoration: none;
+                color: #48A7A9;
+                border-bottom: 2px solid #48A7A9;
+            }
+        }
+
+        .section-line {
+            width: 100%;
+            height: 1px;
+            background: #979797;
+            margin-bottom: 64px;
+        }
+
+        .prize-rules-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 64px;
+            .rules-container {
+                margin-left: 64px;
+            }
+            .caption {
+                color: #6D7278;
+            }
+            p {
+                margin-bottom: 24px;
+            }
+        }
+
+        .link-paragraph {
+            margin-bottom: 32px;
+            font-weight: 800;
+        }
+    }
+
+    .footer {
+        width: 100%;
+        padding: 256px 32px;
+        background-image: url("/assets/time_footer.png");
+        background-size: cover;
+        text-align: center;
+
+        h3 {
+            font-size: 40px;
+            line-height: 47px;
+            font-weight: 300;
+            color: #FFFFFF;
+            text-shadow: 0px 0px 20px #000000;
+            margin-bottom: 48px;
+        }
+
+        .sign-up-button {
+            color: #FAFAFA;
+            padding: 18px 82px;
+            font-family: 'Avenir Next';
+            font-size: 22px;
+            line-height: 31px;
+            text-decoration: none !important;
+            border: none;
+            cursor: pointer;
+            background: #401FB4;
+            box-shadow: 3px 4px 27px rgba(0, 0, 0, 0.0943727);
+        }
+
+    }
+}
+
+@media(max-width: 992px) {
+    .proof-of-time-contest-page {
+        .header-text-container {
+            margin-left: 0px;
+        }
+
+        .body-section {
+            margin: 8px 0px 0px 0px;
+            box-shadow: none;
+
+            h3 {
+                text-align: center;
+            }
+
+            .prize-rules-container {
+                flex-direction: column;
+                align-items: center;
+                & > img {
+                    margin-bottom: 64px;
+                }
+                .rules-container {
+                    margin-left: 0px;
+                }
+            }
+        }
+
+        .desktop-vision {
+            display: none;
+        }
+
+        .mobile-vision {
+            display: block;
+        }
+
+        .footer {
+            padding: 128px 16px;
+        }
+    }
+}
+
+@media(max-width: 576px) { 
+    .proof-of-time-contest-page {
+        .header {
+            padding: 24px;
+        }
+
+        .heading {
+            margin-top: 48px;
+            margin-bottom: 0px;
+            padding-bottom: 32px;
+            font-size: 28px;
+            line-height: 47px;
+            border-bottom: 1px solid #D8D8D8;
+        }
+
+        .heading-subtext {
+            display: none;
+        }
+
+        .header-info-text {
+            padding-top: 0px;
+            font-size: 16px;
+            line-height: 20px;
+            &.underline {
+                border-bottom: none;
+                padding-bottom: 0px;
+            }
+        }
+
+        .header-info-texts-container {
+            margin-top: 32px;
+        }    
+
+        .header-info-icon {
+            height: 27px;
+        }
+
+        .join-now-button-anchor {
+            display: block;
+            margin: 48px auto;
+            text-align: center;
+        }
+
+        .join-now-button {
+            padding: 12px 48px;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 31px;
+        }
+
+        .body-section {
+            padding: 16px 16px 40px 16px;
+            .section-line {
+                margin-bottom: 48px;
+            }
+            h3 {
+                font-size: 28px;
+                line-height: 40px;
+                margin-bottom: 48px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 400;
+                margin-bottom: 48px;
+            }
+
+            .less-space-after {
+                margin-bottom: 32px;
+            }    
+
+            .prize-rules-container {
+                margin-bottom: 40px;
+                & > img {
+                    margin-bottom: 48px;
+                }
+                p {
+                    margin-bottom: 8px;
+                }
+            }
+
+            .link-paragraph {
+                margin-bottom: 8px;
+            }
+        }
+
+        .footer {
+            h3 {
+                font-size: 28px;
+                line-height: 33px;
+            }
+
+            .sign-up-button {
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 31px;
+                padding: 12px 48px;
+            }
+        }
+    }
+}
