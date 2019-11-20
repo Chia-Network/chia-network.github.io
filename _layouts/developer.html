@@ -1,0 +1,119 @@
+---
+layout: default
+---
+
+{% include navigation.html active="developer" %}
+{% assign strings = site.data.strings[page.lang] %}
+
+<main class="developer">
+    <div class="container">
+        <div class="paper">
+            {% assign section_1 = strings.developer_page.section_1 %}
+            <h2 class="text-center">{{ section_1.heading }}</h2>
+            <p class="text-center">{{ section_1.description }}</p>
+            <hr>
+            <h3 class="text-center">{{ section_1.tabs_heading }}</h3>
+            <div class="nav nav-tabs tabs" role="tablist">
+                {% for tab in section_1.tabs %}
+                <a class="btn{% if forloop.first == true %} active{% endif %}" role="tab" data-toggle="tab"
+                    href="#tab-content-1-{{ forloop.index }}">{{tab.heading}}</a>
+                {% endfor %}
+            </div>
+            <div class="tab-content">
+                {% for tab in section_1.tabs %}
+                <div id="tab-content-1-{{ forloop.index }}" role="tabpanel"
+                    class="tab-pane fade{% if forloop.first == true %} show active{% endif %}">
+                    {% assign tab_index = forloop.index %}
+                    {% for instruction in tab.instructions %}
+                    <h4 class="code-label">{{ instruction.label }}</h4>
+                    <div id="code-1-{{ tab_index }}-{{ forloop.index }}" class="code-copy-wrapper">
+                        <button class="btn code-copy-button"
+                            onclick="copyToClipboard('code-1-{{ tab_index }}-{{ forloop.index }}')">Copy</button>
+                        {% for command in instruction.commands %}
+                        <p><code><span class="dollar-sign">$ </span><span class="command">{{command}}</span></code></p>
+                        {% endfor %}
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            </div>
+            <h3 class="github-line">{{ section_1.repo_line }} <a
+                    href="https://github.com/Chia-Network/chia-blockchain"><img src="/assets/github.svg"></a></h3>
+        </div>
+        <div class="paper">
+            {% assign section_2 = strings.developer_page.section_2 %}
+            <h2 class="text-center">{{ section_2.heading }}</h2>
+            <p class="text-center">{{ section_2.description }}</p>
+            <hr>
+            <h3 class="text-center">{{ section_2.tabs_heading }}</h3>
+            <div class="nav nav-tabs tabs" role="tablist">
+                {% for tab in section_2.tabs %}
+                <a class="btn{% if forloop.first == true %} active{% endif %}" role="tab" data-toggle="tab"
+                    href="#tab-content-2-{{ forloop.index }}">{{tab.heading}}</a>
+                {% endfor %}
+            </div>
+            <div class="tab-content">
+                {% for tab in section_2.tabs %}
+                <div id="tab-content-2-{{ forloop.index }}" role="tabpanel"
+                    class="tab-pane fade{% if forloop.first == true %} show active{% endif %}">
+                    {% assign tab_index = forloop.index %}
+                    {% for instruction in tab.instructions %}
+                    <h4 class="code-label">{{ instruction.label }}</h4>
+                    <div id="code-2-{{ tab_index }}-{{ forloop.index }}" class="code-copy-wrapper">
+                        <button class="btn code-copy-button"
+                            onclick="copyToClipboard('code-2-{{ tab_index }}-{{ forloop.index }}')">Copy</button>
+                        {% for command in instruction.commands %}
+                        <p><code><span class="dollar-sign">$ </span><span class="command">{{command}}</span></code></p>
+                        {% endfor %}
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            </div>
+            <h3 class="github-line">{{ section_2.repo_line }} <a href="https://github.com/Chia-Network/wallets"><img
+                        src="/assets/github.svg"></a></h3>
+        </div>
+    </div>
+    <div class="stay-updated-section">
+        {% assign stay_updated_section = strings.developer_page.stay_updated_section %}
+        <div class="container text-center">
+            <h2>{{ stay_updated_section.heading }}</h2>
+            {{ stay_updated_section.keybase_line | markdownify }}
+            {{ stay_updated_section.newsletter_line  | markdownify }}
+        </div>
+    </div>
+</main>
+<div id="alert-placeholder"></div>
+
+<script>
+    function copyToClipboard(id) {
+        var commandsStrs = [];
+        $('#' + id + ' .command').each(function (index, elm) {
+            commandsStrs.push(elm.textContent);
+        });
+        var commands = commandsStrs.join('\n');
+        var $temp = $('<textarea>');
+        $('body').append($temp);
+        $temp.val(commands).select();
+        document.execCommand('copy');
+        $temp.remove();
+        showAlert('Successfully copied to clipboard.')
+    }
+
+    function showAlert(message) {
+        $('#alert-placeholder').html(
+            '<div class="alert alert-light alert-dismissible" role="alert">' +
+            '<a class="close" data-dismiss="alert">×</a><span> ' + message + '</span>' +
+            '</div>'
+        );
+
+        setTimeout(function () {
+            var alert = $('#alert-placeholder .alert');
+            alert.addClass('show');
+            setTimeout(function () {
+                alert.removeClass('show');
+            }, 3000);
+        }, 100);
+    }
+
+</script>

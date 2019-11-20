@@ -1,0 +1,4 @@
+---
+layout: developer
+lang: fr
+---

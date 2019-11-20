@@ -1,0 +1,188 @@
+.developer {
+    background: #FAFAFA;
+    padding: 96px 0px 0px 0px;
+    .paper {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.18);
+        border-radius: 6px;
+        padding: 64px;
+        margin-bottom: 96px;
+    }
+    .tabs {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 64px;
+        border: none;
+        .btn {
+            flex-grow: 1;
+            flex-basis: 0px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            background: #26743B;
+            box-shadow: 0px 2px 27px rgba(0, 0, 0, 0.09);
+            border-radius: 6px;
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: 24px;
+            &.active {
+                background: #3AAC59;
+            }
+            &:not(:last-child) {
+                margin-right: 4px;
+            }
+        }
+    }
+    
+    .code-copy-wrapper {
+        display: block;
+        position: relative;
+        background: #EEEEEE;
+        width: 100%;
+        padding: 12px 80px 12px 12px;
+        border-radius: 4px;
+        margin: 0px 0px 32px 0px;
+        border: 1px solid #DADADA;
+        p {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 0px;
+        }
+        code {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 400;
+            font-size: 18px;
+            color: #0C282A;
+            background: #EEEEEE;
+            
+            .dollar-sign {
+                -moz-user-select: none;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+        }
+        
+        .code-copy-button {
+            text-transform: uppercase;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            padding: 12px;
+            margin: 0px;
+            font-size: 16px;
+            border: none;
+            background: transparent;
+            color: #3AAC59;
+        }
+    }
+    
+    h2 {
+        font-weight: 900;
+        font-size: 42px;
+        color: #0C282A;
+        margin-bottom: 32px;
+    }
+    
+    p {
+        font-size: 20px;
+        color: #0C282A;
+        
+    }
+    
+    hr {
+        margin: 64px 0px;
+    }
+    
+    h3 {
+        font-size: 24px;
+        color: #0C282A;
+        font-weight: bold;   
+        margin-bottom: 32px;
+    }
+    
+    h4 {
+        font-weight: bold;
+        font-size: 20px;
+        color: #219653;
+        margin-bottom: 20px;
+    }
+    
+    .github-line {
+        font-weight: normal;
+        font-size: 24px;
+        color: #0C282A;
+    }
+    
+    .stay-updated-section {
+        background: #EEEEEE;
+        padding: 80px 0px;
+    }
+}
+
+#alert-placeholder {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    .alert {
+        border-radius: 0px;
+        margin: 0px;
+        color: #0C282A;
+        text-align: center;
+        transform: translateY(100%);
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.18);
+        -webkit-transition: transform 100ms ease-in;
+        -moz-transition: transform 100ms ease-in;
+        -ms-transition: transform 100ms ease-in;
+        -o-transition: transform 100ms ease-in;
+        transition: transform 100ms ease-in;
+        
+        &.show {
+            transform: translateY(0px);
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .developer {
+        padding: 24px 0px 0px 0px;
+        .paper {
+            padding: 64px 16px 32px 16px;
+            margin-bottom: 24px;
+        }
+        .tabs {
+            flex-direction: column;
+            .btn {
+                &:not(:last-child) {
+                    margin-right: 0px;
+                    margin-bottom: 4px;
+                }
+            }
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-bottom: 32px;
+        }
+        
+        p {
+            font-size: 18px;
+        }
+        
+        hr {
+            margin: 32px 0px;
+        }
+        
+        h3 {
+            font-size: 24px;
+            margin-bottom: 32px;
+        }
+        
+        h4 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
