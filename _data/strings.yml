@@ -144,7 +144,7 @@ en: # English
       tabs:
         - heading: "OSX"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Clone Chia's Wallet Repo"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets/ && cd wallets"
             - label: "2. Install Dependencies"
@@ -166,7 +166,7 @@ en: # English
                 - "python3 AP_wallet_runnable.py"
         - heading: "Ubuntu"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Clone Chia's Wallet Repo"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets && cd wallets"
             - label: "2. Install Dependencies"
@@ -300,11 +300,11 @@ fr: # French
       sign_up: "S'inscrire"
   developer_page:
     section_1:
-      heading: 'Download Chia'
-      description: "Chia Testnet is alpha and doesn’t yet support transactions. Our library for simulating the on-chain programming environment is below."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: 'Télécharger Chia'
+      description: "Chia Testnet est alpha et ne supporte pas encore les transactions. Notre bibliothèque de simulation de l'environnement de programmation en chaîne est présentée ci-dessous."
+      tabs_heading: "Actuellement disponible pour macOS et Ubuntu. Windows arrive bientôt."
       tabs:
-        - heading: "Full Node"
+        - heading: "Nœud complet"
           instructions:
             - label: "1. Install"
               commands: 
@@ -312,7 +312,7 @@ fr: # French
             - label: "2. Command line for Full Node"
               commands:
                 - "Command line for installing full node"
-        - heading: "Farmer"
+        - heading: "Agriculteur"
           instructions:
             - label: "1. Install"
               commands:
@@ -320,7 +320,7 @@ fr: # French
             - label: "2. Command line for Farmer"
               commands:
                 - "Command line for installing farmer"
-        - heading: "Time Lord"
+        - heading: "Seigneur du Temps"
           instructions:
             - label: "1. Install"
               commands:
@@ -328,57 +328,57 @@ fr: # French
             - label: "2. Command line for Farmer"
               commands: 
                 - "Command line for installing time lord"
-      repo_line: "The source repository is on "
+      repo_line: "Le référentiel source est sur "
     section_2:
-      heading: "Download LegerSim"
-      description: "LedgerSim supports smart transactions running on a ledger instead of a blockchain for testing and development purposes."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: "Télécharger LegerSim"
+      description: "LedgerSim prend en charge les transactions intelligentes exécutées sur un grand livre au lieu d’une chaîne de blocs à des fins de test et de développement."
+      tabs_heading: "Actuellement disponible pour macOS et Ubuntu. Windows arrive bientôt."
       tabs:
         - heading: "OSX"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Cloner le portefeuille de Chia"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets/ && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Installer les dépendances"
               commands: 
                 - "pip install -r requirements.txt"
                 - "brew install zbar"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. Lancer le serveur LedgerSim"
               commands:
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Exécuter un portefeuille standard"
               commands: 
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Exécuter un portefeuille intelligent Swaps atomiques"
               commands:
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Exécuter un portefeuille intelligent de destinataires autorisés"
               commands:
                 - "python3 AP_wallet_runnable.py"
         - heading: "Ubuntu"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
-              commands: 
+            - label: "1. Cloner le portefeuille de Chia"
+              commands:
                 - "git clone https://github.com/Chia-Network/wallets && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Installer les dépendances"
               commands: 
                 - "pip install -r requirements.txt"
                 - "sudo apt-get install libzbar0"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. Lancer le serveur LedgerSim"
               commands: 
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Exécuter un portefeuille standard"
               commands:
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Exécuter un portefeuille intelligent Swaps atomiques"
               commands: 
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Exécuter un portefeuille intelligent de destinataires autorisés"
               commands:
                 - "python3 AP_wallet_runnable.py"
-      repo_line: "The source repository is on "
+      repo_line: "Le référentiel source est sur "
     stay_updated_section:
       heading: "Tiens-toi à jour"
       keybase_line: "Rejoignez le [canal keybase #dev](https://keybase.io/team/chia_network.public) pour poser des questions."
@@ -495,11 +495,11 @@ cn: # Chinese
       sign_up: "注册"
   developer_page:
     section_1:
-      heading: 'Download Chia'
-      description: "Chia Testnet is alpha and doesn’t yet support transactions. Our library for simulating the on-chain programming environment is below."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: '下载Chia'
+      description: "Chia Testnet是Alpha版，尚不支持交易。 下面是我们用于模拟链上编程环境的库。"
+      tabs_heading: "当前可用于macOS和Ubuntu。 Windows即将面世。"
       tabs:
-        - heading: "Full Node"
+        - heading: "全节点"
           instructions:
             - label: "1. Install"
               commands: 
@@ -507,7 +507,7 @@ cn: # Chinese
             - label: "2. Command line for Full Node"
               commands:
                 - "Command line for installing full node"
-        - heading: "Farmer"
+        - heading: "农民"
           instructions:
             - label: "1. Install"
               commands:
@@ -515,7 +515,7 @@ cn: # Chinese
             - label: "2. Command line for Farmer"
               commands:
                 - "Command line for installing farmer"
-        - heading: "Time Lord"
+        - heading: "时间领主"
           instructions:
             - label: "1. Install"
               commands:
@@ -523,57 +523,57 @@ cn: # Chinese
             - label: "2. Command line for Farmer"
               commands: 
                 - "Command line for installing time lord"
-      repo_line: "The source repository is on "
+      repo_line: "源存储库已打开"
     section_2:
-      heading: "Download LegerSim"
-      description: "LedgerSim supports smart transactions running on a ledger instead of a blockchain for testing and development purposes."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: "下载LegerSim"
+      description: "LedgerSim支持在账本而非区块链上运行的智能交易，以进行测试和开发。"
+      tabs_heading: "当前可用于macOS和Ubuntu。 Windows即将面世。"
       tabs:
         - heading: "OSX"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Clone Chia的电子钱包回购"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets/ && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2.安装依赖项"
               commands: 
                 - "pip install -r requirements.txt"
                 - "brew install zbar"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3.启动LedgerSim服务器"
               commands:
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4.运行标准钱包"
               commands: 
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5.运行原子交换智能钱包"
               commands:
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6.运行授权的收款人智能钱包"
               commands:
                 - "python3 AP_wallet_runnable.py"
         - heading: "Ubuntu"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Clone Chia的电子钱包回购"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2.安装依赖项"
               commands: 
                 - "pip install -r requirements.txt"
                 - "sudo apt-get install libzbar0"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3.启动LedgerSim服务器"
               commands: 
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4.运行标准钱包"
               commands:
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5.运行原子交换智能钱包"
               commands: 
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6.运行授权的收款人智能钱包"
               commands:
                 - "python3 AP_wallet_runnable.py"
-      repo_line: "The source repository is on "
+      repo_line: "源存储库已打开"
     stay_updated_section:
       heading: "保持最新"
       keybase_line: "加入[keybase #dev频道](https://keybase.io/team/chia_network.public)提出问题。"
@@ -689,11 +689,11 @@ jp: # Japanese
       sign_up: "サインアップ"
   developer_page:
     section_1:
-      heading: 'Download Chia'
-      description: "Chia Testnet is alpha and doesn’t yet support transactions. Our library for simulating the on-chain programming environment is below."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: 'ダウンロードChia'
+      description: "Chia Testnetはアルファ版であり、トランザクションをまだサポートしていません。 オンチェーンプログラミング環境をシミュレートするためのライブラリは次のとおりです。"
+      tabs_heading: "現在、macOSおよびUbuntuで使用できます。 Windowsはもうすぐです。"
       tabs:
-        - heading: "Full Node"
+        - heading: "フルノード"
           instructions:
             - label: "1. Install"
               commands: 
@@ -701,7 +701,7 @@ jp: # Japanese
             - label: "2. Command line for Full Node"
               commands:
                 - "Command line for installing full node"
-        - heading: "Farmer"
+        - heading: "農夫"
           instructions:
             - label: "1. Install"
               commands:
@@ -709,7 +709,7 @@ jp: # Japanese
             - label: "2. Command line for Farmer"
               commands:
                 - "Command line for installing farmer"
-        - heading: "Time Lord"
+        - heading: "タイムロード"
           instructions:
             - label: "1. Install"
               commands:
@@ -717,57 +717,57 @@ jp: # Japanese
             - label: "2. Command line for Farmer"
               commands: 
                 - "Command line for installing time lord"
-      repo_line: "The source repository is on "
+      repo_line: "ソースリポジトリはオンです"
     section_2:
-      heading: "Download LegerSim"
-      description: "LedgerSim supports smart transactions running on a ledger instead of a blockchain for testing and development purposes."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: "LegerSimをダウンロード"
+      description: "LedgerSimは、テストおよび開発の目的で、ブロックチェーンではなくレジャーで実行されるスマートトランザクションをサポートします。"
+      tabs_heading: "現在、macOSおよびUbuntuで使用できます。 Windowsはもうすぐです。"
       tabs:
         - heading: "OSX"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1.チアの財布レポをクローン"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets/ && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2.依存関係のインストール"
               commands: 
                 - "pip install -r requirements.txt"
                 - "brew install zbar"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. LedgerSim Serverを起動します"
               commands:
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4.標準ウォレットを実行する"
               commands: 
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5.アトミックスワップスマートウォレットの実行"
               commands:
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6.承認済み受取人スマートウォレットを実行する"
               commands:
                 - "python3 AP_wallet_runnable.py"
         - heading: "Ubuntu"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1.チアの財布レポをクローン"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2.依存関係のインストール"
               commands: 
                 - "pip install -r requirements.txt"
                 - "sudo apt-get install libzbar0"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. LedgerSim Serverを起動します"
               commands: 
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4.標準ウォレットを実行する"
               commands:
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5.アトミックスワップスマートウォレットの実行"
               commands: 
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6.承認済み受取人スマートウォレットを実行する"
               commands:
                 - "python3 AP_wallet_runnable.py"
-      repo_line: "The source repository is on "
+      repo_line: "ソースリポジトリはオンです"
     stay_updated_section:
       heading: "最新に保つ"
       keybase_line: "[keybase #dev channel](https://keybase.io/team/chia_network.public)に参加して質問してください。"
@@ -883,11 +883,11 @@ nl: # Dutch
       sign_up: "Aanmelden"
   developer_page:
     section_1:
-      heading: 'Download Chia'
-      description: "Chia Testnet is alpha and doesn’t yet support transactions. Our library for simulating the on-chain programming environment is below."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: 'Chia downloaden'
+      description: "Chia Testnet is alpha en ondersteunt nog geen transacties. Onze bibliotheek voor het simuleren van de on-chain programmeeromgeving is hieronder."
+      tabs_heading: "Momenteel beschikbaar voor macOS en Ubuntu. Windows komt eraan."
       tabs:
-        - heading: "Full Node"
+        - heading: "Volledige knoop"
           instructions:
             - label: "1. Install"
               commands: 
@@ -895,7 +895,7 @@ nl: # Dutch
             - label: "2. Command line for Full Node"
               commands:
                 - "Command line for installing full node"
-        - heading: "Farmer"
+        - heading: "Boer"
           instructions:
             - label: "1. Install"
               commands:
@@ -903,7 +903,7 @@ nl: # Dutch
             - label: "2. Command line for Farmer"
               commands:
                 - "Command line for installing farmer"
-        - heading: "Time Lord"
+        - heading: "Tijd meester"
           instructions:
             - label: "1. Install"
               commands:
@@ -911,57 +911,57 @@ nl: # Dutch
             - label: "2. Command line for Farmer"
               commands: 
                 - "Command line for installing time lord"
-      repo_line: "The source repository is on "
+      repo_line: "De bronrepository is ingeschakeld "
     section_2:
-      heading: "Download LegerSim"
-      description: "LedgerSim supports smart transactions running on a ledger instead of a blockchain for testing and development purposes."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: "LegerSim downloaden"
+      description: "LedgerSim ondersteunt slimme transacties die op een grootboek worden uitgevoerd in plaats van een blockchain voor test- en ontwikkelingsdoeleinden."
+      tabs_heading: "Momenteel beschikbaar voor macOS en Ubuntu. Windows komt eraan."
       tabs:
         - heading: "OSX"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Clone Chia's Wallet Repo"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets/ && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Installeer afhankelijkheden"
               commands: 
                 - "pip install -r requirements.txt"
                 - "brew install zbar"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. Start LedgerSim Server"
               commands:
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Voer een standaardportefeuille uit"
               commands: 
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Voer een Atomic Swaps Smart Wallet uit"
               commands:
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Voer een geautoriseerde begunstigde slimme portemonnee uit"
               commands:
                 - "python3 AP_wallet_runnable.py"
         - heading: "Ubuntu"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Clone Chia's Wallet Repo"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Installeer afhankelijkheden"
               commands: 
                 - "pip install -r requirements.txt"
                 - "sudo apt-get install libzbar0"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. Start LedgerSim Server"
               commands: 
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Voer een standaardportefeuille uit"
               commands:
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Voer een Atomic Swaps Smart Wallet uit"
               commands: 
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Voer een geautoriseerde begunstigde slimme portemonnee uit"
               commands:
                 - "python3 AP_wallet_runnable.py"
-      repo_line: "The source repository is on "
+      repo_line: "De bronrepository is ingeschakeld "
     stay_updated_section:
       heading: "Blijf op de hoogte"
       keybase_line: "Word lid van de [keybase #dev channel](https://keybase.io/team/chia_network.public) om vragen te stellen."
@@ -1076,11 +1076,11 @@ de: # German
       sign_up: "Der 2. Beweis der Zeit Herausforderung"
   developer_page:
     section_1:
-      heading: 'Download Chia'
-      description: "Chia Testnet is alpha and doesn’t yet support transactions. Our library for simulating the on-chain programming environment is below."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: 'Laden Sie Chia herunter'
+      description: "Chia Testnet ist Alpha und unterstützt noch keine Transaktionen. Unsere Bibliothek zur Simulation der On-Chain-Programmierumgebung finden Sie weiter unten."
+      tabs_heading: "Derzeit verfügbar für macOS und Ubuntu. Windows kommt bald."
       tabs:
-        - heading: "Full Node"
+        - heading: "Voller Knoten"
           instructions:
             - label: "1. Install"
               commands: 
@@ -1104,57 +1104,57 @@ de: # German
             - label: "2. Command line for Farmer"
               commands: 
                 - "Command line for installing time lord"
-      repo_line: "The source repository is on "
+      repo_line: "Das Quell-Repository ist aktiviert "
     section_2:
-      heading: "Download LegerSim"
-      description: "LedgerSim supports smart transactions running on a ledger instead of a blockchain for testing and development purposes."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: "Laden Sie LegerSim herunter"
+      description: "LedgerSim unterstützt intelligente Transaktionen, die zu Test- und Entwicklungszwecken auf einem Ledger anstelle einer Blockchain ausgeführt werden."
+      tabs_heading: "Derzeit verfügbar für macOS und Ubuntu. Windows kommt bald."
       tabs:
         - heading: "OSX"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Klonen Sie Chias Wallet Repo"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets/ && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Installieren Sie Abhängigkeiten"
               commands: 
                 - "pip install -r requirements.txt"
                 - "brew install zbar"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. Starten Sie LedgerSim Server"
               commands:
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Führen Sie eine Standardbrieftasche aus"
               commands: 
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Führen Sie eine Atomic Swaps Smart Wallet aus"
               commands:
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Führen Sie eine Smart Wallet für autorisierte Zahlungsempfänger aus"
               commands:
                 - "python3 AP_wallet_runnable.py"
         - heading: "Ubuntu"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Klonen Sie Chias Wallet Repo"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Installieren Sie Abhängigkeiten"
               commands: 
                 - "pip install -r requirements.txt"
                 - "sudo apt-get install libzbar0"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. Starten Sie LedgerSim Server"
               commands: 
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Führen Sie eine Standardbrieftasche aus"
               commands:
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Führen Sie eine Atomic Swaps Smart Wallet aus"
               commands: 
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Führen Sie eine Smart Wallet für autorisierte Zahlungsempfänger aus"
               commands:
                 - "python3 AP_wallet_runnable.py"
-      repo_line: "The source repository is on "
+      repo_line: "Das Quell-Repository ist aktiviert"
     stay_updated_section:
       heading: "Auf dem Laufenden bleiben"
       keybase_line: "Treten Sie dem [keybase #dev-Kanal](https://keybase.io/team/chia_network.public) bei, um Fragen zu stellen."
@@ -1270,11 +1270,11 @@ es: # Spanish
       sign_up: "Regístrate"
   developer_page:
     section_1:
-      heading: 'Download Chia'
-      description: "Chia Testnet is alpha and doesn’t yet support transactions. Our library for simulating the on-chain programming environment is below."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: 'Descargar Chia'
+      description: "Chia Testnet es alfa y aún no admite transacciones. Nuestra biblioteca para simular el entorno de programación en cadena se encuentra a continuación."
+      tabs_heading: "Actualmente disponible para macOS y Ubuntu. Windows llegará pronto."
       tabs:
-        - heading: "Full Node"
+        - heading: "Nodo completo"
           instructions:
             - label: "1. Install"
               commands: 
@@ -1282,7 +1282,7 @@ es: # Spanish
             - label: "2. Command line for Full Node"
               commands:
                 - "Command line for installing full node"
-        - heading: "Farmer"
+        - heading: "Granjero"
           instructions:
             - label: "1. Install"
               commands:
@@ -1290,7 +1290,7 @@ es: # Spanish
             - label: "2. Command line for Farmer"
               commands:
                 - "Command line for installing farmer"
-        - heading: "Time Lord"
+        - heading: "Señor del Tiempo"
           instructions:
             - label: "1. Install"
               commands:
@@ -1298,57 +1298,57 @@ es: # Spanish
             - label: "2. Command line for Farmer"
               commands: 
                 - "Command line for installing time lord"
-      repo_line: "The source repository is on "
+      repo_line: "El repositorio de origen está encendido "
     section_2:
-      heading: "Download LegerSim"
-      description: "LedgerSim supports smart transactions running on a ledger instead of a blockchain for testing and development purposes."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: "Descargar LegerSim"
+      description: "LedgerSim admite transacciones inteligentes que se ejecutan en un libro mayor en lugar de una cadena de bloques para fines de prueba y desarrollo."
+      tabs_heading: "Actualmente disponible para macOS y Ubuntu. Windows llegará pronto."
       tabs:
         - heading: "OSX"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Clonar el repositorio de billetera de Chia"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets/ && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Instalar dependencias"
               commands: 
                 - "pip install -r requirements.txt"
                 - "brew install zbar"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. Inicie el servidor LedgerSim"
               commands:
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Ejecute una billetera estándar"
               commands: 
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Ejecute una billetera inteligente Atomic Swaps"
               commands:
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Ejecute una billetera inteligente de beneficiarios autorizados"
               commands:
                 - "python3 AP_wallet_runnable.py"
         - heading: "Ubuntu"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Clonar el repositorio de billetera de Chia"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Instalar dependencias"
               commands: 
                 - "pip install -r requirements.txt"
                 - "sudo apt-get install libzbar0"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. Inicie el servidor LedgerSim"
               commands: 
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Ejecute una billetera estándar"
               commands:
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Ejecute una billetera inteligente Atomic Swaps"
               commands: 
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Ejecute una billetera inteligente de beneficiarios autorizados"
               commands:
                 - "python3 AP_wallet_runnable.py"
-      repo_line: "The source repository is on "
+      repo_line: "El repositorio de origen está encendido "
     stay_updated_section:
       heading: "Estar al día"
       keybase_line: "Únase al [canal #dev de keybase](https://keybase.io/team/chia_network.public) para hacer preguntas."
@@ -1464,11 +1464,11 @@ sr: # Serbian
       sign_up: "Пријави се"
   developer_page:
     section_1:
-      heading: 'Download Chia'
-      description: "Chia Testnet is alpha and doesn’t yet support transactions. Our library for simulating the on-chain programming environment is below."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: 'Довнлоад Цхиа'
+      description: "Цхиа Тестнет је алфа и још не подржава трансакције. Наша библиотека за симулацију ланчаног програмског окружења налази се испод."
+      tabs_heading: "Тренутно доступно за мацОС и Убунту. Виндовс ускоро долази."
       tabs:
-        - heading: "Full Node"
+        - heading: "Потпуни чвор"
           instructions:
             - label: "1. Install"
               commands: 
@@ -1476,7 +1476,7 @@ sr: # Serbian
             - label: "2. Command line for Full Node"
               commands:
                 - "Command line for installing full node"
-        - heading: "Farmer"
+        - heading: "Фармер"
           instructions:
             - label: "1. Install"
               commands:
@@ -1484,7 +1484,7 @@ sr: # Serbian
             - label: "2. Command line for Farmer"
               commands:
                 - "Command line for installing farmer"
-        - heading: "Time Lord"
+        - heading: "Господар Времена"
           instructions:
             - label: "1. Install"
               commands:
@@ -1492,57 +1492,57 @@ sr: # Serbian
             - label: "2. Command line for Farmer"
               commands: 
                 - "Command line for installing time lord"
-      repo_line: "The source repository is on "
+      repo_line: "Изворно спремиште је укључено "
     section_2:
-      heading: "Download LegerSim"
-      description: "LedgerSim supports smart transactions running on a ledger instead of a blockchain for testing and development purposes."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: "Преузмите ЛегерСим"
+      description: "ЛедгерСим подржава паметне трансакције које се воде на књизи уместо блок-ланца за потребе тестирања и развоја."
+      tabs_heading: Тренутно доступно за мацОС и Убунту. Виндовс ускоро долази."
       tabs:
-        - heading: "OSX"
+        - heading: "мацОС"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Цлоне Цхиа-ов новчаник Репо"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets/ && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Инсталирајте зависности"
               commands: 
                 - "pip install -r requirements.txt"
                 - "brew install zbar"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. Покрените ЛедгерСим Сервер"
               commands:
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Покрените стандардни новчаник"
               commands: 
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Покрените Смарт Валлет с Атомиц Свапс"
               commands:
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Покрените Смарт Валлет са овлашћеним примаоцима"
               commands:
                 - "python3 AP_wallet_runnable.py"
-        - heading: "Ubuntu"
+        - heading: "Убунту"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Цлоне Цхиа-ов новчаник Репо"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Инсталирајте зависности"
               commands: 
                 - "pip install -r requirements.txt"
                 - "sudo apt-get install libzbar0"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. Покрените ЛедгерСим Сервер"
               commands: 
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Покрените стандардни новчаник"
               commands:
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Покрените Смарт Валлет с Атомиц Свапс"
               commands: 
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Покрените Смарт Валлет са овлашћеним примаоцима"
               commands:
                 - "python3 AP_wallet_runnable.py"
-      repo_line: "The source repository is on "
+      repo_line: "Изворно спремиште је укључено "
     stay_updated_section:
       heading: "Остану у току"
       keybase_line: "Придружите се [кеибасе #дев канал](хттпс://кеибасе.ио/теам/цхиа_нетворк.публиц) да бисте поставили питања."
@@ -1658,11 +1658,11 @@ pt: # Portuguese
       sign_up: "Inscrever-se"
   developer_page:
     section_1:
-      heading: 'Download Chia'
-      description: "Chia Testnet is alpha and doesn’t yet support transactions. Our library for simulating the on-chain programming environment is below."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: 'Baixar Chia'
+      description: "O Chia Testnet é alfa e ainda não suporta transações. Nossa biblioteca para simular o ambiente de programação on-chain está abaixo."
+      tabs_heading: "Atualmente disponível para macOS e Ubuntu. O Windows está chegando em breve."
       tabs:
-        - heading: "Full Node"
+        - heading: "Nó completo"
           instructions:
             - label: "1. Install"
               commands: 
@@ -1670,7 +1670,7 @@ pt: # Portuguese
             - label: "2. Command line for Full Node"
               commands:
                 - "Command line for installing full node"
-        - heading: "Farmer"
+        - heading: "Agricultor"
           instructions:
             - label: "1. Install"
               commands:
@@ -1678,7 +1678,7 @@ pt: # Portuguese
             - label: "2. Command line for Farmer"
               commands:
                 - "Command line for installing farmer"
-        - heading: "Time Lord"
+        - heading: "Senhor do Tempo"
           instructions:
             - label: "1. Install"
               commands:
@@ -1686,57 +1686,57 @@ pt: # Portuguese
             - label: "2. Command line for Farmer"
               commands: 
                 - "Command line for installing time lord"
-      repo_line: "The source repository is on "
+      repo_line: "O repositório de origem está ativado "
     section_2:
-      heading: "Download LegerSim"
-      description: "LedgerSim supports smart transactions running on a ledger instead of a blockchain for testing and development purposes."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: "Baixar LegerSim"
+      description: "O LedgerSim suporta transações inteligentes executadas em um razão, em vez de uma blockchain para fins de teste e desenvolvimento."
+      tabs_heading: "Atualmente disponível para macOS e Ubuntu. O Windows está chegando em breve."
       tabs:
         - heading: "OSX"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Clone o repositório de carteira da Chia"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets/ && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Instalar dependências"
               commands: 
                 - "pip install -r requirements.txt"
                 - "brew install zbar"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. Inicie o servidor LedgerSim"
               commands:
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Execute uma carteira padrão"
               commands: 
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Execute uma carteira inteligente Atomic Swaps"
               commands:
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Execute uma carteira inteligente de beneficiários autorizados"
               commands:
                 - "python3 AP_wallet_runnable.py"
         - heading: "Ubuntu"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Clone o repositório de carteira da Chia"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Instalar dependências"
               commands: 
                 - "pip install -r requirements.txt"
                 - "sudo apt-get install libzbar0"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. Inicie o servidor LedgerSim"
               commands: 
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Execute uma carteira padrão"
               commands:
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Execute uma carteira inteligente Atomic Swaps"
               commands: 
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Execute uma carteira inteligente de beneficiários autorizados"
               commands:
                 - "python3 AP_wallet_runnable.py"
-      repo_line: "The source repository is on "
+      repo_line: "O repositório de origem está ativado "
     stay_updated_section:
       heading: "Mantenha-se atualizado"
       keybase_line: "Participe do [keybase #dev channel](https://keybase.io/team/chia_network.public) para fazer perguntas."
@@ -1852,11 +1852,11 @@ tr: # Turkish
       sign_up: "Kaydol"
   developer_page:
     section_1:
-      heading: 'Download Chia'
-      description: "Chia Testnet is alpha and doesn’t yet support transactions. Our library for simulating the on-chain programming environment is below."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: 'Chia indir'
+      description: "Chia Testnet alfadır ve henüz işlemleri desteklememektedir. Zincir üstü programlama ortamını simüle etmek için kütüphanemiz aşağıdadır."
+      tabs_heading: "MacOS ve Ubuntu için şu anda mevcut. Windows yakında geliyor."
       tabs:
-        - heading: "Full Node"
+        - heading: "Tam düğüm"
           instructions:
             - label: "1. Install"
               commands: 
@@ -1864,7 +1864,7 @@ tr: # Turkish
             - label: "2. Command line for Full Node"
               commands:
                 - "Command line for installing full node"
-        - heading: "Farmer"
+        - heading: "Çiftçi"
           instructions:
             - label: "1. Install"
               commands:
@@ -1872,7 +1872,7 @@ tr: # Turkish
             - label: "2. Command line for Farmer"
               commands:
                 - "Command line for installing farmer"
-        - heading: "Time Lord"
+        - heading: "Zaman lordu"
           instructions:
             - label: "1. Install"
               commands:
@@ -1880,57 +1880,57 @@ tr: # Turkish
             - label: "2. Command line for Farmer"
               commands: 
                 - "Command line for installing time lord"
-      repo_line: "The source repository is on "
+      repo_line: "Kaynak deposu açık "
     section_2:
-      heading: "Download LegerSim"
-      description: "LedgerSim supports smart transactions running on a ledger instead of a blockchain for testing and development purposes."
-      tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
+      heading: "LegerSim indir"
+      description: "LedgerSim, test etme ve geliştirme amacıyla blokaj yerine bir defter üzerinde çalışan akıllı işlemleri destekler."
+      tabs_heading: "MacOS ve Ubuntu için şu anda mevcut. Windows yakında geliyor."
       tabs:
         - heading: "OSX"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Clone Chia’nın Cüzdan Repoları"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets/ && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Bağımlılıkları yükleyin"
               commands: 
                 - "pip install -r requirements.txt"
                 - "brew install zbar"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. LedgerSim Sunucusunu Başlatın"
               commands:
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Standart bir Cüzdan Çalıştırın"
               commands: 
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Atomik Bir Takas Akıllı Cüzdanı Çalıştırın"
               commands:
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Yetkili Payees Akıllı Cüzdanı Çalıştırın"
               commands:
                 - "python3 AP_wallet_runnable.py"
         - heading: "Ubuntu"
           instructions:
-            - label: "1. Clone Chia’s Wallet Repo"
+            - label: "1. Clone Chia’nın Cüzdan Repoları"
               commands: 
                 - "git clone https://github.com/Chia-Network/wallets && cd wallets"
-            - label: "2. Install Dependencies"
+            - label: "2. Bağımlılıkları yükleyin"
               commands: 
                 - "pip install -r requirements.txt"
                 - "sudo apt-get install libzbar0"
                 - "pip install pyzbar[scripts]"
-            - label: "3. Launch LedgerSim Server"
+            - label: "3. LedgerSim Sunucusunu Başlatın"
               commands: 
                 - "ledger-sim"
-            - label: "4. Run a Standard Wallet"
+            - label: "4. Standart bir Cüzdan Çalıştırın"
               commands:
                 - "python3 wallet_runnable.py"
-            - label: "5. Run an Atomic Swaps Smart Wallet"
+            - label: "5. Atomik Bir Takas Akıllı Cüzdanı Çalıştırın"
               commands: 
                 - "python3 as_wallet_runnable.py"
-            - label: "6. Run an Authorized Payees Smart Wallet"
+            - label: "6. Yetkili Payees Akıllı Cüzdanı Çalıştırın"
               commands:
                 - "python3 AP_wallet_runnable.py"
-      repo_line: "The source repository is on "
+      repo_line: "Kaynak deposu açık "
     stay_updated_section:
       heading: "Güncel kal"
       keybase_line: "Soru sormak için [keybase #dev channel](https://keybase.io/team/chia_network.public)'a katılın."
