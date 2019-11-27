@@ -138,7 +138,7 @@ en: # English
                 - "Command line for installing time lord"
       repo_line: "The source repository is on "
     section_2:
-      heading: "Download LegerSim"
+      heading: "Download LedgerSim"
       description: "LedgerSim supports smart transactions running on a ledger instead of a blockchain for testing and development purposes."
       tabs_heading: "Currently available for macOS and Ubuntu. Windows is coming soon."
       tabs:
@@ -330,7 +330,7 @@ fr: # French
                 - "Command line for installing time lord"
       repo_line: "Le référentiel source est sur "
     section_2:
-      heading: "Télécharger LegerSim"
+      heading: "Télécharger LedgerSim"
       description: "LedgerSim prend en charge les transactions intelligentes exécutées sur un grand livre au lieu d’une chaîne de blocs à des fins de test et de développement."
       tabs_heading: "Actuellement disponible pour macOS et Ubuntu. Windows arrive bientôt."
       tabs:
@@ -525,7 +525,7 @@ cn: # Chinese
                 - "Command line for installing time lord"
       repo_line: "源存储库已打开"
     section_2:
-      heading: "下载LegerSim"
+      heading: "下载LedgerSim"
       description: "LedgerSim支持在账本而非区块链上运行的智能交易，以进行测试和开发。"
       tabs_heading: "当前可用于macOS和Ubuntu。 Windows即将面世。"
       tabs:
@@ -719,7 +719,7 @@ jp: # Japanese
                 - "Command line for installing time lord"
       repo_line: "ソースリポジトリはオンです"
     section_2:
-      heading: "LegerSimをダウンロード"
+      heading: "LedgerSimをダウンロード"
       description: "LedgerSimは、テストおよび開発の目的で、ブロックチェーンではなくレジャーで実行されるスマートトランザクションをサポートします。"
       tabs_heading: "現在、macOSおよびUbuntuで使用できます。 Windowsはもうすぐです。"
       tabs:
@@ -913,7 +913,7 @@ nl: # Dutch
                 - "Command line for installing time lord"
       repo_line: "De bronrepository is ingeschakeld "
     section_2:
-      heading: "LegerSim downloaden"
+      heading: "LedgerSim downloaden"
       description: "LedgerSim ondersteunt slimme transacties die op een grootboek worden uitgevoerd in plaats van een blockchain voor test- en ontwikkelingsdoeleinden."
       tabs_heading: "Momenteel beschikbaar voor macOS en Ubuntu. Windows komt eraan."
       tabs:
@@ -1106,7 +1106,7 @@ de: # German
                 - "Command line for installing time lord"
       repo_line: "Das Quell-Repository ist aktiviert "
     section_2:
-      heading: "Laden Sie LegerSim herunter"
+      heading: "Laden Sie LedgerSim herunter"
       description: "LedgerSim unterstützt intelligente Transaktionen, die zu Test- und Entwicklungszwecken auf einem Ledger anstelle einer Blockchain ausgeführt werden."
       tabs_heading: "Derzeit verfügbar für macOS und Ubuntu. Windows kommt bald."
       tabs:
@@ -1300,7 +1300,7 @@ es: # Spanish
                 - "Command line for installing time lord"
       repo_line: "El repositorio de origen está encendido "
     section_2:
-      heading: "Descargar LegerSim"
+      heading: "Descargar LedgerSim"
       description: "LedgerSim admite transacciones inteligentes que se ejecutan en un libro mayor en lugar de una cadena de bloques para fines de prueba y desarrollo."
       tabs_heading: "Actualmente disponible para macOS y Ubuntu. Windows llegará pronto."
       tabs:
@@ -1688,7 +1688,7 @@ pt: # Portuguese
                 - "Command line for installing time lord"
       repo_line: "O repositório de origem está ativado "
     section_2:
-      heading: "Baixar LegerSim"
+      heading: "Baixar LedgerSim"
       description: "O LedgerSim suporta transações inteligentes executadas em um razão, em vez de uma blockchain para fins de teste e desenvolvimento."
       tabs_heading: "Atualmente disponível para macOS e Ubuntu. O Windows está chegando em breve."
       tabs:
@@ -1882,7 +1882,7 @@ tr: # Turkish
                 - "Command line for installing time lord"
       repo_line: "Kaynak deposu açık "
     section_2:
-      heading: "LegerSim indir"
+      heading: "LedgerSim indir"
       description: "LedgerSim, test etme ve geliştirme amacıyla blokaj yerine bir defter üzerinde çalışan akıllı işlemleri destekler."
       tabs_heading: "MacOS ve Ubuntu için şu anda mevcut. Windows yakında geliyor."
       tabs:
