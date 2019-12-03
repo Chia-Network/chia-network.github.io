@@ -8,30 +8,6 @@
         padding: 64px;
         margin-bottom: 96px;
     }
-    .tabs {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 64px;
-        border: none;
-        .btn {
-            flex-grow: 1;
-            flex-basis: 0px;
-            padding-top: 16px;
-            padding-bottom: 16px;
-            background: #26743B;
-            box-shadow: 0px 2px 27px rgba(0, 0, 0, 0.09);
-            border-radius: 6px;
-            color: #FFFFFF;
-            font-weight: 500;
-            font-size: 24px;
-            &.active {
-                background: #3AAC59;
-            }
-            &:not(:last-child) {
-                margin-right: 4px;
-            }
-        }
-    }
     
     .code-copy-wrapper {
         display: block;
@@ -101,7 +77,7 @@
         margin-bottom: 32px;
     }
     
-    h4 {
+    h4, h4 p {
         font-weight: bold;
         font-size: 20px;
         color: #219653;
@@ -117,6 +93,18 @@
     .stay-updated-section {
         background: #EEEEEE;
         padding: 80px 0px;
+    }
+    
+    .extra-instruction {
+        p {
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+        code {
+            background: #EEEEEE;
+            color: #0C282A;
+            padding: 4px;
+        }
     }
 }
 
@@ -152,16 +140,6 @@
             padding: 64px 16px 32px 16px;
             margin-bottom: 24px;
         }
-        .tabs {
-            flex-direction: column;
-            .btn {
-                &:not(:last-child) {
-                    margin-right: 0px;
-                    margin-bottom: 4px;
-                }
-            }
-        }
-
         h2 {
             font-size: 36px;
             margin-bottom: 32px;
