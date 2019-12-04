@@ -1,6 +1,7 @@
 .developer {
     background: #FAFAFA;
     padding: 96px 0px 0px 0px;
+
     .paper {
         background: #FFFFFF;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.18);
@@ -85,9 +86,14 @@
     }
     
     .github-line {
-        font-weight: normal;
-        font-size: 24px;
-        color: #0C282A;
+        a {
+            font-weight: normal;
+            font-size: 24px;
+            color: #0C282A;
+            &:hover {
+                text-transform: none;
+            }
+        }
     }
     
     .stay-updated-section {

@@ -8,50 +8,23 @@ layout: default
 <main class="developer">
     <div class="container">
         <div class="paper">
+            {% assign top_section = strings.developer_page.top_section %}
+            <h2 class="text-center">{{ top_section.heading }}</h2>
+            <div class="text-center">{{ top_section.description_1 | markdownify }}</div>
+            <div class="text-center">{{ top_section.description_2 | markdownify }}</div>
+            <hr>
             {% assign section_1 = strings.developer_page.section_1 %}
             <h2 class="text-center">{{ section_1.heading }}</h2>
             <p class="text-center">{{ section_1.description | markdownify }}</p>
+            <h3 class="github-line text-center"><a
+                    href="https://github.com/Chia-Network/chia-blockchain">{{ section_1.repo_line }} <img
+                        src="/assets/github.svg"></a></h3>
             <hr>
-            <h3 class="text-center">{{ section_1.instructions_heading }}</h3>
-            {% for instruction in section_1.instructions %}
-            <h4 class="code-label">{{ instruction.label | markdownify }}</h4>
-            <div id="code-1-{{ forloop.index }}" class="code-copy-wrapper">
-                <button class="btn code-copy-button"
-                    onclick="copyToClipboard('code-1-{{ forloop.index }}')">Copy</button>
-                {% for command in instruction.commands %}
-                <p><code><span class="dollar-sign">$ </span><span class="command">{{command}}</span></code></p>
-                {% endfor %}
-            </div>
-            {% endfor %}
-            <h3 class="github-line">{{ section_1.repo_line }} <a
-                    href="https://github.com/Chia-Network/chia-blockchain"><img src="/assets/github.svg"></a></h3>
-        </div>
-        <div class="paper">
             {% assign section_2 = strings.developer_page.section_2 %}
             <h2 class="text-center">{{ section_2.heading }}</h2>
             <p class="text-center">{{ section_2.description | markdownify }}</p>
-            <hr>
-            <h3 class="text-center">{{ section_2.instructions_heading }}</h3>
-            {% for instruction in section_2.instructions %}
-            <h4 class="code-label">{{ instruction.label | markdownify }}</h4>
-            <div id="code-2-{{ forloop.index }}" class="code-copy-wrapper">
-                <button class="btn code-copy-button"
-                    onclick="copyToClipboard('code-2-{{ forloop.index }}')">Copy</button>
-                {% for command in instruction.commands %}
-                <p><code><span class="dollar-sign">$ </span><span class="command">{{command}}</span></code></p>
-                {% endfor %}
-            </div>
-            {% endfor %}
-            <h4 class="code-label">{{ section_2.extra_instruction_label }}</h4>
-            <div class="extra-instruction">
-                <p>{{section_2.extra_instruction_description}}</p>
-                <ul>
-                    {% for point in section_2.extra_instruction_points %}
-                    <li>{{ point | markdownify }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <h3 class="github-line">{{ section_2.repo_line }} <a href="https://github.com/Chia-Network/wallets"><img
+            <h3 class="github-line text-center"><a
+                    href="https://github.com/Chia-Network/wallets">{{ section_2.repo_line }} <img
                         src="/assets/github.svg"></a></h3>
         </div>
     </div>
