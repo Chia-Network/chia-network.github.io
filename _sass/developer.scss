@@ -45,7 +45,11 @@
         a {
             font-weight: normal;
             font-size: 24px;
-            color: #0C282A;
+            padding: 1em;
+            margin-top: 1em;
+            background: #469D62;
+            color: white;
+
             &:hover {
                 text-transform: none;
             }
@@ -86,6 +90,14 @@
         h4 {
             font-size: 20px;
             margin-bottom: 20px;
+        }
+
+        .github-line {
+            a {
+                display: block;
+                font-size: 14px;
+                padding: 0.5em;
+            }
         }
     }
 }

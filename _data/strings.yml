@@ -117,16 +117,20 @@ en: # English
         Since this is an alpha release, you may want to review the [release errata](/errata){:target="_blank" rel="nofollow noopener"}.
     section_1:
       heading: "Download Blockchain"
-      description: "Chia’s blockchain includes a full node, farmer, and timelord.  Download the source code on [GitHub](https://github.com/Chia-Network/chia-blockchain){:target="_blank" rel="nofollow noopener"}."
+      description: |
+        Chia’s blockchain includes a full node, farmer, and timelord.  Download the source code on [GitHub](https://github.com/Chia-Network/chia-blockchain){:target="_blank" rel="nofollow noopener"}.
       repo_line: "The source repository is on "
     section_2:
       heading: "Download Chialisp and LedgerSim"
-      description: "LedgerSim supports [Chialisp](/2019/11/27/chialisp.en.html) smart transactions on a ledger instead of a blockchain for testing and development purposes. Chia’s wallets showcase our new programming language, Chialisp. Download the source code on [GitHub](https://github.com/Chia-Network/wallets){:target="_blank" rel="nofollow noopener"}."
+      description: |
+        LedgerSim supports [Chialisp](/2019/11/27/chialisp.en.html) smart transactions on a ledger instead of a blockchain for testing and development purposes. Chia’s wallets showcase our new programming language, Chialisp. Download the source code on [GitHub](https://github.com/Chia-Network/wallets){:target="_blank" rel="nofollow noopener"}.
       repo_line: "The source repository is on "
     stay_updated_section:
       heading: "Stay up to date"
-      keybase_line: "Join the [keybase #dev channel](https://keybase.io/team/chia_network.public){:target="_blank" rel="nofollow noopener"} to ask questions about Chialisp and Ledgersim. The [keybase #testnet channel](https://keybase.io/team/chia_network.public){:target="_blank" rel="nofollow noopener"} is for questions about installing and running the testnet blockchain."
-      newsletter_line: "Sign up for the [Newsletter](https://www.chia.net/community/){:target="_blank" rel="nofollow noopener"} to get the latest updates."
+      keybase_line: |
+        Join the [keybase #dev channel](https://keybase.io/team/chia_network.public){:target="_blank" rel="nofollow noopener"} to ask questions about Chialisp and Ledgersim. The [keybase #testnet channel](https://keybase.io/team/chia_network.public){:target="_blank" rel="nofollow noopener"} is for questions about installing and running the testnet blockchain.
+      newsletter_line: |
+        Sign up for the [Newsletter](https://www.chia.net/community/){:target="_blank" rel="nofollow noopener"} to get the latest updates.
   errata_page:
     heading: "Release Errata"
     errata: |
@@ -153,8 +157,10 @@ en: # English
       10. Work difficulty reset epochs will be shorter than mainnet to compensate for the expected dynamics of testnet.
     stay_updated_section:
       heading: "Stay up to date"
-      keybase_line: "Join the [keybase #dev channel](https://keybase.io/team/chia_network.public){:target="_blank" rel="nofollow noopener"} to ask questions about Chialisp and Ledgersim. The [keybase #testnet channel](https://keybase.io/team/chia_network.public){:target="_blank" rel="nofollow noopener"} is for questions about installing and running the testnet blockchain."
-      newsletter_line: "Sign up for the [Newsletter](https://www.chia.net/community/){:target="_blank" rel="nofollow noopener"} to get the latest updates."
+      keybase_line: |
+        Join the [keybase #dev channel](https://keybase.io/team/chia_network.public){:target="_blank" rel="nofollow noopener"} to ask questions about Chialisp and Ledgersim. The [keybase #testnet channel](https://keybase.io/team/chia_network.public){:target="_blank" rel="nofollow noopener"} is for questions about installing and running the testnet blockchain.
+      newsletter_line: |
+        Sign up for the [Newsletter](https://www.chia.net/community/){:target="_blank" rel="nofollow noopener"} to get the latest updates.
 
 fr: # French
   faq_title: "Foire aux questions"
