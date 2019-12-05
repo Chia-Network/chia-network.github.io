@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title:  "Introducing the alpha release of the Chia blockchain"
+title:  "Introducing The Alpha Release Of The Chia Blockchain"
 date:   2019-11-26
 carousel: true
 ---
