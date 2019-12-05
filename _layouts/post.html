@@ -5,22 +5,22 @@ layout: default
 {% assign strings = site.data.strings[page.lang] %}
 
 <div class="blog-post">
-    {% include navigation.html active="blog" %}
+  {% include navigation.html active="blog" %}
+  <article class="container" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="row blog-title-container">
       <h1 class="our-blog">Our Blog</h1>
     </div>
-    <article class="container" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <div class="post-title">
-            <h1>{{ page.title }}</h1>
-            <span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
-          </div>
-      
-          <div class="content">
-            {{ content }}
-          </div>
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <div class="post-title">
+          <h1>{{ page.title }}</h1>
+          <span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
+        </div>
+
+        <div class="content">
+          {{ content }}
         </div>
       </div>
-    </article>
+    </div>
+  </article>
 </div>
