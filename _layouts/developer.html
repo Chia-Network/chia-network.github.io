@@ -10,19 +10,18 @@ layout: default
         <div class="paper">
             {% assign top_section = strings.developer_page.top_section %}
             <h2 class="text-center">{{ top_section.heading }}</h2>
-            <div class="text-center">{{ top_section.description_1 | markdownify }}</div>
-            <div class="text-center">{{ top_section.description_2 | markdownify }}</div>
+            <div class="text-left">{{ top_section.description | markdownify }}</div>
             <hr>
             {% assign section_1 = strings.developer_page.section_1 %}
             <h2 class="text-center">{{ section_1.heading }}</h2>
-            <p class="text-center">{{ section_1.description | markdownify }}</p>
+            <p class="text-left">{{ section_1.description | markdownify }}</p>
             <h3 class="github-line text-center">
                 <a href="https://github.com/Chia-Network/chia-blockchain" class="btn btn-lg" style="display: inline-block; padding: 1em; background: #6ccfa6; color: #0f7148">{{ section_1.repo_line }} <img style="height: 1.5em; margin-bottom: 0.1em;" src="/assets/github.svg"></a>
             </h3>
             <hr>
             {% assign section_2 = strings.developer_page.section_2 %}
             <h2 class="text-center">{{ section_2.heading }}</h2>
-            <p class="text-center">{{ section_2.description | markdownify }}</p>
+            <p class="text-left">{{ section_2.description | markdownify }}</p>
             <h3 class="github-line text-center">
                 <a href="https://github.com/Chia-Network/wallets" class="btn btn-lg" style="display: inline-block; padding: 1em; background: #6ccfa6; color: #0f7148">{{ section_2.repo_line }} <img style="height: 1.5em; margin-bottom: 0.1em;" src="/assets/github.svg"></a>
             </h3>
@@ -37,37 +36,3 @@ layout: default
         </div>
     </div>
 </main>
-<div id="alert-placeholder"></div>
-
-<script>
-    function copyToClipboard(id) {
-        var commandsStrs = [];
-        $('#' + id + ' .command').each(function (index, elm) {
-            commandsStrs.push(elm.textContent);
-        });
-        var commands = commandsStrs.join('\n');
-        var $temp = $('<textarea>');
-        $('body').append($temp);
-        $temp.val(commands).select();
-        document.execCommand('copy');
-        $temp.remove();
-        showAlert('Successfully copied to clipboard.')
-    }
-
-    function showAlert(message) {
-        $('#alert-placeholder').html(
-            '<div class="alert alert-light alert-dismissible" role="alert">' +
-            '<a class="close" data-dismiss="alert">×</a><span> ' + message + '</span>' +
-            '</div>'
-        );
-
-        setTimeout(function () {
-            var alert = $('#alert-placeholder .alert');
-            alert.addClass('show');
-            setTimeout(function () {
-                alert.removeClass('show');
-            }, 3000);
-        }, 100);
-    }
-
-</script>

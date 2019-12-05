@@ -1,6 +1,8 @@
-.developer {
+.errata {
     background: #FAFAFA;
     padding: 96px 0px 0px 0px;
+    font-size: 20px;
+    color: #0C282A;
 
     .paper {
         background: #FFFFFF;
@@ -15,12 +17,6 @@
         font-size: 42px;
         color: #0C282A;
         margin-bottom: 32px;
-    }
-    
-    p {
-        font-size: 20px;
-        color: #0C282A;
-        
     }
     
     hr {
@@ -41,14 +37,17 @@
         margin-bottom: 20px;
     }
     
-    .github-line {
-        a {
-            font-weight: normal;
-            font-size: 24px;
-            color: #0C282A;
-            &:hover {
-                text-transform: none;
-            }
+    table {
+        border-collapse: collapse;
+        margin: 0 auto;
+        
+        th {
+            text-align: center;;
+        }
+
+        th, td {
+            padding: 1em;
+            border: 1px solid gray;
         }
     }
     
@@ -59,7 +58,7 @@
 }
 
 @media(max-width: 768px) {
-    .developer {
+    .errata {
         padding: 24px 0px 0px 0px;
         .paper {
             padding: 64px 16px 32px 16px;

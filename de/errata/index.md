@@ -1,0 +1,4 @@
+---
+layout: errata
+lang: de
+---
