@@ -109,7 +109,7 @@ en: # English
   developer_page:
     top_section:
       heading: "Chia’s Alpha Testnet"
-      description_1: "Alpha testnet introduces the first version of [Chialisp](http://localhost:4000/2019/11/27/chialisp.en.html), Chia’s smart transaction programming language. The Smart Transactions currently available are: [atomic swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [authorized payees](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [recoverable wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), [rate-limited wallet](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md)."
+      description_1: "Alpha testnet introduces the first version of [Chialisp](/2019/11/27/chialisp.en.html), Chia’s smart transaction programming language. The Smart Transactions currently available are: [atomic swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [authorized payees](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [recoverable wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), [rate-limited wallet](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md)."
       description_2: "Alpha testnet also introduces Chia’s blockchain consensus layer which includes a full node, farmer and timelord. The blockchain is alpha and does not yet support transactions."
     section_1:
       heading: "Download Blockchain"
@@ -117,7 +117,7 @@ en: # English
       repo_line: "The source repository is on "
     section_2:
       heading: "Download Chialisp and LedgerSim"
-      description: "LedgerSim supports [Chialisp](http://localhost:4000/2019/11/27/chialisp.en.html) smart transactions on a ledger instead of a blockchain for testing and development purposes. Chia’s wallets showcase our new programming language, Chialisp. Download the source code on [GitHub](https://github.com/Chia-Network/wallets)."
+      description: "LedgerSim supports [Chialisp](/2019/11/27/chialisp.en.html) smart transactions on a ledger instead of a blockchain for testing and development purposes. Chia’s wallets showcase our new programming language, Chialisp. Download the source code on [GitHub](https://github.com/Chia-Network/wallets)."
       repo_line: "The source repository is on "
     stay_updated_section:
       heading: "Stay up to date"
