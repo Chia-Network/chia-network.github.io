@@ -110,23 +110,23 @@ en: # English
     top_section:
       heading: "Chia’s Alpha Testnet"
       description: |
-        Alpha testnet introduces the first version of [Chialisp](/2019/11/27/chialisp.en.html), Chia’s smart transaction programming language. The Smart Transactions currently available are: [atomic swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [authorized payees](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [recoverable wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), [rate-limited wallet](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). Bram has [more on Chialisp](/2019/11/27/chialisp.en.html).
+        Alpha testnet introduces the first version of [Chialisp](/2019/11/27/chialisp.en.html){:target="_blank" rel="nofollow noopener"}, Chia’s smart transaction programming language. The Smart Transactions currently available are: [atomic swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md){:target="_blank" rel="nofollow noopener"}, [authorized payees](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md){:target="_blank" rel="nofollow noopener"}, [recoverable wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md){:target="_blank" rel="nofollow noopener"}, [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org){:target="_blank" rel="nofollow noopener"}, [rate-limited wallet](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md){:target="_blank" rel="nofollow noopener"}. Bram has [more on Chialisp](/2019/11/27/chialisp.en.html){:target="_blank" rel="nofollow noopener"}.
 
-        Alpha testnet also introduces Chia’s blockchain consensus layer which includes a full node, farmer and timelord. The blockchain is alpha and does not yet support transactions. Here are some [additional thoughts on the alpha chia blockchain](/2019/11/26/alpha-release.en.html).
+        Alpha testnet also introduces Chia’s blockchain consensus layer which includes a full node, farmer and timelord. The blockchain is alpha and does not yet support transactions. Here are some [additional thoughts on the alpha chia blockchain](/2019/11/26/alpha-release.en.html){:target="_blank" rel="nofollow noopener"}.
 
-        Since this is an alpha release, you may want to review the [release errata](/errata).
+        Since this is an alpha release, you may want to review the [release errata](/errata){:target="_blank" rel="nofollow noopener"}.
     section_1:
       heading: "Download Blockchain"
-      description: "Chia’s blockchain includes a full node, farmer, and timelord.  Download the source code on [GitHub](https://github.com/Chia-Network/chia-blockchain)."
+      description: "Chia’s blockchain includes a full node, farmer, and timelord.  Download the source code on [GitHub](https://github.com/Chia-Network/chia-blockchain){:target="_blank" rel="nofollow noopener"}."
       repo_line: "The source repository is on "
     section_2:
       heading: "Download Chialisp and LedgerSim"
-      description: "LedgerSim supports [Chialisp](/2019/11/27/chialisp.en.html) smart transactions on a ledger instead of a blockchain for testing and development purposes. Chia’s wallets showcase our new programming language, Chialisp. Download the source code on [GitHub](https://github.com/Chia-Network/wallets)."
+      description: "LedgerSim supports [Chialisp](/2019/11/27/chialisp.en.html) smart transactions on a ledger instead of a blockchain for testing and development purposes. Chia’s wallets showcase our new programming language, Chialisp. Download the source code on [GitHub](https://github.com/Chia-Network/wallets){:target="_blank" rel="nofollow noopener"}."
       repo_line: "The source repository is on "
     stay_updated_section:
       heading: "Stay up to date"
-      keybase_line: "Join the [keybase #dev channel](https://keybase.io/team/chia_network.public) to ask questions about Chialisp and Ledgersim. The [keybase #testnet channel](https://keybase.io/team/chia_network.public) is for questions about installing and running the testnet blockchain."
-      newsletter_line: "Sign up for the [Newsletter](https://www.chia.net/community/) to get the latest updates."
+      keybase_line: "Join the [keybase #dev channel](https://keybase.io/team/chia_network.public){:target="_blank" rel="nofollow noopener"} to ask questions about Chialisp and Ledgersim. The [keybase #testnet channel](https://keybase.io/team/chia_network.public){:target="_blank" rel="nofollow noopener"} is for questions about installing and running the testnet blockchain."
+      newsletter_line: "Sign up for the [Newsletter](https://www.chia.net/community/){:target="_blank" rel="nofollow noopener"} to get the latest updates."
   errata_page:
     heading: "Release Errata"
     errata: |
@@ -151,6 +151,10 @@ en: # English
       9. Once a timelord sends the first batch of iters, it might not continue to send the late ones (we need to keep the polling alive from the VDF process to the timelord.)
       Timelords start a random discriminant with the maximum height (but should always prefer one that requires the least iterations, if that exists).
       10. Work difficulty reset epochs will be shorter than mainnet to compensate for the expected dynamics of testnet.
+    stay_updated_section:
+      heading: "Stay up to date"
+      keybase_line: "Join the [keybase #dev channel](https://keybase.io/team/chia_network.public){:target="_blank" rel="nofollow noopener"} to ask questions about Chialisp and Ledgersim. The [keybase #testnet channel](https://keybase.io/team/chia_network.public){:target="_blank" rel="nofollow noopener"} is for questions about installing and running the testnet blockchain."
+      newsletter_line: "Sign up for the [Newsletter](https://www.chia.net/community/){:target="_blank" rel="nofollow noopener"} to get the latest updates."
 
 fr: # French
   faq_title: "Foire aux questions"
