@@ -2,7 +2,7 @@
 lang: en
 img_src: "/assets/bram.png"
 name: "Bram Cohen"
-title: "CTO, Chairman & Co-Founder"
+title: "CEO, Chairman & Co-Founder"
 order: 1
 ---
 

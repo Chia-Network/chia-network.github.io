@@ -2,7 +2,7 @@
 lang: en
 img_src: "/assets/gene.png"
 name: "Gene Hoffman"
-title: "SVP Corporate Development"
+title: "President"
 order: 3
 ---
 
