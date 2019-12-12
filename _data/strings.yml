@@ -134,7 +134,7 @@ en: # English
   errata_page:
     heading: "Release Notes/Errata"
     errata: |
-      ### Chia Blockchain Testnet alpha 1.1 2019-12-11
+      ### Chia Blockchain Testnet alpha 1.1 2019-12-12
 
       1. FullNode: A long running or low ulimit situation could cause an “out of files” issue which would stop new connection creation. Removed the underlying socket leak.
       2. FullNode: Multiple SSH UI bugs fixed.
