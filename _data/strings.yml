@@ -51,7 +51,7 @@ en: # English
   footer_find_us: "Find Us"
   # footer_disclaimer: |
   #  By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source.
-  footer_copyright_year: "© Chia Network 2019"
+  footer_copyright_year: "© Chia Network 2020"
   navigation_developer: "Developer"
   navigation_greenpaper: "Green Paper"
   navigation_faq: "FAQ"
@@ -233,7 +233,7 @@ fr: # French
   footer_find_us: "Trouve Nous"
   # footer_disclaimer: |
   #  En contribuant à ce référentiel, vous acceptez de concéder une licence pour votre travail sous la licence MIT, sauf indication contraire dans contrib / debian / copyright ou en haut du fichier. Toute œuvre contribuée dont vous n'êtes pas l'auteur original doit contenir son en-tête de licence avec le ou les auteurs d'origine et la source.
-  footer_copyright_year: "© Chia Network 2019"
+  footer_copyright_year: "© Chia Network 2020"
   navigation_developer: "Développeur"
   navigation_greenpaper: "Papier vert"
   navigation_faq: "FAQ"
@@ -411,7 +411,7 @@ cn: # Chinese
   footer_find_us: "找到我們"
   # footer_disclaimer: |
   #  通过为此存储库提供帮助，您同意在MIT许可下许可您的工作，除非在contrib / debian / copyright中另有说明或在文件顶部本身。在您不是原作者的情况下所做的任何工作必须包含其原始作者和来源的许可证标题。
-  footer_copyright_year: "© Chia Network 2019"
+  footer_copyright_year: "© Chia Network 2020"
   navigation_developer: "开发者"
   navigation_greenpaper: "绿皮书"
   navigation_faq: "常問問題"
@@ -588,7 +588,7 @@ jp: # Japanese
   footer_find_us: "私達を見つけなさい"
   # footer_disclaimer: |
   #  通过为此存储库提供帮助，您同意在MIT许可下许可您的工作，除非在contrib / debian / copyright中另有说明或在文件顶部本身。在您不是原作者的情况下所做的任何工作必须包含其原始作者和来源的许可证标题。
-  footer_copyright_year: "© Chia Network 2019"
+  footer_copyright_year: "© Chia Network 2020"
   navigation_developer: "開発者"
   navigation_greenpaper: "グリーンペーパー"
   navigation_faq: "よくある質問"
@@ -765,7 +765,7 @@ nl: # Dutch
   footer_find_us: "Vind ons"
 #  footer_disclaimer: |
 #    Door bij te dragen aan deze repository, gaat u ermee akkoord om uw werk onder de MIT-licentie te licentiëren, tenzij anders vermeld in contrib / debian / copyright of bovenaan het bestand zelf. Elk werk dat wordt bijgedragen wanneer u niet de oorspronkelijke auteur bent, moet de licentiekop bevatten met de oorspronkelijke auteur (s) en bron.
-  footer_copyright_year: "© Chia Network 2019"
+  footer_copyright_year: "© Chia Network 2020"
   navigation_developer: "Ontwikkelaar"
   navigation_greenpaper: "Groen papier"
   navigation_faq: "FAQ"
@@ -1118,7 +1118,7 @@ es: # Spanish
   footer_find_us: "Encuéntranos"
 #  footer_disclaimer: |
 #    Al contribuir a este repositorio, usted acepta licenciar su trabajo bajo la licencia MIT a menos que se especifique lo contrario en contrib / debian / copyright o en la parte superior del archivo. Cualquier trabajo contribuido donde usted no es el autor original debe contener su encabezado de licencia con el autor original y la fuente.
-  footer_copyright_year: "© Chia Network 2019"
+  footer_copyright_year: "© Chia Network 2020"
   navigation_developer: "Desarrollador"
   navigation_greenpaper: "Papel verde"
   navigation_faq: "Preguntas más frecuentes"
@@ -1295,7 +1295,7 @@ sr: # Serbian
   footer_find_us: "Пронађи нас"
 #  footer_disclaimer: |
 #    Доприносећи овом спремишту, слажете се да лиценцирате свој рад под МИТ лиценцом, осим ако је другачије наведено у доприносу / дебиан / цопиригхт или на врху саме датотеке. Било који рад који је допринио тамо где нисте изворни аутор мора да садржи заглавље лиценце са оригиналним ауторима и изворима.
-  footer_copyright_year: "© Chia Network 2019"
+  footer_copyright_year: "© Chia Network 2020"
   navigation_developer: "Девелопер"
   navigation_greenpaper: "Зелена књига"
   navigation_faq: "ФАК"
@@ -1472,7 +1472,7 @@ pt: # Portuguese
   footer_find_us: "Ache-nos"
 #  footer_disclaimer: |
 #    Ao contribuir para este repositório, você concorda em licenciar seu trabalho sob a licença MIT, a menos que especificado de outra forma em contrib / debian / copyright ou no topo do arquivo em si. Qualquer trabalho contribuído onde você não é o autor original deve conter seu cabeçalho de licença com o (s) autor (es) e fonte originais.
-  footer_copyright_year: "© Chia Network 2019"
+  footer_copyright_year: "© Chia Network 2020"
   navigation_developer: "Desenvolvedor"
   navigation_greenpaper: "Papel verde"
   navigation_faq: "Perguntas frequentes"
@@ -1649,7 +1649,7 @@ tr: # Turkish
   footer_find_us: "Bizi bul"
 #  footer_disclaimer: |
 #    Bu depoya katkıda bulunarak, katkı / debian / telif hakkı ile veya dosyanın üstünde belirtilmediği sürece çalışmanızı MIT lisansı altında lisanslamayı kabul edersiniz. Asıl yazar olmadığınız durumlarda yapılan herhangi bir çalışma, lisans başlığını orijinal yazar (lar) ve kaynakla birlikte içermelidir.
-  footer_copyright_year: "© Chia Network 2019"
+  footer_copyright_year: "© Chia Network 2020"
   navigation_developer: "Geliştirici"
   navigation_greenpaper: "Yeşil kağıt"
   navigation_faq: "SSS"
