@@ -3,7 +3,7 @@ lang: cn
 order: 12
 ---
 
-Is Chia doing an ICO?
+Chia在做ICO嗎？
 -----------------------
 
-No. Chia is not planning an ICO. Instead, our goal is to take the company public on American markets before we launch the network. This way, shareholders can share risk and return with management with transparency and disclosure. The Chia digital money is meant to be a useful payment instrument and not an investment opportunity. Chia intends to complete a fully compliant SEC registered IPO and will come to market as market-timing is amenable.
+不。Chia並未計劃ICO。 相反，我們的目標是使公司在美國股票市場上上市。 這樣，股東可以透明和公開地與管理層分擔風險和回報。 Chia數字貨幣是一種有用的付款工具，而不是投資機會。 Chia打算完成一項完全符合SEC規定的SEC註冊股票IPO，並將在市場時機允許的情況下上市。

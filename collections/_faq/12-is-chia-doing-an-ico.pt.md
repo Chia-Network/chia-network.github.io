@@ -3,7 +3,7 @@ lang: pt
 order: 12
 ---
 
-Is Chia doing an ICO?
+Chia está fazendo uma OIC?
 -----------------------
 
-No. Chia is not planning an ICO. Instead, our goal is to take the company public on American markets before we launch the network. This way, shareholders can share risk and return with management with transparency and disclosure. The Chia digital money is meant to be a useful payment instrument and not an investment opportunity. Chia intends to complete a fully compliant SEC registered IPO and will come to market as market-timing is amenable.
+Não. Chia não está planejando uma OIC. Em vez disso, nosso objetivo é tornar a empresa pública em um mercado de ações americano. Dessa forma, os acionistas podem compartilhar riscos e retornar com a administração com transparência e divulgação. O dinheiro digital Chia deve ser um instrumento de pagamento útil e não uma oportunidade de investimento. A Chia pretende concluir um IPO de ações com registro na SEC totalmente compatível e chegará ao mercado quando o tempo do mercado for favorável.
