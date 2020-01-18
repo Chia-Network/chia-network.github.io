@@ -5,7 +5,50 @@ layout: default
 {% include navigation.html active="developer" %}
 {% assign strings = site.data.strings[page.lang] %}
 
-<main class="developer">
+
+<main class="download">
+    <div class="main-container">
+        <h1>Chia's Alpha Testnet</h1>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum orci eu nisi gravida, sit amet rutrum metus cursus. Praesent sed leo sit amet eros rutrum laoreet eu luctus sem. Sed sit amet laoreet sem. Praesent in dignissim nisi. Aliquam neque ipsum, euismod vitae arcu id, mattis venenatis diam. Cras mollis sagittis lorem eget ultricies. Sed semper ultrices ipsum vel molestie. </div>
+        <br>
+        <div>Curabitur vitae congue orci, at suscipit urna. Phasellus cursus mattis neque pharetra gravida. Integer nec mauris volutpat, laoreet arcu eget, fermentum tortor. Nulla gravida aliquam ipsum a ultricies. Sed diam ex, sagittis non semper id, pellentesque in augue. Quisque ut enim id magna sollicitudin volutpat. Vestibulum scelerisque facilisis risus, a ornare ex ullamcorper in.</div>
+        <h2>Blockchain</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum orci eu nisi gravida, sit amet rutrum metus cursus. Praesent sed leo sit amet eros rutrum laoreet eu luctus sem. Sed sit amet laoreet sem. Praesent in dignissim nisi. Aliquam neque ipsum, euismod vitae arcu id, mattis venenatis diam. Cras mollis sagittis lorem eget ultricies. Sed semper ultrices ipsum vel molestie. </div>
+        <h2>Chialisp and LedgerSim</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum orci eu nisi gravida, sit amet rutrum metus cursus. Praesent sed leo sit amet eros rutrum laoreet eu luctus sem. Sed sit amet laoreet sem. Praesent in dignissim nisi. Aliquam neque ipsum, euismod vitae arcu id, mattis venenatis diam. Cras mollis sagittis lorem eget ultricies. Sed semper ultrices ipsum vel molestie. </div>
+        <hr>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum orci eu nisi gravida, sit amet rutrum metus cursus. </div>
+    </div>
+    <div>
+        <div class="downloads-container">
+            <h2>Downloads</h2>
+            <hr>
+            <div>
+                <div class="section-title">Blockchain</div>
+                <div class="version">Latest Version xyz</div>
+                <h3 class="github-line text-center">
+                    <a href="https://github.com/Chia-Network/chia-blockchain" target="_blank" rel="noreferrer noopener" class="btn btn-lg">
+                        <img style="height: 1.5em; margin-bottom: 0.1em;" src="/assets/github.svg">
+                        Download Source Code
+                    </a>
+                </h3>
+                <div class="section-title">Chialisp and LedgerSim</div>
+                <div class="version">Latest Version xyz</div>
+                <h3 class="github-line text-center">
+                    <a href="https://github.com/Chia-Network/wallets" target="_blank" rel="noreferrer noopener" class="btn btn-lg">
+                        <img style="height: 1.5em; margin-bottom: 0.1em;" src="/assets/github.svg">
+                        Download Source Code
+                    </a>
+                </h3>
+            </div>
+        </div>
+        <!-- TODO add link for release notes -->
+        <h3 class="release-notes"><a href="/releases">Release Notes</a></h3>
+    </div>
+
+</main>
+
+<!-- <main class="developer">
     <div class="container">
         <div class="paper">
             {% assign top_section = strings.developer_page.top_section %}
@@ -35,4 +78,5 @@ layout: default
             {{ stay_updated_section.newsletter_line  | markdownify }}
         </div>
     </div>
-</main>
+</main> -->
+
