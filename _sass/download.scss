@@ -1,0 +1,83 @@
+.download {
+    color: #0C282A;
+    display: flex;
+    margin-top: 55px;
+    margin-bottom: 55px;
+
+    .main-container {
+        width: 600px;
+        margin-left: 185px;
+        margin-right: 80px;
+
+        h1 {
+            margin-bottom: 32px;
+            font-weight: bold;
+        }
+
+        h2 {
+            margin-top: 55px;
+            margin-bottom: 32px;
+            font-weight: bold;
+        }
+    }
+
+    .downloads-container {
+        width: 392px;
+        height: 454px;
+
+        background: #EEEEEE;
+        border-radius: 2px;
+
+        h2 {
+            padding: 35px 0px 5px 40px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .section-title {
+            padding-left: 40px;
+            font-weight: bold;
+            font-size: 16px;
+            padding-top: 10px;
+        }
+
+        .version {
+            padding-left: 40px;
+            font-style: italic;
+            font-size: 16px;
+        }
+
+        .github-line {
+            a {
+                width: 307px;
+                height: 53px;
+
+                background: #3AAC59;
+                color: white;
+                border-radius: 2px;
+                
+                font-weight: bold;
+                font-size: 16px;
+                padding: 1em;
+                margin-left: -4px;
+                margin-top: 25px;
+                margin-bottom: 25px;
+
+                &:hover {
+                    text-transform: none;
+                }
+
+                img {
+                    margin-right: 5px;
+                    height: 16px;
+                    width: 16px;
+                }
+            }
+        }
+    }
+
+    .release-notes {
+        text-decoration: underline;
+        margin-top: 40px;
+    }
+}

@@ -1,4 +1,4 @@
 ---
-layout: developer
+layout: download
 lang: tr
 ---
