@@ -52,7 +52,7 @@ en: # English
   # footer_disclaimer: |
   #  By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source.
   footer_copyright_year: "© Chia Network 2020"
-  navigation_download: "Download"
+  navigation_developer: "Developer"
   navigation_greenpaper: "Green Paper"
   navigation_faq: "FAQ"
   navigation_news: "News"
@@ -106,7 +106,7 @@ en: # English
     footer:
       heading: "Win $100K in total prize money"
       sign_up: "Sign Up"
-  download_page:
+  developer_page:
     top_section:
       heading: "Chia’s Alpha Testnet"
       description: |
@@ -243,7 +243,7 @@ fr: # French
   # footer_disclaimer: |
   #  En contribuant à ce référentiel, vous acceptez de concéder une licence pour votre travail sous la licence MIT, sauf indication contraire dans contrib / debian / copyright ou en haut du fichier. Toute œuvre contribuée dont vous n'êtes pas l'auteur original doit contenir son en-tête de licence avec le ou les auteurs d'origine et la source.
   footer_copyright_year: "© Chia Network 2020"
-  navigation_download: "Développeur"
+  navigation_developer: "Développeur"
   navigation_greenpaper: "Papier vert"
   navigation_faq: "FAQ"
   navigation_news: "Nouvelles"
@@ -297,7 +297,7 @@ fr: # French
     footer:
       heading: "Gagnez 100 000 $ en prix"
       sign_up: "S'inscrire"
-  download_page:
+  developer_page:
     section_1:
       heading: 'Télécharger Chia'
       description: "TestNet de Chia est Alpha et ne supporte pas encore les transactions. Les instructions pour simuler l'environnement de programmation en chaîne se trouvent ci-dessous. Le référentiel source se trouve sur [GitHub](https://github.com/Chia-Network/chia-blockchain)."
@@ -421,7 +421,7 @@ cn: # Chinese
   # footer_disclaimer: |
   #  通过为此存储库提供帮助，您同意在MIT许可下许可您的工作，除非在contrib / debian / copyright中另有说明或在文件顶部本身。在您不是原作者的情况下所做的任何工作必须包含其原始作者和来源的许可证标题。
   footer_copyright_year: "© Chia Network 2020"
-  navigation_download: "开发者"
+  navigation_developer: "开发者"
   navigation_greenpaper: "绿皮书"
   navigation_faq: "常問問題"
   navigation_news: "消息"
@@ -475,7 +475,7 @@ cn: # Chinese
     footer:
       heading: "赢得$ 100,000的总奖金"
       sign_up: "注册"
-  download_page:
+  developer_page:
     section_1:
       heading: '下载Chia'
       description: "Chia的Testnet是Alpha，尚不支持交易。下面是模拟链上编程环境的说明。源存储库位于[GitHub](https://github.com/Chia-Network/chia-blockchain)上。"
@@ -598,7 +598,7 @@ jp: # Japanese
   # footer_disclaimer: |
   #  通过为此存储库提供帮助，您同意在MIT许可下许可您的工作，除非在contrib / debian / copyright中另有说明或在文件顶部本身。在您不是原作者的情况下所做的任何工作必须包含其原始作者和来源的许可证标题。
   footer_copyright_year: "© Chia Network 2020"
-  navigation_download: "開発者"
+  navigation_developer: "開発者"
   navigation_greenpaper: "グリーンペーパー"
   navigation_faq: "よくある質問"
   navigation_news: "ニュース"
@@ -652,7 +652,7 @@ jp: # Japanese
     footer:
       heading: "賞金総額で10万ドルを獲得する"
       sign_up: "サインアップ"
-  download_page:
+  developer_page:
     section_1:
       heading: 'ダウンロードChia'
       description: "ChiaのTestnetはAlphaであり、トランザクションをまだサポートしていません。オンチェーンプログラミング環境をシミュレートする手順は以下のとおりです。ソースリポジトリは[GitHub](https://github.com/Chia-Network/chia-blockchain)にあります。"
@@ -775,7 +775,7 @@ nl: # Dutch
 #  footer_disclaimer: |
 #    Door bij te dragen aan deze repository, gaat u ermee akkoord om uw werk onder de MIT-licentie te licentiëren, tenzij anders vermeld in contrib / debian / copyright of bovenaan het bestand zelf. Elk werk dat wordt bijgedragen wanneer u niet de oorspronkelijke auteur bent, moet de licentiekop bevatten met de oorspronkelijke auteur (s) en bron.
   footer_copyright_year: "© Chia Network 2020"
-  navigation_download: "Ontwikkelaar"
+  navigation_developer: "Ontwikkelaar"
   navigation_greenpaper: "Groen papier"
   navigation_faq: "FAQ"
   navigation_news: "Nieuws"
@@ -829,7 +829,7 @@ nl: # Dutch
     footer:
       heading: "Win $ 100K aan totaal prijzengeld"
       sign_up: "Aanmelden"
-  download_page:
+  developer_page:
     section_1:
       heading: 'Chia downloaden'
       description: "Chia's Testnet is Alpha en ondersteunt nog geen transacties. De instructies voor het simuleren van de on-chain programmeeromgeving vindt u hieronder. De bronrepository bevindt zich op [GitHub](https://github.com/Chia-Network/chia-blockchain)."
@@ -951,7 +951,7 @@ de: # German
   footer_find_us: "Finde uns"
 #  footer_disclaimer: |
 #    Indem Sie zu diesem Repository beitragen, erklären Sie sich damit einverstanden, Ihre Arbeit unter der MIT-Lizenz zu lizenzieren, sofern dies nicht in Contrib / Debian / Copyright oder oben in der Datei selbst angegeben ist. Jede Arbeit, bei der Sie nicht der ursprüngliche Autor sind, muss den Lizenzheader mit den ursprünglichen Autoren und der Quelle enthalten.
-  navigation_download: "Entwickler"
+  navigation_developer: "Entwickler"
   navigation_greenpaper: "Grünes Papier"
   navigation_faq: "FAQ"
   navigation_news: "Nachrichten"
@@ -1005,7 +1005,7 @@ de: # German
     footer:
       heading: "Gewinnen Sie insgesamt $ 100.000 Preisgeld"
       sign_up: "Der 2. Beweis der Zeit Herausforderung"
-  download_page:
+  developer_page:
     section_1:
       heading: 'Laden Sie Chia herunter'
       description: "Chias Testnet ist Alpha und unterstützt noch keine Transaktionen. Die Anweisungen zum Simulieren der On-Chain-Programmierumgebung finden Sie unten. Das Quell-Repository befindet sich auf [GitHub](https://github.com/Chia-Network/chia-blockchain)."
@@ -1128,7 +1128,7 @@ es: # Spanish
 #  footer_disclaimer: |
 #    Al contribuir a este repositorio, usted acepta licenciar su trabajo bajo la licencia MIT a menos que se especifique lo contrario en contrib / debian / copyright o en la parte superior del archivo. Cualquier trabajo contribuido donde usted no es el autor original debe contener su encabezado de licencia con el autor original y la fuente.
   footer_copyright_year: "© Chia Network 2020"
-  navigation_download: "Desarrollador"
+  navigation_developer: "Desarrollador"
   navigation_greenpaper: "Papel verde"
   navigation_faq: "Preguntas más frecuentes"
   navigation_news: "Noticias"
@@ -1182,7 +1182,7 @@ es: # Spanish
     footer:
       heading: "Gane $ 100K en premios totales"
       sign_up: "Regístrate"
-  download_page:
+  developer_page:
     section_1:
       heading: 'Descargar Chia'
       description: "Testnet de Chia es Alpha y aún no admite transacciones. Las instrucciones para simular el entorno de programación en cadena se encuentran a continuación. El repositorio de origen está en [GitHub](https://github.com/Chia-Network/chia-blockchain)."
@@ -1305,7 +1305,7 @@ sr: # Serbian
 #  footer_disclaimer: |
 #    Доприносећи овом спремишту, слажете се да лиценцирате свој рад под МИТ лиценцом, осим ако је другачије наведено у доприносу / дебиан / цопиригхт или на врху саме датотеке. Било који рад који је допринио тамо где нисте изворни аутор мора да садржи заглавље лиценце са оригиналним ауторима и изворима.
   footer_copyright_year: "© Chia Network 2020"
-  navigation_download: "Девелопер"
+  navigation_developer: "Девелопер"
   navigation_greenpaper: "Зелена књига"
   navigation_faq: "ФАК"
   navigation_news: "Невс"
@@ -1359,7 +1359,7 @@ sr: # Serbian
     footer:
       heading: "Освојите 100.000 УСД укупног новца"
       sign_up: "Пријави се"
-  download_page:
+  developer_page:
     section_1:
       heading: 'Довнлоад Цхиа'
       description: "Цхиа'с Тестнет је Алпха и још не подржава трансакције. У наставку су упутства за симулацију окружења ланца програмирања. Изворно складиште је на [ГитХуб](https://github.com/Chia-Network/chia-blockchain)."
@@ -1482,7 +1482,7 @@ pt: # Portuguese
 #  footer_disclaimer: |
 #    Ao contribuir para este repositório, você concorda em licenciar seu trabalho sob a licença MIT, a menos que especificado de outra forma em contrib / debian / copyright ou no topo do arquivo em si. Qualquer trabalho contribuído onde você não é o autor original deve conter seu cabeçalho de licença com o (s) autor (es) e fonte originais.
   footer_copyright_year: "© Chia Network 2020"
-  navigation_download: "Desenvolvedor"
+  navigation_developer: "Desenvolvedor"
   navigation_greenpaper: "Papel verde"
   navigation_faq: "Perguntas frequentes"
   navigation_news: "Notícia"
@@ -1536,7 +1536,7 @@ pt: # Portuguese
     footer:
       heading: "Ganhe $ 100.000 em prêmios em dinheiro"
       sign_up: "Inscrever-se"
-  download_page:
+  developer_page:
     section_1:
       heading: 'Baixar Chia'
       description: "O Testnet da Chia é Alpha e ainda não suporta transações. As instruções para simular o ambiente de programação on-chain estão abaixo. O repositório de origem está no [GitHub](https://github.com/Chia-Network/chia-blockchain)."
@@ -1659,7 +1659,7 @@ tr: # Turkish
 #  footer_disclaimer: |
 #    Bu depoya katkıda bulunarak, katkı / debian / telif hakkı ile veya dosyanın üstünde belirtilmediği sürece çalışmanızı MIT lisansı altında lisanslamayı kabul edersiniz. Asıl yazar olmadığınız durumlarda yapılan herhangi bir çalışma, lisans başlığını orijinal yazar (lar) ve kaynakla birlikte içermelidir.
   footer_copyright_year: "© Chia Network 2020"
-  navigation_download: "Geliştirici"
+  navigation_developer: "Geliştirici"
   navigation_greenpaper: "Yeşil kağıt"
   navigation_faq: "SSS"
   navigation_news: "Haber"
@@ -1713,7 +1713,7 @@ tr: # Turkish
     footer:
       heading: "Toplam para ödülü olarak 100.000 $ kazanın"
       sign_up: "Kaydol"
-  download_page:
+  developer_page:
     section_1:
       heading: 'Chia indir'
       description: "Chia’s Testnet Alpha’dır ve henüz işlemleri desteklememektedir. Zincir üstü programlama ortamını taklit etmek için talimatlar aşağıdadır. Kaynak deposu [GitHub](https://github.com/Chia-Network/chia-blockchain)'da  açık."
