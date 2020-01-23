@@ -6,10 +6,6 @@
         padding: 20px;
     }
 
-    h1 {
-        font-weight: bold;
-    }
-
     .jumbotron {
         position: relative;
         padding: 0;
@@ -19,6 +15,7 @@
             text-decoration: none;
             transition: opacity 0.4s;
             opacity: 1;
+            color: inherit;
 
             &:hover { opacity: 0.7; }
 
@@ -28,31 +25,28 @@
                 text-transform: uppercase;
                 color: #2B693C;
             }
-    
+
             .headline {
                 font-weight: bold;
-                line-height: 41px;
+                line-height: 53px;
                 font-size: 40px;
-                letter-spacing: 1.75px;
                 color: #0C282A;
                 margin-top: 1.5rem;
             }
 
+            .tagline {
+                font-weight: normal;
+                font-size: 24px;
+                margin-top: 0.5rem;
+            }
+
             .source {
                 margin-top: 1rem;
-                font-size: 14px;
+                font-size: 16px;
                 text-transform: uppercase;
                 overflow: hidden;
                 white-space: nowrap;
                 text-overflow: ellipsis;
-                color: #0C282A;
-            }
-    
-            .tagline {
-                font-weight: normal;
-                font-size: 20px;
-                color: #0C282A;
-                margin-top: 0.5rem;
             }
         }
 
@@ -63,14 +57,11 @@
         }
     }
 
-    .jumbotron-divider {
-        border-top: 1px solid #e7e7e7;
-        margin: 2rem 0;
-    }
-     
     .article {
-        padding: 2rem;
+        padding: 1rem;
+        padding-bottom: 3rem;
         text-decoration: none;
+        color: inherit;
 
         &:hover {
             .headline { opacity: 0.7; }
@@ -89,32 +80,28 @@
         .date {
             margin-top: 1rem;
             font-weight: bold;
-            font-size: 14px;
             text-transform: uppercase;
             color: #2B693C;
-        }
-
-        .source {
-            margin-top: 1rem;
-            font-size: 14px;
-            text-transform: uppercase;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            color: #0C282A;
         }
 
         .headline {
             margin-top: 1rem;
             font-weight: bold;
-            line-height: 32px;
-            font-size: 28px;
-            color: #0C282A;
+            line-height: 43px;
+            font-size: 32px;
             transition: opacity 0.4s;
             opacity: 1;
         }
+
+        .source {
+            margin-top: 1rem;
+            text-transform: uppercase;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
     }
-    
+
     #see-more-button {
         display: inline-block;
         cursor: pointer;
@@ -131,5 +118,4 @@
         font-weight: bold;
         text-transform: uppercase;
     }
-    
 }

@@ -18,7 +18,7 @@ layout: default
                 <div class="col-lg-6 px-lg-5 pt-5 pt-lg-0">
                     <a class="d-block" href="{{ entry.weblink }}" title="{{ entry.title }}">
                         <div class="date">{{ entry.date | date:"%B %-d, %Y" }}</div>
-                        <div class="headline">{{ entry.title | truncate: 70 }}</div>
+                        <div class="headline">{{ entry.title | truncate: 60 }}</div>
                         <div class="tagline">{{ entry.content }}</div>
                         <div class="source">{{ entry.source | upcase }}</div>
                     </a>
@@ -28,7 +28,7 @@ layout: default
     </div>
     <div class="row">
         <div class="col-12">
-            <h1 class="mt-5 mb-3">News</h1>
+            <h1 class="page-main-title mt-5">{{ strings.news_title }}</h1>
         </div>
     </div>
     <div class="row">
@@ -37,7 +37,7 @@ layout: default
             <a class="article col-md-6 col-lg-4{% if forloop.index > page_size %} d-none{% endif %}" href="{{ entry.weblink }}" title="{{ entry.title }}">
                 <img class="w-100" src="{{ entry.thumbnail }}">
                 <div class="date">{{ entry.date | date:"%B %-d, %Y" }}</div>
-                <div class="headline">{{ entry.title | truncate: 70 }}</div>
+                <div class="headline">{{ entry.title | truncate: 60 }}</div>
                 <div class="source">{{ entry.source | upcase }}</div>
             </a>
         {% endfor %}

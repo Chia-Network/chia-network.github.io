@@ -3,23 +3,16 @@
     color: #0C282A;
 
     .details {
-        h1 {
-            font-size: 40;
-            font-weight: 900;
-            margin-top: 3rem;
-            margin-bottom: 2rem;
-
-            .btn {
-                display: inline-block;
-                padding: 1rem;
-                box-shadow: 0 2px 27px 0 rgba(0,0,0,0.09);
-                border: 3px solid #3AAC59;
-                border-radius: 3px;
-                color: #3AAC59;
-                font-size: 16px;
-                font-weight: bold;
-                text-transform: uppercase;
-            }
+        .btn {
+            display: inline-block;
+            padding: 1rem;
+            box-shadow: 0 2px 27px 0 rgba(0,0,0,0.09);
+            border: 3px solid #3AAC59;
+            border-radius: 3px;
+            color: #3AAC59;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
         }
 
         p {
@@ -79,14 +72,14 @@
         background: #eee;
         padding: 3rem;
 
-        h1 {
+        h2 {
             font-size: 32px;
             font-weight: bold;
             margin-bottom: 1rem;
         }
 
         p {
-            font-size: 24px;
+            font-size: 20px;
         }
 
         .email-form {
@@ -102,7 +95,7 @@
 
             input {
                 border: none !important;
-                font-size: 24px;
+                font-size: 20px;
                 padding: 1.5rem 1rem;
             }
 
@@ -111,7 +104,7 @@
                 border-radius: 0;
                 color: white;
                 background-color: #3AAC59;
-                font-size: 14px;
+                font-size: 20px;
                 font-weight: bold;
                 width: 10rem;
             }

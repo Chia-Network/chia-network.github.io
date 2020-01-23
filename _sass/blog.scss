@@ -1,19 +1,13 @@
 .blog-page {
     padding-bottom: 3rem;
 
-    h1 {
-        font-weight: 900;
-        margin-top: 40px;
-        padding-bottom: 2rem;
-    }
-
     .post {
         &.first-of-year:not(:first-child) {
-            border-top: 1px solid #aaa;
+            border-top: 1px solid #808080;
         }
 
         &:not(.first-of-year) .content {
-            border-top: 1px solid #aaa;
+            border-top: 1px solid #808080;
         }
 
         .year {
@@ -62,10 +56,6 @@
 
 @media(max-width: 768px) {
     .blog-page {
-        h1 {
-            padding-bottom: 0;
-        }
-    
         .post {
             flex-direction: column;
 

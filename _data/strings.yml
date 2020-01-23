@@ -1,8 +1,13 @@
 en: # English
   faq_title: "FAQs"
+  news_title: "News"
   news_see_more: "See more"
-  download_title: "Chia's Alpha Testnet"
+  download_title: "Chia Network"
+  download_subtitle: "An eco-friendly blockchain and better platform for managing money."
   download_description: |
+    Chia’s Alpha Testnet
+    --------------------
+
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum orci eu nisi gravida, sit amet rutrum metus cursus. Praesent sed leo sit amet eros rutrum laoreet eu luctus sem. Sed sit amet laoreet sem. Praesent in dignissim nisi. Aliquam neque ipsum, euismod vitae arcu id, mattis venenatis diam. Cras mollis sagittis lorem eget ultricies. Sed semper ultrices ipsum vel molestie.
 
     Curabitur vitae congue orci, at suscipit urna. Phasellus cursus mattis neque pharetra gravida. Integer nec mauris volutpat, laoreet arcu eget, fermentum tortor. Nulla gravida aliquam ipsum a ultricies. Sed diam ex, sagittis non semper id, pellentesque in augue. Quisque ut enim id magna sollicitudin volutpat. Vestibulum scelerisque facilisis risus, a ornare ex ullamcorper in.
@@ -24,7 +29,7 @@ en: # English
   download_box_section_2: "Chialisp and LedgerSim"
   download_box_section_2_note: "Latest Version XYZ"
   download_box_button: "Download Source Code"
-  download_releases_link: "Release Notes"
+  download_releases_link: "View release notes"
   about_title: "About Us"
   about_description: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum orci eu nisi gravida, sit amet rutrum metus cursus. Praesent sed leo sit amet eros rutrum laoreet eu luctus sem. Sed sit amet laoreet sem. Praesent in dignissim nisi. Aliquam neque ipsum, euismod vitae arcu id, mattis venenatis diam. Cras mollis sagittis lorem eget ultricies. Sed semper ultrices ipsum vel molestie. Fusce ullamcorper commodo rhoncus. Curabitur dictum pretium tellus, eu mattis lorem semper eu.
@@ -38,7 +43,7 @@ en: # English
   about_invest_investors_title: "Our Investors"
   blog_title: "Straight from Chia"
   releases_title: "Release Notes"
-  green_paper_main_title: "Chia Network's Green Paper"
+  green_paper_main_title: "Chia's Green Paper"
   green_paper_download: "Download Green Paper"
   green_paper_description: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum orci eu nisi gravida, sit amet rutrum metus cursus. Praesent sed leo sit amet eros rutrum laoreet eu luctus sem. Sed sit amet laoreet sem. Praesent in dignissim nisi. Aliquam neque ipsum, euismod vitae arcu id, mattis venenatis diam. Cras mollis sagittis lorem eget ultricies. Sed semper ultrices ipsum vel molestie.

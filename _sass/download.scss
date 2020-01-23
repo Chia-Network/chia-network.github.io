@@ -1,18 +1,35 @@
 .download {
+    .header-section {
+        p {
+            font-size: 24px;
+        }
+    }
+
     .content {
-        h1 { font-weight: bold; margin-bottom: 1.5rem; }
-        h2 { font-weight: bold; margin-top: 3rem; margin-bottom: 2rem; }
-        hr { margin-top: 3rem; margin-bottom: 3rem; }
+        h2 {
+            font-weight: bold;
+            font-size: 32px;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
     }
 
     .downloads-box {
         background: #EEEEEE;
         border-radius: 2px;
-        font-size: 1.2rem;
+
+        h2 {
+            font-weight: bold;
+            font-size: 24px;
+        }
 
         h3 {
-            font-size: 100%;
-            font-weight: bold;;
+            font-weight: bold;
+            font-size: inherit;
         }
 
         .btn {
