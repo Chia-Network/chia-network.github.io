@@ -39,18 +39,12 @@ defaults:
 
 collections_dir: collections
 collections:
+  releases:
+    output: true
   news:
-    output: false
-  investor_faq:
     output: false
   investor_pics:
     output: false
-  advisors:
-    output: false
-  community:
-    output: true
-  team:
-    output: true
   faq:
     output: false
 

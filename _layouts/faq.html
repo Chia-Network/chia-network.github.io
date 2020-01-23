@@ -8,117 +8,23 @@ layout: default
 {% assign faq = site.faq | where:"lang",page.lang | sort:"order" %}
 
 <div class="container faq">
-    <form class="float-right form-inline mt-2">
-        <input id="faq-search" class="form-control" type="search" placeholder="Search" aria-label="Search">
-    </form>
-    <h1>{{ strings.faq_title }}</h1>
-    <div class="faq-container">
-        {% for entry in faq %}
-            <div class="faq-entry" id="faq-{{ entry.order }}">
-                {{ entry.content | markdownify }}
-            </div>
-        {% endfor %}
-        <div id="faq-page-navigation">
-            <a href="#" id="faq-previous" class="{% if forloop.first == true %}invisible{% endif %}">&#9666;</a>
-            <span id="faq-pages"></span>
-            {% for new_page_num in (1..pages) %}
-                <a href="#" class="{% if forloop.index == page_num %}active{% endif %}">{{ new_page_num }}</a>
+    <div class="row">
+        <div class="col-lg-6">
+            <h1>{{ strings.faq_title }}</h1>
+            {% for entry in faq %}
+                <div class="faq-entry" id="faq-{{ entry.order }}">
+                    <h2>{{ entry.title }}</h2>
+                    {{ entry.content | markdownify }}
+                </div>
             {% endfor %}
-            <a href="#" id="faq-next" class="{% if forloop.last == true %}invisible{% endif %}">&#9656;</a>
         </div>
-        <div id="faq-no-results" class="p-5 text-center">No results found.</div>
+        <div class="col-lg-6 order-first order-lg-last">
+            <div class="faq-summary-box mt-3 m-lg-5">
+                <h2>Overview</h2>
+                {% for entry in faq %}
+                <a href="#faq-{{ entry.order }}">{{ entry.title }}</a>
+                {% endfor %}
+            </div>
+        </div>
     </div>
 </div>
-
-<script type="text/javascript">
-var FAQ_ENTRIES = Array.from(document.querySelectorAll('.faq-entry'));
-var PAGE_SIZE = 100;
-
-var CURRENT_PAGE = 0;
-var SEARCHED_FAQ_ENTRIES = FAQ_ENTRIES;
-var SEARCH_TIMER = null;
-
-function showEntries() {
-    // remove every FAQ entry
-    FAQ_ENTRIES.forEach(function(faqEntry) {
-        faqEntry.classList.add('d-none');
-        faqEntry.classList.remove('last');
-    });
-
-    var pageCount = Math.ceil(SEARCHED_FAQ_ENTRIES.length / PAGE_SIZE);
-    if (pageCount == 0) {
-        document.getElementById('faq-no-results').classList.remove('d-none');
-    } else {
-        document.getElementById('faq-no-results').classList.add('d-none');
-    }
-
-    // update navigation
-    if (pageCount > 1) {
-        document.getElementById('faq-page-navigation').classList.remove('d-none');
-        var pages = document.getElementById('faq-pages');
-        pages.innerHTML = '';
-        for (var i = 0; i < pageCount; i ++) {
-            var pageLink = document.createElement('a');
-            if (i === CURRENT_PAGE) {
-                pageLink.classList.add('active');
-            }
-            pageLink.addEventListener('click', function(event) {
-                CURRENT_PAGE = i;
-                showEntries(FAQ_ENTRIES);
-            });
-            pageLink.innerHTML = i + 1;
-            pages.appendChild(pageLink);
-        }
-        if (CURRENT_PAGE == 0) {
-            document.getElementById('faq-previous').classList.add('invisible');
-        } else {
-            document.getElementById('faq-previous').classList.remove('invisible');
-        }
-        if (CURRENT_PAGE == pageCount - 1) {
-            document.getElementById('faq-next').classList.add('invisible');
-        } else {
-            document.getElementById('faq-next').classList.remove('invisible');
-        }
-    } else {
-        document.getElementById('faq-page-navigation').classList.add('d-none');
-    }
-
-    // re-add FAQ entries that are visible
-    var shownEntries = SEARCHED_FAQ_ENTRIES.slice(CURRENT_PAGE * PAGE_SIZE, (CURRENT_PAGE + 1) * PAGE_SIZE);
-    shownEntries.forEach(function(faqEntry) {
-        faqEntry.classList.remove('d-none');
-    });
-    if (shownEntries.length > 0) {
-        shownEntries[shownEntries.length - 1].classList.add('last');
-    }
-}
-
-function doSearch(query) {
-    SEARCHED_FAQ_ENTRIES = FAQ_ENTRIES.filter(function(faqEntry) {
-        return faqEntry.innerText.toLowerCase().indexOf(query.trim().toLowerCase()) >= 0;
-    });
-    CURRENT_PAGE = 0;
-    showEntries();
-}
-
-// page navigation
-document.getElementById('faq-previous').addEventListener('click', function(event) {
-    CURRENT_PAGE -= 1;
-    showEntries();
-});
-document.getElementById('faq-next').addEventListener('click', function(event) {
-    CURRENT_PAGE += 1;
-    showEntries();
-});
-
-// debounced search
-document.getElementById('faq-search').addEventListener('input', function(event) {
-    var query = event.target.value;
-    if (SEARCH_TIMER !== null) { clearTimeout(SEARCH_TIMER); }
-    SEARCH_TIMER = setTimeout(function() { doSearch(query); }, 200);
-});
-
-window.addEventListener('load', function() {
-    showEntries();
-});
-</script>

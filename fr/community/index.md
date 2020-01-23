@@ -1,4 +1,0 @@
----
-layout: community
-lang: fr
----

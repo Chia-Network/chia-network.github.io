@@ -56,7 +56,6 @@ On any page, front matter entries can be used to add social media metadata. For 
 # post-specific fields (other fields also may be used in the post, but also are used for SEO)
 layout: post
 date:   2019-04-04
-carousel: true
 
 # also used as title of card preview on Twitter and Facebook
 title:  "Chia Network Announces 2nd VDF Competition with $100,000 in Total Prize Money"
@@ -137,54 +136,6 @@ CONTENT OF BLOG POST AS MARKDOWN.
 Make sure to create the corresponding translated files for every language code!
 
 To edit an existing Blog Post entry, edit the corresponding file at `collections/_posts/<YYYY>-<MM>-<DD>-<IDENTIFIER>.<LANGUAGE_CODE>.md`.
-
-### Community Posts
-
-To add a new Community Post, create a new file at `collections/_community/<ORDER_WITHIN_PAGE>-<IDENTIFIER>.<LANGUAGE_CODE>.md` with the following form:
-
-```markdown
----
-lang: tr                                            # this post is written in Turkish
-layout: community_post
-title:  "Join our Keybase group"                    # title of the community post
-preview: |                                          # preview text for the community post
-  - Install and setup Keybase
-  - Run this in your terminal:
-    keybase team request-access chia_network.public
-extra_details: |                                    # extra details in a collapsing section in the community post
-    FAQ
-    ---
-
-    ...
-order: 2                                            # this is the second community post within the community post list
----
-
-CONTENT OF COMMUNITY POST AS MARKDOWN.
-```
-
-Make sure to create the corresponding translated files for every language code!
-
-To edit an existing Community Post entry, edit the corresponding file at `collections/_community/<ORDER_WITHIN_PAGE>-<IDENTIFIER>.<LANGUAGE_CODE>.md`.
-
-### Investor Frequently Asked Questions
-
-To add a new Investor FAQ entry, create a new file at `collections/_investor_faq/<ORDER_WITHIN_PAGE>-<IDENTIFIER>.<LANGUAGE_CODE>.md` with the following form:
-
-```markdown
----
-lang: pt # this FAQ entry is written in Portuguese
-order: 2 # this FAQ entry appears as the second entry
----
-
-QUESTION?
----------
-
-ANSWER TO QUESTION.
-```
-
-Make sure to create the corresponding translated files for every language code!
-
-To edit an existing FAQ entry, edit the corresponding file at `collections/_investor_faq/<ORDER_WITHIN_PAGE>-<IDENTIFIER>.<LANGUAGE_CODE>.md`.
 
 ### Investors
 

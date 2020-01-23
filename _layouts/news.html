@@ -8,44 +8,43 @@ layout: default
 {% assign page_size = 6 %}
 
 <div class="container news">
-    <div class="jumbotron bg-white">
+    <div class="jumbotron bg-white d-none d-md-block">
         {% assign jumbo_news = site.news | where:"jumbotron","true" %} 
         {% for entry in jumbo_news %}
             <div class="row">
-                <div class="col-md-6 pl-5 pr-5">
-                    <a class="d-block" href="{{ entry.weblink }}" title="{{ entry.url }}">
-                        <div class="date-and-source">{{ entry.date | date:"%B %-d, %Y" }}, {{ entry.source | upcase }}</div>
-                        <div class="headline">{{ entry.title }}</div>
-                        <div class="tagline">{{ entry.content }}</div>
-                    </a>
-                </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <img src="{{ entry.thumbnail }}">
+                </div>
+                <div class="col-lg-6 px-lg-5 pt-5 pt-lg-0">
+                    <a class="d-block" href="{{ entry.weblink }}" title="{{ entry.title }}">
+                        <div class="date">{{ entry.date | date:"%B %-d, %Y" }}</div>
+                        <div class="headline">{{ entry.title | truncate: 70 }}</div>
+                        <div class="tagline">{{ entry.content }}</div>
+                        <div class="source">{{ entry.source | upcase }}</div>
+                    </a>
                 </div>
             </div>
         {% endfor %}
     </div>
     <div class="row">
         <div class="col-12">
-            <div class="jumbotron-divider"></div>
+            <h1 class="mt-5 mb-3">News</h1>
         </div>
     </div>
     <div class="row">
         {% assign news = site.news | where:"jumbotron","false" | reverse %} 
         {% for entry in news %}
-            <a class="article col-md-4{% if forloop.index > page_size %} d-none{% endif %}" href="{{ entry.weblink }}" title="{{ entry.url }}">
+            <a class="article col-md-6 col-lg-4{% if forloop.index > page_size %} d-none{% endif %}" href="{{ entry.weblink }}" title="{{ entry.title }}">
                 <img class="w-100" src="{{ entry.thumbnail }}">
-                <div class="date-and-source">{{ entry.date | date:"%B %-d, %Y" }}, {{ entry.source | upcase }}</div>
-                <div class="headline">{{ entry.title }}</div>
+                <div class="date">{{ entry.date | date:"%B %-d, %Y" }}</div>
+                <div class="headline">{{ entry.title | truncate: 70 }}</div>
+                <div class="source">{{ entry.source | upcase }}</div>
             </a>
         {% endfor %}
     </div>
     {% if news.size > page_size %}
         <div class="text-center">
-            <a id="see-more-button" class="mb-5">
-                <span>{{ strings.news_see_more }}</span>
-                <img src="/img/news_see_more_plus.svg">
-            </a>
+            <a id="see-more-button" class="mb-5">{{ strings.news_see_more }}</a>
         </div>
     {% endif %}
 </div>

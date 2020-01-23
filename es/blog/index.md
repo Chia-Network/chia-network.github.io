@@ -1,4 +1,4 @@
 ---
-layout: homepage
+layout: blog
 lang: es
 ---

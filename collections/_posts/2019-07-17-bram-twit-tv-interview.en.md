@@ -3,7 +3,6 @@ lang: en
 layout: post
 title:  "This Week in Tech interviews Bram Cohen about Chia, Libra and Trump"
 date:   2019-07-17
-carousel: true
 ---
 
 Following the release of our [green paper](https://www.chia.net/assets/ChiaGreenPaper.pdf) and the launch of our [Proof of Space competition](https://www.chia.net/2019/07/07/chia-network-announces-pos-competition.en.html) Chia has received lots of positive attention from media outlets including Venture Beat and Yahoo Finance and the community at large.

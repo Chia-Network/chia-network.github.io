@@ -1,0 +1,4 @@
+---
+layout: releases
+lang: fr
+---

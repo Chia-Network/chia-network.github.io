@@ -1,4 +1,0 @@
----
-layout: download
-lang: tr
----

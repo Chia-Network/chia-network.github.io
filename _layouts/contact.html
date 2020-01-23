@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+{% include navigation.html active="contact" %}
+
+{% assign strings = site.data.strings[page.lang] %}
+
+<div class="contact">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 details">
+                <h1>
+                    {{ strings.contact_title }}
+                    <a href="{{ site.data.contact.keybase_team_page }}" target="_blank" rel="noreferrer noopener" class="btn btn-lg float-md-right order-md-first d-block mt-4 mt-md-0">{{ strings.contact_join_keybase }}</a>
+                </h1>
+                <p>{{ strings.contact_description }}</p>
+                <div class="details-box">
+                    <h2>{{ site.data.contact.name }}</h2>
+                    <a class="contact-email" href="{{ site.data.contact.email }}">{{ site.data.contact.email }}</a>
+                    <div>
+                        <img src="/img/social/github.svg" alt="GitHub Logo"> <a href="https://github.com/{{ site.data.contact.github_username }}">@{{ site.data.contact.github_username }}</a>
+                    </div>
+                    <div>
+                        <img src="/img/social/twitter.svg" alt="Twitter Logo"> <a href="https://twitter.com/{{ site.data.contact.twitter_username }}">@{{ site.data.contact.twitter_username }}</a>
+                    </div>
+                    <div>
+                        <img src="/img/social/facebook.svg" alt="Facebook Logo"> <a href="https://www.facebook.com/{{ site.data.contact.facebook_username }}">@{{ site.data.contact.facebook_username }}</a>
+                    </div>
+                    <div>
+                        <img src="/img/social/instagram.svg" alt="Instagram Logo"> <a href="https://instagram.com/{{ site.data.contact.instagram_username }}">@{{ site.data.contact.instagram_username }}</a>
+                    </div>
+                    <div>
+                        <img src="/img/social/medium.svg" alt="Medium Logo"> <a href="https://medium.com/@{{ site.data.contact.medium_username }}">@{{ site.data.contact.medium_username }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 keybase-live-feed">
+                <h1>{{ strings.contact_live_feed_title }}</h1>
+                <p>{{ strings.contact_live_feed_description }}</p>
+                <iframe src="https://dev.chia.net/"></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 py-5">
+                <div class="email-box">
+                    <h1>{{ strings.contact_email_title }}</h1>
+                    <p>{{ strings.contact_email_description }}</p>
+                    <!-- Begin Mailchimp Signup Form -->
+                    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+                    <div class="email-form d-inline-block" id="mc_embed_signup">
+                        <form action="https://chia.us20.list-manage.com/subscribe/post?u=e4d570ef4efb6250ec4a2d825&amp;id=bbcb58034c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div class="input-group mb-3" id="mc_embed_signup_scroll">
+                                <input class="form-control" type="email" value="" id="mce-EMAIL" name="EMAIL" placeholder="{{ strings.contact_email }}" required aria-label="Email">
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e4d570ef4efb6250ec4a2d825_bbcb58034c" tabindex="-1" value=""></div>
+                                <div class="input-group-append">
+                                    <button class="signup-button btn btn-primary" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">{{ strings.contact_signup }}</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End Mailchimp Signup Form -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -7,13 +7,15 @@ layout: default
 
 <div class="green-paper">
     <div class="container">
-        <h1>Chia's Green Paper</h1>
-        <h3 class="github-line text-center">
-            <a href="/assets/ChiaGreenPaper.pdf" target="_blank" rel="noreferrer noopener" class="btn btn-lg">Download Green Paper</a>
-        </h3>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum orci eu nisi gravida, sit amet rutrum metus cursus. Praesent sed leo sit amet eros rutrum laoreet eu luctus sem. Sed sit amet laoreet sem. Praesent in dignissim nisi. Aliquam neque ipsum, euismod vitae arcu id, mattis venenatis diam. Cras mollis sagittis lorem eget ultricies. Sed semper ultrices ipsum vel molestie.</div>
-        <br>
-        <div>Tempor orci eu lobortis elementum.</div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>{{ strings.green_paper_main_title }}</h1>
+                <a href="/assets/ChiaGreenPaper.pdf" target="_blank" rel="noreferrer noopener" class="btn btn-lg">{{ strings.green_paper_download }}</a>
+                {{ strings.green_paper_description | markdownify }}
+            </div>
+            <div class="col-lg-6 d-none d-xl-block">
+                <img src="/assets/book.svg" alt="green_paper_book">
+            </div>
+        </div>
     </div>
-    <img src="/assets/book.svg" alt="green_paper_book">
 </div>

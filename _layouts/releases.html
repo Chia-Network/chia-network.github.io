@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% assign strings = site.data.strings[page.lang] %}
+{% assign releases = site.releases | where:"lang",page.lang | reverse %}
+
+{% include navigation.html active="releases" %}
+
+<div class="releases-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>{{ strings.releases_title }}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                {% for release in releases %}
+                <div class="release">
+                    <a href="{{ release.url }}">{{ release.title }}</a>
+                    <div class="order-md-first float-md-right">{{ release.date | date:"%B %-d, %Y" }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

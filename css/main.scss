@@ -56,20 +56,20 @@ a {
 }
 
 // pages
-@import 'community';
+@import 'releases';
 @import 'download';
 @import 'faq';
-@import 'homepage';
 @import 'about';
 @import 'news';
 @import 'blog';
+@import 'contact';
 @import 'post';
-@import 'errata';
+@import 'release';
 @import 'green_paper';
 @import 'proof_of_space_competition';
 @import 'proof_of_time_contest';
 
-// componentsab
+// components
 @import 'footer';
 @import 'navigation';
 @import 'video';

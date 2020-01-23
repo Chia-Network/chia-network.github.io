@@ -1,29 +1,12 @@
 .blog-post {
-    .navbar {
-        background-color: #0C282A;
-    }
-
-    h1 {
-        font-weight: 900;
-        line-height: 53px;
-        font-size: 50px;
-        color: #292A2A;
-    }
-
-    .blog-title-container {
-        height: 150px;
-
-        .our-blog {
-            position: relative;
-            top: 75px;
-            left: 75px;
-        }
-    }
-
-    .post-title {
+    .title {
         margin-top: 3rem;
         margin-bottom: 2rem;        
-        h1 { font-weight: bold; }
+        h1 {
+            color: #292A2A;
+            font-weight: bold;
+            font-size: 50px;
+        }
 
         .date {
             line-height: 22px;
@@ -33,12 +16,10 @@
     }
 
     .content {
-        line-height: 22px;
-        font-size: 16px;
+        line-height: 26px;
+        font-size: 18px;
         margin-bottom: 100px;
-        line-height: 22px;
-        font-size: 16px;
-        color: #808080;
+        color: #505050;
 
         p { margin-bottom: 1.5rem; }
 

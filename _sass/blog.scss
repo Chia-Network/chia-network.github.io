@@ -4,71 +4,86 @@
     h1 {
         font-weight: 900;
         margin-top: 40px;
-    }    
+        padding-bottom: 2rem;
+    }
 
     .post {
-        position: relative;
-        overflow: hidden;
-        padding: 3rem 3rem 0 3rem;
-        text-decoration: none;
+        &.first-of-year:not(:first-child) {
+            border-top: 1px solid #aaa;
+        }
 
-        &:hover .headline {
-            text-decoration: underline;
+        &:not(.first-of-year) .content {
+            border-top: 1px solid #aaa;
+        }
+
+        .year {
+            font-size: 34px;
+            font-weight: bold;
+            flex: 0 0 150px;
+            padding: 2rem 0;
         }
 
         .content {
-            border-bottom: 1px solid #E7E7E7;
-            padding-bottom: 3rem;
+            text-decoration: none;
+            padding: 2rem 0;
+            outline: none !important;
+            display: block;
+            flex-grow: 1;
+            flex-shrink: 1;
+
+            &:hover .headline {
+                color: #777;
+            }
 
             .date {
-                font-weight: 600;
-                font-size: 14px;
-                line-height: 31px;
-                color: #3AAC59;
+                font-weight: bold;
+                font-size: 16px;
+                color: #2B693C;
                 text-transform: uppercase;
-                margin-bottom: 1.5rem;
+                margin-top: 0.4rem;
+                margin-bottom: 1rem;
             }
     
             .headline {
-                font-weight: 800;
-                line-height: 39px;
-                font-size: 36px;
+                font-weight: bold;
+                font-size: 34px;
                 color: #0C282A;
+                transition: ease 0.5s color;
             }
 
             .preview {
                 margin-top: 1rem;
-                line-height: 32px;
                 font-size: 18px;
                 color: #0C282A;
             }
         }
     }
-    
-    #see-more-button {
-        display: inline-block;
-        cursor: pointer;
-        position: relative;
-        padding: 0.7rem 4rem 0.7rem 3rem;
-        box-shadow: 0 2px 27px 0 rgba(0,0,0,0.09);
-        border: 2px solid #7ACB90;
-        margin: 0 auto;
-        margin-top: 2rem;
-        text-align: center;
+}
 
-        span {
-            display: inline-block;
-            color: #469D62;
-            letter-spacing: 0.75px;
-            text-align: left;
-            font-size: 18px;
+@media(max-width: 768px) {
+    .blog-page {
+        h1 {
+            padding-bottom: 0;
         }
+    
+        .post {
+            flex-direction: column;
 
-        img {
-            display: inline-block;
-            position: absolute;
-            right: 20px;
-            top: 18px;
+            .content {
+                border: none !important;
+            }
+
+            &.first-of-year .year {
+                flex-basis: auto;
+                font-size: 56px;
+                text-align: center;
+                padding-bottom: 0;
+                padding-top: 3rem;
+            }
+
+            &:not(.first-of-year) .year {
+                display: none;
+            }
         }
     }
 }

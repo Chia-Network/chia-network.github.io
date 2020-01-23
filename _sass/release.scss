@@ -1,0 +1,38 @@
+.release-note {
+    .title {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        h1 {
+            color: #292A2A;
+            font-weight: bold;
+            font-size: 50px;
+        }
+
+        .date {
+            line-height: 22px;
+            font-size: 16px;
+            color: #808080;
+        }
+    }
+
+    .content {
+        line-height: 26px;
+        font-size: 18px;
+        margin-bottom: 100px;
+        color: #505050;
+
+        p { margin-bottom: 1.5rem; }
+
+        blockquote {
+            font-weight: bold;
+            line-height: 37px;
+            font-size: 28px;
+            color: #292A2A;
+            border-left: 1px solid #3AAC59;
+            padding: 10px 20px;
+            margin-left: 20px;
+
+            p { margin: 0; }
+        }
+    }
+}

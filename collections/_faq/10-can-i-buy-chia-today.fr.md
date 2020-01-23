@@ -1,9 +1,7 @@
 ---
 lang: fr
 order: 10
+title: "Puis-je acheter Chia aujourd'hui?"
 ---
-
-Puis-je acheter Chia aujourd'hui?
------------------------
 
 Chia sera probablement disponible sur la plupart des échanges mondiaux peu après son lancement.
