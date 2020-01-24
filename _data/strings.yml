@@ -1,5 +1,5 @@
 en: # English
-  faq_title: "FAQs"
+  faq_title: "FAQ"
   news_title: "News"
   news_see_more: "See more"
   download_title: "Chia Network"
@@ -56,7 +56,7 @@ en: # English
     blog: "Blog"
     releases: "Releases"
     news: "News"
-    faq: "FAQs"
+    faq: "FAQ"
     greenpaper: "Green Paper"
     contact: "Contact"
   contact_title: "Contact Us"
