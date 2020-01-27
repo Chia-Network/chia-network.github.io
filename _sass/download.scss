@@ -1,7 +1,35 @@
 .download {
     .header-section {
+        height: 547px;
+        width: 100%;
+        background: linear-gradient(180deg, #0D324D 0%, #0D3746 100%);
+
+        .navbar {
+            background-color: transparent !important;
+        }
+
+        h1 {
+            color: #fafafa;
+            margin-top: 96px;
+        }
+
         p {
             font-size: 24px;
+            color: #fafafa;
+        }
+
+        .btn {
+            border: 3px solid #3AAC59;
+            border-radius: 2px;
+            font-size: 24px;
+            color: #3AAC59;
+            padding: 1rem 2rem;
+            transition: ease 0.2s all;
+
+            &:hover {
+                background: #3AAC59;
+                color: #0D324D;
+            }
         }
     }
 
@@ -53,5 +81,15 @@
         text-decoration: underline;
         margin-top: 40px;
         font-weight: bold;
+    }
+}
+
+@media(min-width: 1200px) {
+    .download {
+        .header-section {
+            background: url('/img/homepage_background_cubes.svg'), linear-gradient(180deg, #0D324D 0%, #0D3746 100%);
+            background-repeat: no-repeat;
+            background-position: bottom 50px right 50px, top left;
+        }
     }
 }

@@ -4,6 +4,7 @@ en: # English
   news_see_more: "See more"
   download_title: "Chia Network"
   download_subtitle: "An eco-friendly blockchain and better platform for managing money."
+  download_button: "Download Alpha Testnet"
   download_description: |
     Chia’s Alpha Testnet
     --------------------

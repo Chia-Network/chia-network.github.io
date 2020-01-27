@@ -17,10 +17,6 @@
                 <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/">{{ strings.navigation.download }}</a>
                 <div class="highlight d-none d-lg-inline-block"></div>
             </li>
-            <li class="nav-item{% if include.active == "about" %} active{% endif %}">
-                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/about">{{ strings.navigation.about }}</a>
-                <div class="highlight d-none d-lg-inline-block"></div>
-            </li>
             <li class="nav-item{% if include.active == "blog" %} active{% endif %}">
                 <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/blog">{{ strings.navigation.blog }}</a>
                 <div class="highlight d-none d-lg-inline-block"></div>
@@ -39,6 +35,10 @@
             </li>
             <li class="nav-item{% if include.active == "greenpaper" %} active{% endif %}">
                 <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/greenpaper">{{ strings.navigation.greenpaper }}</a>
+                <div class="highlight d-none d-lg-inline-block"></div>
+            </li>
+            <li class="nav-item{% if include.active == "about" %} active{% endif %}">
+                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/about">{{ strings.navigation.about }}</a>
                 <div class="highlight d-none d-lg-inline-block"></div>
             </li>
             <li class="nav-item{% if include.active == "contact" %} active{% endif %}">
