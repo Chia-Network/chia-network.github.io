@@ -16,7 +16,7 @@ layout: default
                     <img src="{{ entry.thumbnail }}">
                 </div>
                 <div class="col-lg-6 px-lg-5 pt-5 pt-lg-0">
-                    <a class="d-block" href="{{ entry.weblink }}" title="{{ entry.title }}">
+                    <a class="d-block" href="{{ entry.weblink }}" title="{{ entry.title }}" target="_blank" rel="noreferrer noopener">
                         <div class="date">{{ entry.date | date:"%B %-d, %Y" }}</div>
                         <div class="headline">{{ entry.title | truncate: 60 }}</div>
                         <div class="tagline">{{ entry.content }}</div>
@@ -34,7 +34,7 @@ layout: default
     <div class="row">
         {% assign news = site.news | where:"jumbotron","false" | reverse %} 
         {% for entry in news %}
-            <a class="article col-md-6 col-lg-4{% if forloop.index > page_size %} d-none{% endif %}" href="{{ entry.weblink }}" title="{{ entry.title }}">
+            <a class="article col-md-6 col-lg-4{% if forloop.index > page_size %} d-none{% endif %}" href="{{ entry.weblink }}" title="{{ entry.title }}" target="_blank" rel="noreferrer noopener">
                 <img class="w-100" src="{{ entry.thumbnail }}">
                 <div class="date">{{ entry.date | date:"%B %-d, %Y" }}</div>
                 <div class="headline">{{ entry.title | truncate: 60 }}</div>
