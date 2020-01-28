@@ -42,7 +42,7 @@ Since the order of the group is not known, the squaring operation is believed to
 
 Track 1 requires the competitor to efficiently evaluate N VDF iterations, given the discriminant D. The generator element g should be computed as:
 
-g = (2, 1, 1-D/8).
+g = (2, 1, (1-D)/8).
 
 Then, g should be squared repeatedly, N times, and the output, y, in reduced form, should be printed to stdout. The competitor that can output the correct element the fastest wins.
 
