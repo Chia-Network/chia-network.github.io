@@ -15,14 +15,24 @@ layout: default
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
-                {% for release in releases %}
-                <div class="release">
-                    <a href="{{ release.url }}">{{ release.title }}</a>
-                    <div class="order-md-first float-md-right">{{ release.date | date:"%B %-d, %Y" }}</div>
-                </div>
-                {% endfor %}
+            <div class="col-12" id="releases-box">
+                <div class="text-center">{{ strings.releases_loading_message }}</div>
             </div>
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+fetch("https://api.github.com/repos/Chia-Network/chia-blockchain/releases").then(function(response) { return response.json(); }).then(function(jsonResult) {
+    document.getElementById("releases-box").innerHTML = jsonResult.map(function(release) {
+        var title = "Chia Blockchain " + release.name;
+        var date = new Date(release.published_at).toLocaleDateString('en-US', {year: "numeric", month: "long", day: "numeric"});
+        return (
+            '<div class="release">' +
+                '<a href="' + release.html_url + '" target="_blank" rel="noreferrer noopener">' + title + '</a>' +
+                '<div class="order-md-first float-md-right">' + date + '</div>' +
+            '</div>'
+        )
+    }).join('\n');
+});
+</script>

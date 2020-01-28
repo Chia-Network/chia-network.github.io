@@ -39,8 +39,6 @@ defaults:
 
 collections_dir: collections
 collections:
-  releases:
-    output: true
   news:
     output: false
   investor_pics:

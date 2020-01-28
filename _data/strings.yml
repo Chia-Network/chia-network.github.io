@@ -30,9 +30,8 @@ en: # English
     Released under the open source [MIT License](https://opensource.org/licenses/MIT).
   download_box_title: "Downloads"
   download_box_section_1: "Blockchain"
-  download_box_section_1_note: "Latest Version XYZ"
   download_box_section_2: "Chialisp and LedgerSim"
-  download_box_section_2_note: "Latest Version XYZ"
+  download_box_latest_version: "Latest Version:"
   download_box_button: "Download Source Code"
   download_releases_link: "View release notes"
   about_title: "About Us"
@@ -48,6 +47,7 @@ en: # English
   about_invest_investors_title: "Our Investors"
   blog_title: "Straight from Chia"
   releases_title: "Release Notes"
+  releases_loading_message: "Loading releases..."
   green_paper_main_title: "Chia's Green Paper"
   green_paper_download: "Download Green Paper"
   green_paper_description: |
