@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title:  "This Week in Tech interviews Bram Cohen about Chia, Libra and Trump"
+title:  "This Week in Tech interviews Bram Cohen about Chia, and Libra"
 date:   2019-07-17
 ---
 
