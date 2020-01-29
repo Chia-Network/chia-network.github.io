@@ -1,7 +1,7 @@
 ---
 lang: pt
 order: 5
-title: "Does Chia use Bitcoin’s code."
+title: "Chia usa o código do Bitcoin?"
 ---
 
-No. Chia is written from scratch by a renowned team.
+Não. Chia é escrito do zero por uma equipe renomada.
