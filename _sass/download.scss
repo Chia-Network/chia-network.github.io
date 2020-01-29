@@ -84,12 +84,13 @@
     }
 }
 
-@media(min-width: 1200px) {
-    .download {
-        .header-section {
-            background: url('/img/homepage_background_cubes.svg'), linear-gradient(180deg, #0D324D 0%, #0D3746 100%);
-            background-repeat: no-repeat;
-            background-position: bottom 50px right 50px, top left;
-        }
-    }
-}
+// TODO: decide whether we want to have this graphic here
+// @media(min-width: 1200px) {
+//     .download {
+//         .header-section {
+//             background: url('/img/homepage_background_cubes.svg'), linear-gradient(180deg, #0D324D 0%, #0D3746 100%);
+//             background-repeat: no-repeat;
+//             background-position: bottom 50px right 50px, top left;
+//         }
+//     }
+// }

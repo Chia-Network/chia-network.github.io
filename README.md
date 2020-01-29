@@ -87,10 +87,8 @@ To add a new FAQ entry, create a new file at `collections/_faq/<ORDER_WITHIN_PAG
 ---
 lang: en # this post is written in English
 order: 2 # this FAQ entry appears as the second entry
+title: "QUESTION?"
 ---
-
-QUESTION?
----------
 
 ANSWER TO QUESTION.
 ```

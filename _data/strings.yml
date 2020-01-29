@@ -32,6 +32,8 @@ en: # English
   download_box_section_1: "Blockchain"
   download_box_section_2: "Chialisp and LedgerSim"
   download_box_latest_version: "Latest Version:"
+  download_chia_blockchain_no_releases: "1.0"
+  download_wallets_no_releases: "1.0"
   download_box_button: "Download Source Code"
   download_releases_link: "View release notes"
   about_title: "About Us"
