@@ -1,6 +1,6 @@
 - code: en
   name: English
-  path: "/"
+  path: ""
 - code: fr
   name: Français
   path: "/fr"

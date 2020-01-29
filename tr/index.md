@@ -1,4 +1,4 @@
 ---
-layout: homepage
+layout: download
 lang: tr
 ---

@@ -1,10 +1,8 @@
 ---
 lang: cn
 order: 20
+title: "Will the average person be able to use Chia as a payment instrument?"
 ---
-
-Will the average person be able to use Chia as a payment instrument?
------------------------
 
 Our hope is that Chia will be supported by point of sale systems and consumer payment apps all over the world. For example, if you pay for a coffee at Tully's in England with your GrabPay app from Thailand, it should "just work" without you needing to know it was paid in Chia.
 

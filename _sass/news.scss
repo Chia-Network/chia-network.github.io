@@ -5,7 +5,7 @@
         line-height: 31px;
         padding: 20px;
     }
-    
+
     .jumbotron {
         position: relative;
         padding: 0;
@@ -15,35 +15,38 @@
             text-decoration: none;
             transition: opacity 0.4s;
             opacity: 1;
+            color: inherit;
 
             &:hover { opacity: 0.7; }
 
-            .date-and-source {
+            .date {
                 font-weight: bold;
-                line-height: 31px;
                 font-size: 16px;
                 text-transform: uppercase;
-                color: #3AAC59;
+                color: #2B693C;
+            }
+
+            .headline {
+                font-weight: bold;
+                line-height: 53px;
+                font-size: 40px;
+                color: #0C282A;
+                margin-top: 1.5rem;
+            }
+
+            .tagline {
+                font-weight: normal;
+                font-size: 24px;
+                margin-top: 0.5rem;
+            }
+
+            .source {
+                margin-top: 1rem;
+                font-size: 16px;
+                text-transform: uppercase;
                 overflow: hidden;
                 white-space: nowrap;
                 text-overflow: ellipsis;
-            }
-    
-            .headline {
-                font-weight: bold;
-                line-height: 43px;
-                font-size: 42px;
-                letter-spacing: 1.75px;
-                color: #0C282A;
-                margin-top: 2rem;
-            }
-    
-            .tagline {
-                font-weight: normal;
-                line-height: 28px;
-                font-size: 20px;
-                color: #0C282A;
-                margin-top: 0.5rem;
             }
         }
 
@@ -54,14 +57,11 @@
         }
     }
 
-    .jumbotron-divider {
-        border-top: 1px solid #e7e7e7;
-        margin: 2rem 0;
-    }
-     
     .article {
-        padding: 2rem;
+        padding: 1rem;
+        padding-bottom: 3rem;
         text-decoration: none;
+        color: inherit;
 
         &:hover {
             .headline { opacity: 0.7; }
@@ -77,54 +77,45 @@
             object-fit: cover;
         }
 
-        .date-and-source {
+        .date {
             margin-top: 1rem;
             font-weight: bold;
-            line-height: 31px;
-            font-size: 14px;
             text-transform: uppercase;
-            color: #3AAC59;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
+            color: #2B693C;
         }
 
         .headline {
             margin-top: 1rem;
             font-weight: bold;
-            line-height: 32px;
-            font-size: 28px;
-            color: #0C282A;
+            line-height: 43px;
+            font-size: 32px;
             transition: opacity 0.4s;
             opacity: 1;
         }
+
+        .source {
+            margin-top: 1rem;
+            text-transform: uppercase;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
     }
-    
+
     #see-more-button {
         display: inline-block;
         cursor: pointer;
         position: relative;
-        padding: 0.7rem 4rem 0.7rem 3rem;
+        padding: 0.7rem 3rem 0.7rem 3rem;
         box-shadow: 0 2px 27px 0 rgba(0,0,0,0.09);
-        border: 2px solid #7ACB90;
+        border: 3px solid #3AAC59;
+        border-radius: 3px;
         margin: 0 auto;
         margin-top: 2rem;
         text-align: center;
-
-        span {
-            display: inline-block;
-            color: #469D62;
-            letter-spacing: 0.75px;
-            text-align: left;
-            font-size: 18px;
-        }
-
-        img {
-            display: inline-block;
-            position: absolute;
-            right: 20px;
-            top: 18px;
-        }
+        color: #3AAC59;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
     }
-    
 }

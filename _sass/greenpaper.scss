@@ -1,0 +1,24 @@
+.green-paper {
+    padding-bottom: 3rem;
+
+    .btn {
+        display: inline-block;
+        padding: 1rem 3rem;
+        background: #3AAC59;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        border-radius: 2px;
+        margin-top: 7px;
+        margin-bottom: 36px;;
+    }
+
+    .book {
+        background-image: url('/assets/book.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top 50px right 0;
+        background-origin: content-box;
+    }
+}

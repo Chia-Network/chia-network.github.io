@@ -1,28 +1,12 @@
-# street address (if specified, will be displayed in footer and other places)
-address: |
-    44 Montgomery Street
-    San Francisco, CA 94104
+name: Chia Network
 
 # official company email (if specified, will be displayed in footer and other places)
 email: hello@chia.net
 
-# webpage to apply for a job at Chia (if specified, will be linked to in hiring buttons)
-hiring_link: https://www.indeedjobs.com/chia-network/_hl/en_US?cpref=JXWAtnzf3XW5aRnY2g_zouV7xMD8uRK8wx8CMVARBLk
-
-# phone number (if specified, will be displayed in footer and other places)
-phone: null
-
 # social media profiles (if specified, will be displayed in footer and used for SEO)
-twitter_username: ChiaNetworkInc
-github_username:  Chia-Network
-facebook_username: ChiaNetworkInc
+twitter_username: chia_project
+github_username: Chia-Network
+facebook_username: ChiaProject
 medium_username: chia.net
-instagram_username: chia_network
+instagram_username: chia_project
 keybase_team_page: https://keybase.io/team/chia_network.public
-
-# top banner on homepage
-banner:
-    show: false # whether or not to display the banner
-    text: "![](/img/party_popper.svg)&nbsp; **Win $100k in Total Prize Money!**" # markdown content of banner
-    link: https://www.chia.net/proofofspacecontest/ # webpage that the banner button links to
-    link_title: See How # content of the banner button

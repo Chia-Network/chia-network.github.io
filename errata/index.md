@@ -1,4 +1,0 @@
----
-layout: errata
-lang: en
----

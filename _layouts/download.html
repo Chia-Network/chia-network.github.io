@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+{% assign strings = site.data.strings[page.lang] %}
+
+<div class="download">
+    <div class="header-section">
+        {% include navigation.html active="download" %}
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="page-main-title">{{ strings.download_title }}</h1>
+                    <p>{{ strings.download_subtitle }}</p>
+                    <a href="https://github.com/Chia-Network/chia-blockchain" target="_blank" rel="noreferrer noopener" class="btn btn-lg mt-4 mb-5">{{ strings.download_button }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-xl-6 pt-xl-5 content">
+                {{ strings.download_description | markdownify }}
+                <hr class="my-5">
+                {{ strings.download_addendum | markdownify }}
+            </div>
+            <div class="col-xl-6 order-first order-xl-last">
+                <div class="downloads-box mt-5 m-md-5">
+                    <h2 class="px-3 pt-3 pb-0 px-md-5 pt-md-4">{{ strings.download_box_title }}</h2>
+                    <hr>
+                    <div class="px-3 pb-3 pt-0 px-md-5 pb-md-5">
+                        <h3 class="mt-4">{{ strings.download_box_section_1 }}</h3>
+                        <em>{{ strings.download_box_latest_version }} <span id="chia-blockchain-latest-release">(unknown)</span></em>
+                        <a href="https://github.com/Chia-Network/chia-blockchain" target="_blank" rel="noreferrer noopener" class="btn btn-lg d-block mt-4 mb-5"><img src="/assets/github.svg"> {{ strings.download_box_button }}</a>
+                        <h3 class="mt-3">{{ strings.download_box_section_2 }}</h3>
+                        <em>{{ strings.download_box_latest_version }} <span id="wallets-latest-release">(unknown)</span></em>
+                        <a href="https://github.com/Chia-Network/wallets" target="_blank" rel="noreferrer noopener" class="btn btn-lg d-block mt-4"><img src="/assets/github.svg"> {{ strings.download_box_button }}</a>
+                    </div>
+                </div>
+                <h3 class="release-notes m-5 text-center text-xl-left"><a href="./releases">{{ strings.download_releases_link }}</a></h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+fetch("https://api.github.com/repos/Chia-Network/chia-blockchain/releases").then(function(response) { return response.json(); }).then(function(jsonResult) {
+    var release = jsonResult[0];
+    var releaseNote = release ? release.name + " - " + release.published_at.slice(0, 10) : "{{ strings.download_chia_blockchain_no_releases }}";
+    document.getElementById("chia-blockchain-latest-release").textContent = releaseNote;
+});
+
+fetch("https://api.github.com/repos/Chia-Network/wallets/releases").then(function(response) { return response.json(); }).then(function(jsonResult) {
+    var release = jsonResult[0];
+    var releaseNote = release ? release.name + " - " + release.published_at.slice(0, 10) : "{{ strings.download_wallets_no_releases }}";
+    document.getElementById("wallets-latest-release").textContent = releaseNote;
+});
+</script>

@@ -1,4 +1,4 @@
 ---
-layout: green_paper
+layout: greenpaper
 lang: jp
 ---

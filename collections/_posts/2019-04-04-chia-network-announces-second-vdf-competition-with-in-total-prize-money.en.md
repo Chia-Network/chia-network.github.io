@@ -3,7 +3,6 @@ lang: en
 layout: post
 title:  "Chia Network Announces 2nd VDF Competition with $100,000 in Total Prize Money"
 date:   2019-04-04
-carousel: true
 ---
 
 A few months ago we wrapped up our initial VDF implementation competition and were amazed by the excellent quality of the submissions. The top three contenders each came in at under one minute (the reference implementation was 169 seconds). Five other teams also submitted implementations which were faster than the reference. All of the submissions were open-source, and can be found [here](https://www.chia.net/2019/01/17/chia-vdf-competition-round-1-results-and-announcements.en.html). The award total was originally $100,000, but because of the hard work that all of the teams put into the competition, we decided to award $2,000 to each team who submitted an entry, bringing the total prize money awarded to $116,000.

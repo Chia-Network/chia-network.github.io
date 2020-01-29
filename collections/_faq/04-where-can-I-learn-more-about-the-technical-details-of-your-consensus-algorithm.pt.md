@@ -1,10 +1,8 @@
 ---
 lang: pt
 order: 4
+title: "Where can I learn more about the technical details of your consensus algorithm?"
 ---
-
-Where can I learn more about the technical details of your consensus algorithm?
--------------------------
 
 We have academic papers and presentations that give detail about our new consensus algorithm and blockchain software.
 In 2019 we revealed our [Green Paper](https://www.chia.net/assets/ChiaGreenPaper.pdf) outlining the construction of Proofs of Space and Time and illustrating many of the design choices of Chia.

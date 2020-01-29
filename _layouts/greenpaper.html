@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include navigation.html active="greenpaper" %}
+{% assign strings = site.data.strings[page.lang] %}
+
+<div class="green-paper">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6">
+                <h1 class="page-main-title pt-5 pb-xl-5 mt-xl-5">{{ strings.green_paper_main_title }}</h1>
+                <a href="/assets/ChiaGreenPaper.pdf" target="_blank" rel="noreferrer noopener" class="btn btn-lg d-block d-xl-inline-block">{{ strings.green_paper_download }}</a>
+                {{ strings.green_paper_description | markdownify }}
+                <hr class="my-5">
+                <h2 class="mb-3">{{ strings.green_paper_addendum_title }}</h2>
+                {{ strings.green_paper_addendum | markdownify }}
+            </div>
+            <div class="book py-5 pl-5 col-xl-6 d-none d-xl-block">
+            </div>
+        </div>
+    </div>
+</div>

@@ -30,7 +30,8 @@ social:
     - https://github.com/Chia-Network
     - https://medium.com/@chia.net
     - https://keybase.io/team/chia_network.public
-google_site_verification: 1234 # TODO: replace this with your actual Webmaster verification code
+google_analytics_snippet: | # TODO: replace this with your actual Google Analytics snippet
+  SOME_HTML_GOES_HERE
 defaults:
   - scope:
       path: ""
@@ -41,16 +42,8 @@ collections_dir: collections
 collections:
   news:
     output: false
-  investor_faq:
-    output: false
   investor_pics:
     output: false
-  advisors:
-    output: false
-  community:
-    output: true
-  team:
-    output: true
   faq:
     output: false
 

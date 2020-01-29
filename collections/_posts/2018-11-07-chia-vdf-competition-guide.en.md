@@ -3,7 +3,6 @@ lang: en
 layout: post
 title:  "Chia VDF Competition Guide"
 date:   2018-11-07
-carousel: true
 ---
 
 Chia Network recently launched a three month long competition to create faster implementations of our proofs of time and get a better handle on its security requirements. The Verifiable Delay Function Competition (VDF, aka proof of time) is open to anyone, has $100,000 in total prize money, and is running until January 3rd, 2019.

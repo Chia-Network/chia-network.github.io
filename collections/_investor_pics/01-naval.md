@@ -1,6 +1,6 @@
 ---
 pic_url: "/assets/naval.png"
 name: "Naval Ravikant"
-web_url: "https://startupboy.com/about/"
+web_url: "https://theangelphilosopher.com/"
 order: 1
 ---

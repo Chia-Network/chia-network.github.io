@@ -6,6 +6,12 @@
 
 body {
     font-family: 'HCo Gotham SSm';
+    font-size: 16px;
+    color: #0C282A;
+}
+
+hr {
+    border-top-color: #808080;
 }
 
 a {
@@ -13,63 +19,26 @@ a {
     &:hover { color: #3AAC59; }
 }
 
-.section-button {
-    display: inline-block;
-    position: relative;
-    padding: 1rem 5rem 1rem 3rem;
-    color: #06250B !important;
-    background-color: #3AAC59;
-    font-size: 14px;
+.page-main-title {
     font-weight: bold;
-    text-align: center;
-    white-space: nowrap;
-    text-decoration: none !important;
-    vertical-align: middle;
-
-    img {
-        position: absolute;
-        top: 18px;
-        right: 30px;
-    }
-}
-
-.action-arrow-button {
-    cursor: pointer;
+    font-size: 40px;
     color: #0C282A;
-    transition: color 0.2s;
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 0.583333px;
-    text-transform: uppercase;
-    white-space: nowrap;
-    vertical-align: middle;
-
-    &:hover {
-        text-decoration: none;
-        color: #469d62;
-    }
-
-    img {
-        margin-top: -4px;
-        margin-left: 20px;
-    }
 }
 
 // pages
-@import 'community';
-@import 'developer';
+@import 'releases';
+@import 'download';
 @import 'faq';
-@import 'homepage';
 @import 'about';
 @import 'news';
 @import 'blog';
+@import 'contact';
 @import 'post';
-@import 'errata';
-@import 'green_paper';
+@import 'greenpaper';
 @import 'proof_of_space_competition';
 @import 'proof_of_time_contest';
 
-// componentsab
+// components
 @import 'footer';
 @import 'navigation';
 @import 'video';

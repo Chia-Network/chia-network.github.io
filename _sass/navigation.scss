@@ -1,10 +1,10 @@
 .navbar {
     padding-bottom: 0;
-    background-color: #0C282A;
+    padding-top: 0;
+    background-color: #0A3838;
 
     .navbar-brand img {
-        height: 3rem;
-        padding-left: 5rem;
+        height: 2.5rem;
     }
     
     .nav-item {
@@ -15,76 +15,61 @@
             font-weight: 600;
             line-height: 31px;
             font-size: 16px;
-            letter-spacing: 0.666667px;
+        }
+
+        .highlight {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
         }
     }
 
     .nav-item.active {
-        .nav-link { color: #3AAC59; }
+        .nav-link {
+            color: #3AAC59;
+        }
 
         .highlight {
-            display: inline-block;
-            position: absolute;
-            left: calc(50% - 15px);
-            bottom: 0;
-            width: 30px;
-            border-top: 3px solid #3AAC59;
+            border-top: 5px solid #3AAC59;
         }
     }
 
     .navbar-nav a {
-        padding: 3rem 2rem !important;
         white-space: nowrap;
         display: flex;
         align-items: center;
     }
-    
-    .banner-button {
-        position: relative;
-        margin-left: 5rem;
-        margin-right: 2rem;
-        display: inline-block;
-        padding: 1rem 4rem 1rem 3rem;
-        border: 2px solid #469D62;
-        color: #469D62;
-        font-size: 18px;
-        font-weight: 600;
-        text-align: center;
-        white-space: nowrap;
-        text-decoration: none;
 
-        img {
-            position: absolute;
-            right: 20px;
-            top: 22px;
+    .nav-divider {
+        display: flex;
+        align-self: stretch;
+
+        div {
+            position: relative;
+            top: 25%;
+            height: 50%;
+            border-left: 1px solid white;
         }
     }
 
-    .banner-button:hover {
-        color: #6E967B;
-        text-decoration: underline;
+    #languageMenuLink {
+        font-size: 0.8rem;
+        font-weight: bold;
+        background: none;
+        border: none;
+        text-transform: uppercase;
+        box-shadow: none;
+
+        &:hover {
+            color: #aaa;
+        }
     }
 }
 
-@media(max-width: 960px) {
+@media(max-width: 922px) {
     .navbar {
-        .navbar-brand img {
-            padding-left: 2rem;
-            margin: 1rem 0;
-        }
-
         .nav-item.active {
             .highlight { display: none !important; }
-        }
-
-        .navbar-nav a {
-            padding: 1rem 2rem !important;
-        }
-
-        .banner-button {
-            margin: 2rem;
-            display: inline-block;
-            background: #0C282A;
         }
     }
 }
