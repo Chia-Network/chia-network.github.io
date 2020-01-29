@@ -14,7 +14,11 @@
         margin-bottom: 36px;;
     }
 
-    img {
-        padding: 10rem;
+    .book {
+        background-image: url('/assets/book.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top 50px right 0;
+        background-origin: content-box;
     }
 }

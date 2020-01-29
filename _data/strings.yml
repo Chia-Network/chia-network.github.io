@@ -42,8 +42,6 @@ en: # English
   about_team_title: "Team"
   about_team_description: |
     Chia Network was founded by the creator of BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). It also includes executive leadership from the former acting-CEO of overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/) and a former founder of eMusic.com and Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/). Chia Network will have a large open source developer community with many causal contributions to the codebase. There are many more who contribute to research, peer review, testing, documentation, and translation.
-  about_advisors_title: "Advisors"
-  about_advisors_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum orci eu nisi gravida, sit amet rutrum metus cursus. Praesent sed leo sit amet eros rutrum laoreet eu luctus sem. Sed sit amet laoreet sem. Praesent in dignissim nisi. Aliquam neque ipsum, euismod vitae arcu id, mattis venenatis diam. Cras mollis sagittis lorem eget ultricies. Sed semper ultrices ipsum vel molestie."
   about_invest_investors_title: "Our Investors"
   blog_title: "Straight from Chia"
   releases_title: "Release Notes"
@@ -52,6 +50,7 @@ en: # English
   green_paper_download: "Download Green Paper"
   green_paper_description: |
     The Green Paper details a new consensus algorithm called Proofs of Space and Time, “PoST”. PoST replaces the proofs of work in Bitcoin’s mining which wastes massive amounts of energy and is less secure to to mining centralization.
+  green_paper_addendum_title: "Learn more"
   green_paper_addendum: |
     We have academic papers and presentations that give detail about our new consensus algorithm and blockchain software. In 2019 we revealed our [Green Paper](https://www.chia.net/assets/ChiaGreenPaper.pdf) outlining the construction of Proofs of Space and Time and illustrating many of the design choices of Chia. There is also a [2019 talk from Mariano Sorgente](https://www.youtube.com/watch?v=_075bzQPooU) at MIT on how to achieve Nakamoto consensus with Proof of Space and VDFs.
 
@@ -69,13 +68,11 @@ en: # English
     greenpaper: "Green Paper"
     contact: "Contact"
   contact_title: "Contact Us"
-  contact_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero justo laoreet sit amet cursus..."
   contact_join_keybase: "Join our Keybase group"
   contact_email_title: "Never miss news. Subscribe today."
   contact_email_description: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  contact_live_feed_title: "Live View Feed"
-  contact_live_feed_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero justo laoreet sit amet cursus..."
+  contact_live_feed_title: "Live Feed"
   contact_email: "Email"
   contact_signup: "Submit"
   proof_of_space_competition_header: "Win $100K in total prize money with Chia's Proof of Space Competition."

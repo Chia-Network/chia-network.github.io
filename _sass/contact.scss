@@ -15,10 +15,6 @@
             text-transform: uppercase;
         }
 
-        p {
-            font-size: 16px;
-        }
-
         h2 {
             font-size: 24px;
             font-weight: bold;
@@ -35,7 +31,8 @@
         }
 
         .details-box {
-            margin: 3rem 0;
+            margin-top: 2rem;
+            margin-bottom: 3rem;;
             padding: 0.5rem 5rem;
             border-left: 1px solid #808080;
 
@@ -49,17 +46,11 @@
         }
     }
 
-    .keybase-live-feed {
-        p {
-            font-size: 16px;
-        }
-
-        iframe {
-            margin-top: 3rem;
-            width: 100%;
-            height: 40rem;
-            border: none;
-        }
+    .keybase-live-feed iframe {
+        margin-top: 2rem;
+        width: 100%;
+        height: 40rem;
+        border: none;
     }
 
     .email-box {
@@ -70,10 +61,6 @@
             font-size: 32px;
             font-weight: bold;
             margin-bottom: 1rem;
-        }
-
-        p {
-            font-size: 20px;
         }
 
         .email-form {
