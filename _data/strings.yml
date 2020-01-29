@@ -27,7 +27,7 @@ en: # English
 
     LedgerSim supports Chialisp smart transactions on a ledger instead of a blockchain for testing and development purposes. Chia’s wallets showcase our new programming language, Chialisp. Download the source code on [GitHub](https://github.com/Chia-Network/wallets).
   download_addendum: |
-    Released under the open source [MIT License](https://opensource.org/licenses/MIT).
+    Released under the open source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
   download_box_title: "Downloads"
   download_box_section_1: "Blockchain"
   download_box_section_2: "Chialisp and LedgerSim"
