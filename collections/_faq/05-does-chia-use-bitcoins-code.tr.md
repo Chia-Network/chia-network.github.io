@@ -1,7 +1,7 @@
 ---
 lang: tr
 order: 5
-title: "Does Chia use Bitcoin’s code."
+title: "Chia Bitcoin’in kodunu kullanıyor mu?"
 ---
 
-No. Chia is written from scratch by a renowned team.
+Hayır. Chia, ünlü bir ekip tarafından sıfırdan yazılıyor.

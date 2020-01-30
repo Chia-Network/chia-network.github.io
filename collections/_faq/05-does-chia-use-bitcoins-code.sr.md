@@ -1,7 +1,7 @@
 ---
 lang: sr
 order: 5
-title: "Does Chia use Bitcoin’s code."
+title: "Да ли Чија користи биткоин код?"
 ---
 
-No. Chia is written from scratch by a renowned team.
+Не, Чија је оригиналан пројекат направљен од стране реномираног тима.

@@ -1,7 +1,7 @@
 ---
 lang: cn
 order: 5
-title: "Does Chia use Bitcoin’s code."
+title: "Chia是否使用比特幣的代碼？"
 ---
 
-No. Chia is written from scratch by a renowned team.
+不。Chia是由知名團隊從頭開始編寫的。
