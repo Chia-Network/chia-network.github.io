@@ -31,7 +31,7 @@ social:
     - https://medium.com/@chia.net
     - https://keybase.io/team/chia_network.public
 google_analytics_snippet: | # TODO: replace this with your actual Google Analytics snippet
-  SOME_HTML_GOES_HERE
+  <SOME_HTML_GOES_HERE>
 defaults:
   - scope:
       path: ""
