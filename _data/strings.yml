@@ -9,7 +9,7 @@ en: # English
     Chia’s Alpha Testnet
     --------------------
 
-    Chia Network is a blockchain and smart transaction platform created by the founder of BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). It is powered by the first new Nakamoto style consensus algorithm since Bitcoin launched in 2008. Proofs of Space and Time replace energy intensive “proofs of work” by utilizing unused disk space.
+    Chia Network develops a blockchain and smart transaction platform created by the founder of BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). It is powered by the first new Nakamoto style consensus algorithm since Bitcoin launched in 2008. Proofs of Space and Time replace energy intensive “proofs of work” by utilizing unused disk space.
 
     Chialisp is Chia’s new smart transaction programming language that is powerful, easy to audit, and secure. The reference smart transactions currently available are: [atomic swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [authorized payees](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [recoverable wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), and [rate-limited wallets](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). Bram has more on [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html).
 
@@ -74,7 +74,7 @@ en: # English
   contact_title: "Contact Us"
   contact_join_keybase: "Join our Keybase group"
   contact_email_title: "Never miss news. Subscribe today."
-  contact_live_feed_title: "Live Feed"
+  contact_live_feed_title: "Keybase Live Feed"
   contact_email: "Email"
   contact_signup: "Submit"
   proof_of_space_competition_header: "Win $100K in total prize money with Chia's Proof of Space Competition."
@@ -125,7 +125,7 @@ fr: # French
     Alpha Testnet de Chia
     ---------------------
 
-    Chia Network est une nouvelle plateforme de crypto-monnaie et de transactions intelligentes respectueuse de l'environnement créée par le fondateur de BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Il est inspiré et similaire à la blockchain Bitcoin, mais à Chia, la ressource n'est pas la puissance de calcul, mais l'espace disque. Pour y parvenir, les «preuves de travail» énergivores sont remplacées par des «preuves d'espace», de sorte que l'espace disque devient la principale ressource pour valider les transactions et non l'énergie.
+   Chia Network développe une blockchain et une plateforme de transaction intelligente créée par le fondateur de BitTorrent, Bram Cohen. Il est alimenté par le premier nouvel algorithme de consensus de style Nakamoto depuis le lancement de Bitcoin en 2008. Les preuves d'espace et de temps remplacent les «preuves de travail» énergivores en utilisant l'espace disque inutilisé.
 
     Alpha testnet présente la première version de Chialisp, le langage de programmation de transactions intelligentes de Chia. Les transactions intelligentes actuellement disponibles sont: [swaps atomiques](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [bénéficiaires autorisés](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [portefeuilles récupérables](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [portefeuilles multisig](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) et [portefeuilles à taux limité](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). Le fondateur de Chia Network, et ancien fondateur de BitTorrent, en a plus sur [Chialisp](https://www.chia.net/2019/11/27/chialisp.fr.html).
 
