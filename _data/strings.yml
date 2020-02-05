@@ -485,7 +485,7 @@ nl: # Dutch
 
     LedgerSim ondersteunt Chialisp slimme transacties op een grootboek in plaats van een blockchain voor test- en ontwikkelingsdoeleinden. Chia’s portemonnee toont onze nieuwe programmeertaal, Chialisp. Download de broncode op [GitHub](https://github.com/Chia-Network/wallets).
   download_addendum: |
-    Uitgebracht onder de open source [Apache License] (https://www.apache.org/licenses/LICENSE-2.0).
+    Uitgebracht onder de open source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
   download_box_title: "downloads"
   download_box_section_1: "Blockchain"
   download_box_section_2: "Chialisp en LedgerSim"
@@ -599,7 +599,7 @@ de: # German
 
     LedgerSim unterstützt Chialisp-Smart-Transaktionen in einem Ledger anstelle einer Blockchain für Test- und Entwicklungszwecke. Die Brieftaschen von Chia zeigen unsere neue Programmiersprache Chialisp. Laden Sie den Quellcode auf [GitHub](https://github.com/Chia-Network/wallets) herunter.
   download_addendum: |
-    Veröffentlicht unter der Open Source [Apache License] (https://www.apache.org/licenses/LICENSE-2.0).
+    Veröffentlicht unter der Open Source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
   download_box_title: "Downloads"
   download_box_section_1: "Blockchain"
   download_box_section_2: "Chialisp und LedgerSim"
@@ -941,7 +941,7 @@ tr: # Turkish
 
     LedgerSim, Chialisp akıllı işlemlerini test ve geliştirme amacıyla bir blockchain yerine bir defterde destekler. Chia’nın cüzdanları yeni programlama dilimiz Chialisp'i sergiliyor. Kaynak kodunu [GitHub](https://github.com/Chia-Network/wallets) 'a indirin.
   download_addendum: |
-    Açık kaynak [Apache Lisansı] altında yayınlandı (https://www.apache.org/licenses/LICENSE-2.0).
+    Açık kaynak [Apache Lisansı](https://www.apache.org/licenses/LICENSE-2.0) altında yayınlandı .
   download_box_title: "İndirilenler"
   download_box_section_1: "Blockchain"
   download_box_section_2: "Chialisp ve LedgerSim"
