@@ -245,7 +245,7 @@ cn: # Chinese
 
     Alpha测试网还引入了Chia的区块链共识层，其中包括一个完整的节点，农民和时间主。区块链是Alpha，尚不支持交易。这是关于[alpha区块链](https://www.chia.net/2019/11/26/alpha-release.en.html)的一些其他想法。
 
-    由于这是Alpha版本，因此您可能需要查看[release errata](https://www.chia.net/releases)。
+    由于这是Alpha版本，因此您可能需要查看[release notes](https://www.chia.net/releases)。
 
     区块链
     ---
