@@ -143,7 +143,7 @@ fr: # French
 
     LedgerSim prend en charge les transactions intelligentes Chialisp sur un registre au lieu d'une chaîne de blocs à des fins de test et de développement. Les portefeuilles de Chia présentent notre nouveau langage de programmation, Chialisp. Téléchargez le code source sur [GitHub](https://github.com/Chia-Network/wallets).
   download_addendum: |
-    Publié sous l'open source [Licence MIT](https://opensource.org/licenses/MIT).
+    Publié sous l'open source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
   download_box_title: "Téléchargements"
   download_box_section_1: "Blockchain"
   download_box_section_2: "Chialisp et LedgerSim"
@@ -257,7 +257,7 @@ cn: # Chinese
 
     LedgerSim支持在账本而非区块链上进行Chialisp智能交易，以进行测试和开发。 Chia的钱包展示了我们的新编程语言Chialisp。在[GitHub](https://github.com/Chia-Network/wallets)上下载源代码。
   download_addendum: |
-    在开源[MIT许可证](https://opensource.org/licenses/MIT)下发布。
+    在開源[Apache許可證]（https://www.apache.org/licenses/LICENSE-2.0）下發布。
   download_box_title: "资料下载"
   download_box_section_1: "区块链"
   download_box_section_2: "Chialisp和LedgerSim"
@@ -371,7 +371,7 @@ jp: # Japanese
 
     LedgerSimは、テストおよび開発の目的で、ブロックチェーンではなく元帳でChialispスマートトランザクションをサポートします。 Chiaの財布は、新しいプログラミング言語Chialispを紹介しています。 [GitHub](https://github.com/Chia-Network/wallets)でソースコードをダウンロードします。
   download_addendum: |
-    オープンソース[MITライセンス](https://opensource.org/licenses/MIT)でリリースされています。
+    オープンソース[Apacheライセンス]（https://www.apache.org/licenses/LICENSE-2.0）でリリースされています。
   download_box_title: "ダウンロード"
   download_box_section_1: "ブロックチェーン"
   download_box_section_2: "Chialisp and LedgerSim"
@@ -485,7 +485,7 @@ nl: # Dutch
 
     LedgerSim ondersteunt Chialisp slimme transacties op een grootboek in plaats van een blockchain voor test- en ontwikkelingsdoeleinden. Chia’s portemonnee toont onze nieuwe programmeertaal, Chialisp. Download de broncode op [GitHub](https://github.com/Chia-Network/wallets).
   download_addendum: |
-    Uitgebracht onder de open source [MIT-licentie](https://opensource.org/licenses/MIT).
+    Uitgebracht onder de open source [Apache License] (https://www.apache.org/licenses/LICENSE-2.0).
   download_box_title: "downloads"
   download_box_section_1: "Blockchain"
   download_box_section_2: "Chialisp en LedgerSim"
@@ -599,7 +599,7 @@ de: # German
 
     LedgerSim unterstützt Chialisp-Smart-Transaktionen in einem Ledger anstelle einer Blockchain für Test- und Entwicklungszwecke. Die Brieftaschen von Chia zeigen unsere neue Programmiersprache Chialisp. Laden Sie den Quellcode auf [GitHub](https://github.com/Chia-Network/wallets) herunter.
   download_addendum: |
-    Veröffentlicht unter der Open Source [MIT License](https://opensource.org/licenses/MIT).
+    Veröffentlicht unter der Open Source [Apache License] (https://www.apache.org/licenses/LICENSE-2.0).
   download_box_title: "Downloads"
   download_box_section_1: "Blockchain"
   download_box_section_2: "Chialisp und LedgerSim"
@@ -713,7 +713,7 @@ es: # Spanish
 
     LedgerSim admite transacciones inteligentes de Chialisp en un libro mayor en lugar de una cadena de bloques para fines de prueba y desarrollo. Las billeteras de Chia muestran nuestro nuevo lenguaje de programación, Chialisp. Descargue el código fuente en [GitHub](https://github.com/Chia-Network/wallets).
   download_addendum: |
-    Publicado bajo el código abierto [Licencia MIT](https://opensource.org/licenses/MIT).
+    Publicado bajo el código abierto [Licencia de Apache] (https://www.apache.org/licenses/LICENSE-2.0).
   download_box_title: "Descargas"
   download_box_section_1: "Blockchain"
   download_box_section_2: "Chialisp y LedgerSim"
@@ -827,7 +827,7 @@ sr: # Serbian
 
     ЛедгерСим подржава Цхиалисп паметне трансакције на књизи уместо блоцкцхаин-а за потребе тестирања и развоја. Цхиа-ове новчанике представљају наш нови програмски језик, Цхиалисп. Преузмите изворни код на [ГитХуб](https://github.com/Chia-Network/wallets).
   download_addendum: |
-    Објављено у оквиру отвореног кода [МИТ Лиценсе](https://opensource.org/licenses/MIT).
+    Објављено под отвореним извором [Апацхе Лиценсе] (хттпс://ввв.апацхе.орг/лиценсес/ЛИЦЕНСЕ-2.0).
   download_box_title: "Преузимања"
   download_box_section_1: "Блоцкцхаин"
   download_box_section_2: "Цхиалисп и ЛедгерСим"
@@ -941,7 +941,7 @@ tr: # Turkish
 
     LedgerSim, Chialisp akıllı işlemlerini test ve geliştirme amacıyla bir blockchain yerine bir defterde destekler. Chia’nın cüzdanları yeni programlama dilimiz Chialisp'i sergiliyor. Kaynak kodunu [GitHub](https://github.com/Chia-Network/wallets) 'a indirin.
   download_addendum: |
-    Açık kaynak [MIT Lisansı](https://opensource.org/licenses/MIT) altında yayınlandı.
+    Açık kaynak [Apache Lisansı] altında yayınlandı (https://www.apache.org/licenses/LICENSE-2.0).
   download_box_title: "İndirilenler"
   download_box_section_1: "Blockchain"
   download_box_section_2: "Chialisp ve LedgerSim"
