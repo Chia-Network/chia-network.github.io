@@ -14,30 +14,30 @@ plugins:
 # SEO settings
 title: Home - Chia Network
 description: > # this means to ignore newlines until "baseurl:"
-  We're building a blockchain based on proofs of space and time to make a cryptocurrency that is less wasteful, more decentralized, and more secure.
+  A better blockchain and smart transaction platform which is more decentralized, more efficient, and more secure.
 twitter:
-  username: ChiaNetworkInc
+  username: chia_project
   card: summary
 facebook:
-  publisher: https://www.facebook.com/ChiaNetworkInc
+  publisher: https://www.facebook.com/ChiaProject
 logo: /img/chia_logo.svg
 social:
   links:
-    - https://twitter.com/ChiaNetworkInc
-    - https://www.facebook.com/ChiaNetworkInc
-    - https://instagram.com/chia_network
+    - https://twitter.com/chia_project
+    - https://www.facebook.com/ChiaProject
+    - https://instagram.com/chia_project
     - https://www.linkedin.com/company/chia-network/
     - https://github.com/Chia-Network
     - https://medium.com/@chia.net
     - https://keybase.io/team/chia_network.public
-google_analytics_snippet: | 
+google_analytics_snippet: |
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157739092-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    
+
     gtag('config', 'UA-157739092-1');
   </script>
 defaults:
