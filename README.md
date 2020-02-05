@@ -126,6 +126,7 @@ lang: fr                                                                        
 layout: post                                                                      # use standard blog post page layout
 title: "11 Browser Extensions That Can Save You Money Every Time You Shop Online" # title of the blog post
 date: 2018-06-18                                                                  # publication date of blog post
+author: "[Some Person](https://google.com)"                                       # author name (supports Markdown for links and formatting)
 ---
 
 CONTENT OF BLOG POST AS MARKDOWN.
