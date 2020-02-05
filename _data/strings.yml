@@ -3,19 +3,19 @@ en: # English
   news_title: "News"
   news_see_more: "See more"
   download_title: "Chia Network"
-  download_subtitle: "An eco-friendly blockchain and better platform for managing money."
+  download_subtitle: "A better blockchain and smart transaction platform which is more decentralized, more efficient, and more secure."
   download_button: "Download Alpha Testnet"
   download_description: |
     Chia’s Alpha Testnet
     --------------------
 
-    Chia Network is a new eco-friendly cryptocurrency and smart transaction platform created by the founder of BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). It is inspired and similar to the Bitcoin blockchain, but in Chia, the resource is not computing power, but disk space. To achieve this the energy intensive “proofs of work” are replaced by “proofs of space”, so disk-space becomes the main resource for validating transactions not energy. 
+    Chia Network is a blockchain and smart transaction platform created by the founder of BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). It is powered by the first new Nakamoto style consensus algorithm since Bitcoin launched in 2008. Proofs of Space and Time replace energy intensive “proofs of work” by utilizing unused disk space.
 
-    Alpha testnet introduces the first version of Chialisp, Chia’s smart transaction programming language. The smart transactions currently available are: [atomic swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [authorized payees](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [recoverable wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), and [rate-limited wallets](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). The founder of Chia Network, and former founder of BitTorrent, has more on [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html). 
+    Chialisp is Chia’s new smart transaction programming language that is powerful, easy to audit, and secure. The reference smart transactions currently available are: [atomic swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [authorized payees](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [recoverable wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), and [rate-limited wallets](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). Bram has more on [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html).
 
-    Alpha testnet also introduces Chia’s blockchain consensus layer which includes a full node, farmer and timelord. The blockchain is alpha and does not yet support transactions. Here are some additional thoughts on the [alpha blockchain](https://www.chia.net/2019/11/26/alpha-release.en.html). 
+    Alpha testnet introduces Chia’s blockchain consensus layer which includes a full node, farmer and timelord. The blockchain is alpha and does not yet support transactions. Here are some additional thoughts on the [alpha blockchain](https://www.chia.net/2019/11/26/alpha-release.en.html).
 
-    Since this is an alpha release, you may want to review the [release errata](https://www.chia.net/releases).
+    Since this is an alpha release, you may want to review the [release notes](https://www.chia.net/releases).
 
     Blockchain
     ----------
@@ -38,14 +38,16 @@ en: # English
   download_releases_link: "View release notes"
   about_title: "About Us"
   about_description: |
-    Chia Network is a decentralized open source global blockchain which is less wasteful, more decentralized, and more secure than traditional proof of work cryptocurrencies. It is inspired and similar to the Bitcoin blockchain, but in Chia, the resource is not computing power, but disk space. To achieve this, the “proofs of work” used in Bitcoin are replaced by “proofs of space”, so disk-space becomes the main resource and proofs of time to come to a decentralized “Nakamoto-style” consensus that validates transactions.
+    Founded by Bram Cohen, the inventor of the BitTorrent network, Chia Network is building a better blockchain and smart transaction platform which is more decentralized, more efficient, and more secure.
 
-    Chia network is also a smart transaction platform company.
+    Chialisp is Chia’s new smart transaction programming language that is powerful, easy to audit, and secure. The blockchain is powered by the first new Nakamoto style consensus algorithm since Bitcoin launched in 2008. Proofs of Space and Time replace energy intensive “proofs of work” by utilizing unused disk space.
+
+    Chia Network supports the development and deployment of the Chia blockchain globably. Chia Network supports chia developers and supports the enterprise use of chia with software support and chia lending.
   about_team_title: "Team"
   about_team_description: |
-    Chia Network was founded by the creator of BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). It also includes executive leadership from the former acting-CEO of overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/) and a former founder of eMusic.com and Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/). Chia Network will have a large open source developer community with many causal contributions to the codebase. There are many more who contribute to research, peer review, testing, documentation, and translation.
+    Chia Network was founded by the creator of BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). It also includes executive leadership from the former acting-CEO of overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/) and the former founder and CEO of eMusic.com and Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/). The Chia blockchain has an open source developer community with many causal contributions to the codebase. There are many more who contribute to research, peer review, testing, documentation, and translation.
   about_invest_investors_title: "Our Investors"
-  blog_title: "Straight from Chia"
+  blog_title: "Notes from Chia"
   releases_title: "Release Notes"
   releases_loading_message: "Loading releases..."
   green_paper_main_title: "Chia's Green Paper"
@@ -117,7 +119,7 @@ fr: # French
   news_title: "Nouvelles"
   news_see_more: "Voir plus"
   download_title: "Réseau Chia"
-  download_subtitle: "Une blockchain respectueuse de l'environnement et une meilleure plateforme de gestion de l'argent."
+  download_subtitle: "Une meilleure blockchain et une plateforme de transaction intelligente qui est plus décentralisée, plus efficace et plus sécurisée."
   download_button: "Télécharger Alpha Testnet"
   download_description: |
     Alpha Testnet de Chia
@@ -231,7 +233,7 @@ cn: # Chinese
   news_title: "新闻"
   news_see_more: "查看更多"
   download_title: "正大网络"
-  download_subtitle: "一个生态友好的区块链和更好的资金管理平台。"
+  download_subtitle: "更好的區塊鍊和智能交易平台，更加分散，更高效，更安全。"
   download_button: "下载Alpha Testnet"
   download_description: |
     Chia的Alpha测试网
@@ -345,7 +347,7 @@ jp: # Japanese
   news_title: "ニュース"
   news_see_more: "続きを見る"
   download_title: "チアネットワーク"
-  download_subtitle: "環境に優しいブロックチェーンとお金を管理するためのより良いプラットフォーム。"
+  download_subtitle: "より分散され、効率的で、より安全な、より優れたブロックチェーンとスマートトランザクションプラットフォーム。"
   download_button: "ダウンロードAlpha Testnet"
   download_description: |
     チアのアルファテストネット
@@ -459,7 +461,7 @@ nl: # Dutch
   news_title: "Nieuws"
   news_see_more: "Bekijk meer"
   download_title: "Chia Network"
-  download_subtitle: "Een milieuvriendelijke blockchain en een beter platform voor het beheren van geld."
+  download_subtitle: "Een beter blockchain- en slim transactieplatform dat meer gedecentraliseerd, efficiënter en veiliger is."
   download_button: "Download Alpha Testnet"
   download_description: |
     Chia's Alpha Testnet
@@ -573,7 +575,7 @@ de: # German
   news_title: "Nachrichten"
   news_see_more: "Mehr sehen"
   download_title: "Chia-Netzwerk"
-  download_subtitle: "Eine umweltfreundliche Blockchain und bessere Plattform für die Verwaltung von Geld."
+  download_subtitle: "Eine bessere Blockchain und intelligente Transaktionsplattform, die dezentraler, effizienter und sicherer ist."
   download_button: "Laden Sie Alpha Testnet herunter"
   download_description: |
     Chias Alpha-Testnetz
@@ -687,7 +689,7 @@ es: # Spanish
   news_title: "Noticias"
   news_see_more: "Ver más"
   download_title: "Red Chia"
-  download_subtitle: "Una cadena de bloques ecológica y una mejor plataforma para administrar el dinero."
+  download_subtitle: "Una mejor plataforma de transacciones inteligentes y blockchain que es más descentralizada, más eficiente y más segura."
   download_button: "Descargar Alpha Testnet"
   download_description: |
     Red de prueba alfa de Chia
@@ -801,7 +803,7 @@ sr: # Serbian
   news_title: "Вести"
   news_see_more: "Види више"
   download_title: "Цхиа Нетворк"
-  download_subtitle: "Еколошки блоцкцхаин и боља платформа за управљање новцем."
+  download_subtitle: "Боља блокчеин и памента платформа ѕа трансакције која је децентрализованија, ефикаснија и сигурнија."
   download_button: "Преузмите Алпха Тестнет"
   download_description: |
     Цхиа'с Алпха Тестнет
@@ -915,7 +917,7 @@ tr: # Turkish
   news_title: "Haberler"
   news_see_more: "Daha fazla gör"
   download_title: "Chia Ağı"
-  download_subtitle: "Çevre dostu bir blockchain ve para yönetimi için daha iyi bir platform."
+  download_subtitle: "Daha merkezi olmayan, daha verimli ve daha güvenli olan daha iyi bir blockchain ve akıllı işlem platformu."
   download_button: "Alpha Testnet'i indirin"
   download_description: |
     Chia’nın Alfa Test Ağı
