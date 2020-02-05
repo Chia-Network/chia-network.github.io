@@ -3,6 +3,7 @@ lang: en
 layout: post
 title:  "Chia Network Announces Proof of Space Competition with $100k in Total Prize Money"
 date:   2019-07-07
+author: "[Ali Shadle](https://twitter.com/AliShadle)"
 ---
 
 We’re excited to announce Chia’s Proof of Space competition. In Chia’s Proof of Space, rewards are given to farmers that can prove that they are allocating a portion of their disk space to farming Chia. In order to be used as a consensus method, Proof of Space is tied to Proof of Time. An open source implementation in C++ is available, that can be used as a [starting point](https://github.com/Chia-Network/proofofspace).
