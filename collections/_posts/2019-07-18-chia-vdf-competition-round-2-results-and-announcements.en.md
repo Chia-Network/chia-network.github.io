@@ -3,6 +3,7 @@ lang: en
 layout: post
 title:  "Chia VDF Competition Round 2 Results and Announcements"
 date:   2019-07-18
+author: "[Ali Shadle](https://twitter.com/AliShadle)"
 ---
 
 Congratulations to Sundersoft for winning both tracks of the second Chia VDF competition and earning $100,000!  

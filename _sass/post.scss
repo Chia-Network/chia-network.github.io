@@ -1,17 +1,26 @@
 .blog-post {
     .title {
         margin-top: 3rem;
-        margin-bottom: 2rem;        
+        margin-bottom: 2rem;
+        color: #808080;
+
         h1 {
             color: #292A2A;
             font-weight: bold;
             font-size: 50px;
         }
 
+        .author {
+            line-height: 22px;
+            font-size: 16px;
+
+            p { display: inline; }
+            a { color: inherit; text-decoration: underline; }
+        }
+
         .date {
             line-height: 22px;
             font-size: 16px;
-            color: #808080;
         }
     }
 

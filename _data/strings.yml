@@ -912,6 +912,120 @@ sr: # Serbian
     footer:
       heading: "Освојите 100.000 УСД укупног новца"
       sign_up: "Пријави се"
+pt:
+  faq_title: "Perguntas frequentes"
+  news_title: "Notícia"
+  news_see_more: "Ver mais"
+  download_title: "Rede Chia"
+  download_subtitle: "Uma blockchain ecológica e uma melhor plataforma para gerenciar dinheiro."
+  download_button: "Baixar Alpha Testnet"
+  download_description: |
+    Alpha Testnet de Chia
+    --------------------
+
+    A Chia Network é uma nova plataforma de transações inteligentes e criptomoeda ecológica criada pelo fundador da BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). É inspirado e semelhante ao blockchain Bitcoin, mas em Chia, o recurso não é poder de computação, mas espaço em disco. Para conseguir isso, as "provas de trabalho" com uso intensivo de energia são substituídas por "provas de espaço", de modo que o espaço em disco se torna o principal recurso para validar transações, não energia.
+
+    Alpha testnet apresenta a primeira versão do Chialisp, a linguagem de programação de transações inteligentes da Chia. As transações inteligentes disponíveis atualmente são: [swaps atômicos](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [beneficiários autorizados](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [carteiras recuperáveis](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [carteiras multisig](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) e [carteiras com taxa limitada](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). O fundador da Chia Network e ex-fundador do BitTorrent, tem mais informações sobre o [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html).
+
+    O Alpha testnet também apresenta a camada de consenso de blockchain da Chia, que inclui um nó completo, agricultor e senhor do tempo. O blockchain é alfa e ainda não suporta transações. Aqui estão algumas idéias adicionais sobre o [alpha blockchain](https://www.chia.net/2019/11/26/alpha-release.en.html).
+
+    Como esta é uma versão alfa, convém revisar as [erratas da versão](https://www.chia.net/releases).
+
+    Blockchain
+    ----------
+
+    A blockchain de Chia inclui um nó completo, agricultor e senhor do tempo. Faça o download do código-fonte no [GitHub](https://github.com/Chia-Network/chia-blockchain).
+
+    Chialisp and LedgerSim
+    ----------------------
+
+    O LedgerSim suporta transações inteligentes do Chialisp em um razão em vez de uma blockchain para fins de teste e desenvolvimento. As carteiras de Chia mostram nossa nova linguagem de programação, Chialisp. Baixe o código fonte no [GitHub](https://github.com/Chia-Network/wallets).
+  download_addendum: |
+    Lançado sob o código aberto [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
+  download_box_title: "Transferências"
+  download_box_section_1: "Blockchain"
+  download_box_section_2: "Chialisp and LedgerSim"
+  download_box_latest_version: "Última versão:"
+  download_chia_blockchain_no_releases: "1.0"
+  download_wallets_no_releases: "1.0"
+  download_box_button: "Baixar código fonte"
+  download_releases_link: "Ver notas de lançamento"
+  about_title: "Sobre nós"
+  about_description: |
+    A Chia Network é uma blockchain global de código aberto descentralizada, menos desperdiçada, mais descentralizada e mais segura do que a prova tradicional de criptomoedas de trabalho. É inspirado e semelhante ao blockchain Bitcoin, mas em Chia, o recurso não é poder de computação, mas espaço em disco. Para conseguir isso, as "provas de trabalho" usadas no Bitcoin são substituídas por "provas de espaço", de modo que o espaço em disco se torna o principal recurso e as provas de tempo para chegar a um consenso descentralizado de "estilo Nakamoto" que valida transações.
+
+    A rede Chia também é uma empresa de plataforma de transações inteligentes.
+  about_team_title: "Equipe"
+  about_team_description: |
+    A Chia Network foi fundada pelo criador do BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). Também inclui liderança executiva do ex-CEO em exercício da overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/) e um ex-fundador da eMusic.com e Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/). A Chia Network terá uma grande comunidade de desenvolvedores de código aberto com muitas contribuições causais para a base de código. Há muitos outros que contribuem para pesquisa, revisão por pares, testes, documentação e tradução.
+  about_invest_investors_title: "Nossos Investidores"
+  blog_title: "Direto de Chia"
+  releases_title: "Notas de versão"
+  releases_loading_message: "Carregando lançamentos ..."
+  green_paper_main_title: "Livro Verde de Chia"
+  green_paper_download: "Download Livro Verde"
+  green_paper_description: |
+    O Livro Verde detalha um novo algoritmo de consenso chamado Provas do Espaço e do Tempo, "PoST". O PoST substitui as provas de trabalho na mineração do Bitcoin, que desperdiçam grandes quantidades de energia e são menos seguras à centralização da mineração.
+  green_paper_addendum_title: "Saber mais"
+  green_paper_addendum: |
+    Temos trabalhos acadêmicos e apresentações que fornecem detalhes sobre nosso novo algoritmo de consenso e software blockchain. Em 2019, revelamos nosso [Livro Verde](https://www.chia.net/assets/ChiaGreenPaper.pdf) descrevendo a construção de provas de espaço e tempo e ilustrando muitas das opções de design de Chia. Também há uma [conversa de Mariano Sorgente](https://www.youtube.com/watch?v=_075bzQPooU) no MIT sobre como alcançar o consenso de Nakamoto com a Prova de espaço e VDFs.
+
+    Bram Cohen [apresentado](https://www.youtube.com/watch?v=2Zlcgt8FVz4) em Stanford, em fevereiro de 2018, no Proofs of Space. Nossos conselheiros, Dan Boneh, Benedikt Bünz e Ben Fisch [publicaram uma pesquisa de VDFs](https://eprint.iacr.org/2018/712.pdf), que são a tecnologia subjacente da Prova de Tempo. Lipa Long [publicou uma explicação dos grupos de turmas](https://github.com/Chia-Network/vdf-competition/blob/master/classgroups.pdf) que nossos [Provas do Tempo](https://eprint.iacr.org/2018/627.pdf) é baseado em. Bram apresentou [Além das compensações da memória do tempo do Hellman com aplicativos para provas de espaço](https://www.youtube.com/watch?v=iqxkO7C-cyk) na BPASE '18 em janeiro de 2018 com base no [artigo acadêmico](https://eprint.iacr.org/2017/893) e estes [slides](https://view.publitas.com/chia-network/pbase18slides/page/1) de Hamza Abusalah. Ben Fisch deu um [talk](https://www.youtube.com/watch?v=qUoagL7OZ1k) na BPASE 2018 em janeiro de 2018 sobre as funções de atraso verificável. Bram [falou na Blockchain em Berkeley](https://www.facebook.com/BlockchainatBerkeley/videos/2006069823011271/) (que começa cerca das 20:00) em março de 2018 com [slides](https://cyber.stanford.edu/sites/g/files/sbiybj9936/f/bramcohen.pdf). Bram fez uma [palestra no BPASE 2017](https://www.youtube.com/watch?v=aYG0NxoG7yw) em janeiro de 2017 sobre a remoção de resíduos com provas de espaço e tempo ([slides](https://cyber.stanford.edu/sites/g/files/sbiybj9936/f/bramcohen.pdf)).
+
+    Bram deu um [talk](https://www.youtube.com/watch?v=zZaB4hM8SQ4) no Seminário SF Bitcoin Devs sobre estruturas de dados para escalonar o Bitcoin com [slides](https://view.publitas.com/chia-network/bitcoin_data_structures/) e [Merkle Set code](https://github.com/bramcohen/MerkleSet). Bram fez um [talk](https://www.youtube.com/watch?v=zZaB4hM8SQ4) no Seminário SF Bitcoin Devs sobre remoção de resíduos de criptomoedas.
+  footer_copyright_year: "© Rede Chia 2020"
+  navigation:
+    download: "Baixar"
+    about: "Sobre"
+    blog: "Blog"
+    releases: "Lançamentos"
+    news: "Notícia"
+    faq: "Perguntas frequentes"
+    greenpaper: "Papel verde"
+    contact: "Contato"
+  contact_title: "Contate-Nos"
+  contact_join_keybase: "Participe do nosso grupo Keybase"
+  contact_email_title: "Nunca perca notícias. Inscreva-se hoje."
+  contact_live_feed_title: "Transmissão ao vivo"
+  contact_email: "O email"
+  contact_signup: "Enviar"
+  proof_of_space_competition_header: "Ganhe US $ 100.000 em prêmios em dinheiro com o concurso de prova de espaço da Chia."
+  proof_of_space_competition_about_competition_header: "Sobre a Competição"
+  proof_of_space_competition_about_competition_text: "Chia está tendo uma competição pela melhor implementação de nossa prova de construção de espaço. Serão concedidos $ 100k em dinheiro total do prêmio."
+  proof_of_space_competition_about_competition_dates_text: "O concurso termina em 9 de outubro de 2019."
+  proof_of_space_competition_about_competition_github_text: "Saiba mais no [Github](https://github.com/Chia-Network/proofofspace)."
+  proof_of_space_competition_about_competition_keybase_text: "Participe do nosso canal público [Keybase](https://keybase.io/team/chia_network.public)."
+  proof_of_space_competition_about_competition_entry_form_text: "Preencha o [formulário de inscrição](https://github.com/Chia-Network/proofofspace/blob/master/2019%20CHIA%20NETWORK%20CHALLENGE%20APPLICATION%20FORM.pdf)."
+  proof_of_space_competition_footer: "Ganhe $ 100K em prêmios em dinheiro total."
+  proof_of_space_competition_sign_up: "Inscrever-se"
+  proof_of_time_contest:
+    header:
+      heading: "O segundo desafio da prova de tempo"
+      subtext: "Uma competição global para acelerar a função de atraso verificável"
+      info_text_prize: "$ 100.000 em prêmios em dinheiro total"
+      info_text_time: "19 de abril - 19 de julho"
+      join_now: "Entrar"
+    body_section_1:
+      heading: "O desafio VDF"
+      paragraph_1: "Há alguns meses, encerramos nosso concurso inicial de implementação de VDF e ficamos impressionados com a excelente qualidade dos envios. Os três principais candidatos chegaram em menos de um minuto (a implementação de referência foi de 169 segundos). Outras cinco equipes também enviaram implementações mais rápidas que a referência. Todos os envios eram de código aberto e podem ser encontrados [aqui](https://www.chia.net/2019/07/18/chia-vdf-competition-round-2-results-and-announcements.en.html). O total do prêmio era originalmente de US $ 100.000, mas, devido ao trabalho árduo que as equipes colocam na competição, decidimos conceder US $ 2.000 a cada equipe que enviar uma inscrição, elevando o total do prêmio em dinheiro a US $ 116.000."
+      paragraph_2: "Temos o orgulho de anunciar uma segunda competição, desafiando os participantes a melhorar nossa nova implementação de referência."
+    body_section_2:
+      heading: "Duas trilhas"
+      line_1: "A segunda competição VDF será dividida em duas faixas:"
+      line_2: "1. Otimização SIMD e GPU permitida"
+      line_3: "2. Otimização SIMD e GPU não permitida"
+      paragraph: "Isso é para nos ajudar a separar os diferentes tipos de otimização. Esperamos que as entradas que usam as otimizações permitidas na faixa 1 sejam mais rápidas, no entanto, não há necessidade de envio da faixa 1 para usar essas técnicas. Isso significa que todos os envios da faixa 2 também são elegíveis para envios da faixa 1. Os vencedores de cada faixa receberão US $ 50.000. Indivíduos e equipes são convidados a participar. Todos os participantes terão acesso aos computadores especializados no laboratório de Chia. Especificações do hardware de referência e mais detalhes técnicos estão disponíveis no nosso GitHub. Você pode ver nosso pré-compromisso [aqui](https://github.com/Chia-Network/vdf-competition). Os participantes poderão se comunicar com Chia durante a competição através de um canal seguro do Keybase."
+    body_section_3:
+      heading: "$ 100.000 em prêmios em dinheiro total"
+      time_caption: "3 meses: abril de 2019 a julho de 2019"
+      point_1: "Otimização de SIMD e GPU permitida"
+      point_2: "Otimização de SIMD e GPU não permitida"
+    body_section_4:
+      heading: "Documentos e suporte"
+      entry_form: "Formulário de Inscrição"
+    footer:
+      heading: "Ganhe $ 100.000 em prêmios em dinheiro"
+      sign_up: "Inscrever-se"
 tr: # Turkish
   faq_title: "SSS"
   news_title: "Haberler"
