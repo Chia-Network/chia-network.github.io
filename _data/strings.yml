@@ -467,13 +467,13 @@ nl: # Dutch
     Chia's Alpha Testnet
     --------------------
 
-    Chia Network is een nieuw milieuvriendelijk cryptocurrency en slim transactieplatform gecreëerd door de oprichter van BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Het is geïnspireerd en vergelijkbaar met de Bitcoin-blockchain, maar in Chia is de bron geen rekenkracht, maar schijfruimte. Om dit te bereiken worden de energie-intensieve "werkbewijzen" vervangen door "ruimtebewijzen", zodat schijfruimte de belangrijkste bron wordt voor het valideren van transacties en niet voor energie.
+    Chia Network is een blockchain en slim transactieplatform gecreëerd door de oprichter van BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Het wordt aangedreven door het eerste nieuwe Nakamoto-stijl consensus-algoritme sinds Bitcoin in 2008 werd gelanceerd. Bewijzen van ruimte en tijd vervangen energie-intensieve "werkbewijzen" door gebruik te maken van ongebruikte schijfruimte.
 
     Alpha testnet introduceert de eerste versie van Chialisp, de slimme programmeertaal van Chia. De momenteel beschikbare slimme transacties zijn: [atomaire swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [geautoriseerde begunstigden](https://github.com/ Chia-Network / wallets / blob / master / docs / authorised_payees.md), [herstelbare wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) en [rate-limited wallets](https://github.com/Chia-Network/wallets/blob /master/docs/rate_limited_wallet.md). De oprichter van Chia Network en voormalig oprichter van BitTorrent heeft meer over [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html).
 
     Alpha testnet introduceert ook Chia's blockchain-consensuslaag met een volledig knooppunt, boer en timelord. De blockchain is alfa en ondersteunt nog geen transacties. Hier zijn enkele aanvullende gedachten over de [alpha blockchain](https://www.chia.net/2019/11/26/alpha-release.en.html).
 
-    Aangezien dit een alpha-release is, kunt u de [release errata](https://www.chia.net/releases) bekijken.
+    Aangezien dit een alpha-release is, kunt u de [release notes](https://www.chia.net/releases) bekijken.
 
     Blockchain
     ----------
