@@ -3,7 +3,7 @@ lang: en
 layout: post
 title:  "Building a Sustainable Blockchain, With Your Help"
 date:   2019-03-25
-author: "[Ali Shadle](https://twitter.com/AliShadle) and [Bill Blanke](https://github.com/wjblanke)"
+author: "[Ali Shadle](https://twitter.com/AliShadle)"
 ---
 
 Decentralized, digital currencies will soon evolve from being a futuristic concept to a mainstream reality. They’ll offer liquidity to those who live in countries with poorly run or corrupt central banks, and offer a universal currency for streamlined financial transfers. Currency not tied to the banking system is an idea whose time has come.
