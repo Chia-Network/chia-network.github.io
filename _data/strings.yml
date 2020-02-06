@@ -695,13 +695,13 @@ es: # Spanish
     Red de prueba alfa de Chia
     --------------------------
 
-    Chia Network es una nueva plataforma de transacciones inteligentes y criptomonedas ecológica creada por el fundador de BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Está inspirado y es similar a la cadena de bloques de Bitcoin, pero en Chia, el recurso no es la potencia informática, sino el espacio en disco. Para lograr esto, las "pruebas de trabajo" intensivas en energía se reemplazan por "pruebas de espacio", por lo que el espacio en disco se convierte en el principal recurso para validar las transacciones, no la energía.
+    Chia Network desarrolla una plataforma de transacciones inteligentes y blockchain creada por el fundador de BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Está impulsado por el primer nuevo algoritmo de consenso de estilo Nakamoto desde que se lanzó Bitcoin en 2008. Las "Pruebas de espacio y tiempo" reemplazan las "pruebas de trabajo" intensivas en energía mediante el uso de espacio en disco no utilizado.
 
     Alpha Testnet presenta la primera versión de Chialisp, el lenguaje de programación de transacciones inteligentes de Chia. Las transacciones inteligentes actualmente disponibles son: [intercambios atómicos](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [beneficiarios autorizados](https://github.com/ Chia-Network/wallets/blob/master/docs/authorised_payees.md), [billeteras recuperables](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [billeteras multisig](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), y [billeteras con tarifa limitada](https://github.com/Chia-Network/wallets/blob /master/docs/rate_limited_wallet.md). El fundador de Chia Network, y ex fundador de BitTorrent, tiene más información sobre [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html).
 
     Alpha Testnet también presenta la capa de consenso de blockchain de Chia que incluye un nodo completo, agricultor y señor del tiempo. La cadena de bloques es alfa y aún no admite transacciones. Aquí hay algunas ideas adicionales sobre la [cadena de bloques alfa](https://www.chia.net/2019/11/26/alpha-release.en.html).
 
-    Como se trata de una versión alfa, es posible que desee revisar la [errata de la versión](https://www.chia.net/releases).
+    Como se trata de una versión alfa, es posible que desee revisar las [notas de la versión](https://www.chia.net/releases).
 
     Blockchain
     ----------
