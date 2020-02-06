@@ -3,7 +3,7 @@ lang: en
 layout: post
 title:  "The ASIC Resistance of Proof of Space"
 date:   2018-06-11
-author: "[Ali Shadle](https://twitter.com/AliShadle)"
+author: "[Bram Cohen](https://twitter.com/bramcohen) and [Gene Hoffman](https://twitter.com/hoffmang)"
 ---
 
 A recent [podcast](http://multicoin.libsyn.com/conversations-with-multicoin-capital-dhruv-bansal) speculated quite a bit about the economics of Chia Network’s new proof of space and time consensus algorithm.
