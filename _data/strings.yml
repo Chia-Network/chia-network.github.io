@@ -125,13 +125,13 @@ fr: # French
     Alpha Testnet de Chia
     ---------------------
 
-    Chia Network est une plateforme de blockchain et de transaction intelligente créée par le fondateur de BitTorrent, Bram Cohen. Il est alimenté par le premier nouvel algorithme de consensus de style Nakamoto depuis le lancement de Bitcoin en 2008. Les preuves de l'espace et du temps remplacent les preuves de travail énergivores en utilisant l'espace disque inutilisé.
+    Chia Network est une plateforme de blockchain et de transaction intelligente créée par le fondateur de BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Il est alimenté par le premier nouvel algorithme de consensus de style Nakamoto depuis le lancement de Bitcoin en 2008. Les preuves de l'espace et du temps remplacent les preuves de travail énergivores en utilisant l'espace disque inutilisé. Il est alimenté par le premier nouvel algorithme de consensus de style Nakamoto depuis le lancement de Bitcoin en 2008. Les preuves de l'espace et du temps remplacent les preuves de travail énergivores en utilisant l'espace disque inutilisé.
 
     Alpha testnet présente la première version de Chialisp, le langage de programmation de transactions intelligent de Chia. Il est puissant, facile à auditer et sécurisé. Les transactions intelligentes actuellement disponibles sont: [swaps atomiques](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [bénéficiaires autorisés](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [portefeuilles récupérables](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [portefeuilles multisig](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) et [portefeuilles à taux limité](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). Le fondateur de Chia Network, et ancien fondateur de BitTorrent, en a plus sur [Chialisp](https://www.chia.net/2019/11/27/chialisp.fr.html).
 
     Alpha testnet présente également la couche de consensus de blockchain de Chia qui comprend un nœud complet, un agriculteur et un calendrier. La blockchain est alpha et ne prend pas encore en charge les transactions. Voici quelques réflexions supplémentaires sur la [blockchain alpha](https://www.chia.net/2019/11/26/alpha-release.fr.html).
 
-    Puisqu'il s'agit d'une version alpha, vous pouvez consulter les [notes de version] (https://www.chia.net/releases).
+    Puisqu'il s'agit d'une version alpha, vous pouvez consulter les [notes de version](https://www.chia.net/releases).
 
     Blockchain
     ----------
@@ -581,13 +581,13 @@ de: # German
     Chias Alpha-Testnetz
     --------------------
 
-    Chia Network ist eine neue umweltfreundliche Kryptowährung und intelligente Transaktionsplattform, die vom Gründer von BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/), entwickelt wurde. Es ist inspiriert und ähnelt der Bitcoin-Blockchain, aber in Chia ist die Ressource nicht Rechenleistung, sondern Speicherplatz. Um dies zu erreichen, werden die energieintensiven "Proofs of Work" durch "Proofs of Space" ersetzt, sodass der Festplattenspeicher die wichtigste Ressource für die Validierung von Transaktionen und nicht von Energie wird.
+    Chia Network entwickelt eine Blockchain- und intelligente Transaktionsplattform, die vom Gründer von BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/), entwickelt wurde. Es basiert auf dem ersten neuen Nakamoto-Konsensus-Algorithmus seit der Einführung von Bitcoin im Jahr 2008. Proofs für Raum und Zeit ersetzen energieintensive Proofs für Arbeit durch die Nutzung von nicht verwendetem Speicherplatz.
 
-    Alpha testnet stellt die erste Version von Chialisp vor, der Programmiersprache für intelligente Transaktionen von Chia. Die derzeit verfügbaren intelligenten Transaktionen sind: [Atomic Swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [autorisierte Zahlungsempfänger](https://github.com/ Chia-Network/wallets/blob/master/docs/authorised_payees.md), [wiederherstellbare Wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [Brieftaschen mit mehreren Sig](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) und [rate-limited wallets](https://github.com/Chia-Network/wallets/blob) /master/docs/rate_limited_wallet.md). Der Gründer von Chia Network und ehemalige Gründer von BitTorrent hat mehr über [Chialisp](https://www.chia.net/2019/11/27/chialisp.de.html).
+    Alpha testnet stellt die erste Version von Chialisp vor, der Programmiersprache für intelligente Transaktionen von Chia. Die derzeit verfügbaren smarte Transaktionen sind: [Atomar Swapgeschäfte](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [autorisierte Zahlungsempfänger](https://github.com/ Chia-Network/wallets/blob/master/docs/authorised_payees.md), [wiederherstellbare Brieftasche](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [Brieftaschen mit mehreren Sig](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) und [selten-begrenzt Brieftasche](https://github.com/Chia-Network/wallets/blob) /master/docs/rate_limited_wallet.md). Der Gründer von Chia Network und ehemalige Gründer von BitTorrent hat mehr über [Chialisp](https://www.chia.net/2019/11/27/chialisp.de.html).
 
-    Alpha testnet führt auch Chias Blockchain-Konsensus-Ebene ein, die einen vollständigen Knoten, einen Farmer und einen Timelord enthält. Die Blockchain ist Alpha und unterstützt noch keine Transaktionen. Hier sind einige zusätzliche Gedanken zur [Alpha-Blockchain](https://www.chia.net/2019/11/26/alpha-release.en.html).
+    Alpha testnet führt auch Chias Blockchain-Konsensus-Ebene schicht, die einen vollständigen Knoten, einen Farmer und einen Timelord enthält. Die Blockchain ist Alpha und unterstützt noch keine Transaktionen. Hier sind einige zusätzliche Gedanken zur [Alpha-Blockchain](https://www.chia.net/2019/11/26/alpha-release.en.html).
 
-    Da es sich um eine Alpha-Version handelt, können Sie die [Release-Errata](https://www.chia.net/releases) lesen.
+    Da es sich um eine Alpha-Version handelt, können Sie die [Release-Notes](https://www.chia.net/releases) lesen.
 
     Blockchain
     ----------
@@ -597,7 +597,7 @@ de: # German
     Chialisp und LedgerSim
     ----------------------
 
-    LedgerSim unterstützt Chialisp-Smart-Transaktionen in einem Ledger anstelle einer Blockchain für Test- und Entwicklungszwecke. Die Brieftaschen von Chia zeigen unsere neue Programmiersprache Chialisp. Laden Sie den Quellcode auf [GitHub](https://github.com/Chia-Network/wallets) herunter.
+    LedgerSim unterstützt Chialisp-Smart-Transaktionen in einem Ledger anstelle einer Blockchain für Test- und Entwicklungszwecke. Die Brieftaschen von Chia zeigen unsere neue Programmiersprache, Chialisp. Laden Sie den Quellcode auf [GitHub](https://github.com/Chia-Network/wallets) herunter.
   download_addendum: |
     Veröffentlicht unter der Open Source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
   download_box_title: "Downloads"
@@ -695,13 +695,13 @@ es: # Spanish
     Red de prueba alfa de Chia
     --------------------------
 
-    Chia Network es una nueva plataforma de transacciones inteligentes y criptomonedas ecológica creada por el fundador de BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Está inspirado y es similar a la cadena de bloques de Bitcoin, pero en Chia, el recurso no es la potencia informática, sino el espacio en disco. Para lograr esto, las "pruebas de trabajo" intensivas en energía se reemplazan por "pruebas de espacio", por lo que el espacio en disco se convierte en el principal recurso para validar las transacciones, no la energía.
+    Chia Network desarrolla una plataforma de transacciones inteligentes y blockchain creada por el fundador de BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Está impulsado por el primer nuevo algoritmo de consenso de estilo Nakamoto desde que se lanzó Bitcoin en 2008. Las "pruebas de espacio y tiempo" reemplazan las "pruebas de trabajo" intensivas en energía mediante el uso de espacio en disco no utilizado.
 
     Alpha Testnet presenta la primera versión de Chialisp, el lenguaje de programación de transacciones inteligentes de Chia. Las transacciones inteligentes actualmente disponibles son: [intercambios atómicos](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [beneficiarios autorizados](https://github.com/ Chia-Network/wallets/blob/master/docs/authorised_payees.md), [billeteras recuperables](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [billeteras multisig](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), y [billeteras con tarifa limitada](https://github.com/Chia-Network/wallets/blob /master/docs/rate_limited_wallet.md). El fundador de Chia Network, y ex fundador de BitTorrent, tiene más información sobre [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html).
 
     Alpha Testnet también presenta la capa de consenso de blockchain de Chia que incluye un nodo completo, agricultor y señor del tiempo. La cadena de bloques es alfa y aún no admite transacciones. Aquí hay algunas ideas adicionales sobre la [cadena de bloques alfa](https://www.chia.net/2019/11/26/alpha-release.en.html).
 
-    Como se trata de una versión alfa, es posible que desee revisar la [errata de la versión](https://www.chia.net/releases).
+    Como se trata de una versión alfa, es posible que desee revisar las [notas de la versión](https://www.chia.net/releases).
 
     Blockchain
     ----------
@@ -713,7 +713,7 @@ es: # Spanish
 
     LedgerSim admite transacciones inteligentes de Chialisp en un libro mayor en lugar de una cadena de bloques para fines de prueba y desarrollo. Las billeteras de Chia muestran nuestro nuevo lenguaje de programación, Chialisp. Descargue el código fuente en [GitHub](https://github.com/Chia-Network/wallets).
   download_addendum: |
-    Publicado bajo el código abierto [Licencia de Apache] (https://www.apache.org/licenses/LICENSE-2.0).
+    Publicado bajo el código abierto [Licencia de Apache](https://www.apache.org/licenses/LICENSE-2.0).
   download_box_title: "Descargas"
   download_box_section_1: "Blockchain"
   download_box_section_2: "Chialisp y LedgerSim"
@@ -827,7 +827,7 @@ sr: # Serbian
 
     ЛедгерСим подржава Цхиалисп паметне трансакције на књизи уместо блоцкцхаин-а за потребе тестирања и развоја. Цхиа-ове новчанике представљају наш нови програмски језик, Цхиалисп. Преузмите изворни код на [ГитХуб](https://github.com/Chia-Network/wallets).
   download_addendum: |
-    Објављено под отвореним извором [Апацхе Лиценсе] (хттпс://ввв.апацхе.орг/лиценсес/ЛИЦЕНСЕ-2.0).
+    Објављено под отвореним извором [Апацхе Лиценсе](хттпс://ввв.апацхе.орг/лиценсес/ЛИЦЕНСЕ-2.0).
   download_box_title: "Преузимања"
   download_box_section_1: "Блоцкцхаин"
   download_box_section_2: "Цхиалисп и ЛедгерСим"
@@ -1031,29 +1031,29 @@ tr: # Turkish
   news_title: "Haberler"
   news_see_more: "Daha fazla gör"
   download_title: "Chia Ağı"
-  download_subtitle: "Daha merkezi olmayan, daha verimli ve daha güvenli olan daha iyi bir blockchain ve akıllı işlem platformu."
+  download_subtitle: "Merkezi olmayan, daha verimli, daha güvenli ve çok daha iyi bir blockchain ve akıllı işlem platformu."
   download_button: "Alpha Testnet'i indirin"
   download_description: |
     Chia’nın Alfa Test Ağı
     --------------------
 
-    Chia Network, BitTorrent'in kurucusu [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/) tarafından oluşturulan çevre dostu yeni bir kripto para birimi ve akıllı işlem platformudur. İlham veriyor ve Bitcoin blok zincirine benziyor, ancak Chia'da kaynak hesaplama gücü değil, disk alanı. Bunu başarmak için enerji yoğun “iş kanıtı” yerine “alan kanıtı” ile yer değiştirilir, böylece disk alanı enerji değil işlemleri doğrulamak için ana kaynak haline gelir.
+    Chia Network, BitTorrent'in kurucusu [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/) tarafından oluşturulan çevre dostu yeni bir kripto para birimi ve akıllı işlem platformudur. Bitcoin blok zincirine benzeyen Chia, kaynak hesaplama gücü değil, disk alanı bakimindan sektordeki diger oyunculara da ilham vermektedir. Bunu elde etmek için enerji yoğun “iş kanıtı” yerine “alan kanıtı” ile yer değiştirilme islemi uygulanmakta ve böylece disk alanı enerji değil işlemler doğrulamak için ana kaynak haline getirilmektedir.
 
-    Alpha testnet, Chia’nın akıllı işlem programlama dili Chialisp'in ilk sürümünü tanıttı. Şu anda mevcut olan akıllı işlemler şunlardır: [atomik takaslar](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [yetkili paydaşlar](https://github.com/ Chia-Network / cüzdanlar / blob / master / dokümanlar / authorised_payees.md), [kurtarılabilir cüzdanlar](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig cüzdanlar](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) ve [hız sınırlı cüzdanlar](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). Chia Network'ün kurucusu ve BitTorrent'in eski kurucusu [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) hakkında daha fazla bilgiye sahiptir.
+    Alpha testnet, Chia’nın akıllı işlem programlama dili Chialisp'in ilk sürümünü tanıttı. Şu anda mevcut olan akıllı işlemler şunlardır: [atomik takaslar](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [yetkili paydaşlar](https://github.com/ Chia-Network / cüzdanlar / blob / master / dokümanlar / authorised_payees.md), [kurtarılabilir cüzdanlar](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig cüzdanlar](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) ve [oran sınırlı cüzdanlar](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). Chia Network'ün kurucusu ve BitTorrent'in eski kurucusu Bram Cohen [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) hakkında daha fazla bilgiye sahiptir.
 
-    Alfa test ağı, Chia’nın tam bir düğüm, çiftçi ve zaman ağzı içeren blockchain konsensüs katmanını da tanıttı. Blockchain alfadır ve henüz işlemleri desteklememektedir. [Alfa blok zinciri](https://www.chia.net/2019/11/26/alpha-release.en.html) hakkında bazı ek düşünceler.
+    Alfa test ağı, Chia’nın tam bir düğüm, çiftçi ve zaman ağzı içeren blockchain konsensüs katmanını da tanıtmıstir. Chia blockchainin su anda alfa testleri yapilmakta oldugu icin, henüz işlemleri desteklememektedir. [Alfa blok zinciri](https://www.chia.net/2019/11/26/alpha-release.en.html) hakkında daha fazla bilgi edinmek icin baglantiyi tiklayabilirsiniz.
 
     Bu bir alfa sürümü olduğundan, [release errata](https://www.chia.net/releases) 'yı incelemek isteyebilirsiniz.
 
-    Blockchain
+    Blok Zinciri
     ----------
 
-    Chia’nın blok zinciri tam bir düğüm, çiftçi ve zaman efendisi içerir. Kaynak kodunu [GitHub](https://github.com/Chia-Network/chia-blockchain) 'a indirin.
+    Chia’nın blok zinciri tam bir düğüm, çiftçi ve zaman efendisidir. Kaynak kodunu [GitHub](https://github.com/Chia-Network/chia-blockchain) 'dan indirebilirsiniz.
 
     Chialisp ve LedgerSim
     ----------------------
 
-    LedgerSim, Chialisp akıllı işlemlerini test ve geliştirme amacıyla bir blockchain yerine bir defterde destekler. Chia’nın cüzdanları yeni programlama dilimiz Chialisp'i sergiliyor. Kaynak kodunu [GitHub](https://github.com/Chia-Network/wallets) 'a indirin.
+    LedgerSim, Chialisp akıllı işlemlerini test ve geliştirme amacıyla bir blok zinciri yerine bir defterde desteklemektedir. Chia’nın cüzdanları yeni programlama dilimiz Chialisp'i sergilemektedir. Kaynak kodunu [GitHub](https://github.com/Chia-Network/wallets) 'dan indirin.
   download_addendum: |
     Açık kaynak [Apache Lisansı](https://www.apache.org/licenses/LICENSE-2.0) altında yayınlandı .
   download_box_title: "İndirilenler"
