@@ -1,5 +1,7 @@
 ---
 layout: releases
 lang: en
-redirect_from: /errata
+redirect_from:
+  - /errata
+  - /errata/
 ---
