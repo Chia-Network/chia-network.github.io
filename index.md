@@ -1,5 +1,7 @@
 ---
 layout: download
 lang: en
-redirect_from: /developer
+redirect_from:
+  - /developer
+  - /developer/
 ---
