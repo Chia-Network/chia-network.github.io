@@ -1,6 +1,6 @@
 ---
 lang: en
-order: 4
+order: 7
 title: "Where can I learn more about the technical details of your consensus algorithm?"
 ---
 
