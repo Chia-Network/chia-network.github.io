@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title:  "So you want to be a Space farmer?"
+title:  "So You Want to be a Space Farmer?"
 date:   2020-02-25
 author: "[Gene Hoffman](https://twitter.com/hoffmang)"
 ---
