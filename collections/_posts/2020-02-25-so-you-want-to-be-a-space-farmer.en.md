@@ -1,0 +1,39 @@
+---
+lang: en
+layout: post
+title:  "So You Want to be a Space Farmer?"
+date:   2020-02-25
+author: "[Gene Hoffman](https://twitter.com/hoffmang)"
+---
+
+With the release of [Alpha 1.4](https://github.com/Chia-Network/chia-blockchain/releases/tag/alpha-1.4) of the Chia blockchain there is no better time to become a farmer of Space and Time! The Chia testnet blockchain has been cruising along since early December 2019. Since then we’ve added support for more operating systems and platforms like Windows (via the Windows Subsystem for Linux) and machines like the Raspberry Pi 4. We’ve also made the Chia blockchain software easier to install and continue to speed up things like syncing the blockchain and verifying blocks.
+
+It doesn’t take much to become a space farmer, but being a Timelord requires a little more effort. The good news is that very few people have to be Timelords to keep space farmers happily tending their plots and moving the blockchain forward.
+
+If you have spare space then you can be a space farmer. Download the [Chia blockchain](https://github.com/Chia-Network/chia-blockchain) codebase from Github. Today it takes using the command line but we promise that if you follow our instructions you’ll be earning testnet chia in no time. On Github, the [README.md](https://github.com/Chia-Network/chia-blockchain/blob/master/README.md) will walk you through what you need to do build and install a Chia full node, farmer, and harvester. You can also build a Timelord (a VDF or verifiable delay function server) or run an entire simulation on your home network, but you don’t need to do that to start farming and participating in the Chia testnet blockchain. Compiling Timelords takes a bit more effort and the right (fast) hardware so they’re something you can dabble with later.
+
+Once you’ve finished building the Chia software, you’ll need to create some plots. Plots are a totally cross platform file full of cryptographic hashes that will allow you to potentially win the next block and be rewarded with transaction fees in that block and the chia block reward. Plots take some time and processing power to seed. Right now the best way to create a plot is on a machine with a fast SSD drive. You can move a plot to any other storage or operating system that has network access regardless of where you create them.
+
+First you will create public and private plot keys using the `regenerate_keys` script. These will be saved in `config/keys.yaml` and you’ll want to not lose them if you generate plots. Then you will start seeding a plot. While seeding a plot, you will need more working space than the final file size that the plot will use. We use a variable “k” to describe the size of each plot file. To be competitive on the Chia testnet in February 2020, you’ll want to have plots with a k size of at least 30. A k=30 plot results in a 23.8 GB plot file. Increasing k by one roughly doubles the plot size. Plotting temporarily needs five times as much space while seeding the plot. On a tricked out 13-inch 2019 MacBook Pro that is otherwise idle it will take about 6 hours and 15 minutes to fully seed your 23.8 GB plot. Of course, once you’re done plotting that file, you can move it to really slow storage like a USB 2.0 hard drive and farm it from there.
+
+If you want to create a k=30 plot you’d run `python -m scripts.create_plots -k 30 -n 1`. When you want to create a second plot, you simply add to the “n” like so: `python -m scripts.create_plots -k 30 -n 2`. Also, in the `config/config.yaml` file you can specify a different working directory for the large temporary file and a final directory for the resulting final plot. Though the largest plot file on testnet is currently k=36, which is approximately 1.7TB, you can choose to fill your space with one big plot or a lot of smaller ones that combine to the same size; your rewards will be the same. You can learn a lot more about k and plotting from the [Chia blockchain wiki](https://github.com/Chia-Network/chia-blockchain/wiki).
+
+As you create more plots using the plot script, you will need to add them to the harvester and farmer. You can restart all of the running Chia services with the `stop_all_servers.sh` script and then restart with the `run_farming.sh` script and new plots will be picked up by harvesters that will then communicate those to a farmer which is listening and interacting with full nodes. If you have more than one computer you want to farm from, all you have to run is a harvester on the remote computer that then connects to the farmer and full node you have on another computer.
+
+You can always check to see if you’re correctly farming by finding lines in the chia.log that look like:
+`Farming plot plot-0-30.9bef47f72806d300f8f91f8b12abf1ea7de932766aaa1bd6de6e1afd1bec8bee.dat of size 30`
+Each one of your plots from all of your harvesters should periodically show up in your `chia.log`. Their names and associated keys can be found in the `config/plots.yaml`.
+
+But what about time you may be asking? Timelords almost telepathically listen to full nodes and take the best potential Proofs of Space for each block and run a VDF on them automatically. Better Proofs of Space take less time - which is tracked by VDF iterations - to prove and complete. Once that VDF has completed the required number of iterations its Timelord will publish the completed VDF and the VDF proof to a full node which will send it around the entire network.
+
+The final result of the Proof of Time/VDF that wins the block is the new block challenge for all space farmers to go look in farmed plots to see if you are likely to win the next block.
+
+And things are only going to improve. We are working on improvements like native Windows binaries, adding more user friendly GUIs on all platforms - especially around creating and managing plots, and continuing to simplify installation. We’re going to be significantly speeding up the seeding process for plotting as well as decreasing the size of the working space needed to create a plot. Our goal is to make the minimum plot size be k=30 and have those happen in much less than half the time they currently take. We will be adding [Chialisp smart transactions](https://www.chia.net/2019/11/27/chialisp.en.html) to the blockchain in our beta release that we’re targeting for the end of March. You can follow along on our [Trello](https://trello.com/b/ZuNx7sET/engineering-core) board and we invite the adventurous to join our community of contributors by making pull requests on anything that piques your interest.
+
+We want to reward our space farmers and give you good reasons to allocate your space today. In the next few months we will be running some whimsical contests for e.g. the person who wins the most testnet chia from July 15 to July 31. Chia straw hats and new storage? Stay tuned.
+
+At some point between now and mainnet launch we will have to change the plot format for certain security improvements. We will have a window where both plot types can still win testnet chia. However, after that change, it is our plan that the new testnet plots will be immediately able to cross farm both testnet and mainnet at launch which we are targeting for the end of 2020. For the first month or two, mainnet will reward farmers with 16 chia every 5 minutes but will not yet allow transactions. After that period of stabilizing the network and rewarding farmers, the blockchain will start allowing transactions to flow. Then the fun really begins as farmers should see their hard work rewarded.
+
+If you’ve still got questions we recommend our [project FAQ](https://www.chia.net/faq/), our [repository wiki](https://github.com/Chia-Network/chia-blockchain/wiki) or just asking them in our chia_network.public#testnet [Keybase channel](https://keybase.io/team/chia_network.public).
+
+Thanks for helping everyone farm green money!
