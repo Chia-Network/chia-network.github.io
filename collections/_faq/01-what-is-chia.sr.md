@@ -1,7 +1,6 @@
 ---
 lang: sr
 order: 1
-title: "What is Chia?"
+title: "Шта је Цхиа?"
 ---
-
-Chia is the first enterprise-grade digital money. We are building the Chia Network to improve the global financial and payments systems. Chia is using a new consensus algorithm for a new blockchain called Proof Of Space and Time being created by Bram Cohen, the best network protocol engineer alive and creator of BitTorrent.
+Цхиа је инкорпорирана у августу 2017. године како би развила побољшани блоцкцхаин и паметну платформу за трансакције. Градимо Цхиа мрежу да побољшамо глобалне финансијске и платне системе. Цхиа ће бити први дигитални новац за предузећа. Цхиа користи први нови алгоритам консензуса за блоцкцхаин од Битцоин-а. Назван Доказ о простору и времену, креирао га је Брам Цохен, најбољи инжењер мрежног протокола који је жив и изумитељ БитТоррент-а. Цхиалисп је Цхиа-ин нови језик за програмирање паметних трансакција који је моћан, једноставан за ревизију и сигуран. Тренутно доступне референтне паметне трансакције су: атомска замена, овлашћени примаоци плаћања, новчаници који се могу повратити, новчаник с више врста и новчаник са ограниченом стопом.
