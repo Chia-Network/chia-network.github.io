@@ -53,7 +53,7 @@ en: # English
   green_paper_main_title: "Chia's Green Paper"
   green_paper_download: "Download Green Paper"
   green_paper_description: |
-    The Green Paper details a new consensus algorithm called Proofs of Space and Time, “PoST”. PoST replaces the proofs of work in Bitcoin’s mining which wastes massive amounts of energy and is less secure to to mining centralization.
+    The Green Paper details a new consensus algorithm called Proofs of Space and Time, “PoST”. PoST replaces the proofs of work in Bitcoin’s mining which wastes massive amounts of energy and is less secure to mining centralization.
   green_paper_addendum_title: "Learn more"
   green_paper_addendum: |
     We have academic papers and presentations that give detail about our new consensus algorithm and blockchain software. In 2019 we revealed our [Green Paper](https://www.chia.net/assets/ChiaGreenPaper.pdf) outlining the construction of Proofs of Space and Time and illustrating many of the design choices of Chia. There is also a [2019 talk from Mariano Sorgente](https://www.youtube.com/watch?v=_075bzQPooU) at MIT on how to achieve Nakamoto consensus with Proof of Space and VDFs.
