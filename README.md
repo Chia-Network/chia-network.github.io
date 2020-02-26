@@ -197,6 +197,7 @@ This may seem inefficient, but GitHub Pages' Jekyll setup currently has no inter
 ---
 layout: homepage
 lang: fr
+title: Accueil - Chia Network
 ---
 ```
 
