@@ -1,0 +1,14 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in site.pages %}{% if page.lang %}
+<url>{% comment %} the default priority of pages is 0.5, so 0.8 means that the page is especially important (0.9 is used for the english pages since all other pages are translations) {% endcomment %}
+    <loc>{{ site.url }}{{ page.url }}</loc>
+    <priority>{% if page.lang == "en" %}0.9{% else %}0.8{% endif %}</priority>{% if page.date %}
+    <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>{% endif %}
+</url>{% endif %}{% endfor %}{% for page in site.documents %}{% if page.layout %}
+<url>
+    <loc>{{ site.url }}{{ page.url }}</loc>{% if page.date %}
+    <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>{% endif %}
+</url>{% endif %}{% endfor %}
+</urlset>
