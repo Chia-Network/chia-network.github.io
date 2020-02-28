@@ -125,11 +125,11 @@ fr: # French
     Alpha Testnet de Chia
     ---------------------
 
-    Chia Network est une plateforme de blockchain et de transaction intelligente créée par le fondateur de BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Il est alimenté par le premier nouvel algorithme de consensus de style Nakamoto depuis le lancement de Bitcoin en 2008. Les preuves de l'espace et du temps remplacent les preuves de travail énergivores en utilisant l'espace disque inutilisé. Il est alimenté par le premier nouvel algorithme de consensus de style Nakamoto depuis le lancement de Bitcoin en 2008. Les preuves de l'espace et du temps remplacent les preuves de travail énergivores en utilisant l'espace disque inutilisé.
+    Chia Network est une plateforme de blockchain et de transaction intelligente créée par le fondateur de BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Il utilise le premier nouvel algorithme de consensus de style Nakamoto depuis le lancement de Bitcoin en 2008. Les preuves de l'espace et du temps remplacent les preuves de travail énergivores en utilisant l'espace disque inutilisé.
 
     Alpha testnet présente la première version de Chialisp, le langage de programmation de transactions intelligent de Chia. Il est puissant, facile à auditer et sécurisé. Les transactions intelligentes actuellement disponibles sont: [swaps atomiques](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [bénéficiaires autorisés](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [portefeuilles récupérables](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [portefeuilles multisig](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) et [portefeuilles à taux limité](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). Le fondateur de Chia Network, et ancien fondateur de BitTorrent, en a plus sur [Chialisp](https://www.chia.net/2019/11/27/chialisp.fr.html).
 
-    Alpha testnet présente également la couche de consensus de blockchain de Chia qui comprend un nœud complet, un agriculteur et un calendrier. La blockchain est alpha et ne prend pas encore en charge les transactions. Voici quelques réflexions supplémentaires sur la [blockchain alpha](https://www.chia.net/2019/11/26/alpha-release.fr.html).
+    Alpha testnet présente également la couche de consensus de blockchain de Chia qui comprend un nœud complet, un agriculteur, et un calendrier. La blockchain est alpha et il ne prend pas encore en charge les transactions. Voici quelques réflexions supplémentaires sur la [blockchain alpha](https://www.chia.net/2019/11/26/alpha-release.fr.html).
 
     Puisqu'il s'agit d'une version alpha, vous pouvez consulter les [notes de version](https://www.chia.net/releases).
 
@@ -159,7 +159,7 @@ fr: # French
     Chia network est également une société de plate-forme de transaction intelligente.
   about_team_title: "Équipe"
   about_team_description: |
-    Chia Network a été fondée par le créateur de BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). Il comprend également le leadership exécutif de l'ancien PDG par intérim de overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/) et un ancien fondateur de eMusic.com et Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/). Chia Network aura une grande communauté de développeurs open source avec de nombreuses contributions causales à la base de code. Il y en a beaucoup plus qui contribuent à la recherche, à l'examen par les pairs, aux tests, à la documentation et à la traduction.
+    Chia Network a été fondée par le créateur de BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). Ca comprend également le leadership exécutif de l'ancien fondateur et PDG d'eMusic.com et de Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/) et de l'ancien PDG par intérim d'Overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/). La blockchain Chia a une communauté de développeurs open source active avec de nombreuses contributions à la base de code. De nombreuses personnes contribuent à la blockchain Chia dans des domaines tels que la recherche, l'examen par les pairs, les tests, la documentation et la traduction.
   about_invest_investors_title: "Nos investisseurs"
   blog_title: "Directement de Chia"
   releases_title: "Notes de version"
@@ -273,7 +273,7 @@ cn: # Chinese
     Chia网络还是一家智能交易平台公司。
   about_team_title: "球队"
   about_team_description: |
-    Chia Network由BitTorrent的创建者[Bram Cohen](https://www.linkedin.com/in/cohenbram/)创立。它还包括overstock.com的前代理首席执行官[Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/)以及eMusic.com和Vindicia的前创始人[Gene Hoffman ](https://www.linkedin.com/in/gehoffman/)。 Chia Network将拥有一个庞大的开源开发人员社区，并对代码库做出许多因果贡献。还有更多的人致力于研究，同行评审，测试，文档和翻译。
+    Chia Network由BitTorrent的创建者[Bram Cohen](https://www.linkedin.com/in/cohenbram/)创立。它包括eMusic.com和Vindicia的前创始人兼首席执行官[Gene Hoffman](https://www.linkedin.com/in/gehoffman/), 以及Overstock.com的前代理首席执行官[Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/). Chia区块链拥有活跃的开源开发者社区，对代码库做出了许多贡献。许多人在包括研究，同行评审，开发，测试，文档和翻译在内的领域为Chia区块链做出贡献。
   about_invest_investors_title: "我们的投资者"
   blog_title: "直接来自Chia"
   releases_title: "发行说明"
@@ -387,7 +387,7 @@ jp: # Japanese
     Chiaネットワークは、スマートトランザクションプラットフォーム企業でもあります。
   about_team_title: "チーム"
   about_team_description: |
-    Chia Networkは、BitTorrentの作成者である[Bram Cohen](https://www.linkedin.com/in/cohenbram/)によって設立されました。また、overstock.comの元代理CEOである[Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/)およびeMusic.comおよびVindiciaの元創設者である[Gene Hoffman](https://www.linkedin.com/in/gehoffman/)のエグゼクティブリーダーシップも含まれています。 Chia Networkには、コードベースに多くの因果関係を持つ大規模なオープンソース開発者コミュニティがあります。研究、査読、テスト、文書化、翻訳に貢献する人はさらに多くいます。
+    Chia Networkは、BitTorrentの作成者である[Bram Cohen](https://www.linkedin.com/in/cohenbram/)によって設立されました. これには、eMusic.comおよびVindiciaの元創設者兼CEOである [Gene Hoffman](https://www.linkedin.com/in/gehoffman/)が含まれますそして、[Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/),Overstock.comの元演技CEO。 Chiaブロックチェーンには、コードベースに多くの貢献をするアクティブなオープンソース開発者コミュニティがあります。 多くの個人が、研究、査読、開発、テスト、文書化、翻訳などの分野でChiaブロックチェーンに貢献しています。
   about_invest_investors_title: "投資家"
   blog_title: "チアからまっすぐ"
   releases_title: "リリースノート"
@@ -501,7 +501,7 @@ nl: # Dutch
     Chia-netwerk is ook een slim transactieplatformbedrijf.
   about_team_title: "Team"
   about_team_description: |
-    Chia Network is opgericht door de maker van BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). Het omvat ook uitvoerend leiderschap van de voormalige waarnemend CEO van overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/) en een voormalige oprichter van eMusic.com en Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/). Chia Network zal een grote open source ontwikkelaarsgemeenschap hebben met veel causale bijdragen aan de codebase. Er zijn er nog veel meer die bijdragen aan onderzoek, peer review, testen, documentatie en vertaling.
+    Chia Network is opgericht door de maker van BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). Het omvat ook uitvoerend leiderschap van de voormalige oprichter en CEO van eMusic.com en Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/) en de voormalige waarnemend CEO van Overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/). De Chia-blockchain heeft een actieve open source-ontwikkelaarscommunity met veel bijdragen aan de codebase. Veel individuen dragen bij aan de Chia-blockchain op gebieden zoals onderzoek, peer reviews, ontwikkeling, testen, documentatie en vertaling.
   about_invest_investors_title: "Onze investeerders"
   blog_title: "Rechtstreeks uit Chia"
   releases_title: "Release-opmerkingen"
@@ -615,7 +615,7 @@ de: # German
     Chia-Netzwerk ist auch eine intelligente Transaktionsplattform.
   about_team_title: "Mannschaft"
   about_team_description: |
-    Chia Network wurde vom Schöpfer von BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/), gegründet. Dazu gehört auch die Geschäftsführung des ehemaligen geschäftsführenden Direktors von overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/), und eines ehemaligen Gründers von eMusic.com und Vindicia, [Gene Hoffman ](https://www.linkedin.com/in/gehoffman/). Chia Network wird eine große Open-Source-Entwickler-Community mit vielen kausalen Beiträgen zur Codebasis haben. Es gibt viele weitere, die zur Recherche, Begutachtung, Prüfung, Dokumentation und Übersetzung beitragen.
+    Chia Network wurde vom Schöpfer von BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/), gegründet. Es umfasst auch die Geschäftsführung des ehemaligen Gründers und CEO von eMusic.com und Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/) und des ehemaligen CEO von Overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/). Die Chia-Blockchain hat eine aktive Open-Source-Entwickler-Community mit vielen Beiträgen zur Codebasis. Viele Einzelpersonen tragen in Bereichen wie Forschung, Peer Reviews, Entwicklung, Testen, Dokumentation und Übersetzung zur Chia-Blockchain bei.
   about_invest_investors_title: "Unsere Investoren"
   blog_title: "Direkt aus Chia"
   releases_title: "Versionshinweise"
@@ -729,7 +729,7 @@ es: # Spanish
     La red de Chia también es una compañía de plataforma de transacciones inteligentes.
   about_team_title: "Equipo"
   about_team_description: |
-    Chia Network fue fundada por el creador de BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). También incluye el liderazgo ejecutivo del ex CEO interino de overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/) y un ex fundador de eMusic.com y Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/). Chia Network tendrá una gran comunidad de desarrolladores de código abierto con muchas contribuciones causales a la base de código. Hay muchos más que contribuyen a la investigación, la revisión por pares, las pruebas, la documentación y la traducción.
+    Chia Network fue fundada por el creador de BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). También incluye el liderazgo ejecutivo del ex fundador y CEO de eMusic.com y Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/) y el ex CEO interino de Overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/). Chia blockchain tiene una comunidad activa de desarrolladores de código abierto con muchas contribuciones a la base de código. Muchas personas contribuyen a la cadena de bloques de Chia en áreas que incluyen investigación, revisión por pares, desarrollo, pruebas, documentación y traducción.
   about_invest_investors_title: "Nuestros inversores"
   blog_title: "Directo de Chia"
   releases_title: "Notas de lanzamiento"
@@ -843,7 +843,7 @@ sr: # Serbian
     Цхиа мрежа је такође компанија за паметне трансакционе платформе.
   about_team_title: "Тим"
   about_team_description: |
-    Цхиа Нетворк основао је творац БитТоррент-а, [Брам Цохен](https://www.linkedin.com/in/cohenbram/). Такође укључује извршно руководство бившег вршиоца дужности извршног директора оверстоцк.цом, [Митцх Едвардс](https://www.linkedin.com/in/mitchelledwards/) и бившег оснивача еМусиц.цом-а и Виндициа, [Гене Хоффман](https://www.linkedin.com/in/gehoffman/). Цхиа Нетворк ће имати велику заједницу програмера отвореног кода са многим узрочним доприносима у бази података. Постоји много више који доприносе истраживању, рецензији, тестирању, документацији и преводу.
+    Цхиа Нетворк основао је творац БитТоррент-а, [Брам Цохен](https://www.linkedin.com/in/cohenbram/). Такође укључује извршно руководство бившег оснивача еМусиц.цом-а и Виндициа, [Гене Хоффман](https://www.linkedin.com/in/gehoffman/) и бившег вршиоца дужности извршног директора оверстоцк.цом, [Митцх Едвардс](https://www.linkedin.com/in/mitchelledwards/). Цхиа блоцкцхаин има активну заједницу програмера отвореног кода са многим доприносима кодној бази. Многи појединци доприносе Цхиа блоцкцхаину у областима које укључују истраживање, стручне прегледе, развој, тестирање, документацију и превод.
   about_invest_investors_title: "Наши инвеститори"
   blog_title: "Равно из Цхиа"
   releases_title: "Напомене о издању"
@@ -1071,7 +1071,7 @@ tr: # Turkish
     Chia ağı aynı zamanda akıllı bir işlem platformu şirketidir.
   about_team_title: "Takım"
   about_team_description: |
-    Chia Network, BitTorrent'in [Bram Cohen](https://www.linkedin.com/in/cohenbram/) yaratıcısı tarafından kuruldu. Ayrıca overstock.com'un eski oyunculuk CEO'su, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/) ve eMusic.com ve Vindicia'nın eski kurucusu [Gene Hoffman'ın yönetici liderliğini de içeriyor.](https://www.linkedin.com/in/gehoffman/). Chia Network, kod tabanına birçok nedensel katkı sağlayan büyük bir açık kaynak geliştirici topluluğuna sahip olacak. Araştırma, akran değerlendirmesi, test, dokümantasyon ve çeviriye katkıda bulunan daha pek çok şey var.
+    Chia Network, BitTorrent'in yaratıcısı [Bram Cohen](https://www.linkedin.com/in/cohenbram/) tarafından kuruldu. Ekip, yönetici liderliğini kurucusu ve CEO'sunu içeriyor nın-nin Vindicia ve eMusic.com, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/) 'ın eski kurucusu ve CEO'su ile Overstock.com'un eski oyunculuk CEO'su [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/) da yer alıyor. Chia blockchain, kod tabanına birçok katkı sağlayan aktif bir açık kaynak geliştirici topluluğuna sahiptir. Birçok kişi araştırma, akran değerlendirmesi, geliştirme, test, dokümantasyon ve çeviri gibi alanlarda Chia blok zincirine katkıda bulunur.
   about_invest_investors_title: "Yatırımcılarımız"
   blog_title: "Doğrudan Chia"
   releases_title: "Sürüm notları"
