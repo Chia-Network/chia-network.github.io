@@ -9,10 +9,11 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chia.net" # the base hostname & protocol for your site
 plugins:
+  - jekyll-redirect-from
   - jekyll-seo-tag
 
 # SEO settings
-title: Home - Chia Network
+title: Chia Network
 description: > # this means to ignore newlines until "baseurl:"
   A better blockchain and smart transaction platform which is more decentralized, more efficient, and more secure.
 twitter:

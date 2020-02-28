@@ -3,6 +3,7 @@ lang: en
 layout: post
 title:  "Introducing The Alpha Release Of The Chia Blockchain"
 date:   2019-11-26
+author: "[Gene Hoffman](https://twitter.com/hoffmang)"
 ---
 
 The Chia blockchain and consensus algorithm aims to provide a more environmentally friendly, decentralized, and secure alternative to proof of work or proof of stake, while maintaining some of the key properties that make Nakamoto consensus desirable. The full description of the algorithm can be reviewed in the [Chia Network Green Paper](/assets/ChiaGreenPaper.pdf).
