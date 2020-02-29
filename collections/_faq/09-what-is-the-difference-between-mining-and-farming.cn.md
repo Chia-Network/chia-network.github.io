@@ -1,7 +1,7 @@
 ---
 lang: cn
 order: 9
-title: "What is the difference between mining and farming?"
+title: “採礦和農業之間有什麼區別?”
 ---
 
-Mining requires expensive single use hardware that consumes exorbitant amounts of electricity. We are mitigating this problem through a fair, eco-friendly, and better blockchain that uses farming to leverage existing empty hard disk space distributed on nodes around the globe. Farming remains decentralized because anyone that has installed our software and has plots can win the next block. Mining requires expensive custom single use hardware and access to electricity at wholesale or better prices  which only purpose built corporations can afford to mine. Farming is more decentralized because it relies on empty hard disk space and anyone with a mobile phone, laptop, or corporate network tends to have extra space not currently being used. Unlike mining, once you’re done farming your storage you can repurpose it to, for example, store your family photos.
+採礦需要耗費大量電力的昂貴的一次性硬件。 我們正在通過公平，生態友好和更好的區塊鏈來緩解此問題，該區塊鏈使用農業來利用分佈在全球節點上的現有空硬盤空間。 由於任何安裝了我們的軟件並擁有地塊的人都可以贏得下一個區塊，因此耕種仍然是分散的。 採礦需要昂貴的定制一次性硬件，並且必須以批發價或更高的價格獲得電力，只有專為目標的公司才能負擔得起。 耕種更加分散，因為它依賴於空的硬盤空間，並且任何擁有手機，筆記本電腦或公司網絡的人都傾向於擁有當前未使用的額外空間。 與採礦不同，完成存儲工作後，您可以將其用於存儲例如家庭照片的用途。

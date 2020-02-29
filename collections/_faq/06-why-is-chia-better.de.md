@@ -1,7 +1,7 @@
 ---
 lang: de
-order: 2
-title: "Why is Chia better?"
+order: 6
+title: "Warum ist Chia besser?"
 ---
 
-Compared to other cryptocurrencies, Chia is vastly less resource intensive and will have improved security due to it’s far more decentralized blockchain. Chia is adopting more modern cryptographic tools to enable richer smart transaction capabilities. Additionally, Chia will use it’s strategic reserve to ease volatility of the coin.
+Chia verfügt über einen neuen innovativen Konsensalgorithmus im Nakamoto-Stil, der den Energiebedarf von Proof of Work aus dem System entfernt. Im Vergleich zu anderen Kryptowährungen bietet Chia aufgrund seiner dezentraleren Blockchain eine deutlich bessere Sicherheit. Chialisp ist Chias neue intelligente Transaktionsprogrammiersprache, die leistungsstark, einfach zu prüfen und zu sichern ist und die Sicherheit, Transparenz und Benutzerfreundlichkeit freischaltet, die Kryptowährungen versprechen. Chia setzt auch modernere kryptografische Tools ein, um umfassendere Funktionen für intelligente Transaktionen zu ermöglichen. Chia verfolgt einen neuen und überlegenen Ansatz bei der Finanzierung, dem Aufbau und der Unterstützung einer Blockchain über ein letztendlich öffentliches, gewinnorientiertes Open-Source-Entwicklungsunternehmen, das eine Vorfarm besitzt. Chia wird seine Vorfarm („Strategic Reserve“) nutzen, um die Volatilität der Münze zu verringern, Blasen und Abstürze zu mildern und die Einführung von Chia voranzutreiben.
