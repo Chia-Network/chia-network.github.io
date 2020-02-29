@@ -1,7 +1,7 @@
 ---
 lang: tr
 order: 3
-title: "Uzay ve Zamanın Kanıtı Nedir?"
+title: "Uzay Kanıtı ve Zaman Kanıtı nasıl çalışır?"
 ---
 
 Alan kanıtı, sabit disk sürücünüzde bir miktar depolama alanı kullanılmadığını kanıtlamanın bir yolu olarak düşünülebilir. Chia blok zincirinin kullanıcıları, diskte bir dizi şifreleme numarası toplayan bir yazılım yükleyerek, sabit disk sürücülerinde kullanılmayan alanı “çizer”. Bu kullanıcılara “çiftçi” denir. Blockchain bir sonraki blok için bir meydan okuma yayınladığında, çiftçiler meydan okumaya en yakın karmaya sahip olup olmadıklarını görmek için arazilerini tarayabilirler. Bir çiftçinin blok kazanma olasılığı, bir çiftçinin tüm ağla karşılaştırdığı toplam alanın yüzdesidir.

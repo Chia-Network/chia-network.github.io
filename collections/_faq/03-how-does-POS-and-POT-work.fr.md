@@ -1,7 +1,7 @@
 ---
 lang: fr
 order: 3
-title: "Qu'est-ce que la preuve de l'espace et du temps?"
+title: "Comment fonctionnent les preuves d'espace et les preuves de temps?"
 ---
 
 La preuve d'espace peut être considérée comme un moyen de prouver que vous conservez une partie de l'espace de stockage inutilisé sur votre disque dur. Les utilisateurs de la blockchain Chia «amorceront» l'espace inutilisé sur leur disque dur en installant un logiciel qui stocke une collection de numéros cryptographiques sur le disque dans des «tracés». Ces utilisateurs sont appelés «agriculteurs». Lorsque la blockchain diffuse un défi pour le bloc suivant, les agriculteurs peuvent scanner leurs parcelles pour voir s'ils ont le hachage le plus proche du défi. La probabilité qu'un agriculteur gagne un bloc est le pourcentage de l'espace total qu'un agriculteur a comparé à l'ensemble du réseau.

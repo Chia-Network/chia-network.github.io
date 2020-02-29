@@ -1,7 +1,7 @@
 ---
 lang: es
 order: 3
-title: "¿Qué es la Prueba de espacio y tiempo?"
+title: "¿Cómo funciona la Prueba de espacio y la Prueba de tiempo?"
 ---
 
 La prueba de espacio puede considerarse como una forma de demostrar que está manteniendo algo de almacenamiento sin usar en su unidad de disco duro. Los usuarios de la cadena de bloques Chia "sembrarán" el espacio no utilizado en su unidad de disco duro mediante la instalación de un software que almacena una colección de números criptográficos en el disco en "parcelas". Estos usuarios se llaman "agricultores". Cuando la cadena de bloques transmite un desafío para el siguiente bloque, los agricultores pueden escanear sus parcelas para ver si tienen el hash más cercano al desafío. La probabilidad de que un agricultor gane un bloque es el porcentaje del espacio total que un agricultor ha comparado con toda la red.

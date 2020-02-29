@@ -1,7 +1,7 @@
 ---
 lang: nl
 order: 3
-title: "Wat is bewijs van ruimte en tijd?"
+title: "Hoe werken Bewijs van ruimte en Bewijs van tijd?"
 ---
 
 Bewijs van ruimte kan worden gezien als een manier om te bewijzen dat u wat opslagruimte ongebruikt houdt op uw harde schijf. Gebruikers van de Chia-blockchain zullen ongebruikte ruimte op hun harde schijf "zaaien" door een software te installeren die een verzameling cryptografische nummers op de schijf opslaat in "plots". Deze gebruikers worden 'boeren' genoemd. Wanneer de blockchain een uitdaging uitzendt voor het volgende blok, kunnen boeren hun percelen scannen om te zien of ze de hash hebben die het dichtst bij de uitdaging ligt. De kans dat een boer een blok wint, is het percentage van de totale ruimte die een boer heeft vergeleken met het hele netwerk.

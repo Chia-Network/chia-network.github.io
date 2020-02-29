@@ -1,7 +1,7 @@
 ---
 lang: de
 order: 3
-title: "Was ist ein Beweis für Raum und Zeit?"
+title: "Wie funktionieren Proof of Space und Proof of Time?"
 ---
 
 Der Speicherplatznachweis kann als Beweis dafür angesehen werden, dass auf Ihrer Festplatte Speicherplatz nicht verwendet wird. Benutzer der Chia-Blockchain "setzen" nicht genutzten Speicherplatz auf ihrer Festplatte frei, indem sie eine Software installieren, die eine Sammlung kryptografischer Nummern auf der Festplatte in "Plots" speichert. Diese Benutzer werden als "Landwirte" bezeichnet. Wenn die Blockchain eine Herausforderung für den nächsten Block sendet, können Landwirte ihre Parzellen scannen, um festzustellen, ob sie den Hash haben, der der Herausforderung am nächsten kommt. Die Wahrscheinlichkeit eines Landwirts, einen Block zu gewinnen, ist der Prozentsatz der Gesamtfläche, die ein Landwirt im Vergleich zum gesamten Netzwerk hat.

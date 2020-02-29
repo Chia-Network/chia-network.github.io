@@ -1,7 +1,7 @@
 ---
 lang: pt
 order: 3
-title: "O que é prova de espaço e tempo?"
+title: "Como funciona a prova de espaço e a prova de tempo?"
 ---
 
 A prova de espaço pode ser considerada uma maneira de provar que você está mantendo algum armazenamento não utilizado em sua unidade de disco rígido. Os usuários do blockchain Chia “propagam” o espaço não utilizado em sua unidade de disco rígido instalando um software que armazena uma coleção de números criptográficos no disco em “parcelas”. Esses usuários são chamados de "agricultores". Quando o blockchain transmite um desafio para o próximo bloco, os agricultores podem verificar seus lotes para ver se eles têm o hash mais próximo do desafio. A probabilidade de um agricultor ganhar um bloco é a porcentagem do espaço total que um agricultor comparou com toda a rede.
