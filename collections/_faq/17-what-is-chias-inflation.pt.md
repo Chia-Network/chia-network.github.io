@@ -1,7 +1,7 @@
 ---
 lang: pt
-order: 9
-title: "What is Chia’s inflation?"
+order: 17
+title: "Qual é a inflação de Chia?"
 ---
 
-After the Chia pre-farm, Chia will offer farming rewards every 5 minutes. Over the first 15 years the farming rewards will be halved at the end of each 5th year and from year 16 to infinity the rewards will remain constant leading to ever decreasing inflation rates.
+Após a pré-fazenda de Chia, Chia oferecerá recompensas agrícolas de 16 chia a cada 5 minutos. Nos primeiros 15 anos, as recompensas agrícolas serão reduzidas pela metade ao final de cada 5º ano. Do ano 16 ao infinito, as recompensas permanecerão constantes em 2 chia a cada 5 minutos, levando a taxas de inflação cada vez menores. A inflação de Chia cai pela taxa de 0,50%, 42 anos após o lançamento da rede principal.

@@ -1,7 +1,7 @@
 ---
 lang: sr
-order: 12
-title: "When will Chia launch Mainnet?"
+order: 16
+title: "Када ће Цхиа лансирати Маиннет?"
 ---
 
-We hope to launch Mainnet as soon as it's done. Software development is difficult to predict beforehand as it's often over budget and behind schedule. Keep up to date here on our website, on [Keybase](https://keybase.io/team/chia_network.public), and on our [mailing list](https://www.chia.net/community/) as we continue to release open source software and updates regarding our IPO plans.
+Надамо се да ћемо покренути Маиннет чим буде готов, а тренутно га планирамо завршити крајем 2020. Развој софтвера је ноторно тешко предвидјети, а Цхиа блоцкцхаин и Цхиалисп су прве примењене верзије низа нових открића у криптографији и информатика. Будите у току са овом веб страницом, на Кеибасе-у, на Гитхуб-у, Трелло-у и на нашој листи за слање док настављамо да објављујемо софтвер отвореног кода и исправке у вези са нашим плановима издања.

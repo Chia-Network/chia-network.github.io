@@ -1,7 +1,7 @@
 ---
 lang: tr
-order: 9
-title: "What is Chia’s inflation?"
+order: 17
+title: "Chia’nın enflasyonu nedir?"
 ---
 
-After the Chia pre-farm, Chia will offer farming rewards every 5 minutes. Over the first 15 years the farming rewards will be halved at the end of each 5th year and from year 16 to infinity the rewards will remain constant leading to ever decreasing inflation rates.
+Chia çiftlik öncesi dönemden sonra, Chia her 5 dakikada bir 16 chia tarım ödülü sunacak. İlk 15 yılda, tarım ödülleri her beşinci yılın sonunda yarıya indirilecek. 16. yıldan sonsuza kadar, ödüller her 5 dakikada bir 2 chia'da sabit kalacak ve bu da enflasyon oranlarının düşmesine neden olacaktır. Chia’nın enflasyonu, ana ağın piyasaya sürülmesinden 42 yıl sonra% 0.50 oranına denk geliyor.

@@ -1,6 +1,6 @@
 ---
 lang: tr
-order: 13
+order: 23
 title: "Why are you running these competitions?"
 ---
 

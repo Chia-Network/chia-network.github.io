@@ -1,7 +1,7 @@
 ---
 lang: fr
-order: 12
+order: 16
 title: "Quand Chia lancera-t-elle Mainnet?"
 ---
 
-Nous espérons lancer Mainnet dès que ce sera fait. Le développement de logiciels est difficile à prévoir à l’avance car il dépasse souvent le budget prévu et est en retard. Restez à jour sur notre site, sur [Keybase](https://keybase.io/team/chia_network.public), et sur notre [liste de diffusion](https://www.chia.net/community/) alors que nous continuons à publier des logiciels open source et des mises à jour concernant nos plans d’introduction en bourse.
+Nous espérons lancer Mainnet dès qu'il sera terminé et nous visons actuellement à terminer à la fin de 2020. Le développement logiciel est notoirement difficile à prévoir et la blockchain Chia et Chialisp sont les premières versions appliquées d'un certain nombre de nouvelles découvertes en cryptographie et l'informatique. Restez à jour ici sur notre site Web, sur Keybase, sur Github, sur Trello et sur notre liste de diffusion pendant que nous continuons à publier des logiciels open source et des mises à jour concernant nos plans de version.

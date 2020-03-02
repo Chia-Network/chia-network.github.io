@@ -1,6 +1,6 @@
 ---
 lang: fr
-order: 4
+order: 7
 title: "Où puis-je en apprendre davantage sur les détails techniques de votre algorithme de consensus?"
 ---
 

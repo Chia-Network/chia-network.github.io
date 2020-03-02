@@ -1,6 +1,6 @@
 ---
-lang: de
-order: 20
+lang: fr
+order: 25
 title: "Will the average person be able to use Chia as a payment instrument?"
 ---
 

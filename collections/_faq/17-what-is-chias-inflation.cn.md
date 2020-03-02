@@ -1,7 +1,7 @@
 ---
 lang: cn
-order: 9
-title: "What is Chia’s inflation?"
+order: 17
+title: “賈的通貨膨脹率是多少?”
 ---
 
-After the Chia pre-farm, Chia will offer farming rewards every 5 minutes. Over the first 15 years the farming rewards will be halved at the end of each 5th year and from year 16 to infinity the rewards will remain constant leading to ever decreasing inflation rates.
+在Chia進行預耕後，Chia將每5分鐘提供16 chia的農業獎勵。 在最初的15年中，每5年結束時，農業獎勵將減半。 從16年到無限年，獎勵將保持每5分鐘2個chia不變，從而導致通貨膨脹率不斷下降。 在主網啟動42年後，Chia的通脹率下降了0.50％。

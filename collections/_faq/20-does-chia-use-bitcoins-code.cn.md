@@ -1,7 +1,7 @@
 ---
 lang: cn
-order: 5
-title: "Chia是否使用比特幣的代碼？"
+order: 20
+title: “Chia使用比特幣的代碼嗎?”
 ---
 
-不。Chia是由知名團隊從頭開始編寫的。
+不。Chia是完全從頭開始編寫的。

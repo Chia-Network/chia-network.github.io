@@ -1,6 +1,6 @@
 ---
 lang: fr
-order: 15
+order: 21
 title: "Bitcoin n'est-il pas assez bon?"
 ---
 

@@ -1,7 +1,7 @@
 ---
 lang: tr
-order: 5
+order: 20
 title: "Chia Bitcoin’in kodunu kullanıyor mu?"
 ---
 
-Hayır. Chia, ünlü bir ekip tarafından sıfırdan yazılıyor.
+Hayır. Chia tamamen sıfırdan yazılmıştır.

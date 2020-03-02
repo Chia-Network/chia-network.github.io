@@ -1,7 +1,7 @@
 ---
 lang: es
-order: 12
-title: "When will Chia launch Mainnet?"
+order: 16
+title: "¿Cuándo lanzará Chia Mainnet?"
 ---
 
-We hope to launch Mainnet as soon as it's done. Software development is difficult to predict beforehand as it's often over budget and behind schedule. Keep up to date here on our website, on [Keybase](https://keybase.io/team/chia_network.public), and on our [mailing list](https://www.chia.net/community/) as we continue to release open source software and updates regarding our IPO plans.
+Esperamos lanzar Mainnet tan pronto como esté listo y actualmente estamos apuntando a terminar a fines de 2020. El desarrollo de software es notoriamente difícil de predecir y Chia blockchain y Chialisp son las primeras versiones aplicadas de una serie de nuevos descubrimientos en criptografía y Ciencias de la Computación. Manténgase actualizado aquí en nuestro sitio web, en Keybase, en Github, en Trello y en nuestra lista de correo mientras continuamos lanzando software de código abierto y actualizaciones con respecto a nuestros planes de lanzamiento.

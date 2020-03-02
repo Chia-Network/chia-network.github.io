@@ -1,7 +1,7 @@
 ---
 lang: cn
-order: 18
-title: "Isn’t the current international monetary system good enough?"
+order: 19
+title: “當前的國際貨幣體系還不夠好嗎？”
 ---
 
-No. It’s expensive, slow and antiquated. International payments are slow, expensive and insecure. International SWIFT wires take 1-5 days. CitiBank often charges up to 3% spreads and few other banks are in more than 1-2 countries. International wire fraud losses are very large.
+否。在世界各地，政府和銀行之間的互動存在問題，使銀行難以信任，尤其是在香港，委內瑞拉阿根廷或黎巴嫩等動盪地區。 當國際支付可用且可用時，它是緩慢，昂貴且不安全的。 國際SWIFT電匯通常需要1-5天。 花旗銀行通常會收取高達3％的點差，而且在幾個以上的國家中還有其他幾家銀行。 國際電匯欺詐損失非常大，我們有更好的解決方案來緩解這些問題。

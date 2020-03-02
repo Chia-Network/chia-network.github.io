@@ -1,7 +1,7 @@
 ---
 lang: fr
-order: 5
-title: "Est-ce que Chia utilise le code Bitcoin?"
+order: 20
+title: "Chia utilise-t-il le code de Bitcoin?"
 ---
 
-Non. Chia est une nouvelle créée par une équipe renommée.
+Non. Chia est entièrement écrit à partir de zéro.

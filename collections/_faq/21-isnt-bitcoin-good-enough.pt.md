@@ -1,6 +1,6 @@
 ---
 lang: pt
-order: 15
+order: 21
 title: "Isn’t Bitcoin good enough?"
 ---
 

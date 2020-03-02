@@ -1,7 +1,7 @@
 ---
 lang: es
-order: 5
+order: 20
 title: "¿Chia usa el código de Bitcoin?"
 ---
 
-No. Chia es escrita desde cero por un equipo de renombre.
+No. Chia está escrita completamente desde cero.

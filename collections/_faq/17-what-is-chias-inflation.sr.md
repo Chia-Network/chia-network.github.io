@@ -1,7 +1,7 @@
 ---
 lang: sr
-order: 9
-title: "What is Chia’s inflation?"
+order: 17
+title: "Шта је Цхиа инфлација?"
 ---
 
-After the Chia pre-farm, Chia will offer farming rewards every 5 minutes. Over the first 15 years the farming rewards will be halved at the end of each 5th year and from year 16 to infinity the rewards will remain constant leading to ever decreasing inflation rates.
+Након Цхиа пред фарме, Цхиа ће понудити пољопривредне награде од 16 цхиа на сваких 5 минута. Током првих 15 година награде за пољопривреду биће преполовљене на крају сваке пете године. Од 16. до бесконачности, награде ће остати константне на 2 цхиа сваких 5 минута, што ће довести до све мањих стопа инфлације. Цхиа инфлација пада преко стопе од 0,50% 42 године након покретања маиннета.

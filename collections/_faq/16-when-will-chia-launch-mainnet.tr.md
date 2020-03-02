@@ -1,7 +1,7 @@
 ---
 lang: tr
-order: 12
-title: "When will Chia launch Mainnet?"
+order: 16
+title: "Chia ne zaman Mainnet'i piyasaya sürecek?"
 ---
 
-We hope to launch Mainnet as soon as it's done. Software development is difficult to predict beforehand as it's often over budget and behind schedule. Keep up to date here on our website, on [Keybase](https://keybase.io/team/chia_network.public), and on our [mailing list](https://www.chia.net/community/) as we continue to release open source software and updates regarding our IPO plans.
+Mainnet'i biter bitmez başlatmayı umuyoruz ve şu anda 2020'nin sonunda bitirmeyi hedefliyoruz. Yazılım geliştirmeyi tahmin etmek çok zordur ve Chia blockchain ve Chialisp, kriptografide bir dizi yeni keşfin ilk uygulamalı versiyonlarıdır. bilgisayar Bilimi. Açık kaynak yazılımlarımızı ve sürüm planlarımızla ilgili güncellemeleri yayınlamaya devam ederken web sitemizde, Keybase'de, Github'da, Trello'da ve posta listemizde güncel kalın.

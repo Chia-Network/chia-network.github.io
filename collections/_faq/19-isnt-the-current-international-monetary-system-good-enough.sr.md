@@ -1,7 +1,7 @@
 ---
 lang: sr
-order: 18
-title: "Isn’t the current international monetary system good enough?"
+order: 19
+title: "Није ли садашњи међународни монетарни систем довољно добар?"
 ---
 
-No. It’s expensive, slow and antiquated. International payments are slow, expensive and insecure. International SWIFT wires take 1-5 days. CitiBank often charges up to 3% spreads and few other banks are in more than 1-2 countries. International wire fraud losses are very large.
+Не. По свету, владе и банке изазивају проблематичне интеракције које банкама отежавају поверење, посебно у нестабилним регионима попут Хонг Конга, Венецуеле Аргентине или Либанона. Међународне исплате, када су доступне и раде, су спора, скупа и несигурна. Међународне СВИФТ жице често трају 1-5 дана. ЦитиБанк често наплаћује до 3% спреда, а постоји неколико других банака у више од неколико земаља. Губици преваре у међународним жицама су веома велики, а ми имамо боље решење за ублажавање ових проблема.
