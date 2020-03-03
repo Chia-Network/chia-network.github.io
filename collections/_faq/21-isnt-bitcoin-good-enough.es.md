@@ -1,7 +1,7 @@
 ---
 lang: es
 order: 21
-title: "Isn’t Bitcoin good enough?"
+title: "¿No es Bitcoin lo suficientemente bueno?"
 ---
 
-When Bitcoin was developed it was not foreseen that a new type of chip could vastly outperform the computers everyone owns. What was intended to be decentralized network is now controlled by a small number of actors. The folks who currently control the Bitcoin Network feel they have an advantage as is and can’t change the protocol even when it’s clear that it should be. Chia has had ten years to study the new digital money ecosystem we clearly see how to build it better.
+Cuando se desarrolló Bitcoin, no se preveía que el hardware especializado pudiera superar ampliamente a las computadoras que todos poseen. Lo que pretendía ser una red descentralizada ahora está controlado por un pequeño número de mineros con acceso a plantas de fabricación de chips y compra de electricidad al por mayor (o peor). Los mineros que actualmente controlan la red Bitcoin sienten que tienen una ventaja competitiva tal como está y se oponen a cambiar el protocolo incluso cuando está claro que debería cambiarse. Chia ha tenido diez años para estudiar el nuevo ecosistema de dinero digital y cree que podemos hacer que la criptomoneda sea más descentralizada, más segura y más fácil de usar.

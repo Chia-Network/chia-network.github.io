@@ -1,7 +1,7 @@
 ---
 lang: sr
 order: 23
-title: "Why are you running these competitions?"
+title: "Зашто водите ова такмичења?"
 ---
 
-We believe that more eyes on our code will only make it better. For example, the [results of our VDF Competition](https://www.chia.net/2019/01/17/chia-vdf-competition-round-1-results-and-announcements.en.html) produced a VDF implementation whose runtime was 80% faster than our original implementation.
+Верујемо да ће више погледа на наш код само побољшати. На пример, тхе[резултати нашег ВДФ такмичења](https://www.chia.net/2019/01/17/chia-vdf-competition-round-1-results-and-announcements.en.html) произвео је ВДФ имплементацију чије је време извођења било 80% брже од наше оригиналне имплементације.

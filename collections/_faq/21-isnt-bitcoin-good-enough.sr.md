@@ -1,7 +1,7 @@
 ---
 lang: sr
 order: 21
-title: "Isn’t Bitcoin good enough?"
+title: "Зар није довољно битцоин?"
 ---
 
-When Bitcoin was developed it was not foreseen that a new type of chip could vastly outperform the computers everyone owns. What was intended to be decentralized network is now controlled by a small number of actors. The folks who currently control the Bitcoin Network feel they have an advantage as is and can’t change the protocol even when it’s clear that it should be. Chia has had ten years to study the new digital money ecosystem we clearly see how to build it better.
+Када је развијен Битцоин, није било предвиђено да специјализовани хардвер може у великој мери надмашити рачунаре који поседују сви. Оно што је требало да буде децентрализована мрежа сада контролише мали број рудара који имају приступ постројењима за производњу чипова и велепродајним набавкама електричне енергије (или још горе). Рудари који тренутно контролишу Битцоин мрежу сматрају да имају конкурентску предност каква јесте и противе се промени протокола чак и када је јасно да га треба променити. Цхиа има десет година за проучавање новог екосистема дигиталног новца и верује да крипто валуте можемо учинити децентрализованијом, сигурнијом и једноставнијом за употребу.

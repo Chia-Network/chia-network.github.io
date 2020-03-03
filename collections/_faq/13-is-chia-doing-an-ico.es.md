@@ -1,6 +1,6 @@
 ---
 lang: es
-order: 12
+order: 13
 title: "¿Chia está haciendo un ICO?"
 ---
 

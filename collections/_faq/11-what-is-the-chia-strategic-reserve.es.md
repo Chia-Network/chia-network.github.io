@@ -1,7 +1,7 @@
 ---
 lang: es
-order: 17
-title: "What is the Chia Strategic Reserve?"
+order: 11
+title: "¿Qué es la Reserva Estratégica de Chia?"
 ---
 
-Chia will be pre-farming it’s coins to help stabilize the coins through Chia’s novel business plan of lending Chia.
+Chia pre-cultivará un gran suministro de monedas en el lanzamiento de la red para ayudar a estabilizar y hacer crecer la economía de Chia a través del novedoso plan comercial de préstamo de Chia.

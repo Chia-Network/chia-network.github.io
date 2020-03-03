@@ -1,7 +1,7 @@
 ---
 lang: es
 order: 23
-title: "Why are you running these competitions?"
+title: "¿Por qué corres estas competiciones?"
 ---
 
-We believe that more eyes on our code will only make it better. For example, the [results of our VDF Competition](https://www.chia.net/2019/01/17/chia-vdf-competition-round-1-results-and-announcements.en.html) produced a VDF implementation whose runtime was 80% faster than our original implementation.
+Creemos que más ojos en nuestro código solo lo mejorarán. Por ejemplo, los [resultados de nuestra competencia VDF](https://www.chia.net/2019/01/17/chia-vdf-competition-round-1-results-and-announcements.en.html) produjo una implementación VDF cuyo tiempo de ejecución fue 80% más rápido que nuestra implementación original.

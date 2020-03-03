@@ -1,7 +1,6 @@
 ---
 lang: pt
 order: 21
-title: "Isn’t Bitcoin good enough?"
+title: "Numquid non BitCoin satis?"
 ---
-
-When Bitcoin was developed it was not foreseen that a new type of chip could vastly outperform the computers everyone owns. What was intended to be decentralized network is now controlled by a small number of actors. The folks who currently control the Bitcoin Network feel they have an advantage as is and can’t change the protocol even when it’s clear that it should be. Chia has had ten years to study the new digital money ecosystem we clearly see how to build it better.
+Ubi erat developed BitCoin est, non futurum esse, vehementer essent outperform specie hardware et computers potest, quod quisque sua. Quid fuit in animo esse decentralized network sit cum aditus ad fossores motu proprio parvum numerum et Lupum electricity acquisitionem plantae chip fabrication (vel peius). De fossoribus, qui sunt currently control BitCoin Network sentire sicut et ipsi a competitive commodum in protocol resistunt veritati, mutantur etiam cum suus ut mutetur. Chia habuit decem annis studere novam de digital ecosystem pecunias credit, et plus possumus facere cryptocurrency decentralized, magis secure, et facile ad uti.

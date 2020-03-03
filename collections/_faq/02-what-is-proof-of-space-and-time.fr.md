@@ -1,6 +1,6 @@
 ---
 lang: fr
-order: 3
+order: 2
 title: "Qu'est-ce que la preuve d'espace et de temps?"
 ---
 

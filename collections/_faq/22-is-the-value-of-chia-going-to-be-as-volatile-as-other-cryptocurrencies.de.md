@@ -1,7 +1,7 @@
 ---
 lang: de
-order: 16
-title: "Is the value of Chia going to crash like Bitcoin, and why not?"
+order: 22
+title: "Wird der Wert von Chia so volatil sein wie andere Kryptowährungen?"
 ---
 
-We believe that Chia coins will be less volatile due to the nature of our planned public company status which will allow financial institutions to hedge and leverage coins and equity and our ability to use the Chia Strategic Reserve to reduce volatility in the Chia in the market.
+Wir glauben, dass Chia-Münzen aufgrund des geplanten Charakters unseres geplanten Status als Aktiengesellschaft weniger volatil sein werden als Bitcoins, wodurch Finanzinstitute Münzen und Eigenkapital absichern und wirksam einsetzen können. Zunächst erwarten wir, dass Chia Network weitgehend auf der Grundlage der Bewertung des Chia bewertet wird, das das Unternehmen in seiner Bilanz halten wird. Bewegungen des Chia-Preises an digitalen Börsen werden sich wahrscheinlich in Kursbewegungen des Kurses unserer Aktien an einer Börse widerspiegeln. Es wird mehr Möglichkeiten geben, sich mit dem Erfolg von Chia vertraut zu machen als mit traditionellen Blockchain-Projekten. Auf diese Weise können auch die üblichen Optionen und Derivate unserer Aktie als synthetisches Derivat für den Preis von Chia-Münzen verwendet werden. Darüber hinaus kann unsere Fähigkeit, die strategische Reserve für Chia zu nutzen, die Volatilität von Chia auf dem Markt verringern.

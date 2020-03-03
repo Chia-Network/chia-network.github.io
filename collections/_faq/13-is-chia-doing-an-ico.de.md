@@ -1,6 +1,6 @@
 ---
 lang: de
-order: 12
+order: 13
 title: "Macht Chia einen ICO?"
 ---
 

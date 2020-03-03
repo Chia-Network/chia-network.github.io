@@ -1,6 +1,6 @@
 ---
 lang: fr
-order: 12
+order: 13
 title: "Chia fait-il un ICO?"
 ---
 

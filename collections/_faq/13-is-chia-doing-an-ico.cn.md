@@ -1,6 +1,6 @@
 ---
 lang: cn
-order: 12
+order: 13
 title: "Chia在做ICO嗎？"
 ---
 
