@@ -1,7 +1,7 @@
 ---
 lang: es
 order: 27
-title: "How do I contact you with more questions?"
+title: "¿Cómo puedo contactarlo con más preguntas?"
 ---
 
-You can email us at [hello@chia.net](mailto:hello@chia.net) or join us on [Keybase](https://keybase.io/team/chia_network.public).
+Puedes enviarnos un correo electrónico a [hello@chia.net](mailto:hello@chia.net) o únete a nosotros en [Keybase](https://keybase.io/team/chia_network.public).

@@ -1,11 +1,11 @@
 ---
 lang: sr
 order: 25
-title: "Will the average person be able to use Chia as a payment instrument?"
+title: "Да ли ће просечна особа моћи да користи Цхиа као инструмент плаћања?"
 ---
 
-Our hope is that Chia will be supported by point of sale systems and consumer payment apps all over the world. For example, if you pay for a coffee at Tully's in England with your GrabPay app from Thailand, it should "just work" without you needing to know it was paid in Chia.
+Надамо се да ће с временом Цхиа бити подржани системима продаје и апликацијама за плаћање потрошачима широм света. На пример, ако плаћате кафу у Тулли-у у Енглеској помоћу апликације ГрабПаи из Тајланда, она би требала „само функционисати“, а да не морате знати да је плаћена у Цхиа-у.
 
-Or, for example, if services like Venmo or Cash App aren't available where you live, using Chia will be far less of a hassle than executing a slow and expensive wire transfer. Using legacy banking to send and convert cash across borders is cumbersome, slow and expensive, and while alternative money transfer services might be faster, they’re not cheap: Western Union can charge upwards of 10% in transfer fees.
+Или, на пример, ако услуге попут Венмо или Цасх Апп нису доступне тамо где живите, коришћење Цхиа ће бити много мање гњаваже од извршавања спорог и скупог банковног пријеноса. Употреба наслијеђеног банкарства за слање и претварање готовине преко граница је гломазна, спора и скупа, а иако су услуге алтернативног преноса новца брже, нису јефтине: Вестерн Унион може наплатити више од 10% накнаде за пренос.
 
-The technology will be completely open source and accessible, and anyone will be able to build a new wallet without our permission. We will help wallet, exchange, and merchant processing partners with support and integration services, joint marketing and lending for liquidity.
+Технологија ће бити потпуно отвореног кода и доступна, а свако ће моћи да направи нови новчаник без наше дозволе или помоћи. Међутим, намеравамо да помогнемо партнерима за обраду новчаника, размене и трговца у пружању услуга подршке и интеграције, заједничког маркетинга и позајмљивања за ликвидност.

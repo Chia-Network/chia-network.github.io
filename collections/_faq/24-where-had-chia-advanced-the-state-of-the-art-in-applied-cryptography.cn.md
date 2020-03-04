@@ -1,7 +1,9 @@
 ---
 lang: cn
 order: 24
-title: "What new inventions of math have you created via applied cryptography?"
+title: “Chia在應用密碼學上的最新發展水平在哪裡?”
 ---
 
-Chia has created three new core inventions of math. Firstly, Chia created the first intended for production [BLS Signatures library](https://github.com/Chia-Network/bls-signatures). Secondly, Chia will be the first production use of [class groups](https://github.com/Chia-Network/vdf-competition/blob/master/classgroups.pdf) for cryptography. Finally, Chia created [Proof of Space and Time for Nakamoto consensus](https://www.chia.net/assets/ChiaGreenPaper.pdf).
+Chia創建了三項新的核心發明，並推動了對第四項的興趣和採用。 首先，Chia創造了第一個用於生產的產品 [BLS簽名庫](https://github.com/Chia-Network/bls-signatures). 其次，Chia將成為可驗證延遲函數（VDF）的第一個生產用途。 三，嘉創 [中本聰共識的時空證明](https://www.chia.net/assets/ChiaGreenPaper.pdf).
+
+最後，Chia將成為第一個生產用途 [班組](https://github.com/Chia-Network/vdf-competition/blob/master/classgroups.pdf) 未知順序的出現，催生了對其密碼學適用性的重大新研究。

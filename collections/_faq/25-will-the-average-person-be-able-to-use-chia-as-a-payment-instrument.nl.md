@@ -1,11 +1,11 @@
 ---
 lang: nl
 order: 25
-title: "Will the average person be able to use Chia as a payment instrument?"
+title: "Zal de gemiddelde persoon Chia als betaalinstrument kunnen gebruiken?"
 ---
 
-Our hope is that Chia will be supported by point of sale systems and consumer payment apps all over the world. For example, if you pay for a coffee at Tully's in England with your GrabPay app from Thailand, it should "just work" without you needing to know it was paid in Chia.
+We hopen dat Chia in de loop van de tijd zal worden ondersteund door point-of-sale systemen en betaalapps voor consumenten over de hele wereld. Als u bijvoorbeeld betaalt voor een koffie bij Tully in Engeland met uw GrabPay-app uit Thailand, zou het "gewoon moeten werken" zonder dat u hoeft te weten dat het in Chia is betaald.
 
-Or, for example, if services like Venmo or Cash App aren't available where you live, using Chia will be far less of a hassle than executing a slow and expensive wire transfer. Using legacy banking to send and convert cash across borders is cumbersome, slow and expensive, and while alternative money transfer services might be faster, they’re not cheap: Western Union can charge upwards of 10% in transfer fees.
+Of, bijvoorbeeld, als services zoals Venmo of Cash App niet beschikbaar zijn waar u woont, zal het gebruik van Chia veel minder gedoe zijn dan een langzame en dure bankoverschrijving uitvoeren. Het gebruik van legacy-bankieren om contant geld over de grenzen te verzenden en om te zetten is omslachtig, langzaam en duur, en hoewel alternatieve geldoverboekingsdiensten misschien sneller zijn, zijn ze niet goedkoop: Western Union kan tot 10% aan transferkosten in rekening brengen.
 
-The technology will be completely open source and accessible, and anyone will be able to build a new wallet without our permission. We will help wallet, exchange, and merchant processing partners with support and integration services, joint marketing and lending for liquidity.
+De technologie zal volledig open source en toegankelijk zijn en iedereen kan een nieuwe portemonnee bouwen zonder onze toestemming of hulp. We zijn echter van plan om portemonnee-, ruil- en handelsverwerkingspartners te helpen met ondersteuning en integratiediensten, gezamenlijke marketing en leningen voor liquiditeit.

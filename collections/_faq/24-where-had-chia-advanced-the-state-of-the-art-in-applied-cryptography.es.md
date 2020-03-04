@@ -1,7 +1,9 @@
 ---
 lang: es
 order: 24
-title: "What new inventions of math have you created via applied cryptography?"
+title: "¿Dónde había avanzado Chia el estado del arte en criptografía aplicada?"
 ---
 
-Chia has created three new core inventions of math. Firstly, Chia created the first intended for production [BLS Signatures library](https://github.com/Chia-Network/bls-signatures). Secondly, Chia will be the first production use of [class groups](https://github.com/Chia-Network/vdf-competition/blob/master/classgroups.pdf) for cryptography. Finally, Chia created [Proof of Space and Time for Nakamoto consensus](https://www.chia.net/assets/ChiaGreenPaper.pdf).
+Chia ha creado tres nuevos inventos centrales y ha promovido el interés y la adopción de un cuarto. En primer lugar, Chia creó el primero destinado a la producción. [Biblioteca de firmas BLS](https://github.com/Chia-Network/bls-signatures). En segundo lugar, Chia será el primer uso de producción de funciones de retraso verificables, o VDF. Tercero, Chia creó [Prueba de espacio y tiempo para el consenso de Nakamoto](https://www.chia.net/assets/ChiaGreenPaper.pdf).
+
+Finalmente, Chia será el primer uso de producción de [grupos de clase](https://github.com/Chia-Network/vdf-competition/blob/master/classgroups.pdf) de orden desconocido que ha generado nuevas investigaciones significativas sobre su aplicabilidad a la criptografía.

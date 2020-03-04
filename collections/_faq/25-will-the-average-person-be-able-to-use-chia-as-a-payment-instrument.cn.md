@@ -1,11 +1,11 @@
 ---
 lang: cn
 order: 25
-title: "Will the average person be able to use Chia as a payment instrument?"
+title: “普通人能否將Chia用作付款工具?”
 ---
 
-Our hope is that Chia will be supported by point of sale systems and consumer payment apps all over the world. For example, if you pay for a coffee at Tully's in England with your GrabPay app from Thailand, it should "just work" without you needing to know it was paid in Chia.
+我們的希望是，隨著時間的推移，Chia將得到全球銷售點系統和消費者支付應用程序的支持。例如，如果您使用泰國的GrabPay應用程序在英格蘭的塔利的咖啡店購買咖啡，那麼它就可以“正常工作”，而您無需知道它是通過Chia支付的。
 
-Or, for example, if services like Venmo or Cash App aren't available where you live, using Chia will be far less of a hassle than executing a slow and expensive wire transfer. Using legacy banking to send and convert cash across borders is cumbersome, slow and expensive, and while alternative money transfer services might be faster, they’re not cheap: Western Union can charge upwards of 10% in transfer fees.
+或者，例如，如果您居住的地方無法使用Venmo或Cash App之類的服務，那麼與執行緩慢且昂貴的電匯相比，使用Chia的麻煩就少得多。使用傳統銀行業務進行跨境匯款和轉換既麻煩，緩慢又昂貴，儘管替代性匯款服務可能更快，但它們並不便宜：西聯匯款可收取高達10％的匯款費用。
 
-The technology will be completely open source and accessible, and anyone will be able to build a new wallet without our permission. We will help wallet, exchange, and merchant processing partners with support and integration services, joint marketing and lending for liquidity.
+該技術將完全開源並且可訪問，任何人都可以在未經我們許可或幫助的情況下構建新錢包。但是，我們打算幫助錢包，交易所和商戶處理合作夥伴提供支持和集成服務，聯合營銷和流動性貸款。

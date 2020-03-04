@@ -1,11 +1,10 @@
 ---
 lang: pt
 order: 25
-title: "Will the average person be able to use Chia as a payment instrument?"
----
+title: "A pessoa média poderá usar o Chia como um instrumento de pagamento?"
 
-Our hope is that Chia will be supported by point of sale systems and consumer payment apps all over the world. For example, if you pay for a coffee at Tully's in England with your GrabPay app from Thailand, it should "just work" without you needing to know it was paid in Chia.
+Nossa esperança é que, com o tempo, o Chia seja suportado por sistemas de ponto de venda e aplicativos de pagamento ao consumidor em todo o mundo. Por exemplo, se você paga um café na Tully's na Inglaterra com seu aplicativo GrabPay da Tailândia, ele deve "simplesmente funcionar" sem que você precise saber que foi pago em Chia.
 
-Or, for example, if services like Venmo or Cash App aren't available where you live, using Chia will be far less of a hassle than executing a slow and expensive wire transfer. Using legacy banking to send and convert cash across borders is cumbersome, slow and expensive, and while alternative money transfer services might be faster, they’re not cheap: Western Union can charge upwards of 10% in transfer fees.
+Ou, por exemplo, se serviços como Venmo ou Cash App não estiverem disponíveis onde você mora, usar o Chia será muito menos complicado do que executar uma transferência bancária lenta e cara. Usar o sistema bancário legado para enviar e converter dinheiro além-fronteiras é complicado, lento e caro, e embora os serviços alternativos de transferência de dinheiro sejam mais rápidos, eles não são baratos: a Western Union pode cobrar mais de 10% em taxas de transferência.
 
-The technology will be completely open source and accessible, and anyone will be able to build a new wallet without our permission. We will help wallet, exchange, and merchant processing partners with support and integration services, joint marketing and lending for liquidity.
+A tecnologia será completamente de código aberto e acessível, e qualquer pessoa poderá criar uma nova carteira sem a nossa permissão ou assistência. No entanto, pretendemos ajudar os parceiros de carteira, troca e processamento de comerciantes com serviços de suporte e integração, marketing conjunto e empréstimos para liquidez.

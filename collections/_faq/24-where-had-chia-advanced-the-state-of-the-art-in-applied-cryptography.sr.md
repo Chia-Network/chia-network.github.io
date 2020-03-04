@@ -1,7 +1,9 @@
 ---
 lang: sr
 order: 24
-title: "What new inventions of math have you created via applied cryptography?"
+title: "Где је Цхиа напредовала врхунско стање у примењеној криптографији?"
 ---
 
-Chia has created three new core inventions of math. Firstly, Chia created the first intended for production [BLS Signatures library](https://github.com/Chia-Network/bls-signatures). Secondly, Chia will be the first production use of [class groups](https://github.com/Chia-Network/vdf-competition/blob/master/classgroups.pdf) for cryptography. Finally, Chia created [Proof of Space and Time for Nakamoto consensus](https://www.chia.net/assets/ChiaGreenPaper.pdf).
+Цхиа је створио три нова основна изума и унапредио интересовање за и прихватање четвртог. Прво, Цхиа је креирао прву намењену за производњу [Библиотека потписа БЛС](https://github.com/Chia-Network/bls-signatures). Друго, Цхиа ће бити прва производна употреба Верификованих функција кашњења или ВДФ-ова. Треће, Цхиа је створио [Доказ о простору и времену за Накамото консензус](https://www.chia.net/assets/ChiaGreenPaper.pdf).
+
+Коначно, Цхиа ће бити прва употреба у производњи [класе групе](https://github.com/Chia-Network/vdf-competition/blob/master/classgroups.pdf) непознатог реда који је покренуо нова нова истраживања њихове применљивости на криптографију.

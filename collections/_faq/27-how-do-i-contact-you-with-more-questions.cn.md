@@ -1,7 +1,7 @@
 ---
 lang: cn
 order: 27
-title: "How do I contact you with more questions?"
+title: “如果有其他問題，我該如何與您聯繫?”
 ---
 
-You can email us at [hello@chia.net](mailto:hello@chia.net) or join us on [Keybase](https://keybase.io/team/chia_network.public).
+您可以通過以下方式給我們發送電子郵件 [hello@chia.net](mailto:hello@chia.net) 或加入我們 [Keybase](https://keybase.io/team/chia_network.public).

@@ -1,11 +1,11 @@
 ---
 lang: es
 order: 25
-title: "Will the average person be able to use Chia as a payment instrument?"
+title: "¿La persona promedio podrá usar Chia como instrumento de pago?"
 ---
 
-Our hope is that Chia will be supported by point of sale systems and consumer payment apps all over the world. For example, if you pay for a coffee at Tully's in England with your GrabPay app from Thailand, it should "just work" without you needing to know it was paid in Chia.
+Nuestra esperanza es que, con el tiempo, Chia sea respaldada por sistemas de punto de venta y aplicaciones de pago para consumidores en todo el mundo. Por ejemplo, si paga un café en Tully's en Inglaterra con su aplicación GrabPay de Tailandia, debería "funcionar" sin que necesite saber que se pagó en Chia.
 
-Or, for example, if services like Venmo or Cash App aren't available where you live, using Chia will be far less of a hassle than executing a slow and expensive wire transfer. Using legacy banking to send and convert cash across borders is cumbersome, slow and expensive, and while alternative money transfer services might be faster, they’re not cheap: Western Union can charge upwards of 10% in transfer fees.
+O, por ejemplo, si los servicios como Venmo o la aplicación Cash no están disponibles donde vives, usar Chia será mucho menos complicado que ejecutar una transferencia bancaria lenta y costosa. El uso de la banca heredada para enviar y convertir efectivo a través de las fronteras es engorroso, lento y costoso, y aunque los servicios alternativos de transferencia de dinero pueden ser más rápidos, no son baratos: Western Union puede cobrar más del 10% en tarifas de transferencia.
 
-The technology will be completely open source and accessible, and anyone will be able to build a new wallet without our permission. We will help wallet, exchange, and merchant processing partners with support and integration services, joint marketing and lending for liquidity.
+La tecnología será completamente de código abierto y accesible, y cualquiera podrá construir una nueva billetera sin nuestro permiso o asistencia. Sin embargo, tenemos la intención de ayudar a los socios de billetera, intercambio y procesamiento comercial con servicios de soporte e integración, comercialización conjunta y préstamos para liquidez.

@@ -1,11 +1,11 @@
 ---
 lang: tr
 order: 25
-title: "Will the average person be able to use Chia as a payment instrument?"
+title: "Ortalama bir kişi Chia'yı ödeme aracı olarak kullanabilir mi?"
 ---
 
-Our hope is that Chia will be supported by point of sale systems and consumer payment apps all over the world. For example, if you pay for a coffee at Tully's in England with your GrabPay app from Thailand, it should "just work" without you needing to know it was paid in Chia.
+Umudumuz, zaman içinde Chia'nın tüm dünyada satış noktası sistemleri ve tüketici ödeme uygulamaları ile destekleneceğidir. Örneğin, Tayland'daki GrabPay uygulamanızla İngiltere'deki Tully’de bir kahve için ödeme yaparsanız, Chia'da ödendiğini bilmenize gerek kalmadan "sadece çalışmalıdır".
 
-Or, for example, if services like Venmo or Cash App aren't available where you live, using Chia will be far less of a hassle than executing a slow and expensive wire transfer. Using legacy banking to send and convert cash across borders is cumbersome, slow and expensive, and while alternative money transfer services might be faster, they’re not cheap: Western Union can charge upwards of 10% in transfer fees.
+Ya da, örneğin, Venmo veya Cash App gibi hizmetler yaşadığınız yerde yoksa, Chia kullanmak yavaş ve pahalı bir banka havalesi yapmaktan çok daha az zor olacaktır. Sınırları aşan nakit göndermek ve dönüştürmek için eski bankacılığı kullanmak hantal, yavaş ve pahalıdır ve alternatif para transferi hizmetleri daha hızlı olabilir, ancak ucuz değildir: Western Union, transfer ücretlerinde% 10'luk bir ücret alabilir.
 
-The technology will be completely open source and accessible, and anyone will be able to build a new wallet without our permission. We will help wallet, exchange, and merchant processing partners with support and integration services, joint marketing and lending for liquidity.
+Teknoloji tamamen açık kaynak ve erişilebilir olacak ve herkes bizim iznimiz veya yardımımız olmadan yeni bir cüzdan inşa edebilecek. Bununla birlikte, cüzdan, borsa ve tüccar işleme ortaklarına destek ve entegrasyon hizmetleri, ortak pazarlama ve likidite kredisi konularında yardımcı olmayı amaçlıyoruz.

@@ -1,7 +1,7 @@
 ---
 lang: es
 order: 26
-title: "Why are you named Chia?"
+title: "¿Por qué te llamas Chia?"
 ---
 
-We’re green money! Our founder Bram Cohen started the company knowing he wanted to reduce the energy dependence of blockchains through a “green” option. The concept of farming seemed to be the best metaphor for filling unused disk space and monitoring it for winning sprouts.. This led us to look for a grain that had the properties we wanted to embody with our new Network. The team wanted a name that would be short and impactful. Everyone was amused that it was also a grain associated with a whimsical meme. Chia Network was born.
+¡Somos dinero verde! Nuestro fundador Bram Cohen comenzó la compañía sabiendo que quería reducir la dependencia energética de las cadenas de bloques a través de una opción "verde". El concepto de agricultura parecía ser la mejor metáfora para llenar el espacio en disco no utilizado y monitorearlo para obtener brotes ganadores. Esto nos llevó a buscar un grano que tuviera las propiedades que queríamos incorporar a nuestra nueva red. El equipo quería un nombre que fuera corto e impactante. Todos se divirtieron porque también era un grano asociado con un meme caprichoso. Nació Chia Network.

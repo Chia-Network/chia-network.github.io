@@ -1,11 +1,11 @@
 ---
 lang: fr
 order: 25
-title: "Will the average person be able to use Chia as a payment instrument?"
+title: "La personne moyenne pourra-t-elle utiliser Chia comme instrument de paiement?"
 ---
 
-Our hope is that Chia will be supported by point of sale systems and consumer payment apps all over the world. For example, if you pay for a coffee at Tully's in England with your GrabPay app from Thailand, it should "just work" without you needing to know it was paid in Chia.
+Notre espoir est qu'au fil du temps, Chia sera soutenu par des systèmes de point de vente et des applications de paiement grand public partout dans le monde. Par exemple, si vous payez un café chez Tully’s en Angleterre avec votre application GrabPay de Thaïlande, cela devrait "fonctionner" sans que vous ayez besoin de savoir qu'il a été payé à Chia.
 
-Or, for example, if services like Venmo or Cash App aren't available where you live, using Chia will be far less of a hassle than executing a slow and expensive wire transfer. Using legacy banking to send and convert cash across borders is cumbersome, slow and expensive, and while alternative money transfer services might be faster, they’re not cheap: Western Union can charge upwards of 10% in transfer fees.
+Ou, par exemple, si des services comme Venmo ou Cash App ne sont pas disponibles chez vous, utiliser Chia sera beaucoup moins compliqué que d'exécuter un virement bancaire lent et coûteux. Utiliser les services bancaires traditionnels pour envoyer et convertir des espèces au-delà des frontières est lourd, lent et coûteux, et bien que les services alternatifs de transfert d'argent soient plus rapides, ils ne sont pas bon marché: Western Union peut facturer jusqu'à 10% de frais de transfert.
 
-The technology will be completely open source and accessible, and anyone will be able to build a new wallet without our permission. We will help wallet, exchange, and merchant processing partners with support and integration services, joint marketing and lending for liquidity.
+La technologie sera entièrement open source et accessible, et n'importe qui pourra construire un nouveau portefeuille sans notre permission ou assistance. Cependant, nous avons l'intention d'aider les partenaires du portefeuille, de l'échange et du traitement des marchands avec des services de support et d'intégration, une commercialisation commune et des prêts pour la liquidité.

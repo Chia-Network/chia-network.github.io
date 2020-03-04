@@ -1,7 +1,7 @@
 ---
 lang: sr
 order: 27
-title: "How do I contact you with more questions?"
+title: "Како да вас контактирам са више питања?"
 ---
 
-You can email us at [hello@chia.net](mailto:hello@chia.net) or join us on [Keybase](https://keybase.io/team/chia_network.public).
+Можете нам послати е-пошту на [hello@chia.net](mailto:hello@chia.net) или нам се придружите [Keybase](https://keybase.io/team/chia_network.public).

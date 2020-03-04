@@ -1,11 +1,11 @@
 ---
 lang: de
 order: 25
-title: "Will the average person be able to use Chia as a payment instrument?"
+title: "Wird die durchschnittliche Person Chia als Zahlungsinstrument verwenden können?"
 ---
 
-Our hope is that Chia will be supported by point of sale systems and consumer payment apps all over the world. For example, if you pay for a coffee at Tully's in England with your GrabPay app from Thailand, it should "just work" without you needing to know it was paid in Chia.
+Wir hoffen, dass Chia im Laufe der Zeit von Point-of-Sale-Systemen und Consumer-Payment-Apps auf der ganzen Welt unterstützt wird. Wenn Sie beispielsweise mit Ihrer GrabPay-App aus Thailand bei Tully in England für einen Kaffee bezahlen, sollte dieser „einfach funktionieren“, ohne dass Sie wissen müssen, dass er in Chia bezahlt wurde.
 
-Or, for example, if services like Venmo or Cash App aren't available where you live, using Chia will be far less of a hassle than executing a slow and expensive wire transfer. Using legacy banking to send and convert cash across borders is cumbersome, slow and expensive, and while alternative money transfer services might be faster, they’re not cheap: Western Union can charge upwards of 10% in transfer fees.
+Wenn beispielsweise Dienste wie Venmo oder Cash App bei Ihnen nicht verfügbar sind, ist die Verwendung von Chia weitaus weniger problematisch als die Durchführung einer langsamen und teuren Überweisung. Die Verwendung von Legacy-Banking zum grenzüberschreitenden Senden und Umtauschen von Bargeld ist umständlich, langsam und teuer. Alternative Geldtransferdienste sind zwar schneller, aber nicht billig: Western Union kann Überweisungsgebühren von bis zu 10% erheben.
 
-The technology will be completely open source and accessible, and anyone will be able to build a new wallet without our permission. We will help wallet, exchange, and merchant processing partners with support and integration services, joint marketing and lending for liquidity.
+Die Technologie wird vollständig Open Source und zugänglich sein, und jeder kann ohne unsere Erlaubnis oder Unterstützung eine neue Brieftasche bauen. Wir beabsichtigen jedoch, Brieftaschen-, Austausch- und Händlerverarbeitungspartnern mit Support- und Integrationsdiensten, gemeinsamem Marketing und Kreditvergabe für Liquidität zu helfen.
