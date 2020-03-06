@@ -1,7 +1,7 @@
 ---
 lang: pt
 order: 24
-title: "Onde Chia avançou o estado da arte na criptografia aplicada?"
+title: "Onde Chia avançou o estado da arte em criptografia aplicada?"
 ---
 
 Chia criou três novas invenções principais e aumentou o interesse e a adoção de uma quarta. Em primeiro lugar, Chia criou o primeiro destinado à produção [Biblioteca de assinaturas BLS](https://github.com/Chia-Network/bls-signatures). Segundo, Chia será o primeiro uso de produção de Funções de Atraso Verificável, ou VDFs. Terceiro, Chia criou [Prova de espaço e tempo para o consenso de Nakamoto](https://www.chia.net/assets/ChiaGreenPaper.pdf).
