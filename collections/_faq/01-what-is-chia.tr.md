@@ -1,7 +1,7 @@
 ---
 lang: tr
 order: 1
-title: "What is Chia?"
+title: "Chia nedir?"
 ---
 
-Chia is the first enterprise-grade digital money. We are building the Chia Network to improve the global financial and payments systems. Chia is using a new consensus algorithm for a new blockchain called Proof Of Space and Time being created by Bram Cohen, the best network protocol engineer alive and creator of BitTorrent.
+Chia, gelişmiş bir blockchain ve akıllı işlem platformu geliştirmek için Ağustos 2017'de kuruldu. Küresel finansal ve ödeme sistemlerini geliştirmek için Chia Ağı'nı inşa ediyoruz. Chia kurumsal düzeyde ilk dijital para olacak. Chia, Bitcoin'den bu yana ilk yeni blockchain konsensüs algoritmasını kullanıyor. Uzay ve Zamanın İspatı olarak adlandırılan, en iyi ağ protokol mühendisi ve BitTorrent'in mucidi Bram Cohen tarafından yaratıldı. Chialisp, Chia’nın güçlü, denetlemesi kolay ve güvenli yeni akıllı işlem programlama dilidir. Şu anda mevcut olan referans akıllı işlemler şunlardır: atomik swaplar, yetkili alacaklılar, geri kazanılabilir cüzdanlar, çoklu ekranlı cüzdanlar ve hız sınırlı cüzdanlar.
