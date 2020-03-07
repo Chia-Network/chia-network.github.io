@@ -3,6 +3,7 @@ lang: en
 layout: post
 title:  "Chia Network Announces Proof of Space Competition with $100k in Total Prize Money"
 date:   2019-07-07
+author: "[Lipa Long](https://github.com/lipalong) and [Bram Cohen](https://twitter.com/bramcohen)"
 ---
 
 We’re excited to announce Chia’s Proof of Space competition. In Chia’s Proof of Space, rewards are given to farmers that can prove that they are allocating a portion of their disk space to farming Chia. In order to be used as a consensus method, Proof of Space is tied to Proof of Time. An open source implementation in C++ is available, that can be used as a [starting point](https://github.com/Chia-Network/proofofspace).
@@ -15,9 +16,9 @@ Contestants participating in the three-month competition will create implementat
 2. Implementation that uses the least swap space gets a prize. The performance criteria is based on the maximum amount of swap space (disk space + memory) that is used during the plotting process aka “Swap space needed".  
 3. Implementation with smallest size of plot at rest and can respond to challenges gets a prize. The performance criteria is the amount of memory + disk space being used once plot has been created in response to challenges as well as the amount of time it takes to do look-ups.  
 
-In addition, each submission to each track must reach a minimum threshold of all 4 performance criteria (listed below) that is required for all other tracks. For example, if an entrant enters Track 1, fastest plot, he must also adhere to a minimum threshold of all other 3 performance criteria (smallest swap, smallest plot, time of look-ups). 
+In addition, each submission to each track must reach a minimum threshold of all 4 performance criteria (listed below) that is required for all other tracks. For example, if an entrant enters Track 1, fastest plot, he must also adhere to a minimum threshold of all other 3 performance criteria (smallest swap, smallest plot, time of look-ups).
 
-The 4 performance criteria are: 
+The 4 performance criteria are:
 
 1. Amount of time to create plot file “wall clock time"  
 2. Maximum amount of swap space (disk space + memory) that is used during the plotting process. “Swap space needed"  

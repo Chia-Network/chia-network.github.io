@@ -3,6 +3,7 @@ lang: en
 layout: post
 title:  "Chia VDF Competition Round 1 Results and Announcements"
 date:   2019-01-17
+author: "[Bill Blanke](https://github.com/wjblanke)"
 ---
 
 Thank you to everyone who participated in the first round of Chia Network’s Verifiable Delay Function (VDF) competition. The round concluded on January 3rd, 2019 with many excellent submissions from the participants. The quality of the entries exceeded our expectations, and we’re happy that the competition format proved successful. The teams used a variety of approaches, contributed to interesting discussions on our Keybase channels, and massively improved upon our reference implementation. The entries are helping us learn a lot about how to create a better VDF.
