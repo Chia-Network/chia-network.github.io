@@ -1,7 +1,7 @@
 ---
 lang: de
 order: 24
-title: "Wo hatte Chia den Stand der Technik in der angewandten Kryptographie vorangebracht?"
+title: "Wo hat Chia den Stand der Technik in der angewandten Kryptographie vorangebracht?"
 ---
 
 Chia hat drei neue Kernerfindungen geschaffen und das Interesse an und die Annahme einer vierten gefördert. Zunächst schuf Chia die erste für die Produktion bestimmte [BLS-Signaturbibliothek](https://github.com/Chia-Network/bls-signatures). Zweitens wird Chia die erste Produktionsanwendung von verifizierbaren Verzögerungsfunktionen (VDFs) sein. Drittens schuf Chia [Beweis von Raum und Zeit für den Nakamoto-Konsens](https://www.chia.net/assets/ChiaGreenPaper.pdf).

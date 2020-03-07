@@ -1,7 +1,7 @@
 ---
 lang: nl
 order: 24
-title: "Waar had Chia de nieuwste technieken op het gebied van toegepaste cryptografie?"
+title: "Waar heeft Chia de nieuwste technieken op het gebied van toegepaste cryptografie?"
 ---
 
 Chia heeft drie nieuwe kernuitvindingen gecreëerd en de belangstelling voor en de goedkeuring van een vierde vergroot. Ten eerste creëerde Chia de eerste voor productie [BLS-handtekeningenbibliotheek](https://github.com/Chia-Network/bls-signatures).
