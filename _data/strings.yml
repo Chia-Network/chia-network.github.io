@@ -33,12 +33,13 @@ en: # English
     Released under the open source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
   download_box_title: "Download"
   download_box_section_1: "Blockchain, Chialisp and Coloured Coins"
-  download_box_section_2: "Chialisp and LedgerSim"
+  download_box_section_2: "Install"
   download_box_latest_version: "Latest Version:"
   download_chia_blockchain_no_releases: "1.0"
   download_wallets_no_releases: "1.0"
   download_box_button: "Download Source Code"
-  download_releases_link: "View release notes"
+  install_box_button: "Install Chia Blockchain"
+  download_releases_link: "Release notes"
   about_title: "About Us"
   about_description: |
     Founded by Bram Cohen, the inventor of the BitTorrent network, Chia Network is building a better blockchain and smart transaction platform which is more decentralized, more efficient, and more secure.
