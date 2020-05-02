@@ -48,10 +48,4 @@ fetch("https://api.github.com/repos/Chia-Network/chia-blockchain/releases").then
     var releaseNote = release ? release.name + " - " + release.published_at.slice(0, 10) : "{{ strings.download_chia_blockchain_no_releases }}";
     document.getElementById("chia-blockchain-latest-release").textContent = releaseNote;
 });
-
-fetch("https://api.github.com/repos/Chia-Network/wallets/releases").then(function(response) { return response.json(); }).then(function(jsonResult) {
-    var release = jsonResult[0];
-    var releaseNote = release ? release.name + " - " + release.published_at.slice(0, 10) : "{{ strings.download_wallets_no_releases }}";
-    document.getElementById("wallets-latest-release").textContent = releaseNote;
-});
 </script>
