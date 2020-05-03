@@ -3,7 +3,7 @@ en: # English
   news_title: "News"
   news_see_more: "See more"
   download_title: "Chia Network"
-  download_subtitle: "A new blockchain and smart transaction platform which is more efficient, more decentralized, and more secure."
+  download_subtitle: "A new blockchain and smart transaction platform that is more efficient, more decentralized, and more secure."
   download_announce: "Watch a <a href='https://www.youtube.com/watch?v=4qN59WHns4k'>replay of our May 2 Zoom</a> about Beta 1.4 and <a href='https://www.chia.net/2020/04/29/coloured-coins-launch.en.html'>Coloured coins</a>."
   download_button: "Download Beta Testnet"
   download_description: |
