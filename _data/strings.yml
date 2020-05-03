@@ -7,7 +7,7 @@ en: # English
   download_announce: "Watch a <a href='https://www.youtube.com/watch?v=4qN59WHns4k'>replay of our May 2 Zoom</a> about Beta 1.4 and <a href='https://www.chia.net/2020/04/29/coloured-coins-launch.en.html'>Coloured coins</a>."
   download_button: "Download Beta Testnet"
   download_description: |
-    Chia’s Beta Testnet
+    Beta Testnet
     --------------------
 
     At Chia, we believe that cyrptocurrency should be easier to use than cash, harder to lose, and nearly impossible to steal. Anyone who wants to validate transactions should be able to farm without single-use hardware or a big electricity bill.
