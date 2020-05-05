@@ -10,7 +10,7 @@ Blockchains should make issuing and using coins and assets easier and more trust
 
 Today we debut one of Chialisp's most powerful smart transactions - Coloured coins.
 
-Coloured coins are generally known for what they do, which is is token issuances of
+Coloured coins are generally known for what they do, which is token issuances of
 alternate coins, assets, and stable coins. Their current most common implementations are Omni protocol on Bitcoin and ERC-20 on Ethereum. The usage of those protocols makes up the vast majority of all smart transaction functionality used in cryptocurrencies today.
 
 Both Omni and ERC-20 have problems in their basic functionality. We're releasing an initial implementation today that demonstrates not only fixes for those problems but exciting, truly decentralized exchange functionality on top of it.
