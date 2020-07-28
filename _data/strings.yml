@@ -4,7 +4,7 @@ en: # English
   news_see_more: "See more"
   download_title: "Chia Network"
   download_subtitle: "A new blockchain and smart transaction platform that is more efficient, decentralized, and secure."
-  download_announce: "Download Beta 8 for <a href='https://download.chia.net/beta-1.8-win64/ChiaSetup-0.1.8.exe'>Windows</a> or <a href='https://download.chia.net/beta-1.8-macos/Chia-0.1.8.dmg'>MacOS</a> now creating mainnet plots!"
+  download_announce: "Download Beta 9 for <a href='https://download.chia.net/beta-1.9-win64/ChiaSetup-0.1.9.exe'>Windows</a> or <a href='https://download.chia.net/beta-1.9-macos/Chia-0.1.9.dmg'>MacOS</a>. Create plots now for mainnet!"
   download_button: "Download Beta Testnet"
   download_description: |
     Beta Testnet
