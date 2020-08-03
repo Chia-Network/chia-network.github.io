@@ -25,4 +25,5 @@ Anyone can participate except Chia employees, Chia Network Inc, and residents of
 With that bit of legal out of the way you can download Chia Beta 1.9 for [Windows](https://download.chia.net/beta-1.9-win64/ChiaSetup-0.1.9.exe) or [MacOS](https://download.chia.net/beta-1.9-macos/Chia-0.1.9.dmg). Check out the [Install Guide](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL) for help and information on how to install on additional platforms like Linux and Raspberry Pi. Then peruse the [Quick Start Guide](https://github.com/Chia-Network/chia-blockchain/wiki/Quick-Start-Guide). Join us in the #testnet channel of our [Keybase chat](https://keybase.io/team/chia_network.public) and talk trash^H^H^H^H^H - politely root on your competitors!
 
 Update 1: Residents of Italy can in fact participate...
+
 Update 2: We've posted a [leaderboard](https://leaderboard.chia.net/) of Farmers by pool public key.
