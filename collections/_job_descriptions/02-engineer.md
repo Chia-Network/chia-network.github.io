@@ -14,7 +14,8 @@ Software Enginner Responsibilities:
 - Work with a remote team of developers and cryptographers around the globe.
 - Learn and implement Chialisp and other core tools used to add functionality to the Chia blockchain.
 
-DevOps Developer Requirements:
+Software Engineer Requirements:
 - Bachelor’s degree (or equivalent experience) in Computer Science, IT, or a similar field.
 - Mastery of either Python, C++ or both.
 - Must be able to be productive and largely self guided in a remote role.
+- Excellent troubleshooting skills.
