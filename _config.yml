@@ -55,6 +55,8 @@ collections:
     output: false
   faq:
     output: false
+  job_descriptions:
+    output: false
 
 # Build settings
 markdown: kramdown

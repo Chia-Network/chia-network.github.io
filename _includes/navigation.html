@@ -41,6 +41,10 @@
                 <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/about">{{ strings.navigation.about }}</a>
                 <div class="highlight d-none d-lg-inline-block"></div>
             </li>
+            <li class="nav-item{% if include.active == "careers" %} active{% endif %}">
+                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/careers">{{ strings.navigation.careers }}</a>
+                <div class="highlight d-none d-lg-inline-block"></div>
+            </li>
             <li class="nav-item{% if include.active == "contact" %} active{% endif %}">
                 <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/contact">{{ strings.navigation.contact }}</a>
                 <div class="highlight d-none d-lg-inline-block"></div>
