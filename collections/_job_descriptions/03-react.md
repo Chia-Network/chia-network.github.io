@@ -8,7 +8,7 @@ Chia Network is looking for a skilled React.js Engineer to join our front-end de
 
 To ensure success as a React.js Engineer, you should have in-depth knowledge of JavaScript and React concepts, excellent front-end coding skills, and a good understanding of progressive web applications. Ultimately, a top-class React.js Engineer should be able to design and build modern user interface components to enhance application performance. You'll also need experience with the vagaries of making React work well on Windows, MacOS, and Linux.
 
-You will be joining a small team out to change how finance and cryptocurrency works and you'll get to help develop and implement the UI to the future of money.
+You will be joining a small team out to change how finance and cryptocurrency works and you'll get to help develop and implement the UI of the future of money.
 
 React.js Engineer Responsibilities:
 - Meeting with the development team to discuss user interface ideas and applications.
