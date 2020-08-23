@@ -1,6 +1,5 @@
 ---
 order: 1
-layout: post
 title: "DevOps Engineer"
 ---
 

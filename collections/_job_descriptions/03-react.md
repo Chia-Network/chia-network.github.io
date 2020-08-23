@@ -1,6 +1,5 @@
 ---
 order: 3
-layout: post
 title: "React.js Engineer"
 ---
 

@@ -1,6 +1,5 @@
 ---
 order: 2
-layout: post
 title: "Software Engineer"
 ---
 
