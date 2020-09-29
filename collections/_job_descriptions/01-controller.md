@@ -9,6 +9,8 @@ Your strategic planning and exceptional numerical proficiency as a Controller wi
 
 The ideal candidate should possess strong analytical skills, exceptional problem-solving skills, a flair for numbers, be highly organized, and have excellent leadership skills. The Controller should streamline our accounting functions and operations, provide financial analysis and reports, train staff on business finance issues, and promote regulatory compliance.
 
+Being in the San Francisco Bay Area is a plus but we will consider people in the Pacific, Mountain and Central US timezones.
+
 ## Controller Responsibilities
 
 - Preparing financial statements and reports.
