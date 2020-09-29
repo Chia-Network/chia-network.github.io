@@ -11,7 +11,7 @@ The ideal candidate should possess strong analytical skills, exceptional problem
 
 Being in the San Francisco Bay Area is a plus but we will consider people in the Pacific, Mountain and Central US timezones.
 
-## Controller Responsibilities
+**Controller Responsibilities:**
 
 - Preparing financial statements and reports.
 - Analyzing financial data.
@@ -21,7 +21,7 @@ Being in the San Francisco Bay Area is a plus but we will consider people in the
 - Coordinating audit processes.
 - Preparing SEC filings (IPO anticipated in the future)
 
-## Controller Requirements
+**Controller Requirements:**
 
 - Master's Degree in Accounting or equivalent.
 - Proven experience in accounting department management, including remotely.

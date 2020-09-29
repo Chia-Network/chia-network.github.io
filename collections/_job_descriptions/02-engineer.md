@@ -7,14 +7,14 @@ Chia Networks is hiring several technically gifted programmers to expand our tea
 
 We once asked Bram what to put here and he said, "We need engineers to press buttons on computers..." That said, you will get to work with some of best engineers and cryptographers in the world - on the latest protocols and research.
 
-## Software Engineer Responsibilities
+**Software Engineer Responsibilities:**
 
 - Extend functionality and refactor codebases in Python or C++.
 - Write clear, secure code and unit testing that runs on Windows, Linux, and MacOS for both x64 and ARM64.
 - Work with a remote team of engineers and cryptographers around the globe.
 - Learn and implement Chialisp and other core tools used to add functionality to the Chia blockchain.
 
-## Software Engineer Requirements
+**Software Engineer Requirements:**
 
 - Bachelor’s degree (or equivalent experience) in Computer Science, IT, or a similar field.
 - Mastery of either Python, C++ or both.
