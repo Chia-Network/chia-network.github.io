@@ -28,3 +28,6 @@
 - code: tr
   name: Türk
   path: "/tr"
+- code: ru
+  name: Русский
+  path: "/ru"
