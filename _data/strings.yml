@@ -3,7 +3,7 @@ en: # English
   news_title: "News"
   news_see_more: "See more"
   download_title: "Chia Network"
-  download_subtitle: "A new blockchain and smart transaction platform that is more efficient, and secure."
+  download_subtitle: "A new blockchain and smart transaction platform that is easiers to use, more efficient, and secure."
   download_announce: "Download Beta 14 for <a href='https://download.chia.net/beta-1.14-win64/ChiaSetup-0.1.14.exe'>Windows</a> or <a href='https://download.chia.net/beta-1.14-macos/Chia-0.1.14.dmg'>MacOS</a>. Plot 40% faster with 1/3 of the writes (Your SSD loves that.)"
   download_button: "Download Beta Testnet"
   download_description: |
