@@ -4,7 +4,7 @@ en: # English
   news_see_more: "See more"
   download_title: "Chia Network"
   download_subtitle: "A new blockchain and smart transaction platform that is easier to use, more efficient, and secure."
-  download_announce: "Download Beta 14 for <a href='https://download.chia.net/beta-1.14-win64/ChiaSetup-0.1.14.exe'>Windows</a> or <a href='https://download.chia.net/beta-1.14-macos/Chia-0.1.14.dmg'>MacOS</a>. Plot 40% faster with 1/3 of the writes (Your SSD loves that.)"
+  download_announce: "Download Beta 14 for <a href='https://download.chia.net/beta-1.14-win64/ChiaSetup-0.1.14.exe'>Windows</a> or <a href='https://download.chia.net/beta-1.14-macos/Chia-0.1.14.dmg'>MacOS</a>. Plot 40% faster with 1/3 of the writes (your SSD loves that.)"
   download_button: "Download Beta Testnet"
   download_description: |
     Beta Testnet
@@ -14,9 +14,7 @@ en: # English
 
     Chia Network develops a blockchain and smart transaction platform created by the inventor of BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). It implements the first new Nakamoto consensus algorithm since Bitcoin in 2008. Proofs of Space and Time replace energy intensive “proofs of work.”
 
-    Chialisp is Chia’s new on chain programming language that is powerful, easy to audit, and secure. It will make cryptocurrency easier to use than cash or credit. Reference smart transactions currently available are: [atomic swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [authorized payees](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [recoverable wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), [rate-limited wallets](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md), and Coloured coins. Bram introduces [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) on our [blog](https://www.chia.net/blog/).
-
-    Beta testnet includes a full node, farmer, timelord, wallet and an implementation of Chia's [Coloured coins](https://www.chia.net/2020/04/29/coloured-coins-launch.en.html).
+    Chialisp is Chia’s new on chain programming language that is powerful, easy to audit, and secure. It will make cryptocurrency easier to use than cash or credit. Reference smart transactions currently available are: [atomic swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [authorized payees](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [recoverable wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), [rate-limited wallets](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md), and [Coloured coins](https://www.chia.net/2020/04/29/coloured-coins-launch.en.html). Bram introduces [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) on our [blog](https://www.chia.net/blog/).
 
     As this is a beta release, you should review the [release notes](https://www.chia.net/releases/) and then [install](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL) Chia blockchain.
   download_addendum: |
