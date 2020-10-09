@@ -24,7 +24,7 @@ We have a broader set of prizes this time.
 
 5. **The Top 25** farmers will all receive an OG Farmer 2020 T-shirt.
 
-Some notes on these prizes. The Intel P4610 is U.2 NVMe so it will need an adapter for most consumer motherboards. The Samsung PM963 is an M.2 PCIe drive but is longer than usual length (110mm) and may need an adapter for a most consumer motherboards. All items are brand new with manufacturer's warranties.
+Some notes on these prizes. The Intel P4610 is U.2 NVMe so it will need an adapter for most consumer motherboards. The Samsung PM963 is an M.2 PCIe drive but is longer than usual length (110mm) and may need an adapter for a consumer motherboard. All items are brand new with manufacturer's warranties.
 
 If any prize winner does not claim their prize we'll move all awards to the next eligible winner. Winners have 864 blocks to claim their prizes before we move on.
 
