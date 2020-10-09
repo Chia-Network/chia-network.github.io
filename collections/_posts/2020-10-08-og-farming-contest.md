@@ -10,7 +10,7 @@ A faster plotter and a k=32 plot size minimum mean it's time for a new farming c
 
 <center><img alt="OG Farmer Prizes" src="/assets/OG-Farmer.png"></center><br>
 
-Starting at block *11,325* on the Beta 1.15 (current) chain we're going to have a farming rewards race to block *13,350*. We will count the winning blocks by counting blocks of k size 32 or greater that are rewarded to a Pool Public Key during this window. If a plot with a k size of less than 32 wins a block, it will be ignored for the purposes of this contest. You can get a proxy of who is [leading](https://www.chiaexplorer.com/charts/puzzlehashes) over the last 1000 blocks from the community created [Chia Explorer](https://www.chiaexplorer.com/). The official leaderboard will be at [leaderboard.chia.net](https://leaderboard.chia.net/).
+Starting at block *11,325* on the Beta 15 (current) chain we're going to have a farming rewards race to block *13,350*. We will count the winning blocks by counting blocks of k size 32 or greater that are rewarded to a Pool Public Key during this window. If a plot with a k size of less than 32 wins a block, it will be ignored for the purposes of this contest. You can get a proxy of who is [leading](https://www.chiaexplorer.com/charts/puzzlehashes) over the last 1000 blocks from the community created [Chia Explorer](https://www.chiaexplorer.com/). The official leaderboard will be at [leaderboard.chia.net](https://leaderboard.chia.net/).
 
 We have a broader set of prizes this time.
 
