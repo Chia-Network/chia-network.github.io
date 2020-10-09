@@ -14,13 +14,13 @@ Starting at block *11,325* on the Beta 1.15 (current) chain we're going to have 
 
 We have a broader set of prizes this time.
 
-1. **1st Place** - 1 1.6TB [Intel® SSD DC P4610 Series](https://ark.intel.com/content/www/us/en/ark/products/140103/intel-ssd-dc-p4610-series-1-6tb-2-5in-pcie-3-1-x4-3d2-tlc.html) Drive and 3 [Seagate Exos X16 14TB](https://www.seagate.com/www-content/datasheets/pdfs/exos-x16-DS2011-3-2008US-en_US.pdf) Data Center HDD Enterprise Hard Drive.
+1. **1st Place** - A 1.6TB [Intel® SSD DC P4610 Series](https://ark.intel.com/content/www/us/en/ark/products/140103/intel-ssd-dc-p4610-series-1-6tb-2-5in-pcie-3-1-x4-3d2-tlc.html) Drive and 3 [Seagate Exos X16 14TB](https://www.seagate.com/www-content/datasheets/pdfs/exos-x16-DS2011-3-2008US-en_US.pdf) Data Center HDD Enterprise Hard Drive.
 
-2. **2nd Place** -  1 [Samsung PM963 960GB M.2 NVMe PCIe](https://www.samsung.com/semiconductor/global.semi.static/Samsung_PM963-1.pdf) Enterprise SSD and 2 [Seagate Exos X16 14TB](https://www.seagate.com/www-content/datasheets/pdfs/exos-x16-DS2011-3-2008US-en_US.pdf) Data Center HDD Enterprise Hard Drive.
+2. **2nd Place** -  A [Samsung PM963 960GB M.2 NVMe PCIe](https://www.samsung.com/semiconductor/global.semi.static/Samsung_PM963-1.pdf) Enterprise SSD and 2 [Seagate Exos X16 14TB](https://www.seagate.com/www-content/datasheets/pdfs/exos-x16-DS2011-3-2008US-en_US.pdf) Data Center HDD Enterprise Hard Drive.
 
-3. **3rd Place** -  1 S[Seagate Exos X16 14TB](https://www.seagate.com/www-content/datasheets/pdfs/exos-x16-DS2011-3-2008US-en_US.pdf) Data Center HDD Enterprise Hard Drive.
+3. **3rd Place** -  A [Seagate Exos X16 14TB](https://www.seagate.com/www-content/datasheets/pdfs/exos-x16-DS2011-3-2008US-en_US.pdf) Data Center HDD Enterprise Hard Drive.
 
-4. **At Large** - Farmers 4 through 25 will be selected randomly to win 1 - 1.6TB [Intel® SSD DC P4610 Series](https://ark.intel.com/content/www/us/en/ark/products/140103/intel-ssd-dc-p4610-series-1-6tb-2-5in-pcie-3-1-x4-3d2-tlc.html) Drive.
+4. **At Large** - Farmers 4 through 25 will be selected randomly to win a 1.6TB [Intel® SSD DC P4610 Series](https://ark.intel.com/content/www/us/en/ark/products/140103/intel-ssd-dc-p4610-series-1-6tb-2-5in-pcie-3-1-x4-3d2-tlc.html) Drive.
 
 5. **The Top 25** farmers will all receive an OG Farmer 2020 T-shirt.
 
