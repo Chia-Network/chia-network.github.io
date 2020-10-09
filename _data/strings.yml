@@ -4,7 +4,7 @@ en: # English
   news_see_more: "See more"
   download_title: "Chia Network"
   download_subtitle: "A new blockchain and smart transaction platform that is easier to use, more efficient, and secure."
-  download_announce: "Download Beta 15 for <a href='https://download.chia.net/beta-1.15-win64/ChiaSetup-0.1.15.exe'>Windows</a> or <a href='https://download.chia.net/beta-1.15-macos/Chia-0.1.15.dmg'>MacOS</a>. Win prizes in our <a href='https://www.chia.net/2020/10/08/og-farming-contest.html'>Space Farming competiton</a>!"
+  download_announce: "Win prizes in our <a href='https://www.chia.net/2020/10/08/og-farming-contest.html'>Space Farming competiton</a>! Download Beta 15 for <a href='https://download.chia.net/beta-1.15-win64/ChiaSetup-0.1.15.exe'>Windows</a> or <a href='https://download.chia.net/beta-1.15-macos/Chia-0.1.15.dmg'>MacOS</a>."
   download_button: "Download Beta Testnet"
   download_description: |
     Beta Testnet
