@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title:  "October Space Farming Contest"
+title:  "OG Space Farming Contest"
 date:   2020-10-08
 author: "[Gene Hoffman](https://twitter.com/hoffmang)"
 ---
