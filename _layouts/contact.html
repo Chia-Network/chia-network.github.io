@@ -12,26 +12,27 @@ layout: default
             <div class="col-12 details">
                 <h1 class="page-main-title mt-5">
                     {{ strings.contact_title }}
-                    <a href="{{ site.data.contact.keybase_team_page }}" target="_blank" rel="noreferrer noopener" class="btn btn-lg float-md-right order-md-first d-block mt-4 mt-md-0">{{ strings.contact_join_keybase }}</a>
+                    <a href="{{ site.data.contact.keybase_team_page }}" target="_blank" rel="noreferrer noopener" class="join-keybase btn btn-lg float-md-right order-md-first d-block mt-4 mt-md-0">{{ strings.contact_join_keybase }}</a>
                 </h1>
                 <div class="details-box">
                     <h2>{{ site.data.contact.name }}</h2>
                     <a class="contact-email" href="{{ site.data.contact.email }}">{{ site.data.contact.email }}</a>
-                    <div>
+                    <div class="handle">
                         <img src="/img/social/github.svg" alt="GitHub Logo"> <a href="https://github.com/{{ site.data.contact.github_username }}" target="_blank" rel="noreferrer noopener">@{{ site.data.contact.github_username }}</a>
                     </div>
-                    <div>
+                    <div class="handle">
                         <img src="/img/social/twitter.svg" alt="Twitter Logo"> <a href="https://twitter.com/{{ site.data.contact.twitter_username }}" target="_blank" rel="noreferrer noopener">@{{ site.data.contact.twitter_username }}</a>
                     </div>
-                    <div>
+                    <div class="handle">
                         <img src="/img/social/facebook.svg" alt="Facebook Logo"> <a href="https://www.facebook.com/{{ site.data.contact.facebook_username }}" target="_blank" rel="noreferrer noopener">@{{ site.data.contact.facebook_username }}</a>
                     </div>
-                    <div>
+                    <div class="handle">
                         <img src="/img/social/instagram.svg" alt="Instagram Logo"> <a href="https://instagram.com/{{ site.data.contact.instagram_username }}" target="_blank" rel="noreferrer noopener">@{{ site.data.contact.instagram_username }}</a>
                     </div>
-                    <div>
+                    <div class="handle">
                         <img src="/img/social/medium.svg" alt="Medium Logo"> <a href="https://medium.com/@{{ site.data.contact.medium_username }}" target="_blank" rel="noreferrer noopener">@{{ site.data.contact.medium_username }}</a>
                     </div>
+                    {% include email_box.html %}
                 </div>
             </div>
         </div>
@@ -39,11 +40,6 @@ layout: default
             <div class="col-12 keybase-live-feed">
                 <h1 class="page-main-title">{{ strings.contact_live_feed_title }}</h1>
                 <iframe src="https://dev.chia.net/"></iframe>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 py-5">
-                {% include email_box.html %}
             </div>
         </div>
     </div>
