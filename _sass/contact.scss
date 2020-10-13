@@ -52,43 +52,4 @@
         height: 40rem;
         border: none;
     }
-
-    .email-box {
-        background: #eee;
-        padding: 3rem;
-
-        h2 {
-            font-size: 32px;
-            font-weight: bold;
-            margin-bottom: 1rem;
-        }
-
-        .email-form {
-            form {
-                padding: 0 !important;
-                margin-top: 1rem;
-            }
-
-            .input-group {
-                border-radius: 0;
-                border: 2px solid #3AAC59;
-            }
-
-            input {
-                border: none !important;
-                font-size: 20px;
-                padding: 1.5rem 1rem;
-            }
-
-            button {
-                border: none;
-                border-radius: 0;
-                color: white;
-                background-color: #3AAC59;
-                font-size: 20px;
-                font-weight: bold;
-                width: 10rem;
-            }
-        }
-    }
 }
