@@ -8,12 +8,13 @@ layout: default
 
 <div class="contact">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 details">
-                <h1 class="page-main-title mt-5">
-                    {{ strings.contact_title }}
-                    <a href="{{ site.data.contact.keybase_team_page }}" target="_blank" rel="noreferrer noopener" class="join-keybase btn btn-lg float-md-right order-md-first d-block mt-4 mt-md-0">{{ strings.contact_join_keybase }}</a>
-                </h1>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="page-main-title mt-5">{{ strings.contact_title }}</h1>
+            </div>
+        </div>
+        <div class="row details">
+            <div class="col-lg-5">
                 <div class="details-box">
                     <h2>{{ site.data.contact.name }}</h2>
                     <a class="contact-email" href="{{ site.data.contact.email }}">{{ site.data.contact.email }}</a>
@@ -32,11 +33,16 @@ layout: default
                     <div class="handle">
                         <img src="/img/social/medium.svg" alt="Medium Logo"> <a href="https://medium.com/@{{ site.data.contact.medium_username }}" target="_blank" rel="noreferrer noopener">@{{ site.data.contact.medium_username }}</a>
                     </div>
+                </div>
+            </div>
+            <div class="col-lg-7 mt-3 mt-lg-0">
+                <div class="details-box text-lg-center">
                     {% include email_box.html %}
+                    <a href="{{ site.data.contact.keybase_team_page }}" target="_blank" rel="noreferrer noopener" class="join-keybase btn">{{ strings.contact_join_keybase }}</a>
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-12 keybase-live-feed">
                 <h1 class="page-main-title">{{ strings.contact_live_feed_title }}</h1>
                 <iframe src="https://dev.chia.net/"></iframe>
