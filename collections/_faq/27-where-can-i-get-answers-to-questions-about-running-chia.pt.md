@@ -4,4 +4,4 @@ order: 27
 title: "Where can I get answers to questions about running Chia?"
 ---
 
-You should first read the [repository FAQ](https://github.com/Chia-Network/chia-blockchain/wiki/FAQ) and  join us on [Keybase](https://keybase.io/team/chia_network.public) in the #testnet or #beginner channels.
+Você deve primeiro ler o [repositório FAQ](https://github.com/Chia-Network/chia-blockchain/wiki/FAQ) e juntar-se a nós no [Keybase](https://keybase.io/team/chia_network. público) nos canais #testnet ou #beginner.
