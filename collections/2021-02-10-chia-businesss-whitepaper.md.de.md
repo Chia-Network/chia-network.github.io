@@ -6,13 +6,15 @@ date: 2021-02-10
 author: "[Gene Hoffman](https://twitter.com/hoffmang)"
 ---
 
-Yesterday evening we release the first version of our [Business Whitepaper](https://www.chia.net/assets/Chia-Business-Whitepaper-2021-02-09-v1.0.pdf). The goal of this document was to go into depth on the transformative impact that programmable digital money is going to have  finance, wealth, safety, digital security, and ultimately the entire concept of trust.
+Yesterday evening we released the first version of our [Business Whitepaper](https://www.chia.net/assets/Chia-Business-Whitepaper-2021-02-09-v1.0.pdf). The goal of this document was to go into depth on the transformative impact that programmable digital money is going to have in finance, wealth, safety, digital security, and ultimately the entire concept of trust.
 
-This also outlines how we plan to go to market, how we plan to use the corporate for to do that, and how we intend to use our pre-farm. It also explains the tokenomics of chia coins and walks through the controls we are putting in place to assure that the pre-farm is a secure and predictable tool that we will use to finance development and growth and ultimately give everyone a chance to own their own part of the pre-farm.
+This also outlines how we plan to go to market, how we plan to use the corporate form to do that, and how we intend to use our pre-farm. It also explains the tokenomics of chia coins and walks through the controls we are putting in place to assure that the pre-farm is a secure and predictable tool that we will use to finance development and growth and ultimately give everyone a chance to own their own part of the pre-farm.
 
-This comes on the heels of our recent announcement that [Chuck Stoops has joined our board of directors](https://newsdirect.com/news/international-payments-executive-and-fintech-counsel-joins-chia-network-board-of-directors-chuck-stoops-brings-significant-regulatory-and-corporate-governance-experience-649013515). He is the first of a total of three outside members we will be appointing shortly to create a majority independent board.
+This also shares that we are currently predicting our mainnet launch to be **on or before March 17, 2021**.
 
-Our plans and structure are unique and touch on a lot of different areas of expertise including enterprise software sales, blockchain project governance, and securities laws and other regulations that we have to have in mind to have the resources needed to drive the adoption of the Chia blockchain into the worlds financial infrastructure.
+This comes on the heels of our January 14th announcement that [Chuck Stoops has joined our board of directors](https://newsdirect.com/news/international-payments-executive-and-fintech-counsel-joins-chia-network-board-of-directors-chuck-stoops-brings-significant-regulatory-and-corporate-governance-experience-649013515). He is the first of a total of three outside members we will be appointing shortly to create a majority independent board.
+
+Our plans and structure are unique and touch on a lot of different areas of expertise including enterprise software sales, blockchain project governance, and securities laws and other regulations that we must navigate to have the resources needed to drive the adoption of the Chia blockchain into the worlds financial infrastructure.
 
 To that end we have set up two Zoom meetings so that everyone around the world can easily attend one or the other.
 
