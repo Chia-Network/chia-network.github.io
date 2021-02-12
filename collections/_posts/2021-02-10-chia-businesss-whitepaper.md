@@ -24,7 +24,7 @@ When: Feb 11, 2021 04:00 PM Pacific Time (US and Canada)
 
 Topic: Chia Business Whitepaper Discussion - Asia
 
-- Updated February 12, 2021 : A [replay is now available](https://youtu.be/9P0vaux2h6o) on YouTube.
+- Updated February 11, 2021 : A [replay is now available](https://youtu.be/9P0vaux2h6o) on YouTube.
 
 
 # Europe and the Americas:
@@ -33,15 +33,7 @@ When: Feb 12, 2021 10:00 AM Pacific Time (US and Canada)
 
 Topic: Chia Business Whitepaper Discussion - Europe
 
-- Please click the link below to join the webinar:
-- [https://us02web.zoom.us/j/83172322896](https://us02web.zoom.us/j/83172322896)
--  Or iPhone one-tap :
-    US: +16699006833,,83172322896#  or +12532158782,,83172322896#
-- Or Telephone:
-    - Dial(for higher quality, dial a number based on your current location):
-      - US: +1 669 900 6833  or +1 253 215 8782  or +1 346 248 7799  or +1 301 715 8592  or +1 312 626 6799  or +1 929 436 2866
-- Webinar ID: 831 7232 2896
-- [International numbers available](https://us02web.zoom.us/u/kbpPIithsh)
+- Updated February 12, 2021 : A [replay is now available](https://youtu.be/2uvlop-hlio) on YouTube.
 
 We will attempt to also stream those live to our [YouTube channel](https://www.youtube.com/channel/UChFkJ3OAUvnHZdiQISWdWPA) but that has not been reliable in the past. However we will also be recording them and will enable replay on YouTube a couple of hours after they are complete.
 
