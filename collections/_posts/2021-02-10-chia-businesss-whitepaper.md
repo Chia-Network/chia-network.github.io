@@ -24,15 +24,7 @@ When: Feb 11, 2021 04:00 PM Pacific Time (US and Canada)
 
 Topic: Chia Business Whitepaper Discussion - Asia
 
-- Please click the link below to join the webinar:
-- [https://us02web.zoom.us/j/81935115800](https://us02web.zoom.us/j/81935115800)
-- Or iPhone one-tap :
-    US: +16699006833,,81935115800#  or +12532158782,,81935115800#
-- Or Telephone:
-    - Dial(for higher quality, dial a number based on your current location):
-      - US: +1 669 900 6833  or +1 253 215 8782  or +1 346 248 7799  or +1 312 626 6799  or +1 929 436 2866  or +1 301 715 8592
-- Webinar ID: 819 3511 5800
-- [International numbers available](https://us02web.zoom.us/u/kbpPIithsh)
+- Updated February 12, 2021 : A [replay is now available](https://youtu.be/9P0vaux2h6o) on YouTube.
 
 
 # Europe and the Americas:
