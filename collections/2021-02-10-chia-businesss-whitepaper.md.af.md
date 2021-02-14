@@ -6,7 +6,7 @@ date: 2021-02-10
 author: "[Gene Hoffman](https://twitter.com/hoffmang)"
 ---
 
-Yesterday evening we released the first version of our [Business Whitepaper](https://www.chia.net/assets/Chia-Business-Whitepaper-2021-02-09-v1.0.pdf). The goal of this document was to go into depth on the transformative impact that programmable digital money is going to have in finance, wealth, safety, digital security, and ultimately the entire concept of trust.
+Yesterday evening we released the first version of our [Business Whitepaper](https://www.chia.net/assets/Chia-Business-Whitepaper-2021-02-09-v1.0.pdf). The goal of this document was to go into depth on the transformative impact that programmable digital money is going to have in finance, wealth, safety, digital security, and ultimately the entire concept of trust. There are now replays of our two Zoom meetings answering questions about the Whitepaper below.
 
 This also outlines how we plan to go to market, how we plan to use the corporate form to do that, and how we intend to use our pre-farm. It also explains the tokenomics of chia coins and walks through the controls we are putting in place to assure that the pre-farm is a secure and predictable tool that we will use to finance development and growth and ultimately give everyone a chance to own their own part of the pre-farm.
 
