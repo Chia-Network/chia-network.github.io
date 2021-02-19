@@ -4,7 +4,7 @@ en: # English
   news_see_more: "See more"
   download_title: "Chia Network"
   download_subtitle: "A new blockchain and smart transaction platform that is easier to use, more efficient, and secure."
-  download_announce: "Release Candidate 1 for <a href='https://download.chia.net/release-candidate/ChiaSetup-0.2.1.exe'>Windows</a> or <a href='https://download.chia.net/release-candidate/Chia-0.2.1.dmg'>MacOS</a>. Our <a href='https://www.chia.net/2021/02/10/chia-businesss-whitepaper.html'>Business Whitepaper</a> is now available."
+  download_announce: "Release Candidate 2 for <a href='https://download.chia.net/release-candidate/ChiaSetup-0.2.2.exe'>Windows</a> or <a href='https://download.chia.net/release-candidate/Chia-0.2.2.dmg'>MacOS</a>. Our <a href='https://www.chia.net/2021/02/10/chia-businesss-whitepaper.html'>Business Whitepaper</a> is now available."
   download_button: "Download Beta Testnet"
   download_description: |
     Beta Testnet
