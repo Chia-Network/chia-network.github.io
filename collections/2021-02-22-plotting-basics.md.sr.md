@@ -137,4 +137,4 @@ Once you have read the FAQ, you'll find a supportive community in these channels
 
 ## Thanks
 
-@pyl, @kiwihaitch, and @storage_jm all helped out on this post. The mistakes are mine. Should something need to be updated I will edit and post the errata down here.
+@pyl, @kiwihaitch, @psydafke, and @storage_jm all helped out on this post. The mistakes are mine. Should something need to be updated I will edit and post the errata down here.
