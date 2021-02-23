@@ -65,7 +65,7 @@ RAM requirements are different between bitfield and no bitfield. Bitfield requir
   <tr>
     <td class="tg-102i">Bitfield</td>
     <td class="tg-3k1g">2500</td>
-    <td class="tg-3k1g">3840</td>
+    <td class="tg-3k1g">3400</td>
     <td class="tg-3k1g">6750</td>
   </tr>
   <tr>
