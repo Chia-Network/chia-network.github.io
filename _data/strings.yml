@@ -18,7 +18,7 @@ en: # English
 
     Chialisp is Chia’s new on chain programming language that is powerful, easy to audit, and secure. It will make cryptocurrency easier to use than cash or credit. Reference smart transactions currently available are: [atomic swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [authorized payees](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [recoverable wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), [rate-limited wallets](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md), and [Coloured coins](https://www.chia.net/2020/04/29/coloured-coins-launch.en.html). Bram introduces [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) on our [blog](https://www.chia.net/blog/).
 
-    As this is a beta release, you should review the [release notes](https://www.chia.net/releases/) and then [install](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL) Chia blockchain.
+    As this is pre-release software, you should review the [release notes](https://www.chia.net/releases/) and then [install](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL) Chia blockchain.
   download_addendum: |
     Released under the open source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
   download_box_title: "Download"
