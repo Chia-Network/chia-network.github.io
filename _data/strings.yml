@@ -7,7 +7,7 @@ en: # English
   download_announce: "Release Candidate 4 for <a href='https://download.chia.net/release-candidate/ChiaSetup-0.2.4.exe'>Windows</a> or <a href='https://download.chia.net/release-candidate/Chia-0.2.4.dmg'>MacOS</a>. Start with our <a href='https://www.chia.net/2021/02/22/plotting-basics.html'>beginners guide to plotting</a>."
   download_button: "Download Beta Testnet"
   download_description: |
-    Beta Testnet
+    Release Candidates
     --------------------
 
     We believe that cryptocurrency should be easier to use than cash, harder to lose, and nearly impossible to steal. Anyone who wants to validate transactions should be able to farm without single-use hardware or a big electricity bill.
@@ -126,7 +126,7 @@ fr: # French
   download_subtitle: "Une meilleure blockchain et une plateforme de transaction intelligente qui est plus décentralisée, plus efficace et plus sécurisée."
   download_button: "Télécharger Beta Testnet"
   download_description: |
-    Beta Testnet de Chia
+    Release Candidates
     ---------------------
 
     Chia Network est une plateforme de blockchain et de transaction intelligente créée par le fondateur de BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Il utilise le premier nouvel algorithme de consensus de style Nakamoto depuis le lancement de Bitcoin en 2008. Les preuves de l'espace et du temps remplacent les preuves de travail énergivores en utilisant l'espace disque inutilisé.
