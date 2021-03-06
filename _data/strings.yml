@@ -4,7 +4,7 @@ en: # English
   news_see_more: "See more"
   download_title: "Chia Network"
   download_subtitle: "A new blockchain and smart transaction platform that is easier to use, more efficient, and secure."
-  download_announce: "Release Candidate 5 for <a href='https://download.chia.net/release-candidate/ChiaSetup-0.2.5.exe'>Windows</a> or <a href='https://download.chia.net/release-candidate/Chia-0.2.5.dmg'>MacOS</a>.</br>4PM PST March 5 - Zoom cocktails on <a href='https://www.chia.net/2021/03/04/farming-and-energy.html'>farming and electricity use</a>."
+  download_announce: "Release Candidate 5 for <a href='https://download.chia.net/release-candidate/ChiaSetup-0.2.5.exe'>Windows</a> or <a href='https://download.chia.net/release-candidate/Chia-0.2.5.dmg'>MacOS</a>. Start with our <a href='https://www.chia.net/2021/02/22/plotting-basics.html'>beginners guide to plotting</a>."
   download_button: "Download Beta Testnet"
   download_description: |
     Release Candidates
