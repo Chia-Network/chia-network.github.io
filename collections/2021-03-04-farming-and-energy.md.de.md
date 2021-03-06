@@ -16,10 +16,7 @@ We will again attempt to also stream live but with a new strategy. It may or may
 
 
 - Topic: Farming Hardware and Electricity Usage of Chia
-- When: Mar 5, 2021 04:00 PM Pacific Time (US and Canada)
-
-- Please click the link below to join the Zoom:
-- [https://us02web.zoom.us/j/87477928060](https://us02web.zoom.us/j/87477928060)
+- The **[replay](https://youtu.be/oGTBMKVXRuA)** is now available on YouTube.
 
 <p style="text-align: center;">🥃🍺🍷🍸</p>
 
