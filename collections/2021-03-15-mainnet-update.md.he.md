@@ -8,7 +8,7 @@ author: "[Gene Hoffman](https://twitter.com/hoffmang)"
 
 We want to give you an update on mainnet timing and our general plans around the launch.
 
-First, as I write this, GitHub Actions is [down hard](https://www.githubstatus.com/incidents/s654n76c1bwr) so these plans already have a potential snag to them are our current best estimate. We want the Chia blockchain to be right and not necessarily right now.
+First, as I write this, GitHub Actions is [down hard](https://www.githubstatus.com/incidents/s654n76c1bwr) so these plans already have a potential snag to them and are our current best estimate. We want the Chia blockchain to be right and not necessarily right now.
 
 With the RC6 green flag launch we found issues around the green flag process for some and weight proof issues effecting lower powered devices like the Pi 4. We shipped [RC7](https://github.com/Chia-Network/chia-blockchain/releases/tag/1.0rc7) over the weekend to fix the green flag issues and it mostly did but we recently identified an additional issue that we believe warrants a second attempt at the green flag process. Additionally, the weight proof fixes require a new chain to test. Finally some users on MacOS are having issues plotting from the GUI that we would really prefer to resolve before 1.0 is out. Those users can plot from the CLI fine however.
 
