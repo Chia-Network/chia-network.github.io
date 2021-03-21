@@ -17,6 +17,7 @@ We will again attempt to also stream live but with a new strategy. It may or may
 
 - Topic: Farming Hardware and Electricity Usage of Chia
 - The **[replay](https://youtu.be/oGTBMKVXRuA)** is now available on YouTube.
+- Update - @storage_jm has published [ChiaPower.org](https://chiapower.org/) to host his model.
 
 <p style="text-align: center;">🥃🍺🍷🍸</p>
 
