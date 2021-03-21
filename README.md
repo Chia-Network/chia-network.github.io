@@ -16,7 +16,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-More detailed instructions available at the [GitHub Pages documentation](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/). Really, GitHub?
+More detailed instructions available at the [GitHub Pages documentation](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/). Really, GitHub? Yep. Really.
 
 ### Videos
 
