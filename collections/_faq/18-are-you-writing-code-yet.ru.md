@@ -1,7 +1,20 @@
 ---
 lang: ru
-order: 18
+order: 19
 title: "Вы еще пишете код?"
 ---
 
-Да, хотя мы прилагаем огромные усилия для безопасной архитектуры блокчейна, мы уже выпустили библиотеку [BLS Signature library](https://github.com/Chia-Network/bls-signatures), реализацию [VDF/Proof of Time](https://github.com/Chia-Network/vdf-competition), и реализацию [Proof of Space](https://github.com/Chia-Network/proofofspace). Подписи BLS Signatures позволяют лучше хранить и контролировать транзакции в блокчейне, а POT и POS имеют решающее значение для нашего алгоритма консенсуса. Мы запустили как нашу [Бета-тестовую сеть](https://github.com/Chia-Network/chia-blockchain) and [Chialisp with a wallet simulator](https://www.chia.net/2019/11/27/chialisp.en.html) для создания умных транзакций Chia.
+Мы почти закончили с 1.0.
+
+Блокчейн Chia состоит из нескольких разных репозиториев.
+
+| Репозиторий                                                                 | Содержит                                                                      |
+|----------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [chia-blockchain](https://github.com/Chia-Network/chia-blockchain)         | Код посвященный консенсусу, сетевому взаимодействию и эталонной имплементации Chialisp.           |
+| [chia-blockchain-gui](https://github.com/Chia-Network/chia-blockchain-gui) | Графический интерфейс пользователя на Electron/React для плоттера, узла и кошельков. |
+| [clvm](https://github.com/Chia-Network/clvm)                               | Виртуальная машина Chialisp на Python                                            |
+| [clvm-rs](https://github.com/Chia-Network/clvm_rs)                         | Виртуальная машина Chialisp на Rust для безопасности и производительности.                |
+| [chiapos](https://github.com/Chia-Network/chiapos)                         | Создание участков и валидация Доказательств пространства (Proofs of Space).                                 |
+| [chiavdf](https://github.com/Chia-Network/chiavdf)                         | Доказательства времени/VDF и Таймлорды.                                            |
+| [bls-signatures](https://github.com/Chia-Network/bls-signatures)           | Схема подписи стандарта IETF BLS-12-381                                    |
+| [clvm_tools](https://github.com/Chia-Network/clvm_tools)                   | Инструменты для Chialisp и CLVM.                                                  |
