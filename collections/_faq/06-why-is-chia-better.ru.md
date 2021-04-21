@@ -1,6 +1,6 @@
 ---
 lang: ru
-order: 7
+order: 6
 title: "Почему Chia лучше?"
 ---
 

@@ -1,6 +1,6 @@
 ---
 lang: ru
-order: 21
+order: 20
 title: "Использует ли Chia код Биткоина?"
 ---
 

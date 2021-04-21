@@ -1,6 +1,6 @@
 ---
 lang: ru
-order: 9
+order: 8
 title: "Какая стратегия у Chia Network?"
 ---
 
