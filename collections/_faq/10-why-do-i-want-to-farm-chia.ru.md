@@ -1,6 +1,6 @@
 ---
 lang: ru
-order: 11
+order: 10
 title: "Почему мне нужно фармить Chia?"
 ---
 

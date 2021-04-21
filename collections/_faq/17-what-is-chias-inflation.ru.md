@@ -1,6 +1,6 @@
 ---
 lang: ru
-order: 18
+order: 17
 title: "Какая инфляция у Chia?"
 ---
 
