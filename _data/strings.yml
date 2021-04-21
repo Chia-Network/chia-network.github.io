@@ -1150,21 +1150,21 @@ ru: # Russian
   news_see_more: "Узнать больше"
   download_title: "Chia Network"
   download_subtitle: "Новый блокчейн и платформа смарт-транзакций, которые более эффективны, децентрализованны и безопасны."
-  download_announce: "Загрузите Beta 13 для <a href='https://download.chia.net/beta-1.13-win64/ChiaSetup-0.1.13.exe'>Windows</a> или <a href='https://download.chia.net/beta-1.13-macos/Chia-0.1.13.dmg'>MacOS</a>. Работает быстрее, используя на 40% меньше пространства для временных файлов!"
-  download_button: "Скачать Beta для тестовой сети"
+  download_announce: "<a href='https://www.chia.net/2021/03/17/Chia-1.0.html'>Основная сеть уже здесь!</a> Загрузите версию 1.0.5 для <a href='https://download.chia.net/latest/Setup-Win64.exe'>Windows</a> или <a href='https://download.chia.net/latest/Setup-MacOS.dmg'>MacOS</a>."
+  download_button: "Скачать"
   download_description: |
-    Бета-тестовая сеть
+    Релиз основной сети
     --------------------
 
     Мы считаем, что криптовалютой должно быть проще пользоваться, чем наличными, ее сложнее потерять и почти невозможно украсть. Любой, кто хочет валидировать транзакции, должен иметь возможность заниматься фермерством без одноразового оборудования и больших счетов за электроэнергию.
+
+    9 февраля 2021 мы выпустили наш бизнес-документ (Business Whitepaper) и запустили основную сеть для фарминга в пятницу, 19 марта 2021 года. Транзакции будут активированы 3 мая 2021 года около 10:00 по тихоокеанскому времени. Вас также может заинтересовать наш рабочий документ о новом консенсусе, который впервые был реализован в 19-й бета-версии, 12 января 2021 года.
 
     Chia Network разрабатывает блокчейн и платформу интеллектуальных транзакций, созданную изобретателем BitTorrent, [Брэмом Коэном](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Он реализует первый новый алгоритм консенсуса Накамото со времен Биткойна с 2008 года. Доказательство пространства и времени (Proofs of Space and Time) заменят энергоемкое «доказательство работы» (proofs-of-work)
 
     Chialisp - это новый язык программирования Chia для цепочек, который является мощным, легким для аудита и безопасным. Рекомендуем смарт-транзакций доступные в настоящий момент: [атомарные свопы](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [уполномоченные получатели](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [восстанавливаемые кошельки](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [кошельки с мультиподписью](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), [кошельки с ограничением скорости](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md) и цветные монеты. Брэм представляет [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) в нашем [блоге](https://www.chia.net/blog/).
 
-    Бета-тестовая сеть включает в себя полные узлы, фермеров, таймлордов, кошельки и реализацию [цветных монет](https://www.chia.net/2020/04/29/coloured-coins-launch.en.html) Chia.
-
-    Поскольку это бета-версия, вам следует ознакомиться с [примечаниями к релизу](https://www.chia.net/releases/) и затем [установить](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL) блокчейн Chia.
+    Вам следует ознакомиться с [примечаниями к релизу](https://www.chia.net/releases/) и затем [установить](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL) блокчейн Chia.
   download_addendum: |
     Выпущено под [лицензией Apache](https://www.apache.org/licenses/LICENSE-2.0) с открытым исходным кодом.
   download_box_title: "Скачать"
@@ -1195,9 +1195,9 @@ ru: # Russian
 
     Многие в команде Chia находятся в районе залива Сан-Франциско, но удаленный доступ - это хорошо, поскольку у нас есть люди по всему миру - мы работаем с помощью Keybase, GitHub и Zoom. Любые географические ограничения будут указаны в спецификации вакансии.
 
-    Отправьте свое резюме и сопроводительное письмо на адрес [jobs@chia.net](jobs@chia.net). Пожалуйста, укажите должность, на которую вы претендуете, в строке темы и включите все, что дополнительно требуется для конкретной публикации о вакансии.
+    Пожалуйста, отправьте свое резюме и сопроводительное письмо на адрес [jobs@chia.net](jobs@chia.net). Пожалуйста, укажите должность, на которую вы претендуете, в строке темы и включите все, что дополнительно требуется для конкретной публикации о вакансии.
   blog_title: "Заметки от Chia"
-  releases_title: "Примечания к релизу"
+  releases_title: "Релизы"
   releases_loading_message: "Загрузка релизов..."
   green_paper_main_title: "Зеленая книга Chia"
   green_paper_download: "Скачать Зеленую книгу"
