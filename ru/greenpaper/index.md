@@ -1,5 +1,5 @@
 ---
 layout: greenpaper
 lang: ru
-title: Зелёная бумага - Chia Network
+title: Зелёная книга - Chia Network
 ---

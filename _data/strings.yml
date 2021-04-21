@@ -4,19 +4,21 @@ en: # English
   news_see_more: "See more"
   download_title: "Chia Network"
   download_subtitle: "A new blockchain and smart transaction platform that is easier to use, more efficient, and secure."
-  download_announce: "Beta 26 for <a href='https://download.chia.net/beta-1.26-win64/ChiaSetup-0.1.26.exe'>Windows</a> or <a href='https://download.chia.net/beta-1.26-macos/Chia-0.1.26.dmg'>MacOS</a>. Review our <a href='https://docs.google.com/document/d/1tmRIb7lgi4QfKkNaxuKOBHRmwbVlGL4f7EsBDr_5xZE/edit'>new consensus document</a>."
+  download_announce: "<a href='https://www.chia.net/2021/03/17/Chia-1.0.html'>Mainnet is here!</a>. Download 1.0.5 for <a href='https://download.chia.net/latest/Setup-Win64.exe'>Windows</a> or <a href='https://download.chia.net/latest/Setup-MacOS.dmg'>MacOS</a>."
   download_button: "Download Beta Testnet"
   download_description: |
-    Beta Testnet
+    Mainnet Release
     --------------------
 
     We believe that cryptocurrency should be easier to use than cash, harder to lose, and nearly impossible to steal. Anyone who wants to validate transactions should be able to farm without single-use hardware or a big electricity bill.
+
+    On February 9th we released our [Business Whitepaper](https://www.chia.net/2021/02/10/chia-businesss-whitepaper.html) and mainnet launched for farming rewards on Friday March 19, 2021. Transactions will be enabled on May 3, 2021 around 10AM PDT. You may also be interested in our [new consensus working document](https://docs.google.com/document/d/1tmRIb7lgi4QfKkNaxuKOBHRmwbVlGL4f7EsBDr_5xZE/edit) which was implemented first in Beta 19 on January 12, 2021.
 
     Chia Network develops a blockchain and smart transaction platform created by the inventor of BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). It implements the first new Nakamoto consensus algorithm since Bitcoin in 2008. Proofs of Space and Time replace energy intensive “proofs of work.”
 
     Chialisp is Chia’s new on chain programming language that is powerful, easy to audit, and secure. It will make cryptocurrency easier to use than cash or credit. Reference smart transactions currently available are: [atomic swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [authorized payees](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [recoverable wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), [rate-limited wallets](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md), and [Coloured coins](https://www.chia.net/2020/04/29/coloured-coins-launch.en.html). Bram introduces [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) on our [blog](https://www.chia.net/blog/).
 
-    As this is a beta release, you should review the [release notes](https://www.chia.net/releases/) and then [install](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL) Chia blockchain.
+    You should review the [release notes](https://www.chia.net/releases/) and then [install](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL) Chia blockchain.
   download_addendum: |
     Released under the open source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
   download_box_title: "Download"
@@ -34,7 +36,7 @@ en: # English
 
     Chialisp is Chia’s new smart transaction programming language that is powerful, easy to audit, and secure. The blockchain is powered by the first new Nakamoto style consensus algorithm since Bitcoin launched in 2008. Proofs of Space and Time replace energy intensive “proofs of work” by utilizing unused disk space.
 
-    Chia Network supports the development and deployment of the Chia blockchain globably. Chia Network supports chia developers and supports the enterprise use of chia with software support and chia lending.
+    Chia Network supports the development and deployment of the Chia blockchain globally. Chia Network supports chia developers and supports the enterprise use of chia with software support and chia lending.
   about_team_title: "Team"
   about_team_description: |
     Chia Network was founded by the creator of BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). It also includes executive leadership from the former founder and CEO of eMusic.com and Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/) and the former acting-CEO of Overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/). The Chia blockchain has an active open source developer community with many contributions to the codebase. Many individuals contribute towards the Chia blockchain in areas which include research, peer reviews, development, testing, documentation, and translation.
@@ -54,7 +56,7 @@ en: # English
   green_paper_main_title: "Chia's Green Paper"
   green_paper_download: "Download Green Paper"
   green_paper_description: |
-    The Green Paper details a new consensus algorithm called Proofs of Space and Time, “PoST”. PoST replaces the proofs of work in Bitcoin’s mining which wastes massive amounts of energy and is less secure to mining centralization.
+    The Green Paper details a new consensus algorithm called Proofs of Space and Time, “PoST”. PoST replaces the Proof of Work which wastes massive amounts of energy and is less secure against mining centralization.
   green_paper_addendum_title: "Learn more"
   green_paper_addendum: |
     We have academic papers and presentations that give detail about our new consensus algorithm and blockchain software. In 2019 we revealed our [Green Paper](https://www.chia.net/assets/ChiaGreenPaper.pdf) outlining the construction of Proofs of Space and Time and illustrating many of the design choices of Chia. There is also a [2019 talk from Mariano Sorgente](https://www.youtube.com/watch?v=_075bzQPooU) at MIT on how to achieve Nakamoto consensus with Proof of Space and VDFs.
@@ -124,7 +126,7 @@ fr: # French
   download_subtitle: "Une meilleure blockchain et une plateforme de transaction intelligente qui est plus décentralisée, plus efficace et plus sécurisée."
   download_button: "Télécharger Beta Testnet"
   download_description: |
-    Beta Testnet de Chia
+    Release Candidates
     ---------------------
 
     Chia Network est une plateforme de blockchain et de transaction intelligente créée par le fondateur de BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Il utilise le premier nouvel algorithme de consensus de style Nakamoto depuis le lancement de Bitcoin en 2008. Les preuves de l'espace et du temps remplacent les preuves de travail énergivores en utilisant l'espace disque inutilisé.
@@ -1148,21 +1150,21 @@ ru: # Russian
   news_see_more: "Узнать больше"
   download_title: "Chia Network"
   download_subtitle: "Новый блокчейн и платформа смарт-транзакций, которые более эффективны, децентрализованны и безопасны."
-  download_announce: "Загрузите Beta 13 для <a href='https://download.chia.net/beta-1.13-win64/ChiaSetup-0.1.13.exe'>Windows</a> или <a href='https://download.chia.net/beta-1.13-macos/Chia-0.1.13.dmg'>MacOS</a>. Работает быстрее, используя на 40% меньше пространства для временных файлов!"
-  download_button: "Скачать Beta для тестовой сети"
+  download_announce: "<a href='https://www.chia.net/2021/03/17/Chia-1.0.html'>Основная сеть здесь!</a> Загрузите версию 1.0.5 для <a href='https://download.chia.net/latest/Setup-Win64.exe'>Windows</a> или <a href='https://download.chia.net/latest/Setup-MacOS.dmg'>MacOS</a>."
+  download_button: "Скачать"
   download_description: |
-    Бета-тестовая сеть
+    Релиз основной сети
     --------------------
 
     Мы считаем, что криптовалютой должно быть проще пользоваться, чем наличными, ее сложнее потерять и почти невозможно украсть. Любой, кто хочет валидировать транзакции, должен иметь возможность заниматься фермерством без одноразового оборудования и больших счетов за электроэнергию.
+
+    9 февраля 2021 мы выпустили наш бизнес-документ (Business Whitepaper) и запустили основную сеть для фарминга в пятницу, 19 марта 2021 года. Транзакции будут активированы 3 мая 2021 года около 10:00 по тихоокеанскому времени. Вас также может заинтересовать наш рабочий документ о новом консенсусе, который впервые был реализован в 19-й бета-версии, 12 января 2021 года.
 
     Chia Network разрабатывает блокчейн и платформу интеллектуальных транзакций, созданную изобретателем BitTorrent, [Брэмом Коэном](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Он реализует первый новый алгоритм консенсуса Накамото со времен Биткойна с 2008 года. Доказательство пространства и времени (Proofs of Space and Time) заменят энергоемкое «доказательство работы» (proofs-of-work)
 
     Chialisp - это новый язык программирования Chia для цепочек, который является мощным, легким для аудита и безопасным. Рекомендуем смарт-транзакций доступные в настоящий момент: [атомарные свопы](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [уполномоченные получатели](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [восстанавливаемые кошельки](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [кошельки с мультиподписью](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), [кошельки с ограничением скорости](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md) и цветные монеты. Брэм представляет [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) в нашем [блоге](https://www.chia.net/blog/).
 
-    Бета-тестовая сеть включает в себя полные узлы, фермеров, таймлордов, кошельки и реализацию [цветных монет](https://www.chia.net/2020/04/29/coloured-coins-launch.en.html) Chia.
-
-    Поскольку это бета-версия, вам следует ознакомиться с [примечаниями к релизу](https://www.chia.net/releases/) и затем [установить](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL) блокчейн Chia.
+    Вам следует ознакомиться с [примечаниями к релизу](https://www.chia.net/releases/) и затем [установить](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL) блокчейн Chia.
   download_addendum: |
     Выпущено под [лицензией Apache](https://www.apache.org/licenses/LICENSE-2.0) с открытым исходным кодом.
   download_box_title: "Скачать"
@@ -1193,9 +1195,9 @@ ru: # Russian
 
     Многие в команде Chia находятся в районе залива Сан-Франциско, но удаленный доступ - это хорошо, поскольку у нас есть люди по всему миру - мы работаем с помощью Keybase, GitHub и Zoom. Любые географические ограничения будут указаны в спецификации вакансии.
 
-    Отправьте свое резюме и сопроводительное письмо на адрес [jobs@chia.net](jobs@chia.net). Пожалуйста, укажите должность, на которую вы претендуете, в строке темы и включите все, что дополнительно требуется для конкретной публикации о вакансии.
+    Пожалуйста, отправьте свое резюме и сопроводительное письмо на адрес [jobs@chia.net](jobs@chia.net). Пожалуйста, укажите должность, на которую вы претендуете, в строке темы и включите все, что дополнительно требуется для конкретной публикации о вакансии.
   blog_title: "Заметки от Chia"
-  releases_title: "Примечания к релизу"
+  releases_title: "Релизы"
   releases_loading_message: "Загрузка релизов..."
   green_paper_main_title: "Зеленая книга Chia"
   green_paper_download: "Скачать Зеленую книгу"
