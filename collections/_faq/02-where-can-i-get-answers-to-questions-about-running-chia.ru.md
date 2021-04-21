@@ -4,4 +4,4 @@ order: 2
 title: "Где я могу получить ответы на вопросы о запуске Chia?"
 ---
 
-You should first read the [repository FAQ](https://github.com/Chia-Network/chia-blockchain/wiki/FAQ), check out the wealth of information on the [repository wiki](https://github.com/Chia-Network/chia-blockchain/wiki/) and  join us on [Keybase](https://keybase.io/team/chia_network.public) in the #testnet or #beginner channels. We have also created a good [summary of the basics of creating plots](https://www.chia.net/2021/02/22/plotting-basics.html) for Chia.
+Сначала вам стоит прочитать [репозиторий FAQ](https://github.com/Chia-Network/chia-blockchain/wiki/FAQ) и ознакомиться со  всей информации в [вики-репозитории](https://github.com/Chia-Network/chia-blockchain/wiki/). Присоединяйтесь к нам на [Keybase](https://keybase.io/team/chia_network.public) на каналах #testnet или #beginner. Мы также создали хорошую статью [краткое руководство по основам создания участков](https://www.chia.net/2021/02/22/plotting-basics.html) в сети Chia.
