@@ -4,7 +4,7 @@ en: # English
   news_see_more: "See more"
   download_title: "Chia Network"
   download_subtitle: "A new blockchain and smart transaction platform that is easier to use, more efficient, and secure."
-  download_announce: "<a href='https://www.chia.net/2021/03/17/Chia-1.0.html'>Mainnet is here!</a>. Download 1.1.2 for <a href='https://download.chia.net/latest/Setup-Win64.exe'>Windows</a> or <a href='https://download.chia.net/latest/Setup-MacOS.dmg'>MacOS</a>."
+  download_announce: "<a href='https://www.chia.net/2021/03/17/Chia-1.0.html'>Mainnet is here!</a>. Download 1.1.3 for <a href='https://download.chia.net/latest/Setup-Win64.exe'>Windows</a> or <a href='https://download.chia.net/latest/Setup-MacOS.dmg'>MacOS</a>."
   download_button: "Download Beta Testnet"
   download_description: |
     Mainnet Release
