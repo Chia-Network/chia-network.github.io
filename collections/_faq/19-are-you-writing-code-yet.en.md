@@ -4,7 +4,7 @@ order: 19
 title: "Are you writing code yet?"
 ---
 
-We are almost done with 1.0.
+We are.
 
 The Chia Blockchain comes together from a few different repositories.
 
