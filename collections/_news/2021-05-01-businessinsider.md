@@ -4,6 +4,5 @@ weblink: "https://markets.businessinsider.com/currencies/news/green-cryptocurren
 date:   2021-05-01
 thumbnail: "/assets/news-businessinsider.png"
 source: businessinsider.com
-jumbotron: true
+jumbotron: false
 ---
-Here are 6 things to know about the digital asset before it starts trading on Monday.
