@@ -20,8 +20,16 @@ The new Chia cryptocurrency has received some inquiries regarding accelerated we
 
 Chia plotting creates the cryptographic data stored later for the proofs of space (retrieved later to validate the network in a process called farming). Plotting is only required once upon creating the data and requires compute, memory, and ephemeral storage. Plotting is a write-intensive process due to creating random data, sorting, and compression. The Chia team and community advocate using data center class SSDs or consumer drives meant for high-end desktops and workstations with a high TBW endurance rating for the plotting process. If a user selects a high-endurance data center SSD, they can plot for up to 10 years [[4](https://github.com/Chia-Network/chia-blockchain/wiki/SSD-Endurance)] before wearing out the device during the plotting process. Consumer SSDs have been optimized for light client workloads (web browsing, office work, gaming) and are not suitable for Chia plotting. With the endurance requirements being more significant than average consumer SSDs, the consensus in the community is to avoid using these is possible for Chia plotting. The Chia team realizes that consumer SSDs are the ones that are generally available, and there are some models that have enough endurance where users can plot all the farming capacity they have and still have a surplus of endurance. A comparison using a device not designed for such a workload would not be an accurate representation of what is being used to plot in Chia.
 
-"Also don't clean nonstick pans with steel wool, don't clean vegetables with soap, and don't use your phone as a doorstop. These aren't arguments against steel wool, soap, or phones, they're basic guidelines about using your tools properly."" [[Bram Cohen](https://twitter.com/bramcohen/status/1393991791590838277?s=20)]
-
+<center>
+<blockquote class="twitter-tweet">
+  <p lang="en" dir="ltr">
+    Also don't clean nonstick pans with steel wool, don't clean vegetables with soap, and don't use your phone as a doorstop. These aren't arguments against steel wool, soap, or phones, they're basic guidelines about using your tools properly.
+  </p>&mdash; Bram Cohen (@bramcohen) 
+  
+  <a href="https://twitter.com/bramcohen/status/1393991791590838277?ref_src=twsrc%5Etfw">May 16, 2021</a>
+</blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<br>
 
 ## HDD Plotting
 
