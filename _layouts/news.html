@@ -8,8 +8,10 @@ layout: default
 {% assign page_size = 6 %}
 
 <div class="container news">
+  <br>
+  <center>Media Inquiries: <a href='mailto: chia@fticonsulting.com'>chia@fticonsulting.com</a></center>
     <div class="jumbotron bg-white d-none d-md-block">
-        {% assign jumbo_news = site.news | where:"jumbotron","true" %} 
+        {% assign jumbo_news = site.news | where:"jumbotron","true" %}
         {% for entry in jumbo_news %}
             <div class="row">
                 <div class="col-lg-6">
@@ -32,7 +34,7 @@ layout: default
         </div>
     </div>
     <div class="row">
-        {% assign news = site.news | where:"jumbotron","false" | reverse %} 
+        {% assign news = site.news | where:"jumbotron","false" | reverse %}
         {% for entry in news %}
             <a class="article col-md-6 col-lg-4{% if forloop.index > page_size %} d-none{% endif %}" href="{{ entry.weblink }}" title="{{ entry.title }}" target="_blank" rel="noreferrer noopener">
                 <img class="w-100" src="{{ entry.thumbnail }}">
