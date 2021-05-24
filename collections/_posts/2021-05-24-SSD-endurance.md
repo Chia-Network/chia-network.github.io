@@ -38,6 +38,8 @@ Tesla performed a voluntary recall [[6](https://www.tesla.com/support/8gb-emmc-r
 
 Please reach out to Jonmichael Hands, VP of Storage Business Development, if you are an SSD vendor, partner, cloud provider, or have any Chia and storage use questions. Send and email to hello@chia.net to get connected.
 
+
+```
 [1] Worldwide Solid State Drive Market Shares, 2020: Pandemic Drives Strong Growth for Enterprise and Client SSDs
 [2] Forward Insights, Q1'21
 [3] https://www.snia.org/forums/cmsi/ssd-endurance
@@ -46,3 +48,4 @@ Please reach out to Jonmichael Hands, VP of Storage Business Development, if you
 [6] https://www.tesla.com/support/8gb-emmc-recall-frequently-asked-questions
 [7] http://intel.com/endurance
 [8] https://github.com/Chia-Network/chia-blockchain/wiki/Reference-Plotting-Hardware
+```
