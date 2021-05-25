@@ -1,12 +1,12 @@
 ---
 lang: en
 layout: post
-title: "Chia and SSD Endurance"
+title: "Chia 与 SSD 寿命"
 date: 2021-05-24
 author: "[Jonmichael Hands](https://twitter.com/LebanonJon)"
 ---
 
-## Overview of Chia plotting and farming
+## Chia 绘图及耕种概览
 
 The [Chia ](https://www.chia.net/)project is based on [proofs of space and time](https://www.chia.net/faq/), a brand new Nakamoto consensus allowing for underutilized storage capacity to secure the blockchain. Proofs of space are stored in plot files, where a commonly used k=32 plot is 101.3GiB (108.8 GB, or Gigabytes). Generating plot files is a process called plotting, which requires temporary storage space, compute and memory to create, sort, and compress the data into the final file. This process takes an estimated 256.6GB of temporary space, very commonly stored on SSDs to speed up the process, and approximately 1.3TiB of writes during the creation. The community realized early on that guidance was needed for SSD endurance, and a [wiki ](https://github.com/Chia-Network/chia-blockchain/wiki/SSD-Endurance)was created to help users select the proper SSD for plotting.
 
