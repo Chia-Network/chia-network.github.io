@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title: "Chia 与 SSD 寿命"
+title: "Chia 与固态硬盘寿命"
 date: 2021-05-24
 author: "[Jonmichael Hands](https://twitter.com/LebanonJon)"
 ---
@@ -16,7 +16,7 @@ The [Chia ](https://www.chia.net/)project is based on [proofs of space and time]
 The new Chia cryptocurrency has received some inquiries regarding accelerated wear-out on SSDs. Solid-state drives are the standard for storing user data in current laptops and desktops, overtaking HDDs due to lower latency, lower power, improved battery life, smaller form factors, and better reliability than hard disk drives. The worldwide SSD market reached $33.2B [1], with consumer SSDs reaching 338M units and $17.6B [2] in 2020 alone. SSDs come in a large variety. SSDs segmentation occurs with different segments (consumer, datacenter, enterprise), interfaces (PCIe/NVMe, SATA, SAS), performance, endurance, and media type (MLC, TLC, QLC) for the 3D NAND technologies. Mainstream SSDs use 3D NAND flash non-volatile memory in the floating gate and charge-trap / replacement gate technology (major NAND vendors include Micron, Intel, Samsung V-NAND, Kioxia & WD BiCS). 3D NAND has a limited amount of write endurance or the amount of data written to a drive before wearing out (device failure or inability to read or write additional user data). SSDs are rated in TBW (terabytes written) or DWPD (drive writes per day) to show how much data can be written before wearing out. [[3](https://www.snia.org/forums/cmsi/ssd-endurance)] SSD vendors use the JESD219 spec from the JEDEC organization [[5](https://www.jedec.org/)] for this rating with standardized tests and reporting. Endurance is very well understood and can be accurately modeled and predicted. [[7](http://intel.com/endurance)]
 
 
-## Chia plotting process and SSD selection
+## Chia 绘图过程与固态硬盘选择
 
 Chia plotting creates the cryptographic data stored later for the proofs of space (retrieved later to validate the network in a process called farming). Plotting is only required once upon creating the data and requires compute, memory, and ephemeral storage. Plotting is a write-intensive process due to creating random data, sorting, and compression. The Chia team and community advocate using data center class SSDs or consumer drives meant for high-end desktops and workstations with a high TBW endurance rating for the plotting process. If a user selects a high-endurance data center SSD, they can plot for up to 10 years [[4](https://github.com/Chia-Network/chia-blockchain/wiki/SSD-Endurance)] before wearing out the device during the plotting process. Consumer SSDs have been optimized for light client workloads (web browsing, office work, gaming) and are not suitable for Chia plotting. With the endurance requirements being more significant than average consumer SSDs, the consensus in the community is to avoid using these if possible for Chia plotting. The Chia team realizes that consumer SSDs are the ones that are generally available, and there are some models that have enough endurance where users can plot all the farming capacity they have and still have a surplus of endurance. A comparison using a device not designed for such a workload would not be an accurate representation of what is being used to plot in Chia.
 
@@ -31,7 +31,7 @@ Chia plotting creates the cryptographic data stored later for the proofs of spac
 </center>
 <br>
 
-## HDD Plotting
+## 机械硬盘绘图
 
 While most users are selecting SSDs [[8](https://github.com/Chia-Network/chia-blockchain/wiki/Reference-Plotting-Hardware)] for Chia plotting to create the data faster and gain a competitive advantage, the software itself does run fine plotting directly to HDD, albeit slower. Mainstream HDDs are rated at 200-550TB/year workload to meet the reliability metrics on the specification sheet. A new hard drive being plotted directly to will likely be right up against this limit in the first year, but Chia farming is a write-once / read-many workload where writing additional data overtime is unnecessary. The farming process is lightweight and slight wear and tear on the drive once the drive is full of the plots needed to participate in the network.
 
@@ -42,7 +42,7 @@ Tesla performed a voluntary recall [[6](https://www.tesla.com/support/8gb-emmc-r
 
 Macbooks that use the new Apple M1 chip saw users reporting accelerated SSD wear out, [9] possibly due to the increased use of swapping in MacOS and Rosetta 2.
 
-## Questions or concerns, and note for SSD vendors
+## 提问、建议、留言
 
 Please reach out to Jonmichael Hands, VP of Storage Business Development, if you are an SSD vendor, partner, cloud provider, or have any Chia and storage use questions. Send and email to hello@chia.net to get connected.
 
