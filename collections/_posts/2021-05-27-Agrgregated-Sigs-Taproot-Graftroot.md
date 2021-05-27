@@ -2,7 +2,7 @@
 lang: en
 layout: post
 title:  "Aggregated signatures, Taproot, Graftroot, and standard transactions"
-date:   2021-05-28
+date:   2021-05-27
 author: "[Bram Cohen](https://twitter.com/bramcohen)"
 ---
 
