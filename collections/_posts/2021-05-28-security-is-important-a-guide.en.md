@@ -47,15 +47,18 @@ One way of utilizing wallets in a safe way is this: Most of your XCH is stored i
 
 Read more here: [Chia Keys Management](https://github.com/Chia-Network/chia-blockchain/wiki/Chia-Keys-Management#2-keys-farming-key--cold-storage-key)
 
-### Social Engineering and Phishing
-Remember, don't trust anyone or anything online. A website may look legitimate, but are you sure? 
-* Verify the website you are on is `chia.net` and make sure there is a lock icon in the address bar.
-* 
+### Beware of Spearphishing
+Do you actually know the person you are talking to online is who they say they are? Do you know if the website you're on is legitimate? 
+
+Spearphishing is a targeted attack where you are scammed in some way through legitimate-looking fake websites or message.
+* When downloading Chia installers, verify the website you are on is `chia.net` and make sure there is a lock icon in the address bar.
+* Anyone contacting you through email or messaging apps could be potentially trying to scam you. Beware of the links and files they send you. 
 
 ### Remove Remote Access Tools
+There are many stories of attackers using weaknesses with remote access tools like TeamViewer or Microsoft Remote Desktop to remotely infiltrate a computer and steal information. We highly recommend you turn off or uninstall such software on your computer. How to turn off remote access tools varies across operating systems so we leave it to you to research online and use the many guides out there to do this.
 
 ### Device Encryption
-Encryption is one of the best tools in your arsenal. Encrypting 
+Encryption is one of the best tools in your arsenal.  
 
 
 
