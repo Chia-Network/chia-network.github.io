@@ -1,0 +1,35 @@
+.terms {
+    h2 {
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+        color: #5A6D6E;
+    }
+
+    .investor-pics {
+        background-color: white;
+        padding-top: 1rem;
+        padding-bottom: 50px;
+
+        .investor-pic {
+            opacity: 0.7;
+            transition: opacity 0.4s;
+            width: 100%;
+            height: 100%;
+            min-height: 150px;
+
+            &:hover { opacity: 1; }
+
+            img {
+                width: 100%;
+                height: 100%;
+                max-height: 178px;
+                object-position: 50% 50%;
+                object-fit: contain;
+            }
+        }
+    }
+}
