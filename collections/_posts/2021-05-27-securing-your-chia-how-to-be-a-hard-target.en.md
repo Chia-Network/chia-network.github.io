@@ -80,6 +80,8 @@ There are many stories of attackers using weaknesses with remote access tools li
 Encryption is one of the best tools in your arsenal. Enabling device encryption for your computers is highly recommended. If your computer ever gets lost or stolen, your data will remain inaccessible. Microsoft has a [support doc](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) for this, macOS has [FileVault](https://support.apple.com/en-ca/HT204837), and Linux has a variety of methods for this that you can look up.
 
 ## What We Are Doing
-* Verifying installer integrity: Implementing SHA-256 checksum for installer downloads.
-* 
+We will be updating how we deploy installers. 
+* You ill be able to verify downloaded installers using SHA-256 checksum
+* We will never release anything aside from installers. That is, the installer will have the filetype needed for your operating system. There will be no .rar or .zip file installers. If you see such an installer, delete it and report it immediately. 
 
+It will take some time to implement all our suggestions, but trust us, it's worth it. Take the time and be more secure. Stay vigilant out there!
