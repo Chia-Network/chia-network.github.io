@@ -47,7 +47,7 @@ Graftroot makes this just slightly more complicated by its solution containing t
 
 If several participants want to participate in a smart transaction, they can all collectively sign the metapuzzles to be used in the unclean solutions, then go about their business and if everything is clean in the end sign a metapuzzle which just returns the conditions they all arrived at and ignores the metasolution.
 
-Taproot is subtly different from graftroot. Its big advantage is that the trapdoor conditions can be committed to up front, without needing to coordinate with the other participants in a smart transaction to get their signatures in advance. It requires some extra hooks be built into the language to support it but we've added those and amde support for taproot trapdoors part of our standard puzzle format.
+Taproot is subtly different from graftroot. Its big advantage is that the trapdoor conditions can be committed to up front, without needing to coordinate with the other participants in a smart transaction to get their signatures in advance. It requires some extra hooks be built into the language to support it but we've added those and made support for taproot trapdoors part of our standard puzzle format.
 
 ![Taproot Pubkey Generation](/assets/blog/Taproot-Pub-Key-Generation.png "Taproot Pubkey Generation")
 
