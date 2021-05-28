@@ -61,7 +61,7 @@ Some methods of cold wallet storage include:
 
 One way of utilizing wallets in a safe way is this: Most of your XCH is stored in a cold wallet. You then have an accessible wallet (also known as a *hot wallet*) where you store a little bit of XCH for spending as you need it. 
 
-Read more here: [Chia Keys Management](https://github.com/Chia-Network/chia-blockchain/wiki/Chia-Keys-Management#2-keys-farming-key--cold-storage-key)
+Read more here: [Chia Keys Management](https://github.com/Chia-Network/chia-blockchain/wiki/Chia-Keys-Management#2-keys-farming-key--cold-storage-key) and [Good Security Practices on Many Machines](https://github.com/Chia-Network/chia-blockchain/wiki/Good-Security-Practices-on-Many-Machines)
 
 ### Beware of Spearphishing
 Do you actually know the person you are talking to online is who they say they are? Do you know if the website you're on is legitimate? 
