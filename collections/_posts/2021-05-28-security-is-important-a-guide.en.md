@@ -58,8 +58,7 @@ Spearphishing is a targeted attack where you are scammed in some way through leg
 There are many stories of attackers using weaknesses with remote access tools like TeamViewer or Microsoft Remote Desktop to remotely infiltrate a computer and steal information. We highly recommend you turn off or uninstall such software on your computer. How to turn off remote access tools varies across operating systems so we leave it to you to research online and use the many guides out there to do this.
 
 ### Device Encryption
-Encryption is one of the best tools in your arsenal.  
-
+Encryption is one of the best tools in your arsenal. Enabling device encryption for your computers is highly recommended. If your computer ever gets lost or stolen, your data will remain inaccessible. Microsoft has a [support doc](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) for this, macOS has [FileVault](https://support.apple.com/en-ca/HT204837), and Linux has a variety of methods for this that you can look up.
 
 
 
