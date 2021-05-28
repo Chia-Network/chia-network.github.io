@@ -6,19 +6,19 @@ date:   2021-05-28
 author: "[Justin England](https://www.linkedin.com/in/justindengland), [Jonmichael Hands](https://twitter.com/LebanonJon), and [Roy Natian](https://www.linkedin.com/in/roynatian)"
 ---
 
-> Many people are coming into Chia that are brand new to crypto. Many are veterans in crypto but new to computer hardware. Farming and plotting are very multidisciplinary, requiring knowledge of storage, networking, and computer architecture. For example, even though I had dealt with using ssh on my home network before Chia, I had never adequately had to lock down a system that I could remotely access securely - and I had to learn everything as I went. One night in the chat, someone told me to check `/var/log/auth.log` on my system that I had in co-location, and I nearly had a panic attack (you will see hundreds of failed log-in attempts from random IP addresses). I had secured the system with a powerful password, but I hadn't secured the system to only be accessed with a single ssh key. In the early days of Chia, we were playing with TXCH on the testnet. I had my seed in many plotting systems to make my scripts easier as I was still learning the ins and outs of Chia. This is not good security practice. Having a large surface area for your seed or private keys means more space to slip up or be vulnerable to a potential attack.\
-\
-In the talk, we will be covering tough lessons learned over the years of managing and securing crypto keys and general best security practices. I will tell a few stories about close calls, the time the whales think they got hacked, and the one area where I think I'm very well versed in use of full disk encryption on your SSD & operating system and data durability and probability for keeping your keys safe.
-See you guys on Friday 5/28!\
-\
-JM
+Many people are coming into Chia that are brand new to crypto. Many are veterans in crypto but new to computer hardware. Farming and plotting are very multidisciplinary, requiring knowledge of storage, networking, and computer architecture. For example, even though I had dealt with using ssh on my home network before Chia, I had never adequately had to lock down a system that I could remotely access securely - and I had to learn everything as I went. One night in the chat, someone told me to check `/var/log/auth.log` on my system that I had in co-location, and I nearly had a panic attack (you will see hundreds of failed log-in attempts from random IP addresses). I had secured the system with a powerful password, but I hadn't secured the system to only be accessed with a single ssh key. In the early days of Chia, we were playing with TXCH on the testnet. I had my seed in many plotting systems to make my scripts easier as I was still learning the ins and outs of Chia. This is not good security practice. Having a large surface area for your seed or private keys means more space to slip up or be vulnerable to a potential attack.
 
+In the talk, we will be covering tough lessons learned over the years of managing and securing crypto keys and general best security practices. I will tell a few stories about close calls, the time the whales think they got hacked, and the one area where I think I'm very well versed in use of full disk encryption on your SSD & operating system and data durability and probability for keeping your keys safe.
+See you guys on Friday 5/28!
+—JM
   
-    
+  
+  
 **Chia Livestream: Securing Your Chia - How to Be a Hard Target**  
 When: Friday, May 28th 12:00pm PST (7:00pm UTC)  
 Where: [Zoom](https://chia-net.zoom.us/j/87579815863) or [Youtube](https://www.youtube.com/channel/UChFkJ3OAUvnHZdiQISWdWPA)  
-
+  
+  
 ---
 
 ## Introduction
@@ -83,7 +83,7 @@ Encryption is one of the best tools in your arsenal. Enabling device encryption 
 
 ## What We Are Doing
 We will be updating how we deploy installers. 
-* You ill be able to verify downloaded installers using SHA-256 checksum
+* You will be able to verify downloaded installers using SHA-256 checksums
 * We will never release anything aside from installers. That is, the installer will have the filetype needed for your operating system. There will be no .rar or .zip file installers. If you see such an installer, delete it and report it immediately. 
 
 It will take some time to implement all our suggestions, but trust us, it's worth it. Take the time and be more secure. Stay vigilant out there!
