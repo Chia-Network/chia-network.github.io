@@ -10,7 +10,7 @@ Security is about making better choices. You can never be 100% secure, but you c
 
 There are two main areas to consider: securing your devices and your security habits
 
-Keep in mind: *Don’t trust anyone.* 
+Keep this in mind: *Don’t trust anyone.* 
 
 Assume malicious intent and verify things for yourself. Being reasonably paranoid when it comes to crypto is a good mindset. Your goal is to make things harder for the bad guys, and the steps below will help you do that. We're going to briefly go over the basics you need to do and then cover more advanced security practices in more detail.
 
@@ -36,7 +36,7 @@ Your XCH is only as secure as your wallet.
 
 If your Chia wallet is not accessible electronically, then it becomes incredibly difficult to compromise and steal (basically impossible). We urge you to store your XCH in a *cold wallet*.
 
-In broad strokes: You will create a wallet through a new 24 word mnemonic key on a secured computer not connected to the internet. Store the key in a safe place, like a safe, and not in a computer. You will set your XCH receive address to the wallet address associated with this new mnemonic key.
+In broad strokes: You will create a wallet through a new 24 word mnemonic key on a secured computer not connected to the internet. Store the key in a safe place, like a safe, and not in a computer. You will set your XCH receive address to the wallet address associated with this new mnemonic key that's in cold storage.
 
 Some methods of cold wallet storage include:
 * writing your key on paper and storing it in a vault
@@ -52,7 +52,12 @@ Do you actually know the person you are talking to online is who they say they a
 
 Spearphishing is a targeted attack where you are scammed in some way through legitimate-looking fake websites or message.
 * When downloading Chia installers, verify the website you are on is `chia.net` and make sure there is a lock icon in the address bar.
-* Anyone contacting you through email or messaging apps could be potentially trying to scam you. Beware of the links and files they send you. 
+* Anyone contacting you through email or messaging apps could be potentially trying to scam you. Beware of the links and files they send you. Double check who they say they are. You can read more about phishing and how to protect yourself [here](https://www.phishing.org/what-is-phishing). 
+
+### Third-party Tools and Scripts
+It is wonderful seeing the many community driven tools that have sprung up to help you on your Chia farming journey. These tools can be very useful, but they come with a risk. Unless you audit the code yourself, you really don't know if what you're using isn't going to steal your private keys. 
+
+Even if you are using a popular tool that many say is safe, you don't know if the next version of the tool has had malicious code added to it.
 
 ### Remove Remote Access Tools
 There are many stories of attackers using weaknesses with remote access tools like TeamViewer or Microsoft Remote Desktop to remotely infiltrate a computer and steal information. We highly recommend you turn off or uninstall such software on your computer. How to turn off remote access tools varies across operating systems so we leave it to you to research online and use the many guides out there to do this.
