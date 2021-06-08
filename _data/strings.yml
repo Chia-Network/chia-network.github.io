@@ -1165,7 +1165,7 @@ ru: # Russian
   news_see_more: "Узнать больше"
   download_title: "Chia Network"
   download_subtitle: "Новый блокчейн и платформа смарт-транзакций, которые более эффективны, децентрализованны и безопасны."
-  download_announce: "<a href='https://www.chia.net/2021/03/17/Chia-1.0.html'>Основная сеть уже здесь!</a> Загрузите версию 1.0.5 для <a href='https://download.chia.net/latest/Setup-Win64.exe'>Windows</a> или <a href='https://download.chia.net/latest/Setup-MacOS.dmg'>MacOS</a>."
+  download_announce: "<a href='https://www.chia.net/2021/03/17/Chia-1.0.html'>Основная сеть уже здесь!</a> Загрузите версию 1.1.7 для <a href='https://download.chia.net/latest/Setup-Win64.exe'>Windows</a> или <a href='https://download.chia.net/latest/Setup-MacOS.dmg'>MacOS</a>."
   download_button: "Скачать"
   download_description: |
     Релиз основной сети
