@@ -12,7 +12,7 @@ Bram, Gene, and the team will be available to talk about how improved plotting s
 
 We will be sticking to plotting, plotting speed, and security so questions around the official pooling protocol will be passed over. We will have more on the official pooling protocol in a subsequent Zoom soon.
 
-This Zoom will now allow 1000 participants directly and will be simulcast on YouTube with unlimited viewers. Questions will be taken from Zoom and the Keybase #general channel.
+This Zoom will now allow 1000 participants directly and will be simulcast on YouTube with unlimited viewers. Questions will be taken from Zoom and the [Keybase #general](https://keybase.io/team/chia_network.public) channel.
 
 **Chia Livestream: Plotting speed and security in Chia**  
 When: When: Jun 15, 2021 05:00 PM Pacific Time (12:00am UTC)  
