@@ -20,7 +20,7 @@ Where: [Zoom](https://chia-net.zoom.us/j/89843076167) or [Youtube](https://www.y
 
 **hpool can conduct a 51% attack**
 
-No, they're too small for that. At the time of writing, [going by blocks won](https://www.chiaexplorer.com/charts/topFarmers), they're currently hovering at around 33% of netspace. The numbers on their website disagree, but those likely include netspace reported by dishonest farmers—a problem that is specific to hpool and their custom pool protocol. Fake netspace does not win blocks, and in fact, does not even enter the Chia netspace calculation.
+No, they're too small for that. At the time of writing, [going by blocks won](https://www.chiaexplorer.com/charts/topFarmers), they're currently hovering at around 33% of netspace. The numbers on their website disagree, but those likely include netspace reported by dishonest farmers—a problem that is specific to hpool and their custom pool protocol. Double-farmed net space does not win blocks, and in fact, does not even enter the Chia netspace calculation.
 
 ---
 
@@ -100,9 +100,9 @@ There is no "Lambo when?", it's "Tesla Roadster when?"... this is why you are di
 
 ---
 
-**Is Bram on drugs?**
+**Is Bram okay?**
 
-While often used as a meme, this does come up far too often as a talking point when Bram gives interviews. Bram is very open about his neurodivergence and being "on the spectrum", and aspects of that will result in behavioral tics that otherwise might seem out of place to a neurotypical person. Fact of the matter is, people like Bram simply communicate and interact with others a bit differently from you or I... so please stop accusing him of being on drugs just because he blinks more than you do, or stares off into space while formulating an answer... besides it's the DevOps guys we need to keep an eye on! 😉
+While often used as a meme, this does come up far too often as a talking point when Bram gives interviews. Bram is very open about his neurodivergence and being "on the spectrum", and aspects of that will result in behavioral tics that otherwise might seem out of place to a neurotypical person. Fact of the matter is, people like Bram simply communicate and interact with others a bit differently from you or I... so please stop accusing him of being on drugs just because he blinks more than you do, or stares off into space while formulating an answer.
 
 Jokes aside, there are far more people out there who are much more self conscious about being on the spectrum than Bram is. When they see people react like this to his mannerisms, it undoes the work people like him do who openly embrace it, and can make those people feel insecure and self-conscious about themselves and their ability to "fit in" to the incorrect expectations these kinds of comments set.
 
