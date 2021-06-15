@@ -20,7 +20,7 @@ Where: [Zoom](https://chia-net.zoom.us/j/89843076167) or [Youtube](https://www.y
 
 **hpool can conduct a 51% attack**
 
-No, they're too small for that. At the time of writing, [going by blocks won](https://www.chiaexplorer.com/charts/topFarmers), they're currently hovering at around 33% of netspace. The numbers on their website disagree, but those likely include netspace reported by dishonest farmers—a problem that is specific to hpool and their custom pool protocol. Fake netspace does not win blocks, and in fact, does not even enter the Chia netspace calculation.
+No, they're too small for that. At the time of writing, [going by blocks won](https://www.chiaexplorer.com/charts/topFarmers), they're currently hovering at around 33% of netspace. The numbers on their website disagree, but those likely include netspace reported by dishonest farmers—a problem that is specific to hpool and their custom pool protocol. Double-farmed net space does not win blocks, and in fact, does not even enter the Chia netspace calculation.
 
 ---
 
@@ -45,6 +45,8 @@ If Bram Cohen had wanted to do a rug pull, he would have led with an (illegal) I
 [No](https://twitter.com/bramcohen/status/1393991791590838277). If you use the wrong tool for the job, the job may destroy that tool. This is to say, using some types of consumer NVMe SSD may result in those devices failing because of the high number of writes involved in the Chia plotting process. There will be some TBW wear on any NVMe drive used for Chia plotting, this does not mean all drives used for Chia plotting will fail. It is not recommended users purchase consumer NVMe drives for the purpose of Chia plotting. It is certainly not an intentional Chia feature that some consumer NVMe drives fail from Chia plotting. We do hope that farmers are using second-hand or already owned hardware whenever possible to make their Chia farm as green as possible.
 
 Also, plotting on HDDs is slower but possible (and a lot of work went into ensuring that the stock plotter supports this). Alternative plotters again may be much lighter on writes, at the cost of higher RAM usage.
+
+You can learn more here: [Chia and SSD Endurance](https://www.chia.net/2021/05/24/SSD-endurance.html)
 
 ---
 
@@ -100,11 +102,11 @@ There is no "Lambo when?", it's "Tesla Roadster when?"... this is why you are di
 
 ---
 
-**Is Bram on drugs?**
+**Is Bram okay?**
 
-While often used as a meme, this does come up far too often as a talking point when Bram gives interviews. Bram is very open about his neurodivergence and being "on the spectrum", and aspects of that will result in behavioral tics that otherwise might seem out of place to a neurotypical person. Fact of the matter is, people like Bram simply communicate and interact with others a bit differently from you or I... so please stop accusing him of being on drugs just because he blinks more than you do, or stares off into space while formulating an answer... besides it's the DevOps guys we need to keep an eye on! 😉
+Bram is very open about his neurodivergence and being "on the spectrum", and aspects of that will result in behavioral tics that otherwise might seem out of place to a neurotypical person. Fact of the matter is, people like Bram simply communicate and interact with others a bit differently from you or I... so please stop accusing him of being on drugs just because he blinks more than you do, or stares off into space while formulating an answer.
 
-Jokes aside, there are far more people out there who are much more self conscious about being on the spectrum than Bram is. When they see people react like this to his mannerisms, it undoes the work people like him do who openly embrace it, and can make those people feel insecure and self-conscious about themselves and their ability to "fit in" to the incorrect expectations these kinds of comments set.
+There are far more people out there who are much more self-conscious about being on the spectrum than Bram is. When they see people react like this to his mannerisms, it undoes the work people like him do who openly embrace it, and can make those people feel insecure and self-conscious about themselves and their ability to "fit in" to the incorrect expectations these kinds of comments set.
 
 ---
 
