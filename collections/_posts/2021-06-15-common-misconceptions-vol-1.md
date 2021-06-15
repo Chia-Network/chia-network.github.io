@@ -3,12 +3,12 @@ lang: en
 layout: post
 title:  "Common Misconceptions, Vol. 1"
 date:   2021-06-15
-author: "[J. Eckhert](https://twitter.com/sargonas) and [Roy Natian](https://www.linkedin.com/in/roynatian)"
+author: "[J. Eckert](https://twitter.com/sargonas) and [Roy Natian](https://www.linkedin.com/in/roynatian)"
 ---
 
 Chia is a complex system. There is a lot of nuance and technicalities involved in understanding how all the components of Chia work together. Over the last several weeks we’ve seen several misconceptions floating around on social media and [Keybase](https://keybase.io/team/chia_network.public) regarding how Chia works.
 
-We have compiled the most common misconceptions and questions with responses below. 
+We have compiled the most common misconceptions and questions with responses below.
 
 Also, don’t forget to join us **today**, Tuesday, June 15 for an AMA on plotting speed and security with Bram, Gene, and the team.
 
@@ -34,7 +34,7 @@ Long story short: Chia is different, and pools can't do a classic 51% attack. Tr
 
 ---
 
-**The premine means Chia plans to rugpull at some point**
+**The prefarm means Chia plans to rugpull at some point**
 
 If Bram Cohen had wanted to do a rug pull, he would have led with an (illegal) ICO and walked away years ago with millions or even billions without the hard work of the last three years. Instead, he invented & co-invented several new types of math, [co-authored a paper in a peer-reviewed journal](https://link.springer.com/chapter/10.1007/978-3-319-70697-9_13), brought together a diverse team, and gained the confidence of globally respected investment firms. He is now just a minority owner of Chia Network, having given up 70% of that potential ICO profit to instead focus on the opportunity to change the world as part of something larger than himself.
 
@@ -50,7 +50,7 @@ Also, plotting on HDDs is slower but possible (and a lot of work went into ensur
 
 **You aren't Green - you still have an energy footprint and consume consumer-grade NVMes**
 
-We only need to be greener than the alternatives, and we are. As far as cryptocurrencies based on Nakamoto Consensus go, Chia is the most energy-efficient at maintaining its network security by a large margin. Also, we think that approaches based on Proof of Stake, while green, just don't quite provide the same security guarantees and also fail at decentralization. 
+We only need to be greener than the alternatives, and we are. As far as cryptocurrencies based on Nakamoto Consensus go, Chia is the most energy-efficient at maintaining its network security by a large margin. Also, we think that approaches based on Proof of Stake, while green, just don't quite provide the same security guarantees and also fail at decentralization.
 
 Traditional banking also fails at a lot of things that cryptocurrencies solve, and is not particularly green either. Visa and Mastercard, for example, run extremely large data centers full of storage—exabytes—and have to power all sorts of other infrastructure, a lot of it with fossil fuels.
 
@@ -82,7 +82,7 @@ The wallet and the full node each have their own sqlite database file.  The full
 
 It's commonly argued that "Chia Network' claims' the netspace is size X" or that the netspace is somehow a fabrication of marketing hype on Chia Network's part. It's important to note that the reported estimated size of the netspace is calculated by the software itself, using formulas and metrics that are openly documented in the open-source project in GitHub. No one person or entity is responsible for "claiming" the netspace size is X, it's simply math that is based on the current blockchain state, using algorithms that make estimates based on activity. Yes, it can be off by a percentage depending on the current network state, but never by a material amount, and it self-corrects regularly.
 
-It's also important to note that blockchain explorers often use a different formula than the one in the Chia GUI to calculate netspace. 
+It's also important to note that blockchain explorers often use a different formula than the one in the Chia GUI to calculate netspace.
 
 ---
 
@@ -110,7 +110,7 @@ Jokes aside, there are far more people out there who are much more self consciou
 
 **Chia is a bad clone of burst**
 
-This is just a dismissive comment anyone can do for low effort. If you have read far enough along to get to THIS particular FAQ, you know enough to understand Chia and Burst have nothing in common beyond the fact they both use Storage and not PoW. Anyone who has put even 5 minutes into understanding the foundations of Chia enough to support and/or farm it can appreciate the differences quickly. One of the key differences is that Burst is not safe from Hellman Time-Space tradeoffs, and the optimal way to mine Burst is to add GPU Proof of Work to one's storage.
+This is just a dismissive comment anyone can do for low effort. If you have read far enough along to get to THIS particular FAQ, you know enough to understand Chia and Burst have nothing in common beyond the fact they both use Storage and not PoW. One of the key differences is that Burst is not safe from Hellman Time-Space tradeoffs, and the optimal way to mine Burst is to add GPU Proof of Work to one's Burst storage.
 
 ---
 
@@ -122,5 +122,5 @@ Also, even now there has never been a cryptocurrency with as many active nodes a
 
 ---
 
-### Acknowledgments 
-A big thank you to Justin England, Gene Hoffman, JM Hands, Shane Larsen, Chris Marslender, and @beechord, @efishcent, @pyl, @morebytes, @psydafke on Keybase for their contributions. 
+### Acknowledgments
+A big thank you to Justin England, Gene Hoffman, JM Hands, Shane Larsen, Chris Marslender, and @beechord, @efishcent, @pyl, @morebytes, @psydafke on Keybase for their contributions.
