@@ -117,3 +117,7 @@ Chia is designed around making spare space farming possible and profitable - as 
 
 Also, even now there has never been a cryptocurrency with as many active nodes as Chia. As we approach 1,000,000 nodes, it is vital to keep in mind that 100,000 new users each adding only 50 TB each to netspace is 5 EB of new space added to the network.
 
+---
+
+### Acknowledgments 
+A big thank you to Justin England, Gene Hoffman, JM Hands, Shane Larsen, Chris Marslender, and @beechord, @efishcent, @pyl, @morebytes, @psydafke on Keybase for their contributions. 
