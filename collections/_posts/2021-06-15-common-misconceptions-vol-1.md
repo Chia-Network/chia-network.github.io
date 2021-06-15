@@ -31,6 +31,7 @@ Not really, unless they manage to convince 51% of netspace to use a custom clien
 Traditionally in crypto there have been "hash pools" where miners receive work to process and submit results so the pool can create a winning block by combining all the miner's efforts. A network using pooling like this is highly susceptible to 51% attacks when a pool has 51% of the network (or coordinates with other hash pools) because the pool is the single source of data flowing into the blockchain. Chia changes this system by having individual farmers create the winning blocks alone, and uses "reward pools" to share coins among fellow participants of it, reducing the risk dramatically as a pool will have to coordinate (as in seize direct control) of hundreds of thousands of individual farmers within the pool, rather than just modify the output of the pool itself.
 
 Long story short: Chia is different, and pools can't do a classic 51% attack. Traditional crypto pools control the entire pool's block response (and can modify it for personal gain if it has 51%). In a Chia pool, the individual farmers contribute the block themselves without interference from the pool, and every farmer in the pool would need to agree with the pool's rogue actions if it had 51%.
+
 ---
 
 **The premine means Chia plans to rugpull at some point**
