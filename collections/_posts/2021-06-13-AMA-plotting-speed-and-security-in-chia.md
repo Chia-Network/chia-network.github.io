@@ -15,5 +15,5 @@ We will be sticking to plotting, plotting speed, and security so questions aroun
 This Zoom will now allow 1000 participants directly and will be simulcast on YouTube with unlimited viewers. Questions will be taken from Zoom and the [Keybase #general](https://keybase.io/team/chia_network.public) channel.
 
 **Chia Livestream: Plotting speed and security in Chia**  
-When: When: Jun 15, 2021 05:00 PM Pacific Time (12:00am UTC)  
+When: Jun 15, 2021 05:00 PM Pacific Time (12:00am UTC)  
 Where: [Zoom](https://chia-net.zoom.us/j/89843076167) or [Youtube](https://www.youtube.com/channel/UChFkJ3OAUvnHZdiQISWdWPA)  
