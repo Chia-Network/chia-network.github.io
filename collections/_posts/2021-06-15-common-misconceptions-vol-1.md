@@ -80,7 +80,7 @@ The wallet and the full node each have their own sqlite database file.  The full
 
 **"Reported" netspace by Chia can't be trusted**
 
-It's commonly argued that "Chia Network' claims' the netspace is size X" or that the netspace is somehow a fabrication of marketing hype on Chia Network's part. It's important to note that the reported estimated size of the netspace is calculated by the software itself, using formulas and metrics that are openly documented in the open-source project in GitHub. No one person or entity is responsible for "claiming" the netspace size is X, it's simply math that is based on the current blockchain state, using algorithms that make estimates based on activity. Yes, it can be off by a percentage depending on the current network state, but never by a material amount, and it self-corrects regularly.
+It's commonly argued that "Chia Network 'claims' the netspace is size X" or that the netspace is somehow a fabrication of marketing hype on Chia Network's part. It's important to note that the reported estimated size of the netspace is calculated by the software itself, using formulas and metrics that are openly documented in the open-source project in GitHub. No one person or entity is responsible for "claiming" the netspace size is X, it's simply math that is based on the current blockchain state, using algorithms that make estimates based on activity. Yes, it can be off by a percentage depending on the current network state, but never by a material amount, and it self-corrects regularly.
 
 It's also important to note that blockchain explorers often use a different formula than the one in the Chia GUI to calculate netspace.
 
@@ -102,7 +102,7 @@ There is no "Lambo when?", it's "Tesla Roadster when?"... this is why you are di
 
 **Is Bram on drugs?**
 
-While often used as a meme, this does come up far too often as a talking point when Bram gives interviews. Bram is very open about his neurodivergence and being ""on the spectrum"", and aspects of that will result in behavioral tics that otherwise might seem out of place to a neurotypical person. Fact of the matter is, people like Bram simply communicate and interact with others a bit differently from you or I...so please stop accusing him of being on drugs just because he blinks more than you do, or stares off into space while formulating an answer... besides it's the DevOps guys we need to keep an eye on! 😉
+While often used as a meme, this does come up far too often as a talking point when Bram gives interviews. Bram is very open about his neurodivergence and being "on the spectrum", and aspects of that will result in behavioral tics that otherwise might seem out of place to a neurotypical person. Fact of the matter is, people like Bram simply communicate and interact with others a bit differently from you or I... so please stop accusing him of being on drugs just because he blinks more than you do, or stares off into space while formulating an answer... besides it's the DevOps guys we need to keep an eye on! 😉
 
 Jokes aside, there are far more people out there who are much more self conscious about being on the spectrum than Bram is. When they see people react like this to his mannerisms, it undoes the work people like him do who openly embrace it, and can make those people feel insecure and self-conscious about themselves and their ability to "fit in" to the incorrect expectations these kinds of comments set.
 
