@@ -46,6 +46,8 @@ If Bram Cohen had wanted to do a rug pull, he would have led with an (illegal) I
 
 Also, plotting on HDDs is slower but possible (and a lot of work went into ensuring that the stock plotter supports this). Alternative plotters again may be much lighter on writes, at the cost of higher RAM usage.
 
+You can learn more here: [Chia and SSD Endurance](https://www.chia.net/2021/05/24/SSD-endurance.html)
+
 ---
 
 **You aren't Green - you still have an energy footprint and consume consumer-grade NVMes**
