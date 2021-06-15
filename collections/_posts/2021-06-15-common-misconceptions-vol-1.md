@@ -112,6 +112,8 @@ Jokes aside, there are far more people out there who are much more self consciou
 
 This is just a dismissive comment anyone can do for low effort. If you have read far enough along to get to THIS particular FAQ, you know enough to understand Chia and Burst have nothing in common beyond the fact they both use Storage and not PoW. Anyone who has put even 5 minutes into understanding the foundations of Chia enough to support and/or farm it can appreciate the differences quickly. One of the key differences is that Burst is not safe from Hellman Time-Space tradeoffs, and the optimal way to mine Burst is to add GPU Proof of Work to one's storage.
 
+---
+
 **Chia is all whales, and only profitable for whales. Whales are going to take all the rewards**
 
 Chia is designed around making spare space farming possible and profitable - as long as that is the case, whales are competing against farmers who have next to zero cost, and the whales' benefits to scale won't be enough to overcome that. So in the long run, the whales lose.
