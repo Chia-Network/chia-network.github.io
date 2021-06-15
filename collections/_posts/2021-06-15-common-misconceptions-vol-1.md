@@ -31,6 +31,7 @@ Not really, unless they manage to convince 51% of netspace to use a custom clien
 Traditionally in crypto there have been "hash pools" where miners receive work to process and submit results so the pool can create a winning block by combining all the miner's efforts. A network using pooling like this is highly susceptible to 51% attacks when a pool has 51% of the network (or coordinates with other hash pools) because the pool is the single source of data flowing into the blockchain. Chia changes this system by having individual farmers create the winning blocks alone, and uses "reward pools" to share coins among fellow participants of it, reducing the risk dramatically as a pool will have to coordinate (as in seize direct control) of hundreds of thousands of individual farmers within the pool, rather than just modify the output of the pool itself.
 
 Long story short: Chia is different, and pools can't do a classic 51% attack. Traditional crypto pools control the entire pool's block response (and can modify it for personal gain if it has 51%). In a Chia pool, the individual farmers contribute the block themselves without interference from the pool, and every farmer in the pool would need to agree with the pool's rogue actions if it had 51%.
+
 ---
 
 **The premine means Chia plans to rugpull at some point**
@@ -110,6 +111,8 @@ Jokes aside, there are far more people out there who are much more self consciou
 **Chia is a bad clone of burst**
 
 This is just a dismissive comment anyone can do for low effort. If you have read far enough along to get to THIS particular FAQ, you know enough to understand Chia and Burst have nothing in common beyond the fact they both use Storage and not PoW. Anyone who has put even 5 minutes into understanding the foundations of Chia enough to support and/or farm it can appreciate the differences quickly. One of the key differences is that Burst is not safe from Hellman Time-Space tradeoffs, and the optimal way to mine Burst is to add GPU Proof of Work to one's storage.
+
+---
 
 **Chia is all whales, and only profitable for whales. Whales are going to take all the rewards**
 
