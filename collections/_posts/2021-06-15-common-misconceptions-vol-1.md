@@ -50,13 +50,11 @@ You can learn more here: [Chia and SSD Endurance](https://www.chia.net/2021/05/2
 
 ---
 
-**You aren't Green - you still have an energy footprint and consume consumer-grade NVMes**
+**s Chia really Green? You still use energy – and what about the e-waste?**
 
-We only need to be greener than the alternatives, and we are. As far as cryptocurrencies based on Nakamoto Consensus go, Chia is the most energy-efficient at maintaining its network security by a large margin. Also, we think that approaches based on Proof of Stake, while green, just don't quite provide the same security guarantees and also fail at decentralization.
+Chia is committed to being a truly sustainable digital currency. Not just less bad. Proof-of-Work was an amazing innovation but unforeseen challenges led to extremely high energy wastefulness and diminished decentralization. Bram recognized a need to conceive an evolved Nakamoto Consensus that is truly decentralized and not inherently wasteful and energy inefficient while retaining the network security of Proof-of-Work and improving on the programmability of Ethereum. Chia’s energy use is approximately 0.1% - 0.3% that of cryptocurrencies that rely on Proof of Work.  While other cryptocurrencies may deploy Proof of Stake to reduce energy consumption, those systems will not be able to assure the same network security or deliver on decentralization.  
 
-Traditional banking also fails at a lot of things that cryptocurrencies solve, and is not particularly green either. Visa and Mastercard, for example, run extremely large data centers full of storage—exabytes—and have to power all sorts of other infrastructure, a lot of it with fossil fuels.
-
-As to the NVMe issue, please see above.
+We take our responsibility to the planet and society very seriously, and when Chia identified the risk of additional e-waste, we took immediate action.  Although spent NVMes is not an issue (see above), Chia will soon announce a partnership with top industry data center and storage companies to stop the current practice of shredding hard drives so they can be refurbished and have a second life once they are no longer dependable to store data.  We are confident this will reduce global e-waste dramatically and hope to make further announcements in the coming weeks.
 
 ---
 
