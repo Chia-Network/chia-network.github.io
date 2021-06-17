@@ -30,7 +30,7 @@ en: # English
   download_box_button: "Download Source Code"
   install_box_button: "Install Chia Blockchain"
   download_releases_link: "Release notes"
-  download_idc_title: "IDC Report on Chia"
+  download_idc_title: "IDC on Chia"
   download_idc_quote: |
     “The Chia Network was developed and launched on the premise that HDD storage capacity is underutilized, and IDC's Global StorageSphere data confirms they are correct.”
   download_idc_report: "Read the Report"
