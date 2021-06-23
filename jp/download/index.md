@@ -1,7 +1,8 @@
 ---
 layout: download
-lang: en
+lang: jp
 redirect_from:
   - /errata/
-title: Download - Chia Network
+  - /jp/releases/
+title: ダウンロード - Chia Network
 ---

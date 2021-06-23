@@ -1,7 +1,8 @@
 ---
 layout: download
-lang: en
+lang: ru
 redirect_from:
   - /errata/
-title: Download - Chia Network
+  - /ru/releases/
+title: Скачать - Chia Network
 ---
