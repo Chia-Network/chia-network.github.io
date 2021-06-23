@@ -11,7 +11,8 @@ url: "https://chia.net" # the base hostname & protocol for your site
 plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
-
+sass:
+    sass_dir: /_sass
 # SEO settings
 title: Chia Network
 description: > # this means to ignore newlines until "baseurl:"
