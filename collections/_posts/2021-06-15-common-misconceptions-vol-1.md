@@ -50,7 +50,7 @@ You can learn more here: [Chia and SSD Endurance](https://www.chia.net/2021/05/2
 
 ---
 
-**s Chia really Green? You still use energy – and what about the e-waste?**
+**Is Chia really Green? You still use energy – and what about the e-waste?**
 
 Chia is committed to being a truly sustainable digital currency. Not just less bad. Proof-of-Work was an amazing innovation but unforeseen challenges led to extremely high energy wastefulness and diminished decentralization. Bram recognized a need to conceive an evolved Nakamoto Consensus that is truly decentralized and not inherently wasteful and energy inefficient while retaining the network security of Proof-of-Work and improving on the programmability of Ethereum. Chia’s energy use is approximately 0.1% - 0.3% that of cryptocurrencies that rely on Proof of Work.  While other cryptocurrencies may deploy Proof of Stake to reduce energy consumption, those systems will not be able to assure the same network security or deliver on decentralization.  
 
