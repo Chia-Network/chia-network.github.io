@@ -3,9 +3,9 @@ layout: default
 ---
 
 {% assign strings = site.data.strings[page.lang] %}
-{% assign releases = site.releases | where:"lang",page.lang | reverse %}
+{% assign download = site.download | where:"lang",page.lang | reverse %}
 
-{% include navigation.html active="downloads" %}
+{% include navigation.html active="download" %}
 
 <div class="download-page">
     
