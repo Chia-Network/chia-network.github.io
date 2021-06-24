@@ -10,24 +10,40 @@
             font-weight: bold;
         }
     }
-}
-
-.pgp, .sha256 {
-    word-wrap: break-word;
-    color: #39ac58;
-}
-
-.sha256-title {
-    margin-bottom: 0;
-}
-
-.dl-box-text {
     
-}
+    .btn {
+        background: #3AAC59;
+        color: white;
+        border-radius: 2px;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 1em;
+        width: 90%;
 
-.dl-box-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+        img {
+            margin-bottom: 3px;
+            margin-right: 0.5rem;
+            height: 24px;
+        }
+    }
+    
+    .pgp, .sha256 {
+            word-wrap: break-word;
+            color: #39ac58;
+    }
+    
+    .sha256-title {
+        margin-bottom: 0;
+    }
+    
+    .dl-box-text {
+        
+    }
+    
+    .dl-box-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 }
