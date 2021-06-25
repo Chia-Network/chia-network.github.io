@@ -3,11 +3,18 @@
         min-height: 290px;
         width: 100%;
         background: linear-gradient(180deg, #0D324D 0%, #0D3746 100%);
+        
+        img {
+            margin-bottom: 3px;
+            margin-right: 0.5rem;
+            height: 24px;
+        }
+
 
         .navbar {
             background-color: transparent !important;
         }
-
+        
         h1 {
             color: #fafafa;
             margin-top: 30px;

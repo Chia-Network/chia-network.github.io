@@ -1,5 +1,9 @@
 .download-page {
     padding-bottom: 3rem;
+    
+    .dl-sect {
+        margin-top:25px;
+    }
 
     .release {
         font-size: 1.3rem;
@@ -16,9 +20,10 @@
         color: white;
         border-radius: 2px;
         font-weight: bold;
-        font-size: 18px;
-        padding: 1em;
-        width: 90%;
+        font-size: 22px;
+        padding: .75em;
+        width: 100%;
+        margin: auto;
 
         img {
             margin-bottom: 3px;
@@ -44,12 +49,5 @@
     
     .dl-box-text {
         
-    }
-    
-    .dl-box-img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
     }
 }
