@@ -28,8 +28,14 @@
     }
     
     .pgp, .sha256 {
-            word-wrap: break-word;
-            color: #39ac58;
+        word-wrap: break-word;
+        color: #39ac58;
+            
+        img {
+            margin-bottom: 3px;
+            margin-right: 0.5rem;
+            height: 24px;
+        }
     }
     
     .sha256-title {

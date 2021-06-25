@@ -42,6 +42,12 @@ en: # English
     Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. 
   download_linux_text: |
     Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. 
+  download_windows_button: "Download Windows"
+  download_macos_button: "Download macOS"
+  download_linux_button: "Download Linux"
+  download_centosfedora_button: "Install CentOS/Redhat"
+  download_wsl2_button: "Install WSL2"
+  download_amzlinux_button: "Install Amazon Linux"
   about_title: "About Us"
   about_description: |
     Founded by Bram Cohen, the inventor of the BitTorrent network, Chia Network is building a better blockchain and smart transaction platform which is more decentralized, more efficient, and more secure.
