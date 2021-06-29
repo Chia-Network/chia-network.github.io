@@ -2,8 +2,17 @@
     padding-bottom: 3rem;
     
     .dl-sect {
-        margin-top:25px;
+        margin-top: 25px;
+        .row {
+            margin-top: 25px;
+        }
+        .center {
+            display: flex;
+            align-items: center;
+        }
+        
     }
+
 
     .release {
         font-size: 1.3rem;
@@ -20,10 +29,11 @@
         color: white;
         border-radius: 2px;
         font-weight: bold;
-        font-size: 22px;
+        font-size: 16px;
         padding: .75em;
-        width: 100%;
+        width: 80%;
         margin: auto;
+        padding-bottom: 15px;
 
         img {
             margin-bottom: 3px;
@@ -44,10 +54,13 @@
     }
     
     .sha256-title {
-        margin-bottom: 0;
     }
     
     .dl-box-text {
         
+    }
+    
+    .center {
+
     }
 }
