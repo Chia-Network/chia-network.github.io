@@ -12,7 +12,12 @@
         }
         
     }
-
+    
+    .row {
+        p {
+            padding-top: 10px;
+        }
+    }
 
     .release {
         font-size: 1.3rem;
@@ -33,7 +38,6 @@
         padding: .75em;
         width: 80%;
         margin: auto;
-        padding-bottom: 15px;
 
         img {
             margin-bottom: 3px;
