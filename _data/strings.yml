@@ -43,7 +43,7 @@ en: # English
   download_linux_text: |
     Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.
   download_windows_button: "Windows"
-  download_macos_button: "macOS"
+  download_macos_button: "macOS Intel"
   download_macosm1_button: "macOS M1"
   download_debian_button: "Ubuntu/Debian"
   download_debianarm_button: "Ubuntu/Debian ARM"
