@@ -4,7 +4,7 @@ en: # English
   news_see_more: "See more"
   download_title: "Chia Network"
   download_subtitle: "A new blockchain and smart transaction platform that is easier to use, more efficient, and secure."
-  download_announce: "<a href='https://www.chia.net/2021/03/17/Chia-1.0.html'>Mainnet is here!</a> Download 1.1.7 for <a href='https://download.chia.net/latest/Setup-Win64.exe'>Windows</a> or <a href='https://download.chia.net/latest/Setup-MacOS.dmg'>MacOS</a>."
+  download_announce: "<a href='https://www.chia.net/2021/07/07/official-pooling-launched.en.html'>The official pooling protocol is live!</a> Download 1.2.0 for <a href='https://download.chia.net/latest/Setup-Win64.exe'>Windows</a> or <a href='https://download.chia.net/latest/Setup-MacOS.dmg'>MacOS Intel</a>."
   download_button: "Download Beta Testnet"
   download_description: |
     Mainnet Release
@@ -71,17 +71,17 @@ en: # English
   terms_title: "Terms"
   terms_description: |
     The Chia® brand is a promise of standard in innovation and quality.
-    
+
     When you are authorized to use the Chia® brand and respect the Chia® brand guidelines, you help us ensure the strength of the brand, while protecting the entire community from being misled, confused or mistreated.
-    
+
     Please read over the following guidelines carefully, and never hesitate to reach out with questions or permission requests at hello@chia.net.
-    
+
     Happy Farming!
   terms_team_title: "Guidelines"
   terms_team_description: |
     * [Guidelines for Using Chia Network’s Trademarks and Copyrighted Materials on the Web](/assets/legal/Guidelines-for-Using-Chia-Network.pdf)
     * [Chia Copyright Policy](/assets/legal/Chia-Copyright-Policy.pdf)
-    * [Chia Trademark Policy](/assets/legal/Chia-Trademark-Policy.pdf)  
+    * [Chia Trademark Policy](/assets/legal/Chia-Trademark-Policy.pdf)
   footer_copyright_year: "© Chia Network 2021"
   navigation:
     download: "Download"
@@ -136,7 +136,7 @@ en: # English
     footer:
       heading: "Win $100K in total prize money"
       sign_up: "Sign Up"
-      
+
 fr: # French
   faq_title: "FAQ"
   news_title: "Nouvelles"
