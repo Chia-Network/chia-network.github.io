@@ -4,7 +4,7 @@ en: # English
   news_see_more: "See more"
   homemain_title: "Chia Network"
   homemain_subtitle: "A new blockchain and smart transaction platform that is easier to use, more efficient, and secure."
-  homemain_announce: "<a href='https://www.chia.net/2021/07/07/official-pooling-launched.en.html'>Official pooling protocol is live!"
+  homemain_announce: "<a href='https://www.chia.net/2021/07/07/official-pooling-launched.en.html'>Official pooling protocol is live!</a>"
   homemain_button: "Download Beta Testnet"
   homemain_description: |
     Mainnet Release
