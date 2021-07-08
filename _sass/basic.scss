@@ -1,0 +1,20 @@
+.basic {
+    h2 {
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+        color: #5A6D6E;
+    }
+    
+    code {
+        font-family: monospace;
+        background: #ffeff0;
+        word-wrap: break-word;
+        box-decoration-break: clone;
+        padding: .1rem .3rem .2rem;
+        border-radius: .2rem;
+    }
+}
