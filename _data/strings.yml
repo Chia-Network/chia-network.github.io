@@ -2,9 +2,9 @@ en: # English
   faq_title: "FAQ"
   news_title: "News"
   news_see_more: "See more"
-  download_title: "Chia Networ  k"
+  download_title: "Chia Network"
   download_subtitle: "A new blockchain and smart transaction platform that is easier to use, more efficient, and secure."
-  download_announce: "<a href='https://www.chia.net/2021/07/07/official-pooling-launched.en.html'>Official pooling protocol is live!'</a>"
+  download_announce: "<a href='https://www.chia.net/2021/07/07/official-pooling-launched.en.html'>Official pooling protocol is live!</a> Download 1.2.0 for <a href='https://download.chia.net/latest/Setup-Win64.exe'>Windows</a>, MacOS: <a href='https://download.chia.net/latest/Setup-MacOS.dmg'>Intel</a>, or <a href='https://download.chia.net/latest/Setup-MacOS-arm64.dmg'>Apple Silicon</a>."
   download_button: "Download Beta Testnet"
   download_description: |
     Mainnet Release
@@ -16,9 +16,9 @@ en: # English
 
     Chia Network develops a blockchain and smart transaction platform created by the inventor of BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). It implements the first new Nakamoto consensus algorithm since Bitcoin in 2008. Proofs of Space and Time replace energy intensive “proofs of work.”
 
-    [Chialisp](https://chialisp.com) is Chia’s new on chain programming language that is powerful, easy to audit, and secure. It will make cryptocurrency easier to use than cash. Reference smart transactions currently available are: [Coloured coins](https://www.chia.net/2020/04/29/coloured-coins-launch.en.html), [rate-limited wallets](https://github.com/Chia-Network/chia-blockchain/tree/main/chia/wallet/rl_wallet), and [distributed identity wallets](https://github.com/Chia-Network/chia-blockchain/tree/main/chia/wallet/did_wallet). Bram introduces [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) on our [blog](/blog) and you can learn more at [Chialisp.com](https://chialisp.com).
+    [Chialisp](https://chialisp.com) is Chia’s new on chain programming language that is powerful, easy to audit, and secure. It will make cryptocurrency easier to use than cash. Reference smart transactions currently available are: [Coloured coins](https://www.chia.net/2020/04/29/coloured-coins-launch.en.html), [rate-limited wallets](https://github.com/Chia-Network/chia-blockchain/tree/main/chia/wallet/rl_wallet), and [distributed identity wallets](https://github.com/Chia-Network/chia-blockchain/tree/main/chia/wallet/did_wallet). Bram introduces [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) on our [blog](https://www.chia.net/blog/) and you can learn more at [Chialisp.com](https://chialisp.com).
 
-    You should review the [release notes](download/#release-notes) and then [install](/download) Chia blockchain.
+    You should review the [release notes](https://www.chia.net/releases/) and then [install](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL) Chia blockchain.
   homemain_addendum: |
     Released under the open source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
   homemain_box_title: "Download"
