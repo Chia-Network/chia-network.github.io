@@ -2,11 +2,11 @@ en: # English
   faq_title: "FAQ"
   news_title: "News"
   news_see_more: "See more"
-  homemain_title: "Chia Network"
-  homemain_subtitle: "A new blockchain and smart transaction platform that is easier to use, more efficient, and secure."
-  homemain_announce: "<a href='https://www.chia.net/2021/03/17/Chia-1.0.html'>Mainnet is here!</a>"
-  homemain_button: "Download Beta Testnet"
-  homemain_description: |
+  download_title: "Chia Network"
+  download_subtitle: "A new blockchain and smart transaction platform that is easier to use, more efficient, and secure."
+  download_announce: "<a href='https://www.chia.net/2021/07/07/official-pooling-launched.en.html'>Official pooling protocol is live!</a> Download 1.2.0 for <a href='https://download.chia.net/latest/Setup-Win64.exe'>Windows</a>, MacOS: <a href='https://download.chia.net/latest/Setup-MacOS.dmg'>Intel</a>, or <a href='https://download.chia.net/latest/Setup-MacOS-arm64.dmg'>Apple Silicon</a>."
+  download_button: "Download Beta Testnet"
+  download_description: |
     Mainnet Release
     --------------------
 
