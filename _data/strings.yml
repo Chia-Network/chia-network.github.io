@@ -35,16 +35,18 @@ en: # English
     “The Chia Network was developed and launched on the premise that HDD storage capacity is underutilized, and IDC's Global StorageSphere data confirms they are correct.”
   homemain_idc_report: "Read the Report"
   download_main_text: |
-    This is the official Chia installer download page. Any other installer download sources are unofficial and unsafe. 
+    This is the official Chia installer download page. Any other installer download sources are unofficial and unsafe.
   download_windows_text: |
     Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.
   download_macos_text: |
-    Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. 
+    Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.
   download_linux_text: |
-    Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. 
+    Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.
   download_windows_button: "Windows"
   download_macos_button: "macOS"
-  download_linux_button: "Ubuntu/Debian"
+  download_macosm1_button: "macOS M1"
+  download_debian_button: "Ubuntu/Debian"
+  download_debianarm_button: "Ubuntu/Debian ARM"
   download_centosfedora_button: "Install CentOS/Red..."
   download_wsl2_button: "Install WSL2"
   download_amzlinux_button: "Install Amazon Linux"
@@ -85,17 +87,17 @@ en: # English
   terms_title: "Terms"
   terms_description: |
     The Chia® brand is a promise of standard in innovation and quality.
-    
+
     When you are authorized to use the Chia® brand and respect the Chia® brand guidelines, you help us ensure the strength of the brand, while protecting the entire community from being misled, confused or mistreated.
-    
+
     Please read over the following guidelines carefully, and never hesitate to reach out with questions or permission requests at hello@chia.net.
-    
+
     Happy Farming!
   terms_team_title: "Guidelines"
   terms_team_description: |
     * [Guidelines for Using Chia Network’s Trademarks and Copyrighted Materials on the Web](/assets/legal/Guidelines-for-Using-Chia-Network.pdf)
     * [Chia Copyright Policy](/assets/legal/Chia-Copyright-Policy.pdf)
-    * [Chia Trademark Policy](/assets/legal/Chia-Trademark-Policy.pdf)  
+    * [Chia Trademark Policy](/assets/legal/Chia-Trademark-Policy.pdf)
   footer_copyright_year: "© Chia Network 2021"
   navigation:
     download: "Download"
@@ -149,7 +151,7 @@ en: # English
     footer:
       heading: "Win $100K in total prize money"
       sign_up: "Sign Up"
-      
+
 fr: # French
   faq_title: "FAQ"
   news_title: "Nouvelles"
