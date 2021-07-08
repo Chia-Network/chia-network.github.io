@@ -4,6 +4,8 @@
 {% else %}
 {% assign site_prefix = page.lang | prepend:"/" %}
 {% endif %}
+
+
 <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand ml-xl-5 p-2" href="{{ site_prefix }}/"><img src="/img/chia_logo.svg" alt="Chia Logo"></a>
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -14,15 +16,11 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item{% if include.active == "download" %} active{% endif %}">
-                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/">{{ strings.navigation.download }}</a>
+                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/download">{{ strings.navigation.download }}</a>
                 <div class="highlight d-none d-lg-inline-block"></div>
             </li>
             <li class="nav-item{% if include.active == "blog" %} active{% endif %}">
                 <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/blog">{{ strings.navigation.blog }}</a>
-                <div class="highlight d-none d-lg-inline-block"></div>
-            </li>
-            <li class="nav-item{% if include.active == "releases" %} active{% endif %}">
-                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/releases">{{ strings.navigation.releases }}</a>
                 <div class="highlight d-none d-lg-inline-block"></div>
             </li>
             <li class="nav-item{% if include.active == "news" %} active{% endif %}">
@@ -69,5 +67,6 @@
                 {% for lang in site.data.languages %}<a class="dropdown-item" href="{{ lang.path }}/{{ current_page_url }}">{{ lang.name }}</a>{% endfor %}
             </div>
         </div>
-    </div>
+    </div>   
 </nav>
+

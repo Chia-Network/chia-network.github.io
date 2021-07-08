@@ -1,5 +1,5 @@
 ---
-layout: download
+layout: homemain
 lang: cn
-title: 家 - Chia Network
+title: 首页 - Chia Network
 ---

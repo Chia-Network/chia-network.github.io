@@ -1,4 +1,0 @@
----
-layout: releases
-lang: pt
----

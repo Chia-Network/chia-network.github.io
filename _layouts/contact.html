@@ -17,7 +17,7 @@ layout: default
             <div class="col-lg-5">
                 <div class="details-box">
                     <h2>{{ site.data.contact.name }}</h2>
-                    <a class="contact-email" href="{{ site.data.contact.email }}">{{ site.data.contact.email }}</a>
+                    <a class="contact-email" href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a>
                     <div class="handle">
                         <img src="/img/social/github.svg" alt="GitHub Logo"> <a href="https://github.com/{{ site.data.contact.github_username }}" target="_blank" rel="noreferrer noopener">@{{ site.data.contact.github_username }}</a>
                     </div>
@@ -37,15 +37,11 @@ layout: default
             </div>
             <div class="col-lg-7 mt-3 mt-lg-0">
                 <div class="details-box text-lg-center">
+                  <h4>Media Inquiries: <a href='mailto: chia@fticonsulting.com'>chia@fticonsulting.com</a></h4>
+                  <br>
                     {% include email_box.html %}
                     <a href="{{ site.data.contact.keybase_team_page }}" target="_blank" rel="noreferrer noopener" class="join-keybase btn">{{ strings.contact_join_keybase }}</a>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 keybase-live-feed">
-                <h1 class="page-main-title">{{ strings.contact_live_feed_title }}</h1>
-                <iframe src="https://dev.chia.net/"></iframe>
             </div>
         </div>
     </div>

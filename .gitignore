@@ -3,5 +3,5 @@ _site/
 .sass-cache/
 .bundle/
 vendor/
-.DS_Store
+**/*.DS_Store
 .vscode/
