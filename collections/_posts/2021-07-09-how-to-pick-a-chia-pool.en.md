@@ -65,6 +65,6 @@ Pooling in Chia is designed to make it easy for you to change your pool membersh
 
 You can find a list of some Chia pools on the following websites. _Note that Chia Network does not officially endorse these websites_. These links are provided for informational purposes only. 
 * [https://miningpoolstats.stream/chia](https://miningpoolstats.stream/chia)
-* [https://chiapool.directory/](https://chiapool.directory/)
+* [https://chiapool.directory](https://chiapool.directory/)
 
 Good luck out there, and thank you for being part of the Chia community! 
