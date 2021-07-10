@@ -14,14 +14,14 @@ layout: default
                 <div class="px-md-5">{{ strings.careers_description | markdownify }}</div>
                 <hr class="page-main-title mt-5 mb-5">
                 <h5>Current openings:</h5>
-                <table style="width:600px; padding: 10px; margin-left: auto; margin-right: auto;">
+                <table style="width:auto; padding: 10px; margin-left: auto; margin-right: auto;">
                   <tr>
                   {% assign job_descriptions = site.job_descriptions | sort: "order" %}
                   {% for entry in job_descriptions %}
-                  <td style="text-align:center">|</td>
+                  <td style="text-align:center">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</td>
                   <td style="text-align:center"><a href ="#{{ entry.title }}">{{ entry.title }}</a></td>
                   {% endfor %}
-                  <td style="text-align:center">|</td></tr>
+                  <td style="text-align:center">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
                 </table>
             </div>
         </div>
