@@ -2,40 +2,28 @@
 layout: default
 ---
 
-{% include navigation.html active="careers" %}
+{% include navigation.html active="grants" %}
 
 {% assign strings = site.data.strings[page.lang] %}
 
-<div class="careers">
+<div class="grants">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="page-main-title mt-5 mb-5">{{ strings.careers_title }}</h1>
-                <div class="px-md-5">{{ strings.careers_description | markdownify }}</div>
+                <h1 class="page-main-title mt-5 mb-5">{{ strings.grants_title }}</h1>
+                <div class="px-md-5">{{ strings.grants_description | markdownify }}</div>
+                <br/>
+                <div class="px-md-5">{{ strings.grants_why | markdownify }}</div>
+                <br/>
+                <div class="px-md-5">{{ strings.grants_who | markdownify }}</div>
+                <br/>
+                <div class="px-md-5">{{ strings.grants_when | markdownify }}</div>
+                <br/>
+                <div class="px-md-5"><em>{{ strings.grants_disclaimer | markdownify }}</em></div>
+                <br/>
                 <hr class="page-main-title mt-5 mb-5">
-                <h5>Current openings:</h5>
-                <table style="width:600px; padding: 10px; margin-left: auto; margin-right: auto;">
-                  <tr>
-                  {% assign job_descriptions = site.job_descriptions | sort: "order" %}
-                  {% for entry in job_descriptions %}
-                  <td style="text-align:center">|</td>
-                  <td style="text-align:center"><a href ="#{{ entry.title }}">{{ entry.title }}</a></td>
-                  {% endfor %}
-                  <td style="text-align:center">|</td></tr>
-                </table>
+                <h1 class="page-main-title mt-5 mb-5">{{ strings.grants_faq_title }}</h1>
             </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            {% assign job_descriptions = site.job_descriptions | sort: "order" %}
-            {% for entry in job_descriptions %}
-            <hr class="page-main-title mt-5 mb-5">
-            <div class="job" id="{{ entry.title }}">
-              <h3>{{ entry.title }}</h3>
-              </div>
-              <div class="px-md-5">{{ entry.content | mardownify }}</div>
-            {% endfor %}
-          </div>
         </div>
     </div>
 </div>
