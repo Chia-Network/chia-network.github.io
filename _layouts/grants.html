@@ -11,13 +11,54 @@ layout: default
         <div class="row">
             <div class="col-12">
                 <h1 class="page-main-title mt-5 mb-5">{{ strings.grants_title }}</h1>
-                <div class="px-md-5">{{ strings.grants_description | markdownify }}</div>
-                <br/>
-                <div class="px-md-5">{{ strings.grants_why | markdownify }}</div>
-                <br/>
-                <div class="px-md-5">{{ strings.grants_who | markdownify }}</div>
-                <br/>
-                <div class="px-md-5">{{ strings.grants_when | markdownify }}</div>
+                <div class="px-md-5"><h5>{{ strings.grants_description | markdownify }}</h5></div>
+                <div class="row">
+                  <div class="col-xl-6">
+                      <div class="my-2 content">
+                        <div class="px-md-5">{{ strings.grants_why_1 | markdownify }}</div>  
+                      </div>
+                      <div class="mx-md-5 mx-xl-0">
+                      </div>
+                  </div>
+                  <div class="col-xl-6">
+                    <div class="my-2 content">
+                      <div class="px-md-5">{{ strings.grants_why_2 | markdownify }}</div>
+                    </div>
+                    <div class="mx-md-5 mx-xl-0">
+                    </div>
+                  </div>
+                </div>
+                <div class="row my-8">
+                  <div class="col-sm-6 col-md-4 col-xl-2 p-2 d-flex bd-highlight ">
+                    <img class="img-fluid"  src="../img/chia_grant_seal@2x.png">
+                  </div>
+                  <div class="col-xl-8 col-md-8">
+                    <div class="row">
+                      <h3 class="ml-2">Grant Recipients</h3>
+                      </div>
+                      <div class="row">
+                        <div class="col-xl-9">
+                          <div class="">{{ strings.grants_why_2 | markdownify }}</div>
+                        </div>
+                      </div>
+                      <div class="row p-2" style="background-color: #F6F4EE; border-radius: 8px;">
+                        <div class="d-flex bd-highlight">
+                          <div class="p-2 flex-fill bd-highlight"><img class="img-fluid mx-1" style="width: 24px;" src="../img/chia_grant_seal@2x.png"></i>Chialisp applications</div>
+                          <div class="p-2 flex-fill bd-highlight"><img class="img-fluid mx-1" style="width: 24px;" src="../img/chia_grant_seal@2x.png"></i>Blockchain tools</div>
+                          <div class="p-2 flex-fill bd-highlight"><img class="img-fluid mx-1" style="width: 24px;" src="../img/chia_grant_seal@2x.png"></i>Wallets</div>
+                          <div class="p-2 flex-fill bd-highlight"><img class="img-fluid mx-1" style="width: 24px;" src="../img/chia_grant_seal@2x.png"></i>Other projects</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row my-8">
+                  <div class="col-xl-6">
+                    <h3 class="ml-2">How to Apply</h3>
+                    <div class="">{{ strings.grants_when | markdownify }}</div>
+                  </div>
+                </div>
+                
                 <br/>
                 <div class="px-md-5"><em>{{ strings.grants_disclaimer | markdownify }}</em></div>
                 <br/>
