@@ -24,12 +24,12 @@ layout: default
         </div>
         <div class="col-sm-4 center">
             <div>
-                <em>Version 1.2.0</em> | <em>64 bit</em><br><a href="https://download.chia.net/install/ChiaSetup-1.2.0.exe.torrent">Torrent Download</a>
+                <em>Version {{ site.data.checksums.current_version }}</em> | <em>64 bit</em><br><a href="https://download.chia.net/latest/Setup-Win64.exe.torrent">Torrent Download</a>
             </div>
         </div>
         <div class="col-sm-4">
             <p class="sha256-title">SHA256 checksum:
-                <span class="sha256">2fd014be025329b7d6f9a4aedb700a10543f16a40f849b26ae41abb4ff08b039</span>
+                <span class="sha256"> {{ site.data.checksums.windows_checksum }}</span>
             </p>
         </div>
     </div>
@@ -40,12 +40,12 @@ layout: default
         </div>
         <div class="col-sm-4 center">
             <div>
-                <em>Version 1.2.0</em> | <em>64 bit</em><br><a href="https://download.chia.net/install/Chia-1.2.0.dmg.torrent">Torrent Download</a>
+                <em>Version {{ site.data.checksums.current_version }}</em> | <em>64 bit</em><br><a href="https://download.chia.net/latest/Setup-MacOS.dmg.torrent">Torrent Download</a>
             </div>
         </div>
         <div class="col-sm-4">
             <p class="sha256-title">SHA256 checksum:
-                <span class="sha256">b28be10ebda84b7ce5d8a2d0630ab02800d11ec862aff1bc91850f01e92d12bc</span>
+                <span class="sha256">{{ site.data.checksums.macos_intel_checksum }}</span>
             </p>
         </div>
     </div>
@@ -55,12 +55,12 @@ layout: default
         </div>
         <div class="col-sm-4 center">
             <div>
-                <em>Version 1.2.0</em> | <em>64 bit</em><br><a href="https://download.chia.net/install/Chia-1.2.0-arm64.dmg.torrent">Torrent Download</a>
+                <em>Version {{ site.data.checksums.current_version }}</em> | <em>64 bit</em><br><a href="https://download.chia.net/latest/Setup-MacOS-arm64.dmg.torrent">Torrent Download</a>
             </div>
         </div>
         <div class="col-sm-4">
             <p class="sha256-title">SHA256 checksum:
-                <span class="sha256">a37f33467d2b85b973a80fbe4291be2182b81d7506f391b13f45e3b63d2515ce</span>
+                <span class="sha256">{{ site.data.checksums.macos_arm_checksum }}</span>
             </p>
         </div>
     </div>
@@ -71,12 +71,12 @@ layout: default
         </div>
         <div class="col-sm-4 center">
             <div>
-                <em>Version 1.2.0</em> | <em>64 bit</em><br><a href="https://download.chia.net/install/chia-blockchain_1.2.0_amd64.deb.torrent">Torrent Download</a>
+                <em>Version {{ site.data.checksums.current_version }}</em> | <em>64 bit</em><br><a href="https://download.chia.net/latest/x86_64-Ubuntu-gui.torrent">Torrent Download</a>
             </div>
         </div>
         <div class="col-sm-4">
             <p class="sha256-title">SHA256 checksum:
-                <span class="sha256">bfaff09bd7806f866f758e898c743ede230b8febd1a9c1ebc3c53947cc9e095f</span>
+                <span class="sha256">{{ site.data.checksums.x86_ubuntu_debian_checksum }}</span>
             </p>
         </div>
     </div>
@@ -86,12 +86,12 @@ layout: default
         </div>
         <div class="col-sm-4 center">
             <div>
-                <em>Version 1.2.0</em> | <em>64 bit</em><br><a href="https://download.chia.net/install/chia-blockchain_1.2.0_arm64.deb.torrent">Torrent Download</a>
+                <em>Version {{ site.data.checksums.current_version }}</em> | <em>64 bit</em><br><a href="https://download.chia.net/latest/ARM64-Ubuntu-gui.torrent">Torrent Download</a>
             </div>
         </div>
         <div class="col-sm-4">
             <p class="sha256-title">SHA256 checksum:
-                <span class="sha256">43fd659e336c0ae468e1dcf2ff0e0c8d1202bc28fc6322469f0c8519d759b152</span>
+                <span class="sha256">{{ site.data.checksums.arm64_ubuntu_debian_checksum }}</span>
             </p>
         </div>
     </div>
@@ -101,12 +101,12 @@ layout: default
         </div>
         <div class="col-sm-4 center">
             <div>
-                <em>Version 1.2.0</em> | <em>64 bit</em><br><a href="https://download.chia.net/install/chia-blockchain-1.2.0-1.x86_64.rpm.torrent">Torrent Download</a>
+                <em>Version {{ site.data.checksums.current_version }}</em> | <em>64 bit</em><br><a href="https://download.chia.net/latest/x86_64-Redhat-gui.torrent">Torrent Download</a>
             </div>
         </div>
         <div class="col-sm-4">
             <p class="sha256-title">SHA256 checksum:
-                <span class="sha256">2abec7e62e11ab5bb24a6e6e7a1d2150b5ee16af22bb105479a81a9972c9377e</span>
+                <span class="sha256">{{ site.data.checksums.x86_centos_redhat_checksum }}</span>
             </p>
         </div>
     </div>
