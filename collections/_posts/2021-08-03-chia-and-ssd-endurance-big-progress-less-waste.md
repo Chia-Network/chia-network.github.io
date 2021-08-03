@@ -24,9 +24,9 @@ Now that the highly requested [pooling ](https://www.chia.net/2021/07/07/officia
 
 We saw a few surprise announcements of SSDs optimized for Chia plotting, so I got on a call with Phison, one of the largest SSD controller manufacturers, to figure out the enhancements they did to support this effort.
 
-[Chia Optimized Plotting SSD - Interview with Phison](https://youtu.be/fl-gXnNhz6k)
+[Watch: Chia Optimized Plotting SSD - Interview with Phison](https://youtu.be/fl-gXnNhz6k)
 
-Enterprise SSDs have had high endurance and can last over a decade. The capability for high endurance on SSDs has always been a tradeoff of cost, as storing fewer bits per cell significantly increases the NAND cell’s endurance and uses higher-grade NAND and levels of error correction. I was surprised by some of the additional firmware, error correction, and AI capabilities they were able to utilize to get even more endurance out of a current SSD design. The 2TB version of the “maker” SSD optimized for Chia plotting has54 PBW (that is Petabytes written or 54,000 TBW), which can plot between 4-6PB of plots before wearing out. Safe to say, this is a huge win for serious farmers and desktop enthusiasts who wanted to use their current high-end desktops for sustained plotting, where they can resell their drive to another farmer safely after use because it has so much surplus endurance!
+Enterprise SSDs have had high endurance and can last over a decade. The capability for high endurance on SSDs has always been a tradeoff of cost, as storing fewer bits per cell significantly increases the NAND cell’s endurance and uses higher-grade NAND and levels of error correction. I was surprised by some of the additional firmware, error correction, and AI capabilities they were able to utilize to get even more endurance out of a current SSD design. The 2TB version of the “maker” SSD optimized for Chia plotting has 54 PBW (that is Petabytes written or 54,000 TBW), which can plot between 4-6PB of plots before wearing out. Safe to say, this is a huge win for serious farmers and desktop enthusiasts who wanted to use their current high-end desktops for sustained plotting, where they can resell their drive to another farmer safely after use because it has so much surplus endurance!
 
 
 <p align="center">
