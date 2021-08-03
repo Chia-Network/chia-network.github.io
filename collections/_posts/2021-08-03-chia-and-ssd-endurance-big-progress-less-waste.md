@@ -34,7 +34,7 @@ Enterprise SSDs have had high endurance and can last over a decade. The capabili
 </p>
 
 
-Yes...the sample they sent me has done 1.44 PB of writes and only 1% used (the NVMe SMART percent used indicator only moves 1% at a time).
+Yes...the sample they sent me has done 1.44 PB of writes and *only 1% used* (the NVMe SMART percent used indicator only moves 1% at a time).
 
 PNY, who is using this SSD technology in their new SSDs, [PNY LX2030 and LX3030 M.2 NVMe Gen3](https://www.pny.com.tw/en/news-detail/PNY-Chia-mining-SSD/), worked with Chia to create a Chia optimized plotting badge, indicating these drives have high endurance and sustained bandwidth for plotting.
 
