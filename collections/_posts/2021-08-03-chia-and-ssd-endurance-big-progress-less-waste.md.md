@@ -29,11 +29,9 @@ We saw a few surprise announcements of SSDs optimized for Chia plotting, so I go
 Enterprise SSDs have had high endurance and can last over a decade. The capability for high endurance on SSDs has always been a tradeoff of cost, as storing fewer bits per cell significantly increases the NAND cell’s endurance and uses higher-grade NAND and levels of error correction. I was surprised by some of the additional firmware, error correction, and AI capabilities they were able to utilize to get even more endurance out of a current SSD design. The 2TB version of the “maker” SSD optimized for Chia plotting has54 PBW (that is Petabytes written or 54,000 TBW), which can plot between 4-6PB of plots before wearing out. Safe to say, this is a huge win for serious farmers and desktop enthusiasts who wanted to use their current high-end desktops for sustained plotting, where they can resell their drive to another farmer safely after use because it has so much surplus endurance!
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+<p align="center">
+<img src="/assets/SMART-jm-screenshot.png" alt="screenshot of SMART results">
+</p>
 
 
 Yes...the sample they sent me has done 1.44 PB of writes and only 1% used (the NVMe SMART percent used indicator only moves 1% at a time).
@@ -41,11 +39,9 @@ Yes...the sample they sent me has done 1.44 PB of writes and only 1% used (the N
 PNY, who is using this SSD technology in their new SSDs, [PNY LX2030 and LX3030 M.2 NVMe Gen3](https://www.pny.com.tw/en/news-detail/PNY-Chia-mining-SSD/), worked with Chia to create a Chia optimized plotting badge, indicating these drives have high endurance and sustained bandwidth for plotting.
 
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+<p align="center">
+<img src="/assets/PNY-plotripper-01.png" alt="PNY Plotripper SSD product photo with Chia optimized badge" width="75%">
+</p>
 
 
 We have seen additional announcements of the [Sabrent Plotripper](https://www.sabrent.com/plotripper/) and [Adata Prospector 970 and 950 PCIe M. 2](https://www.storagenewsletter.com/2021/07/27/adata-prospector-970-and-950-pcie-m-2-up-to-2tb-ssd-with-high-tbw/). We are hoping with the advancements in plotting software that even lower capacity and high endurance SSDs will be brought to market with a lower entry cost point for smaller farmers, who can share the drives and help each other out plotting.
@@ -66,13 +62,12 @@ I work very closely with the major storage vendors. In May I asked them to let m
 
 In the plotting channel in [Keybase](https://keybase.io/team/chia_network.public), I have the luxury of seeing tons of screenshots of people’s SSD SMART output. SMART percentage used should track NAND program erase cycles to accurately gauge the SSD wear. The TBW on the box is supposed to be dictated by the [JEDEC JESD219](https://www.jedec.org/) client spec so that users can compare drives against one another.
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
-
-
-Source: [SNIA SSD Endurance](https://www.snia.org/forums/cmsi/ssd-endurance), JEDEC
+<p align="center">
+<img src="/assets/JESD219-client-spec.png" alt="PNY Plotripper SSD product photo with Chia optimized badge" width="75%">
+</p>
+<p align="center" style="color:#808080;font-size:12px;">
+Source: <a href="https://www.snia.org/forums/cmsi/ssd-endurance" >SNIA SSD Endurance</a>, JEDEC
+</p>
 
 Some choose not to use this spec, some don’t disclose, and some just pick the worst-case Write Amplification Factor (WAF) to set their TBW. In Chia plotting, with TRIM enabled, the WAF will actually be low, about 1.5-2, when the drive is close to full, closer to 1 if the drive has a lot of spare area, unused space, overprovisioning.
 
@@ -105,14 +100,12 @@ Although it is slower, a lot of Chia plotters have indicated that they are plott
 Like everything, I busted out Excel and I made a model.
 
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
-
+<p align="center">
+<img src="/assets/forward-insights-ssd-report-q1-21.png" alt="bar graph of Forward Insights SSD Report Q1’21" width="75%">
+</p>
+<p align="center" style="color:#808080;font-size:12px;">
 Source: Forward Insights SSD Report Q1’21
+</p>
 
 [Forward Insights](https://www.forward-insights.com/index.html) has the total SSD market at 435 Million units for 2021. Let me pause for you to think about that for a second...If the typical consumer drive has 1.5 million hour MTBF (this is the same as 0.584% annual failure rate) and enterprise drives have 2M hr (0.44% afr), my math suggests that an estimated **2.6 million** newly purchased SSDs will fail in 2021 alone.
 
