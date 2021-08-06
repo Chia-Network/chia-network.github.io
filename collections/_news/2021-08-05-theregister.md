@@ -6,4 +6,4 @@ thumbnail: "/assets/news-theregister.png"
 source: theregister.com
 jumbotron: true
 ---
-The Chia cryptocurrency craze is fuelling record sales growth in Europe
+The Chia cryptocurrency craze is fueling record sales growth in Europe
