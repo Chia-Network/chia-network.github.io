@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+{% assign strings = site.data.strings[page.lang] %}
+
+<div class="homemain">
+    <div class="header-section">
+        {% include navigation.html %}
+        <div class="container">
+            <div class="row">
+                <div class="col-9">
+                    <h1 class="page-main-title">{{ strings.homemain_title }}</h1>
+                    <p>{{ strings.homemain_subtitle }}</p>
+                    <h2><img src="/assets/icons/bullhorn_green.svg">{{ strings.homemain_announce }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="my-5 content">
+                    {{ strings.homemain_description | markdownify }}
+                    <hr class="my-5">
+                    {{ strings.homemain_addendum | markdownify }}
+                </div>
+                <div class="mx-md-5 mx-xl-0">
+                    {% include email_box.html %}
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="downloads-box mt-5 mx-md-5">
+                    <h2 class="px-3 pt-2 pb-0 px-md-5 pt-md-3">{{ strings.homemain_box_title }}</h2> 
+                    <hr>
+                    <div class="px-3 pb-1 pt-0 px-md-5 pb-md-2">
+                        <h3 class="mt-4">{{ strings.homemain_box_section_1 }}</h3>
+                        <em>{{ strings.homemain_box_latest_version }} <span id="chia-blockchain-latest-release">(unknown)</span></em>
+                        <a href="/download" rel="noreferrer noopener" class="btn btn-lg d-block mt-2 mb-2"><img src="/assets/icons/chia_leaf_white.svg"> {{ strings.install_box_button }}</a>
+                    </div>
+                    <div class="px-3 pb-1 pt-0 px-md-5 pb-md-2">
+                        <a href="https://github.com/Chia-Network/chia-blockchain" target="_blank" rel="noreferrer noopener" class="btn btn-lg d-block mt-2 mb-3"><img src="/assets/github.svg"> {{ strings.homemain_box_button }}</a>
+                    </div>
+                </div>
+                <div class="downloads-box mt-5 mx-md-5">
+                    <h2 class="px-3 pt-2 pb-0 px-md-5 pt-md-3">{{ strings.homemain_idc_title }}</h2>
+                    <hr>
+                    <div class="px-3 pb-1 pt-0 px-md-5 pb-md-2">
+                        <h3 class="mt-4">{{ strings.homemain_idc_quote }}</h3>
+                    </div>
+                    <div class="px-3 pb-1 pt-0 px-md-5 pb-md-2">
+                        <a href="https://idcdocserv.com/US47836321" target="_blank" rel="noreferrer noopener" class="btn btn-lg d-block mt-2 mb-3"><img src="/assets/IDC-logo-white.svg"> {{ strings.homemain_idc_report }}</a>
+                    </div>
+                </div>
+                    <div class="d-flex flex-column align-items-center" style="padding-top: 25px;">
+                        <a href = "https://keybase.io/team/chia_network.public"><b>{{ strings.contact_live_feed_title }}</b></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+fetch("https://api.github.com/repos/Chia-Network/chia-blockchain/releases").then(function(response) { return response.json(); }).then(function(jsonResult) {
+    var release = jsonResult[0];
+    var releaseNote = release ? release.name + " - " + release.published_at.slice(0, 10) : "{{ strings.homemain_chia_blockchain_no_releases }}";
+    document.getElementById("chia-blockchain-latest-release").textContent = releaseNote;
+});
+</script>
