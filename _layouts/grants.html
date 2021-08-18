@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+{% include navigation.html active="grants" %}
+
+{% assign strings = site.data.strings[page.lang] %}
+
+<div class="grants">
+  <div class="container">
+    <!-- Hero -->
+    <div class="row">
+      <div class="col-12">
+        <h1 class="page-main-title mt-5 mb-5">{{ strings.grants_title }}</h1>
+        <div class="px-md-5"><h5>{{ strings.grants_description | markdownify }}</h5></div>
+      </div>
+    </div>
+    <div class="row content pl-md-5">
+      <div class="col-xl-6">
+        <div class="my-2">
+          <div class="">{{ strings.grants_why_1 | markdownify }}</div>  
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <div class="my-2">
+          <div class="">{{ strings.grants_why_2 | markdownify }}</div>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero -->
+    <hr class="mt-5 mb-5">
+    <!-- Grant Recipients -->
+    <div class="row my-5">
+      <div class="col-sm-6 col-md-4 col-xl-2 p-2 pb-4 pr-4">
+        <img class="img-fluid"  src="../img/chia_grant_seal@2x.png">
+      </div>
+      <div class="col-xl-10 col-md-8">
+        <div class="row"> 
+          <h3 class="ml-2">Grant Recipients</h3>
+        </div>
+        <div class="row">
+          <div class="col-xl-6">
+            <div class="">{{ strings.grants_who | markdownify }}</div>
+          </div>
+          <div class="col-xl-6">
+            <div class="">{{ strings.grants_who_2 | markdownify }}</div>
+          </div>
+        </div>
+        <!--  End Grant Recipients -->
+        <!-- Grant Ideas -->
+       
+          <div class="row py-4 px-2 d-flex flex-row" style="background-color: #F6F4EE; border-radius: 8px;">
+
+            <div class="col-lg-3 px-3 py-sm-3 py-lg-0 p-2 my-auto">
+              <div class="d-flex flex-row align-items-center flex-fill flex-grow-1">
+                <img class="img-fluid align-self-center mr-2" style="width: 32px;" src="../img/icon_chialisp.svg">
+                <div class="span">Chialisp applications</div> 
+              </div> 
+            </div>
+
+            <div class="col-lg-3 px-3 py-sm-3 py-lg-0 p-2 my-auto">
+              <div class="d-flex flex-row align-items-center flex-fill flex-grow-1">
+                <img class="img-fluid align-self-center mr-2" style="width: 32px;" src="../img/icon_chain.svg">
+                <div class="span">Blockchain tools</div> 
+              </div>
+            </div>
+
+            <div class="col-lg-3 px-3 py-sm-3 py-lg-0 p-2 my-auto">
+              <div class="d-flex flex-row align-items-center flex-fill flex-grow-1">
+                <img class="img-fluid align-self-center mr-2" style="width: 32px;" src="../img/icon_wallet.svg">
+                <div class="span">Wallets</div> 
+              </div> 
+            </div>
+
+            <div class="col-lg-3 px-3 py-sm-3 py-lg-0 p-2 my-auto">
+              <div class="d-flex flex-row align-items-center flex-fill flex-grow-1">
+                <img class="img-fluid align-self-center mr-2" style="width: 32px;" src="../img/icon_coin.svg">
+                <div class="span">Other projects</div> 
+              </div> 
+            </div>
+          </div>
+        
+      </div>
+    </div>
+
+    <hr class="mt-5 mb-5">
+    <!-- How to Apply -->
+
+    <div class="row pl-md-5 ">
+      <div class="col-xl-6 pb-5">
+        <h3 class="">How to Apply</h3>
+        <div class="">{{ strings.grants_when | markdownify }}</div>
+      </div>
+      <div class="col-xl-6 pb-5">
+        <h3 class="">Take Note</h3>
+        <div class="">{{ strings.grants_disclaimer | markdownify }}</div>
+      </div>
+    </div>
+    <!-- End How to Apply -->
+
+  </div>
+</div>
+    
