@@ -42,7 +42,7 @@ IT Renew is the first company to offer a fully recertified solution for farming 
 
 I was trying to get to the root cause of why devices are being needlessly discarded instead of being safely reused. It all boils down to data security and risk management. Storage devices have this awesome feature that can instantly erase all the data on the drive, sometimes called secure erase, sanitize, or crypto erase. There is a lot of terminology like “SED” or Self Encrypting Drive that get thrown around and mean slightly different things to different vendors, but there is a formal document from NIST that is what most companies conform to. The [NIST 800-88](http://dx.doi.org/10.6028/NIST.SP.800-88r1) standard for Media Sanitization is what the industry conforms to when dealing with data on drives. I read it again after not having to do so in many years (hey...give me a break, I was surrounded by talented security experts at Intel). I found some nuances that I don’t believe are really well understood. What in this document is called “Cryptographic Erase” (CE) has been the best practice on SSDs for over a decade. It instantly securely erase all user data, changing the media encryption key and rendering the data unreadable. This is critical because consuming days of writing random data to a device is pretty useless if this cryptographic erase is done correctly. How do we know a vendor does it properly?
 
-Here is what NIST has to say
+Here is what NIST has to say:
 
 _“Federal agencies must use FIPS 140 validated encryption modules in order to have assurance that the conditions stated above have been verified for the SED”_
 
