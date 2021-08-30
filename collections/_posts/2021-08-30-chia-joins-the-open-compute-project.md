@@ -48,6 +48,8 @@ _“Federal agencies must use FIPS 140 validated encryption modules in order to 
 
 Ok...so if a device is certified to FIPS 140-2 or 140-3 we are ok to use CE to instantly sanitize the drive? FIPS is a collection of standards for how to correctly implement cryptographic modules (like SSDs and HDDs.) What about it leaving the organization? I don’t think ones and zeros care whether they are in an organization or not, either the data is purged or it is not.
 
+---
+
 2.6.1 When Not To Use CE To Purge Media - NIST SP 800-88 Rev. 1
 * Do not use CE to purge media if the encryption was enabled after sensitive data was stored on the device without having been sanitized first.
 * Do not use CE if it is unknown whether sensitive data was stored on the device without being sanitized prior to encryption.
@@ -55,6 +57,8 @@ Ok...so if a device is certified to FIPS 140-2 or 140-3 we are ok to use CE to i
 ![NIST 800-88](/assets/blog/nist80088.png "NIST")
 
 Figure 4-1: Sanitization and Disposition Decision Flow
+
+---
 
 Many take the above recommendations as any device leaving organization control needs to be destroyed. This is downright dangerous and unintendedly causing a massive amount of e-waste.
 
