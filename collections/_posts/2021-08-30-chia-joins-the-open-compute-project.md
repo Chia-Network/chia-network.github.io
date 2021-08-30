@@ -2,7 +2,7 @@
 lang: en
 layout: post
 title:  "Chia Joins the Open Compute Project"
-date:   2021-08-24
+date:   2021-08-30
 author: "[Jonmichael Hands](https://twitter.com/LebanonJon)"
 ---
 
