@@ -22,7 +22,7 @@ The Chia Netspace during mainnet launch in March was just over 100 Petabytes (PB
 
 "Typically, when a data center operator swaps out old drives for new ones — as they do every three to five years — the discarded drives are unceremoniously shredded."
 
-[Source ](https://grist.org/technology/can-you-recycle-a-hard-drive-google-is-quietly-trying-to-find-out/)
+[Source](https://grist.org/technology/can-you-recycle-a-hard-drive-google-is-quietly-trying-to-find-out/)
 
 After all of this, the drive is destroyed instead of being recycled, recertified, and resold. We think this is stupid, and most of the folks we talked to agree but don't have the resources to tackle the many roadblocks to stop the practice. We would rather see these hard drives get reused for farming Chia than thrown into a landfill.
 
@@ -61,17 +61,13 @@ Many take the above recommendations as any device leaving organization control n
 
 I don’t believe that FIPS 140-2/3 full certification is required as long as you are working with a trusted vendor that has designed with the specifications in mind. Certification is a long and expensive process, but in the future, these specs are table stakes for most OEMs and hyperscalers. These same customers of devices already fully trust CE on the device, or otherwise they wouldn’t be qualified. I believe we can get to a point where the majority of drives can be instantly securely erased and then resold, reused, recycled and reduce a significant amount of e-waste.
 
-You can find more information about SED from SSD and HDD vendors
+You can find more information about SED from SSD and HDD vendors:
 
-[Seagate Instant Secure Erase](https://www.seagate.com/files/www-content/solutions-content/security-and-encryption/en-gb/docs/seagate-instant-secure-erase-deployment-options-tp627-2-1502gb.pdf)
-
-[Kioxia Security](https://business.kioxia.com/en-us/ssd/security.html)
-
-[IntelMAS CLI](https://www.intel.com/content/www/us/en/download/19520/intel-memory-and-storage-tool-cli-command-line-interface.html) and [GUI](https://www.intel.com/content/www/us/en/download/19543/intel-memory-and-storage-tool-gui.html?v=t)
-
-[NVMe format and Sanitize (open source tools)](https://nvmexpress.org/open-source-nvme-management-utility-nvme-command-line-interface-nvme-cli/)
-
-[WD Instant Secure Erase ](https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/western-digital/collateral/tech-brief/tech-brief-instant-secure-erase-overview.pdf)
+* [Seagate Instant Secure Erase](https://www.seagate.com/files/www-content/solutions-content/security-and-encryption/en-gb/docs/seagate-instant-secure-erase-deployment-options-tp627-2-1502gb.pdf)
+* [Kioxia Security](https://business.kioxia.com/en-us/ssd/security.html)
+* [IntelMAS CLI](https://www.intel.com/content/www/us/en/download/19520/intel-memory-and-storage-tool-cli-command-line-interface.html) and [GUI](https://www.intel.com/content/www/us/en/download/19543/intel-memory-and-storage-tool-gui.html?v=t)
+* [NVMe format and Sanitize (open source tools)](https://nvmexpress.org/open-source-nvme-management-utility-nvme-command-line-interface-nvme-cli/)
+* [WD Instant Secure Erase ](https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/western-digital/collateral/tech-brief/tech-brief-instant-secure-erase-overview.pdf)
 
 
 ## What else can Chia do?
