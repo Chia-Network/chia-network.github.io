@@ -68,7 +68,7 @@ You can find more information about SED from SSD and HDD vendors:
 * [NVMe format and Sanitize (open source tools)](https://nvmexpress.org/open-source-nvme-management-utility-nvme-command-line-interface-nvme-cli/)
 * [WD Instant Secure Erase ](https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/western-digital/collateral/tech-brief/tech-brief-instant-secure-erase-overview.pdf)
 
-
 ## What else can Chia do?
 
 We already built a revolutionary consensus protocol called Proof of Space and Time that is much more energy-efficient and decentralized than cryptocurrencies today. Chia doesn’t sell any hardware so why do we care about contributing to OCP? Part of our mission isn’t just to be sustainable now, but to be able to grow and scale sustainably. I think the industry is headed in the right direction but Chia feels like having an outside view from the cryptocurrency and global financial markets that can help accelerate these positive trends. We also use a lot of storage and have in-house storage experts (ahem…). We are working on a larger initiative for a more circular economy for storage devices to promote hardware reuse and a significant reduction in carbon and e-waste with some of the biggest names in the field. We can’t wait to talk more about what we are doing, so stay tuned!
+
