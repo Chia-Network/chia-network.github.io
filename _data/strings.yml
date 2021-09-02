@@ -69,7 +69,7 @@ en: # English
 
     Many on the Chia team are located in the SF Bay Area but remote is fine as we have people all over the world - Keybase, GitHub, and Zoom are how we work. Geographic restrictions, if any, will be noted in a job specification.
 
-    Please send your resume and cover letter to [jobs@chia.net](jobs@chia.net). Please put the role you are applying for as part of the subject line and include anything additionally required by a specific job posting.
+    Please send your resume and cover letter to [jobs@chia.net](mailto:jobs@chia.net). Please put the role you are applying for as part of the subject line and include anything additionally required by a specific job posting.
   blog_title: "Notes from Chia"
   download_title: "Release Notes"
   download_loading_message: "Loading releases..."
@@ -90,7 +90,7 @@ en: # English
 
     When you are authorized to use the Chia® brand and respect the Chia® brand guidelines, you help us ensure the strength of the brand, while protecting the entire community from being misled, confused or mistreated.
 
-    Please read over the following guidelines carefully, and never hesitate to reach out with questions or permission requests at hello@chia.net.
+    Please read over the following guidelines carefully, and never hesitate to reach out with questions or permission requests at [hello@chia.net](mailto:hello@chia.net).
 
     Happy Farming!
   terms_team_title: "Guidelines"
@@ -1342,7 +1342,7 @@ ru: # Russian
 
     Многие в команде Chia находятся в районе залива Сан-Франциско, но удаленный доступ - это хорошо, поскольку у нас есть люди по всему миру - мы работаем с помощью Keybase, GitHub и Zoom. Любые географические ограничения будут указаны в спецификации вакансии.
 
-    Пожалуйста, отправьте свое резюме и сопроводительное письмо на адрес [jobs@chia.net](jobs@chia.net). Пожалуйста, укажите должность, на которую вы претендуете, в строке темы и включите все, что дополнительно требуется для конкретной публикации о вакансии.
+    Пожалуйста, отправьте свое резюме и сопроводительное письмо на адрес [jobs@chia.net](mailto:jobs@chia.net). Пожалуйста, укажите должность, на которую вы претендуете, в строке темы и включите все, что дополнительно требуется для конкретной публикации о вакансии.
   blog_title: "Заметки от Chia"
   download_title: "Релизы"
   download_loading_message: "Загрузка релизов..."
