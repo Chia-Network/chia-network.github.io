@@ -6,7 +6,7 @@ date:   2021-09-01
 author: "[Patrick Maslana](https://keybase.io/pmaslana3)" , [Chris Marslender](https://keybase.io/pmaslana3), and [J. Eckert](https://twitter.com/sargonas)
 ---
 
-#Chia Blockchain - Bluebox Timelord AMI Release
+# Chia Blockchain - Bluebox Timelord AMI Release
 
 We have released a publicly accessible AMI (Amazon Machine Image) for Amazon Web Services. AWS makes it very fast and
 easy to deploy a Bluebox Timelord to an EC2 instance that you can control and manage in your own AWS environment. Once 
@@ -16,7 +16,7 @@ boot, both a Full Node and Timelord will start, and synchronization of the block
 Creating an EC2 image with AWS’ Spot pricing is an inexpensive way to contribute to the blockchain. Spot instances are 
 available as spare compute capacity, offering customers these products at heavily discounted rates.
 
-##Reasons to Deploy
+## Reasons to Deploy
 
 As the fastest Timelord runs, it quickly creates Proofs of Time. However, these proofs are large and uncompacted in the
 interest of speed, resulting in the total size of the blockchain database becoming increasingly extensive. Deploying a 
@@ -29,7 +29,7 @@ What is the benefit to you for running one or more Bluebox Timelords? Ultimately
 efficiency of the blockchain. A smaller database will allow new full nodes, or nodes with out-of-date databases, to 
 synchronize and verify the blockchain faster.
 
-##Deploying an AWS EC2 Instance in AWS
+## Deploying an AWS EC2 Instance in AWS
 
 High processing power is not required for the Bluebox Timelords to efficiently work at compacting blocks. This is why 
 older or lower performance hardware can be used to run it sufficiently. In the case of using AWS EC2 instances, there
@@ -66,23 +66,23 @@ instances/auto-scaling groups using Terraform. Chia manages a [GitHub repository
 AMI and includes a README file with amplifying information for deploying.
 
 
-##Q&A
+## Q&A
 
-######*Is there any compensation provided for running a Bluebox Timelord?*
+###### *Is there any compensation provided for running a Bluebox Timelord?*
 
 There is no mechanism established to provide any kind of “payout” for running a Bluebox. The only reward at this time 
 is the satisfaction of helping to improve the blockchain.
 
-######*Is there a place to get questions answered and talk to the Chia team about Timelords?*
+###### *Is there a place to get questions answered and talk to the Chia team about Timelords?*
 
 Yes! You can visit our Keybase channel, chia_network.public#timelords.
 
-######*I have old hardware available that I can use as a Bluebox Timelord. How do I configure this?*
+###### *I have old hardware available that I can use as a Bluebox Timelord. How do I configure this?*
 
 Chia-blockchain will need to be installed on the system and then configured to run as a Timelord, with specific 
 settings for a Bluebox. These settings are identified in the [Wiki](https://github.com/Chia-Network/chia-blockchain/wiki/Timelords) page, Installing a Timelord - Bluebox Timelords section.
 
-######*Would choosing to run a Spot Instance result in my Bluebox Timelord going offline regularly, forcing me to spend a significant amount of time resyncing each time?*
+###### *Would choosing to run a Spot Instance result in my Bluebox Timelord going offline regularly, forcing me to spend a significant amount of time resyncing each time?*
 
 While we can’t predict the weather on AWS instance availability for a given region, in our own testing of this, we’ve
 experienced a week or more at a time of Spot Instance availability without interruption. Obviously, as the needs of AWS customers grow and change against their inventory of available instances in a given region, disruption might happen, but we’ve not experienced enough of it ourselves to see this as a concern at this time.
