@@ -2,7 +2,7 @@
 lang: en
 layout: post
 title:  "Chia Releases Public AWS Image for Bluebox Timelords"
-date:   2021-09-01
+date:   2021-09-23
 author: "[Patrick Maslana](https://keybase.io/pmaslana3)" , [Chris Marslender](https://keybase.io/cmmarslender), and [J. Eckert](https://twitter.com/sargonas)
 ---
 
@@ -18,8 +18,8 @@ available as spare compute capacity, offering customers these products at heavil
 
 ## Reasons to Deploy
 
-As the fastest Timelord runs, it quickly creates Proofs of Time. However, these proofs are large and uncompacted in the
-interest of speed, resulting in the total size of the blockchain database becoming increasingly extensive. Deploying a 
+As the fastest Timelord runs, it quickly creates Proofs of Time. However, these proofs are large and uncompacted, 
+resulting in the total size of the blockchain database from becoming too big. Deploying a 
 Bluebox Timelord is beneficial in compacting those large, pre-existing blocks, thereby reducing the database file’s
 overall size. Although only one Timelord is required for driving the progression of the blockchain, many Bluebox 
 Timelords are needed to maintain it efficiently. For more information regarding Timelords and Bluebox Timelords, 
@@ -36,7 +36,7 @@ older or lower performance hardware can be used to run it sufficiently. In the c
 are many instance types to choose from. Some considerations to take into account when looking at the instance types 
 are:
 
-*Storage Space* - The current size of the blockchain database file, as of 8/31/21, is approximately 15GB and 
+*Storage Space* - The current size of the blockchain database file, as of 9/22/21, is approximately 20GB and 
 will continue to grow. Therefore, some evaluation is needed to determine the storage capacity, based on instance life 
 expectancy and the database growth rate. We have tested using EBS-backed storage, allowing for greater flexibility, 
 compared to the mounted SSDs or HDDs of some instance types.
