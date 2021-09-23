@@ -12,6 +12,8 @@ We’re in the process of making a real standard for tokens which will guarantee
 
 We have now spent millions of dollars with a brand marketing firm, gone through extensive creative processes and… nah just kidding, I did some research, ran a few surveys through our employees and made a decision. Here’s the new glossary:
 
+## Glossary
+
 _asset_ - a thing which can be owned. Most assets in the world have nothing to do with Chia.
 
 _token_ - a representation of an underlying asset, including in this case a set of coins on a chain
