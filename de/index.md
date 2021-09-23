@@ -1,5 +1,5 @@
 ---
-layout: download
+layout: homemain
 lang: de
 title: Zuhause - Chia Network
 ---

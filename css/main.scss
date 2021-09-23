@@ -26,7 +26,7 @@ a {
 }
 
 // pages
-@import 'releases';
+@import 'homemain';
 @import 'download';
 @import 'faq';
 @import 'about';
@@ -37,6 +37,7 @@ a {
 @import 'greenpaper';
 @import 'proof_of_space_competition';
 @import 'proof_of_time_contest';
+@import 'basic';
 
 // components
 @import 'footer';
