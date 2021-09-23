@@ -22,7 +22,7 @@ en: # English
   homemain_addendum: |
     Released under the open source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
   homemain_box_title: "Download"
-  homemain_box_section_1: "Blockchain, Chialisp and Coloured coins"
+  homemain_box_section_1: "Blockchain, Chialisp, and Chia Asset Tokens"
   homemain_box_section_2: "Install"
   homemain_box_latest_version: "Latest Version:"
   homemain_chia_blockchain_no_releases: "1.0"

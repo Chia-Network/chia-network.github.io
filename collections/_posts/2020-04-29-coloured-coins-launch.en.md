@@ -6,6 +6,10 @@ date:   2020-04-29
 author: "[Bram Cohen](https://twitter.com/bramcohen)"
 ---
 
+**Update: The Chia token standard is going to be called CAT1. Read more [here](https://www.chia.net/2021/09/23/chia-token-standard-naming.en.html).**
+
+---
+
 Blockchains should make issuing and using coins and assets easier and more trustworthy than in the analog world, but so far the functionality they provide is limited and hacked on awkwardly.
 
 Today we debut one of Chialisp's most powerful smart transactions - Coloured coins.
