@@ -2,38 +2,54 @@ en: # English
   faq_title: "FAQ"
   news_title: "News"
   news_see_more: "See more"
-  download_title: "Chia Network"
-  download_subtitle: "A new blockchain and smart transaction platform that is easier to use, more efficient, and secure."
-  download_announce: "<a href='https://www.chia.net/2021/03/17/Chia-1.0.html'>Mainnet is here!</a> Download 1.1.7 for <a href='https://download.chia.net/latest/Setup-Win64.exe'>Windows</a> or <a href='https://download.chia.net/latest/Setup-MacOS.dmg'>MacOS</a>."
-  download_button: "Download Beta Testnet"
-  download_description: |
+  homemain_title: "Chia Network"
+  homemain_subtitle: "A new blockchain and smart transaction platform that is easier to use, more efficient, and secure."
+  homemain_announce: "<a href='https://www.chia.net/2021/07/07/official-pooling-launched.en.html'>Official pooling protocol is live!</a>"
+  homemain_button: "Download Beta Testnet"
+  homemain_description: |
     Mainnet Release
     --------------------
 
     We believe that cryptocurrency should be easier to use than cash, harder to lose, and nearly impossible to steal. Anyone who wants to validate transactions should be able to farm without single-use hardware or a big electricity bill.
 
-    On February 9th we released our [Business Whitepaper](https://www.chia.net/2021/02/10/chia-businesss-whitepaper.html) and mainnet launched for farming rewards on Friday March 19, 2021. Transactions were enabled on May 3, 2021. You may also be interested in our [new consensus working document](https://docs.google.com/document/d/1tmRIb7lgi4QfKkNaxuKOBHRmwbVlGL4f7EsBDr_5xZE/edit) which was implemented first in Beta 19 on January 12, 2021.
+    On February 9th we released our [Business Whitepaper](https://www.chia.net/2021/02/10/chia-businesss-whitepaper.html) and mainnet launched for farming rewards on Friday March 19, 2021. Transactions were enabled on May 3, 2021. You may also be interested in our [new consensus working document](/assets/Chia-New-Consensus-0.9.pdf) which was implemented first in Beta 19 on January 12, 2021.
 
     Chia Network develops a blockchain and smart transaction platform created by the inventor of BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). It implements the first new Nakamoto consensus algorithm since Bitcoin in 2008. Proofs of Space and Time replace energy intensive “proofs of work.”
 
-    [Chialisp](https://chialisp.com) is Chia’s new on chain programming language that is powerful, easy to audit, and secure. It will make cryptocurrency easier to use than cash. Reference smart transactions currently available are: [Coloured coins](https://www.chia.net/2020/04/29/coloured-coins-launch.en.html), [rate-limited wallets](https://github.com/Chia-Network/chia-blockchain/tree/main/chia/wallet/rl_wallet), and [distributed identity wallets](https://github.com/Chia-Network/chia-blockchain/tree/main/chia/wallet/did_wallet). Bram introduces [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) on our [blog](https://www.chia.net/blog/) and you can learn more at [Chialisp.com](https://chialisp.com).
+    [Chialisp](https://chialisp.com) is Chia’s new on chain programming language that is powerful, easy to audit, and secure. It will make cryptocurrency easier to use than cash. Reference smart transactions currently available are: [Coloured coins](https://www.chia.net/2020/04/29/coloured-coins-launch.en.html), [rate-limited wallets](https://github.com/Chia-Network/chia-blockchain/tree/main/chia/wallet/rl_wallet), and [distributed identity wallets](https://github.com/Chia-Network/chia-blockchain/tree/main/chia/wallet/did_wallet). Bram introduces [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) on our [blog](/blog) and you can learn more at [Chialisp.com](https://chialisp.com).
 
-    You should review the [release notes](https://www.chia.net/releases/) and then [install](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL) Chia blockchain.
-  download_addendum: |
+    You should review the [release notes](download/#release-notes) and then [install](/download) Chia blockchain.
+  homemain_addendum: |
     Released under the open source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
-  download_box_title: "Download"
-  download_box_section_1: "Blockchain, Chialisp and Coloured coins"
-  download_box_section_2: "Install"
-  download_box_latest_version: "Latest Version:"
-  download_chia_blockchain_no_releases: "1.0"
-  download_wallets_no_releases: "1.0"
-  download_box_button: "Download Source Code"
+  homemain_box_title: "Download"
+  homemain_box_section_1: "Blockchain, Chialisp and Coloured coins"
+  homemain_box_section_2: "Install"
+  homemain_box_latest_version: "Latest Version:"
+  homemain_chia_blockchain_no_releases: "1.0"
+  homemain_wallets_no_releases: "1.0"
+  homemain_box_button: "Download Source Code"
   install_box_button: "Install Chia Blockchain"
-  download_releases_link: "Release notes"
-  download_idc_title: "IDC on Chia"
-  download_idc_quote: |
+  homemain_downloads_link: "Release notes"
+  homemain_idc_title: "IDC on Chia"
+  homemain_idc_quote: |
     “The Chia Network was developed and launched on the premise that HDD storage capacity is underutilized, and IDC's Global StorageSphere data confirms they are correct.”
-  download_idc_report: "Read the Report"
+  homemain_idc_report: "Read the Report"
+  download_main_text: |
+    This is the official Chia installer download page. Any other installer download sources are unofficial and unsafe.
+  download_windows_text: |
+    Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.
+  download_macos_text: |
+    Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.
+  download_linux_text: |
+    Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.
+  download_windows_button: "Windows"
+  download_macosintel_button: "macOS Intel"
+  download_macosm1_button: "macOS M1"
+  download_debian_button: "Ubuntu/Debian"
+  download_debianarm_button: "Ubuntu/Debian ARM"
+  download_centosfedora_button: "CentOS/Redhat"
+  download_wsl2_button: "Install WSL2"
+  download_amzlinux_button: "Install Amazon Linux"
   about_title: "About Us"
   about_description: |
     Founded by Bram Cohen, the inventor of the BitTorrent network, Chia Network is building a better blockchain and smart transaction platform which is more decentralized, more efficient, and more secure.
@@ -57,10 +73,10 @@ en: # English
 
     Many on the Chia team are located in the SF Bay Area but remote is fine as we have people all over the world - Keybase, GitHub, and Zoom are how we work. Geographic restrictions, if any, will be noted in a job specification.
 
-    Please send your resume and cover letter to [jobs@chia.net](jobs@chia.net). Please put the role you are applying for as part of the subject line and include anything additionally required by a specific job posting.
+    Please send your resume and cover letter to [jobs@chia.net](mailto:jobs@chia.net). Please put the role you are applying for as part of the subject line and include anything additionally required by a specific job posting.
   blog_title: "Notes from Chia"
-  releases_title: "Release Notes"
-  releases_loading_message: "Loading releases..."
+  download_title: "Release Notes"
+  download_loading_message: "Loading releases..."
   green_paper_main_title: "Chia's Green Paper"
   green_paper_download: "Download Green Paper"
   green_paper_description: |
@@ -75,34 +91,43 @@ en: # English
   terms_title: "Terms"
   terms_description: |
     The Chia® brand is a promise of standard in innovation and quality.
-    
+
     When you are authorized to use the Chia® brand and respect the Chia® brand guidelines, you help us ensure the strength of the brand, while protecting the entire community from being misled, confused or mistreated.
-    
-    Please read over the following guidelines carefully, and never hesitate to reach out with questions or permission requests at hello@chia.net.
-    
+
+    Please read over the following guidelines carefully, and never hesitate to reach out with questions or permission requests at [hello@chia.net](mailto:hello@chia.net).
+
     Happy Farming!
   terms_team_title: "Guidelines"
   terms_team_description: |
     * [Guidelines for Using Chia Network’s Trademarks and Copyrighted Materials on the Web](/assets/legal/Guidelines-for-Using-Chia-Network.pdf)
     * [Chia Copyright Policy](/assets/legal/Chia-Copyright-Policy.pdf)
-    * [Chia Trademark Policy](/assets/legal/Chia-Trademark-Policy.pdf)  
+    * [Chia Trademark Policy](/assets/legal/Chia-Trademark-Policy.pdf)
   footer_copyright_year: "© Chia Network 2021"
   navigation:
     download: "Download"
     about: "About"
     blog: "Blog"
-    releases: "Releases"
     news: "News"
     faq: "FAQ"
     greenpaper: "Green Paper"
     careers: "Careers"
     contact: "Contact"
+    grants: "Grants"
   contact_title: "Contact Us"
   contact_join_keybase: "Join our Keybase group"
   contact_email_title: "Never miss news. Subscribe today."
   contact_live_feed_title: "Keybase Live Feed"
   contact_email: "Email"
   contact_signup: "Submit"
+  grants_title: "Chia Cultivation Grant Program"
+  grants_description: "Chia Networks is committed to growing and nurturing the Chia ecosystem in as many ways as possible, not only via applications and functionality we develop, but via encouraging our highly engaged community to unleash its creativity within the ecosystem." 
+  grants_why_1: "We know that members of the community will create amazing open source projects of their own, and that some of those projects will very likely stand as pillars of the community and ecosystem."
+  grants_why_2: "To that end, in an effort to further support high-potential projects and teams, Chia Networks is excited to announce the launch of the Chia Cultivation Grant program!"
+  grants_who: "People or teams who have caught the eye of Chia’s senior leadership and present a compelling proposal as to why they feel their vision, talent, and expertise are uniquely positioned to add material value to the community are provided modest financial support via grants. "
+  grants_who_2: "Chia Networks is committed to helping those teams realize their vision and highlighting the potential value Chia feels they bring to the ecosystem with promotional assets and support."
+  grants_when: "In the coming weeks, we will add further information on the program to this page. We will provide full details of the program, as well as profile current recipients of Grants and more. Until then, watch this space for more updates, and if you have a team with a project vision you think would be a potential candidate for a Grant, you can reach out to us at [cultivation@chia.net](mailto:cultivation@chia.net)."
+  grants_disclaimer: "Please note at this time, due to the potential volume of applications and interest, we cannot guarantee we will be able to individually follow up with all applicants, and will be prioritizing those who present a fully fleshed out in-depth proposal that incorporates not only a solid idea, but milestones, fiscal and resource budgets, team information, etc."
+  grants_faq_title: "FAQ"
   proof_of_space_competition_header: "Win $100K in total prize money with Chia's Proof of Space Competition."
   proof_of_space_competition_about_competition_header: "About the Competition"
   proof_of_space_competition_about_competition_text: "Chia is having a competition for best implementation of our proof of space construct. $100k in total prize money will be awarded."
@@ -140,15 +165,15 @@ en: # English
     footer:
       heading: "Win $100K in total prize money"
       sign_up: "Sign Up"
-      
+
 fr: # French
   faq_title: "FAQ"
   news_title: "Nouvelles"
   news_see_more: "Voir plus"
-  download_title: "Réseau Chia"
-  download_subtitle: "Une meilleure blockchain et une plateforme de transaction intelligente qui est plus décentralisée, plus efficace et plus sécurisée."
-  download_button: "Télécharger Beta Testnet"
-  download_description: |
+  homemain_title: "Réseau Chia"
+  homemain_subtitle: "Une meilleure blockchain et une plateforme de transaction intelligente qui est plus décentralisée, plus efficace et plus sécurisée."
+  homemain_button: "Télécharger Beta Testnet"
+  homemain_description: |
     Release Candidates
     ---------------------
 
@@ -158,7 +183,7 @@ fr: # French
 
     Beta testnet présente également la couche de consensus de blockchain de Chia qui comprend un nœud complet, un agriculteur, et un calendrier. La blockchain est beta et il ne prend pas encore en charge les transactions.
 
-    Puisqu'il s'agit d'une version beta, vous pouvez consulter les [notes de version](https://www.chia.net/releases).
+    Puisqu'il s'agit d'une version beta, vous pouvez consulter les [notes de version](download/#release-notes).
 
     Blockchain
     ----------
@@ -169,16 +194,20 @@ fr: # French
     ---------------------
 
     LedgerSim prend en charge les transactions intelligentes Chialisp sur un grand livre au lieu d'une chaîne de blocs à des fins de test et de développement. Les portefeuilles de Chia présentent notre nouveau langage de programmation, Chialisp. Téléchargez le code source sur [GitHub](https://github.com/Chia-Network/wallets).
-  download_addendum: |
+  homemain_addendum: |
     Publié sous l'open source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
-  download_box_title: "Téléchargements"
-  download_box_section_1: "Blockchain"
-  download_box_section_2: "Chialisp et LedgerSim"
-  download_box_latest_version: "Dernière version:"
-  download_chia_blockchain_no_releases: "1.0"
-  download_wallets_no_releases: "1.0"
-  download_box_button: "Télécharger le code source"
-  download_releases_link: "Consulter les notes"
+  homemain_box_title: "Téléchargements"
+  homemain_box_section_1: "Blockchain"
+  homemain_box_section_2: "Chialisp et LedgerSim"
+  homemain_box_latest_version: "Dernière version:"
+  homemain_chia_blockchain_no_releases: "1.0"
+  homemain_wallets_no_releases: "1.0"
+  homemain_box_button: "Télécharger le code source"
+  homemain_downloads_link: "Consulter les notes"
+  homemain_idc_title: "IDC on Chia"
+  homemain_idc_quote: |
+    “The Chia Network was developed and launched on the premise that HDD storage capacity is underutilized, and IDC's Global StorageSphere data confirms they are correct.”
+  homemain_idc_report: "Read the Report"
   about_title: "À propos de nous"
   about_description: |
     Chia Network est une blockchain mondiale open source décentralisée qui est moins gaspilleuse, plus décentralisée et plus sécurisée que les crypto-monnaies traditionnelles de preuve de travail. Il est inspiré et similaire à la blockchain Bitcoin, mais à Chia, la ressource n'est pas la puissance de calcul, mais l'espace disque. Pour y parvenir, les «preuves de travail» utilisées dans Bitcoin sont remplacées par des «preuves d'espace», de sorte que l'espace disque devient la principale ressource et les preuves de temps pour parvenir à un consensus décentralisé de «style Nakamoto» qui valide les transactions.
@@ -193,8 +222,16 @@ fr: # French
   about_legal_trademark: "Chia's Trademark Policy"
   about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Directement de Chia"
-  releases_title: "Notes de version"
-  releases_loading_message: "Chargement des versions ..."
+  download_title: "Notes de version"
+  download_loading_message: "Chargement des versions ..."
+  download_windows_button: "Windows"
+  download_macosintel_button: "macOS Intel"
+  download_macosm1_button: "macOS M1"
+  download_debian_button: "Ubuntu/Debian"
+  download_debianarm_button: "Ubuntu/Debian ARM"
+  download_centosfedora_button: "CentOS/Redhat"
+  download_wsl2_button: "Install WSL2"
+  download_amzlinux_button: "Install Amazon Linux"
   green_paper_main_title: "Livre vert de Chia"
   green_paper_download: "Télécharger le livre vert"
   green_paper_description: |
@@ -211,7 +248,6 @@ fr: # French
     download: "Télécharger"
     about: "Sur"
     blog: "Blog"
-    releases: "Communiqués"
     news: "Nouvelles"
     faq: "FAQ"
     greenpaper: "Papier vert"
@@ -263,10 +299,10 @@ cn: # Chinese
   faq_title: "常问问题"
   news_title: "新闻"
   news_see_more: "查看更多"
-  download_title: "正大网络"
-  download_subtitle: "更好的區塊鍊和智能交易平台，更加分散，更高效，更安全。"
-  download_button: "下载Beta Testnet"
-  download_description: |
+  homemain_title: "正大网络"
+  homemain_subtitle: "更好的區塊鍊和智能交易平台，更加分散，更高效，更安全。"
+  homemain_button: "下载Beta Testnet"
+  homemain_description: |
     Chia的Beta测试网
     -------------
 
@@ -276,7 +312,7 @@ cn: # Chinese
 
     Beta测试网还引入了Chia的区块链共识层，其中包括一个完整的节点，农民和时间主。
 
-    由于这是Beta版本，因此您可能需要查看[release notes](https://www.chia.net/releases)。
+    由于这是Beta版本，因此您可能需要查看[release notes](download/#release-notes)。
 
     区块链
     ---
@@ -287,16 +323,20 @@ cn: # Chinese
     ------------------
 
     LedgerSim支持在账本而非区块链上进行Chialisp智能交易，以进行测试和开发。 Chia的钱包展示了我们的新编程语言Chialisp。在[GitHub](https://github.com/Chia-Network/wallets)上下载源代码。
-  download_addendum: |
+  homemain_addendum: |
     在開源[Apache許可證]（https://www.apache.org/licenses/LICENSE-2.0）下發布。
-  download_box_title: "资料下载"
-  download_box_section_1: "区块链"
-  download_box_section_2: "Chialisp和LedgerSim"
-  download_box_latest_version: "最新版本："
-  download_chia_blockchain_no_releases: "1.0"
-  download_wallets_no_releases: "1.0"
-  download_box_button: "下载源代码"
-  download_releases_link: "查看发行说明"
+  homemain_box_title: "资料下载"
+  homemain_box_section_1: "区块链"
+  homemain_box_section_2: "Chialisp和LedgerSim"
+  homemain_box_latest_version: "最新版本："
+  homemain_chia_blockchain_no_releases: "1.0"
+  homemain_wallets_no_releases: "1.0"
+  homemain_box_button: "下载源代码"
+  homemain_downloads_link: "查看发行说明"
+  homemain_idc_title: "IDC on Chia"
+  homemain_idc_quote: |
+    “The Chia Network was developed and launched on the premise that HDD storage capacity is underutilized, and IDC's Global StorageSphere data confirms they are correct.”
+  homemain_idc_report: "Read the Report"
   about_title: "关于我们"
   about_description: |
     Chia Network是一个去中心化的开源全球区块链，与传统的工作量证明加密货币相比，其浪费更少，去中心化程度更高，更安全。它的灵感与比特币区块链相似，但是在Chia中，资源不是计算能力，而是磁盘空间。为了实现这一目标，比特币中使用的“工作证明”被“空间证明”代替，因此磁盘空间成为达成分散式“中本聪式”共识以验证交易的主要资源和时间证明。
@@ -311,8 +351,16 @@ cn: # Chinese
   about_legal_trademark: "Chia's Trademark Policy"
   about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "直接来自Chia"
-  releases_title: "发行说明"
-  releases_loading_message: "正在加载发行版..."
+  download_title: "发行说明"
+  download_loading_message: "正在加载发行版..."
+  download_windows_button: "Windows"
+  download_macosintel_button: "macOS Intel"
+  download_macosm1_button: "macOS M1"
+  download_debian_button: "Ubuntu/Debian"
+  download_debianarm_button: "Ubuntu/Debian ARM"
+  download_centosfedora_button: "CentOS/Redhat"
+  download_wsl2_button: "Install WSL2"
+  download_amzlinux_button: "Install Amazon Linux"
   green_paper_main_title: "嘉的绿皮书"
   green_paper_download: "下载绿皮书"
   green_paper_description: |
@@ -329,7 +377,6 @@ cn: # Chinese
     download: "下载"
     about: "关于"
     blog: "博客"
-    releases: "发布"
     news: "新闻"
     faq: "常问问题"
     greenpaper: "绿皮书"
@@ -381,10 +428,10 @@ jp: # Japanese
   faq_title: "よくある質問"
   news_title: "ニュース"
   news_see_more: "続きを見る"
-  download_title: "チアネットワーク"
-  download_subtitle: "より優れたブロックチェーンとスマートトランザクションプラットフォームなる り分散化され、効率的でより安全で."
-  download_button: "ダウンロードBeta Testnet"
-  download_description: |
+  homemain_title: "チアネットワーク"
+  homemain_subtitle: "より優れたブロックチェーンとスマートトランザクションプラットフォームなる り分散化され、効率的でより安全で."
+  homemain_button: "ダウンロードBeta Testnet"
+  homemain_description: |
     チアのアルファテストネット
     -------------
 
@@ -394,7 +441,7 @@ jp: # Japanese
 
     Beta testnetは、フルノード、ファーマー、タイム諸侯ードを含むChiaのブロックチェーンコンセンサスレイヤーも導入します。
 
-    これはアルファ版リリースであるため、[リリースエ注釈](https://www.chia.net/releases)を確認してください。
+    これはアルファ版リリースであるため、[リリースエ注釈](download/#release-notes)を確認してください。
 
     ブロックチェーン
     --------
@@ -405,16 +452,20 @@ jp: # Japanese
     ----------------------
 
     LedgerSimは、テストおよび開発の目的で、ブロックチェーンではなく元帳でChialispスマートトランザクションをサポートします。 Chiaの財布は、新しいプログラミング言語Chialispを紹介しています。 [GitHub](https://github.com/Chia-Network/wallets)でソースコードをダウンロードします。
-  download_addendum: |
+  homemain_addendum: |
     オープンソース[Apacheライセンス]（https://www.apache.org/licenses/LICENSE-2.0）でリリースされています。
-  download_box_title: "ダウンロード"
-  download_box_section_1: "ブロックチェーン"
-  download_box_section_2: "Chialisp and LedgerSim"
-  download_box_latest_version: "最新バージョン："
-  download_chia_blockchain_no_releases: "1.0"
-  download_wallets_no_releases: "1.0"
-  download_box_button: "ソースコードをダウンロード"
-  download_releases_link: "リリースノートを見る"
+  homemain_box_title: "ダウンロード"
+  homemain_box_section_1: "ブロックチェーン"
+  homemain_box_section_2: "Chialisp and LedgerSim"
+  homemain_box_latest_version: "最新バージョン："
+  homemain_chia_blockchain_no_releases: "1.0"
+  homemain_wallets_no_releases: "1.0"
+  homemain_box_button: "ソースコードをダウンロード"
+  homemain_downloads_link: "リリースノートを見る"
+  homemain_idc_title: "IDC on Chia"
+  homemain_idc_quote: |
+    “The Chia Network was developed and launched on the premise that HDD storage capacity is underutilized, and IDC's Global StorageSphere data confirms they are correct.”
+  homemain_idc_report: "Read the Report"
   about_title: "私たちに関しては"
   about_description: |
     Chia Networkは、分散型のオープンソースグローバルブロックチェーンであり、従来の暗号化された作業の証明よりも無駄が少なく、分散され、安全です。これは、Bitcoinブロックチェーンにインスパイアされ、類似していますが、Chiaでは、リソースは計算能力ではなく、ディスクスペースです。これを実現するために、ビットコインで使用される「作業の証明」は「スペースの証明」に置き換えられます。そのため、ディスクスペースが主要なリソースとなり、トランザクションを検証する分散型「中本スタイル」コンセンサスに至る時間の証明になります。
@@ -429,8 +480,16 @@ jp: # Japanese
   about_legal_trademark: "Chia's Trademark Policy"
   about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "チアからまっすぐ"
-  releases_title: "リリースノート"
-  releases_loading_message: "リリースを読み込んでいます..."
+  download_title: "リリースノート"
+  download_loading_message: "リリースを読み込んでいます..."
+  download_windows_button: "Windows"
+  download_macosintel_button: "macOS Intel"
+  download_macosm1_button: "macOS M1"
+  download_debian_button: "Ubuntu/Debian"
+  download_debianarm_button: "Ubuntu/Debian ARM"
+  download_centosfedora_button: "Install CentOS/Redhat"
+  download_wsl2_button: "Install WSL2"
+  download_amzlinux_button: "Install Amazon Linux"
   green_paper_main_title: "チアのグリーンペーパー"
   green_paper_download: "グリーンペーパーをダウンロード"
   green_paper_description: |
@@ -447,7 +506,6 @@ jp: # Japanese
     download: "ダウンロード"
     about: "約"
     blog: "ブログ"
-    releases: "リリース"
     news: "ニュース"
     faq: "よくある質問"
     greenpaper: "グリーンペーパー"
@@ -499,20 +557,20 @@ nl: # Dutch
   faq_title: "FAQ"
   news_title: "Nieuws"
   news_see_more: "Bekijk meer"
-  download_title: "Chia Network"
-  download_subtitle: "Een beter blockchain- en slim transactieplatform dat meer gedecentraliseerd, efficiënter en veiliger is."
-  download_button: "Download Beta Testnet"
-  download_description: |
+  homemain_title: "Chia Network"
+  homemain_subtitle: "Een beter blockchain- en slim transactieplatform dat meer gedecentraliseerd, efficiënter en veiliger is."
+  homemain_button: "Download Beta Testnet"
+  homemain_description: |
     Chia's Beta Testnet
     --------------------
 
     Chia Network is een blockchain en slim transactieplatform gecreëerd door de oprichter van BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Het wordt aangedreven door het eerste nieuwe Nakamoto-stijl consensus-algoritme sinds Bitcoin in 2008 werd gelanceerd. Bewijzen van ruimte en tijd vervangen energie-intensieve "werkbewijzen" door gebruik te maken van ongebruikte schijfruimte.
 
-    Beta testnet introduceert de eerste versie van Chialisp, de slimme programmeertaal van Chia. De momenteel beschikbare slimme transacties zijn: [atomaire swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [geautoriseerde begunstigden](https://github.com/ Chia-Network / wallets / blob / master / docs / authorised_payees.md), [herstelbare wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) en [rate-limited wallets](https://github.com/Chia-Network/wallets/blob /master/docs/rate_limited_wallet.md). De oprichter van Chia Network en voormalig oprichter van BitTorrent heeft meer over [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html).
+    Beta testnet introduceert de eerste versie van Chialisp, de slimme programmeertaal van Chia. De momenteel beschikbare slimme transacties zijn: [atomaire swaps](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [geautoriseerde begunstigden](https://github.com/ Chia-Network / wallets / blob / master / docs / authorised_payees.md), [herstelbare wallets](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [multisig wallets](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) en [rate-limited wallets](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). De oprichter van Chia Network en voormalig oprichter van BitTorrent heeft meer over [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html).
 
     Beta testnet introduceert ook Chia's blockchain-consensuslaag met een volledig knooppunt, boer en timelord. De blockchain is alfa en ondersteunt nog geen transacties.
 
-    Aangezien dit een beta-release is, kunt u de [release notes](https://www.chia.net/releases) bekijken.
+    Aangezien dit een beta-release is, kunt u de [release notes](download/#release-notes) bekijken.
 
     Blockchain
     ----------
@@ -523,16 +581,20 @@ nl: # Dutch
     ---------------------
 
     LedgerSim ondersteunt Chialisp slimme transacties op een grootboek in plaats van een blockchain voor test- en ontwikkelingsdoeleinden. Chia’s portemonnee toont onze nieuwe programmeertaal, Chialisp. Download de broncode op [GitHub](https://github.com/Chia-Network/wallets).
-  download_addendum: |
+  homemain_addendum: |
     Uitgebracht onder de open source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
-  download_box_title: "downloads"
-  download_box_section_1: "Blockchain"
-  download_box_section_2: "Chialisp en LedgerSim"
-  download_box_latest_version: "Laatste versie:"
-  download_chia_blockchain_no_releases: "1.0"
-  download_wallets_no_releases: "1.0"
-  download_box_button: "Download broncode"
-  download_releases_link: "Bekijk de release notes"
+  homemain_box_title: "Downloads"
+  homemain_box_section_1: "Blockchain"
+  homemain_box_section_2: "Chialisp en LedgerSim"
+  homemain_box_latest_version: "Laatste versie:"
+  homemain_chia_blockchain_no_releases: "1.0"
+  homemain_wallets_no_releases: "1.0"
+  homemain_box_button: "Download broncode"
+  homemain_downloads_link: "Bekijk de release notes"
+  homemain_idc_title: "IDC on Chia"
+  homemain_idc_quote: |
+    “The Chia Network was developed and launched on the premise that HDD storage capacity is underutilized, and IDC's Global StorageSphere data confirms they are correct.”
+  homemain_idc_report: "Read the Report"
   about_title: "Over ons"
   about_description: |
     Chia Network is een gedecentraliseerde open source wereldwijde blockchain die minder verspillend, gedecentraliseerd en veiliger is dan traditionele cryptocurrencies voor werkbewijzen. Het is geïnspireerd en vergelijkbaar met de Bitcoin-blockchain, maar in Chia is de bron geen rekenkracht, maar schijfruimte. Om dit te bereiken, worden de "bewijzen van werk" die in Bitcoin worden gebruikt, vervangen door "bewijzen van ruimte", dus schijfruimte wordt de belangrijkste bron en het bewijs van tijd om tot een gedecentraliseerde "Nakamoto-stijl" consensus te komen die transacties valideert.
@@ -547,8 +609,16 @@ nl: # Dutch
   about_legal_trademark: "Chia's Trademark Policy"
   about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Rechtstreeks uit Chia"
-  releases_title: "Release-opmerkingen"
-  releases_loading_message: "Bezig met laden van releases ..."
+  download_title: "Release-opmerkingen"
+  download_loading_message: "Bezig met laden van releases ..."
+  download_windows_button: "Windows"
+  download_macosintel_button: "macOS Intel"
+  download_macosm1_button: "macOS M1"
+  download_debian_button: "Ubuntu/Debian"
+  download_debianarm_button: "Ubuntu/Debian ARM"
+  download_centosfedora_button: "Install CentOS/Redhat"
+  download_wsl2_button: "Install WSL2"
+  download_amzlinux_button: "Install Amazon Linux"
   green_paper_main_title: "Chia's Groenboek"
   green_paper_download: "Groenboek downloaden"
   green_paper_description: |
@@ -564,8 +634,7 @@ nl: # Dutch
   navigation:
     download: "Download"
     about: "Over"
-    blog: "blog"
-    releases: "Releases"
+    blog: "Blog"
     news: "Nieuws"
     faq: "FAQ"
     greenpaper: "Groen papier"
@@ -617,20 +686,20 @@ de: # German
   faq_title: "FAQ"
   news_title: "Nachrichten"
   news_see_more: "Mehr sehen"
-  download_title: "Chia-Netzwerk"
-  download_subtitle: "Eine bessere Blockchain und intelligente Transaktionsplattform, die dezentraler, effizienter und sicherer ist."
-  download_button: "Laden Sie Beta Testnet herunter"
-  download_description: |
+  homemain_title: "Chia-Netzwerk"
+  homemain_subtitle: "Eine bessere Blockchain und intelligente Transaktionsplattform, die dezentraler, effizienter und sicherer ist."
+  homemain_button: "Laden Sie Beta Testnet herunter"
+  homemain_description: |
     Chias Beta-Testnetz
     --------------------
 
     Chia Network entwickelt eine Blockchain- und intelligente Transaktionsplattform, die vom Gründer von BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/), entwickelt wurde. Es basiert auf dem ersten neuen Nakamoto-Konsensus-Algorithmus seit der Einführung von Bitcoin im Jahr 2008. Proofs für Raum und Zeit ersetzen energieintensive Proofs für Arbeit durch die Nutzung von nicht verwendetem Speicherplatz.
 
-    Beta testnet stellt die erste Version von Chialisp vor, der Programmiersprache für intelligente Transaktionen von Chia. Die derzeit verfügbaren smarte Transaktionen sind: [Atomar Swapgeschäfte](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [autorisierte Zahlungsempfänger](https://github.com/ Chia-Network/wallets/blob/master/docs/authorised_payees.md), [wiederherstellbare Brieftasche](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [Brieftaschen mit mehreren Sig](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) und [selten-begrenzt Brieftasche](https://github.com/Chia-Network/wallets/blob) /master/docs/rate_limited_wallet.md). Der Gründer von Chia Network und ehemalige Gründer von BitTorrent hat mehr über [Chialisp](https://www.chia.net/2019/11/27/chialisp.de.html).
+    Beta testnet stellt die erste Version von Chialisp vor, der Programmiersprache für intelligente Transaktionen von Chia. Die derzeit verfügbaren smarte Transaktionen sind: [Atomar Swapgeschäfte](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [autorisierte Zahlungsempfänger](https://github.com/ Chia-Network/wallets/blob/master/docs/authorised_payees.md), [wiederherstellbare Brieftasche](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [Brieftaschen mit mehreren Sig](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) und [selten-begrenzt Brieftasche](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). Der Gründer von Chia Network und ehemalige Gründer von BitTorrent hat mehr über [Chialisp](https://www.chia.net/2019/11/27/chialisp.de.html).
 
     Beta testnet führt auch Chias Blockchain-Konsensus-Ebene schicht, die einen vollständigen Knoten, einen Farmer und einen Timelord enthält. Die Blockchain ist Beta und unterstützt noch keine Transaktionen.
 
-    Da es sich um eine Beta-Version handelt, können Sie die [Release-Notes](https://www.chia.net/releases) lesen.
+    Da es sich um eine Beta-Version handelt, können Sie die [Release-Notes](download/#release-notes) lesen.
 
     Blockchain
     ----------
@@ -641,16 +710,20 @@ de: # German
     ----------------------
 
     LedgerSim unterstützt Chialisp-Smart-Transaktionen in einem Ledger anstelle einer Blockchain für Test- und Entwicklungszwecke. Die Brieftaschen von Chia zeigen unsere neue Programmiersprache, Chialisp. Laden Sie den Quellcode auf [GitHub](https://github.com/Chia-Network/wallets) herunter.
-  download_addendum: |
+  homemain_addendum: |
     Veröffentlicht unter der Open Source [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
-  download_box_title: "Downloads"
-  download_box_section_1: "Blockchain"
-  download_box_section_2: "Chialisp und LedgerSim"
-  download_box_latest_version: "Letzte Version:"
-  download_chia_blockchain_no_releases: "1,0"
-  download_wallets_no_releases: "1,0"
-  download_box_button: "Quellcode herunterladen"
-  download_releases_link: "Versionshinweise anzeigen"
+  homemain_box_title: "Downloads"
+  homemain_box_section_1: "Blockchain"
+  homemain_box_section_2: "Chialisp und LedgerSim"
+  homemain_box_latest_version: "Letzte Version:"
+  homemain_chia_blockchain_no_releases: "1,0"
+  homemain_wallets_no_releases: "1,0"
+  homemain_box_button: "Quellcode herunterladen"
+  homemain_downloads_link: "Versionshinweise anzeigen"
+  homemain_idc_title: "IDC on Chia"
+  homemain_idc_quote: |
+    “The Chia Network was developed and launched on the premise that HDD storage capacity is underutilized, and IDC's Global StorageSphere data confirms they are correct.”
+  homemain_idc_report: "Read the Report"
   about_title: "Über uns"
   about_description: |
     Chia Network ist eine dezentrale globale Open-Source-Blockchain, die weniger verschwenderisch, dezentraler und sicherer ist als der herkömmliche Nachweis von Kryptowährungen. Es ist inspiriert und ähnelt der Bitcoin-Blockchain, aber in Chia ist die Ressource nicht Rechenleistung, sondern Speicherplatz. Um dies zu erreichen, werden die in Bitcoin verwendeten "Proofs of Work" durch "Proofs of Space" ersetzt, sodass der Festplattenspeicher zur Hauptressource und zum Zeitnachweis für einen dezentralen "Nakamoto-Stil" -Konsens wird, der Transaktionen validiert.
@@ -665,8 +738,16 @@ de: # German
   about_legal_trademark: "Chia's Trademark Policy"
   about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Direkt aus Chia"
-  releases_title: "Versionshinweise"
-  releases_loading_message: "Veröffentlichungen werden geladen ..."
+  download_title: "Versionshinweise"
+  download_loading_message: "Veröffentlichungen werden geladen ..."
+  download_windows_button: "Windows"
+  download_macosintel_button: "macOS Intel"
+  download_macosm1_button: "macOS M1"
+  download_debian_button: "Ubuntu/Debian"
+  download_debianarm_button: "Ubuntu/Debian ARM"
+  download_centosfedora_button: "Install CentOS/Redhat"
+  download_wsl2_button: "Install WSL2"
+  download_amzlinux_button: "Install Amazon Linux"
   green_paper_main_title: "Chias Grünbuch"
   green_paper_download: "Grünbuch herunterladen"
   green_paper_description: |
@@ -683,7 +764,6 @@ de: # German
     download: "Herunterladen"
     about: "Über"
     blog: "Blog"
-    releases: "Releases"
     news: "Nachrichten"
     faq: "FAQ"
     greenpaper: "Grünes Papier"
@@ -735,10 +815,10 @@ es: # Spanish
   faq_title: "Preguntas más frecuentes"
   news_title: "Noticias"
   news_see_more: "Ver más"
-  download_title: "Red Chia"
-  download_subtitle: "Una mejor plataforma de transacciones inteligentes y blockchain que es más descentralizada, más eficiente y más segura."
-  download_button: "Descargar Beta Testnet"
-  download_description: |
+  homemain_title: "Red Chia"
+  homemain_subtitle: "Una mejor plataforma de transacciones inteligentes y blockchain que es más descentralizada, más eficiente y más segura."
+  homemain_button: "Descargar Beta Testnet"
+  homemain_description: |
     Red de prueba alfa de Chia
     --------------------------
 
@@ -748,7 +828,7 @@ es: # Spanish
 
     Beta Testnet también presenta la capa de consenso de blockchain de Chia que incluye un nodo completo, agricultor y señor del tiempo. La cadena de bloques es alfa y aún no admite transacciones
 
-    Como se trata de una versión alfa, es posible que desee revisar las [notas de la versión](https://www.chia.net/releases).
+    Como se trata de una versión alfa, es posible que desee revisar las [notas de la versión](download/#release-notes).
 
     Blockchain
     ----------
@@ -759,16 +839,20 @@ es: # Spanish
     --------------------
 
     LedgerSim admite transacciones inteligentes de Chialisp en un libro mayor en lugar de una cadena de bloques para fines de prueba y desarrollo. Las billeteras de Chia muestran nuestro nuevo lenguaje de programación, Chialisp. Descargue el código fuente en [GitHub](https://github.com/Chia-Network/wallets).
-  download_addendum: |
+  homemain_addendum: |
     Publicado bajo el código abierto [Licencia de Apache](https://www.apache.org/licenses/LICENSE-2.0).
-  download_box_title: "Descargas"
-  download_box_section_1: "Blockchain"
-  download_box_section_2: "Chialisp y LedgerSim"
-  download_box_latest_version: "Ultima versión:"
-  download_chia_blockchain_no_releases: "1.0"
-  download_wallets_no_releases: "1.0"
-  download_box_button: "Descargar código fuente"
-  download_releases_link: "Ver notas de la versión"
+  homemain_box_title: "Descargas"
+  homemain_box_section_1: "Blockchain"
+  homemain_box_section_2: "Chialisp y LedgerSim"
+  homemain_box_latest_version: "Ultima versión:"
+  homemain_chia_blockchain_no_releases: "1.0"
+  homemain_wallets_no_releases: "1.0"
+  homemain_box_button: "Descargar código fuente"
+  homemain_downloads_link: "Ver notas de la versión"
+  homemain_idc_title: "IDC on Chia"
+  homemain_idc_quote: |
+    “The Chia Network was developed and launched on the premise that HDD storage capacity is underutilized, and IDC's Global StorageSphere data confirms they are correct.”
+  homemain_idc_report: "Read the Report"
   about_title: "Sobre nosotros"
   about_description: |
     Chia Network es una cadena de bloques global descentralizada de código abierto que es menos derrochadora, más descentralizada y más segura que las criptomonedas tradicionales de prueba de trabajo. Está inspirado y es similar a la cadena de bloques de Bitcoin, pero en Chia, el recurso no es la potencia informática, sino el espacio en disco. Para lograr esto, las "pruebas de trabajo" utilizadas en Bitcoin se reemplazan por "pruebas de espacio", por lo que el espacio en disco se convierte en el recurso principal y las pruebas de tiempo para llegar a un consenso descentralizado de "estilo Nakamoto" que valida las transacciones.
@@ -783,8 +867,16 @@ es: # Spanish
   about_legal_trademark: "Chia's Trademark Policy"
   about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Directo de Chia"
-  releases_title: "Notas de lanzamiento"
-  releases_loading_message: "Cargando lanzamientos ..."
+  download_title: "Notas de lanzamiento"
+  download_loading_message: "Cargando lanzamientos ..."
+  download_windows_button: "Windows"
+  download_macosintel_button: "macOS Intel"
+  download_macosm1_button: "macOS M1"
+  download_debian_button: "Ubuntu/Debian"
+  download_debianarm_button: "Ubuntu/Debian ARM"
+  download_centosfedora_button: "Install CentOS/Redhat"
+  download_wsl2_button: "Install WSL2"
+  download_amzlinux_button: "Install Amazon Linux"
   green_paper_main_title: "Libro Verde de Chia"
   green_paper_download: "Descargar Green Paper"
   green_paper_description: |
@@ -801,7 +893,6 @@ es: # Spanish
     download: "Descargar"
     about: "Acerca de"
     blog: "Blog"
-    releases: "Lanzamientos"
     news: "Noticias"
     faq: "Preguntas más frecuentes"
     greenpaper: "Papel verde"
@@ -853,10 +944,10 @@ sr: # Serbian
   faq_title: "ФАК"
   news_title: "Вести"
   news_see_more: "Види више"
-  download_title: "Цхиа Нетворк"
-  download_subtitle: "Боља блокчеин и памента платформа ѕа трансакције која је децентрализованија, ефикаснија и сигурнија."
-  download_button: "Преузмите Алпха Тестнет"
-  download_description: |
+  homemain_title: "Цхиа Нетворк"
+  homemain_subtitle: "Боља блокчеин и памента платформа ѕа трансакције која је децентрализованија, ефикаснија и сигурнија."
+  homemain_button: "Преузмите Алпха Тестнет"
+  homemain_description: |
     Цхиа'с Алпха Тестнет
     --------------------
 
@@ -866,7 +957,7 @@ sr: # Serbian
 
     Алпха тестнет такође уводи Цхиа-ин блоцкцхаин консензусни слој који укључује читав чвор, пољопривредника и времешника. Блок венац је алфа и још не подржава трансакције.
 
-    Пошто је ово алфа издање, можда ћете желети да прегледате [издање грешке](https://www.chia.net/releases).
+    Пошто је ово алфа издање, можда ћете желети да прегледате [издање грешке](download/#release-notes).
 
     Блоцкцхаин
     ----------
@@ -877,16 +968,20 @@ sr: # Serbian
     --------------------
 
     ЛедгерСим подржава Цхиалисп паметне трансакције на књизи уместо блоцкцхаин-а за потребе тестирања и развоја. Цхиа-ове новчанике представљају наш нови програмски језик, Цхиалисп. Преузмите изворни код на [ГитХуб](https://github.com/Chia-Network/wallets).
-  download_addendum: |
+  homemain_addendum: |
     Објављено под отвореним извором [Апацхе Лиценсе](хттпс://ввв.апацхе.орг/лиценсес/ЛИЦЕНСЕ-2.0).
-  download_box_title: "Преузимања"
-  download_box_section_1: "Блоцкцхаин"
-  download_box_section_2: "Цхиалисп и ЛедгерСим"
-  download_box_latest_version: "Најновија верзија:"
-  download_chia_blockchain_no_releases: "1.0"
-  download_wallets_no_releases: "1.0"
-  download_box_button: "Преузмите изворни код"
-  download_releases_link: "Погледајте биљешке о издању"
+  homemain_box_title: "Преузимања"
+  homemain_box_section_1: "Блоцкцхаин"
+  homemain_box_section_2: "Цхиалисп и ЛедгерСим"
+  homemain_box_latest_version: "Најновија верзија:"
+  homemain_chia_blockchain_no_releases: "1.0"
+  homemain_wallets_no_releases: "1.0"
+  homemain_box_button: "Преузмите изворни код"
+  homemain_downloads_link: "Погледајте биљешке о издању"
+  homemain_idc_title: "IDC on Chia"
+  homemain_idc_quote: |
+    “The Chia Network was developed and launched on the premise that HDD storage capacity is underutilized, and IDC's Global StorageSphere data confirms they are correct.”
+  homemain_idc_report: "Read the Report"
   about_title: "О нама"
   about_description: |
     Цхиа Нетворк је децентрализовани глобални блоцкцхаин отвореног кода који је мање расипан, децентрализованији и сигурнији од традиционалних доказа о раду крипто валута. Инспирисан је и сличан Битцоин блоцкцхаину, али у Цхиа-у, ресурс није рачунска снага, већ простор на диску. Да би се то постигло, „докази о раду“ који се користе у Битцоин-у замењују се „доказима простора“, тако да простор на диску постаје главни ресурс и доказ времена да се дође до децентрализованог консензуса у „Накамото“ стилу који потврђује трансакције.
@@ -901,8 +996,16 @@ sr: # Serbian
   about_legal_trademark: "Chia's Trademark Policy"
   about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Равно из Цхиа"
-  releases_title: "Напомене о издању"
-  releases_loading_message: "Учитавање издања ..."
+  download_title: "Напомене о издању"
+  download_loading_message: "Учитавање издања ..."
+  download_windows_button: "Windows"
+  download_macosintel_button: "macOS Intel"
+  download_macosm1_button: "macOS M1"
+  download_debian_button: "Ubuntu/Debian"
+  download_debianarm_button: "Ubuntu/Debian ARM"
+  download_centosfedora_button: "Install CentOS/Redhat"
+  download_wsl2_button: "Install WSL2"
+  download_amzlinux_button: "Install Amazon Linux"
   green_paper_main_title: "Цхиа-ова зелена књига"
   green_paper_download: "Преузмите зелену књигу"
   green_paper_description: |
@@ -919,7 +1022,6 @@ sr: # Serbian
     download: "Преузимање"
     about: "О томе"
     blog: "Блог"
-    releases: "Издања"
     news: "Вести"
     faq: "ФАК"
     greenpaper: "Зелена књига"
@@ -971,10 +1073,10 @@ pt:
   faq_title: "Perguntas frequentes"
   news_title: "Notícia"
   news_see_more: "Ver mais"
-  download_title: "Rede Chia"
-  download_subtitle: "Uma blockchain ecológica e uma melhor plataforma para gerenciar dinheiro."
-  download_button: "Baixar Beta Testnet"
-  download_description: |
+  homemain_title: "Rede Chia"
+  homemain_subtitle: "Uma blockchain ecológica e uma melhor plataforma para gerenciar dinheiro."
+  homemain_button: "Baixar Beta Testnet"
+  homemain_description: |
     Beta Testnet de Chia
     --------------------
 
@@ -984,7 +1086,7 @@ pt:
 
     O Beta testnet também apresenta a camada de consenso de blockchain da Chia, que inclui um nó completo, agricultor e senhor do tempo. O blockchain é alfa e ainda não suporta transações.
 
-    Como esta é uma versão alfa, convém revisar as [erratas da versão](https://www.chia.net/releases).
+    Como esta é uma versão alfa, convém revisar as [erratas da versão](download/#release-notes).
 
     Blockchain
     ----------
@@ -995,16 +1097,20 @@ pt:
     ----------------------
 
     O LedgerSim suporta transações inteligentes do Chialisp em um razão em vez de uma blockchain para fins de teste e desenvolvimento. As carteiras de Chia mostram nossa nova linguagem de programação, Chialisp. Baixe o código fonte no [GitHub](https://github.com/Chia-Network/wallets).
-  download_addendum: |
+  homemain_addendum: |
     Lançado sob o código aberto [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
-  download_box_title: "Transferências"
-  download_box_section_1: "Blockchain"
-  download_box_section_2: "Chialisp and LedgerSim"
-  download_box_latest_version: "Última versão:"
-  download_chia_blockchain_no_releases: "1.0"
-  download_wallets_no_releases: "1.0"
-  download_box_button: "Baixar código fonte"
-  download_releases_link: "Ver notas de lançamento"
+  homemain_box_title: "Transferências"
+  homemain_box_section_1: "Blockchain"
+  homemain_box_section_2: "Chialisp and LedgerSim"
+  homemain_box_latest_version: "Última versão:"
+  homemain_chia_blockchain_no_releases: "1.0"
+  homemain_wallets_no_releases: "1.0"
+  homemain_box_button: "Baixar código fonte"
+  homemain_downloads_link: "Ver notas de lançamento"
+  homemain_idc_title: "IDC on Chia"
+  homemain_idc_quote: |
+    “The Chia Network was developed and launched on the premise that HDD storage capacity is underutilized, and IDC's Global StorageSphere data confirms they are correct.”
+  homemain_idc_report: "Read the Report"
   about_title: "Sobre nós"
   about_description: |
     A Chia Network é uma blockchain global de código aberto descentralizada, menos desperdiçada, mais descentralizada e mais segura do que a prova tradicional de criptomoedas de trabalho. É inspirado e semelhante ao blockchain Bitcoin, mas em Chia, o recurso não é poder de computação, mas espaço em disco. Para conseguir isso, as "provas de trabalho" usadas no Bitcoin são substituídas por "provas de espaço", de modo que o espaço em disco se torna o principal recurso e as provas de tempo para chegar a um consenso descentralizado de "estilo Nakamoto" que valida transações.
@@ -1019,8 +1125,16 @@ pt:
   about_legal_trademark: "Chia's Trademark Policy"
   about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Direto de Chia"
-  releases_title: "Notas de versão"
-  releases_loading_message: "Carregando lançamentos ..."
+  download_title: "Notas de versão"
+  download_loading_message: "Carregando lançamentos ..."
+  download_windows_button: "Windows"
+  download_macosintel_button: "macOS Intel"
+  download_macosm1_button: "macOS M1"
+  download_debian_button: "Ubuntu/Debian"
+  download_debianarm_button: "Ubuntu/Debian ARM"
+  download_centosfedora_button: "Install CentOS/Redhat"
+  download_wsl2_button: "Install WSL2"
+  download_amzlinux_button: "Install Amazon Linux"
   green_paper_main_title: "Livro Verde de Chia"
   green_paper_download: "Download Livro Verde"
   green_paper_description: |
@@ -1037,7 +1151,6 @@ pt:
     download: "Baixar"
     about: "Sobre"
     blog: "Blog"
-    releases: "Lançamentos"
     news: "Notícia"
     faq: "Perguntas frequentes"
     greenpaper: "Papel verde"
@@ -1089,10 +1202,10 @@ tr: # Turkish
   faq_title: "SSS"
   news_title: "Haberler"
   news_see_more: "Daha fazla gör"
-  download_title: "Chia Ağı"
-  download_subtitle: "Merkezi olmayan, daha verimli, daha güvenli ve çok daha iyi bir blockchain ve akıllı işlem platformu."
-  download_button: "Beta Testnet'i indirin"
-  download_description: |
+  homemain_title: "Chia Ağı"
+  homemain_subtitle: "Merkezi olmayan, daha verimli, daha güvenli ve çok daha iyi bir blockchain ve akıllı işlem platformu."
+  homemain_button: "Beta Testnet'i indirin"
+  homemain_description: |
     Chia’nın Alfa Test Ağı
     --------------------
 
@@ -1102,7 +1215,7 @@ tr: # Turkish
 
     Alfa test ağı, Chia’nın tam bir düğüm, çiftçi ve zaman ağzı içeren blockchain konsensüs katmanını da tanıtmıstir. Chia blockchainin su anda alfa testleri yapilmakta oldugu icin, henüz işlemleri desteklememektedir.
 
-    Bu bir alfa sürümü olduğundan, [release errata](https://www.chia.net/releases) 'yı incelemek isteyebilirsiniz.
+    Bu bir alfa sürümü olduğundan, [release errata](download/#release-notes) 'yı incelemek isteyebilirsiniz.
 
     Blok Zinciri
     ----------
@@ -1113,16 +1226,20 @@ tr: # Turkish
     ----------------------
 
     LedgerSim, Chialisp akıllı işlemlerini test ve geliştirme amacıyla bir blok zinciri yerine bir defterde desteklemektedir. Chia’nın cüzdanları yeni programlama dilimiz Chialisp'i sergilemektedir. Kaynak kodunu [GitHub](https://github.com/Chia-Network/wallets) 'dan indirin.
-  download_addendum: |
+  homemain_addendum: |
     Açık kaynak [Apache Lisansı](https://www.apache.org/licenses/LICENSE-2.0) altında yayınlandı .
-  download_box_title: "İndirilenler"
-  download_box_section_1: "Blockchain"
-  download_box_section_2: "Chialisp ve LedgerSim"
-  download_box_latest_version: "En son sürüm:"
-  download_chia_blockchain_no_releases: "1.0"
-  download_wallets_no_releases: "1.0"
-  download_box_button: "Kaynak Kodunu İndir"
-  download_releases_link: "Sürüm notlarını göster"
+  homemain_box_title: "İndirilenler"
+  homemain_box_section_1: "Blockchain"
+  homemain_box_section_2: "Chialisp ve LedgerSim"
+  homemain_box_latest_version: "En son sürüm:"
+  homemain_chia_blockchain_no_releases: "1.0"
+  homemain_wallets_no_releases: "1.0"
+  homemain_box_button: "Kaynak Kodunu İndir"
+  homemain_downloads_link: "Sürüm notlarını göster"
+  homemain_idc_title: "IDC on Chia"
+  homemain_idc_quote: |
+    “The Chia Network was developed and launched on the premise that HDD storage capacity is underutilized, and IDC's Global StorageSphere data confirms they are correct.”
+  homemain_idc_report: "Read the Report"
   about_title: "Hakkımızda"
   about_description: |
     Chia Network, geleneksel çalışma kripto para birimlerinin kanıtlarından daha az israf, daha merkezi olmayan ve daha güvenli olan ademi merkeziyetçi bir açık kaynak küresel blok zinciridir. İlham veriyor ve Bitcoin blok zincirine benziyor, ancak Chia'da kaynak hesaplama gücü değil, disk alanı. Bunu başarmak için, Bitcoin'de kullanılan “çalışma kanıtları” yerine “alan kanıtı” ile yer değiştirildiğinden, disk alanı, işlemleri doğrulayan merkezi olmayan bir “Nakamoto tarzı” fikir birliğine varmak için ana kaynak ve zaman kanıtı haline gelir.
@@ -1137,8 +1254,16 @@ tr: # Turkish
   about_legal_trademark: "Chia's Trademark Policy"
   about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Doğrudan Chia"
-  releases_title: "Sürüm notları"
-  releases_loading_message: "Sürümler yükleniyor ..."
+  download_title: "Sürüm notları"
+  download_loading_message: "Sürümler yükleniyor ..."
+  download_windows_button: "Windows"
+  download_macosintel_button: "macOS Intel"
+  download_macosm1_button: "macOS M1"
+  download_debian_button: "Ubuntu/Debian"
+  download_debianarm_button: "Ubuntu/Debian ARM"
+  download_centosfedora_button: "Install CentOS/Redhat"
+  download_wsl2_button: "Install WSL2"
+  download_amzlinux_button: "Install Amazon Linux"
   green_paper_main_title: "Chia'nın Yeşil Kağıdı"
   green_paper_download: "Yeşil Kağıdı İndirin"
   green_paper_description: |
@@ -1155,7 +1280,6 @@ tr: # Turkish
     download: "İndir"
     about: "hakkında"
     blog: "Blog"
-    releases: "Salıverme"
     news: "Haberler"
     faq: "SSS"
     greenpaper: "Yeşil kağıt"
@@ -1207,11 +1331,11 @@ ru: # Russian
   faq_title: "Вопросы-Ответы"
   news_title: "Новости"
   news_see_more: "Узнать больше"
-  download_title: "Chia Network"
-  download_subtitle: "Новый блокчейн и платформа смарт-транзакций, которые более эффективны, децентрализованны и безопасны."
-  download_announce: "<a href='https://www.chia.net/2021/03/17/Chia-1.0.html'>Основная сеть уже здесь!</a> Загрузите версию 1.1.7 для <a href='https://download.chia.net/latest/Setup-Win64.exe'>Windows</a> или <a href='https://download.chia.net/latest/Setup-MacOS.dmg'>MacOS</a>."
-  download_button: "Скачать"
-  download_description: |
+  homemain_title: "Chia Network"
+  homemain_subtitle: "Новый блокчейн и платформа смарт-транзакций, которые более эффективны, децентрализованны и безопасны."
+  homemain_announce: "<a href='https://www.chia.net/2021/03/17/Chia-1.0.html'>Основная сеть уже здесь!</a>"
+  homemain_button: "Скачать"
+  homemain_description: |
     Релиз основной сети
     --------------------
 
@@ -1221,20 +1345,24 @@ ru: # Russian
 
     Chia Network разрабатывает блокчейн и платформу интеллектуальных транзакций, созданную изобретателем BitTorrent, [Брэмом Коэном](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Он реализует первый новый алгоритм консенсуса Накамото со времен Биткойна с 2008 года. Доказательство пространства и времени (Proofs of Space and Time) заменят энергоемкое «доказательство работы» (proofs-of-work)
 
-    Chialisp - это новый язык программирования Chia для цепочек, который является мощным, легким для аудита и безопасным. Рекомендуем смарт-транзакций доступные в настоящий момент: [атомарные свопы](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [уполномоченные получатели](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [восстанавливаемые кошельки](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [кошельки с мультиподписью](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), [кошельки с ограничением скорости](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md) и цветные монеты. Брэм представляет [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) в нашем [блоге](https://www.chia.net/blog/).
+    Chialisp - это новый язык программирования Chia для цепочек, который является мощным, легким для аудита и безопасным. Рекомендуем смарт-транзакций доступные в настоящий момент: [атомарные свопы](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [уполномоченные получатели](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [восстанавливаемые кошельки](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [кошельки с мультиподписью](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org), [кошельки с ограничением скорости](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md) и цветные монеты. Брэм представляет [Chialisp](https://www.chia.net/2019/11/27/chialisp.en.html) в нашем [блоге](/blog).
 
-    Вам следует ознакомиться с [примечаниями к релизу](https://www.chia.net/releases/) и затем [установить](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL) блокчейн Chia.
-  download_addendum: |
+    Вам следует ознакомиться с [примечаниями к релизу](download/#release-notes) и затем [установить](/download) блокчейн Chia.
+  homemain_addendum: |
     Выпущено под [лицензией Apache](https://www.apache.org/licenses/LICENSE-2.0) с открытым исходным кодом.
-  download_box_title: "Скачать"
-  download_box_section_1: "Блокчейн, Chialisp и цветные монеты"
-  download_box_section_2: "Установить"
-  download_box_latest_version: "Последняя версия:"
-  download_chia_blockchain_no_releases: "1.0"
-  download_wallets_no_releases: "1.0"
-  download_box_button: "Скачать исходный код"
+  homemain_box_title: "Скачать"
+  homemain_box_section_1: "Блокчейн, Chialisp и цветные монеты"
+  homemain_box_section_2: "Установить"
+  homemain_box_latest_version: "Последняя версия:"
+  homemain_chia_blockchain_no_releases: "1.0"
+  homemain_wallets_no_releases: "1.0"
+  homemain_box_button: "Скачать исходный код"
   install_box_button: "Установить Chia Blockchain"
-  download_releases_link: "Примечания к релизам"
+  homemain_downloads_link: "Примечания к релизам"
+  homemain_idc_title: "IDC on Chia"
+  homemain_idc_quote: |
+    “The Chia Network was developed and launched on the premise that HDD storage capacity is underutilized, and IDC's Global StorageSphere data confirms they are correct.”
+  homemain_idc_report: "Read the Report"
   about_title: "О нас"
   about_description: |
     Основанная Брэмом Коэном, изобретателем протокола BitTorrent, компания Chia Network создает лучшую блокчейн-платформу и платформу для смарт-транзакций, которая будет более децентрализованной, более эффективной и безопасной.
@@ -1258,10 +1386,18 @@ ru: # Russian
 
     Многие в команде Chia находятся в районе залива Сан-Франциско, но удаленный доступ - это хорошо, поскольку у нас есть люди по всему миру - мы работаем с помощью Keybase, GitHub и Zoom. Любые географические ограничения будут указаны в спецификации вакансии.
 
-    Пожалуйста, отправьте свое резюме и сопроводительное письмо на адрес [jobs@chia.net](jobs@chia.net). Пожалуйста, укажите должность, на которую вы претендуете, в строке темы и включите все, что дополнительно требуется для конкретной публикации о вакансии.
+    Пожалуйста, отправьте свое резюме и сопроводительное письмо на адрес [jobs@chia.net](mailto:jobs@chia.net). Пожалуйста, укажите должность, на которую вы претендуете, в строке темы и включите все, что дополнительно требуется для конкретной публикации о вакансии.
   blog_title: "Заметки от Chia"
-  releases_title: "Релизы"
-  releases_loading_message: "Загрузка релизов..."
+  download_title: "Релизы"
+  download_loading_message: "Загрузка релизов..."
+  download_windows_button: "Windows"
+  download_macosintel_button: "macOS Intel"
+  download_macosm1_button: "macOS M1"
+  download_debian_button: "Ubuntu/Debian"
+  download_debianarm_button: "Ubuntu/Debian ARM"
+  download_centosfedora_button: "Install CentOS/Redhat"
+  download_wsl2_button: "Install WSL2"
+  download_amzlinux_button: "Install Amazon Linux"
   green_paper_main_title: "Зеленая книга Chia"
   green_paper_download: "Скачать Зеленую книгу"
   green_paper_description: |
@@ -1278,7 +1414,6 @@ ru: # Russian
     download: "Скачать"
     about: "О нас"
     blog: "Блог"
-    releases: "Релизы"
     news: "Новости"
     faq: "Вопросы-Ответы"
     greenpaper: "Зеленая книга"
