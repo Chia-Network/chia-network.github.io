@@ -3,7 +3,7 @@ lang: en
 layout: post
 title:  "Chia Releases Public AWS Image for Bluebox Timelords"
 date:   2021-09-01
-author: "[Patrick Maslana](https://keybase.io/pmaslana3)" , [Chris Marslender](https://keybase.io/pmaslana3), and [J. Eckert](https://twitter.com/sargonas)
+author: "[Patrick Maslana](https://keybase.io/pmaslana3)" , [Chris Marslender](https://keybase.io/cmmarslender), and [J. Eckert](https://twitter.com/sargonas)
 ---
 
 # Chia Blockchain - Bluebox Timelord AMI Release
@@ -86,4 +86,3 @@ settings for a Bluebox. These settings are identified in the [Wiki](https://gith
 
 While we can’t predict the weather on AWS instance availability for a given region, in our own testing of this, we’ve
 experienced a week or more at a time of Spot Instance availability without interruption. Obviously, as the needs of AWS customers grow and change against their inventory of available instances in a given region, disruption might happen, but we’ve not experienced enough of it ourselves to see this as a concern at this time.
-
