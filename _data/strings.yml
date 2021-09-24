@@ -61,6 +61,10 @@ en: # English
   about_team_description: |
     Chia Network was founded by the creator of BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). It also includes executive leadership from the former founder and CEO of eMusic.com and Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/) and the former acting-CEO of Overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/). The Chia blockchain has an active open source developer community with many contributions to the codebase. Many individuals contribute towards the Chia blockchain in areas which include research, peer reviews, development, testing, documentation, and translation.
   about_invest_investors_title: "Our Investors"
+  about_legal_title: "Legal"
+  about_legal_copyright:  "Chia's Copyright Policy"
+  about_legal_trademark: "Chia's Trademark Policy"
+  about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   careers_title: "Careers"
   careers_description: |
     **Chia is hiring!**
@@ -213,6 +217,10 @@ fr: # French
   about_team_description: |
     Chia Network a été fondée par le créateur de BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). Ca comprend également le leadership exécutif de l'ancien fondateur et PDG d'eMusic.com et de Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/) et de l'ancien PDG par intérim d'Overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/). La blockchain Chia a une communauté de développeurs open source active avec de nombreuses contributions à la base de code. De nombreuses personnes contribuent à la blockchain Chia dans des domaines tels que la recherche, l'examen par les pairs, les tests, la documentation et la traduction.
   about_invest_investors_title: "Nos investisseurs"
+  about_legal_title: "Legal"
+  about_legal_copyright:  "Chia's Copyright Policy"
+  about_legal_trademark: "Chia's Trademark Policy"
+  about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Directement de Chia"
   download_title: "Notes de version"
   download_loading_message: "Chargement des versions ..."
@@ -338,6 +346,10 @@ cn: # Chinese
   about_team_description: |
     Chia Network由BitTorrent的创建者[Bram Cohen](https://www.linkedin.com/in/cohenbram/)创立。它包括eMusic.com和Vindicia的前创始人兼首席执行官[Gene Hoffman](https://www.linkedin.com/in/gehoffman/), 以及Overstock.com的前代理首席执行官[Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/). Chia区块链拥有活跃的开源开发者社区，对代码库做出了许多贡献。许多人在包括研究，同行评审，开发，测试，文档和翻译在内的领域为Chia区块链做出贡献。
   about_invest_investors_title: "我们的投资者"
+  about_legal_title: "Legal"
+  about_legal_copyright:  "Chia's Copyright Policy"
+  about_legal_trademark: "Chia's Trademark Policy"
+  about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "直接来自Chia"
   download_title: "发行说明"
   download_loading_message: "正在加载发行版..."
@@ -463,6 +475,10 @@ jp: # Japanese
   about_team_description: |
     Chia Networkは、BitTorrentの作成者である[Bram Cohen](https://www.linkedin.com/in/cohenbram/)によって設立されました. これには、eMusic.comおよびVindiciaの元創設者兼CEOである [Gene Hoffman](https://www.linkedin.com/in/gehoffman/)が含まれますそして、[Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/),Overstock.comの元演技CEO。 Chiaブロックチェーンには、コードベースに多くの貢献をするアクティブなオープンソース開発者コミュニティがあります。 多くの個人が、研究、査読、開発、テスト、文書化、翻訳などの分野でChiaブロックチェーンに貢献しています。
   about_invest_investors_title: "投資家"
+  about_legal_title: "Legal"
+  about_legal_copyright:  "Chia's Copyright Policy"
+  about_legal_trademark: "Chia's Trademark Policy"
+  about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "チアからまっすぐ"
   download_title: "リリースノート"
   download_loading_message: "リリースを読み込んでいます..."
@@ -588,6 +604,10 @@ nl: # Dutch
   about_team_description: |
     Chia Network is opgericht door de maker van BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). Het omvat ook uitvoerend leiderschap van de voormalige oprichter en CEO van eMusic.com en Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/) en de voormalige waarnemend CEO van Overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/). De Chia-blockchain heeft een actieve open source-ontwikkelaarscommunity met veel bijdragen aan de codebase. Veel individuen dragen bij aan de Chia-blockchain op gebieden zoals onderzoek, peer reviews, ontwikkeling, testen, documentatie en vertaling.
   about_invest_investors_title: "Onze investeerders"
+  about_legal_title: "Legal"
+  about_legal_copyright:  "Chia's Copyright Policy"
+  about_legal_trademark: "Chia's Trademark Policy"
+  about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Rechtstreeks uit Chia"
   download_title: "Release-opmerkingen"
   download_loading_message: "Bezig met laden van releases ..."
@@ -713,6 +733,10 @@ de: # German
   about_team_description: |
     Chia Network wurde vom Schöpfer von BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/), gegründet. Es umfasst auch die Geschäftsführung des ehemaligen Gründers und CEO von eMusic.com und Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/) und des ehemaligen CEO von Overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/). Die Chia-Blockchain hat eine aktive Open-Source-Entwickler-Community mit vielen Beiträgen zur Codebasis. Viele Einzelpersonen tragen in Bereichen wie Forschung, Peer Reviews, Entwicklung, Testen, Dokumentation und Übersetzung zur Chia-Blockchain bei.
   about_invest_investors_title: "Unsere Investoren"
+  about_legal_title: "Legal"
+  about_legal_copyright:  "Chia's Copyright Policy"
+  about_legal_trademark: "Chia's Trademark Policy"
+  about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Direkt aus Chia"
   download_title: "Versionshinweise"
   download_loading_message: "Veröffentlichungen werden geladen ..."
@@ -838,6 +862,10 @@ es: # Spanish
   about_team_description: |
     Chia Network fue fundada por el creador de BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). También incluye el liderazgo ejecutivo del ex fundador y CEO de eMusic.com y Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/) y el ex CEO interino de Overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/). Chia blockchain tiene una comunidad activa de desarrolladores de código abierto con muchas contribuciones a la base de código. Muchas personas contribuyen a la cadena de bloques de Chia en áreas que incluyen investigación, revisión por pares, desarrollo, pruebas, documentación y traducción.
   about_invest_investors_title: "Nuestros inversores"
+  about_legal_title: "Legal"
+  about_legal_copyright:  "Chia's Copyright Policy"
+  about_legal_trademark: "Chia's Trademark Policy"
+  about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Directo de Chia"
   download_title: "Notas de lanzamiento"
   download_loading_message: "Cargando lanzamientos ..."
@@ -963,6 +991,10 @@ sr: # Serbian
   about_team_description: |
     Цхиа Нетворк основао је творац БитТоррент-а, [Брам Цохен](https://www.linkedin.com/in/cohenbram/). Такође укључује извршно руководство бившег оснивача еМусиц.цом-а и Виндициа, [Гене Хоффман](https://www.linkedin.com/in/gehoffman/) и бившег вршиоца дужности извршног директора оверстоцк.цом, [Митцх Едвардс](https://www.linkedin.com/in/mitchelledwards/). Цхиа блоцкцхаин има активну заједницу програмера отвореног кода са многим доприносима кодној бази. Многи појединци доприносе Цхиа блоцкцхаину у областима које укључују истраживање, стручне прегледе, развој, тестирање, документацију и превод.
   about_invest_investors_title: "Наши инвеститори"
+  about_legal_title: "Legal"
+  about_legal_copyright:  "Chia's Copyright Policy"
+  about_legal_trademark: "Chia's Trademark Policy"
+  about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Равно из Цхиа"
   download_title: "Напомене о издању"
   download_loading_message: "Учитавање издања ..."
@@ -1088,6 +1120,10 @@ pt:
   about_team_description: |
     A Chia Network foi fundada pelo criador do BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). Também inclui liderança executiva do ex-CEO em exercício da overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/) e um ex-fundador da eMusic.com e Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/). A Chia Network terá uma grande comunidade de desenvolvedores de código aberto com muitas contribuições causais para a base de código. Há muitos outros que contribuem para pesquisa, revisão por pares, testes, documentação e tradução.
   about_invest_investors_title: "Nossos Investidores"
+  about_legal_title: "Legal"
+  about_legal_copyright:  "Chia's Copyright Policy"
+  about_legal_trademark: "Chia's Trademark Policy"
+  about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Direto de Chia"
   download_title: "Notas de versão"
   download_loading_message: "Carregando lançamentos ..."
@@ -1213,6 +1249,10 @@ tr: # Turkish
   about_team_description: |
     Chia Network, BitTorrent'in yaratıcısı [Bram Cohen](https://www.linkedin.com/in/cohenbram/) tarafından kuruldu. Ekip, yönetici liderliğini kurucusu ve CEO'sunu içeriyor nın-nin Vindicia ve eMusic.com, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/) 'ın eski kurucusu ve CEO'su ile Overstock.com'un eski oyunculuk CEO'su [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/) da yer alıyor. Chia blockchain, kod tabanına birçok katkı sağlayan aktif bir açık kaynak geliştirici topluluğuna sahiptir. Birçok kişi araştırma, akran değerlendirmesi, geliştirme, test, dokümantasyon ve çeviri gibi alanlarda Chia blok zincirine katkıda bulunur.
   about_invest_investors_title: "Yatırımcılarımız"
+  about_legal_title: "Legal"
+  about_legal_copyright:  "Chia's Copyright Policy"
+  about_legal_trademark: "Chia's Trademark Policy"
+  about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   blog_title: "Doğrudan Chia"
   download_title: "Sürüm notları"
   download_loading_message: "Sürümler yükleniyor ..."
@@ -1334,6 +1374,10 @@ ru: # Russian
   about_team_description: |
     Сеть Chia была основана создателем BitTorrent [Брэмом Коэном](https://www.linkedin.com/in/cohenbram/). В состав команды также входят исполнительный руководитель основателя и генерального директора eMusic.com и Vindicia [Джин Хоффман](https://www.linkedin.com/in/gehoffman/) и бывший исполняющий обязанности генерального директора Overstock.com [Митч Эдвардс](https://www.linkedin.com/in/mitchelledwards/). Блокчейн Chia имеет активное сообщество разработчиков открытого исходного кода, внесшее большой вклад в кодовую базу. Многие люди вносят свой вклад в блокчейн Chia в таких областях, как исследования, экспертные оценки, разработка, тестирование, документация и перевод.
   about_invest_investors_title: "Наши инвесторы"
+  about_legal_title: "Legal"
+  about_legal_copyright:  "Chia's Copyright Policy"
+  about_legal_trademark: "Chia's Trademark Policy"
+  about_legal_guidlines: "Guidelines for Using Chia Network’s Trademarks & Copyrighted Materials on the Web"
   careers_title: "Карьера"
   careers_description: |
     **Chia нанимает!**
