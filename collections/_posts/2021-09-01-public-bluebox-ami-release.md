@@ -21,7 +21,8 @@ available as spare compute capacity, offering customers these products at heavil
 As the fastest Timelord runs, it quickly creates Proofs of Time. However, these proofs are large and uncompacted, 
 resulting in the total size of the blockchain database from becoming too big. Deploying a 
 Bluebox Timelord is beneficial in compacting those large, pre-existing blocks, thereby reducing the database file’s
-overall size. Although only one Timelord is required for driving the progression of the blockchain, many Bluebox 
+overall size, leading to a reduction in time and CPU workload on synchronizing the database. Although only one Timelord 
+is required for driving the progression of the blockchain, many Bluebox 
 Timelords are needed to maintain it efficiently. For more information regarding Timelords and Bluebox Timelords, 
 please visit our [Wiki](https://github.com/Chia-Network/chia-blockchain/wiki/Timelords) page. 
 
