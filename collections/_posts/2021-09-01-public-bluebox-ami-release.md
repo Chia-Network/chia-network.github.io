@@ -2,7 +2,7 @@
 lang: en
 layout: post
 title:  "Chia Releases Public AWS Image for Bluebox Timelords"
-date:   2021-09-23
+date:   2021-09-30
 author: "[Patrick Maslana](https://keybase.io/pmaslana3)" , [Chris Marslender](https://keybase.io/cmmarslender), and [J. Eckert](https://twitter.com/sargonas)
 ---
 
@@ -36,7 +36,7 @@ older or lower performance hardware can be used to run it sufficiently. In the c
 are many instance types to choose from. Some considerations to take into account when looking at the instance types 
 are:
 
-*Storage Space* - The current size of the blockchain database file, as of 9/22/21, is approximately 20GB and 
+*Storage Space* - The current size of the blockchain database file, as of 9/30/21, is approximately 21GB and 
 will continue to grow. Therefore, some evaluation is needed to determine the storage capacity, based on instance life 
 expectancy and the database growth rate. We have tested using EBS-backed storage, allowing for greater flexibility, 
 compared to the mounted SSDs or HDDs of some instance types.
@@ -54,9 +54,9 @@ removed and causing interruptions or the price fluctuating. A maximum price can 
 terminated when the spot price rises to that value.
 
 
-Here is an example of the pricing at the rates as of 8/31/2021:
-A c5.large instance spot price is $0.033 per hour of usage, compared to
-its on-demand price of $0.10 per hour. Therefore, running a Bluebox Timelord will cost approximately $0.80 per 
+Here is an example of the pricing at the rates as of 9/30/2021:
+A c5.large instance spot price is $0.036 per hour of usage, compared to
+its on-demand price of $0.10 per hour. Therefore, running a Bluebox Timelord will cost approximately $0.86 per 
 day to run.
 ** Please note that these prices can fluctuate and will differ between regions,
 along with the availability for specific instance types.
