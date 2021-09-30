@@ -19,7 +19,7 @@ available as spare compute capacity, offering customers these products at heavil
 ## Reasons to Deploy
 
 As the fastest Timelord runs, it quickly creates Proofs of Time. However, these proofs are large and uncompacted, 
-resulting in the total size of the blockchain database from becoming too big. Deploying a 
+resulting in the total size of the blockchain database becoming too big. Deploying a 
 Bluebox Timelord is beneficial in compacting those large, pre-existing blocks, thereby reducing the database file’s
 overall size, leading to a reduction in time and CPU workload on synchronizing the database. Although only one Timelord 
 is required for driving the progression of the blockchain, many Bluebox 
