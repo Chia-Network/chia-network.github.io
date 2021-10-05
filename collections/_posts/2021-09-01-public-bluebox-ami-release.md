@@ -2,7 +2,7 @@
 lang: en
 layout: post
 title:  "Chia Releases Public AWS Image for Bluebox Timelords"
-date:   2021-09-30
+date:   2021-10-05
 author: "[Patrick Maslana](https://keybase.io/pmaslana3)" , [Chris Marslender](https://keybase.io/cmmarslender), and [J. Eckert](https://twitter.com/sargonas)
 ---
 
