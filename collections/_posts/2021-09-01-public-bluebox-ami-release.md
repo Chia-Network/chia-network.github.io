@@ -2,7 +2,7 @@
 lang: en
 layout: post
 title:  "Chia Releases Public AWS Image for Bluebox Timelords"
-date:   2021-10-05
+date:   2021-10-12
 author: "[Patrick Maslana](https://keybase.io/pmaslana3)" , [Chris Marslender](https://keybase.io/cmmarslender), and [J. Eckert](https://twitter.com/sargonas)
 ---
 
@@ -37,7 +37,7 @@ older or lower performance hardware can be used to run it sufficiently. In the c
 are many instance types to choose from. Some considerations to take into account when looking at the instance types 
 are:
 
-*Storage Space* - The current size of the blockchain database file, as of 9/30/21, is approximately 21GB and 
+*Storage Space* - The current size of the blockchain database file, as of 10/12/21, is approximately 22GB and 
 will continue to grow. Therefore, some evaluation is needed to determine the storage capacity, based on instance life 
 expectancy and the database growth rate. We have tested using EBS-backed storage, allowing for greater flexibility, 
 compared to the mounted SSDs or HDDs of some instance types.
