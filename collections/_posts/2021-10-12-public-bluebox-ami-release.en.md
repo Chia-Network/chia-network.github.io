@@ -3,7 +3,7 @@ lang: en
 layout: post
 title:  "Chia Releases Public AWS Image for Bluebox Timelords"
 date:   2021-10-12
-author: "[Patrick Maslana](https://keybase.io/pmaslana3)" , [Chris Marslender](https://keybase.io/cmmarslender), and [J. Eckert](https://twitter.com/sargonas)
+author: "[Patrick Maslana](https://keybase.io/pmaslana3), [Chris Marslender](https://keybase.io/cmmarslender), and [J. Eckert](https://twitter.com/sargonas)"
 ---
 
 # Chia Blockchain - Bluebox Timelord AMI Release
