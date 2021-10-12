@@ -76,7 +76,7 @@ is the satisfaction of helping to improve the blockchain.
 
 ###### *Is there a place to get questions answered and talk to the Chia team about Timelords?*
 
-Yes! You can visit our Keybase channel, chia_network.public#timelords.
+Yes! You can visit our Keybase channel, chia_network.public.
 
 ###### *I have old hardware available that I can use as a Bluebox Timelord. How do I configure this?*
 
