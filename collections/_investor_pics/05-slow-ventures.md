@@ -1,6 +1,6 @@
 ---
 pic_url: "/assets/slow_ventures.png"
 name: "Slow Ventures"
-web_url: "https://slow-prod.herokuapp.com/"
+web_url: "http://main.slow.co/about/"
 order: 5
 ---
