@@ -1,6 +1,6 @@
 ---
 pic_url: "/assets/slow_ventures.png"
 name: "Slow Ventures"
-web_url: "http://main.slow.co/about/"
+web_url: "https://www.slow.co/"
 order: 5
 ---
