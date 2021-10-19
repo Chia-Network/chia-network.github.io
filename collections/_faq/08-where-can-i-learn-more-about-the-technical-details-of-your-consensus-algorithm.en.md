@@ -7,7 +7,7 @@ title: "Where can I learn more about the technical details of your consensus alg
 We have academic papers and presentations that give detail about our new consensus algorithm and blockchain software.
 In 2019 we revealed our [Green Paper](https://www.chia.net/assets/ChiaGreenPaper.pdf) outlining the construction of Proofs of Space and Time and illustrating many of the design choices of Chia.
 
-We have updated our consensus algorithm and you can review and commment on our [working document](/assets/Chia-New-Consensus-0.9.pdf).
+We have updated our consensus algorithm and you can review and comment on our [working document](/assets/Chia-New-Consensus-0.9.pdf).
 
 There is also a [2019 talk from Mariano Sorgente](https://youtu.be/_075bzQPooU) at MIT on how to achieve Nakamoto consensus with Proof of Space and VDFs.
 
