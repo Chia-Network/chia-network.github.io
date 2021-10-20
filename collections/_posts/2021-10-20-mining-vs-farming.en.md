@@ -49,9 +49,13 @@ Mining is the exchange of labor and time for a physical resource, so it makes a 
 
 Mining as a metaphor is spot on - mining in Proof of Work requires a large amount of continuous resource use in electricity and time in exchange for network rewards. Proof of Work mining has also consolidated on custom-designed hardware to maintain competitiveness. For example, in Bitcoin high-power ASICs (Application Specific Integrated Circuits) that only perform the SHA256 algorithm at terahashes per second. This leads to purpose-built hardware for Bitcoin that is obsolescent quickly with the average lifespan of Bitcoin mining devices at only 1.29 years [2].  Mining efficiency is driven by process technology for the ASIC, which is why a few year old miner isn’t competitive on the network with average power costs. The metric of goodness for mining is J/TH, or the amount of energy in joules consumed to perform 1 terahash
 
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vROlPqAQj_4YZZLqMnhBd1C9IqQQTC_mHChAkYIMfyb3mbp0087Byz2Uy9mRqdLvB25DC4EGewSPNRj/pubchart?oid=1015763769&amp;format=interactive"></iframe>
+
 #### Farming Efficiency
 
 Farming is very different. For one, farming uses commodity storage hardware, mostly larger capacity hard disk drives (HDD). Farming also does not store user data, so lower quality storage media with a higher error rate can be used. The first order metric in farming is $/TB of the storage device, followed by W/TB for power efficiency. The Netspace in an efficient market will likely come from both underutilized storage and reused/recycled, refurbished, and 2nd use drives because these are lower upfront costs. Hyperscalers and cloud service providers (e.g. Facebook, Microsoft, Amazon) strive to meet growing data demands and often replace hardware every 3-5 years. There is a large opportunity to use these drives in Chia farming!
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vROlPqAQj_4YZZLqMnhBd1C9IqQQTC_mHChAkYIMfyb3mbp0087Byz2Uy9mRqdLvB25DC4EGewSPNRj/pubchart?oid=974378048&amp;format=interactive"></iframe>
 
 #### Can someone make an ASIC for Chia farming?!
 
@@ -59,7 +63,7 @@ There is already a large market for HDDs, with an estimated TAM (Total Available
 
 ## A note on Proof of Stake
 
-This article focuses on the difference between mining in Proof of Work, with a case study on Bitcoin, vs. farming in Chia. PoS is touted as an energy-efficient alternative to Proof of Work (PoW). This is a much longer discussion, which we will cover in an additional post, but [Bram](https://youtu.be/2Zlcgt8FVz4?t=511) and the [Chia](https://www.chia.net/assets/Chia-Business-Whitepaper-2021-02-09-v1.0.pdf) team believe that PoS is a large step backward in the blockchain world. In PoS the rich get richer and promote centralization, while funds get consolidated to professional validators and exchanges. The “features” of bonding and slashing to fix the “nothing at stake” problem rely on massive amounts of [social coordination](https://eth.wiki/concepts/proof-of-stake-faqs) and [weak subjectivity](https://vitalik.ca/general/2020/11/06/pos2020.html). The possible grinding attacks that can be performed in PoS are prevented in Chia through the VDF (Verifiable Delay Function) via a “Chia Timelord”. 
+This article focuses on the difference between mining in Proof of Work, with a case study on Bitcoin, vs. farming in Chia. PoS is touted as an energy-efficient alternative to Proof of Work (PoW). This is a much longer discussion, which we will cover in an additional post, but [Bram](https://youtu.be/2Zlcgt8FVz4?t=511) and the [Chia](https://www.chia.net/assets/Chia-Business-Whitepaper-2021-02-09-v1.0.pdf) team believe that PoS is a large step backward in the blockchain world. In PoS the rich get richer and promote centralization, while funds get consolidated to professional validators and exchanges. The “features” of bonding and slashing to fix the “nothing at stake” problem rely on massive amounts of [social coordination](https://eth.wiki/concepts/proof-of-stake-faqs) and [weak subjectivity](https://vitalik.ca/general/2020/11/06/pos2020.html). The possible grinding attacks that can be performed in PoS are prevented in Chia through the VDF (Verifiable Delay Function) via a “Chia Timelord”.
 
 <p align="center">
 <img src="/assets/blog/mining-vs-farming-3.png" alt="Mining vs Farming" width="75%">
@@ -69,9 +73,7 @@ This article focuses on the difference between mining in Proof of Work, with a c
 
 The power consumption of Bitcoin is well researched. I cite [The Cambridge Bitcoin Electricity Consumption Index (CBECI)](https://cbeci.org/) and [Digiconomist](https://digiconomist.net/bitcoin-energy-consumption/) for the comparison I did at [Chiapower.org](https://chiapower.org/).
 
-<p align="center">
-<img src="/assets/blog/mining-vs-farming.png" alt="Mining vs Farming" width="75%">
-</p>
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQTo_q1WX68ONeRJZuHsdueYfgv71o3qmrXCwNQ-UScBSmLuHI781iRMXpsVntueyI2-DpS_PHpK6oK/pubchart?oid=1357003038&amp;format=interactive"></iframe>
 
 Source: [Chiapower.org](https://chiapower.org/) model, [Digiconomist](https://digiconomist.net/)
 
@@ -100,9 +102,7 @@ Earnings updated 10/19/2021, you can use [Nicehash calculator](https://www.niceh
 
 The Chia Netspace is an interesting beast. We saw earlier in the year that when farmers can get a high return on their investment in a short amount of time, they will rush out to buy new hardware. With the costs in Chia farming being dominated by the upfront costs of the disks rather than energy use, game theory would suggest that farmers seek out a competitive edge by using underutilized storage or second use storage that has a lower upfront cost. Over time, as the Netspace grows, this may be very apparent and may price out newly purchased hardware from being competitive. As the Netspace grows, work difficulty increases, and farming rewards go down proportionally. We are trying to incentivize farmers to use what they already have for farming and seek out used and recycled gear for plotting and farming. The mix of the Netspace from newly purchased capacity and underutilized space will be dependent on rapid Chia price increases and areal density growth of hard drives in the next decade (providing better power efficiency). Our prediction is that it will start gravitating towards underutilized and second-use storage (used).
 
-<p align="center">
-<img src="/assets/blog/mining-vs-farming.png" alt="Mining vs Farming" width="75%">
-</p>
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRh6I5L-j9qQ0blgTSf1VGCyAlns6DdkftRwisROafy8nh-7qxZ3iAd8XJh-buiIw/pubchart?oid=1904247403&amp;format=interactive"></iframe>
 
 ## What about plotting?
 
@@ -130,13 +130,11 @@ Total cost of ownership (TCO) models are widely used in the data center world to
 
 You can see if you buy new efficient Bitcoin mining hardware, CapEx is one-third of the TCO, and OpEx is the remaining two-thirds. With even hardware that is a few years old, and reselling on eBay for much lower than its original price, OpEx costs make up the majority of the TCO. With power making up the majority of costs for Bitcoin miners, the competitive edge comes from the availability of the latest and most efficient miners paired with low electricity costs. Bitcoin miners are in search for [renewable](https://nydig.com/wp-content/uploads/2021/09/NYDIG-Bitcoin-Net-Zero.pdf) and cheap energy (which is a good thing), but the incentivization is heavily dependent on [local policies](https://niccarter.info/wp-content/uploads/txsummit_nc_oct08.pdf). A lot of the estimations on renewable energy use need to be updated after the major policy changes in China, where the majority of mining was prior to mid 2021. The [Digiconomist](https://digiconomist.net/bitcoin-energy-consumption) models this using a break-even efficiency in J/TH which sets the threshold of mining equipment that can profitably mine bitcoin given a current hashrate and Bitcoin price - concluding that old miners quickly become inefficient and uncompetitive.
 
-<p align="center">
-<img src="/assets/blog/mining-vs-farming.png" alt="Mining vs Farming" width="75%">
-</p>
+<iframe width="573" height="355" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vROlPqAQj_4YZZLqMnhBd1C9IqQQTC_mHChAkYIMfyb3mbp0087Byz2Uy9mRqdLvB25DC4EGewSPNRj/pubchart?oid=1317699788&amp;format=interactive"></iframe>
 
 #### Chia 3 year TCO
 
-Chia is exactly the opposite of Bitcoin. The majority of the costs in farming Chia come from the upfront investment in the storage. With 18TB HDDs, which are the highest capacity drives shipping in volume today, you can see the CapEx in a 3 year TCO makes up 96% of the TCO! 
+Chia is exactly the opposite of Bitcoin. The majority of the costs in farming Chia come from the upfront investment in the storage. With 18TB HDDs, which are the highest capacity drives shipping in volume today, you can see the CapEx in a 3 year TCO makes up 96% of the TCO!
 
 **When using high capacity hard drives, power is a fraction of the cost for Chia farming compared to the cost of the storage**
 
@@ -144,16 +142,14 @@ Even 4TB HDDs (which were mainstream in 2013) can be profitable farming Chia, bu
 
 In Chia, farming hardware can be safely resold if the farmer decides they no longer wish to participate in the Chia Network. This has a massive impact on the residual value of the CapEx spent on farming hardware. If a farmer wants to participate in the network and buys new storage to do this, the efficiency breakeven for the network for electricity and OpEx is very low. This is one of the reasons we don’t see a large decline in Netspace when Chia price goes down, because farmers have already spent the resources to obtain and plot the drives.
 
-<p align="center">
-<img src="/assets/blog/mining-vs-farming.png" alt="Mining vs Farming" width="75%">
-</p>
+<iframe width="741" height="347" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRlxtBBNRZsx3hwkwLVhKzlAJp233Bhz5IkgLyksIacrEhZAnrW9JYODkdVekXHQ/pubchart?oid=2008163833&amp;format=interactive"></iframe>
 
 ## Summary
 There are a lot of similarities between Chia and Bitcoin, as Bram has been very open about taking the great parts of Bitcoin and building on them in Chia. Netspace is very similar to hashrate in Bitcoin, but the fact that Chia uses storage to secure the network creates very interesting properties. Storage is already a large and mature market; it makes the perfect medium to leverage underutilized resources for network security. Storage devices are power efficient compared to GPUs, CPUs, and ASIC for mining other cryptocurrencies and consume a fraction of the energy, with Chia today consuming 500 times less electricity than Bitcoin at a higher node count and decentralization. ASIC for PoW mining creates a massive amount of e-waste, where Chia can promote reuse of storage for farming. Even at today’s Chia price, at a very tiny fraction of the market capitalization of Bitcoin, farming remains profitable vs Bitcoin mining while being much more accessible (people can start farming with a single 108GB plot on their current laptop or desktop, while Bitcoin mining requires investment in custom hardware).
 
 
 ##### References
-1. Chiapower.org estimate 
+1. Chiapower.org estimate
 2. de Vries, A. and Stoll, C., 2021. [Bitcoin's growing e-waste problem](https://doi.org/10.1016/j.resconrec.2021.105901). Resources, Conservation and Recycling, 175, p.105901.
 3. IDC Worldwide Hard Disk Drive Forecast Update, 2020–2024, Dec 2020
 4. IDC Worldwide Solid State Drive Forecast Update, 2020–2024. Dec 2020
