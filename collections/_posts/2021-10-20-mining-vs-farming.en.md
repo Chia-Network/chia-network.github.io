@@ -29,7 +29,7 @@ Proof of Space and Time maintains Nakamoto consensus (decentralized and permissi
 Chia uses the novel Proof of Space and Time for blockchain consensus. Participants of the network called farmers allocate their underutilized storage space to the network in a farming process. The naming of farming implies that it is much more environmentally friendly than mining. The Chia proof of space construction is designed for efficient and quick verification of proofs, making the farming process very lightweight. Farming is low resource use both from CPU on a host machine and the number of read requests to the underlying storage device used for storing the plots (farming) - HDDs being idle 99.7% of the time and only using 0.6 IOPS (input/output operations per second), and CPU utilization low enough even a Rasberry Pi can farm hundreds of terabytes of storage.
 
 <p align="center">
-<img src="/assets/blog/mining-vs-farming.png" alt="Mining vs Farming" width="75%">
+<img src="/assets/blog/mining-vs-farming-2.png" alt="Mining vs Farming" width="75%">
 </p>
 
 #### Terminology
@@ -62,7 +62,7 @@ There is already a large market for HDDs, with an estimated TAM (Total Available
 This article focuses on the difference between mining in Proof of Work, with a case study on Bitcoin, vs. farming in Chia. PoS is touted as an energy-efficient alternative to Proof of Work (PoW). This is a much longer discussion, which we will cover in an additional post, but [Bram](https://youtu.be/2Zlcgt8FVz4?t=511) and the [Chia](https://www.chia.net/assets/Chia-Business-Whitepaper-2021-02-09-v1.0.pdf) team believe that PoS is a large step backward in the blockchain world. In PoS the rich get richer and promote centralization, while funds get consolidated to professional validators and exchanges. The “features” of bonding and slashing to fix the “nothing at stake” problem rely on massive amounts of [social coordination](https://eth.wiki/concepts/proof-of-stake-faqs) and [weak subjectivity](https://vitalik.ca/general/2020/11/06/pos2020.html). The possible grinding attacks that can be performed in PoS are prevented in Chia through the VDF (Verifiable Delay Function) via a “Chia Timelord”. 
 
 <p align="center">
-<img src="/assets/blog/mining-vs-farming.png" alt="Mining vs Farming" width="75%">
+<img src="/assets/blog/mining-vs-farming-3.png" alt="Mining vs Farming" width="75%">
 </p>
 
 ## Mining power usage vs farming
@@ -83,14 +83,17 @@ $10,000 spent on a single state of the art Bitcoin miner vs. 360TB of Hard Disk 
 
 Earnings updated 10/19/2021, you can use [Nicehash calculator](https://www.nicehash.com/profitability-calculator/) or [Bitcoin TCO model](https://docs.google.com/spreadsheets/d/1fDCbrj9zALoKnpjX98I5L7Bz5TmOWKPyrLmdiPCVApY/edit?usp=sharing) and [Chiacalculator.com](https://chiacalculator.com/) for up to date estimates based on hashrate, Netspace, and price
 
-|Equipment|Quantity|Cost|Power (W)|Earnings per day|Power Cost per Day|
-|---|---|---|---|---|---|
+|Equipment|Quantity|Cost|Power (W)|Earnings/day|Power Cost/Day|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 |Antminer S19j Pro|1|$10,000|3050 W|$39.86|$4.47|
 |WD HC550 18TB|20|$450 x20|123 W|$12.16|$0.25|
 |18TB JBOD|1|$1000|100 W| | |
 
+<br />
+
 <p align="center">
-<img src="/assets/blog/mining-vs-farming.png" alt="Mining vs Farming" width="75%">
+<img src="/assets/blog/mining-vs-farming-4.png" alt="Mining vs Farming" width="40%">
+<img src="/assets/blog/mining-vs-farming-5.png" alt="Mining vs Farming" width="40%">
 </p>
 
 ## Are the hard drives used for Chia wasteful?
@@ -111,10 +114,11 @@ Plots can be created using only HDD, it can be done completely in memory, using 
 
 I made a conservative model for e-waste in Chia, using the full weight of the SSDs and estimated wearout based on a distribution of farmers assuming 50% of the Netspace was plotted with cheap consumer NVMe (which I do not actually believe...being conservative)
 
-|Cryptocurrency|Bitcoin|Chia
-|---|---|---|
+|Cryptocurrency|Bitcoin|Chia|
+|:---:|:---:|:---:|
 |e-waste metric Kilotons|30.7 [2]|0.0015 [7]|
 
+<br />
 
 In a relatively worst-case scenario, Chia would create 0.0015 metric kilotons of e-waste, or 20,000 times less than the estimated e-waste for Bitcoin.
 
