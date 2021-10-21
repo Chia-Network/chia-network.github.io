@@ -115,8 +115,8 @@ Plots can be created using only HDD, it can be done completely in memory, using 
 I made a conservative model for e-waste in Chia, using the full weight of the SSDs and estimated wearout based on a distribution of farmers assuming 50% of the Netspace was plotted with cheap consumer NVMe (which I do not actually believe...being conservative)
 
 |Cryptocurrency|Bitcoin|Chia|
-|:---:|:---:|:---:||:---:||:---:|
-|e-waste metric Kilotons|  ||30.7 [2]|  ||0.0015 [7]|
+|:---:|:---:|:---:|
+|e-waste metric Kilotons||30.7 [2]||0.0015 [7]|
 
 <br />
 
