@@ -171,17 +171,17 @@ fr: # French
   news_title: "Nouvelles"
   news_see_more: "Voir plus"
   homemain_title: "Réseau Chia"
-  homemain_subtitle: "Une meilleure blockchain et une plateforme de transaction intelligente qui est plus décentralisée, plus efficace et plus sécurisée."
+  homemain_subtitle: "Une meilleure blockchain et une plateforme de contrats intelligents bien plus décentralisée, plus efficace et plus sécurisée."
   homemain_button: "Télécharger Beta Testnet"
   homemain_description: |
-    Release Candidates
+    Lancement du Testnet
     ---------------------
 
-    Chia Network est une plateforme de blockchain et de transaction intelligente créée par le fondateur de BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Il utilise le premier nouvel algorithme de consensus de style Nakamoto depuis le lancement de Bitcoin en 2008. Les preuves de l'espace et du temps remplacent les preuves de travail énergivores en utilisant l'espace disque inutilisé.
+    Le Réseau Chia est une plateforme de blockchain et de contrats intelligents créée par le fondateur de BitTorrent, [Bram Cohen](https://techcrunch.com/2018/03/28/chia-vs-bitcoin/). Elle utilise un algorithme de consensus novateur, revisitant l'approche pionnière de Satoshi Nakamoto introduite avec le lancement de Bitcoin en 2008. Les preuves d'espace et de temps remplacent les preuves de travail, très grandes consommatrices d'énergie, en utilisant l'espace disque inutilisé.
 
-    Beta testnet présente la première version de Chialisp, le langage de programmation de transactions intelligent de Chia. Il est puissant, facile à auditer et sécurisé. Les transactions intelligentes actuellement disponibles sont: [swaps atomiques](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [bénéficiaires autorisés](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [portefeuilles récupérables](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [portefeuilles multisig](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) et [portefeuilles à taux limité](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). Le fondateur de Chia Network, et ancien fondateur de BitTorrent, en a plus sur [Chialisp](https://www.chia.net/2019/11/27/chialisp.fr.html).
+    Le Beta testnet présente la première version de Chialisp, le langage de programmation de transactions intelligent de Chia. Il est puissant, facile à auditer et sécurisé. Les contrats intelligents actuellement disponibles sont: [swaps atomiques](https://github.com/Chia-Network/wallets/blob/master/docs/atomic_swaps.md), [bénéficiaires autorisés](https://github.com/Chia-Network/wallets/blob/master/docs/authorised_payees.md), [portefeuilles récupérables](https://github.com/Chia-Network/wallets/blob/master/docs/recoverable_wallet.md), [portefeuilles multisig](https://github.com/Chia-Network/wallets/blob/master/multisig/README.org) et [portefeuilles à taux limité](https://github.com/Chia-Network/wallets/blob/master/docs/rate_limited_wallet.md). Vous pourrez en apprendre bien plus sur [Chialisp](https://www.chia.net/2019/11/27/chialisp.fr.html).
 
-    Beta testnet présente également la couche de consensus de blockchain de Chia qui comprend un nœud complet, un agriculteur, et un calendrier. La blockchain est beta et il ne prend pas encore en charge les transactions.
+    Le Beta testnet présente également la couche de consensus de blockchain de Chia qui comprend un nœud complet, un agriculteur, et un seigneur de temps. La blockchain en mode beta ne prend pas encore en charge les transactions.
 
     Puisqu'il s'agit d'une version beta, vous pouvez consulter les [notes de version](download/#release-notes).
 
@@ -246,11 +246,11 @@ fr: # French
   footer_copyright_year: "© Chia Network 2021"
   navigation:
     download: "Télécharger"
-    about: "Sur"
+    about: "L'Equipe"
     blog: "Blog"
     news: "Nouvelles"
     faq: "FAQ"
-    greenpaper: "Papier vert"
+    greenpaper: "Documentation"
     contact: "Contact"
   contact_title: "Nous contacter"
   contact_join_keybase: "Rejoignez notre groupe Keybase"
