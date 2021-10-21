@@ -115,8 +115,8 @@ Plots can be created using only HDD, it can be done completely in memory, using 
 I made a conservative model for e-waste in Chia, using the full weight of the SSDs and estimated wearout based on a distribution of farmers assuming 50% of the Netspace was plotted with cheap consumer NVMe (which I do not actually believe...being conservative)
 
 |Cryptocurrency|Bitcoin|Chia|
-|:---:|:---:|:---:|
-|e-waste metric Kilotons|30.7 [2]|0.0015 [7]|
+|:---:|:---:|:---:||:---:||:---:|
+|e-waste metric Kilotons|  |30.7 [2]|  |0.0015 [7]|
 
 <br />
 
@@ -128,7 +128,7 @@ Total cost of ownership (TCO) models are widely used in the data center world to
 
 #### Bitcoin 3 year TCO
 
-You can see if you buy new efficient Bitcoin mining hardware, CapEx is one-third of the TCO, and OpEx is the remaining two-thirds. With even hardware that is a few years old, and reselling on eBay for much lower than its original price, OpEx costs make up the majority of the TCO. With power making up the majority of costs for Bitcoin miners, the competitive edge comes from the availability of the latest and most efficient miners paired with low electricity costs. Bitcoin miners are in search for [renewable](https://nydig.com/wp-content/uploads/2021/09/NYDIG-Bitcoin-Net-Zero.pdf) and cheap energy (which is a good thing), but the incentivization is heavily dependent on [local policies](https://niccarter.info/wp-content/uploads/txsummit_nc_oct08.pdf). A lot of the estimations on renewable energy use need to be updated after the major policy changes in China, where the majority of mining was prior to mid 2021. The [Digiconomist](https://digiconomist.net/bitcoin-energy-consumption) models this using a break-even efficiency in J/TH which sets the threshold of mining equipment that can profitably mine bitcoin given a current hashrate and Bitcoin price - concluding that old miners quickly become inefficient and uncompetitive.
+You can see if you buy new efficient Bitcoin mining hardware, CapEx is two-thirds of the TCO, and OpEx is the remaining third. With hardware that is a few years old, and reselling on eBay for much lower than its original price, OpEx costs make up the majority of the TCO. With power making up the majority of costs for Bitcoin miners, the competitive edge comes from the availability of the latest and most efficient miners paired with low electricity costs. Bitcoin miners are in search for [renewable](https://nydig.com/wp-content/uploads/2021/09/NYDIG-Bitcoin-Net-Zero.pdf) and cheap energy (which is a good thing), but the incentivization is heavily dependent on [local policies](https://niccarter.info/wp-content/uploads/txsummit_nc_oct08.pdf). A lot of the estimations on renewable energy use need to be updated after the major policy changes in China, where the majority of mining was prior to mid 2021. The [Digiconomist](https://digiconomist.net/bitcoin-energy-consumption) models this using a break-even efficiency in J/TH which sets the threshold of mining equipment that can profitably mine bitcoin given a current hashrate and Bitcoin price - concluding that old miners quickly become inefficient and uncompetitive.
 
 <iframe width="573" height="355" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vROlPqAQj_4YZZLqMnhBd1C9IqQQTC_mHChAkYIMfyb3mbp0087Byz2Uy9mRqdLvB25DC4EGewSPNRj/pubchart?oid=1317699788&amp;format=interactive"></iframe>
 
