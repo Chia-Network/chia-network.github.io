@@ -16,7 +16,7 @@ This program is initially rolling out to a curated list of select security resea
 
 To initially start, we worked with Bugcrowd to set our bounties at values they reccomended as the most practical for our needs, based on their experience with the other projects they manage. As time goes on, if we feel these results do not meet the needs and expectations of the security researcher community, we will revise them if needed.
 
-to add to that, here are the ranges for those asking:
+Here are the current ranges as of this writing:
 
 * P5/Info - $0
 * P4/Low - $200-$400
