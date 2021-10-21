@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title:  "Chia's Bug Bounty Program has launched with Bugcrowd"
+title:  "Chia's Bug Bounty Program has Launched with Bugcrowd"
 date:   2021-10-21
 author: "[J. Eckert](https://twitter.com/sargonas)"
 ---
