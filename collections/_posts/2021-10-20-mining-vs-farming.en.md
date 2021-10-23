@@ -2,8 +2,7 @@
 lang: en
 layout: post
 title:  "Mining vs. Farming, the data behind being Green"
-redirect_from: chia.net/2021/10/20/mining-vs-farming.en.html
-date:   2021-10-22
+date:   2021-10-20
 author: "[Jonmichael Hands](https://twitter.com/lebanonjon)"
 ---
 
