@@ -2,8 +2,8 @@
 lang: en
 layout: post
 title:  "Mining vs. Farming, the data behind being Green"
-date:   2021-10-20
-author: "[Johnmichael Hands](https://twitter.com/lebanonjon)"
+date:   2021-10-22
+author: "[Jonmichael Hands](https://twitter.com/lebanonjon)"
 ---
 
 <p align="center">
