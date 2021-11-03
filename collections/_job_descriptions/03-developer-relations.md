@@ -5,11 +5,6 @@ title: "Director of Developer Relations"
 
 We are looking for a Director of Developer Relations who shares our strategic vision of enabling developers everywhere to create and innovate on the Chia platform to help us drive the adoption of [Chialisp](https://chialisp.com/).
 
-**About Chialisp**
-
-Chialisp is Chia Network’s new on-chain smart transaction programming language and development environment that is powerful, easy to audit, and super secure. This LISP-like language for encumbering and releasing funds with smart-contract capabilities is “Turing Complete,'' and is designed to reduce complexity in programming while preserving all of the functionality that developers can expect from blockchain applications.
- 
-
 As Director of Developer Relations, you will work with Chia’s leadership and our exceptionally talented team to grow the Chialisp developer community. You will  improve the developer experience via the “Three C’s” of Dev. Rel. - Code, Content, and Community. In this player-coach position, you will build a global team with a drive to engage with the community, and create content that enables and inspires developers to leverage our platform to its fullest.
 
 This is an exciting and important role. You will have the rare opportunity to work with some of the best engineers and cryptographers in the business to help shape the future of Chia, and open doors for developers across the globe.
