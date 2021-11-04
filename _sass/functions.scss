@@ -1,0 +1,14 @@
+// Calculate Em Size
+@function em($target, $context: 16) {
+	@return ($target / $context) + em;
+}
+
+// Calculate Rem Size
+@function rem($target, $context: 16) {
+	@return ($target / $context) + rem;
+}
+
+// Calculate Unitless Leading
+@function leading($target, $context) {
+	@return ($target / $context) * 1;
+}

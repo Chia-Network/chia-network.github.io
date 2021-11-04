@@ -6,6 +6,28 @@ layout: default
 
 {% assign strings = site.data.strings[page.lang] %}
 
+<div class="pg-title">
+    <div class="col-10-container">
+        <h1>{{ strings.grants_title }}</h1>
+    </div>
+</div>
+
+<div class="white-bg content-padding">
+    <div class="col-8-container txt-col-blocks">
+        <div class="full-width-col">
+            <p class="lrg-txt">{{ strings.grants_description | markdownify }}</p>
+        </div>
+        <div class="two-col-txt">
+            <div class="two-col txt-col-left">
+                {{ strings.grants_why_1 | markdownify }}
+            </div>
+            <div class="two-col txt-col-right">
+                {{ strings.grants_why_2 | markdownify }}
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="grants">
   <div class="container">
     <!-- Hero -->

@@ -1,0 +1,70 @@
+// Black and White
+$black: #000;
+$white: #FFF;
+
+// Project Color Values
+$chia-green: #3AAC59;
+$bright-green: #96C93D;
+$pastel-green: #EFFDF0;
+$dark-green: #3C4A3E;
+$gray: #DDD;
+
+// Text Colors
+$text-color: $dark-green;
+$light-text-color: lighten($text-color, 15%);
+$code-color: $text-color;
+
+// Link Colors
+$link-color: $chia-green;
+$link-color-hover: $text-color;
+
+// Button Colors
+$primary-button-color: $link-color;
+$primary-button-color-hover: lighten($link-color, 8%);
+$primary-button-text-color: $white;
+$primary-button-text-color-hover: $white;
+
+// Font Families
+$font-family: 'Poppins', sans-serif;
+$font-family-mono: ('Consolas', Courier, monospace);
+
+// Typography
+$body-font-size: 16;
+$body-line-height: 28;
+$lrg-font-size: 30;
+$lrg-line-height: 48;
+$small-font-size: 14;
+$small-line-height: 24;
+$header-1-size: 48;
+$header-1-line-height: 56;
+$header-2-size: 36;
+$header-2-line-height: 48;
+$header-3-size: 24;
+$header-3-line-height: 32;
+$header-4-size: 20;
+$header-4-line-height: 27;
+$header-5-size: 18;
+$header-5-line-height: 24;
+
+// Column Widths
+$col-12-width: 1440;
+$col-11-width: 1318;
+$col-10-width: 1196;
+$col-9-width: 1074;
+$col-8-width: 952;
+$col-7-width: 830;
+$col-6-width: 708;
+$col-5-width: 586;
+$col-4-width: 464;
+$col-3-width: 342;
+$col-2-width: 220;
+$col-1-width: 98;
+$col-gutter-width: 24;
+
+// Flexible Column Widths (percentage)
+$flex-col-8-width: $col-8-width / $col-12-width * 100%;
+$flex-col-6-width: $col-6-width / $col-12-width * 100%;
+$flex-col-4-width: $col-4-width / $col-12-width * 100%;
+$flex-col-3-width: $col-3-width / $col-12-width * 100%;
+$flex-col-2-width: $col-2-width / $col-12-width * 100%;
+$flex-gutter-width: $col-gutter-width / $col-12-width * 100%;

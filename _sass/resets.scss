@@ -1,0 +1,96 @@
+/*--------------------------------------------------------------
+# Browser Resets
+--------------------------------------------------------------*/
+
+* {
+	box-sizing: border-box;
+	position: relative;
+}
+
+html,
+body {
+	background-color: $dark-green;
+}
+
+body {
+	text-rendering: optimizeLegibility;
+	-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+}
+
+body, html, div, blockquote, img, p, a, h1, h2, h3, h4, ul,
+ol, li, th, td {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-spacing: 0;
+}
+
+article, footer, header, main, menu, nav, section {
+	display: block;
+}
+
+h1, h2, h3, h4 {
+	font-size: 100%;
+}
+
+img,
+video {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	width: auto;
+}
+
+a {
+	color: $link-color;
+	text-decoration: none;
+	transition: all 0.25s ease-in-out 0s;
+	&:visited {
+		color: $link-color;
+	}
+	&:hover, &:active {
+		color: $link-color-hover;
+	}
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	transition: all 0.25s ease-in-out 0s;
+}
+
+button::-moz-focus-inner {
+	border: none;
+	padding: 0;
+}
+
+strong, b {
+	font-weight: 700;
+}
+
+em, i,
+cite {
+	font-style: italic;
+}
+
+small {
+	@include typeset($small-font-size, $small-line-height);
+}
+
+hr {
+	background-color: $gray;
+	border: none;
+	color: $gray;
+	display: block;
+	height: rem(2);
+	margin: rem(36) 0;
+	text-align: left;
+}

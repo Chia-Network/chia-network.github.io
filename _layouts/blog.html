@@ -7,28 +7,24 @@ layout: default
 
 {% include navigation.html active="blog" %}
 
-<div class="blog-page">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="page-main-title mt-5 mb-4">{{ strings.blog_title }}</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                {% for post in posts %}
-                    {% assign year = post.date | date: "%Y" %}
-                    <div class="post d-flex{% if year != prev_year %} first-of-year{% endif %}">
-                        <div class="year">{% if year != prev_year %}{{ year }}{% endif %}</div>
-                        <a href="{{ post.url }}" class="content">
-                            <div class="date">{{ post.date | date:"%B %-d" }}</div>
-                            <div class="headline">{{ post.title }}</div>
-                            <div class="preview">{{ post.excerpt | strip_html | strip_newlines | truncate: 140 }}</div>
-                        </a>
-                    </div>
-                    {% assign prev_year = year %}
-                {% endfor %}
-            </div>
+<div class="pg-title">
+    <div class="col-10-container">
+        <h1>{{ strings.blog_title }}</h1>
+    </div>
+</div>
+
+<div class="white-bg content-padding chia-blog-posts">
+    <div class="col-8-container">
+        <div class="blog-posts-grid">
+            {% for post in posts %}
+                {% assign year = post.date | date: "%Y" %}
+                <div class="post d-flex{% if year != prev_year %} first-of-year{% endif %}">
+                    <span class="date">{{ post.date | date:"%B %-d, %Y" }}</span>
+                    <h3 class="headline"><a href="{{ post.url }}" class="content">{{ post.title }}</a></h3>
+                    <p class="preview">{{ post.excerpt | strip_html | strip_newlines | truncate: 140 }}</p>
+                </div>
+                {% assign prev_year = year %}
+            {% endfor %}
         </div>
     </div>
 </div>

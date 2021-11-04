@@ -1,0 +1,130 @@
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+.button {
+	border-radius: rem(4);
+	color: $primary-button-text-color;
+	display: inline-block;
+	font-size: rem(16);
+	font-weight: 500;
+	padding: rem(12) rem(48);
+	white-space: nowrap;
+	width: auto;
+}
+
+/*--------------------------------------------------------------
+# Primary Button
+--------------------------------------------------------------*/
+
+.primary-button {
+	@extend .button;
+	background-color: $primary-button-color;
+	cursor: pointer;
+	&:hover {
+		background-color: $primary-button-color-hover;
+		color: $primary-button-text-color;
+	}
+	&:visited {
+		color: $primary-button-text-color;
+	}
+}
+
+/*--------------------------------------------------------------
+# Outline Green Button
+--------------------------------------------------------------*/
+
+.outline-green-button {
+	@extend .button;
+	background-color: transparent;
+	border: 1px solid $chia-green;
+	color: $chia-green;
+	&:hover {
+		background-color: $primary-button-color;
+		color: $primary-button-text-color;
+	}
+	&:visited {
+		color: $primary-button-text-color;
+	}
+}
+
+/*--------------------------------------------------------------
+# Outline White Button
+--------------------------------------------------------------*/
+
+.outline-white-button {
+	@extend .button;
+	background-color: transparent;
+	border: 1px solid $white;
+	color: $white;
+	&:hover {
+		background-color: $white;
+		color: $text-color;
+	}
+	&:visited {
+		color: $white;
+	}
+}
+
+/*--------------------------------------------------------------
+# Full Width Button
+--------------------------------------------------------------*/
+
+.full-width-button {
+	@extend .button;
+	background-color: $primary-button-color;
+	padding-left: rem(16);
+	padding-right: rem(16);
+	text-align: center;
+	width: 100%;
+	&:hover {
+		background-color: $primary-button-color-hover;
+		color: $primary-button-text-color;
+	}
+	&:visited {
+		color: $primary-button-text-color;
+	}
+}
+
+/*--------------------------------------------------------------
+# Full Width Outline Green Button
+--------------------------------------------------------------*/
+
+.full-width-outline-green-button {
+	@extend .button;
+	background-color: transparent;
+	border: 1px solid $chia-green;
+	color: $chia-green;
+	padding-left: rem(16);
+	padding-right: rem(16);
+	text-align: center;
+	width: 100%;
+	&:hover {
+		background-color: $primary-button-color;
+		color: $primary-button-text-color;
+	}
+	&:visited {
+		color: $primary-button-text-color;
+	}
+}
+
+/*--------------------------------------------------------------
+# Full Width Outline White Button
+--------------------------------------------------------------*/
+
+.full-width-outline-white-button {
+	@extend .button;
+	background-color: transparent;
+	border: 1px solid $white;
+	color: $white;
+	padding-left: rem(16);
+	padding-right: rem(16);
+	text-align: center;
+	width: 100%;
+	&:hover {
+		background-color: $white;
+		color: $text-color;
+	}
+	&:visited {
+		color: $white;
+	}
+}
