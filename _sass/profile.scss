@@ -1,0 +1,54 @@
+/*--------------------------------------------------------------
+# Featured Profile
+--------------------------------------------------------------*/
+
+.featured-profile {
+	display: flex;
+	flex-direction: column;
+	@include breakpoint(768) {
+		flex-direction: row;
+	}
+}
+
+.featured-profile-txt-container {
+	background-color: $white;
+	@include breakpoint(768) {
+		width: 732 / $col-10-width * 100%;
+	}
+}
+
+.featured-profile-txt {
+	padding: rem(24);
+	.profile-job-title {
+		color: rgba($text-color, 0.5);
+		margin-bottom: rem(36);
+	}
+	h1 + .profile-job-title {
+		margin-top: -(rem(16));
+	}
+	.button {
+		margin-top: rem(24);
+	}
+	@include breakpoint(1080) {
+		padding: rem(60);
+	}
+	@include breakpoint(1298) {
+		padding: rem(60) rem(122) rem(60) rem(146);
+	}
+}
+
+.featured-profile-img {
+	@include clearfix;
+	width: 100%;
+	img {
+		float: left;
+		width: 50%;
+	}
+	@include breakpoint(768) {
+		width: $col-4-width / $col-10-width * 100%;
+		img {
+			float: none;
+			width: 100%;
+		}
+	}
+}

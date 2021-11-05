@@ -36,6 +36,7 @@
     }
     .team-title {
         @include typeset($small-font-size, 21);
+        color: rgba($text-color, 0.5);
     }
 }
 
