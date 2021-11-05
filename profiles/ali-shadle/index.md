@@ -2,7 +2,7 @@
 layout: profile
 lang: en
 title: Ali Shadle - Chia Network
-pic_url: "/img/headshots/bram-cohen_@2x.jpg"
+pic_url: "/img/headshots/ali-shadle_@2x.png"
 person-name: Ali Shadle
 position: Director, Chairman, Chief Executive Officer and Founder
 ---
