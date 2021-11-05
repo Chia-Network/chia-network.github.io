@@ -14,7 +14,7 @@ We are excited to announce that today our new Bug Bounty program has gone live w
 
 This program is initially rolling out to a curated list of select security researchers managed by Bugcrowd while we iron out any kinks and get the program up to full speed. After that, Bugcrowd will be inviting more researchers to the program in waves over the next few weeks, with the goal of opening up the Bounty program to their entire network of millions of security researchers, before the end of the year.
 
-To initially start, we worked with Bugcrowd to set our bounties at values they reccomended as the most practical for our needs, based on their experience with the other projects they manage. As time goes on, if we feel these results do not meet the needs and expectations of the security researcher community, we will revise them if needed.
+To initially start, we worked with Bugcrowd to set our bounties at values they recommended as the most practical for our needs, based on their experience with the other projects they manage. As time goes on, if we feel these results do not meet the needs and expectations of the security researcher community, we will revise them if needed.
 
 Here are the current ranges as of this writing:
 
