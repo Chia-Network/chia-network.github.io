@@ -94,7 +94,9 @@
 .full-width-col {
 	margin-bottom: rem(36);
 	p {
-		@include typeset($lrg-font-size, $lrg-line-height);
+		&:nth-of-type(1) {
+			@include typeset($lrg-font-size, $lrg-line-height);
+		}
 	}
 }
 
@@ -154,5 +156,21 @@
 	@include breakpoint(920) {
 		display: block;
 		width: $col-4-width / $col-10-width * 100%;
+	}
+}
+
+/*--------------------------------------------------------------
+# Featured Section
+--------------------------------------------------------------*/
+
+.featured-section {
+	h2 {
+		background-image: url(/img/bg/heading-decoration_@2x.png);
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		background-size: rem(180) auto;
+		margin-bottom: rem(60);
+		padding-bottom: rem(24);
+		text-align: center;
 	}
 }

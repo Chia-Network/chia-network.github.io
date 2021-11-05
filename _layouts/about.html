@@ -5,55 +5,150 @@ layout: default
 {% include navigation.html active="about" %}
 {% assign strings = site.data.strings[page.lang] %}
 
-<div class="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="page-main-title mt-5 mb-5">{{ strings.about_title }}</h1>
-                <div class="px-md-5">{{ strings.about_description | markdownify }}</div>
-            </div>
-        </div>
-        <hr class="my-5">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="mb-4">{{ strings.about_team_title }}</h2>
-                <div class="px-md-5">{{ strings.about_team_description | markdownify }}</div>
-            </div>
-        </div>
+<div class="pg-title">
+    <div class="col-10-container">
+        <h1>{{ strings.about_title }}</h1>
+    </div>
+</div>
 
-        <div class="row mb-5">
-            <h2 class="col-12 mt-5">{{ strings.about_invest_investors_title }}</h2>
+<div class="white-bg content-padding">
+    <div class="col-8-container txt-col-blocks">
+        <div class="full-width-col">
+            {{ strings.about_description | markdownify }}
         </div>
-        <div class="row investor-pics">
-            {% assign investor_pics = site.investor_pics | sort: "order" %}
-            {% for entry in investor_pics %}
-                <a class="col-12 col-sm-6 col-md-3" href="{{ entry.web_url }}">
-                    <div class="investor-pic p-3">
-                        <img src="{{ entry.pic_url | escape }}" class="align-self-center">
-                    </div>
-                </a>
-            {% endfor %}
+    </div>
+</div>
+
+<div class="light-bg">
+    <div class="col-10-container featured-content soft-shadow">
+        <div class="featured-content-txt-container">
+            <div class="featured-content-txt">
+                <h2>{{ strings.about_team_title }}</h2>
+                {{ strings.about_team_description | markdownify }}
+            </div>
         </div>
-        <hr class="my-5">
-        <div class="row mb-5">
-            <h2 class="col-12 mt-5">{{ strings.about_legal_title }}</h2>
+        <div class="featured-content-img">
+            <img src="/img/astract/abstract-geometric-shapes-02_@2x.png" alt="Abstract Geometric Shapes">
         </div>
-        <div class="row mb-5">
-            <ul>
-                <li>
-                    <a href="https://www.chia.net/assets/legal/Chia-Copyright-Policy.pdf">{{ strings.about_legal_copyright }}</a>
-                </li>
-                <li>
-                    <a href="https://www.chia.net/assets/legal/Chia-Trademark-Policy.pdf">{{ strings.about_legal_trademark }}</a>
-                </li>
-                <li>
-                    <a href="https://www.chia.net/assets/legal/Guidelines-for-Using-Chia-Network.pdf">{{ strings.about_legal_guidlines }}</a>
-                </li>
-            </ul>
-<<<<<<< HEAD
+    </div>
+</div>
+
+<div class="white-bg content-padding">
+    <div class="col-10-container featured-section">
+        <h2>Chia Leadership</h2>
+    </div>
+    <div class="team-members">
+        <div class="team-member">
+            <a href="#"><img src="/img/headshots/bram-cohen_@2x.jpg" alt="Bram Cohen"></a>
+            <span class="team-name">Bram Cohen</span>
+            <span class="team-title">Director, Chairman, Chief Executive Officer and Founder</span>
         </div>
-=======
-        </div> 
->>>>>>> upstream/main
+        
+        <div class="team-member">
+            <a href="#"><img src="/img/headshots/gene-hoffman_@2x.jpg" alt="Gene Hoffman"></a>
+            <span class="team-name">Gene Hoffman</span>
+            <span class="team-title">Director, Chief Operating Officer and President</span>
+        </div>
+        
+        <div class="team-member">
+            <a href="#"><img src="/img/headshots/misha-graboi_@2x.png" alt="Misha Graboi"></a>
+            <span class="team-name">Misha Graboi</span>
+            <span class="team-title">Chief Financial Officer</span>
+        </div>
+        
+        <div class="team-member">
+            <a href="#"><img src="/img/headshots/william-blake_@2x.png" alt="William Blake"></a>
+            <span class="team-name">Dr. William Blake</span>
+            <span class="team-title">VP of Engineering</span>
+        </div>
+        
+        <div class="team-member">
+            <a href="#"><img src="/img/headshots/steve-booth_@2x.png" alt="Steve Booth"></a>
+            <span class="team-name">Steve Booth</span>
+            <span class="team-title">VP of Sales</span>
+        </div>
+        
+        <div class="team-member">
+            <a href="#"><img src="/img/headshots/neil-cohn_@2x.png" alt="Neil Cohn"></a>
+            <span class="team-name">Neil Cohn</span>
+            <span class="team-title">VP of Markets and Sustainability</span>
+        </div>
+        
+        <div class="team-member">
+            <a href="#"><img src="/img/headshots/j-eckert_@2x.png" alt="J. Eckert"></a>
+            <span class="team-name">J. Eckert</span>
+            <span class="team-title">VP of Ecosystems Operations</span>
+        </div>
+        
+        <div class="team-member">
+            <a href="#"><img src="/img/headshots/paul-ford_@2x.png" alt="Paul Ford"></a>
+            <span class="team-name">Paul Ford</span>
+            <span class="team-title">VP of Developer Relations</span>
+        </div>
+        
+        <div class="team-member">
+            <a href="#"><img src="/img/headshots/paul-hainsworth_@2x.png" alt="Paul Hainsworth"></a>
+            <span class="team-name">Paul Hainsworth</span>
+            <span class="team-title">VP of Product</span>
+        </div>
+        
+        <div class="team-member">
+            <a href="#"><img src="/img/headshots/jonmichael-hands_@2x.png" alt="Jonmichael Hands"></a>
+            <span class="team-name">Jonmichael Hands</span>
+            <span class="team-title">VP Storage Business Development</span>
+        </div>
+        
+        <div class="team-member">
+            <a href="#"><img src="/img/headshots/headshot-placeholder_@2x.png" alt="Vishal Kapoor"></a>
+            <span class="team-name">Vishal Kapoor</span>
+            <span class="team-title">SVP of Business Development</span>
+        </div>
+        
+        <div class="team-member">
+            <a href="#"><img src="/img/headshots/ali-shadle_@2x.png" alt="Ali Shadle"></a>
+            <span class="team-name">Ali Shadle</span>
+            <span class="team-title">VP of Operations</span>
+        </div>
+        
+        <div class="team-member">
+            <a href="#"><img src="/img/headshots/richard-tsao_@2x.png" alt="Richard Tsao"></a>
+            <span class="team-name">Richard Tsao</span>
+            <span class="team-title">VP of Business Development SE Asia</span>
+        </div>
+    </div>
+</div>
+
+<div class="white-bg content-padding">
+    <div class="col-10-container featured-section">
+        <h2>{{ strings.about_invest_investors_title }}</h2>
+    </div>
+    <div class="investors">
+        <div class="investor">
+            <a href="#"><img src="/img/investors/naval-ravikant_@2x.png" alt="Naval Ravikant"></a>
+        </div>
+        <div class="investor">
+            <a href="#"><img src="/img/investors/andreesen-horowitz-logo_@2x.png" alt="Andreesen Horowitz Logo"></a>
+        </div>
+        <div class="investor">
+            <a href="#"><img src="/img/investors/greylock-logo_@2x.png" alt="Greylock Logo"></a>
+        </div>
+        <div class="investor">
+            <a href="#"><img src="/img/investors/true-ventures-logo_@2x.png" alt="True Ventures Logo"></a>
+        </div>
+        <div class="investor">
+            <a href="#"><img src="/img/investors/slow-ventures-logo_@2xpng.png" alt="Slow Ventures Logo"></a>
+        </div>
+        <div class="investor">
+            <a href="#"><img src="/img/investors/galaxy digital-logo_@2x.png" alt="Galaxy Digital Logo"></a>
+        </div>
+        <div class="investor">
+            <a href="#"><img src="/img/investors/stillmark-logo_@2x.png" alt="Stillmark Logo"></a>
+        </div>
+        <div class="investor">
+            <a href="#"><img src="/img/investors/dcm-logo_@2x.png" alt="DCM Logo"></a>
+        </div>
+        <div class="investor">
+            <a href="#"><img src="/img/investors/metastable-logo_@2x.png" alt="MetaStable Logo"></a>
+        </div>
     </div>
 </div>
