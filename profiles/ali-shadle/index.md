@@ -2,9 +2,9 @@
 layout: profile
 lang: en
 title: Ali Shadle - Chia Network
-pic_url: "/img/headshots/bram-cohen_@2x.jpg"
+pic_url: "/img/headshots/ali-shadle_@2x.png"
 person-name: Ali Shadle
 position: Director, Chairman, Chief Executive Officer and Founder
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla libero nisl, rutrum eu consectetur maximus, placerat at lacus. Nam at nisl id nulla dignissim maximus ac quis justo. Proin ornare, sem vehicula condimentum ultricies, dolor libero luctus lacus, non porttitor odio augue id odio. Etiam tristique ligula mi, egestas malesuada metus iaculis vel. Proin sed cursus diam. Nulla facilisis vulputate massa, ut fringilla risus posuere vel. Aliquam sollicitudin ac quam at convallis. Donec aliquam ligula ac nibh pellentesque ornare. Praesent id lectus ullamcorper, vulputate justo ac, fringilla velit. Ut lacinia lobortis lorem, vitae dictum sapien pretium sed. Praesent sit amet pretium risus, non porttitor felis.
+Ali Shadle is the Vice President of Operations at Chia Network. Prior to Chia, Ali was an early  product manager at the unicorn Honey that recently sold to PayPal for $4B. During her 10+ years in tech she also conducted research under Evan Reas and Dr. Anders Ericsson. Dr. Ericsson discovered the 10,000 hour rule popularized by Malcolm Gladwell. Ali's research led her to interview 30+ Hedge Fund Managers and 50+ Venture Capitalists to develop a hedge fund strategy based on the hypothesis of predicting "coaching trees" (similar to the PayPal Mafia) determining where the most successful founders, CEO's or executives are likely to come from who consistently outperform their peers..
