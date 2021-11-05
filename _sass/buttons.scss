@@ -20,11 +20,11 @@
 	@extend .button;
 	background-color: $primary-button-color;
 	cursor: pointer;
-	&:hover {
-		background-color: $primary-button-color-hover;
+	&:visited {
 		color: $primary-button-text-color;
 	}
-	&:visited {
+	&:hover {
+		background-color: $primary-button-color-hover;
 		color: $primary-button-text-color;
 	}
 }
@@ -36,13 +36,13 @@
 .outline-green-button {
 	@extend .button;
 	background-color: transparent;
-	border: 1px solid $chia-green;
-	color: $chia-green;
+	border: 1px solid $primary-button-color;
+	color: $primary-button-color;
+	&:visited {
+		color: $primary-button-color;
+	}
 	&:hover {
 		background-color: $primary-button-color;
-		color: $primary-button-text-color;
-	}
-	&:visited {
 		color: $primary-button-text-color;
 	}
 }
@@ -56,12 +56,12 @@
 	background-color: transparent;
 	border: 1px solid $white;
 	color: $white;
+	&:visited {
+		color: $white;
+	}
 	&:hover {
 		background-color: $white;
 		color: $text-color;
-	}
-	&:visited {
-		color: $white;
 	}
 }
 
@@ -76,11 +76,11 @@
 	padding-right: rem(16);
 	text-align: center;
 	width: 100%;
-	&:hover {
-		background-color: $primary-button-color-hover;
+	&:visited {
 		color: $primary-button-text-color;
 	}
-	&:visited {
+	&:hover {
+		background-color: $primary-button-color-hover;
 		color: $primary-button-text-color;
 	}
 }
@@ -98,11 +98,11 @@
 	padding-right: rem(16);
 	text-align: center;
 	width: 100%;
-	&:hover {
-		background-color: $primary-button-color;
+	&:visited {
 		color: $primary-button-text-color;
 	}
-	&:visited {
+	&:hover {
+		background-color: $primary-button-color;
 		color: $primary-button-text-color;
 	}
 }
@@ -120,11 +120,11 @@
 	padding-right: rem(16);
 	text-align: center;
 	width: 100%;
+	&:visited {
+		color: $white;
+	}
 	&:hover {
 		background-color: $white;
 		color: $text-color;
-	}
-	&:visited {
-		color: $white;
 	}
 }

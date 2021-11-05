@@ -126,14 +126,14 @@
 .featured-content {
 	display: flex;
 	flex-direction: column;
-	@include breakpoint(920) {
+	@include breakpoint(768) {
 		flex-direction: row;
 	}
 }
 
 .featured-content-txt-container {
 	background-color: $white;
-	@include breakpoint(920) {
+	@include breakpoint(768) {
 		width: 732 / $col-10-width * 100%;
 	}
 }
@@ -153,7 +153,7 @@
 
 .featured-content-img {
 	display: none;
-	@include breakpoint(920) {
+	@include breakpoint(768) {
 		display: block;
 		width: $col-4-width / $col-10-width * 100%;
 	}
