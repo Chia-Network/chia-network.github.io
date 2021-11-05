@@ -43,7 +43,7 @@
     width: 100%;
     @include breakpoint(992) {
         background-color: transparent;
-        display: block;
+        display: block !important;
         margin-right: rem(24);
         width: auto;
     }
@@ -103,7 +103,6 @@
 --------------------------------------------------------------*/
 
 .menu-icon {
-    cursor: pointer;
     display: grid;
     height: rem(30);
     place-items: center;
@@ -136,9 +135,21 @@
             &:nth-child(1) {
                 width: 40%;
             }
-            &:nth-child {
+            &:nth-child(2) {
                 width: 80%;
             }
+        }
+    }
+}
+
+.menu-icon.close {
+    span {
+        background-color: $link-color;
+        &:nth-child(1) {
+            width: 40%;
+        }
+        &:nth-child(2) {
+            width: 80%;
         }
     }
 }

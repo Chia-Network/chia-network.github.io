@@ -10,7 +10,7 @@
         <div class="site-branding">
             <a class="site-logo" href="{{ site_prefix }}/"><img src="/img/branding/chia-logo.svg" alt="Chia Network Logo"></a>
         </div>
-        <ul class="main-menu-links" role="menu">
+        <ul class="site-nav main-menu-links" role="menu">
             <li class="nav-item{% if include.active == "approach" %} active{% endif %}">
                 <a href="{{ site_prefix }}/approach">Approach</a>
             </li>
@@ -33,13 +33,23 @@
                 <a href="{{ site_prefix }}/download">{{ strings.navigation.farm-chia }}</a>
             </li>
         </ul>
-        <div class="menu-icon">
+        <a class="menu-icon toggle-menu" href="#">
             <span class="line-1"></span>
             <span class="line-2"></span>
             <span class="line-3"></span>
-        </div>
+        </a>
     </nav>
 </header>
+
+<script type="text/javascript">
+    $('.toggle-menu').click(function() {
+        $('.site-nav').slideToggle({
+            speed : 250
+        });
+        $(this).toggleClass('close');
+        return false;
+    });
+</script>
 
 {% comment %}
 <div class="nav-divider px-2 px-xl-5"><div></div></div>
