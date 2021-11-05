@@ -4,5 +4,17 @@
 
 .contact-links {
     @include reset-list;
-    margin-bottom: rem(16);
+    border-top: 1px solid $gray;
+    margin-bottom: rem(32);
+    li {
+        border-bottom: 1px solid $gray;
+        margin: 0;
+        a, a:visited {
+            display: block;
+            padding: rem(12) rem(8);
+            &:hover, &:active {
+                background-color: $pastel-green;
+            }
+        }
+    }
 }
