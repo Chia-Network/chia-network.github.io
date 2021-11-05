@@ -3,7 +3,7 @@ layout: profile
 lang: en
 title: Dr. William Blake - Chia Network
 pic_url: "/img/headshots/william-blake_@2x.png"
-person-name: Ali Shadle
+person-name: Dr. William Blake
 position: VP of Engineering
 ---
 
