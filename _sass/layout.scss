@@ -116,3 +116,49 @@
 		}
 	}
 }
+
+/*--------------------------------------------------------------
+# Featured Content
+--------------------------------------------------------------*/
+
+.featured-content {
+	display: flex;
+	flex-direction: column;
+	@include breakpoint(920) {
+		flex-direction: row;
+	}
+}
+
+.featured-content-txt-container {
+	background-color: $white;
+	@include breakpoint(920) {
+		width: 732 / $col-10-width * 100%;
+	}
+}
+
+.featured-content-txt {
+	padding: rem(24);
+	.button {
+		margin-top: rem(24);
+	}
+	@include breakpoint(1080) {
+		padding: rem(60);
+	}
+	@include breakpoint(1298) {
+		padding: rem(60) rem(122) rem(60) rem(146);
+	}
+}
+
+.featured-content-img {
+	height: rem(96);
+	overflow: hidden;
+	img {
+		object-fit: cover;
+		width: 100%;
+	}
+	@include breakpoint(920) {
+		height: auto;
+		overflow: auto;
+		width: $col-4-width / $col-10-width * 100%;
+	}
+}
