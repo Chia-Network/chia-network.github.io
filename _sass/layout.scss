@@ -150,15 +150,9 @@
 }
 
 .featured-content-img {
-	height: rem(96);
-	overflow: hidden;
-	img {
-		object-fit: cover;
-		width: 100%;
-	}
+	display: none;
 	@include breakpoint(920) {
-		height: auto;
-		overflow: auto;
+		display: block;
 		width: $col-4-width / $col-10-width * 100%;
 	}
 }
