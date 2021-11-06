@@ -1,9 +1,57 @@
 /*--------------------------------------------------------------
-# Value Props
+# Superhero
+--------------------------------------------------------------*/
+.superhero {
+    background-color: $dark-green;
+    background-image: url(/img/bg/icon-tile_@2x.png);
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: rem(200) rem(200);
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    @include breakpoint(992) {
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
+/*--------------------------------------------------------------
+# Superhero Content Container
 --------------------------------------------------------------*/
 
-.chia-value-props {
-    
+.superhero-content-container {
+    margin: rem(60) rem(24);
+    @include breakpoint(992) {
+        margin: 0;
+        width: 854 / $col-12-width * 100%;
+    }
+}
+
+/*--------------------------------------------------------------
+# Superhero Content
+--------------------------------------------------------------*/
+
+.superhero-content {
+    @include grid-width($col-5-width);
+    @include breakpoint(992) {
+        margin-left: 122 / 854 * 100%;
+        max-width: none;
+        width: 586 / 854 * 100%;
+    }
+}
+
+/*--------------------------------------------------------------
+# Superhero Image
+--------------------------------------------------------------*/
+
+.superhero-img {
+    display: none;
+    @include breakpoint(992) {
+        background-color: $chia-green;
+        display: block;
+        width: 586 / $col-12-width * 100%;
+    }
 }
 
 /*--------------------------------------------------------------

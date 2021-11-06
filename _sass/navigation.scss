@@ -3,6 +3,8 @@
 --------------------------------------------------------------*/
 
 .main-header {
+    @include grid-width($col-12-width);
+    @include center-block;
     background-color: $white;
     padding: rem(16) 0 0;
     @include breakpoint(992) {
@@ -68,7 +70,7 @@
             }
             &:hover, &:active {
                 background-color: rgba($black, 0.25);
-                color: $bright-green;
+                color: $link-color;
             }
             @include breakpoint(992) {
                 color: $dark-green;
