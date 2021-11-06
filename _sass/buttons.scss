@@ -5,11 +5,14 @@
 	border-radius: rem(4);
 	color: $primary-button-text-color;
 	display: inline-block;
-	font-size: rem(16);
+	font-size: rem($responsive-body-font-size);
 	font-weight: 500;
 	padding: rem(12) rem(48);
 	white-space: nowrap;
 	width: auto;
+	@include breakpoint(768) {
+		font-size: rem($body-font-size);
+	}
 }
 
 /*--------------------------------------------------------------

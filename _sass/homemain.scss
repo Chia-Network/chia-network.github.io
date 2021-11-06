@@ -8,23 +8,48 @@
     background-repeat: repeat;
     background-size: rem(200) rem(200);
     color: $white;
-    display: flex;
-    flex-direction: column;
-    @include breakpoint(992) {
-        align-items: center;
-        flex-direction: row;
+}
+
+/*--------------------------------------------------------------
+# Superhero Background Container
+--------------------------------------------------------------*/
+
+.superhero-bg-container {
+    background-image: url(/img/bg/superhero-asbstract-pattern_@2x.png);
+    background-position: -(rem(999));
+    background-repeat: repeat-y;
+    background-size: rem($col-2-width) auto;
+    @include breakpoint(680) {
+        background-position: right top;
+    }
+    @include breakpoint(900) {
+        background-size: rem($col-3-width) auto;
+    }
+    @include breakpoint(1080) {
+        background-size: rem($col-4-width) auto;
     }
 }
 
 /*--------------------------------------------------------------
-# Superhero Content Container
+# Superhero Layout Container
 --------------------------------------------------------------*/
 
-.superhero-content-container {
-    margin: rem(60) rem(24);
-    @include breakpoint(992) {
-        margin: 0;
-        width: 854 / $col-12-width * 100%;
+.superhero-layout-container {
+    padding-bottom: 216 / $col-12-width * 100%;
+    padding-left: 122 / $col-12-width * 100%;
+    padding-right: 122 / $col-12-width * 100%;
+    padding-top: 245 / $col-12-width * 100%;
+    @include breakpoint(680) {
+        padding-right: 292 / 768 * 100%;
+    }
+    @include breakpoint(768) {
+        padding-right: 306 / 900 * 100%;
+    }
+    @include breakpoint(900) {
+        padding-right: 454 / 1080 * 100%;
+    }
+    @include breakpoint(1080) {
+        padding-right: 732 / $col-12-width * 100%;
     }
 }
 
@@ -35,22 +60,47 @@
 .superhero-content {
     @include grid-width($col-5-width);
     @include breakpoint(992) {
-        margin-left: 122 / 854 * 100%;
-        max-width: none;
-        width: 586 / 854 * 100%;
+        
     }
 }
 
 /*--------------------------------------------------------------
-# Superhero Image
+# Slick Dots
 --------------------------------------------------------------*/
 
-.superhero-img {
-    display: none;
-    @include breakpoint(992) {
-        background-color: $chia-green;
-        display: block;
-        width: 586 / $col-12-width * 100%;
+.slick-dots {
+    @include reset-list;
+    margin-top: 10%;
+    li {
+        display: inline-block;
+        margin: 0 rem(16) 0 0;
+        button {
+            font-size: 0;
+            line-height: 0;
+            &:before {
+                background-color: $white;
+                border: rem(4) solid $white;
+                border-radius: 100%;
+                content: '';
+                display: block;
+                height: rem(12);
+                transition: all 0.25s ease-in-out 0s;
+                width: rem(12);
+            }
+            &:hover {
+                &:before {
+                    background-color: transparent;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .slick-active {
+        button {
+            &:before {
+                background-color: transparent;
+            }
+        }
     }
 }
 
