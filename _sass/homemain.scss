@@ -77,6 +77,7 @@
         button {
             font-size: 0;
             line-height: 0;
+            outline: none;
             &:before {
                 background-color: $white;
                 border: rem(4) solid $white;
