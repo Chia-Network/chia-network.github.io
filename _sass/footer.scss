@@ -77,7 +77,10 @@
 .footer-col {
     ul {
         @include reset-list;
-        @include typeset($body-font-size, 21);
+        @include typeset($responsive-body-font-size, 21);
+        @include breakpoint(768) {
+            @include typeset($body-font-size, 21);
+        }
     }
     li {
         margin-bottom: rem(8);

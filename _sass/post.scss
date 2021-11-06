@@ -10,6 +10,12 @@
         display: inline;
         margin: 0;
     }
+    .date {
+        @include typeset($responsive-body-font-size, $responsive-body-line-height);
+        @include breakpoint(768) {
+            @include typeset($body-font-size, $body-line-height);
+        }
+    }
 }
 
 /*--------------------------------------------------------------

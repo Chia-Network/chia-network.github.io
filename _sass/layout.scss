@@ -95,7 +95,10 @@
 	margin-bottom: rem(36);
 	p {
 		&:nth-of-type(1) {
-			@include typeset($lrg-font-size, $lrg-line-height);
+			@include typeset($resonsive-lrg-font-size, $responsive-lrg-line-height);
+			@include breakpoint(768) {
+				@include typeset($lrg-font-size, $lrg-line-height);
+			}
 		}
 	}
 }

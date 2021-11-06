@@ -28,23 +28,54 @@ $primary-button-text-color-hover: $white;
 $font-family: 'Poppins', sans-serif;
 $font-family-mono: ('Consolas', Courier, monospace);
 
-// Typography
+// Typography Ratio
+$type-ratio: 1.125;
+
+// Body Font Size
 $body-font-size: 16;
 $body-line-height: 28;
+$responsive-body-font-size: $body-font-size / $type-ratio;
+$responsive-body-line-height: $body-line-height / $type-ratio;
+
+// Large Font Size
 $lrg-font-size: 30;
 $lrg-line-height: 48;
+$resonsive-lrg-font-size: $lrg-font-size / $type-ratio;
+$responsive-lrg-line-height: $lrg-line-height / $type-ratio;
+
+// Small Font Size
 $small-font-size: 14;
 $small-line-height: 24;
-$header-1-size: 48;
-$header-1-line-height: 56;
+
+// Header 1 Font Size
+$header-1-size: 42;
+$header-1-line-height: 48;
+$responsive-header-1-size: $header-1-size / $type-ratio;
+$responsive-header-1-line-height: $header-1-line-height / $type-ratio;
+
+// Header 2 Font Size
 $header-2-size: 36;
 $header-2-line-height: 48;
+$responsive-header-2-size: $header-2-size / $type-ratio;
+$responsive-header-2-line-height: $header-2-line-height / $type-ratio;
+
+// Header 3 Font Size
 $header-3-size: 24;
 $header-3-line-height: 32;
+$responsive-header-3-size: $header-3-size / $type-ratio;
+$responsive-header-3-line-height: $header-3-line-height / $type-ratio;
+
+// Header 4 Size
 $header-4-size: 20;
 $header-4-line-height: 27;
+$responsive-header-4-size: $header-4-size / $type-ratio;
+$responsive-header-4-line-height: $header-4-line-height / $type-ratio;
+
+// Header 5 Size
 $header-5-size: 18;
 $header-5-line-height: 24;
+$responsive-header-5-size: $header-5-size / $type-ratio;
+$responsive-header-5-line-height: $header-5-line-height / $type-ratio;
 
 // Column Widths
 $col-12-width: 1440;

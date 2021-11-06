@@ -7,11 +7,8 @@
     @include center-block;
     display: grid;
     gap: rem(24) rem(24);
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    @include breakpoint(460) {
-        grid-template-columns: 1fr 1fr;
-    }
     @include breakpoint(768) {
         grid-template-columns: 1fr 1fr 1fr;
     }

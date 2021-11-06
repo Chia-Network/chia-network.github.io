@@ -36,11 +36,14 @@
 }
 
 .main-menu-links {
-    @include typeset(16, 21);
+    @include typeset($responsive-body-font-size, 21);
     @include reset-list;
     background-color: $dark-green;
     display: none;
     width: 100%;
+    @include breakpoint(768) {
+        @include typeset($body-font-size, 21);
+    }
     @include breakpoint(992) {
         background-color: transparent;
         display: block !important;
