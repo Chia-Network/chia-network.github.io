@@ -11,6 +11,7 @@ url: "https://chia.net" # the base hostname & protocol for your site
 plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-pdf-embed
 
 # SEO settings
 title: Chia Network
