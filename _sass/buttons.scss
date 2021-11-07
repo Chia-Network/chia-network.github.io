@@ -51,24 +51,6 @@
 }
 
 /*--------------------------------------------------------------
-# Green Button
---------------------------------------------------------------*/
-
-.green-button {
-	@extend .button;
-	background-color: $primary-button-color;
-	border: 1px solid $primary-button-color;
-	color: $white;
-	&:visited {
-		color: $white;
-	}
-	&:hover {
-		background-color: $white;
-		color: $primary-button-color;
-	}
-}
-
-/*--------------------------------------------------------------
 # Outline White Button
 --------------------------------------------------------------*/
 
