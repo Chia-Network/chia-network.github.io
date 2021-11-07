@@ -4,6 +4,6 @@ weblink: "https://www.bloomberg.com/news/articles/2021-11-05/world-bank-group-lo
 date:   2021-11-05
 thumbnail: "/assets/news-bloomberg.png"
 source: bloomberg.com
-jumbotron: true
+jumbotron: false
 ---
 Blockchain firms are building ‘public-good layer’ for climate. Chia Network among crypto startups developing prototypes.

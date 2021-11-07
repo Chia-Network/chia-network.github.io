@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 .jumbotron {
-    border: 1px solid $gray;
+    border: 0px solid $gray;
     border-radius: rem(8);
     margin-bottom: rem(24);
     .news-jumbotron-thumbnail {
@@ -86,6 +86,15 @@
     }
 }
 
+.news-content-padding {
+    padding: rem(24) 3.125%;
+    @include breakpoint(1280) {
+        padding: rem(88) rem(24);
+    }
+}
+    
+}
+
 /*--------------------------------------------------------------
 # See More
 --------------------------------------------------------------*/
@@ -97,3 +106,13 @@
         margin-top: rem(36);
     }
 }
+
+/*--------------------------------------------------------------
+# Notice
+--------------------------------------------------------------*/
+
+.notice {
+    text-align: center;
+    color:$dark-gray
+}
+
