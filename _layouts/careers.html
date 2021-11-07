@@ -17,7 +17,11 @@ layout: default
                 
                 <hr>
                 <h5>Current openings:</h5>
-                <table style="width:auto; padding: 10px; margin-left: auto; margin-right: auto;">
+                    {% assign job_descriptions = site.job_descriptions | sort: "order" %}
+                    {% for entry in job_descriptions %}
+                    <p>• <a href ="#{{ entry.title }}">{{ entry.title }}</a></p>
+                    {% endfor %}
+<!--                <table style="width:auto; padding: 10px; margin-left: auto; margin-right: auto;">
                     <tr>
                         {% assign job_descriptions = site.job_descriptions | sort: "order" %}
                         {% for entry in job_descriptions %}
@@ -27,7 +31,7 @@ layout: default
                         <td style="text-align:center">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</td>
                     </tr>
                 </table>
-                
+-->               
                 <div class="row">
                     <div class="col-12">
                         {% assign job_descriptions = site.job_descriptions | sort: "order" %}
