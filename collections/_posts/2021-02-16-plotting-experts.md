@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title:  "Meet the plotting experts"
+title:  "Meet the Plotting Experts"
 date:   2021-02-16
 author: "[Gene Hoffman](https://twitter.com/hoffmang)"
 ---

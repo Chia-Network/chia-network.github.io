@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title:  "30 hours to 30 minutes, Chia’s release automation story"
+title:  "30 hours to 30 minutes, Chia’s Release Automation Story"
 date:   2021-10-05
 author: "[Justin England](hhttps://github.com/justinengland)"
 ---

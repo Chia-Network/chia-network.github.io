@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title:  "Chia plotting basics"
+title:  "Chia Plotting Basics"
 date:   2021-02-22
 author: "[Gene Hoffman](https://twitter.com/hoffmang)"
 ---

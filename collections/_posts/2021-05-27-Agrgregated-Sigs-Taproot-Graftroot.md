@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title:  "Aggregated signatures, Taproot, Graftroot, and standard transactions"
+title:  "Aggregated Signatures, Taproot, Graftroot, and Standard Transactions"
 date:   2021-05-27
 author: "[Bram Cohen](https://twitter.com/bramcohen)"
 ---
