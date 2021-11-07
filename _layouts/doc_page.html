@@ -12,7 +12,9 @@ layout: default
               <h1>{{ page.doc_title }}</h1>
             </header>
             <div class="article-content">
-                <iframe src={{ page.doc_loc}} width=100% height="835"></iframe>
+                <div class="container">
+                    <iframe class="responsive-iframe" src={{ page.doc_loc}}></iframe>
+                </div>
             </div>
         </article>
     </div>

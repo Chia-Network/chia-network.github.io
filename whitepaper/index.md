@@ -1,8 +1,8 @@
 ---
-layout: document-page
+layout: doc_page
 lang: en
 title: Business White Paper - Chia Network
 doc_title: Chia Business White Paper
-doc_loc: "/assets/Chia-Business-Whitepaper-2021-02-09-v1.0.pdf"
+doc_loc: "/assets/Chia-Business-Whitepaper-2021-02-09-v1.0.pdf#view=FitH"
 ---
 
