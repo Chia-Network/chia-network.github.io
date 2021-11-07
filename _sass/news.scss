@@ -88,9 +88,6 @@
 
 .news-content-padding {
     padding: rem(24) 3.125%;
-    @include breakpoint(1280) {
-        padding: rem(88) rem(24);
-    }
 }
     
 /*--------------------------------------------------------------
