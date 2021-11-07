@@ -53,6 +53,8 @@ en: # English
   about_title: "About Us"
   about_description: |
     Founded by Bram Cohen, the inventor of the BitTorrent network, Chia Network is building a better blockchain and smart transaction platform which is more secure, more sustainable, and more powerful.
+  
+    Chia is taking a new and superior approach to funding, building, and supporting a blockchain via an eventually public, for-profit, open source development company that holds a pre-farm (Strategic Reserve). Chia will use its Strategic Reserve to ease the volatility of the coin to mitigate bubbles and crashes and to drive adoption of Chia.
 
     Support is also provided for Chia developers and the enterprise use of Chia through professional services and chia lending.
   about_team_title: "Team"
