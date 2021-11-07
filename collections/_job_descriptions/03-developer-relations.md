@@ -37,4 +37,4 @@ This is an exciting and important role. You will have the rare opportunity to wo
 * Work with internal teams and external partners to provide technical guidance, code examples (use cases), content, and other documentation as needed
 * Inspire, inform and engage the community, typically through demos, hackathons, meetups and other targeted events
 
-If you're not sure if you qualify, but are interested in this role, we still encourage you to apply. Send your CV/resume along with your [Keybase](https://keybase.io) name (if available) to jobs@chia.net
+If you're not sure if you qualify, but are interested in this role, we still encourage you to apply. Send your CV/resume along with your [Keybase](https://keybase.io) name (if available) to <a href="mailto:jobs@chia.net" target="_none">jobs@chia.net</a>.

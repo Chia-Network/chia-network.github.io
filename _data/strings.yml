@@ -73,7 +73,7 @@ en: # English
 
     Many on the Chia team are located in the SF Bay Area but remote is fine as we have people all over the world - Keybase, GitHub, and Zoom are how we work. Geographic restrictions, if any, will be noted in a job specification.
 
-    Please send your resume and cover letter to [jobs@chia.net](mailto:jobs@chia.net). Please put the role you are applying for as part of the subject line and include anything additionally required by a specific job posting.
+    Please send your resume and cover letter to <a href="mailto:jobs@chia.net" target="_none">jobs@chia.net</a>. Please put the role you are applying for as part of the subject line and include anything additionally required by a specific job posting.
   blog_title: "Notes from Chia"
   download_title: "Release Notes"
   download_loading_message: "Loading releases..."
