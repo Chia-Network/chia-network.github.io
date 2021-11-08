@@ -33,3 +33,117 @@
         }
     }
 }
+
+
+
+/*--------------------------------------------------------------
+# Accordion
+--------------------------------------------------------------*/
+
+.chia-accordion {
+    border-bottom: rem(2) solid $gray;
+}
+
+/*--------------------------------------------------------------
+# Accordion Item
+--------------------------------------------------------------*/
+
+.chia-accordion-item {
+    border-top: rem(2) solid $gray;
+    .accordion-trigger {
+        @include typeset($body-font-size, 24);
+        border-left: rem(2) solid $gray;
+        border-right: rem(2) solid $gray;
+        margin: 0;
+        a, a:visited {
+            border-bottom: none;
+            color: $text-color;
+            display: block;
+            padding: rem(24) rem(60) rem(24) rem(24);
+            &:hover, &:active {
+                color: $link-color;
+                .accordion-button {
+                    &:before,
+                    &:after {
+                        background-color: $link-color;
+                    }
+                    &:before {
+                        transform: rotate(90deg);
+                    }
+                    &:after {
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+        }
+        .active-accordion {
+            .accordion-button {
+                &:before {
+                    transform: rotate(90deg);
+                }
+                &:after {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+    }
+}
+
+/*--------------------------------------------------------------
+# Accordion Details
+--------------------------------------------------------------*/
+
+.chia-accordion-details {
+    border-left: rem(2) solid $gray;
+    border-right: rem(2) solid $gray;
+    border-top: rem(2) solid $gray;
+    padding: rem(12) rem(24) rem(24);
+}
+
+/*--------------------------------------------------------------
+# Accordion Button
+--------------------------------------------------------------*/
+
+.accordion-button {
+    height: rem(16);
+    position: absolute;
+    right: rem(24);
+    top: rem(24);
+    width: rem(16);
+    &:before,
+    &:after{
+        background-color: $text-color;
+        content: '';
+        position: absolute;
+        transition: transform 0.25s ease-out;
+    }
+
+    /* Vertical line */
+    &:before {
+        height: 100%;
+        left: 50%;
+        margin-left: -(rem(1));
+        top: 0;
+        width: (rem(2));
+    }
+
+    /* horizontal line */
+    &:after{
+        height: rem(2);
+        left: 0;
+        margin-top: -(rem(1));
+        top: 50%;
+        width: 100%;
+    }
+    
+    &:hover{
+        cursor: pointer;
+        
+        &:before {
+            transform: rotate(90deg);
+        }
+        &:after {
+            transform: rotate(180deg);
+        }
+    }
+}

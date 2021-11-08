@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title:  "AMA - Plotting speed and security in Chia"
+title:  "AMA - Plotting Speed and Security in Chia"
 date:   2021-06-13
 author: "[Gene Hoffman](https://twitter.com/hoffmang), and [Bram Cohen](https://twitter.com/bramcohen)"
 ---

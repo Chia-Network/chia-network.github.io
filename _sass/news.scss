@@ -1,121 +1,113 @@
-.news {
-    padding-bottom: 4rem;
+/*--------------------------------------------------------------
+# Jumbotron
+--------------------------------------------------------------*/
 
-    .card {
-        line-height: 31px;
-        padding: 20px;
-    }
-
-    .jumbotron {
-        position: relative;
-        padding: 0;
-        margin-top: 3rem;
-
-        a {
-            text-decoration: none;
-            transition: opacity 0.4s;
-            opacity: 1;
-            color: inherit;
-
-            &:hover { opacity: 0.7; }
-
-            .date {
-                font-weight: bold;
-                font-size: 16px;
-                text-transform: uppercase;
-                color: #2B693C;
-            }
-
-            .headline {
-                font-weight: bold;
-                line-height: 53px;
-                font-size: 40px;
-                color: #0C282A;
-                margin-top: 1.5rem;
-            }
-
-            .tagline {
-                font-weight: normal;
-                font-size: 24px;
-                margin-top: 0.5rem;
-            }
-
-            .source {
-                margin-top: 1rem;
-                font-size: 16px;
-                text-transform: uppercase;
-                overflow: hidden;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-            }
+.jumbotron {
+    border: 0px solid $gray;
+    border-radius: rem(8);
+    margin-bottom: rem(24);
+    .news-jumbotron-thumbnail {
+        border-radius: rem(8) rem(8) 0 0;
+        height: rem(290);
+        object-fit: cover;
+        width: 100%;
+        @include breakpoint(768) {
+            height: rem(594);
         }
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
-
-    .article {
-        padding: 1rem;
-        padding-bottom: 3rem;
-        text-decoration: none;
-        color: inherit;
-
-        &:hover {
-            .headline { opacity: 0.7; }
-
-            img { opacity: 0.7; }
-        }
-
-        img {
-            transition: opacity 0.4s;
-            opacity: 1;
-            width: 100%;
-            height: 15rem;
-            object-fit: cover;
-        }
-
-        .date {
-            margin-top: 1rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: #2B693C;
-        }
-
-        .headline {
-            margin-top: 1rem;
-            font-weight: bold;
-            line-height: 43px;
-            font-size: 32px;
-            transition: opacity 0.4s;
-            opacity: 1;
-        }
-
-        .source {
-            margin-top: 1rem;
-            text-transform: uppercase;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-        }
-    }
-
-    #see-more-button {
-        display: inline-block;
-        cursor: pointer;
-        position: relative;
-        padding: 0.7rem 3rem 0.7rem 3rem;
-        box-shadow: 0 2px 27px 0 rgba(0,0,0,0.09);
-        border: 3px solid #3AAC59;
-        border-radius: 3px;
-        margin: 0 auto;
-        margin-top: 2rem;
-        text-align: center;
-        color: #3AAC59;
-        font-size: 18px;
-        font-weight: bold;
-        text-transform: uppercase;
     }
 }
+
+/*--------------------------------------------------------------
+# Jumbotron Content
+--------------------------------------------------------------*/
+
+.jumbotron-content {
+    border-top: 1px solid $gray;
+    padding: rem(24) 24 / 464 * 100% rem(24);
+    .date {
+        @include typeset($small-font-size, $small-line-height);
+        display: block;
+        margin-bottom: rem(8);
+    }
+    h2 {
+        a, a:visited {
+            color: $text-color;
+            &:hover, &:active {
+                color: $chia-green;
+            }
+        }
+    }
+    @include breakpoint(460) {
+        padding: 32 / 464 * 100%;
+    }
+}
+
+/*--------------------------------------------------------------
+# News Post
+--------------------------------------------------------------*/
+
+.news-post {
+    border: 1px solid $gray;
+    border-radius: rem(8);
+    margin-bottom: rem(24);
+    .news-small-thumbnail {
+        border-radius: rem(8) rem(8) 0 0;
+        height: rem(290);
+        object-fit: cover;
+        width: 100%;
+    }
+    @include breakpoint(768) {
+        margin-bottom: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# News Content
+--------------------------------------------------------------*/
+
+.news-content {
+    border-top: 1px solid $gray;
+    padding: rem(24) 24 / 464 * 100% rem(24);
+    .date {
+        @include typeset($small-font-size, $small-line-height);
+        display: block;
+        margin-bottom: rem(8);
+    }
+    h3 {
+        a, a:visited {
+            color: $text-color;
+            &:hover, &:active {
+                color: $chia-green;
+            }
+        }
+    }
+    @include breakpoint(460) {
+        padding: 32 / 464 * 100%;
+    }
+}
+
+.news-content-padding {
+    padding: rem(24) 3.125%;
+}
+    
+/*--------------------------------------------------------------
+# See More
+--------------------------------------------------------------*/
+
+.see-more {
+    margin-top: rem(24);
+    text-align: center;
+    @include breakpoint(460) {
+        margin-top: rem(36);
+    }
+}
+
+/*--------------------------------------------------------------
+# Notice
+--------------------------------------------------------------*/
+
+.notice {
+    text-align: center;
+    color:$dark-gray
+}
+

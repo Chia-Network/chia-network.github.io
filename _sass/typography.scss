@@ -1,0 +1,239 @@
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+
+body {
+	@include font-setting($font-family, normal, 500);
+	color: $text-color;
+}
+
+/*--------------------------------------------------------------
+# Headers
+--------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+h1 {
+	@include typeset($responsive-header-1-size, $responsive-header-1-line-height);
+	margin-bottom: rem(24);
+	@include breakpoint(768) {
+		@include typeset($header-1-size, $header-1-line-height);
+	}
+}
+
+h2 {
+	@include typeset($responsive-header-2-size, $responsive-header-2-line-height);
+	margin-bottom: rem(16);
+	@include breakpoint(768) {
+		@include typeset($header-2-size, $header-2-line-height);
+	}
+}
+
+h3 {
+	@include typeset($responsive-header-3-size, $responsive-header-3-line-height);
+	margin-bottom: rem(16);
+	@include breakpoint(768) {
+		@include typeset($header-3-size, $header-3-line-height);
+	}
+}
+
+h4 {
+	@include typeset($responsive-header-4-size, $responsive-header-4-line-height);
+	margin-bottom: rem(16);
+	@include breakpoint(768) {
+		@include typeset($header-4-size, $header-4-line-height);
+	}
+}
+
+h5 {
+	@include typeset($responsive-header-5-size, $responsive-header-5-line-height);
+	margin-bottom: rem(16);
+	@include breakpoint(768) {
+		@include typeset($header-5-size, $header-5-line-height);
+	}
+}
+
+h6 {
+	@include typeset($responsive-body-font-size, $responsive-body-line-height);
+	margin-bottom: rem(16);
+	@include breakpoint(768) {
+		@include typeset($body-font-size, $body-line-height);
+	}
+}
+
+/*--------------------------------------------------------------
+# Paragraph
+--------------------------------------------------------------*/
+
+p {
+	@include typeset($responsive-body-font-size, $responsive-body-line-height);
+	margin: rem(12) 0 rem(12);
+	@include breakpoint(768) {
+		@include typeset($body-font-size, $body-line-height);
+	}
+}
+
+/*--------------------------------------------------------------
+# Blockquote
+--------------------------------------------------------------*/
+
+blockquote {
+	@include typeset($resonsive-lrg-font-size, $responsive-lrg-line-height);
+	background-color: $pastel-green;
+	border-left: rem(4) solid $dark-green;
+	margin: rem(36) 0;
+	padding: rem(24);
+	p {
+		font-size: inherit;
+		line-height: inherit;
+		margin: rem(36) 0 0;
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+	@include breakpoint(768) {
+		@include typeset($lrg-font-size, $lrg-line-height);
+	}
+}
+
+/*--------------------------------------------------------------
+# Ordered, Unordered, & Definition Lists
+--------------------------------------------------------------*/
+ul, ol, dl {
+	@include typeset($responsive-body-font-size, $responsive-body-line-height);
+	margin: rem($body-line-height) 0 rem($body-line-height);
+	@include breakpoint(768) {
+		@include typeset($body-font-size, $body-line-height);
+	}
+}
+
+ul {
+	list-style: disc;
+	padding-left: rem(24);
+}
+
+ul ul, ol ul {
+	list-style: circle;
+}
+
+ol {
+	list-style: decimal;
+	padding-left: rem(32);
+}
+
+ul ol, ol ol {
+	list-style: lower-alpha;
+}
+
+ol ol ol {
+	list-style: decimal;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+	font-size: inherit;
+	margin: rem(12) 0;
+}
+
+ul ul, ol ul {
+	padding-left: rem(24);
+}
+
+ul ol, ol ol {
+	padding-left: rem(32);
+}
+
+dt {
+	font-size: inherit;
+	font-weight: 700;
+}
+
+li {
+	margin-bottom: rem(12);
+}
+
+dd {
+	margin-bottom: rem(36);
+}
+
+/*--------------------------------------------------------------
+# Tables
+--------------------------------------------------------------*/
+
+table {
+	@include typeset($responsive-body-font-size, 21);
+	background-color: $white;
+	border: rem(4) solid $dark-green;
+	margin: rem($body-line-height) 0;
+	width: 100%;
+	@include breakpoint(768) {
+		@include typeset($body-font-size, 24);
+	}
+}
+
+caption {
+	@include typeset($responsive-header-4-size, $responsive-header-4-line-height);
+	font-weight: 700;
+	margin-bottom: rem(8);
+	@include breakpoint(768) {
+		@include typeset($header-4-size, $header-4-line-height);
+	}
+}
+
+tbody tr:nth-of-type(odd) {
+	background-color: $pastel-green;
+}
+
+th {
+	border-left: rem(2) solid $dark-green;
+	font-weight: 700;
+	padding: rem(12) rem(15);
+	text-align: left;
+	vertical-align: top;
+}
+
+td {
+	border-left: rem(2) solid $dark-green;
+	border-top: rem(2) solid $dark-green;
+	padding: rem(12) rem(15);
+	text-align: left;
+	vertical-align: top;
+}
+
+th:nth-of-type(1),
+td:nth-of-type(1) {
+	border-left: none;
+}
+
+/*--------------------------------------------------------------
+# Code
+--------------------------------------------------------------*/
+code {
+	background-color: $pastel-green;
+	border-radius: 2px;
+	color: $code-color;
+	font-family: $font-family-mono;
+	padding: 2px 4px;
+}
+
+/*--------------------------------------------------------------
+# Preformatted Text
+--------------------------------------------------------------*/
+pre {
+	background-color: $pastel-green;
+	border-radius: 8px;
+	line-height: 1.6025;
+	margin: rem($body-line-height) 0;
+	overflow: auto;
+	overflow-y: hidden;
+	padding: 24px;
+	white-space: pre;
+	code {
+		background-color: transparent;
+		border-radius: 0;
+		font-size: inherit;
+		line-height: inherit;
+		padding: 0;
+	}
+}

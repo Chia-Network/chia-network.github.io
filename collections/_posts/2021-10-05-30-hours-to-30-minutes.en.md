@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: post
-title:  "30 hours to 30 minutes, Chia’s release automation story"
+title:  "30 hours to 30 minutes, Chia’s Release Automation Story"
 date:   2021-10-05
-author: "[Justin England](hhttps://github.com/justinengland)"
+author: "[Justin England](https://github.com/justinengland)"
 ---
 
 On March 17th, 2021, the roughly 15 chia engineers responsible for launching mainnet had just finished the “go, no go” checklist for launching Chia version 1.0.0. For the past several weeks the entire Chia team had been on high alert, working long hours, ironing out the final details that would allow the blockchain to finally launch from testnet to mainnet. It was an exciting and hectic time for the team, and this moment was the culmination of years of hard work and dedication. After weeks of practice, with every detail documented, at 6:00 am mountain time on the 17th they began the work in earnest. 
