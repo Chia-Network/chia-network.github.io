@@ -6,19 +6,16 @@ layout: default
 
 {% include navigation.html active="blog" %}
 
-<div class="blog-post">
-  <article class="container" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="row">
-      <div class="col-md-10 mx-auto">
-        <div class="title">
-          <h1>{{ page.title }}</h1>
-          <span class="author">{{ page.author | markdownify }}</span> &mdash; <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
-        </div>
-
-        <div class="content">
+<div class="light-bg">
+  <div class="white-bg col-8-container content-padding">
+      <article class="col-6-container" itemscope itemtype="http://schema.org/BlogPosting">
+          <header class="article-header">
+              <h1>{{ page.title }}</h1>
+              <span class="author">{{ page.author | markdownify }}</span> &mdash; <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
+          </header>
+          <div class="article-content">
           {{ content }}
-        </div>
-      </div>
-    </div>
-  </article>
+          </div>
+      </article>
+  </div>
 </div>

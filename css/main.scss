@@ -1,29 +1,17 @@
 ---
 ---
 
-// fonts
-@import 'hco_fonts';
+// Sass Utilities
+@import 'variables';
+@import 'functions';
+@import 'mixins';
 
-body {
-    font-family: 'HCo Gotham SSm';
-    font-size: 16px;
-    color: #0C282A;
-}
+// Sass Base
+@import 'resets';
+@import 'typography';
 
-hr {
-    border-top-color: #808080;
-}
-
-a {
-    color: #3AAC59;
-    &:hover { color: #3AAC59; }
-}
-
-.page-main-title {
-    font-weight: bold;
-    font-size: 40px;
-    color: #0C282A;
-}
+// Layouts & Structure
+@import 'layout';
 
 // pages
 @import 'homemain';
@@ -34,13 +22,16 @@ a {
 @import 'blog';
 @import 'contact';
 @import 'post';
+@import 'profile';
 @import 'greenpaper';
 @import 'proof_of_space_competition';
 @import 'proof_of_time_contest';
 @import 'basic';
-
+@import 'doc_page';
 // components
 @import 'footer';
 @import 'navigation';
 @import 'video';
-@import 'email_box'
+@import 'email_box';
+@import 'icons';
+@import 'buttons';

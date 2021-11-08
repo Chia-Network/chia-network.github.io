@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title:  "Chia joins the Cryptocurrency Open Patent Alliance"
+title:  "Chia Joins the Cryptocurrency Open Patent Alliance"
 date:   2021-10-18
 author: "[Gene Hoffman](https://twitter.com/hoffmang)"
 ---

@@ -1,23 +1,69 @@
 {% assign strings = site.data.strings[page.lang] %}
 
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="d-flex justify-content-between py-5">
-                    <div class="contact-details">
-                        <a href="https://github.com/{{ site.data.contact.github_username }}" target="_blank" rel="noreferrer noopener"><img class="m-2" src="/img/social/github_light.svg" alt="GitHub Logo"></a>
-                        <a href="https://twitter.com/{{ site.data.contact.twitter_username }}" target="_blank" rel="noreferrer noopener"><img class="m-2" src="/img/social/twitter_light.svg" alt="Twitter Logo"></a>
-                        <a href="https://www.facebook.com/{{ site.data.contact.facebook_username }}" target="_blank" rel="noreferrer noopener"><img class="m-2" src="/img/social/facebook_light.svg" alt="Facebook Logo"></a>
-                        <a href="https://instagram.com/{{ site.data.contact.instagram_username }}" target="_blank" rel="noreferrer noopener"><img class="m-2" src="/img/social/instagram_light.svg" alt="Instagram Logo"></a>
-                        <a href="https://medium.com/@{{ site.data.contact.medium_username }}" target="_blank" rel="noreferrer noopener"><img class="m-2" src="/img/social/medium_light.svg" alt="Medium Logo"></a>
-                    </div>
-                    <div style="text-align: right">
-                        <img class="logo" src="/img/chia_logo.svg" alt="chia_logo">
-                        <div class="copyright">{{ strings.footer_copyright_year }} | <a href="/terms">Terms</a></div>
-                    </div>
+<footer class="site-footer" role="contentinfo">
+    <div class="col-12-container">
+        <div class="footer-content-container">
+            <div class="footer-logo">
+                <img src="/img/branding/chia-logo-white.svg" alt="Chia Network Logo">
+            </div>
+            <div class="footer-company-links">
+                <div class="footer-col">
+                    <h4>Approach</h4>
+                    <ul>
+                        <li><a href="/approach">White Paper</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Technology</h4>
+                    <ul>
+                        <li><a href="/greenpaper">Green Paper</a></li>
+                        <li><a href="/assets/Chia-New-Consensus-0.9.pdf">Consensus 1.1</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Developers</h4>
+                    <ul>
+                        <li><a href="/grants">Grants</a></li>
+                        <li><a href="https://chialisp.com" target="_blank">Chialisp</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/news">News</a></li>
+                        <li><a href="/careers">Careers</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col social-links">
+                    <ul>
+                        <li>
+                            <img class="chia-icon social-icon" src="/img/social/linkedin-white.svg" alt="LinkedIn">
+                            <a href="https://www.linkedin.com/company/{{ site.data.contact.linkedin_username }}" target="_blank" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+                        </li>
+                        <li>
+                            <img class="chia-icon social-icon" src="/img/social/github-white.svg" alt="Github">
+                            <a href="https://github.com/{{ site.data.contact.github_username }}" target="_blank" rel="noreferrer noopener">Github</a>
+                        </li>
+                        <li>
+                            <img class="chia-icon social-icon" src="/img/social/twitter-white.svg" alt="Twitter">
+                            <a href="https://twitter.com/{{ site.data.contact.twitter_username }}" target="_blank" rel="noreferrer noopener">Twitter</a>
+                        </li>
+                        <li>
+                            <img class="chia-icon social-icon" src="/img/social/facebook-white.svg" alt="Facebook">
+                            <a href="https://www.facebook.com/{{ site.data.contact.facebook_username }}" target="_blank" rel="noreferrer noopener">Facebook</a>
+                        </li>
+                        <li>
+                            <img class="chia-icon social-icon" src="/img/social/instagram-white.svg" alt="Facebook">
+                            <a href="https://instagram.com/{{ site.data.contact.instagram_username }}" target="_blank" rel="noreferrer noopener">Instagram</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+            <p><small>{{ strings.footer_copyright_year }} | <a href="/terms">Terms</a></small></p>
         </div>
     </div>
 </footer>

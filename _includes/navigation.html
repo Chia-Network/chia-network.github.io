@@ -5,72 +5,69 @@
 {% assign site_prefix = page.lang | prepend:"/" %}
 {% endif %}
 
-
-<nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand ml-xl-5 p-2" href="{{ site_prefix }}/"><img src="/img/chia_logo.svg" alt="Chia Logo"></a>
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <img class="menu-button" src="/img/menuBarIcon.svg" alt="Menu Bar">
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item{% if include.active == "download" %} active{% endif %}">
-                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/download">{{ strings.navigation.download }}</a>
-                <div class="highlight d-none d-lg-inline-block"></div>
+<header role="menubar" class="main-header">
+    <nav class="main-menu" role="navigation">
+        <div class="site-branding">
+            <a class="site-logo" href="{{ site_prefix }}/"><img src="/img/branding/chia-logo.svg" alt="Chia Network Logo"></a>
+        </div>
+        <ul class="site-nav main-menu-links" role="menu">
+            <li class="nav-item{% if include.active == "approach" %} active{% endif %}">
+                <a href="{{ site_prefix }}/approach">Approach</a>
+            </li>
+            <li class="nav-item{% if include.active == "technology" %} active{% endif %}">
+                <a href="{{ site_prefix }}/technology">Technology</a>
+            </li>
+            <li class="nav-item{% if include.active == "developers" %} active{% endif %}">
+                <a href="{{ site_prefix }}/developers">Developers</a>
             </li>
             <li class="nav-item{% if include.active == "blog" %} active{% endif %}">
-                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/blog">{{ strings.navigation.blog }}</a>
-                <div class="highlight d-none d-lg-inline-block"></div>
+                <a href="{{ site_prefix }}/blog">{{ strings.navigation.blog }}</a>
             </li>
             <li class="nav-item{% if include.active == "news" %} active{% endif %}">
-                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/news">{{ strings.navigation.news }}</a>
-                <div class="highlight d-none d-lg-inline-block"></div>
-            </li>
-            <li class="nav-item{% if include.active == "faq" %} active{% endif %}">
-                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/faq">{{ strings.navigation.faq }}</a>
-                <div class="highlight d-none d-lg-inline-block"></div>
-            </li>
-            <li class="nav-item{% if include.active == "greenpaper" %} active{% endif %}">
-                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/greenpaper">{{ strings.navigation.greenpaper }}</a>
-                <div class="highlight d-none d-lg-inline-block"></div>
+                <a href="{{ site_prefix }}/news">{{ strings.navigation.news }}</a>
             </li>
             <li class="nav-item{% if include.active == "about" %} active{% endif %}">
-                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/about">{{ strings.navigation.about }}</a>
-                <div class="highlight d-none d-lg-inline-block"></div>
+                <a href="{{ site_prefix }}/about">{{ strings.navigation.about }}</a>
             </li>
-            <li class="nav-item{% if include.active == "careers" %} active{% endif %}">
-                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/careers">{{ strings.navigation.careers }}</a>
-                <div class="highlight d-none d-lg-inline-block"></div>
-            </li>
-            <li class="nav-item{% if include.active == "contact" %} active{% endif %}">
-                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/contact">{{ strings.navigation.contact }}</a>
-                <div class="highlight d-none d-lg-inline-block"></div>
-            </li>
-            <li class="nav-item{% if include.active == "grants" %} active{% endif %}">
-                <a class="nav-link py-2 py-lg-4 px-2 px-xl-3" href="{{ site_prefix }}/grants">{{ strings.navigation.grants }}</a>
-                <div class="highlight d-none d-lg-inline-block"></div>
+            <li class="nav-item{% if include.active == "download" %} active{% endif %} main-menu-button">
+                <a href="{{ site_prefix }}/download">{{ strings.navigation.farm-chia }}</a>
             </li>
         </ul>
+        <a class="menu-icon toggle-menu" href="#">
+            <span class="line-1"></span>
+            <span class="line-2"></span>
+            <span class="line-3"></span>
+        </a>
+    </nav>
+</header>
 
-        <div class="nav-divider px-2 px-xl-5"><div></div></div>
+<script type="text/javascript">
+    $('.toggle-menu').click(function() {
+        $('.site-nav').slideToggle({
+            speed : 250
+        });
+        $(this).toggleClass('close');
+        return false;
+    });
+</script>
 
-        {% assign current_lang_prefix = '\n' | append:site_prefix | append:'/' %}
-        {% assign current_page_url = page.url | prepend:'\n' | remove:current_lang_prefix %}
-        <div class="dropdown d-none d-lg-block pr-xl-3">
-            {% assign page_lang = site.data.languages | where: "code", page.lang | first %}
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="languageMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ page_lang.name }}</a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageMenuLink">
-                {% for lang in site.data.languages %}<a class="dropdown-item" href="{{ lang.path }}/{{ current_page_url }}">{{ lang.name }}</a>{% endfor %}
-            </div>
-        </div>
-        <div class="dropup d-lg-none py-3">
-            {% assign page_lang = site.data.languages | where: "code", page.lang | first %}
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="languageMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ page_lang.name }}</a>
-            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="languageMenuLink">
-                {% for lang in site.data.languages %}<a class="dropdown-item" href="{{ lang.path }}/{{ current_page_url }}">{{ lang.name }}</a>{% endfor %}
-            </div>
-        </div>
-    </div>   
-</nav>
+{% comment %}
+<div class="nav-divider px-2 px-xl-5"><div></div></div>
 
+{% assign current_lang_prefix = '\n' | append:site_prefix | append:'/' %}
+{% assign current_page_url = page.url | prepend:'\n' | remove:current_lang_prefix %}
+<div class="dropdown d-none d-lg-block pr-xl-3">
+    {% assign page_lang = site.data.languages | where: "code", page.lang | first %}
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="languageMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ page_lang.name }}</a>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageMenuLink">
+        {% for lang in site.data.languages %}<a class="dropdown-item" href="{{ lang.path }}/{{ current_page_url }}">{{ lang.name }}</a>{% endfor %}
+    </div>
+</div>
+<div class="dropup d-lg-none py-3">
+    {% assign page_lang = site.data.languages | where: "code", page.lang | first %}
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="languageMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ page_lang.name }}</a>
+    <div class="dropdown-menu dropdown-menu-left" aria-labelledby="languageMenuLink">
+        {% for lang in site.data.languages %}<a class="dropdown-item" href="{{ lang.path }}/{{ current_page_url }}">{{ lang.name }}</a>{% endfor %}
+    </div>
+</div>
+{% endcomment %}

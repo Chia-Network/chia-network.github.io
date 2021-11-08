@@ -1,66 +1,20 @@
-.contact {
-    align-items: center;
-    color: #0C282A;
+/*--------------------------------------------------------------
+# Contact Links
+--------------------------------------------------------------*/
 
-    .details {
-        margin: 2rem 0 3rem 0 !important;
-        border-left: 1px solid #808080;
-
-        h2 {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        a {
-            color: inherit;
-        }
-
-        .contact-email {
+.contact-links {
+    @include reset-list;
+    border-top: 1px solid $gray;
+    margin-bottom: rem(32);
+    li {
+        border-bottom: 1px solid $gray;
+        margin: 0;
+        a, a:visited {
             display: block;
-            font-size: 24px;
-            margin-bottom: 1rem;
-        }
-
-        .details-box {
-            padding: 0.5rem 3rem;
-
-            .handle {
-                padding: 0.5rem 0;
-
-                img {
-                    width: 24px; margin-right: 0.2rem;
-                }
+            padding: rem(12) rem(8);
+            &:hover, &:active {
+                background-color: $pastel-green;
             }
         }
-
-        .email-box {
-            padding: 0;
-            background-color: transparent;
-
-            h2 {
-                margin-bottom: 0;
-            }
-        }
-
-        .join-keybase.btn {
-            margin-top: 2rem;
-            padding: 1rem;
-            max-width: 100%;
-            white-space: normal;
-            box-shadow: 0 2px 27px 0 rgba(0,0,0,0.09);
-            border: 3px solid #3AAC59;
-            border-radius: 3px;
-            color: #3AAC59;
-            font-size: 16px;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-    }
-
-    .keybase-live-feed iframe {
-        margin-top: 1rem;
-        width: 100%;
-        height: 40rem;
-        border: none;
     }
 }

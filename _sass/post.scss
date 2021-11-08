@@ -1,47 +1,36 @@
-.blog-post {
-    .title {
-        margin-top: 3rem;
-        margin-bottom: 2rem;
-        color: #808080;
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
 
-        h1 {
-            color: #292A2A;
-            font-weight: bold;
-            font-size: 50px;
-        }
-
-        .author {
-            line-height: 22px;
-            font-size: 16px;
-
-            p { display: inline; }
-            a { color: inherit; text-decoration: underline; }
-        }
-
-        .date {
-            line-height: 22px;
-            font-size: 16px;
+.article-header {
+    border-bottom: rem(4) solid $gray;
+    margin-bottom: rem(36);
+    padding-bottom: rem(24);
+    p {
+        display: inline;
+        margin: 0;
+    }
+    .date {
+        @include typeset($responsive-body-font-size, $responsive-body-line-height);
+        @include breakpoint(768) {
+            @include typeset($body-font-size, $body-line-height);
         }
     }
+}
 
-    .content {
-        line-height: 26px;
-        font-size: 18px;
-        margin-bottom: 100px;
-        color: #505050;
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
 
-        p { margin-bottom: 1.5rem; }
-
-        blockquote {
-            font-weight: bold;
-            line-height: 37px;
-            font-size: 28px;
-            color: #292A2A;
-            border-left: 1px solid #3AAC59;
-            padding: 10px 20px;
-            margin-left: 20px;
-
-            p { margin: 0; }
-        }
+.article-content {
+    img {
+        margin: rem(24) 0;
+    }
+    h2 + h3,
+    p + h1,
+    p + h2,
+    p + h3,
+    p + h4 {
+        margin-top: rem(36);
     }
 }

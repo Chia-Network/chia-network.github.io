@@ -44,7 +44,7 @@ en: # English
     Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.
   download_windows_button: "Windows"
   download_macosintel_button: "macOS Intel"
-  download_macosm1_button: "macOS M1"
+  download_macosm1_button: "macOS Apple Silicon"
   download_debian_button: "Ubuntu/Debian"
   download_debianarm_button: "Ubuntu/Debian ARM"
   download_centosfedora_button: "CentOS/Redhat"
@@ -52,14 +52,12 @@ en: # English
   download_amzlinux_button: "Install Amazon Linux"
   about_title: "About Us"
   about_description: |
-    Founded by Bram Cohen, the inventor of the BitTorrent network, Chia Network is building a better blockchain and smart transaction platform which is more decentralized, more efficient, and more secure.
-
-    Chialisp is Chia’s new smart transaction programming language that is powerful, easy to audit, and secure. The blockchain is powered by the first new Nakamoto style consensus algorithm since Bitcoin launched in 2008. Proofs of Space and Time replace energy intensive “proofs of work” by utilizing unused disk space.
-
-    Chia Network supports the development and deployment of the Chia blockchain globally. Chia Network supports chia developers and supports the enterprise use of chia with software support and chia lending.
+    Chia Network is building a better blockchain and smart transaction platform which is more secure, more sustainable, and more powerful.
+  
+    Support is also provided for Chia developers and the enterprise use of Chia through professional services and chia lending.
   about_team_title: "Team"
   about_team_description: |
-    Chia Network was founded by the creator of BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). It also includes executive leadership from the former founder and CEO of eMusic.com and Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/) and the former acting-CEO of Overstock.com, [Mitch Edwards](https://www.linkedin.com/in/mitchelledwards/). The Chia blockchain has an active open source developer community with many contributions to the codebase. Many individuals contribute towards the Chia blockchain in areas which include research, peer reviews, development, testing, documentation, and translation.
+    Chia Network was founded by the creator of BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). It also includes executive leadership from the former founder and CEO of eMusic.com and Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/). The Chia blockchain has an active open source developer community with many contributions to the codebase. Many individuals contribute towards the Chia blockchain in areas which include research, peer reviews, development, testing, documentation, and translation.
   about_invest_investors_title: "Our Investors"
   about_legal_title: "Legal"
   about_legal_copyright:  "Chia's Copyright Policy"
@@ -73,7 +71,7 @@ en: # English
 
     Many on the Chia team are located in the SF Bay Area but remote is fine as we have people all over the world - Keybase, GitHub, and Zoom are how we work. Geographic restrictions, if any, will be noted in a job specification.
 
-    Please send your resume and cover letter to [jobs@chia.net](mailto:jobs@chia.net). Please put the role you are applying for as part of the subject line and include anything additionally required by a specific job posting.
+    Please send your resume and cover letter to <a href="mailto:jobs@chia.net" target="_blank">jobs@chia.net</a>. Please put the role you are applying for as part of the subject line and include anything additionally required by a specific job posting.
   blog_title: "Notes from Chia"
   download_title: "Release Notes"
   download_loading_message: "Loading releases..."
@@ -94,7 +92,7 @@ en: # English
 
     When you are authorized to use the Chia® brand and respect the Chia® brand guidelines, you help us ensure the strength of the brand, while protecting the entire community from being misled, confused or mistreated.
 
-    Please read over the following guidelines carefully, and never hesitate to reach out with questions or permission requests at [hello@chia.net](mailto:hello@chia.net).
+    Please read over the following guidelines carefully, and never hesitate to reach out with questions or permission requests at <a href='mailto:hello@chia.net' target='_blank'>hello@chia.net</a>.
 
     Happy Farming!
   terms_team_title: "Guidelines"
@@ -104,7 +102,7 @@ en: # English
     * [Chia Trademark Policy](/assets/legal/Chia-Trademark-Policy.pdf)
   footer_copyright_year: "© Chia Network 2021"
   navigation:
-    download: "Download"
+    farm-chia: "Farm Chia"
     about: "About"
     blog: "Blog"
     news: "News"
@@ -125,7 +123,7 @@ en: # English
   grants_why_2: "To that end, in an effort to further support high-potential projects and teams, Chia Networks is excited to announce the launch of the Chia Cultivation Grant program!"
   grants_who: "People or teams who have caught the eye of Chia’s senior leadership and present a compelling proposal as to why they feel their vision, talent, and expertise are uniquely positioned to add material value to the community are provided modest financial support via grants. "
   grants_who_2: "Chia Networks is committed to helping those teams realize their vision and highlighting the potential value Chia feels they bring to the ecosystem with promotional assets and support."
-  grants_when: "In the coming weeks, we will add further information on the program to this page. We will provide full details of the program, as well as profile current recipients of Grants and more. Until then, watch this space for more updates, and if you have a team with a project vision you think would be a potential candidate for a Grant, you can reach out to us at [cultivation@chia.net](mailto:cultivation@chia.net)."
+  grants_when: "In the coming weeks, we will add further information on the program to this page. We will provide full details of the program, as well as profile current recipients of Grants and more. Until then, watch this space for more updates, and if you have a team with a project vision you think would be a potential candidate for a Grant, you can reach out to us at <a href='mailto:cultivation@chia.net' target='_blank'>cultivation@chia.net</a>."
   grants_disclaimer: "Please note at this time, due to the potential volume of applications and interest, we cannot guarantee we will be able to individually follow up with all applicants, and will be prioritizing those who present a fully fleshed out in-depth proposal that incorporates not only a solid idea, but milestones, fiscal and resource budgets, team information, etc."
   grants_faq_title: "FAQ"
   proof_of_space_competition_header: "Win $100K in total prize money with Chia's Proof of Space Competition."

@@ -35,4 +35,4 @@ Chia Network Inc. allows for flexible work hours and remote work for this positi
 
 **Application Process**
 
-Send your CV/resume along with your [Keybase](https://keybase.io) name (if available) to jobs@chia.net
+Send your CV/resume along with your [Keybase](https://keybase.io) name (if available) to <a href="mailto:jobs@chia.net" target="_none">jobs@chia.net</a>.

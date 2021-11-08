@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title:  "A T-shirt contest for Space Farmers"
+title:  "A T-shirt Contest for Space Farmers"
 date:   2020-07-31
 author: "[Gene Hoffman](https://twitter.com/hoffmang)"
 ---

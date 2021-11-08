@@ -1,70 +1,172 @@
-.download-page {
-    padding-bottom: 3rem;
-    
-    .dl-sect {
-        margin-top: 25px;
-        .row {
-            margin-top: 25px;
-        }
-        .center {
-            display: flex;
-            align-items: center;
-        }
-        
-    }
-    
-    .row {
-        p {
-            padding-top: 10px;
-        }
-    }
+/*--------------------------------------------------------------
+# Download Options
+--------------------------------------------------------------*/
 
-    .release {
-        font-size: 1.3rem;
-        padding: 0.5rem 0;
+.download-options {
+    padding-bottom: rem(24);
+    padding-top: rem(24);
+}
 
-        a {
-            color: #0C282A;
-            font-weight: bold;
-        }
-    }
-    
-    .btn {
-        background: #3AAC59;
-        color: white;
-        border-radius: 2px;
-        font-weight: bold;
-        font-size: 16px;
-        padding: .75em;
-        width: 80%;
-        margin: auto;
+/*--------------------------------------------------------------
+# Download Option
+--------------------------------------------------------------*/
 
-        img {
-            margin-bottom: 3px;
-            margin-right: 0.5rem;
-            height: 24px;
-        }
+.download-option {
+    @include clearfix;
+    border-bottom: 1px solid $gray;
+    margin-bottom: rem(24);
+    padding-bottom: rem(24);
+    h6 {
+        margin-bottom: rem(4);
+        margin-top: 0;
     }
-    
-    .pgp, .sha256 {
+    span {
         word-wrap: break-word;
-        color: #39ac58;
-            
-        img {
-            margin-bottom: 3px;
-            margin-right: 0.5rem;
-            height: 24px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Download Option Details
+--------------------------------------------------------------*/
+
+.download-option-details {
+    float: left;
+}
+
+/*--------------------------------------------------------------
+# Download Option Button
+--------------------------------------------------------------*/
+
+.download-option-button {
+    margin-bottom: rem(24);
+    width: 100%;
+    @include breakpoint(900) {
+        margin-bottom: 0;
+        margin-right: $col-gutter-width / $col-8-width * 100%;
+        width: $col-2-width / $col-8-width * 100%;
+    }
+}
+
+/*--------------------------------------------------------------
+# Download Option Version
+--------------------------------------------------------------*/
+
+.download-option-ver {
+    margin-bottom: rem(24);
+    @include breakpoint(576) {
+        margin-bottom: 0;
+        width: 50%;
+    }
+    @include breakpoint(900) {
+        margin-right: $col-gutter-width / $col-8-width * 100%;
+        padding-left: $col-gutter-width / $col-8-width * 100%;
+        width: $col-3-width / $col-8-width * 100%;
+    }
+}
+
+/*--------------------------------------------------------------
+# Download Option Checksum
+--------------------------------------------------------------*/
+
+.download-option-check {
+    width: 100%;
+    @include breakpoint(576) {
+        width: 50%;
+    }
+    @include breakpoint(900) {
+        width: $col-3-width / $col-8-width * 100%;
+    }
+}
+
+/*--------------------------------------------------------------
+# Verify Checksum
+--------------------------------------------------------------*/
+
+.verify-check {
+    border-bottom: none;
+    .chia-cta {
+        margin: 0;
+        @include breakpoint(576) {
+            float: right;
+            width: 50%;
+        }
+        @include breakpoint(900) {
+            width: $col-3-width / $col-8-width * 100%;
         }
     }
-    
-    .sha256-title {
-    }
-    
-    .dl-box-text {
-        
-    }
-    
-    .center {
+}
 
+/*--------------------------------------------------------------
+# Download Extras
+--------------------------------------------------------------*/
+
+.download-extras {
+    @include breakpoint(900) {
+        display: grid;
+        gap: rem(24) rem(24);
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+/*--------------------------------------------------------------
+# Download Extra Option
+--------------------------------------------------------------*/
+
+.download-extra-option {
+    border-radius: rem(8);
+    margin-bottom: rem(24);
+    padding: rem(24) 24 / 586 * 100% rem(24);
+    &:nth-child(2) {
+        margin-bottom: 0;
+    }
+    li {
+        margin-bottom: rem(4);
+    }
+    @include breakpoint(460) {
+        padding: 32 / $col-4-width * 100%;
+    }
+    @include breakpoint(900) {
+        margin-bottom: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# Release Notes Options
+--------------------------------------------------------------*/
+
+.release-notes-options {
+    h2 {
+        text-align: center;
+    }
+}
+
+/*--------------------------------------------------------------
+# Release Notes Grid
+--------------------------------------------------------------*/
+
+.release-notes-grid {
+    @include breakpoint(576) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: rem(24) rem(24);
+    }
+}
+
+/*--------------------------------------------------------------
+# Release
+--------------------------------------------------------------*/
+
+.release {
+    border: 1px solid $gray;
+    border-radius: rem(8);
+    margin-bottom: rem(24);
+    padding: rem(16) 24 / 464 * 100%;
+    .release-date {
+        @include typeset($small-font-size, $small-line-height);
+    }
+    @include breakpoint(576) {
+        margin-bottom: 0;
     }
 }

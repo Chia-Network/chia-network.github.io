@@ -1,0 +1,106 @@
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+
+// Grid Width
+@mixin grid-width($size) {
+	max-width: rem($size);
+}
+
+// Responsive Breakpoint
+@mixin breakpoint($size) {
+	@media only screen and (min-width: em($size)) {
+		@content
+	}
+}
+
+// Responsive Breakpoints
+@mixin breakpoints($width, $height) {
+	@media only screen and (min-width: em($width)) and (min-height: em($height)) {
+		@content
+	}
+}
+
+// Clearfix
+@mixin clearfix {
+	&::after {
+		clear: both;
+		content: "";
+		display: block;
+		height: 0;
+		visibility: hidden;
+	}
+}
+
+// Center Block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+// Reset List
+@mixin reset-list {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+// Font Setting
+@mixin font-setting($family, $style, $weight) {
+	font-family: $family;
+	font-style: $style;
+	font-weight: $weight;
+}
+
+// Typset
+@mixin typeset($size, $leading) {
+	font-size: px($size);
+	font-size: rem($size);
+	line-height: leading($leading, $size);
+}
+
+/*--------------------------------------------------------------
+# Miscellaneous
+--------------------------------------------------------------*/
+
+// Screen Reader
+@mixin screen-reader {
+	left: -(em(9999));
+	position: absolute;
+	top: -(em(9999));
+}
+
+// Hide Element
+@mixin hide-element {
+	display: none;
+}
+
+// Truncate Text
+@mixin truncate-text {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+}
+
+// Truncate Text Scroll
+@mixin truncate-text-scroll {
+	display: block;
+	overflow: scroll;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+}
+
+// Appearance
+@mixin appearance($target) {
+	-webkit-appearance: $target;
+	   -moz-appearance: $target;
+		 -o-appearance: $target;
+}

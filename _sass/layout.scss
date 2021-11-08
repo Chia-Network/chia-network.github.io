@@ -1,0 +1,179 @@
+/*--------------------------------------------------------------
+# Background Colors
+--------------------------------------------------------------*/
+
+.light-bg {
+	background-color: $pastel-green;
+	padding: rem(24) 0;
+	@include breakpoint(992) {
+		padding: rem(88) rem(24);
+	}
+}
+
+.white-bg {
+	background-color: $white;
+}
+
+/*--------------------------------------------------------------
+# Column Containers
+--------------------------------------------------------------*/
+
+.col-4-container {
+	@include center-block;
+	@include grid-width($col-4-width);
+}
+
+.col-6-container {
+	@include center-block;
+	@include grid-width($col-6-width);
+}
+
+.col-8-container {
+	@include center-block;
+	@include grid-width($col-8-width);
+}
+
+.col-10-container {
+	@include center-block;
+	@include grid-width($col-10-width);
+}
+
+.col-12-container {
+	@include center-block;
+	@include grid-width($col-12-width);
+}
+
+/*--------------------------------------------------------------
+# Layout Helpers
+--------------------------------------------------------------*/
+
+.content-padding {
+	padding: rem(24) 3.125%;
+	@include breakpoint(992) {
+		padding: rem(88) rem(24);
+	}
+}
+
+.clear:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/*--------------------------------------------------------------
+# Soft Shadow
+--------------------------------------------------------------*/
+
+.soft-shadow {
+	box-shadow: rem(8) rem(8) rem(48) rem(24) rgba(162, 162, 162, 0.1);
+}
+
+/*--------------------------------------------------------------
+# Page Title
+--------------------------------------------------------------*/
+
+.pg-title {
+	background: linear-gradient(to right bottom, $chia-green, $bright-green);
+	color: $white;
+	padding: rem(24) 24 / 1440 * 100%;
+	text-align: center;
+	h1 {
+		margin-bottom: 0;
+	}
+	@include breakpoint(992) {
+		padding: rem(48) 24 / 1440 * 100%;
+	}
+}
+
+/*--------------------------------------------------------------
+# Full Width Column
+--------------------------------------------------------------*/
+
+.full-width-col {
+	margin-bottom: rem(36);
+	p {
+		&:nth-of-type(1) {
+			@include typeset($resonsive-lrg-font-size, $responsive-lrg-line-height);
+			@include breakpoint(768) {
+				@include typeset($lrg-font-size, $lrg-line-height);
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+# Two Column Text
+--------------------------------------------------------------*/
+
+.two-col-txt {
+	@include clearfix;
+	@include breakpoint(768) {
+		.two-col {
+			width: $col-4-width / $col-8-width * 100%;
+		}
+		.txt-col-left {
+			float: left;
+		}
+		.txt-col-right {
+			float: right;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+# Featured Content
+--------------------------------------------------------------*/
+
+.featured-content {
+	display: flex;
+	flex-direction: column;
+	@include breakpoint(768) {
+		flex-direction: row;
+	}
+}
+
+.featured-content-txt-container {
+	background-color: $white;
+	@include breakpoint(768) {
+		width: 732 / $col-10-width * 100%;
+	}
+}
+
+.featured-content-txt {
+	padding: rem(24);
+	.button {
+		margin-top: rem(24);
+	}
+	@include breakpoint(1080) {
+		padding: rem(60);
+	}
+	@include breakpoint(1298) {
+		padding: rem(60) rem(122) rem(60) rem(146);
+	}
+}
+
+.featured-content-img {
+	display: none;
+	@include breakpoint(768) {
+		display: block;
+		width: $col-4-width / $col-10-width * 100%;
+	}
+}
+
+/*--------------------------------------------------------------
+# Featured Section
+--------------------------------------------------------------*/
+
+.featured-section {
+	h2 {
+		background-image: url(/img/bg/heading-decoration_@2x.png);
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		background-size: rem(180) auto;
+		margin-bottom: rem(60);
+		padding-bottom: rem(24);
+		text-align: center;
+	}
+}
