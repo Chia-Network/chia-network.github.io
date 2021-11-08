@@ -10,18 +10,9 @@
     color: $white;
 }
 
-<<<<<<< HEAD
-        .menu-button {
-            margin: auto;
-            height: 30px;
-            width: 30px;
-        }
-
-=======
 /*--------------------------------------------------------------
 # Superhero Background Container
 --------------------------------------------------------------*/
->>>>>>> 69f4cde21ed068c798970fde6691a3ca8084289e
 
 .superhero-bg-container {
     background-image: url(/img/bg/superhero-asbstract-pattern_@2x.png);
@@ -69,7 +60,7 @@
 .superhero-content {
     @include grid-width($col-5-width);
     @include breakpoint(992) {
-        
+
     }
 }
 
