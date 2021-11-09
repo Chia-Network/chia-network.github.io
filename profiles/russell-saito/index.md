@@ -6,7 +6,7 @@ pic_url: "/img/headshots/russell-saito_@2x.png"
 person-name: Russell Saito
 position: VP of Business Development
 twitter_username: blank
-linkedin_username: blank
+linkedin_username: russellsaito
 ---
 
 Russell leads Chia Network's initiatives in Japan, and is a multi-cultural business executive with 15+ years of professional experience in Asia. As an expert in financial technology and corporate innovation, he also serves as an outside advisor to Nikkei Inc., Japan's largest Business Newspaper. Before joining Chia, he was Vice-President at Trust Capital (formerly Mitsui Sumitomo Trust Capital), one of the leading mezzanine financing fund in Japan. Russell has held leadership positions with global technology corporations, and has extensive cross-sector experience working with governments and nonprofits.
