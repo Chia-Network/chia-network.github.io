@@ -5,7 +5,7 @@ title: Jonmichael Hands - Chia Network
 pic_url: "/img/headshots/jonmichael-hands_@2x.png"
 person-name: Jonmichael Hands
 position: VP Storage Business Development
-twitter_username: blank
+twitter_username: LebanonJon
 linkedin_username: blank
 ---
 
