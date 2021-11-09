@@ -5,7 +5,7 @@ title: Bram Cohen - Chia Network
 pic_url: "/img/headshots/bram-cohen_@2x.jpg"
 person-name: Bram Cohen
 position: Director, Chairman, Chief Executive Officer and Founder
-twitter_username: blank
+twitter_username: bramcohen
 linkedin_username: blank
 ---
 

@@ -138,8 +138,6 @@ GEM
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-paginate (1.1.0)
-    jekyll-pdf-embed (1.1.2.1)
-      jekyll
     jekyll-readme-index (0.3.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-redirect-from (0.16.0)
@@ -271,7 +269,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-pdf-embed
   jekyll-redirect-from
   webrick (~> 1.7)
 
