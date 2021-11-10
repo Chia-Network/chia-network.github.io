@@ -16,7 +16,7 @@ See you guys on Friday 5/28!
   
 **Chia Livestream: Securing Your Chia - How to Be a Hard Target**  
 When: Friday, May 28th 12:00pm PST (7:00pm UTC)  
-Where: [Zoom](https://chia-net.zoom.us/j/87579815863) or [Youtube](https://www.youtube.com/channel/UChFkJ3OAUvnHZdiQISWdWPA)  
+Livestream Recording: [Youtube](https://www.youtube.com/watch?v=n0P9FO1DafM)
   
   
 ---
