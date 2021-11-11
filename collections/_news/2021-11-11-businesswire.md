@@ -6,4 +6,3 @@ thumbnail: "/assets/businesswire.png"
 source: businesswire.com
 jumbotron: false
 ---
-Blockchain firms are building ‘public-good layer’ for climate. Chia Network among crypto startups developing prototypes.
