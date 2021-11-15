@@ -116,7 +116,7 @@ I made a conservative model for e-waste in Chia, using the full weight of the SS
 
 |Cryptocurrency|Bitcoin|Chia|
 |:---:|:---:|:---:|
-|e-waste metric Kilotons||30.7 [2]||0.0015 [7]|
+|e-waste metric Kilotons|30.7 [2]|0.0015 [7]|
 
 <br />
 
