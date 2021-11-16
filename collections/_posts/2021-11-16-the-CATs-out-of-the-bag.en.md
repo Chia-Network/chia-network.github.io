@@ -3,10 +3,7 @@ lang: en
 layout: post
 title: "The CAT's Out Of The Bag: Chia Releases the CAT1 Standard"
 date: 2021-11-15
-author: 
-- "[Matt Howard](https://github.com/matt-o-how)"
-- "[Matt Hauff](https://github.com/quexington)"
-- "[Dan Perry](https://github.com/danieljperry)"
+author: "[Matt Howard](https://github.com/matt-o-how), [Matt Hauff](https://github.com/quexington), and [Dan Perry](https://github.com/danieljperry)"
 ---
 
 <p align="center"><img src="/assets/blog/cats.jpg" alt="Chia Pets" width="75%"></p>
@@ -74,7 +71,8 @@ You -- and only you -- have access to your own CATs.
 * For more non-technical details, check out our [FAQs](https://chialisp.com/docs/faq "Feline Asked Questions (FAQs)").
 * Bram has put together a [glossary of CAT1 terms](https://www.chia.net/2021/09/23/chia-token-standard-naming.en.html "Chia Token Standard Naming") on our blog.
 * For a technical deep-dive into how CATs and TAILs work, check out our [CAT1 Standard](https://chialisp.com/docs/puzzles/cats "CAT1 Standard Documentation").
-* And we have a tutorial to help you create your own CATs, for users of [Windows](https://chialisp.com/docs/tutorials/CAT_Launch_Process_Windows "Cat creation tutorial for Windows users") and [Linux/MacOs](https://chialisp.com/docs/tutorials/CAT_Launch_Process_Linux_MacOS "Cat creation tutorial for Windows users").
+* We have a tutorial to help you create your own CATs, for users of [Windows](https://chialisp.com/docs/tutorials/CAT_Launch_Process_Windows "Cat creation tutorial for Windows users") and [Linux/MacOs](https://chialisp.com/docs/tutorials/CAT_Launch_Process_Linux_MacOS "Cat creation tutorial for Windows users").
+* And we have video tutorials on creating [single issuance CATs](https://chialisp.com/docs/tutorials/single_issuance_CAT) and [multiple issuance CATs](https://chialisp.com/docs/tutorials/multiple_issuance_CAT).
 
 If you have questions about CATs, head over to the #chialisp channel on our [Keybase](https://keybase.io/team/chia_network.public "Chia's Keybase forum") forum.
 
