@@ -43,7 +43,7 @@ A few use cases for CATS are:
 
 ## What distinguishes one CAT from another?
 
-All CATs share the same [base code](https://github.com/Chia-Network/chia-blockchain/blob/main/chia/wallet/puzzles/cat.clvm "cat.clvm -- the Chialisp puzzle that all CATs share"), written in Chialisp. However, they are bound by different rules of issuance, which are created in a second Chialisp program that follows a specific structure.
+All CATs share the same [base code](https://github.com/Chia-Network/chia-blockchain/blob/protocol_and_cats_rebased/chia/wallet/puzzles/cat.clvm "cat.clvm -- the Chialisp puzzle that all CATs share"), written in Chialisp. However, they are bound by different rules of issuance, which are created in a second Chialisp program that follows a specific structure.
 
 We call this issuance program the -- wait for it -- **T**oken and **A**sset **I**ssuance **L**imiter. Yes, it's a **TAIL**.
 
