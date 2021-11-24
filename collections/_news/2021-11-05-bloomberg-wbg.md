@@ -1,7 +1,7 @@
 ---
 title:  "World Bank Program Looks to Blockchain to Solve Carbon Emissions Data Issues"
 weblink: "https://www.bloomberg.com/news/articles/2021-11-05/world-bank-group-looks-to-blockchain-to-solve-carbon-data-issues"
-date:   2021-11-05 05:43:00
+date:   2021-11-06 04:00:33
 thumbnail: "/assets/news-bloomberg.png"
 source: bloomberg.com
 jumbotron: false
