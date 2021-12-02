@@ -4,7 +4,7 @@ lang: en
 title: Neil Cohn - Chia Network
 pic_url: "/img/headshots/neil-cohn_@2x.png"
 person-name: Neil Cohn
-position: VP of Markets and Sustainability
+position: Global Head of Markets and Sustainability
 twitter_username: blank
 linkedin_username: neilcohn
 ---
