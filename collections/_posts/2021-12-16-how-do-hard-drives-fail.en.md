@@ -80,7 +80,7 @@ C:\Program Files\smartmontools\bin> .\smartctl.exe -a /dev/sda
 
 On Mac
 ```
-brew install smartmontools'
+brew install smartmontools
 ```
 
 To see the full logs, you can run a -x as well. If you want a deep dive on running smartctl and setting up smartd to monitor drives in the background, check out the video I did here.
