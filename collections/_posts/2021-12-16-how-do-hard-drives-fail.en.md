@@ -5,6 +5,9 @@ title: "How do hard drives fail?"
 date: 2021-12-16
 author: "[Jonmichael Hands](https://twitter.com/lebanonjon)"
 ---
+<p align="center">
+<img src="/assets/blog/hdd_black.jpg" alt="HDD" width="75%">
+</p>
 
 ### Summary / TL:DR
 HDDs (hard disk drives) have moving parts and are subject to failure from mechanical wear and tear through regular use, and external environmental factors like temperature. Use SMART to monitor the drive’s health to look for uncorrectable errors and reallocated sectors for indications of predictive failure.
