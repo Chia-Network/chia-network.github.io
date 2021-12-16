@@ -3,7 +3,7 @@ lang: en
 layout: post
 title: "How do hard drives fail?"
 date: 2021-12-16
-author: "[JM Hands](https://twitter.com/lebanonjon)"
+author: "[Jonmichael Hands](https://twitter.com/lebanonjon)"
 ---
 
 ### Summary / TL:DR
@@ -12,15 +12,15 @@ HDDs (hard disk drives) have moving parts and are subject to failure from mechan
 When new interns came into our group at Intel over the years, I would grab a whiteboard and explain to them some basic concepts of how SSDs work, the difference between bandwidth and latency with some fancy analogies, and always end with an overview of RAID and storage durability. Keeping user data safe is job one when developing products that store user data. There are always arguments about which layer of the storage system hierarchy to put redundancy in, but whatever the method, there is always overhead for data protection. For storage veterans learning Chia this can be jarring at first. Chia does not store any user data... all the plot files are fungible and the farming workload is extremely light compared to a typical consumer or enterprise workload. In a series of posts, I will explain why Chia has such a unique storage workload that will inevitably lead to increased second use and circularity for storage. I hypothesize that even older drives with a few errors are perfectly suitable for farming Chia, even if ineligible for critical data storage. Understanding how storage devices report errors and perform self-monitoring is fundamental and, unfortunately, generally not well understood. Today I’m going to start with the bread and butter for Chia farming - hard drives.
 ### Hard Drives fail very differently than SSDs
 
-Hard drives and [SSDs fai](https://youtu.be/ISK9U1FP1j0)l in very different ways. SSDs are much more likely to fail due to firmware versus hardware issues. My background is in SSDs, and we spent a lot of time arguing that because HDDs have moving parts - they are intrinsically less reliable. This is true, and actually the root of how HDDs fail, but I think what is less understood is WHY these mechanical failures happen and what users can do to ensure the longevity of their HDD. Modern HDDs are made up of the physical disk, with high capacity HDDs using up to 9 platters in 16, 18, and 20TB models. An actuator is tied to the magnet assembly that hosts the heads that perform the read and write operations. When the heads are not in use, they are “parked” in a load/unload event. All these tiny operations over many years increase the chance of small particles being released internally to the drive, which is generally sealed with air or helium gas. When these particles are loose in the drive, there is a chance a head bumps into one while doing a read or write that will cause tiny damage to the platter, which the HDD firmware will now have to reallocate that data to somewhere else safe on the disk. This event is called a “reallocated sector,” and we will explore how to view these in SMART. A few of these are fine, and the disk can recover, but too many or reallocated sectors that are rapidly increasing is a good indication that a disk will fail.
+Hard drives and [SSDs fail](https://youtu.be/ISK9U1FP1j0) in very different ways. SSDs are much more likely to fail due to firmware versus hardware issues. My background is in SSDs, and we spent a lot of time arguing that because HDDs have moving parts - they are intrinsically less reliable. This is true, and actually the root of how HDDs fail, but I think what is less understood is WHY these mechanical failures happen and what users can do to ensure the longevity of their HDD. Modern HDDs are made up of the physical disk, with high capacity HDDs using up to 9 platters in 16, 18, and 20TB models. An actuator is tied to the magnet assembly that hosts the heads that perform the read and write operations. When the heads are not in use, they are “parked” in a load/unload event. All these tiny operations over many years increase the chance of small particles being released internally to the drive, which is generally sealed with air or helium gas. When these particles are loose in the drive, there is a chance a head bumps into one while doing a read or write that will cause tiny damage to the platter, which the HDD firmware will now have to reallocate that data to somewhere else safe on the disk. This event is called a “reallocated sector,” and we will explore how to view these in SMART. A few of these are fine, and the disk can recover, but too many or reallocated sectors that are rapidly increasing is a good indication that a disk will fail.
 ### A quick note on how reliability is measured
 Quality and reliability are different metrics. Quality is the goal of reducing time zero failures. Some lower-end drive models are tested as robustly as high-end drive models in the factory prior to shipping, although they may have a higher chance of being DOA (dead on arrival). These are not to be confused with reliability issues, which are caused by extended use of the device. Enterprise HDDs are rated at 2M or 2.5M hours MTBF (Mean Time Between Failure), which equates to 0.44% and 0.35% AFR (Annual Failure Rate), respectively. MTBF and AFR are the same metrics expressed in different ways. Mean Time Between Failure is the total amount of drive hours before a failure is expected. This does not mean a single drive can last for 2 million hours; it means if you have a collection of drives running, you should expect one failure every 2M total drive power-on hours (the sum of all the drives). Annual Failure Rate is expressing that the individual drive has a 0.44% chance every year to fail, based on the data from a large population of drives. [Backblaze blog](https://www.backblaze.com/blog/backblaze-drive-stats-for-q3-2021/) has some nice measured info on a few different drive models, which is just one case study for HDD reliability in the field, and they show the [SMART attributes they monitor](https://www.backblaze.com/blog/what-smart-stats-indicate-hard-drive-failures/), which I found to be close to what I heard recommended from the manufacturers themselves.
 ### HDDs are SMART!
 Self-Monitoring, Analysis, and Reporting Technology (SMART) feature set is defined in SATA, in the ATA Command Set specification. SMART is the way the drive has of telling the host system the status of the drive. The goal is to protect user data and minimize the amount of downtime by monitoring the device (SSD or HDD) for predictive failure and degradation. SMART and accompanying device statistics logs are a way for the drive to maintain a record of the state of the drive, the temperature, errors, and much more!
 ### Drives have moving parts
-Because HDDs have moving parts, they are subject to higher impact from the physical environment which can include temperature, humidity, and external vibration. The internal parts are rated for a certain amount of movement in their lifetime. If these are exceeded, it is not a guarantee that there are failures, but statistically increases the likelihood. 
+Because HDDs have moving parts, they are subject to higher impact from the physical environment which can include temperature, humidity, and external vibration. The internal parts are rated for a certain amount of movement in their lifetime. If these are exceeded, it is not a guarantee that there are failures, but statistically increases the likelihood.
 
-#### Temperature 
+#### Temperature
 If you have seen a hard drive, you will know the disks are housed in a large enclosure with a top plate to keep the critical components, like the disks, isolated from the outside world. This also means that HDDs conduct heat extremely well and require airflow to keep them cool when operating. People spend their entire careers in device thermals, but I’ll try to summarize my recommendations here without offending anyone. A device manufacturer will often just say it is ok to run the drive up to the rated temperature on the specification sheet, which is the temperature at which quality and reliability are tested, but the truth is keeping the drive cool will increase the longevity.
 
 | Temp Range | Description |
@@ -73,8 +73,7 @@ sudo smartctl -a /dev/sda
 In [Windows](https://sourceforge.net/projects/smartmontools/files/smartmontools/)
 ```C:\Program Files\smartmontools\bin> .\smartctl.exe -a /dev/sda```
 
-
-On Mac brew install smartmontools
+On Mac 'brew install smartmontools'
 
 To see the full logs, you can run a -x as well. If you want a deep dive on running smartctl and setting up smartd to monitor drives in the background, check out the video I did here.
 [Chia farming - How Hard Drives fail!](https://youtu.be/SN6REW1VuPc)
@@ -95,13 +94,11 @@ Read Errors Corrected by ReReads/ReWrites
 Read Total Uncorrected Errors
 Write Errors Corrected by ReReads/ReWrites
 Write Total Uncorrected Errors
-
 ```
 ### NVMe SSDs (not the focus of this article)
 If you are looking to monitor SMART on NVMe, I have written extensively about this topic as well! I was part of the NVM Express organization and we worked very hard to standardize as much of the SMART as possible so that all vendors report it in the same format.
-[https://nvmexpress.org/open-source-nvme-management-utility-nvme-command-line-interface-nvme-cli/](https://nvmexpress.org/open-source-nvme-management-utility-nvme-command-line-interface-nvme-cli/)
+[NVMe CLI](https://nvmexpress.org/open-source-nvme-management-utility-nvme-command-line-interface-nvme-cli/)
 [Reading NVMe SMART in Windows and Linux](https://youtu.be/HTFWWPWRX6A)
 
 ### Summary
 Anyone who is seriously farming in Chia will have come across some questionable drives on eBay or Craigslist, and encountered a drive failure or had to return a drive to a manufacturer. I like that smartmontools (smartctl) has made it reasonably easy to run a single command on Linux, Windows, or Mac and get a parsed version of the SMART logs across different storage interfaces, and I’m hoping everyone gets very familiar with monitoring SMART on hard drives.
-
