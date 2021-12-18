@@ -30,5 +30,6 @@ We are seeking a Chinese Technical Community Manager, who will foster an invitin
 
 Chia Network Inc. allows for flexible work hours and remote work for this position. Core hours should match the time the Chinese Chia community is most active. We offer competitive salaries and, if you are in the United States, a comprehensive benefits package including medical, dental, and life insurance for you, your spouse/domestic partner and children.
 
-Application Process
+**Application Process**
+
 Send your CV/resume along with your Keybase name (if available) to jobs@chia.net, please include the position title as your subject line 
