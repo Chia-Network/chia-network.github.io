@@ -34,5 +34,7 @@ This is an exciting and important role to help build up and reinforce Chia’s p
 **Perks**
 
 Chia Network Inc. allows for flexible work hours and remote work for this position. Core hours can be flexible based on your location within reason to ensure a minimal functional overlap with United States working hours. We offer competitive salaries and, if you are in the United States, a comprehensive benefits package including medical, dental, and life insurance for you, your spouse/domestic partner and children.
-Application Process
+
+**Application Process**
+
 Send your CV/resume along with your Keybase name (if available) to jobs@chia.net, please include the position title as your subject line 
