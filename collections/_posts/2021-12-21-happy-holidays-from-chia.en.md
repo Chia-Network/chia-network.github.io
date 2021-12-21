@@ -40,6 +40,9 @@ If you don’t want to run the beta wallet at this time and/or add this CAT to i
 **Q:** How can I see/access my token?
 <br/>**A:** Tokens will be visible in your wallet if you are running our Light Wallet beta. However, you don’t *need* to run the beta, only if you wish to access the tokens. Do remember that running the Light Wallet beta, as outlined in it’s details, means ideally running it on a system *separate* from your farming software. Failure to do so will result in it disabling your farming until you close it and restart your farming software. (This is part of why it’s a beta!)
 
+**Q:** I'm a little fuzzy on working with the Light Wallet beta... it seems complicated, do I have to?
+<br/>**A:** No, you don't actually! In the not teribly far out future we'll be folding the light wallet beta back into the main software package to replace the old wallet. When that time comes, it will "just work" in palce of the old wallet. While that it still going to be a few weeks and maybe even months out, it *will* happen *before* you need to worry about redeeming these tokens anywhere, so the issue will self resolve for you if you would rather just sit tight and wait for things to update on their own over the coming weeks!
+
 **Q:** What will the art NFT look like?
 <br/>**A:** Great question! I am going to be 100% honest and say we don’t know yet, but we will  share with you more about that in 2022 ;)
 
