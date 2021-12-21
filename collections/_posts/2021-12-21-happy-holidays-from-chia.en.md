@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title: "Happy holdiays from Chia!"
+title: "Happy Holidays from Chia!"
 date: 2021-12-21
 author: "[J. Eckert](https://twitter.com/sargonas)"
 ---
