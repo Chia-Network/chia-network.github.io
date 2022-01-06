@@ -1,5 +1,5 @@
 ---
-order: 8
+order: 7
 title: "Chinese Technical Community Manager"
 ---
 
