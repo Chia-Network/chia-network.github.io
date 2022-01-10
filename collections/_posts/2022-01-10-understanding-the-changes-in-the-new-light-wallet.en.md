@@ -2,7 +2,7 @@
 lang: en
 layout: post
 title: "Understanding the Changes in the New Light Wallet"
-date: 2021-12-21
+date: 2022-01-10
 author: "[Dan Perry](https://github.com/danieljperry) and [Roy Natian](https://www.linkedin.com/in/roynatian)"
 ---
 
