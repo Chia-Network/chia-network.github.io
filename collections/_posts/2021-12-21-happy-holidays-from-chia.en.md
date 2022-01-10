@@ -20,8 +20,9 @@ In order to prepare your wallet in advance to see this token, please make sure y
 
 
 ```
-Please check back later for the CAT’s info to be added here!
-This space will be updated once the airdrops have gone out.
+Token ID: 509deafe3cd8bbfbb9ccce1d930e3d7b57b40c964fa33379b18d628175eb7a8f
+Name: Chia Holiday 2021 
+Symbol: CH21
 ```
 
 If you don’t want to run the beta wallet at this time and/or add this CAT to it manually, you can safely skip this step and wait a few weeks. (_Don’t forget that the Light Wallet should be run on a system OTHER than your farmer, as it will disable farming if not!_) The tokens will still be in your wallet either way regardless. In a future update to the wallet early next year you won’t need to add this as we will include it as a CAT in the wallet alongside the existing MRMT and SBX.
