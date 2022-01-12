@@ -16,7 +16,7 @@ Before version 1.3, Chia’s wallet had to sync from genesis. In other words, it
 
 With the newest version (currently in Beta as of this writing), Chia uses a new [light client protocol](https://docs.chia.net/docs/03consensus/light_clients/), which only needs to download a small subset of blocks to validate your wallet’s status. New wallets will sync in minutes instead of taking hours or days. (Wallets with many historical transactions will take slightly longer to sync, but they will still sync _significantly_ faster than previous versions.)
 ### New wallet keys
-Previous versions of the Chia client used non-observer wallet keys_. These keys are secure, but they come with a drawback – a parent public key cannot be used to derive a child public key. This means that read-only wallets are not possible with Chia’s old keys.
+Previous versions of the Chia client used non-observer wallet keys. These keys are secure, but they come with a drawback – a parent public key cannot be used to derive a child public key. This means that read-only wallets are not possible with Chia’s old keys.
 
 The new version of the Chia client uses _observer keys_ by default. These keys _do_ allow for public derivation, and the main benefit to these keys is to support read-only wallets.
 Why support read-only wallets? The main reason is to provide a way to view your wallet without the possibility of exposing your private keys. This will give extra peace of mind for those who simply want to view their wallet in a third-party developed application, without needing the ability to send money to another wallet, and therefore without exposing their private keys to the application.
