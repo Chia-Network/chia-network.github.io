@@ -29,8 +29,11 @@
             <li class="nav-item{% if include.active == "about" %} active{% endif %}">
                 <a href="{{ site_prefix }}/about">{{ strings.navigation.about }}</a>
             </li>
+            <li class="nav-item{% if include.active == "buy-xch" %} active{% endif %}">
+                <a href="{{ site_prefix }}/buy-xch">{{ strings.navigation.buy-xch }}</a>
+            </li>
             <li class="nav-item{% if include.active == "download" %} active{% endif %} main-menu-button">
-                <a href="{{ site_prefix }}/download">{{ strings.navigation.farm-chia }}</a>
+                <a href="{{ site_prefix }}/download">{{ strings.navigation.download }}</a>
             </li>
         </ul>
         <a class="menu-icon toggle-menu" href="#">

@@ -103,6 +103,8 @@ en: # English
   footer_copyright_year: "© Chia Network 2022"
   navigation:
     farm-chia: "Farm Chia"
+    download: "Download"
+    buy-xch: "Buy XCH"
     about: "About"
     blog: "Blog"
     news: "News"
