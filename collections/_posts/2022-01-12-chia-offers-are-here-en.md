@@ -6,6 +6,10 @@ date: 2022-01-12
 author: "[Paul Hainsworth](https://twitter.com/mouthy)"
 ---
 
+<p align="center">
+<img src="/assets/blog/offers-blog.png" alt="HDD" width="75%">
+</p>
+
 ### Say hello to offers, DEXes, and a Stablecoin!
 
 We’re excited to launch Chia Offers today in Chia’s [light wallet beta](https://www.chia.net/download/#light-wallet-beta). It enables decentralized, peer-to-peer trading of assets on the Chia blockchain. It’s entirely self-custodied, requires no middleman or market maker, and eliminates counterparty risk. It doesn’t rely on a third-party smart contract either, as in Ethereum.
