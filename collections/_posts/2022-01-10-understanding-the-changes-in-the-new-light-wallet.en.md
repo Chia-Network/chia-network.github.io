@@ -6,7 +6,7 @@ date: 2022-01-10
 author: "[Dan Perry](https://github.com/danieljperry) and [Roy Natian](https://www.linkedin.com/in/roynatian)"
 ---
 
-In the coming weeks, we’ll be making some major updates to the official Chia client with v1.3. One of the biggest will be bringing the light wallet out of Beta and including it and it’s observer addresses into the core software package. The light wallet will, on average, improve your wallet sync times from many hours to mere minutes. You’ll also be able to run a wallet without running a node. Observer addresses enable read-only wallets, which have several advantages, detailed below.
+In the coming weeks, we’ll be making some major updates to the official Chia client with v1.3. One of the biggest will be bringing the light wallet out of Beta and including it and its observer addresses into the core software package. The light wallet will, on average, improve your wallet sync times from many hours to mere minutes. You’ll also be able to run a wallet without running a node. Observer addresses enable read-only wallets, which have several advantages, detailed below.
 
 When will these changes happen? Soon™.
 
