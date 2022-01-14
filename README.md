@@ -1,7 +1,7 @@
 Chia.net
 ========
 
-Website for the [Chia](https://www.chia.net/) cryptocurrency. Test.
+Website for the [Chia](https://www.chia.net/) cryptocurrency.
 
 Development
 -----------
