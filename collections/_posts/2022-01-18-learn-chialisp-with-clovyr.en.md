@@ -15,9 +15,6 @@ Since the launch of mainnet last year, we at Chia have been working hard to incr
 
 Today we are announcing a partnership with [Clovyr](https://clovyr.app) as well as the first Developer Challenge. 
 
-This first Developer Challenge’s registration will open on Thursday, January 20th along with further details and a breakdown of the prize structure. The specific objectives and judging criteria will be announced when the challenge kicks off during the first week of February 2022. We will update this post wtih registration information on Thursday, January 20th.
-
-
 ## About Clovyr
 
 Clovyr makes alternatives to data-hungry SaaS applications. Whether people choose to run a blog, a chat server for friends, or self-custody a node, Clovyr makes it easy for anyone to run apps and services on any host and access them privately from any web browser. The platform is privacy-preserving in novel and meaningful ways: once launched, no usage data from any apps in a user's library are passed through Clovyr's infrastructure. 
