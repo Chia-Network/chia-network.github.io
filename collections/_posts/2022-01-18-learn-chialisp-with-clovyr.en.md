@@ -36,12 +36,9 @@ To begin preparing for the Developer Challenge, begin learning [Chialisp](https:
 
 To help promote our new Chialisp integration with Clovyr’s developer platform, we are announcing a 24-hour developer challenge, kicking off on February 3rd at 12-noon PST (8:00 PM UTC).
 
-Registered developers will be given a prompt on the morning of that day, announcing the goal and judging criteria, to run through the 24 hour window until “pencils down” at 12-noon PST the following day, Feb 4th. Chia Network engineers will be on-hand in Keybase to provide Chialisp support and guidance during that 24 hour window, to help answer questions and provide guidance.
+Registered developers will be given a prompt on the morning of that day with the goal and judging criteria. The challenge will last through the 24 hour window until time is up at 12-noon PST the following day, February 4th. Chia Network engineers will be on-hand in Keybase to provide Chialisp support and guidance during that 24 hour window, to help answer questions and provide guidance.
 
 In the days following the event, we will announce a grand prize winner of $10,000, a runner up of $5,000 and a 3rd place prize of $2,500 payable via Crypto or Fiat (USD) at your preference.
 
 Further details and specifics will be given at the start of the event, and Chia Network staff will be happy to answer any questions you might have in our Keybase server in the meantime. To sign up, fill out the registration form here:
 <p style="text-align:center;"><a class="button primary-button" href="https://docs.google.com/forms/d/e/1FAIpQLSdL3m3L67tcKvgU-8kdmqt0E8y2glfHcR0UAWTflSVGLsuKHQ/viewform" target="_blank">Register</a></p>
-
-
-
