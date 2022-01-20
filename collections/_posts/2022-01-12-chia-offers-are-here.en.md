@@ -38,5 +38,6 @@ Check out Offers today by downloading the [Chia light wallet beta](https://www.c
 ### Need help?
 
 We also have tutorials to help you get started with offers, both using our [light wallet GUI](https://chialisp.com/docs/tutorials/offers_gui_tutorial), and on the [command line](https://chialisp.com/docs/tutorials/offers_cli_tutorial).
-
+<div style="text-align:center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z2FoZSNtttM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
