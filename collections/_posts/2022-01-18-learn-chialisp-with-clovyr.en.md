@@ -34,7 +34,7 @@ To begin preparing for the Developer Challenge, begin learning [Chialisp](https:
 <a name="reg-dates"></a>
 ## Registration and Dates
 
-To help promote our new Chialisp integration with Clovyr’s developer platform, we are announcing a 24-hour developer challenge, kicking off on February 3rd at 12-noon PST (8:00 PM UTC).
+To help promote our new Chialisp integration with Clovyr’s developer platform, we are announcing a 24-hour developer challenge, kicking off on **February 3rd at 12-noon PST (8:00 PM UTC)**.
 
 Registered developers will be given a prompt on the morning of that day with the goal and judging criteria. The challenge will last through the 24 hour window until time is up at 12-noon PST the following day, February 4th. Chia Network engineers will be on-hand in Keybase to provide Chialisp support and guidance during that 24 hour window, to help answer questions and provide guidance.
 
