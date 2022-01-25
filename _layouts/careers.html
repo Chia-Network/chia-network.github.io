@@ -4,7 +4,7 @@ layout: default
 
 {% include navigation.html active="careers" %}
 
-{% assign strings = site.data.strings[page.lang] %}
+
 
 <div class="light-bg">
     <div class="white-bg col-8-container content-padding">
@@ -12,39 +12,8 @@ layout: default
             <header class="article-header">
                 <h1>{{ strings.careers_title }}</h1>
             </header>
-            <div class="article-content">
-                {{ strings.careers_description | markdownify }}
-                
-                <hr>
-                <h5>Current openings:</h5>
-                    {% assign job_descriptions = site.job_descriptions | sort: "order" %}
-                    {% for entry in job_descriptions %}
-                    <p>• <a href ="#{{ entry.title }}">{{ entry.title }}</a></p>
-                    {% endfor %}
-<!--                <table style="width:auto; padding: 10px; margin-left: auto; margin-right: auto;">
-                    <tr>
-                        {% assign job_descriptions = site.job_descriptions | sort: "order" %}
-                        {% for entry in job_descriptions %}
-                        <td style="text-align:center">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td style="text-align:center"><a href ="#{{ entry.title }}">{{ entry.title }}</a></td>
-                        {% endfor %}
-                        <td style="text-align:center">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    </tr>
-                </table>
--->               
-                <div class="row">
-                    <div class="col-12">
-                        {% assign job_descriptions = site.job_descriptions | sort: "order" %}
-                        {% for entry in job_descriptions %}
-                        <hr class="page-main-title mt-5 mb-5">
-                        <div class="job" id="{{ entry.title }}">
-                            <h3>{{ entry.title }}</h3>
-                        </div>
-                        <div class="px-md-5">{{ entry.content | mardownify }}</div>
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
+            <div id="grnhse_app"></div>
+            <script src="https://boards.greenhouse.io/embed/job_board/js?for=chianetworkinc"></script>
         </article>
     </div>
 </div>
