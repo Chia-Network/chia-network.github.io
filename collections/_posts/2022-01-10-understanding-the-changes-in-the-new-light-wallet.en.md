@@ -24,7 +24,8 @@ Why support read-only wallets? The main reason is to provide a way to view your 
 Another potential use case for read-only wallets is tax preparation. In Chia, you can use a new address for each transaction, which provides pseudo-anonymity on the public blockchain. However, with the old keys, you would have to provide your accountant with every address you have ever used. With the new observer keys, you’ll be able to simply provide your master public key, and your accountant can use it to derive the public key from each address you used. This is possible without providing any private keys or any way to derive them.
 
 ## What this means for you, the user
-*Please read this section carefully as these changes to the Chia client might cause some confusion.*
+*Please read this section carefully as these changes to the Chia client might cause some confusion. The following section applies to v1.3 of the Chia client which has not been released yet.*
+
 ### Update all clients to v1.3 to properly see balances
 _Older versions of the Chia client that use the older non-observer keys won’t be able to view some new transactions on the new wallets._ Don’t worry–you have not lost any chia! 
 
