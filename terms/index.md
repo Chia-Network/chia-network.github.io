@@ -1,5 +1,5 @@
 ---
 layout: terms
 lang: en
-title: Terms
+title: Terms of Use
 ---

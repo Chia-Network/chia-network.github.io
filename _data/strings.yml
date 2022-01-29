@@ -86,8 +86,8 @@ en: # English
     Bram Cohen [presented](https://www.youtube.com/watch?v=2Zlcgt8FVz4) at Stanford on February 2018 on Proofs of Space. Our advisors, Dan Boneh, Benedikt Bünz, and Ben Fisch [published a survey of VDFs](https://eprint.iacr.org/2018/712.pdf) which are the underlying technology of Proof of Time. Lipa Long [published an explanation of class groups](https://github.com/Chia-Network/vdf-competition/blob/master/classgroups.pdf) that our [Proofs of Time](https://eprint.iacr.org/2018/627.pdf) is based on. Bram presented [Beyond Hellman’s Time-Memory Trade-Offs with Applications to Proofs of Space](https://www.youtube.com/watch?v=iqxkO7C-cyk) at BPASE ‘18 in January 2018 based on the [academic paper](https://eprint.iacr.org/2017/893) and these [slides](https://view.publitas.com/chia-network/pbase18slides/page/1) by Hamza Abusalah. Ben Fisch gave a [talk](https://www.youtube.com/watch?v=qUoagL7OZ1k) at BPASE 2018 in January 2018 on Verifiable Delay Functions. Bram [spoke at Blockchain at Berkeley](https://www.facebook.com/BlockchainatBerkeley/videos/2006069823011271/) (which starts about 20:00) in March 2018 with [slides](https://cyber.stanford.edu/sites/g/files/sbiybj9936/f/bramcohen.pdf). Bram gave a [talk at BPASE 2017](https://www.youtube.com/watch?v=aYG0NxoG7yw) in January 2017 on removing waste with Proofs of Space and Time ([slides](https://cyber.stanford.edu/sites/g/files/sbiybj9936/f/bramcohen.pdf)).
 
     Bram gave a [talk](https://www.youtube.com/watch?v=zZaB4hM8SQ4) at SF Bitcoin Devs Seminar about data structures for scaling Bitcoin with [slides](https://view.publitas.com/chia-network/bitcoin_data_structures/) and [Merkle Set code](https://github.com/bramcohen/MerkleSet). Bram gave a [talk](https://www.youtube.com/watch?v=zZaB4hM8SQ4) at SF Bitcoin Devs Seminar about removing waste from cryptocurrencies.
-  terms_title: "Terms"
-  terms_description: |
+  trademarks_title: "Trademarks"
+  trademarks_description: |
     The Chia® brand is a promise of standard in innovation and quality.
 
     When you are authorized to use the Chia® brand and respect the Chia® brand guidelines, you help us ensure the strength of the brand, while protecting the entire community from being misled, confused or mistreated.
@@ -95,12 +95,14 @@ en: # English
     Please read over the following guidelines carefully, and never hesitate to reach out with questions or permission requests at <a href='mailto:hello@chia.net' target='_blank'>hello@chia.net</a>.
 
     Happy Farming!
-  terms_team_title: "Guidelines"
-  terms_team_description: |
+  trademarks_team_title: "Guidelines"
+  trademarks_team_description: |
     * [Guidelines for Using Chia Network’s Trademarks and Copyrighted Materials on the Web](/assets/legal/Guidelines-for-Using-Chia-Network.pdf)
     * [Chia Copyright Policy](/assets/legal/Chia-Copyright-Policy.pdf)
     * [Chia Trademark Policy](/assets/legal/Chia-Trademark-Policy.pdf)
-  footer_copyright_year: "© Chia Network 2022"
+  terms_title: "Terms of Use"
+  
+  footer_copyright_year: "© 2022 Chia Network Inc."
   navigation:
     farm-chia: "Farm Chia"
     download: "Download"
