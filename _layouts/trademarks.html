@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include navigation.html active="trademarks" %}
+{% assign strings = site.data.strings[page.lang] %}
+
+<div class="light-bg">
+    <div class="white-bg col-8-container content-padding">
+        <article class="col-6-container">
+            <header class="article-header">
+                <h1>{{ strings.trademarks_title }}</h1>
+            </header>
+            <div class="article-content">
+                {{ strings.trademarks_description | markdownify }}
+
+                <h2 class="mb-4">{{ strings.trademarks_team_title }}</h2>
+                
+                {{ strings.trademarks_team_description | markdownify }}
+            </div>
+        </article>
+    </div>
+</div>
