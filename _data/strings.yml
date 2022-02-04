@@ -97,9 +97,9 @@ en: # English
     Happy Farming!
   trademarks_team_title: "Guidelines"
   trademarks_team_description: |
-    * [Guidelines for Using Chia Network’s Trademarks and Copyrighted Materials on the Web](/assets/legal/Guidelines-for-Using-Chia-Network.pdf)
-    * [Chia Copyright Policy](/assets/legal/Chia-Copyright-Policy.pdf)
     * [Chia Trademark Policy](/assets/legal/Chia-Trademark-Policy.pdf)
+    * [Chia Copyright Policy](/assets/legal/Chia-Copyright-Policy.pdf)
+    * [Guidelines for Using Chia Network’s Trademarks and Copyrighted Materials on the Web](/assets/legal/Guidelines-for-Using-Chia-Network.pdf)
   terms_title: "Terms of Use"
   
   footer_copyright_year: "© 2022 Chia Network Inc."
