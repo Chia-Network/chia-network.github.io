@@ -13,5 +13,3 @@ We’re also finally able to talk about our early adopters like the World Bank a
 Lastly, with our equity fundraise last May and the conversion of all of our SAFEs to equity, much about our cap table is simplified as we had alluded to in version 1 of the Whitepaper.
 
 We will be hosting an AMA Friday February 4, 2022 at 3PM PST especially to answer questions related to the Business Whitepaper - both old and new. Links will be posted here, the [Keybase #announcements](https://keybase.io/team/chia_network.public) channel, and on [Twitter](https://twitter.com/chia_project) and [Reddit](https://reddit.com/r/chia).
-
-<span style="color:whitesmoke">1E3FD86BA869DEB17927FD3091780EAF23178EE2216DC5ACBCEA858BFE5639FA</span>
