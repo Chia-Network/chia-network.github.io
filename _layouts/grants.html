@@ -5,93 +5,158 @@ layout: default
 {% include navigation.html active="grants" %}
 
 {% assign strings = site.data.strings[page.lang] %}
-
-<div class="pg-title">
-    <div class="col-10-container">
-        <h1>{{ strings.grants_title }}</h1>
+<div class="grants-container">
+    <div class="pg-title">
+        <div class="col-10-container">
+            <h1>{{ strings.grants_title }}</h1>
+        </div>
+    </div>
+    
+    <div class="white-bg content-padding">
+        <div class="col-8-container txt-col-blocks">
+            <div class="full-width-col">
+                {{ strings.grants_description | markdownify }}
+            </div>
+                <p>
+                    {{ strings.grants_detail_1 | markdownify }}
+                </p>
+                <p>
+                    {{ strings.grants_detail_2 | markdownify }}
+                </p>
+                <p>
+                    {{ strings.grants_detail_3 | markdownify }}
+                </p>
+            <p align="center"><a class="button primary-button apply-button" href="#how-to-apply">Apply Now</a></p>
+        </div>
+    </div>
+    <div class="light-bg">
+        <a id="grant-winners"></a>
+        <div class="col-10-container featured-content soft-shadow white-bg grant-winner-container">
+            <h3>
+                Cultivation Grant Winners
+            </h3>
+            <div class="download-extras">
+                <div class="download-extra-option grant-winner-box tab d-flex">
+                    <img class="grant-winner-icon" src="/img/hashgreen-icon.svg">
+                    <div class="grant-winner-description">
+                        <h4><a id="how-to-apply"></a>Decentralized Exchange (DEX)</h4>
+                        <span class="grant-winner-name">by Hashgreen</span>
+                        <a href="#">hashgreen.net</a>
+                    </div>
+                </div>
+                <div class="backdrop d-none">
+                    <div class="modal white-bg modal-content d-flex">
+                        <div class="modal-description">
+                            <h2>Hashgreen DEX</h2>
+                            <h4>Hashgreen Inc.</h4>
+                            <a href="https://www.hashgreen.net" target="_blank">hashgreen.net</a>
+                            <p>
+                                {{strings.grants_cultivation_winner_1_description | markdownify}}
+                            </p>
+                        </div>
+                        <div class="modal-image-container">
+                            <img class="modal-image" src="/img/nucle-client.png">
+                            <a href="https://hash.green/" class="d-flex modal-link" target="_blank">
+                                <img class="link-icon" src="/assets/icons/link_icon_green.svg"> 
+                                hash.green
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="download-extra-option grant-winner-box tab d-flex">
+                    <img class="grant-winner-icon" src="/img/nucle-icon.svg">
+                    <div class="grant-winner-description">
+                        <h4><a id="how-to-apply"></a>Chia DeFi Wallet</h4>
+                        <span class="grant-winner-name">by Emergent Coin</span>
+                        <a href="#">nucle.io</a>
+                    </div>
+                </div>
+                <div class="backdrop d-none">
+                    <div class="modal white-bg modal-content d-flex">
+                        <div class="modal-description">
+                            <h2>nucle.io</h2>
+                            <h4>Emergent Coin Inc.</h4>
+                            <a href="https://www.nucle.io" target="_blank">nucle.io</a>
+                            <p>
+                                {{strings.grants_cultivation_winner_2_description | markdownify}}
+                            </p>
+                        </div>
+                        <div class="modal-image-container">
+                            <img class="modal-image" src="/img/nucle-client.png">
+                            <a href="https://www.nucle.io" class="d-flex modal-link" target="_blank">
+                                <img class="link-icon" src="/assets/icons/link_icon_green.svg"> 
+                                    nucle.io
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="white-bg content-padding">
+        <div class="col-10-container">
+            <div class="download-extras">
+                <div class="download-extra-option soft-shadow">
+                    <h3><a id="how-to-apply"></a>How to Apply</h3>
+                    {{ strings.grants_when | markdownify }}
+                </div>
+    
+                <div class="download-extra-option soft-shadow">
+                    <h3>Take Note</h3>
+                    {{ strings.grants_disclaimer | markdownify }}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="light-bg">
+        <div class="white-bg col-8-container content-padding">
+            <article class="col-6-container">
+                <div class="article-content">
+    
+                    <h2 id="faq">FAQ</h2>
+    
+                    <p><strong>Q:</strong> <em>Is Chia paying out the grant in XCH and/or from the Strategic Reserve?</em><br>
+                    <strong>A:</strong> No. Chia has a solid footing of funding, which is used to run the company day to day and also to pay for activities such as these in Fiat USD. As always, you can track the Strategic Reserve here: <a href="https://www.chiaexplorer.com/pre-farm">Chia Network pre-farm tracker</a></p>
+    
+                    <p><strong>Q:</strong> <em>Who decides which applicants get the grant?</em><br>
+                    <strong>A:</strong> The Chia Cultivation Grant is managed by a Committee made up of several key executives at Chia Network with experience in this space and a vision towards what kinds of projects will further grow the Chia ecosystem. They collectively review and discuss the various proposals sent in that meet the baseline requirements, and work with the applicants to administer the grant funding when chosen. The day to day administration of things like communications, in-bound proposal filtering, and other miscellaneous logistics, are overseen by the Ecosystem team.</p>
+    
+                    <p><strong>Q:</strong> <em>How much money is given out to recipients of the grant?</em><br>
+                    <strong>A:</strong> There is no fixed amount, but we aim to stay within a range of $30k to $250k per grant. However, we don’t focus on a specific target and instead we look at the applications given to us, the amount asked for, how it is proposed to be used, and work from there to find a practical amount that helps the team reach their goals without them being entirely dependent on us for continued success.</p>
+    
+                    <p><strong>Q:</strong> <em>Is there a limit to how many recipients can be awarded Grants or a maximum that will be given out?</em><br>
+                    <strong>A:</strong> No. At this time we do not have a fixed dollar amount to cap, nor do we have a limit on the number of recipients we will award a Grant to.</p>
+    
+                    <p><strong>Q:</strong> <em>What is required to submit a grant application?</em><br>
+                    <strong>A:</strong> While there is no specific checklist of criteria, we focus on proposals that are well thought out and have a fleshed out vision and roadmap. Think of the application process as similar to pitching a startup idea to seed investors… We’d like to see in-depth proposals that incorporate not only a solid idea, but milestones, fiscal and resource budgets, team background information, contingency plans, go to market strategies, post launch support plans, etc.</p>
+    
+                    <p><strong>Q:</strong> <em>Are grants awarded on a rolling basis, or is there a limited application window every year?</em><br>
+                    <strong>A:</strong> Grants are awarded as-needed. We constantly review submissions and organic interactions we have with people in the ecosystem to look for potential recipients. We award Grants any time we feel we have found a great team and idea.</p>
+    
+                    <p><strong>Q:</strong> <em>What are the technical requirements for applicants (i.e. free, open source, etc…)?</em><br>
+                    <strong>A:</strong> We require that the fundamental core product released by the grant be open source and compatible with the Apache 2.0 license, however, we understand that we are investing in people and ideas that want to improve the ecosystem long term, which generally means helping create a viable, self-sustaining venture. To that end, we understand that a revenue model is key to this success and are comfortable with recipients creating “premium” experiences as a commercial product to extend beyond the core products we funded.</p>
+    
+                    <p><strong>Q:</strong> <em>Can I submit multiple applications?</em><br>
+                    <strong>A:</strong> A person or organization can submit as many applications as they like, but do note that due to volume we can’t respond to every application that doesn’t meet the threshold for further communications. Please do not submit the same submission repeatedly. We do encourage you to resubmit ideas with improved supporting documentation and planning if it will help elevate your original application to a higher quality!</p>
+    
+                </div>
+            </article>
+        </div>
     </div>
 </div>
 
-<div class="white-bg content-padding">
-    <div class="col-8-container txt-col-blocks">
-        <div class="full-width-col">
-            {{ strings.grants_description | markdownify }}
-        </div>
-        <div class="two-col-txt">
-            <div class="two-col txt-col-left">
-                {{ strings.grants_why_1 | markdownify }}
-            </div>
-            <div class="two-col txt-col-right">
-                {{ strings.grants_why_2 | markdownify }}
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="light-bg">
-    <div class="col-10-container featured-content soft-shadow">
-        <div class="featured-content-txt-container">
-            <div class="featured-content-txt">
-                <h2>Grant Recipients</h2>
-                {{ strings.grants_who | markdownify }}
-                {{ strings.grants_who_2 | markdownify }}
-                <p><a class="button outline-green-button" href="#how-to-apply">Apply Now</a></p>
-            </div>
-        </div>
-        <div class="featured-content-img">
-            <img src="/img/abstract/abstract-geometric-pattern-04_@2x.png" alt="Abstract Geometric Pattern">
-        </div>
-    </div>
-</div>
-
-<div class="white-bg content-padding">
-    <div class="col-10-container">
-        <div class="download-extras">
-            <div class="download-extra-option soft-shadow">
-                <h3><a id="how-to-apply"></a>How to Apply</h3>
-                {{ strings.grants_when | markdownify }}
-            </div>
-
-            <div class="download-extra-option soft-shadow">
-                <h3>Take Note</h3>
-                {{ strings.grants_disclaimer | markdownify }}
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="light-bg">
-    <div class="white-bg col-8-container content-padding">
-        <article class="col-6-container"">
-            <div class="article-content">
-
-                <h2 id="faq">FAQ</h2>
-
-                <p><strong>Q:</strong> <em>Is Chia paying out the grant in XCH and/or from the Strategic Reserve?</em><br>
-                <strong>A:</strong> No. Chia has a solid footing of funding, which is used to run the company day to day and also to pay for activities such as these in Fiat USD. As always, you can track the Strategic Reserve here: <a href="https://www.chiaexplorer.com/pre-farm">Chia Network pre-farm tracker</a></p>
-
-                <p><strong>Q:</strong> <em>Who decides which applicants get the grant?</em><br>
-                <strong>A:</strong> The Chia Cultivation Grant is managed by a Committee made up of several key executives at Chia Network with experience in this space and a vision towards what kinds of projects will further grow the Chia ecosystem. They collectively review and discuss the various proposals sent in that meet the baseline requirements, and work with the applicants to administer the grant funding when chosen. The day to day administration of things like communications, in-bound proposal filtering, and other miscellaneous logistics, are overseen by the Ecosystem team.</p>
-
-                <p><strong>Q:</strong> <em>How much money is given out to recipients of the grant?</em><br>
-                <strong>A:</strong> There is no fixed amount, but we aim to stay within a range of $30k to $250k per grant. However, we don’t focus on a specific target and instead we look at the applications given to us, the amount asked for, how it is proposed to be used, and work from there to find a practical amount that helps the team reach their goals without them being entirely dependent on us for continued success.</p>
-
-                <p><strong>Q:</strong> <em>Is there a limit to how many recipients can be awarded Grants or a maximum that will be given out?</em><br>
-                <strong>A:</strong> No. At this time we do not have a fixed dollar amount to cap, nor do we have a limit on the number of recipients we will award a Grant to.</p>
-
-                <p><strong>Q:</strong> <em>What is required to submit a grant application?</em><br>
-                <strong>A:</strong> While there is no specific checklist of criteria, we focus on proposals that are well thought out and have a fleshed out vision and roadmap. Think of the application process as similar to pitching a startup idea to seed investors… We’d like to see in-depth proposals that incorporate not only a solid idea, but milestones, fiscal and resource budgets, team background information, contingency plans, go to market strategies, post launch support plans, etc.</p>
-
-                <p><strong>Q:</strong> <em>Are grants awarded on a rolling basis, or is there a limited application window every year?</em><br>
-                <strong>A:</strong> Grants are awarded as-needed. We constantly review submissions and organic interactions we have with people in the ecosystem to look for potential recipients. We award Grants any time we feel we have found a great team and idea.</p>
-
-                <p><strong>Q:</strong> <em>What are the technical requirements for applicants (i.e. free, open source, etc…)?</em><br>
-                <strong>A:</strong> We require that the fundamental core product released by the grant be open source and compatible with the Apache 2.0 license, however, we understand that we are investing in people and ideas that want to improve the ecosystem long term, which generally means helping create a viable, self-sustaining venture. To that end, we understand that a revenue model is key to this success and are comfortable with recipients creating “premium” experiences as a commercial product to extend beyond the core products we funded.</p>
-
-                <p><strong>Q:</strong> <em>Can I submit multiple applications?</em><br>
-                <strong>A:</strong> A person or organization can submit as many applications as they like, but do note that due to volume we can’t respond to every application that doesn’t meet the threshold for further communications. Please do not submit the same submission repeatedly. We do encourage you to resubmit ideas with improved supporting documentation and planning if it will help elevate your original application to a higher quality!</p>
-
-            </div>
-        </article>
-    </div>
-</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+      $("div.tab").on("click", function () {
+          $(this).next().removeClass("d-none");
+          $(this).next().addClass("d-flex");
+      });
+      $("div.backdrop").on("click", function () {
+          $(this).addClass("d-none");
+          $(this).removeClass("d-flex");
+      });
+    });
+</script>
