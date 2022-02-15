@@ -1,0 +1,134 @@
+.modal{
+    background: white;
+    padding: rem(40) rem(80);
+    max-width: rem(1200);
+    @include breakpoint(375) {
+      padding: rem(20);
+    }
+    @include breakpoint(768) {
+      padding: rem(40) rem(80);
+    }
+}
+
+.containerDialogIsOpen {
+    backdrop-filter: blur(1px);
+    /* Blur and de-color */
+    -webkit-filter: blur(1px) grayscale(50%);
+    z-index: 10;
+  }
+
+  .modalIsOpen {
+  
+    /* Regular size and visible */
+    transform: scale(1); /* prefix me */
+    opacity: 1;
+  
+    /* Clickable */
+    pointer-events: auto;
+  
+  }
+  
+  .grants-container, .modal {
+  
+    transition: all 0.4s ease; /* prefix me */
+  
+  }
+
+  .backdrop{
+      height: 100vh;
+      width: 100vw;
+      backdrop-filter: blur(1px);
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 3;
+      position: fixed;
+      top: 0;
+      left: 0;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .d-flex {
+      display: flex;
+  }
+
+  .grant-winner-container{
+    display: flex;
+    flex-direction: column;
+    @include breakpoint(375) {
+      padding: rem(20);
+    }
+    @include breakpoint(768) {
+      padding: rem(50) rem(80);
+    }
+  }
+  
+  .grant-winner-box {
+    background: #FFFFFF;
+    border: rem(2) solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: rem(3);
+  }
+
+  .grant-winner-icon {
+    padding-right: rem(24);
+    width: rem(100);
+    height: rem(100);
+  }
+
+  .grant-winner-description{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grant-winner-name{
+    padding-bottom: rem(8);
+  }
+
+  .modal-description {
+    padding-right: rem(24);
+    @include breakpoint(375) {
+      width: 100%;
+    }
+    @include breakpoint(768) {
+      width: 60%;
+    }
+  }
+
+  .modal-content {
+    @include breakpoint(375) {
+      flex-direction: column;
+    }
+    @include breakpoint(768) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  .modal-image {
+    @include breakpoint(375) {
+      margin: auto;
+      width: rem(200);
+    }
+    @include breakpoint(768) {
+      width: rem(350);
+    }
+  }
+
+  .apply-button{
+    margin-top: rem(15);
+  }
+
+  .link-icon {
+    width: rem(16);
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .modal-link {
+    display: inline-block;
+  }
+
+  .modal-image-container{
+    text-align: center;
+    padding-top: 2rem;
+  }
