@@ -4,6 +4,4 @@ order: 12
 title: "What is the Chia Strategic Reserve?"
 ---
 
-Chia will pre-farm a large supply of coins at network launch to help stabilize and grow the Chia economy through Chia’s novel business plan of lending Chia.
-
-Our [Business Whitepaper](https://www.chia.net/assets/Chia-Business-Whitepaper-2021-02-09-v1.0.pdf) has the details.
+Chia Network Inc created 21 million chia at mainnet launch. This is known as the _Strategic Reserve_. For details on the Company's plans for the Strategic Reserve, see page 20 of the [Business Whitepaper](https://www.chia.net/whitepaper/).
