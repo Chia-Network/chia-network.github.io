@@ -46,7 +46,7 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 #mc_embed_signup form {text-align:center; padding:10px 0 10px 0; font-family: "Poppins", sans-serif;}
 .mc-field-group { display: inline-block; } /* positions input field horizontally */
 #mc_embed_signup input.email {font-size: 15px; border: 1px solid #ABB0B2;  -webkit-border-radius: rem(4); -moz-border-radius: rem(4); border-radius: rem(4); color: #343434; background-color: #fff; box-sizing:border-box; height:32px; padding: 0px 0.4em; display: inline-block; margin: 0; width:350px; vertical-align:top; font-family: "Poppins", sans-serif;}
-#mc_embed_signup input:focus {border-color: #3aac59;}
+#mc_embed_signup input:focus {border-color: #3aac59; outline: none;}
 #mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold; font-family: "Poppins", sans-serif;}
 #mc_embed_signup .clear {display: inline-block;} /* positions button horizontally in line with input */
 #mc_embed_signup .button {font-size: 13px; border: none; -webkit-border-radius: rem(4); -moz-border-radius: rem(4); border-radius: rem(4); letter-spacing: .03em; color: #fff; background-color: #3aac59; box-sizing:border-box; height:32px; line-height:32px; padding:0 18px; display: inline-block; margin: 0; transition: all 0.23s ease-in-out 0s; font-family: "Poppins", sans-serif;}
