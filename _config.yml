@@ -45,7 +45,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://chia.net/android-chrome-384x384.png
+      image: https://chia.net/android-chrome-512x512.png
 
 collections_dir: collections
 collections:
