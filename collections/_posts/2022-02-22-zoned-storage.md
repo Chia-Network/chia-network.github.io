@@ -6,7 +6,7 @@ date: 2022-02-22
 author: "[Jonmichael Hands](https://twitter.com/lebanonjon)"
 ---
 <p align="center">
-<img src="/assets/blog/hdd_black.jpg" alt="HDD" width="75%">
+<img src="/assets/blog/robothdd.jpg" alt="HDD" width="75%">
 </p>
 
 
