@@ -16,6 +16,7 @@
 --------------------------------------------------------------*/
 
 .post {
+    flex-direction: column;
     border: 1px solid $gray;
     border-radius: rem(8);
     margin-bottom: rem(24);
