@@ -111,9 +111,9 @@ This was a little confusing to me, since grafana is only reporting a max read la
 It is also possible the latency is getting stuck somewhere higher up the stack, since the zones introduce a new layer in the kernel stack, and also possible the software reads aren’t optimized for Chia farming in btrfs with the default zone settings.
 
 ![zones](/assets/blog/zones/image10.png "zones")
-Source: https://zonedstorage.io/docs/linux/overview
+Source: [ZonedStorage.io](https://zonedstorage.io/docs/linux/overview)
 
-Note: after talking to some experts, what I’m hitting may be fixed in this commit to block-mq (meaning I need the full kernel 5.15+ not just btrfs updated, since block-mq is deeply embedded in the kernel for storage functionality)
+Note: after talking to some experts, what I’m hitting may be fixed in this [commit ](https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git/commit/?id=9586e67b911c95ba158fcc247b230e9c2d718623) to block-mq (meaning I need the full kernel 5.15+ not just btrfs updated, since block-mq is deeply embedded in the kernel for storage functionality)
 _("block: schedule queue restart after BLK_STS_ZONE_RESOURCE"), which fixes a blocking of IOs for a long time, around 30 seconds._
 
 The workaround on my system was to wait until the drive is full before adding the drive to the harvester. This may not seem practical at first, but when you expect to farm for 5-7 years, waiting 29 hours for the drives to fill up isn’t a big deal. This does require that you fill up one drive at a time with plots instead of evenly distributing the plots across the entire farm.
