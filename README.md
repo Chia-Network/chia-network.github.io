@@ -136,6 +136,23 @@ Make sure to create the corresponding translated files for every language code!
 
 To edit an existing Blog Post entry, edit the corresponding file at `collections/_posts/<YYYY>-<MM>-<DD>-<IDENTIFIER>.<LANGUAGE_CODE>.md`.
 
+#### Set When a Post Gets Published - Date and Time
+You can set the date and time for when a blog post gets published. Instead of only a `YYYY-MM-DD` date in the blog post front matter you can include a time as well. The date and time is in [ISO 8601 format](https://www.w3.org/TR/NOTE-datetime). There is more than one way to write a date and time in ISO 8601 format, but to keep things simple, use this format: `YYYY-MM-DDTHH:MM±HH:MM`
+
+Going left to right:
+* `YYYY-MM-DD` is the standard year-month-day format.
+* `T` is the letter "T" to indicate the following numbers are time.
+* `HH:MM` is the time in the time zone you want the post to get published in. `HH` is 00 to 23. There is no AM or PM.
+* `±HH:MM` this is the time offset from UTC for the time zone youw ant the post to get published in. `HH` is 00 to 23. There is no AM or PM.
+
+Example: If you want a post to get published on March 15, 2022 at 9 AM PST you would have this in the front matter: 
+```yaml
+date: 2022-03-15T09:00-08:00
+```
+
+Since PST is 8 hours behind UTC, we use `-08:00` as the UTC offset after the `09:00`.
+
+
 ### Investors
 
 To add a new Investor entry, create a new file at `collections/_investor_pics/<ORDER_WITHIN_PAGE>-<IDENTIFIER>.md` with the following form:
