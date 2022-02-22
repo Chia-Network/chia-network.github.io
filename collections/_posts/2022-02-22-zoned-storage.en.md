@@ -2,7 +2,7 @@
 lang: en
 layout: post
 title: "Zoned storage - Using SMR Drives for Chia Farming?"
-date: 2022-02-22
+date: 2022-02-22 09:00:00 PST
 author: "[Jonmichael Hands](https://twitter.com/lebanonjon)"
 ---
 <p align="center">
