@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title: "The Clovyr Developer Challenge results!"
+title: "The Clovyr Developer Challenge Results!"
 date: 2022-02-23
 author: "[J. Eckert](https://twitter.com/sargonas)"
 ---
