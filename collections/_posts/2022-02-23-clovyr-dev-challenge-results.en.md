@@ -7,21 +7,21 @@ author: "[J. Eckert](https://twitter.com/sargonas)"
 ---
 ### The Event:
 
-Over the course of February 3rd and 4th, we held a Developer Challenge in partnership with our friends at Clovyr. Focusing on the amazing [chialisp development environment provided by Clovyr](https://www.chia.net/2022/01/18/learn-chialisp-with-clovyr.en.html), we wanted to see what kind of smart-coin focused project intrepid developers could create over a 24 hour window.
+Over the course of February 3rd and 4th, we held a Developer Challenge in partnership with our friends at [Clovyr](https://clovyr.app/code). Focusing on the amazing [chialisp development environment provided by Clovyr](https://www.chia.net/2022/01/18/learn-chialisp-with-clovyr.en.html), we wanted to see what kind of smart-coin focused project intrepid developers could create over a 24 hour window.
 
 
-With 74 participants signed up, the event kicked off at 12 noon sharp, PST, on Thursday the 3rd and ran until 12 noon on the 4th. During this time, members of Chia staff were on-hand in a dedicated keybase channel to field questions and provide advice. We also hosted a 24 hour zoom call people could drop in and out of as desired to boht pick the brains of our experts and socialize with each other. Some folks from Clovyr were also around to provide support and collected feedback on their development environment as well.
+With 74 participants signed up, the event kicked off at 12 noon sharp, PST, on Thursday the 3rd and ran until 12 noon on the 4th. During this time, members of Chia staff were on-hand in a dedicated Keybase channel to field questions and provide advice. We also hosted a 24 hour Zoom call people could drop in and out of as desired to both pick the brains of our experts and socialize with each other. Some folks from Clovyr were also around to provide support and collected feedback on their development environment as well.
 
 We had just over 70 community developers sign up for the event, and in the end we saw quite a few exciting projects! A few of those we’d like to share with you, and who those winners were!
 
 
-***First Place:***  **Icerdesign** with **“Popchia”**
+_First Place:_  **Icerdesign** with **“Popchia”**
 
-***Second Place:*** **Yakuhito** with **“Chia Farms”**
+_Second Place:_ **Yakuhito** with **“Chia Farms”**
 
-***Third Place:*** **Karlkim** with **“Mega Mojos”**
+_Third Place:_ **Karlkim** with **“Mega Mojos”**
 
-***Honorable mention:*** **Kronus91** with **“Dev Challenge Donation Program”**
+_Honorable mention:_ **Kronus91** with **“Dev Challenge Donation Program”**
 
 
 ### The Judging:
@@ -59,7 +59,7 @@ We loved Popchia for it’s thematically on-brand timing, being that the Dev Cha
 #### Chia Farms
 [https://github.com/Yakuhito/ChiaFarms](https://github.com/Yakuhito/ChiaFarms)
 
-Chia Farms comes to us from Yakuhito, a finalist in the Hackathon that Sirius labs ran last fall, and an active engager in our developer community on Keybase. What stood out to us most about this project was the sheer amount of chialisp code Yakuhito wrote during the 24 hour window, while learning a vast majority of it on the fly as he went. Anyone who passed around games on a TI Graphic calculator back in highschool might recognize the overall core gameplay loop of what he designed, but in short, it’s a small game where you farm chia, literally, to make money to grow your farm to exponentially farm yet more chia plants for “profit”.
+Chia Farms comes to us from Yakuhito, a finalist in the Hackathon that Sirius Labs ran last fall, and an active participant in our developer community on [Keybase](https://keybase.io/team/chia_network.public). What stood out to us most about this project was the sheer amount of chialisp code Yakuhito wrote during the 24 hour window while learning a vast majority of it on the fly as he went. Anyone who passed around games on a TI graphing calculator back in high school might recognize the overall core gameplay loop of what he designed. In short, it’s a small game where you farm chia, literally, to make money to grow your farm to exponentially farm yet more chia plants for “profit”.
 
 <p align="center">
 <img src="/assets/blog/chia-farms.gif" alt="Chia Farms" width="75%">
@@ -77,7 +77,7 @@ Mega Mojos, as the name might imply, is a MegaMillions/Powerball simulation. Jur
 #### Dev Challenge Donation Program
 [https://github.com/ytx1991/Challenge2022](https://github.com/ytx1991/Challenge2022)
 
-As to our last one, we wish to share our Honorable Mention from Kronus91. The reason we want to share this as an Honorable Mention is because it was easily a stand out top finalist in our eyes. However, between the announcement of the challenge and the start time, we entered into discussions with Kronus91 about hiring him to join our team full time (which we have!). As a result he was no longer eligible for a prize but had already signed up prior. However, the judges had seen the results of his efforts _before_ being aware he had accepted an offer, and already flagged him as a finalist. We think his work was notable and interesting and worth sharing as a stand out example, even still!
+As to our last one, we wish to share our Honorable Mention from Kronus91. The reason we want to share this as an Honorable Mention is because it was easily a stand out top finalist in our eyes. However, between the announcement of the challenge and the start time, we entered into discussions with Kronus91 about hiring him to join our team full time (which we have!). As a result he was no longer eligible for a prize but had already signed up prior. However, the judges had seen the results of his efforts _before_ being aware he had accepted an offer, and already flagged him as a finalist. We think his work was notable and interesting and worth sharing as a stand out example even still!
 
 If you are familiar with Kickstarter and Indiegogo, then you’ll get what Kronus91 was trying to do here quite quickly. This was an ambitious project that was not only well thought out and constructed, but was also _very_ well documented and laid out for understanding. 
 
