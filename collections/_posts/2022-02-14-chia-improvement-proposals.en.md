@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title: "CHia Improvement Proposals"
+title: "Chia Improvement Proposals"
 date: 2022-02-14
 author: "[Dan Perry](https://github.com/danieljperry)"
 ---
