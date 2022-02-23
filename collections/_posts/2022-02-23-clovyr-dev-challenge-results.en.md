@@ -53,7 +53,7 @@ One thing we did not harshly judge on was completion. We knew going into this 24
 We loved Popchia for it’s thematically on-brand timing, being that the Dev Challenge coincided with the start of the Lunar New Year. A common tradition during that time, the giving of red envelopes, was re-imaged by way of creating buckets of popcorn, with varied amounts, and giving them away. 
 
 <p align="center">
-<img src="/assets/blog/popchia.gif" alt="HDD" width="75%">
+<img src="/assets/blog/popchia.gif" alt="Popchia" width="75%">
 </p>
 
 #### Chia Farms
@@ -62,7 +62,7 @@ We loved Popchia for it’s thematically on-brand timing, being that the Dev Cha
 Chia Farms comes to us from Yakuhito, a finalist in the Hackathon that Sirius labs ran last fall, and an active engager in our developer community on Keybase. What stood out to us most about this project was the sheer amount of chialisp code Yakuhito wrote during the 24 hour window, while learning a vast majority of it on the fly as he went. Anyone who passed around games on a TI Graphic calculator back in highschool might recognize the overall core gameplay loop of what he designed, but in short, it’s a small game where you farm chia, literally, to make money to grow your farm to exponentially farm yet more chia plants for “profit”.
 
 <p align="center">
-<img src="/assets/blog/chia-farms.gif" alt="HDD" width="75%">
+<img src="/assets/blog/chia-farms.gif" alt="Chia Farms" width="75%">
 </p>
 
 #### Mega Mojos
@@ -71,7 +71,7 @@ Chia Farms comes to us from Yakuhito, a finalist in the Hackathon that Sirius la
 Mega Mojos, as the name might imply, is a MegaMillions/Powerball simulation. Jurisdictional legal ramifications of what this entails aside, it allows participants to buy lottery tickets, and when the chain reaches a predetermined block, a winner is calculated and announced. A fun twist to this is that if there is no winner for a given drawing, the XCH pool reward goes to the farmer of that block! 
 
 <p align="center">
-<img src="/assets/blog/mega-mojos.gif" alt="HDD" width="75%">
+<img src="/assets/blog/mega-mojos.gif" alt="Mega Mojos" width="75%">
 </p>
 
 #### Dev Challenge Donation Program
@@ -82,7 +82,7 @@ As to our last one, we wish to share our Honorable Mention from Kronus91. The re
 If you are familiar with Kickstarter and Indiegogo, then you’ll get what Kronus91 was trying to do here quite quickly. This was an ambitious project that was not only well thought out and constructed, but was also _very_ well documented and laid out for understanding. 
 
 <p align="center">
-<img src="/assets/blog/dev-donations.gif" alt="HDD" width="75%">
+<img src="/assets/blog/dev-donations.gif" alt="Dev Donations" width="75%">
 </p>
 
 We'd like to thank everyone who participated, and our friends at Clovyr for building an amazing chialisp developer platform. This was a fun, albeit short, event and we recognize folks were heavily time constrained (by design) and were also working with a brand new platform with the relatively young language of chialisp. We're looking forward to hosting bigger and more comprehensive challenges like this in the future, with even more exciting results!
