@@ -15,6 +15,7 @@ With 74 participants signed up, the event kicked off at 12 noon sharp, PST, on T
 We had just over 70 community developers sign up for the event, and in the end we saw quite a few exciting projects! A few of those we’d like to share with you, and who those winners were!
 
 
+
 ***First Place*** @  $10,000: **Icerdesign** with **“Popchia”**
 
 ***Second Place:*** @ $5,000: **Yakuhito** with **“Chia Farms”**
