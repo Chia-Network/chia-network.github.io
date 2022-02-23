@@ -15,13 +15,13 @@ With 74 participants signed up, the event kicked off at 12 noon sharp, PST, on T
 We had just over 70 community developers sign up for the event, and in the end we saw quite a few exciting projects! A few of those we’d like to share with you, and who those winners were!
 
 
-_First Place:_  **Icerdesign** with **“Popchia”**
+***First Place:***  **Icerdesign** with **“Popchia”**
 
-_Second Place:_ **Yakuhito** with **“Chia Farms”**
+***Second Place:*** **Yakuhito** with **“Chia Farms”**
 
-_Third Place:_ **Karlkim** with **“Mega Mojos”**
+***Third Place:*** **Karlkim** with **“Mega Mojos”**
 
-_Honorable mention:_ **Kronus91** with **“Dev Challenge Donation Program”**
+***Honorable mention:*** **Kronus91** with **“Dev Challenge Donation Program”**
 
 
 ### The Judging:
@@ -29,17 +29,17 @@ _Honorable mention:_ **Kronus91** with **“Dev Challenge Donation Program”**
 These projects were judged by a 5 person panel, composed of 4 members of Chia Network, and a representative from Clovyr. We judged the projects on the following criteria in no particular order or weight:
 
 
-- Use of Chialisp 
+- **Use of Chialisp**<br> 
   (breadth and depth of the Chialisp code used, etc)
-- Functionality 
+- **Functionality**<br> 
   (How complex is it, how much of it is functional and to what extent. While more functionality is ideal, full functionality is not a strict requirement.)
-- Creativity
+- **Creativity**<br>
   (Overall creative concept and design of the project.)
-- Usefulness
+- **Usefulness**<br>
   (How much practicality and general usability does it provide to users.)
-- Quality of the code itself
+- **Quality of the code**<br>
   (How well documented is the code, how well explained is its readme, and how well formatted and structured is the codebase itself.)
-- The “Spirit of the Challenge”
+- **The “Spirit of the Challenge”**<br>
   (How much did the submission follow in the overall concept and intention laid out by the above guidelines. Were any loopholes in the guidelines exploited or abused?)
 
 One thing we did not harshly judge on was completion. We knew going into this 24 hours was a short time window and the intent was to not make or break a submission on if it was 100% completed and functional. Instead we tried to balance the completion level of what we saw against the body of work completed in that time, the documentation efforts, and the design complexity.
