@@ -6,7 +6,7 @@ date: 2022-03-04
 author: "[Dan Perry](https://github.com/danieljperry)"
 ---
 
-Chia version 1.3 (coming Soon®) will have [many new features](https://www.chia.net/2022/02/10/1.3-beta-release.en.html "New features in 1.3") and some significant upgrades. One change we’ve talked about a bit less is the upcoming soft fork to disallow negative division. This post will cover what you need to know about this change.
+Chia version 1.3 (coming Soon™) will have [many new features](https://www.chia.net/2022/02/10/1.3-beta-release.en.html "New features in 1.3") and some significant upgrades. One change we’ve talked about a bit less is the upcoming soft fork to disallow negative division. This post will cover what you need to know about this change.
 
 ## Hard fork vs soft fork
 
