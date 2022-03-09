@@ -19,7 +19,7 @@ Blockchains have two basic methods of changing their consensus: hard fork and so
 | Hard fork  | Not allowed                  | Allowed                     | No                  | Yes                      | Yes                   |
 
 
-Chia Network Inc has a policy of never creating a hard fork unless absolutely necessary. However, on rare occasions, we will narrow the scope of what is allowed on the blockchain by creating a soft fork.
+Chia Network Inc. has a policy of never creating a hard fork unless absolutely necessary. However, on rare occasions, we will narrow the scope of what is allowed on the blockchain by creating a soft fork.
 
 ## The issue
 
