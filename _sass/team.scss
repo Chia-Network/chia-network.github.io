@@ -1,0 +1,79 @@
+/*--------------------------------------------------------------
+# Team Members
+--------------------------------------------------------------*/
+
+.team-page-members {
+    @include grid-width(1074);
+    @include center-block;
+    display: grid;
+    gap: rem(24) rem(24);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    @include breakpoint(768) {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+/*--------------------------------------------------------------
+# Team Member
+--------------------------------------------------------------*/
+
+.team-member {
+    img {
+        border-radius: rem(8);
+        margin-bottom: rem(8);
+    }
+    span {
+        display: block;
+    }
+    .team-name {
+        @include typeset($body-font-size, 24);
+        font-weight: 700;
+        margin-bottom: rem(4);
+    }
+    .team-title {
+        @include typeset($small-font-size, 21);
+        color: rgba($text-color, 0.5);
+    }
+}
+
+/*--------------------------------------------------------------
+# Team Stat Item
+--------------------------------------------------------------*/
+
+.team-stat-items {
+    margin-bottom: rem(55);
+    @include grid-width(1074);
+    @include center-block;
+    display: grid;
+    gap: rem(24) rem(24);
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    @include breakpoint(768) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Team Stat Item Content
+--------------------------------------------------------------*/
+
+.team-stat-item{
+    border-radius: rem(8);
+    margin-bottom: rem(2);
+    padding: rem(20);
+    .team-stat-content{
+        @include typeset($header-1-size, 24);
+        font-weight: 700;
+        margin-bottom: rem(4);
+        margin-left: rem(8);
+    }
+    .team-stat-title {
+        @include typeset($body-font-size, 24);
+        font-weight: 500;
+        margin-bottom: rem(4);
+        margin-top: rem(2);
+        margin-left: rem(8);
+    }
+}
