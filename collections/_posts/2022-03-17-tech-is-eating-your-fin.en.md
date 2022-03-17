@@ -49,5 +49,5 @@ But then you're back to trusting third parties and counterparties again - you're
 Those who shape the future of finance need to know the difference.
 
 <hr>
-<sup style="color: #3aac59;">1</sup> I challenged Bram and my Twitter followers to come up with examples of the best technology not winning over the last 40 years. I chose 40 as I think that the PC revolution and internet dropped some plateaus out of the equation. The only serious contenders are nuclear power generation and the success of x86 Intel architectures. One the former, my hope is that that is finally changing. On the latter I’d say that the jury remains out as ARM continues to expand its footprint.
+<sup style="color: #3aac59;">1</sup> I challenged Bram and my Twitter followers to come up with examples of the best technology not winning over the last 40 years. I chose 40 as I think that the PC revolution and internet dropped some plateaus out of the equation. The only serious contenders are nuclear power generation and the success of x86 Intel architectures. On the former, my hope is that that is finally changing. On the latter I’d say that the jury remains out as ARM continues to expand its footprint.
 
