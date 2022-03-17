@@ -42,7 +42,7 @@ Having started my career in cryptography 26 years ago, I've seen a whole lot of 
 
 The point is to have a secure, public, and decentralized database that will solve real-world problems. Markets should trade 24x7, with greater market depth, lower spreads, and much broader access. Everyone with a smartphone and internet should be able to participate.
 
-If you don't want a decentralized, secure database, you don't really want a blockchain. You want a website with a database this is much more scalable and faster than any secure distributed database in our current understanding of state of the art.
+If you don't want a decentralized, secure database, you don't really want a blockchain. You want a website with a database, this is much more scalable and faster than any secure distributed database in our current understanding of state of the art.
 
 But then you're back to trusting third parties and counterparties again - you're back to the centralized version of Wall Street/London/Hong Kong we have today; in this system, you're not sold the snake oil that the system is trustless like you are in the fast public supposed blockchains.
 
