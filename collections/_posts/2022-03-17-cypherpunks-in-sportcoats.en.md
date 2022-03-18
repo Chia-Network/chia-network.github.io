@@ -10,13 +10,13 @@ Those applying traditional financial industry modes of interpretation around mar
 
 Marc Andressen famously coined the phrase, "software is eating the world." Now software has turned its attention to the rails of the global financial infrastructure. The reasons are obvious, but there hasn't been software to address those reasons. Markets should trade 24x7, with greater market depth, lower spreads, and much broader access. Everyone with a smartphone and internet should be able to participate in any market from anywhere.
 
-Much focus has been almost exclusively on the money use case of cryptocurrencies and blockchains, to the detriment of ignoring how much larger the money-adjacent use case opportunities are. This does not mean that money is not critical to that market - it's just that much of the ongoing debate is too focused on what is probably, by flow of funds, only about a quarter of the market. 
+Much focus has been almost exclusively on the money use case of cryptocurrencies and blockchains, to the detriment of ignoring how much larger the money-adjacent use case opportunities are. This does not mean that money is not critical to that market - it's just that much of the ongoing debate is too focused on what is probably, by flow of funds, only about a quarter of the market.
 
-To date, cryptocurrency and blockchains have successfully innovated in storing value, payments with stablecoins, and cross-border remittances both with and without stablecoins - especially in non-OECD countries. 
+To date, cryptocurrency and blockchains have successfully innovated in storing value, payments with stablecoins, and cross-border remittances both with and without stablecoins - especially in non-OECD countries.
 
 The world of cryptocurrency and blockchains has been an odd mix of technologists and what I would argue are forward-looking finance folks.
 
-The finance world struggles to understand and value cryptocurrency and the underlying technologies to this day. They bring tools and pattern matching from finance as it existed before 2020. Financial analysts are struggling to find the core metrics traditionally measured - like profit, EBITDA, revenue, and their more exotic but useful relatives. 
+The finance world struggles to understand and value cryptocurrency and the underlying technologies to this day. They bring tools and pattern matching from finance as it existed before 2020. Financial analysts are struggling to find the core metrics traditionally measured - like profit, EBITDA, revenue, and their more exotic but useful relatives.
 
 So, when financial industry folks look at blockchains, they see speeds and feeds. What do you mean the existing deployed blockchains can only do 10-20 TPS? This new-fangled one does 50,000 TPS!
 
@@ -49,5 +49,4 @@ But then you're back to trusting third parties and counterparties again - you're
 Those who shape the future of finance need to know the difference.
 
 <hr>
-<sup style="color: #3aac59;">1</sup> I challenged Bram and my Twitter followers to come up with examples of the best technology not winning over the last 40 years. I chose 40 as I think that the PC revolution and internet dropped some plateaus out of the equation. The only serious contenders are nuclear power generation and the success of x86 Intel architectures. On the former, my hope is that that is [finally changing](https://web.archive.org/web/20220218114032/http://www.bisconti.com/articles/2021%20May%20US%20Public%20Opinion%20Report.pdf). On the latter I’d say that the jury remains out as ARM continues to expand its footprint.
-
+<sup style="color: #3aac59;">1</sup> I [challenged](https://twitter.com/hoffmang/status/1461368798720581641) Bram and my Twitter followers to come up with examples of the best technology not winning over the last 40 years. I chose 40 as I think that the PC revolution and internet dropped some plateaus out of the equation. The only serious contenders are nuclear power generation and the success of x86 Intel architectures. On the former, my hope is that that is [finally changing](https://web.archive.org/web/20220218114032/http://www.bisconti.com/articles/2021%20May%20US%20Public%20Opinion%20Report.pdf). On the latter I’d say that the jury remains out as ARM continues to expand its footprint.
