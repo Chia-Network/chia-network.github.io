@@ -6,7 +6,7 @@ date:   2022-03-19
 author: "[The Chia Team](/team)"
 ---
 
-*WIn celebration of Chia Mainnet's first year, we share some thoughts and a [nifty infographic](/2022/03/19/mainnet-year-one.en.html#infographic) below.‎ ‎* 
+*In celebration of Chia Mainnet's first year, we share some thoughts and a [nifty infographic](/2022/03/19/mainnet-year-one.en.html#infographic) below.‎ ‎* 
 
 <hr>
  
