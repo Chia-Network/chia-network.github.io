@@ -2,7 +2,7 @@
 title:  "Ukraine’s legalisation of crypto can protect assets: Analysts"
 weblink: "https://capital.com/ukraine-s-legalisation-of-crypto-can-protect-assets"
 date:   2022-03-17 21:00:00
-thumbnail: "/assets/capital-com.png"
+thumbnail: "/assets/capital-com.jpg"
 source: capital.com
 jumbotron: false
 ---
