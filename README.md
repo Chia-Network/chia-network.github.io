@@ -114,6 +114,12 @@ jumbotron: false                                                            # wh
 THIS MARKDOWN CONTENT IS SHOWN IN THE JUMBOTRON BOX, BESIDE THE THUMBNAIL, IF THE `jumbotron` SETTING IS `true` IN THE METADATA ABOVE. OTHERWISE, IT IS IGNORED.
 ```
 
+### News Article Thumbnail
+
+Desktop and mobile news article thumbnails have different proportions. In order for the thumbnail to appear properly in both contexts, do the following:
+
+Create a 1000 x 750 px image file with 100 px margins, place news source logo inside the 800 x 550 px area and save as jpg or png.
+
 To edit an existing News Article entry, edit the corresponding file at `collections/_news/<YYYY>-<MM>-<DD>-<IDENTIFIER>.md`.
 
 ### Blog Posts
