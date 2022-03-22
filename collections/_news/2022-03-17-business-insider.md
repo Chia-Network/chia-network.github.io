@@ -2,7 +2,7 @@
 title:  "The US must invest in digital assets to protect its interests, Chainalysis founder tells Congress. He joins a chorus of experts calling on policymakers to prioritize crypto."
 weblink: "https://markets.businessinsider.com/news/currencies/crypto-senate-hearing-ukraine-russia-opportunity-war-transparency-finance-chainalysis-2022-3"
 date:   2022-03-17 19:00:00
-thumbnail: "/assets/news-businessinsider.png"
+thumbnail: "/assets/businessinsider.jpg"
 source: markets.businessinsider.com
 jumbotron: false
 ---
