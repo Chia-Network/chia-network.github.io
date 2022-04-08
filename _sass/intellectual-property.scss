@@ -1,0 +1,30 @@
+
+.ip-assets {
+    @include grid-width(1074);
+    @include center-block;
+    display: grid;
+    gap: rem(24) rem(24);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    @include breakpoint(768) {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    padding: 50px;
+    border-radius: rem(8);
+    max-width: 95%;
+    margin: 25px;
+}
+
+
+.ip-assets-item {
+    img {
+        max-height:70%;
+        max-width:70%;
+        margin: auto;
+    }
+    span {
+        display: block;
+    }
+    margin: auto;
+    text-align: center;
+}
