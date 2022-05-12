@@ -26,6 +26,8 @@ layout: default
 
 <div class="white-bg content-padding download-options">
     <div class="col-8-container">
+        
+        <!-- Windows download -->
         <div class="download-option">
             <div class="download-option-details download-option-button">
                 <a href="https://download.chia.net/latest/Setup-Win64.exe" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_windows_button }} <img src="/img/ui-icons/download-white.svg" class="chia-icon ui-icon baseline-icon"></a>
@@ -40,21 +42,8 @@ layout: default
                 <span><code>{{ site.data.checksums.windows_checksum }}</code></span>
             </div>
         </div>
-
-        <div class="download-option">
-            <div class="download-option-details download-option-button">
-                <a href="https://download.chia.net/latest/Setup-MacOS.dmg" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_macosintel_button }} <img src="/img/ui-icons/download-white.svg" class="chia-icon ui-icon baseline-icon"></a>
-            </div>
-            <div class="download-option-details download-option-ver">
-                <h6>Version {{ site.data.checksums.current_version }} | 64 bit</h6>
-                <span class="chia-cta">Alternative Download: <a href="https://download.chia.net/latest/Setup-MacOS.dmg.torrent">Torrent <img src="/img/ui-icons/download.svg" class="chia-icon ui-icon baseline-icon"></a></span>
-            </div>
-            <div class="download-option-details download-option-check">
-                <h6>SHA256 checksum:</h6>
-                <span><code>{{ site.data.checksums.macos_intel_checksum }}</code></span>
-            </div>
-        </div>
-
+        
+        <!-- macOS M1 download -->
         <div class="download-option">
             <div class="download-option-details download-option-button">
                 <a href="https://download.chia.net/latest/Setup-MacOS-arm64.dmg" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_macosm1_button }} <img src="/img/ui-icons/download-white.svg" class="chia-icon ui-icon baseline-icon"></a>
@@ -68,7 +57,43 @@ layout: default
                 <span><code>{{ site.data.checksums.macos_arm_checksum }}</code></span>
             </div>
         </div>
+        
+        <!-- macOS Intel 10.14+ download -->
+        <div class="download-option">
+            <div class="download-option-details download-option-button">
+                <a href="https://download.chia.net/latest/Setup-MacOS.dmg" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_macosintel_button }} <img src="/img/ui-icons/download-white.svg" class="chia-icon ui-icon baseline-icon"></a>
+                <br  />
+                <p><em>macOS 10.14+</em></p>
+            </div>
+            <div class="download-option-details download-option-ver">
+                <h6>Version {{ site.data.checksums.current_version }} | 64 bit</h6>
+                <span class="chia-cta">Alternative Download: <a href="https://download.chia.net/latest/Setup-MacOS.dmg.torrent">Torrent <img src="/img/ui-icons/download.svg" class="chia-icon ui-icon baseline-icon"></a></span>
+            </div>
+            <div class="download-option-details download-option-check">
+                <h6>SHA256 checksum:</h6>
+                <span><code>{{ site.data.checksums.macos_intel_checksum }}</code></span>
+            </div>
+        </div>
+        
+        <!-- macOS Intel Legacy -->
+        <div class="download-option">
+            <div class="download-option-details download-option-button">
+                <a href="https://download.chia.net/latest/Setup-MacOS.dmg" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_macosintel_button }} <img src="/img/ui-icons/download-white.svg" class="chia-icon ui-icon baseline-icon"></a>
+                <br  />
+                <p><em>macOS 10.14 and earlier.</em></p>
+            </div>
+            <div class="download-option-details download-option-ver">
+                <h6>Version {{ site.data.checksums.current_version }} | 64 bit</h6>
+                <span class="chia-cta">Alternative Download: <a href="https://download.chia.net/latest/Setup-MacOS.dmg.torrent">Torrent <img src="/img/ui-icons/download.svg" class="chia-icon ui-icon baseline-icon"></a></span>
+                <p class="admonition-note">Note: This installer will not be created for future Chia versions.</p>
+            </div>
+            <div class="download-option-details download-option-check">
+                <h6>SHA256 checksum:</h6>
+                <span><code>{{ site.data.checksums.macos_intel_checksum }}</code></span>
+            </div>
+        </div>
 
+        <!-- Debian download -->
         <div class="download-option">
             <div class="download-option-details download-option-button">
                 <a href="https://download.chia.net/latest/x86_64-Ubuntu-gui" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_debian_button }} <img src="/img/ui-icons/download-white.svg" class="chia-icon ui-icon baseline-icon"></a>
@@ -83,6 +108,7 @@ layout: default
             </div>
         </div>
 
+        <!-- ARM Debian download -->
         <div class="download-option">
             <div class="download-option-details download-option-button">
                 <a href="https://download.chia.net/latest/ARM64-Ubuntu-gui" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_debianarm_button }} <img src="/img/ui-icons/download-white.svg" class="chia-icon ui-icon baseline-icon"></a>
@@ -97,6 +123,7 @@ layout: default
             </div>
         </div>
 
+        <!-- CentOS/Redhat download -->
         <div class="download-option">
             <div class="download-option-details download-option-button">
                 <a href="https://download.chia.net/latest/x86_64-Redhat-gui" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_centosfedora_button }} <img src="/img/ui-icons/download-white.svg" class="chia-icon ui-icon baseline-icon"></a>
