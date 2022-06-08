@@ -49,7 +49,7 @@ In our version of this model we used the following assumptions to value the XCH:
 - Due to network effects, there will be significant concentration in winning Layer 1 chains, each of 4 winning chains takes 25% of the blockchain market share
 - Approximately 20% of a chain’s fees will be on Layer 1, with the vast majority (80%) migrating to layer 2 solutions–however, transactions on Layer 1 will tend to be quite large in fiat terms
 - At 30 TPS, this implies approximately $10 per transaction for large size transactions, which is quite reasonable relative to many other payment systems and compares well with the market fees historically seen in Bitcoin and Ethereum
-- Transaction Block Velocity is approximately 2.5%, which is what was seen in Etherium over the last 12 months. This may prove to be high in a mature chain with many uses. 
+- Transaction Block Velocity is approximately 2.5%, which is what was seen in Ethereum over the last 12 months. This may prove to be high in a mature chain with many uses. 
 - We believe a relatively conservative required rate of return for an early-stage (but deployed and operating) block chain project is about 50% per annum to compensate investors for risk around future assumptions
 
 Per our emission schedule, there will be about 39.5mn Chia coins outstanding in 10 years. This implies an aggregate price of Chia in 10 years of about $380bn, or a per-coin price of about $9,700. Discounting this back at our assumed blockchain required rate of return for 10 years, which reflects both industry and Chia-specific risks, yields a value today of about $168 per coin. 
