@@ -1,0 +1,42 @@
+---
+lang: en
+layout: post
+title:  "Why I joined a blockchain as CMO during “crypto winter”"
+date:   2022-06-09
+author: "[Allison Van Houten](https://twitter.com/ayveeaych) - [Linkedin](https://www.linkedin.com/in/allisonvanhouten/)"
+---
+### ☀️ A “crypto summer” school thesis
+I started learning about blockchain, crypto and web3 in January, after a surge of 2021 media activity that shouted, “Hey, start paying attention to this.” After months figuring out [how to “speak crypto,”](https://mirror.xyz/ayveeaych.eth/ssdfUvVp0G0ZobSIH7likcQs9LofUxNNQXtEHDGOcdk) I realized that there are lots of low-quality projects that lack substance, resemble scams, or proliferate “bro culture”—none of which interest me.
+
+To stay sane and refine my focus, I attempted to answer two questions: (1) _“Should I consider working in this seemingly exciting, yet confusing, early space”?_ and (2) _If yes, can I find an organization that’s doing something world-changing and also aligns with my values?_
+
+For #1, I landed on “yes” since I believe blockchains are the new internet that will shape the future of digital trust, value and ownership, as they’re built and owned by the decentralized community instead of increasingly distrusted intermediaries (i.e. big tech, banks, music labels, and more.) I also realized that this technology empowers financial access, ownership, and governance to people who historically haven’t had them, especially in developing countries.
+
+I spent months answering #2 and ultimately landed on, _“Yes, and it’s Chia Network.”_ Now I’m here, jumping into the blockchain space as Chia’s first Chief Marketing Officer amidst global market uncertainty and a “crypto winter,” after a chapter at consumer tech and media companies like Epic! For Kids, Getround, Omada Health, Google, YouTube, and Martha Stewart. It’s because I truly believe that Chia will endure the winter and thrive when the seasons change.
+
+### ❄️ 5 reasons I’m excited to join Chia Network this winter:
+
+#### 1. Haven’t heard of Chia Network yet? Good—we’re focused on the tech.
+Chia has been focused on building the most secure, sustainable and compliant blockchain technology to help tackle the world’s most important problems. [Bram Cohen](https://twitter.com/bramcohen)—an internet pioneer who invented BitTorrent—founded Chia to be a better blockchain that’s more secure, sustainable, and compliant to help bring back trust to the global crypto community. There are no shortcuts on this journey, so we’re taking a long-term approach to marketing and visibility —the opposite of blockchain organizations that continue to aggressively market questionable technology. 
+
+#### 2. Chia’s differentiator will be trust: it’s actually more secure, sustainable and compliant.
+Chia innovated on blockchain to set a new standard for the future of global, decentralized finance that powers international markets. To earn trust, Chia’s product and go-to-market approach have four differentiators:
+- 💡 Innovation: Bram invented a new technology to validate and secure the blockchain network called [Proof of Space & Time (PoST)](https://www.chia.net/technology/), designed as a better alternative to the high-energy consumption of Proof of Work, and the security and centralization challenges of Proof of Stake.
+- 🌱 Sustainability: The Proof of Space and Time (PoST) technology that people use to “farm” Chia coins (XCH) uses on average [1/827th the energy](https://www.chia.net/2022/03/19/mainnet-year-one.en.html) of Proof of Work technology. This is because PoST validates transactions with unused hard drive space, instead of energy-intensive computer processing cycles. Because of this lower energy footprint, Chia is one of the most accessible blockchains that can operate in countries with limited power.  It’s finally a blockchain a global audience can use, and feel good about using.
+- 🔒 Security:  We’re the largest decentralized blockchain using the most secure cryptographic [consensus mechanism](https://www.chia.net/assets/Chia-New-Consensus-0.9.pdf) (Nakamoto), with 160,000 nodes around the world operating our network. Plus, Chia’s new smart programming language—Chialisp—is secure, easy to audit, and will unlock the transparency and ease-of-use that cryptocurrencies promise. It’s a bit more difficult to code on Chialisp than other protocols right now, yet this initial complexity is necessary to be the foundation of high-stakes, global markets. 
+- 🤝 Compliance: Chia works collaboratively with large global institutions, countries, financial regulators, and the [blockchain community](https://www.businesswire.com/news/home/20220518005432/en/Chia-Network-Joins-the-Blockchain-Association-to-Amplify-Policy-Efforts) to help drive understanding and adoption of important real-world use cases for our technology. We’ve announced our intention of a public offering, which means we’re fully transparent and compliant with regulatory requirements prior to any security offering. This is a strategy counter to the unregulated “pump & dump” initial coin offerings that have contributed to volatile prices and trading.
+
+#### 3. Chia’s real-world use cases are the opposite of scams.
+- 🌎  The World Bank: The World Bank selected Chia Network to provide a first-of-its-kind public blockchain solution as a prototype for their [Climate Warehouse](https://www.theclimatewarehouse.org/), making global carbon markets more transparent and traceable. This partnership uses the strengths of blockchain to address climate change and decarbonization at the intergovernmental level, demonstrating meaningful institutional trust and adoption.
+- 🇨🇷 Costa Rica:  We’re also improving country climate registries, [partnering with the government of Costa Rica](https://www.businesswire.com/news/home/20211111005809/en/Costa-Rica-and-Chia-Announce-Partnership-to-Support-Climate-and-Government-Initiatives) to develop open-source software freely shared with other nations to help manage carbon inventory. 
+- 💰 Chia Offers: [Offers](https://www.chia.net/2022/01/12/chia-offers-are-here.en.html) meet critical security and compliance needs that make peer-to-peer transactions safer and easier.  Buyers and sellers who don’t know each other can create and accept trade offers from the privacy of their Chia wallet without counterparty risk, intermediaries, borders, or trading fees.
+- 💾  Circular Drive Initiative: Chia partnered with William McDonough, Seagate, and Western Digital to launch the [Circular Drive Initiative](https://circulardrives.org/) to reduce e-waste and enable secure second-use for hard drives.
+- 🎨 Serious art, and more: We’re making it easier for serious creators to receive fair compensation for their work, as Chia embarks upon building [better NFT technology](https://www.chia.net/2022/05/11/our-vision-for-chia-nfts.en.html). In the future, there are many other important use cases that the most sustainable and secure blockchain can power as assets trade across borders 24/7. 
+
+#### 4. There’s an exceptional team and a real revenue model.
+Beyond Bram’s brilliance, our team includes a roster of experienced [leaders and experts](https://www.chia.net/about/) from global enterprise, security, energy, and technology companies. This includes [Gene Hoffman](https://www.chia.net/profiles/gene-hoffman/)—Chia’s Director, COO & President—who has built and sold three companies, been on 10 boards, helped invent music distribution on the internet, and knows an epic amount about blockchain regulation, technology and business. Speaking of business, we’re also on a path toward a [sustainable business model](https://www.chia.net/assets/Chia-Business-Whitepaper-2021-02-09-v1.0.pdf) of establishing a global open source software support business, following in the footsteps of open source pioneers RedHat and MySQL AB.
+
+#### 5. Chia’s story is one that I can’t wait to tell.
+Once you get to know Chia, it’s easy to see why this blockchain is poised to do incredible things. Over the next few years, we’ll translate the brilliance behind the technology to help more people understand Chia’s elegance and impact, by refining our go-to-market approach, telling real-world stories, and building our brand. I’m proud to be here at this time in our journey, and look forward to partnering with the team on what’s next. 
+
+#### See you in summer. 🌱
