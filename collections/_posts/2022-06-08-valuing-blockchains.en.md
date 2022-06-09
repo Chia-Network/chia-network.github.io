@@ -58,4 +58,4 @@ As Niels Bohr (and not Yogi Berra) said, “prediction is difficult, especially 
 
 [^1]:  Note in this case, transaction fee velocity only means the speed at which coins are paid to block validators as transaction fees, defined as total transaction fees paid in coins per time period / average coins outstanding during that time period. Trading among holders is not relevant to the analysis. 
 
-[^2]: [2021 McKinsey Global Payments Report](https://www.mckinsey.com/~/media/mckinsey/industries/financial%20services/our%20insights/the%202021%20mckinsey%20global%20payments%20report/2021-mckinsey-global-payments-report.pdf)
+[^2]: Derived by removing interest revenue from the $2tn in payments fees annually, per the [McKinsey 2021 Payments Report](https://www.mckinsey.com/~/media/mckinsey/industries/financial%20services/our%20insights/the%202021%20mckinsey%20global%20payments%20report/2021-mckinsey-global-payments-report.pdf)
