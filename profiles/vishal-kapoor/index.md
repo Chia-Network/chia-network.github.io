@@ -4,7 +4,7 @@ lang: en
 title: Vishal Kapoor - Chia Network
 pic_url: "/img/headshots/vishal-kapoor_@2x.jpg"
 person-name: Vishal Kapoor
-position: Chief Strategy Officer
+position: Chief Strategy & Business Development Officer
 twitter_username: blank
 linkedin_username: vskapoor
 ---
