@@ -304,7 +304,7 @@ fr: # French
     footer:
       heading: "Gagnez 100 000 $ en prix total"
       sign_up: "S'inscrire"
-cn: # Chinese
+zh: # Chinese
   faq_title: "常问问题"
   news_title: "新闻"
   news_see_more: "查看更多"
@@ -510,7 +510,7 @@ jp: # Japanese
     Bram Cohen [発表](https://www.youtube.com/watch?v=2Zlcgt8FVz4)、2018年2月のスタンフォードでの宇宙の証拠。私たちのアドバイザーであるDan Boneh、BenediktBünz、およびBen Fisch [VDFの調査を公開](https://eprint.iacr.org/2018/712.pdf)は、Proof of Timeの基盤技術です。 Lipa Long [クラスグループの説明を公開](https://github.com/Chia-Network/vdf-competition/blob/master/classgroups.pdf)は、[時間の証明](https://eprint.iacr.org/2018/627.pdf)に基づいています。 Bramは、[学術論文に基づいて2018年1月にBPASE '18で[Hellmanの時間とメモリのトレードオフと宇宙の証明への応用](https://www.youtube.com/watch?v=iqxkO7C-cyk)を発表しました。 ](https://eprint.iacr.org/2017/893)およびHamza Abusalahによるこれらの[スライド](https://view.publitas.com/chia-network/pbase18slides/page/1)。 Ben Fischは、2018年1月のBPASE 2018で検証可能な遅延関数について[トーク](https://www.youtube.com/watch?v=qUoagL7OZ1k)を行いました。 Bram [BerkeleyのBlockchainで話しました](https://www.facebook.com/BlockchainatBerkeley/videos/2006069823011271/)(約20:00から）2018年3月に[slides](https://cyber.stanford.edu/sites/g/files/sbiybj9936/f/bramcohen.pdf)。 Bramは、Proofs of Space and Time([slides](https：//cyber.stanford)で無駄を取り除くことについて、2017年1月に[BPASE 2017で講演](https://www.youtube.com/watch?v=aYG0NxoG7yw)を行いました。 .edu / sites / g / files / sbiybj9936 / f / bramcohen.pdf)）。
 
     Bramは、SF Bitcoin Devsセミナーで、[スライド](https://view.publitas.com/chiaでビットコインをスケーリングするためのデータ構造について[トーク](https://www.youtube.com/watch?v=zZaB4hM8SQ4)を行いました-network / bitcoin_data_structures /)および[Merkle Set code](https://github.com/bramcohen/MerkleSet)。 Bramは、SF Bitcoin Devsセミナーで、暗号通貨から無駄を取り除くことについて[トーク](https://www.youtube.com/watch?v=zZaB4hM8SQ4)を行いました。
-  footer_copyright_year: "©Chia Network 2022"
+  footer_copyright_year: "© Chia Network 2022"
   navigation:
     download: "ダウンロード"
     about: "約"
