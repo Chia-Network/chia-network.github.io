@@ -6,6 +6,65 @@ date: 2022-07-25
 author: "[Chia Team](https://www.chia.net/team/)"
 ---
 
+*Updated July 26, 2022 | 17:00 UTC*
+
+## Reissuance is Underway.
+
+
+Following the end of life (EOL) of CAT1 at block height 2,311,760 (at approximately July 26, 2022 at 10:00am PDT), we're providing an update on the reissuance process and information on next steps for asset holders and asset issuers.  
+
+### Asset Holders
+
+If you have any CATs in your wallet, you will want to upgrade to 1.5.0 as soon as conveniently possible. You can now download [version 1.5.0 here](https://www.chia.net/download/). CAT1 assets are no longer supported in the wallet as of today's 1.5.0 release.
+
+#### How to see your old CAT1 balances 
+
+We encourage you to visit the [CAT1 website](https://cat1.chia.net), also linked from inside the 1.5.0 wallet. Using this tool, you may view the CAT1 balance of your wallet as of the EOL block height. If CAT issuers choose to reissue with CAT2 using the developer tools Chia provides, you'll soon start to see these CAT1 balances match the CAT2 assets in your 1.5.0 wallet.
+
+This site will not dynamically update -- it only displays a snapshot of CAT1 balances as of the EOL. We expect the reissuance process could take up to a week to be fully completed. During this process, the CAT2 balance in your wallet may differ from the CAT1 website balance until reissuance is complete.
+
+As an asset holder, there should be no further action on your part beyond upgrading to the 1.5.0 wallet. To ensure that the reissuance balance you are expecting is what will be airdropped to you, please do not transact with any CATs after the end-of-life block height 2,311,760 has been reached and until you have upgraded to version 1.5.0.
+
+### Reissuers
+
+We have provided documentation on the reissuance tool [here](https://docs.chia.net/docs/cat2/cat2-intro). We have 24/7 support in our [#cat2_support Keybase channel](http://keybase.io/team/chia_network.public#cat2_support) to support the developer ecosystem throughout the process.
+
+## Now that we've patched it, what actually happened?
+
+### The Risk
+
+In May, we kicked off the engagement with security auditor [Trail of Bits](https://www.trailofbits.com/) to audit the security of the CAT1 standard coin. They expressed concern about a potential class of vulnerabilities that led us to uncover a security vulnerability with CAT1. Our team has confirmed this issue has never been exploited. The vulnerability offered a bad actor to take a CAT1 in their possession and print/inflate any arbitrary amount of coins, effectively flooding and devaluing the underlying asset. In non-technical terms, the vulnerability enables anyone to create a money printing machine to print as many counterfeit copies of the CAT as they want.
+
+### Our Response: White Hat Solution
+
+Within 24 hours of confirming the vulnerability, we built a tool to monitor the blockchain and alert us of any exploits. We also created a patched CAT2 upgrade in a private repository, but given the risk only applied to the CAT1 standard, not XCH, an immediate emergency fix could have caused pain for developers and users. We also found a related issue with our in-development NFT1 standard, and while harder to find and even harder to leverage, we took the time to harden the NFT1 standard against this prior to release. With monitoring in place, we chose to build out a full remediation kit to reduce friction for developers and exposure of end users to risk.
+
+This approach allowed us to create tools that enable CAT developers to easily and securely re-issue their assets as CAT2 and gave us time to train our ecosystem teams to support reissuance efforts. 
+
+### CAT1 Printer Go Brrrrr
+
+We engaged in a white hat effort to materially reduce risk to the community. What was the risk? Here's an example: Post-EOL, Alice has offers she created that she forgot to cancel, in which she is offering either XCH or an NFT in exchange for some CAT1 tokens. Bob, a bad actor, runs the exploit to print enough CATs to take the other side of those offers, and accepts her offers.
+
+The result? Bob now has Alice's XCH or NFT from her offer, and Alice is left with a CAT1 that won't be upgraded to CAT2 because it's after the EOL cutoff.
+
+As our first step, we proactively contacted the main DEXs to ask them to take CAT1 offers offline and block new ones from being created – reducing the risk that Alice is cheated by Bob. This was completed during the day Monday, 6/25.
+
+Further, we scraped outstanding CAT offers in the Chia ecosystem and ran these offers through a tool we built leveraging this exact vulnerability and exploit. Our tool ran the exploit to generate enough CAT value and accepted the offers we scraped, but instead of receiving the XCH or NFTs ourselves, we returned the XCH or NFT to the offer maker, all in the same block. Chia never custodied this XCH or NFT in the process. Once we accepted the offers, no one else could accept them. We believe our white hat efforts eliminated most of the risk to the ecosystem.
+
+Lastly, we issued tools, produced developer tutorial [videos](https://www.youtube.com/watch?v=nofc5RMbzq4), and drafted full documentation to support CAT developers with reissuance. The first piece is a snapshot at the EOL of all the CAT coins, their values and owner's addresses. Developers are free to generate their own snapshot, as it's simply a CSV file output of any Chia blockchain node's database. We also built an airdrop tool that uses a technique called [Secure the Bag](https://bitcoinmagazine.com/technical/secure-the-bag-cutting-transactions-in-half-to-resolve-bitcoin-network-congestion), invented by [Jeremy Rubin](https://twitter.com/JeremyRubin), to simplify and speed up the airdrop process substantially.
+
+### What Now?  
+
+CAT1 coins will continue to exist, but our wallet will no longer acknowledge them. The system on which these coins are traded is now safe, wallets are secure, and no one has access to, nor can steal, your old or new coins. Moving forward, if a bad actor is able to find the vulnerability, they can print as many CAT1 coins as they have a copy of and would like, but their actions will have no effect on the network or your assets since any created CAT1 coins will be ignored.
+
+We'll provide an in-depth case study on the vulnerability, the changes we made, the process updates on our side, and how we're maintaining the future of the network Soon™.
+
+Thank you for being a part of our community. If you need any help with the CAT2 reissuance process, read the FAQ below or visit our [Keybase CAT2 support channel](https://keybase.io/team/chia_network.public#cat2_support).
+
+<hr  />
+
+_Original Blog Content_
+
 As part of our ongoing commitment to maintaining a secure and safe environment, we regularly bring in third-party security auditors to test, analyze, and attempt to break Chia blockchain technology.
 
 In our most recent audit, [Trail of Bits](https://www.trailofbits.com) raised a potential class of vulnerabilities that led us to uncover a security vulnerability with CAT1, the standard we released earlier this year for asset tokens on Chia. Our team confirmed this issue has not been exploited as of this announcement, and we are continuing to monitor the chain. However, we have determined that the vulnerability is serious enough to warrant upgrading CAT1 to CAT2. This upgrade will patch the vulnerability, end-of-life CAT1, and support the reissuance of CAT1 coins as CAT2. We will publish the Trail of Bits report soon after CAT1 is EOL.
