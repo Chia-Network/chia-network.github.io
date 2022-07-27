@@ -5,7 +5,7 @@ title: Richard Tsao - Chia Network
 pic_url: "/img/headshots/richard-tsao_@2x.png"
 person-name: Richard Tsao
 position: VP of Business Development
-twitter_username: blank
+twitter_username: eFishCent
 linkedin_username: efishcent
 ---
 
