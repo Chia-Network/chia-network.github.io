@@ -6,6 +6,76 @@ date: 2022-07-25
 author: "[Chia Team](https://www.chia.net/team/)"
 ---
 
+*Updated July 27, 2022 at 17:00 UTC* ‎
+## Reissuance is Underway.
+
+Following the end of life (EOL) of CAT1 at block height 2,311,760 (at approximately July 26, 2022 at 9:00am PDT), we're providing an update on the reissuance process and information on next steps for asset holders and asset issuers.  
+
+### Asset Holders
+
+If you have any CATs in your wallet, you will want to upgrade to 1.5.0 as soon as conveniently possible. CAT1 assets are no longer supported in the wallet as of today's 1.5.0 release.
+
+<p style="text-align: center;"><a class="button primary-button" href="/download" target="_blank">Download Version 1.5.0</a></p>
+
+#### How to see your old CAT1 balances 
+
+We encourage you to visit the [CAT1 website](https://cat1.chia.net) that is also linked to from inside the 1.5.0 wallet. Using this tool, you may view the CAT1 balance of your wallet as of the EOL block height. If CAT issuers choose to reissue with CAT2 using the developer tools Chia provides, you'll soon start to see these CAT1 balances match the CAT2 assets in your 1.5.0 wallet.
+
+This site will not dynamically update -- it only displays a snapshot of CAT1 balances as of the EOL. We expect the reissuance process could take up to a week to be fully completed. During this process, the CAT2 balance in your wallet may differ from the CAT1 website balance until reissuance is complete.
+
+As an asset holder, there should be no further action on your part beyond upgrading to the 1.5.0 wallet. To ensure that the reissuance balance you are expecting is what will be airdropped to you, please do not transact with any CATs after the end-of-life block height 2,311,760 has been reached and until you have upgraded to version 1.5.0.
+
+### Reissuers
+
+We have provided documentation on the reissuance tool [here](https://docs.chia.net/docs/cat2/cat2-intro). We have 24/7 support in our [#cat2_support Keybase channel](http://keybase.io/team/chia_network.public#cat2_support) to support the developer ecosystem throughout the process.
+
+## Now that we've patched it, what actually happened?
+
+### The Risk
+
+In May, we kicked off the engagement with security auditor [Trail of Bits](https://www.trailofbits.com/) to audit the security of the CAT1 standard coin. They expressed concern about a potential class of vulnerabilities that led us to uncover a security vulnerability with CAT1. Our team has confirmed this issue has never been exploited. The vulnerability offered a bad actor to take a CAT1 in their possession and print/inflate any arbitrary amount of coins, effectively flooding and devaluing the underlying asset. In non-technical terms, the vulnerability enables anyone to create a money printing machine to print as many counterfeit copies of the CAT as they want.
+
+### Our Response: White Hat Solution
+
+Within 24 hours of confirming the vulnerability, we built a tool to monitor the blockchain and alert us of any exploits. We also created a patched CAT2 upgrade in a private repository, but given the risk only applied to the CAT1 standard, not XCH, an immediate emergency fix could have caused pain for developers and users. We also found a related issue with our in-development NFT1 standard, and while harder to find and even harder to leverage, we took the time to harden the NFT1 standard against this prior to release. With monitoring in place, we chose to build out a full remediation kit to reduce friction for developers and exposure of end users to risk.
+
+This approach allowed us to create tools that enable CAT developers to easily and securely re-issue their assets as CAT2 and gave us time to train our ecosystem teams to support reissuance efforts. 
+
+### CAT1 Printer Go Brrrrr
+
+We engaged in a white hat effort to materially reduce risk to the community. What was the risk? Here's an example: Post-EOL, Alice has offers she created that she forgot to cancel, in which she is offering either XCH or an NFT in exchange for some CAT1 tokens. Bob, a bad actor, runs the exploit to print enough CATs to take the other side of those offers, and accepts her offers.
+
+The result? Bob now has Alice's XCH or NFT from her offer, and Alice is left with a CAT1 that won't be upgraded to CAT2 because it's after the EOL cutoff.
+
+As our first step, we proactively contacted the main DEXs to ask them to take CAT1 offers offline and block new ones from being created – reducing the risk that Alice is cheated by Bob. This was completed during the day Monday, June 25, 2022.
+
+Furthermore, we scraped outstanding CAT offers in the Chia ecosystem and ran these offers through a tool we built leveraging *this exact vulnerability and exploit*. Our tool ran the exploit to generate enough CAT value and accepted the offers we scraped, but instead of receiving the XCH or NFTs ourselves, we returned the XCH or NFT to the offer maker, all in the same block. Chia never custodied this XCH or NFT in the process. Once we accepted the offers, no one else could accept them. We believe our white hat efforts eliminated most of the risk to the ecosystem.
+
+Lastly, we issued tools, produced developer tutorial [videos](https://www.youtube.com/watch?v=nofc5RMbzq4), and drafted full documentation to support CAT developers with reissuance. The first piece is a snapshot at the EOL of all the CAT coins, their values and owner's addresses. Developers are free to generate their own snapshot, as it's simply a CSV file output of any Chia blockchain node's database. We also built an airdrop tool that uses a technique called [Secure the Bag](https://bitcoinmagazine.com/technical/secure-the-bag-cutting-transactions-in-half-to-resolve-bitcoin-network-congestion), invented by [Jeremy Rubin](https://twitter.com/JeremyRubin), to simplify and speed up the airdrop process substantially.
+
+### Timeline of This Issue
+
+-   **2022-06-14** - Trail of Bits alerted us to look at some particular code and dive deeper
+-   **2022-06-15** - We confirmed an issue on our side
+-   **2022-06-18** - We completed the technical fixes on the CAT2 standard
+-   **2022-06-20** - We completed verification that our fixes were solid
+-   **2022-06-29** - We shipped the NFT1 standard, with an included silent fix related to this issue
+-   **2022-07-25** - From 2022-06-20 to 2022-07-25 we completed the various development work needed to conduct the mitigation steps undertaken on the 25th and 26th, as well as the reissuance tools and supporting documentation
+-   **2022-07-25** - The announcement was made and the various steps outlined in the above post took place
+
+
+### What Now?  
+
+CAT1 coins will continue to exist, but our wallet will no longer acknowledge them. The system on which these coins are traded is now safe, wallets are secure, and no one has access to, nor can steal, your old or new coins. Moving forward, if a bad actor is able to find the vulnerability, they can print as many CAT1 coins as they have a copy of and would like, but their actions will have no effect on the network or your assets since any created CAT1 coins will be ignored.
+
+We'll provide an in-depth case study on the vulnerability, the changes we made, the process updates on our side, and how we're maintaining the future of the network Soon™.
+
+Thank you for being a part of our community. If you need any help with the CAT2 reissuance process, read the FAQ below or visit our [Keybase CAT2 support channel](https://keybase.io/team/chia_network.public#cat2_support).
+
+<br />
+<hr />
+<br />
+
 As part of our ongoing commitment to maintaining a secure and safe environment, we regularly bring in third-party security auditors to test, analyze, and attempt to break Chia blockchain technology.
 
 In our most recent audit, [Trail of Bits](https://www.trailofbits.com) raised a potential class of vulnerabilities that led us to uncover a security vulnerability with CAT1, the standard we released earlier this year for asset tokens on Chia. Our team confirmed this issue has not been exploited as of this announcement, and we are continuing to monitor the chain. However, we have determined that the vulnerability is serious enough to warrant upgrading CAT1 to CAT2. This upgrade will patch the vulnerability, end-of-life CAT1, and support the reissuance of CAT1 coins as CAT2. We will publish the Trail of Bits report soon after CAT1 is EOL.
@@ -58,15 +128,15 @@ A CAT is a Chia Asset Token. CATs are fungible tokens that are issued on the chi
 
 **Why is this change happening with Chia asset tokens?**
 
-The CAT standard was upgraded to CAT2 based on a security vulnerability found by an outside security audit. This resulted in an upgrade to the latest Chia wallet app as well as updates that will require all original issuers of CAT1 tokens to reissue their tokens on the CAT2 standard and end of life support for CAT1s. Chia is working with community members to make this process as seamless as possible.
+The CAT standard was upgraded to CAT2 based on a security vulnerability found by an outside security audit. This resulted in an upgrade to the latest Chia wallet app as well as updates that will require all original issuers of CAT1 tokens to reissue their tokens on the CAT2 standard and end-of-life support for CAT1s. Chia is working with community members to make this process as seamless as possible.
 
 **Does this change impact Chia Network's security?**
 
 No. There is no threat to the security of Chia Network technology or the Chia Blockchain. The update patched the vulnerability to CAT1. 
 
-**When does the end of life of CAT1 happen?**
+**When does the end-of-life of CAT1 happen?**
 
-CAT1 is end of life after block height 2,311,760 which is approximately around 17:00 UTC. This is when the snapshot is taken.
+CAT1 is end-of-life after block height 2,311,760 which is approximately around 17:00 UTC. This is when the snapshot is taken.
 
 **How can I check my CAT1 balance at the time of the snapshot?**
 
@@ -86,9 +156,9 @@ No. NFTs and XCH are not affected by the vulnerability, so no changes are requir
 
 **Is there any risk that I'll lose money or my balance will be incorrect during the transition? If so, what do I do?**
 
-If you have any CATs in your wallet, you will want to upgrade to 1.5 as soon as conveniently possible and be sure not to transact with any CATs after the end-of-life block height (2,311,760) has been reached and until you have upgraded to 1.5. This will help ensure that the balance you are expecting is what will be airdropped to you when the CATs are reissued. The [CAT1 website](https://cat1.chia.net) accurately reflects the CAT1 balance of your wallet as of the end of life announcement. It will not dynamically update, but we expect the reissuance process to take approximately a week to fully complete, so the CAT2 balance in your wallet may differ from the CAT1 website balance until the process is done.
+If you have any CATs in your wallet, you will want to upgrade to 1.5 as soon as conveniently possible and be sure not to transact with any CATs after the end-of-life block height (2,311,760) has been reached and until you have upgraded to 1.5. This will help ensure that the balance you are expecting is what will be airdropped to you when the CATs are reissued. The [CAT1 website](https://cat1.chia.net) accurately reflects the CAT1 balance of your wallet as of the end-of-life announcement. It will not dynamically update, but we expect the reissuance process to take approximately a week to fully complete, so the CAT2 balance in your wallet may differ from the CAT1 website balance until the process is done.
 
-**Between the announcement and the end of life block height, what should I be doing as a user?**
+**Between the announcement and the end-of-life block height, what should I be doing as a user?**
 
 It is recommended that you:
 
@@ -106,7 +176,7 @@ Most importantly, you will want to make sure there are no outstanding offers to 
 
 **I may have lost money by transacting, what should I do now?**
 
-Unfortunately, any CAT1 transactions that happen after the end of life block height won't be recoverable. For further confirmation, please contact our support team so they can help with checking when the transactions occurred and can help determine if the money is lost or not.
+Unfortunately, any CAT1 transactions that happen after the end-of-life block height won't be recoverable. For further confirmation, please contact our support team so they can help with checking when the transactions occurred and can help determine if the money is lost or not.
 
 **Do I need to cancel my XCH-for-NFT offers?**
 
@@ -116,7 +186,7 @@ No. Only CAT1 tokens are affected. No changes are being made to NFTs. However, i
 
 You can check your CAT1 balance as of the snapshot through our [website](https://cat1.chia.net) using your pub key.
 
-We are providing tools and support to the community developers to help ensure that they can reissue the new CATs in a timely manner. All CAT reissuers will be going by token balances at the same end of life blockheight.
+We are providing tools and support to the community developers to help ensure that they can reissue the new CATs in a timely manner. All CAT reissuers will be going by token balances at the same end-of-life block height.
 
 **What happens to my CAT1s?**
 
