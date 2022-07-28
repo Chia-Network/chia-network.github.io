@@ -37,6 +37,12 @@ In May, we kicked off the engagement with security auditor [Trail of Bits](https
 
 ### Our Response: White Hat Solution
 
+<p align="center"><img src="/assets/blog/bram-white-hat.png" alt="Bram Cohen in white hat" width="40%"></p>
+<p align="center" style="color:#808080;font-size:14px;margin-top:-35px;margin-bottom:25px;">
+Bram, the Man in the White Hat
+</p>
+
+
 Within 24 hours of confirming the vulnerability, we built a tool to monitor the blockchain and alert us of any exploits. We also created a patched CAT2 upgrade in a private repository, but given the risk only applied to the CAT1 standard, not XCH, an immediate emergency fix could have caused pain for developers and users. We also found a related issue with our in-development NFT1 standard, and while harder to find and even harder to leverage, we took the time to harden the NFT1 standard against this prior to release. With monitoring in place, we chose to build out a full remediation kit to reduce friction for developers and exposure of end users to risk.
 
 This approach allowed us to create tools that enable CAT developers to easily and securely re-issue their assets as CAT2 and gave us time to train our ecosystem teams to support reissuance efforts. 
