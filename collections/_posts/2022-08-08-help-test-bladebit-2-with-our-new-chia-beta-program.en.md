@@ -24,7 +24,7 @@ Some guiding questions we're asking ourselves:
 
 -   What would make the Farming/Developer/User experience more secure/efficient/sustainable?
 
-Blockchain technology is complex, and iterative design and development is necessary for our process. Members of the Chia team run their own farms and regularly engage in the community; we consider these table stakes for understanding your needs. We QA and dogfood our work internally, but we have the unique benefit of internal context, knowledge, and access. That can leave blind spots in our thinking about process, challenges, and developing a product.So to ensure we're keeping the community experience front of mind, we've created a dedicated external beta program that allows us more access to the large variance of user experiences.
+Blockchain technology is complex, and iterative design and development is necessary for our process. Members of the Chia team run their own farms and regularly engage in the community; we consider these table stakes for understanding your needs. We QA and dogfood our work internally, but we have the unique benefit of internal context, knowledge, and access. That can leave blind spots in our thinking about process, challenges, and developing a product. So to ensure we're keeping the community experience front of mind, we've created a dedicated external beta program that allows us more access to the large variance of user experiences.
 
 ## I'm interested. How do I get started?
 

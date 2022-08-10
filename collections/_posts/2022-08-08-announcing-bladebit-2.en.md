@@ -81,7 +81,7 @@ Bladebit disk does sequential read and writes with a measured write amplificatio
 
 The alpha2 release is available now for running on the command line. If you want to use the GUI, please [join the new beta program](/2022/08/08/help-test-bladebit-2-with-our-new-chia-beta-program.en.html)! Bladebit will be the first piece of software that goes through the Chia beta program, you can learn more about it here!
 
-<p style="text-align: center;"><a class="button primary-button" href="https://github.com/Chia-Network/bladebit/releases" target="_blank">Download the Alpha</a></p>
+<p style="text-align: center;"><a class="button primary-button" href="https://github.com/Chia-Network/bladebit/releases" target="_blank">Download Alpha 2</a></p>
 ---
 ## Footnotes
 
