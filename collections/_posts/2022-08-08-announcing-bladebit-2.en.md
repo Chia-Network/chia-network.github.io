@@ -3,7 +3,7 @@ lang: en
 layout: post
 title:  "Announcing Bladebit 2.0"
 date:   2022-08-08
-author: "[Jonmichael Hands](mailto:jm@chia.net), VP Storage and [Harold Brenes](mailto:h.brenes@chia.net), Developer of Bladebit, eater of garlic and broccoli"
+author: "[Jonmichael Hands](/profiles/jonmichael-hands/), VP Storage and [Harold Brenes](https://twitter.com/garlicbroccoli), Developer of Bladebit, eater of garlic and broccoli"
 ---
 
 Chia is releasing new plotting software called Bladebit Disk, utilizing the high-performance code from the in-memory plotter Bladebit, with a new architecture optimized for mainstream storage devices (solid state drives, and hard disk drives). Major new features include DRAM caching to reduce writes and improve performance and brand new architecture for disk io that improves SSD endurance and takes advantage of high bandwidth SSDs, like PCIe 4.0. The plotter has broad compatibility across device types and operating systems as well as low minimum requirements for embedded and entry-level systems.
