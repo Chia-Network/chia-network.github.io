@@ -44,7 +44,7 @@ The [Carbon Opportunities Fund](https://www.reuters.com/article/worldbank-carbon
 
 According to the [Wall Street Journal](https://www.wsj.com/articles/booming-carbon-credits-market-took-hit-as-stocks-sold-off-11658447086), in the first half of 2022 there were 98M tons of carbon offsets of all types sold in the existing voluntary markets. The price for nature-based credits averaged in the $15 to $18 range. We believe that price is low due to many of the factors outlined above. We are confident that demand far exceeds supply and this project can go a long way to stimulating additional investment in high-quality projects recurrently generating more offsets that add liquidity to this market.
 
-We believe that the power and security of our blockchain, and our partners, can finally create a trusted, global market that hyper-scales the voluntary carbon market and materially improves the environment.
+We believe that the power and security of our blockchain, and our partners, can finally create a trusted, global market that hyper-scales the voluntary carbon market and materially reduce the carbon in our atmosphere.
 
 ---
 <h3 id="ft-1"></h3>
