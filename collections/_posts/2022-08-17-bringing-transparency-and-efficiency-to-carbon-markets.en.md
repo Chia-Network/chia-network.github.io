@@ -24,7 +24,7 @@ The partnerships we've built, and the associated platform, are singularly focuse
 
 The platform brings unique transparency, integrity, and traceability to the voluntary carbon market by connecting together the sourcing, analysis, tracking in the registry, tokenization and sale of high quality nature-based carbon credits.
 
-The [Carbon Opportunities Fund](https://www.reuters.com/article/worldbank-carbon-fund/exclusive-world-banks-ifc-taps-blockchain-for-carbon-offsets-idUSL8N2ZN6E7) will be the first program to collaborate with the carbon registries directly authorizing and issuing Native carbon credits as tokens. These carbon tokens will be pooled to create a more liquid commodity that can be traded or converted back to a project-specific native token. Pooled carbon tokens set transparent price levels and enable a liquid marketplace to serve. The Carbon Opportunities Fund aims to pool or bundle Native Carbon Credit according to the four defined categories of carbon offset credits.
+The [Carbon Opportunities Fund](https://www.reuters.com/article/worldbank-carbon-fund/exclusive-world-banks-ifc-taps-blockchain-for-carbon-offsets-idUSL8N2ZN6E7) will be the first program to collaborate with the carbon registries directly authorizing and issuing Native carbon credits as tokens. These carbon tokens will be pooled to create a more liquid commodity that can be traded or retired. Pooled carbon tokens set transparent price levels and enable a liquid marketplace to serve. The Carbon Opportunities Fund aims to pool or bundle Native Carbon Credits according to four defined categories of carbon offset credits.
 
 ## How is what we're doing different?
 
@@ -46,7 +46,7 @@ The [Carbon Opportunities Fund](https://www.reuters.com/article/worldbank-carbon
 
 According to the [Wall Street Journal](https://www.wsj.com/articles/booming-carbon-credits-market-took-hit-as-stocks-sold-off-11658447086), in the first half of 2022 there were 98M tons of carbon offsets of all types sold in the existing voluntary markets. The price for nature-based credits averaged in the $15 to $18 range. We believe that price is low due to many of the factors outlined above. We are confident that demand far exceeds supply and this project can go a long way to stimulating additional investment in high-quality projects recurrently generating more offsets that add liquidity to this market.
 
-We believe that the power and security of our blockchain, and our partners, can finally create a trusted, global market that hyper-scales the voluntary carbon market and materially reduce the carbon in our atmosphere.
+We believe that the power and security of our blockchain, and our partners, can finally create a trusted, global market that hyper-scales the voluntary carbon market and materially reduces the carbon in our atmosphere.
 
 ---
 <h3 id="ft-1"></h3>
