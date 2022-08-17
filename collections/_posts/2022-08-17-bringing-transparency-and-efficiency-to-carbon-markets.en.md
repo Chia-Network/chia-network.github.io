@@ -6,7 +6,7 @@ date:   2022-08-17
 author: "[Gene Hoffman](/profiles/gene-hoffman/)"
 ---
 
-What if we could increase access and create real global inclusion in the carbon markets? What if we could establish clear standards and transparent pricing for a previously illiquid and obfuscated asset? What if we could establish "one" price of carbon?
+What if we could increase access and create real global inclusion in the carbon markets? What if we could establish clear standards and transparent pricing for a previously illiquid and obfuscated asset? What if we could establish "one"<a href="#ft-1">¹</a> price of carbon?
 
 We could increase funding for the high-quality, nature-based projects seeking to regenerate nature, while creating a more usable instrument in a market where we've seen entrants consistently falter. We believe we can through our recently launched, first-of-its-kind [Carbon Opportunities Fund](https://pressroom.ifc.org/all/pages/PressDetail.aspx?ID=27145).
 
@@ -44,4 +44,8 @@ The [Carbon Opportunities Fund](https://www.reuters.com/article/worldbank-carbon
 
 According to the [Wall Street Journal](https://www.wsj.com/articles/booming-carbon-credits-market-took-hit-as-stocks-sold-off-11658447086), in the first half of 2022 there were 98M tons of carbon offsets of all types sold in the existing voluntary markets. The price for nature-based credits averaged in the $15 to $18 range. We believe that price is low due to many of the factors outlined above. We are confident that demand far exceeds supply and this project can go a long way to stimulating additional investment in high-quality projects recurrently generating more offsets that add liquidity to this market.
 
-We believe that the power and security of our blockchain, and our partners, can finally create a trusted, global market that hyper-scales the voluntary carbon market and materially improves the environment.
+We believe that the power and security of our blockchain, and our partners, can finally create a trusted, global market that hyper-scales the voluntary carbon market and materially reduce the carbon in our atmosphere.
+
+---
+<h3 id="ft-1"></h3>
+¹Ultimately there will be a handful of types of high quality carbon CATs  just as there are grades of things like barrels of oil.
