@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: post
-title:  "Chia + Akash Network = Plotting as a Service"
+title:  "Chia x Akash Network = Plotting as a Service"
 date:   2022-09-09
 author: "[Jonmichael Hands](/profiles/jonmichael-hands/), VP Storage"
 ---
