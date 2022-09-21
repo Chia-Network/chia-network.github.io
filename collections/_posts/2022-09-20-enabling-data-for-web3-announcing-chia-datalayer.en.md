@@ -64,7 +64,7 @@ We believe this to be a foundational technology that will forever change how we 
 
 **Sovereignty and Equality of Peers**: All participants in a Chia DataLayer-based application are equal. No one entity can update another’s records, which creates a true, owner-sovereign way to store data. There is no central party hosting the data with the capability to censor or alter the data of other participants.
 
-Functional: Chia DataLayer enables off-chain data to be proven on-chain and made available to Chialisp code so that it can become an active part of transactions.
+**Functional**: Chia DataLayer enables off-chain data to be proven on-chain and made available to Chialisp code so that it can become an active part of transactions.
 
 <p align="center"><img src="/assets/blog/datalayer02.jpg" alt="Chia Blockchain datalayer graphic" width="300px"></p>
 
